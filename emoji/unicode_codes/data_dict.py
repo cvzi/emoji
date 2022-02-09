@@ -27,7 +27,7 @@
 """
 
 __all__ = [
-    'EMOJI_DATA', 'STATUS'
+    'EMOJI_DATA', 'STATUS', 'LANGUAGES'
 ]
 
 component = 1
@@ -41,6 +41,8 @@ STATUS = {
     "minimally_qualified" : minimally_qualified,
     "unqualified" : unqualified
 }
+
+LANGUAGES = ['en', 'es', 'pt', 'it', 'fr', 'de']
 
 EMOJI_DATA = {
     u'\U0001F947': {
