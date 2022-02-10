@@ -194,6 +194,15 @@ def get_emoji_from_github_api() -> dict:
 
     return output
 
+def ascii(s):
+    # return escaped Code points \U000AB123
+    return s.encode("unicode-escape").decode()
+
+def u_string(s):
+    # return "u'{s}'" if non-ascii else return "'{s}'"
+    if ascii(s) == s:
+        return f"'{s}'"
+    return f"u'{s}'"
 
 if __name__ == "__main__":
     # Find the latest version at https://www.unicode.org/reports/tr51/#emoji_data
@@ -231,15 +240,15 @@ if __name__ == "__main__":
         # add names in other languages
         for lang in languages:
             if emj in languages[lang]:
-                language_str += ",\n        '%s': u'%s'" % (
-                    lang, languages[lang][emj])
+                language_str += ",\n        '%s': %s" % (
+                    lang, u_string(languages[lang][emj]))
             elif 'variant' in v:
                 # the language annotation uses the normal emoji (no variant), while the emoji-test.txt uses the emoji or text variant
                 alternative = re.sub(r"\\U0000FE0[EF]$", "", code) # Strip the variant
                 emj_no_variant = escapedToUnicodeMap[alternative]
                 if emj_no_variant in languages[lang]:
-                    language_str += ",\n        '%s': u'%s'" % (
-                        lang, languages[lang][emj_no_variant])
+                    language_str += ",\n        '%s': %s" % (
+                        lang, u_string(languages[lang][emj_no_variant]))
 
         # Add existing alias from EMOJI_DATA
         aliases = set()
@@ -275,11 +284,11 @@ if __name__ == "__main__":
         # Print dict of dicts
         alias = ''
         if len(aliases) > 0:
-            alias_list_str = ", ".join(["u':%s:'" % (a, ) for a in aliases])
+            alias_list_str = ", ".join([u_string(':' + a + ':') for a in aliases])
             alias = ",\n        'alias' : [%s]" % (alias_list_str, )
         variant = ",\n        'variant': True" if 'variant' in v else ''
-        print(f"""    u'{code}': {{
-        'en' : u':{v["en"]}:',
+        print(f"""    u'{code}': {{ # {emj}
+        'en' : {u_string(':' + v['en'] + ':')},
         'status' : {v["status"]},
         'E' : {v["version"]:g}{alias}{variant}{language_str}
     }}""", end=",\n")
