@@ -20,8 +20,8 @@ from emoji.unicode_codes import *
 
 __all__ = [
     # emoji.core
-    'emojize', 'demojize', 'emoji_count', 'emoji_lis',
-    'distinct_emoji_lis', 'replace_emoji', 'version', 'is_emoji',
+    'emojize', 'demojize', 'emoji_count', 'emoji_list',
+    'distinct_emoji_list', 'replace_emoji', 'version', 'is_emoji',
     # emoji.unicode_codes
     'EMOJI_DATA', 'STATUS', 'LANGUAGES',
 ]

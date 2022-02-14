@@ -15,7 +15,7 @@ from emoji import unicode_codes
 
 __all__ = [
     'emojize', 'demojize',
-    'emoji_lis', 'distinct_emoji_lis', 'emoji_count',
+    'emoji_list', 'distinct_emoji_list', 'emoji_count',
     'replace_emoji', 'is_emoji', 'version',
 ]
 
@@ -235,9 +235,9 @@ def replace_emoji(string, replace='',  version=-1):
         return demojize(string, language='en', version=-1, handle_version=replace)
 
 
-def emoji_lis(string):
+def emoji_list(string):
     """Returns the location and emoji in list of dict format.
-        >>> emoji.emoji_lis("Hi, I am fine. 😁")
+        >>> emoji.emoji_list("Hi, I am fine. 😁")
         [{'match_start': 15, 'match_end': 16, 'emoji': '😁'}]
     """
     _entities = []
@@ -253,11 +253,11 @@ def emoji_lis(string):
     return _entities
 
 
-def distinct_emoji_lis(string):
+def distinct_emoji_list(string):
     """Returns distinct list of emojis from the string.
     """
     distinct_list = list(
-        {e['emoji'] for e in emoji_lis(string)}
+        {e['emoji'] for e in emoji_list(string)}
     )
     return distinct_list
 
@@ -268,8 +268,8 @@ def emoji_count(string, unique=False):
     :param unique: (optional) True if count only unique emojis
     """
     if unique:
-        return len(distinct_emoji_lis(string))
-    return len(emoji_lis(string))
+        return len(distinct_emoji_list(string))
+    return len(emoji_list(string))
 
 
 def is_emoji(string):

@@ -241,21 +241,21 @@ def test_demojize_delimiters():
             assert emoji.emojize(text_with_emoji, delimiters=d) == text_with_unicode
 
 
-def test_emoji_lis():
-    assert emoji.emoji_lis('Hi, I am 👌 test')[0]['match_start'] == 9
-    assert emoji.emoji_lis('Hi') == []
+def test_emoji_list():
+    assert emoji.emoji_list('Hi, I am 👌 test')[0]['match_start'] == 9
+    assert emoji.emoji_list('Hi') == []
     if len('Hello 🇫🇷👌') < 10:  # skip these tests on python with UCS-2 as the string length/positions are different
-        assert emoji.emoji_lis('Hi, I am fine. 😁') == [
+        assert emoji.emoji_list('Hi, I am fine. 😁') == [
             {'match_start': 15, 'match_end': 16, 'emoji': '😁'}]
-        assert emoji.emoji_lis('Hello 🇫🇷👌') == [
+        assert emoji.emoji_list('Hello 🇫🇷👌') == [
             {'emoji': '🇫🇷', 'match_start': 6, 'match_end': 8}, {'emoji': '👌', 'match_start': 8, 'match_end': 9}]
 
 
-def test_distinct_emoji_lis():
-    assert emoji.distinct_emoji_lis('Hi, I am fine. 😁') == ['😁']
-    assert emoji.distinct_emoji_lis('Hi') == []
-    assert set(emoji.distinct_emoji_lis('Hello 🇫🇷👌')) == {'🇫🇷', '👌'}
-    assert emoji.distinct_emoji_lis('Hi, I am fine. 😁😁😁😁') == ['😁']
+def test_distinct_emoji_list():
+    assert emoji.distinct_emoji_list('Hi, I am fine. 😁') == ['😁']
+    assert emoji.distinct_emoji_list('Hi') == []
+    assert set(emoji.distinct_emoji_list('Hello 🇫🇷👌')) == {'🇫🇷', '👌'}
+    assert emoji.distinct_emoji_list('Hi, I am fine. 😁😁😁😁') == ['😁']
 
 
 def test_emoji_count():
@@ -374,8 +374,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     assert emoji.emojize(text_with_placeholder) == text_with_unicode
     if not UCS2:
         assert emoji.replace_emoji(text_with_unicode, u'') == text
-    assert set(emoji.distinct_emoji_lis(text_with_unicode)) == set(emoji_list)
-    for i, lis in enumerate(emoji.emoji_lis(text_with_unicode)):
+    assert set(emoji.distinct_emoji_list(text_with_unicode)) == set(emoji_list)
+    for i, lis in enumerate(emoji.emoji_list(text_with_unicode)):
         assert lis['emoji'] == emoji_list[i]
 
     # qualified emoji from "es"
@@ -385,8 +385,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     assert emoji.emojize(text_with_placeholder, language="es") == text_with_unicode
     if not UCS2:
         assert emoji.replace_emoji(text_with_unicode, u'') == text
-    assert set(emoji.distinct_emoji_lis(text_with_unicode)) == set(emoji_list)
-    for i, lis in enumerate(emoji.emoji_lis(text_with_unicode)):
+    assert set(emoji.distinct_emoji_list(text_with_unicode)) == set(emoji_list)
+    for i, lis in enumerate(emoji.emoji_list(text_with_unicode)):
         assert lis['emoji'] == emoji_list[i]
 
     # qualified emoji from "alias"
@@ -396,8 +396,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     assert emoji.emojize(text_with_placeholder, language="alias") == text_with_unicode
     if not UCS2:
         assert emoji.replace_emoji(text_with_unicode, u'') == text
-    assert set(emoji.distinct_emoji_lis(text_with_unicode)) == set(emoji_list)
-    for i, lis in enumerate(emoji.emoji_lis(text_with_unicode)):
+    assert set(emoji.distinct_emoji_list(text_with_unicode)) == set(emoji_list)
+    for i, lis in enumerate(emoji.emoji_list(text_with_unicode)):
         assert lis['emoji'] == emoji_list[i]
 
     # all emoji
@@ -406,8 +406,8 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     assert clean(emoji.emojize(text_with_placeholder)) == clean(text_with_unicode)
     if not UCS2:
         assert emoji.replace_emoji(text_with_unicode, u'') == text
-    assert set(emoji.distinct_emoji_lis(text_with_unicode)) == set(emoji_list)
-    for i, lis in enumerate(emoji.emoji_lis(text_with_unicode)):
+    assert set(emoji.distinct_emoji_list(text_with_unicode)) == set(emoji_list)
+    for i, lis in enumerate(emoji.emoji_list(text_with_unicode)):
         assert lis['emoji'] == emoji_list[i]
 
 
