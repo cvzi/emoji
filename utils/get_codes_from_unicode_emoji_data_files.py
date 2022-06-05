@@ -12,11 +12,7 @@ import sys
 import os
 import re
 import requests
-import copy
-try:
-    import xml.etree.cElementTree as ET
-except ImportError:
-    import xml.etree.ElementTree as ET
+import xml.etree.ElementTree as ET
 
 include = os.path.relpath(os.path.join(os.path.dirname(__file__), ".."))
 sys.path.insert(0, include)
@@ -105,7 +101,6 @@ def extract_emojis(emojis_lines: list, sequences_lines: list) -> dict:
                     for code in normal_codes
                 ]
             )
-            n = 0
             if normal_code in output:
                 output[normal_code]["variant"] = True
 
@@ -274,7 +269,7 @@ if __name__ == "__main__":
 
         if any("flag" in a for a in aliases):
             # Only :flag_for_COUNTRY: alias for flags
-            aliases = set(a for a in aliases if "flag" in a)
+            aliases = {a for a in aliases if "flag" in a}
 
         # Store new aliases to print them at the end after the dict of dicts
         if emj in emoji_pkg.EMOJI_DATA and 'alias' in emoji_pkg.EMOJI_DATA[emj]:

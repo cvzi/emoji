@@ -137,7 +137,6 @@ def test_emojize_version():
 
     def f(emj, data):
         assert data['E'] == 5
-        return None
 
     assert emoji.emojize(':bowl_with_spoon:', version=-
                          1, handle_version=f) == ''
@@ -331,8 +330,6 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
     def add_random_emoji(text, lst, select=lambda emj_data: emj_data['en']):
 
-        text = text
-
         emoji_list = []
         text_with_unicode = u""
         text_with_placeholder = u""
@@ -366,7 +363,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         return s.replace(u'\u200d', '').replace(u'\ufe0f', '')
 
     all_emoji_list = list(emoji.EMOJI_DATA.items())
-    qualified_emoji_list = list((emj, item) for emj, item in emoji.EMOJI_DATA.items() if item['status'] == emoji.STATUS['fully_qualified'])
+    qualified_emoji_list = [(emj, item) for emj, item in emoji.EMOJI_DATA.items() if item['status'] == emoji.STATUS['fully_qualified']]
 
     # qualified emoji
     text_with_unicode, text_with_placeholder, emoji_list = add_random_emoji(text, qualified_emoji_list)

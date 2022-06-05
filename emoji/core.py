@@ -31,7 +31,8 @@ def emojize(
         version=None,
         handle_version=None
 ):
-    """Replace emoji names in a string with unicode codes.
+    """
+    Replace emoji names in a string with unicode codes.
         >>> import emoji
         >>> print(emoji.emojize("Python is fun :thumbsup:", language='alias'))
         Python is fun 👍
@@ -85,18 +86,17 @@ def emojize(
         if emj is None:
             return match.group(1)
 
-        if version is not None:
-            if unicode_codes.EMOJI_DATA[emj]['E'] > version:
-                if callable(handle_version):
-                    emj_data = unicode_codes.EMOJI_DATA[emj].copy()
-                    emj_data['match_start'] = match.start()
-                    emj_data['match_end'] = match.end()
-                    return handle_version(emj, emj_data)
+        if version is not None and unicode_codes.EMOJI_DATA[emj]['E'] > version:
+            if callable(handle_version):
+                emj_data = unicode_codes.EMOJI_DATA[emj].copy()
+                emj_data['match_start'] = match.start()
+                emj_data['match_end'] = match.end()
+                return handle_version(emj, emj_data)
 
-                elif handle_version is not None:
-                    return str(handle_version)
-                else:
-                    return ''
+            elif handle_version is not None:
+                return str(handle_version)
+            else:
+                return ''
 
         if variant is None or 'variant' not in unicode_codes.EMOJI_DATA[emj]:
             return emj
@@ -122,7 +122,8 @@ def demojize(
         version=None,
         handle_version=None
 ):
-    """Replace unicode emoji in a string with emoji shortcodes. Useful for storage.
+    """
+    Replace unicode emoji in a string with emoji shortcodes. Useful for storage.
         >>> import emoji
         >>> print(emoji.emojize("Python is fun :thumbs_up:"))
         Python is fun 👍
@@ -211,7 +212,8 @@ def demojize(
 
 
 def replace_emoji(string, replace='',  version=-1):
-    """Replace unicode emoji in a customizable string.
+    """
+    Replace unicode emoji in a customizable string.
 
     :param string: String contains unicode characters. MUST BE UNICODE.
     :param replace: (optional) replace can be either a string or a callable;
@@ -236,7 +238,8 @@ def replace_emoji(string, replace='',  version=-1):
 
 
 def emoji_list(string):
-    """Returns the location and emoji in list of dict format.
+    """
+    Returns the location and emoji in list of dict format.
         >>> emoji.emoji_list("Hi, I am fine. 😁")
         [{'match_start': 15, 'match_end': 16, 'emoji': '😁'}]
     """
@@ -254,8 +257,7 @@ def emoji_list(string):
 
 
 def distinct_emoji_list(string):
-    """Returns distinct list of emojis from the string.
-    """
+    """Returns distinct list of emojis from the string."""
     distinct_list = list(
         {e['emoji'] for e in emoji_list(string)}
     )
@@ -263,7 +265,8 @@ def distinct_emoji_list(string):
 
 
 def emoji_count(string, unique=False):
-    """Returns the count of emojis in a string.
+    """
+    Returns the count of emojis in a string.
 
     :param unique: (optional) True if count only unique emojis
     """
@@ -273,13 +276,14 @@ def emoji_count(string, unique=False):
 
 
 def is_emoji(string):
-    """Returns True if the string is an emoji"""
+    """Returns True if the string is an emoji."""
     return string in unicode_codes.EMOJI_DATA
 
 
 def version(string):
-    """Returns the Emoji Version of the emoji.
-      See http://www.unicode.org/reports/tr51/#Versioning for more information.
+    """
+    Returns the Emoji Version of the emoji.
+    See http://www.unicode.org/reports/tr51/#Versioning for more information.
         >>> emoji.version("😁")
         0.6
         >>> emoji.version(":butterfly:")
@@ -288,7 +292,6 @@ def version(string):
     :param string: An emoji or a text containig an emoji
     :raises ValueError: if ``string`` does not contain an emoji
     """
-
     # Try dictionary lookup
     if string in unicode_codes.EMOJI_DATA:
         return unicode_codes.EMOJI_DATA[string]['E']
@@ -321,7 +324,7 @@ def version(string):
 
 def _get_search_tree():
     """
-    Generate a search tree for demojize()
+    Generate a search tree for demojize().
     Example of a search tree::
 
         EMOJI_DATA =
