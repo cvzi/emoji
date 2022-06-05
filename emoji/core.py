@@ -85,18 +85,20 @@ def emojize(
         if emj is None:
             return match.group(1)
 
-        if version is not None:
-            if unicode_codes.EMOJI_DATA[emj]['E'] > version:
-                if callable(handle_version):
-                    emj_data = unicode_codes.EMOJI_DATA[emj].copy()
-                    emj_data['match_start'] = match.start()
-                    emj_data['match_end'] = match.end()
-                    return handle_version(emj, emj_data)
+        if (
+            version is not None
+            and unicode_codes.EMOJI_DATA[emj]['E'] > version
+        ):
+            if callable(handle_version):
+                emj_data = unicode_codes.EMOJI_DATA[emj].copy()
+                emj_data['match_start'] = match.start()
+                emj_data['match_end'] = match.end()
+                return handle_version(emj, emj_data)
 
-                elif handle_version is not None:
-                    return str(handle_version)
-                else:
-                    return ''
+            elif handle_version is not None:
+                return str(handle_version)
+            else:
+                return ''
 
         if variant is None or 'variant' not in unicode_codes.EMOJI_DATA[emj]:
             return emj
