@@ -193,9 +193,11 @@ def demojize(
                         replace_str = None
                 elif language in emj_data:
                     if _use_aliases and 'alias' in emj_data:
-                        replace_str = delimiters[0] + emj_data['alias'][0][1:-1] + delimiters[1]
+                        replace_str = delimiters[0] + \
+                            emj_data['alias'][0][1:-1] + delimiters[1]
                     else:
-                        replace_str = delimiters[0] + emj_data[language][1:-1] + delimiters[1]
+                        replace_str = delimiters[0] + \
+                            emj_data[language][1:-1] + delimiters[1]
                 else:
                     # The emoji exists, but it is not translated, so we keep the emoji
                     replace_str = code_points
