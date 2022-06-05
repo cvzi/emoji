@@ -12,6 +12,7 @@ import sys
 import os
 import re
 import requests
+import copy
 try:
     import xml.etree.cElementTree as ET
 except ImportError:
@@ -134,13 +135,14 @@ def extract_emojis(emojis_lines: list, sequences_lines: list) -> dict:
     return output
 
 
-def extract_names(xml, lang):
-    """Copies emoji.UNICODE_EMOJI[lang] and adds the new names from the xml"""
+def get_UNICODE_EMOJI(lang):
+    return {emj: emoji_pkg.EMOJI_DATA[emj][lang] for emj in emoji_pkg.EMOJI_DATA if lang in emoji_pkg.EMOJI_DATA[emj]}
 
-    if lang in emoji_pkg.UNICODE_EMOJI:
-        data = emoji_pkg.UNICODE_EMOJI[lang].copy()
-    else:
-        data = {}
+
+def extract_names(xml, lang):
+    """Copies emoji.EMOJI_DATA[emj][lang] and adds the names from the xml"""
+
+    data = get_UNICODE_EMOJI(lang)
 
     tree = ET.fromstring(xml)
     annotations = tree.find('annotations')
@@ -192,6 +194,15 @@ def get_emoji_from_github_api() -> dict:
 
     return output
 
+def ascii(s):
+    # return escaped Code points \U000AB123
+    return s.encode("unicode-escape").decode()
+
+def u_string(s):
+    # return "u'{s}'" if non-ascii else return "'{s}'"
+    if ascii(s) == s:
+        return f"'{s}'"
+    return f"u'{s}'"
 
 if __name__ == "__main__":
     # Find the latest version at https://www.unicode.org/reports/tr51/#emoji_data
@@ -199,7 +210,7 @@ if __name__ == "__main__":
     emoji_sequences_source = get_emoji_variation_sequence_from_url('14.0.0')
     emojis = extract_emojis(emoji_source, emoji_sequences_source)
     # Find latest release tag at https://cldr.unicode.org/index/downloads
-    github_tag = 'release-39'
+    github_tag = 'release-40'
     languages = {
         # Update names in other languages:
         'de': extract_names(get_language_data_from_url(github_tag, 'de'), 'de'),
@@ -208,11 +219,11 @@ if __name__ == "__main__":
         'pt': extract_names(get_language_data_from_url(github_tag, 'pt'), 'pt'),
         'it': extract_names(get_language_data_from_url(github_tag, 'it'), 'it'),
         # Do not update names in other languages:
-        #'de': emoji_pkg.UNICODE_EMOJI['de'],
-        #'es': emoji_pkg.UNICODE_EMOJI['es'],
-        #'fr': emoji_pkg.UNICODE_EMOJI['fr'],
-        #'pt': emoji_pkg.UNICODE_EMOJI['pt'],
-        #'it': emoji_pkg.UNICODE_EMOJI['it'],
+        #'de': get_UNICODE_EMOJI('de'),
+        #'es': get_UNICODE_EMOJI('es'),
+        #'fr': get_UNICODE_EMOJI('fr'),
+        #'pt': get_UNICODE_EMOJI('pt'),
+        #'it': get_UNICODE_EMOJI('it'),
     }
     github_alias = get_emoji_from_github_api()
 
@@ -229,15 +240,15 @@ if __name__ == "__main__":
         # add names in other languages
         for lang in languages:
             if emj in languages[lang]:
-                language_str += ",\n        '%s': u'%s'" % (
-                    lang, languages[lang][emj])
+                language_str += ",\n        '%s': %s" % (
+                    lang, u_string(languages[lang][emj]))
             elif 'variant' in v:
                 # the language annotation uses the normal emoji (no variant), while the emoji-test.txt uses the emoji or text variant
                 alternative = re.sub(r"\\U0000FE0[EF]$", "", code) # Strip the variant
                 emj_no_variant = escapedToUnicodeMap[alternative]
                 if emj_no_variant in languages[lang]:
-                    language_str += ",\n        '%s': u'%s'" % (
-                        lang, languages[lang][emj_no_variant])
+                    language_str += ",\n        '%s': %s" % (
+                        lang, u_string(languages[lang][emj_no_variant]))
 
         # Add existing alias from EMOJI_DATA
         aliases = set()
@@ -273,11 +284,11 @@ if __name__ == "__main__":
         # Print dict of dicts
         alias = ''
         if len(aliases) > 0:
-            alias_list_str = ", ".join(["u':%s:'" % (a, ) for a in aliases])
+            alias_list_str = ", ".join([u_string(':' + a + ':') for a in aliases])
             alias = ",\n        'alias' : [%s]" % (alias_list_str, )
         variant = ",\n        'variant': True" if 'variant' in v else ''
-        print(f"""    u'{code}': {{
-        'en' : u':{v["en"]}:',
+        print(f"""    u'{code}': {{ # {emj}
+        'en' : {u_string(':' + v['en'] + ':')},
         'status' : {v["status"]},
         'E' : {v["version"]:g}{alias}{variant}{language_str}
     }}""", end=",\n")

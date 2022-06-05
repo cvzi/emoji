@@ -23,6 +23,9 @@ def all_languages():
 
     return _all_languages
 
+def test_all_languages_list():
+    """Compare all language keys in EMOJI_DATA with the emoji.LANGUAGES list"""
+    assert set(emoji.LANGUAGES) == set(all_languages())
 
 def test_emoji_versions():
     """Check that every emoji has a valid version"""
@@ -53,7 +56,7 @@ def check_duplicate_names(lang):
 
 def test_duplicate_names():
     """Check that there are no duplicate names in the fully_qualified except for differnt variants"""
-    for lang in all_languages():
+    for lang in emoji.LANGUAGES:
         check_duplicate_names(lang)
 
 
@@ -62,7 +65,7 @@ def test_name_valid():
 
     pattern = re.compile(r":[^:\s]+:")
     for item in emoji.EMOJI_DATA.values():
-        for lang in all_languages():
+        for lang in emoji.LANGUAGES:
             if lang in item:
                 name = item[lang]
                 assert pattern.match(name)
