@@ -1,10 +1,10 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>API Reference &#8212; emoji  documentation</title>
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
@@ -12,6 +12,7 @@
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <link rel="canonical" href="https://carpedm20.github.io/emoji/docs/api.html" />
     <link rel="index" title="Index" href="genindex.html" />
@@ -37,12 +38,8 @@
           <div class="body" role="main">
             
   <section id="api-reference">
-<span id="api"></span><h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h1>
+<span id="api"></span><h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this heading">¶</a></h1>
 <table class="docutils align-default">
-<colgroup>
-<col style="width: 32%" />
-<col style="width: 68%" />
-</colgroup>
 <thead>
 <tr class="row-odd"><th class="head" colspan="2"><p>Table of Contents</p></th>
 </tr>
@@ -90,7 +87,7 @@
 </tbody>
 </table>
 <span class="target" id="module-emoji"></span><section id="emoji-for-python">
-<h2>emoji for Python<a class="headerlink" href="#emoji-for-python" title="Permalink to this headline">¶</a></h2>
+<h2>emoji for Python<a class="headerlink" href="#emoji-for-python" title="Permalink to this heading">¶</a></h2>
 <p>emoji terminal output for Python.</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">emoji</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">emoji</span><span class="o">.</span><span class="n">emojize</span><span class="p">(</span><span class="s1">&#39;Python is :thumbsup:&#39;</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s1">&#39;alias&#39;</span><span class="p">))</span>
@@ -114,7 +111,7 @@
 </dd>
 </dl>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>string</strong> – String contains unicode characters. MUST BE UNICODE.</p></li>
 <li><p><strong>use_aliases</strong> – (optional) Deprecated. Use language=’alias’ instead</p></li>
@@ -151,7 +148,7 @@ The passed data is in the form of:</p>
 <span class="sig-prename descclassname"><span class="pre">emoji.</span></span><span class="sig-name descname"><span class="pre">distinct_emoji_lis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">language=&lt;class</span> <span class="pre">'emoji.core._DeprecatedParameter'&gt;</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/emoji/core.html#distinct_emoji_lis"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#emoji.distinct_emoji_lis" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns distinct list of emojis from the string.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>language</strong> – (optional) Deprecated and has no effect</p>
 </dd>
 </dl>
@@ -171,7 +168,7 @@ The passed data is in the form of:</p>
 <span class="sig-prename descclassname"><span class="pre">emoji.</span></span><span class="sig-name descname"><span class="pre">emoji_count</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">unique</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/emoji/core.html#emoji_count"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#emoji.emoji_count" title="Permalink to this definition">¶</a></dt>
 <dd><p>Returns the count of emojis in a string.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>unique</strong> – (optional) True if count only unique emojis</p>
 </dd>
 </dl>
@@ -188,7 +185,7 @@ The passed data is in the form of:</p>
 </dd>
 </dl>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>language</strong> – (optional) Deprecated and has no effect</p>
 </dd>
 </dl>
@@ -226,7 +223,7 @@ The passed data is in the form of:</p>
 </dd>
 </dl>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>string</strong> – String contains emoji names.</p></li>
 <li><p><strong>use_aliases</strong> – (optional) Deprecated. Use language=’alias’ instead</p></li>
@@ -255,7 +252,7 @@ to be used:</p>
 </p></li>
 </ul>
 </dd>
-<dt class="field-even">Raises</dt>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
 <dd class="field-even"><p><strong>ValueError</strong> – if <code class="docutils literal notranslate"><span class="pre">variant</span></code> is neither None, ‘text_type’ or ‘emoji_type’</p>
 </dd>
 </dl>
@@ -267,7 +264,7 @@ to be used:</p>
 <dd><p>Returns compiled regular expression that matches all emojis defined in
 <code class="docutils literal notranslate"><span class="pre">emoji.EMOJI_DATA</span></code>. The regular expression is only compiled once.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>language</strong> – (optional) Parameter is no longer used</p>
 </dd>
 </dl>
@@ -287,7 +284,7 @@ to be used:</p>
 <span class="sig-prename descclassname"><span class="pre">emoji.</span></span><span class="sig-name descname"><span class="pre">replace_emoji</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">string</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">replace=''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">language=&lt;class</span> <span class="pre">'emoji.core._DeprecatedParameter'&gt;</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">version=-1</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/emoji/core.html#replace_emoji"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#emoji.replace_emoji" title="Permalink to this definition">¶</a></dt>
 <dd><p>Replace unicode emoji in a customizable string.</p>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>string</strong> – String contains unicode characters. MUST BE UNICODE.</p></li>
 <li><p><strong>replace</strong> – (optional) replace can be either a string or a callable;
@@ -318,10 +315,10 @@ only emoji above this version will be replaced.</p></li>
 </dd>
 </dl>
 <dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><p><strong>string</strong> – An emoji or a text containig an emoji</p>
 </dd>
-<dt class="field-even">Raises</dt>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
 <dd class="field-even"><p><strong>ValueError</strong> – if <code class="docutils literal notranslate"><span class="pre">string</span></code> does not contain an emoji</p>
 </dd>
 </dl>
@@ -329,7 +326,7 @@ only emoji above this version will be replaced.</p></li>
 
 </section>
 <section id="emoji-data">
-<h2>EMOJI_DATA<a class="headerlink" href="#emoji-data" title="Permalink to this headline">¶</a></h2>
+<h2>EMOJI_DATA<a class="headerlink" href="#emoji-data" title="Permalink to this heading">¶</a></h2>
 <dl class="py data">
 <dt class="sig sig-object py" id="emoji.EMOJI_DATA">
 <span class="sig-prename descclassname"><span class="pre">emoji.</span></span><span class="sig-name descname"><span class="pre">EMOJI_DATA</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span></em><a class="headerlink" href="#emoji.EMOJI_DATA" title="Permalink to this definition">¶</a></dt>
@@ -356,7 +353,7 @@ only emoji above this version will be replaced.</p></li>
 <p><strong>Source code:</strong> <a class="reference external" href="https://github.com/carpedm20/emoji/raw/master/emoji/unicode_codes/data_dict.py">emoji/unicode_codes/data_dict.py</a> <strong>(2MB)</strong></p>
 </section>
 <section id="emoji-status">
-<h2>Emoji status<a class="headerlink" href="#emoji-status" title="Permalink to this headline">¶</a></h2>
+<h2>Emoji status<a class="headerlink" href="#emoji-status" title="Permalink to this heading">¶</a></h2>
 <dl class="py data">
 <dt class="sig sig-object py" id="emoji.STATUS">
 <span class="sig-prename descclassname"><span class="pre">emoji.</span></span><span class="sig-name descname"><span class="pre">STATUS</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">dict</span></em><a class="headerlink" href="#emoji.STATUS" title="Permalink to this definition">¶</a></dt>
@@ -385,7 +382,7 @@ only emoji above this version will be replaced.</p></li>
 
 </section>
 <section id="emoji-version">
-<span id="id1"></span><h2>Emoji version<a class="headerlink" href="#emoji-version" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>Emoji version<a class="headerlink" href="#emoji-version" title="Permalink to this heading">¶</a></h2>
 <p>Every emoji in <a class="reference internal" href="#emoji.EMOJI_DATA" title="emoji.EMOJI_DATA"><code class="xref py py-data docutils literal notranslate"><span class="pre">emoji.EMOJI_DATA</span></code></a> has a version number. The number refers to the release of
 that emoji in the Unicode Standard.
 It is stored in the key <code class="docutils literal notranslate"><span class="pre">'E'</span></code>. For example the emoji 🥇 <code class="docutils literal notranslate"><span class="pre">:1st_place_medal:</span></code> is version
@@ -489,7 +486,7 @@ the “Data File Comment” column:</p>
     </form>
     </div>
 </div>
-<script>$('#searchbox').show(0);</script>
+<script>document.getElementById('searchbox').style.display = "block"</script>
 
 
 
@@ -506,7 +503,7 @@ the “Data File Comment” column:</p>
       
       
       
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 4.5.0</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.0.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
