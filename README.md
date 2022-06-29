@@ -55,6 +55,7 @@ com.github.cvzi.getwallpaperdrawable E/MainActivity: java.lang.SecurityException
 ## Screenshots
 
 | Android 12 | Android 13 |
+| --- | ---- |
 | <img src="/screenshots/Android 12.webp" alt="Screenshot Android 12" /> | <img src="/screenshots/Android 13.png" alt="Screenshot Android 13" /> |
 | --- | ---- |
 
