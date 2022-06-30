@@ -8665,7 +8665,7 @@
       "properties": {
         "name": "Hotel Motel",
         "desc": "Accomodation",
-        "marker-symbol": "hotel"
+        "marker-symbol": "Lodging"
       },
       "geometry": {
         "type": "Point",
@@ -8681,7 +8681,7 @@
       "properties": {
         "name": "Die Aussicht",
         "desc": "Point of Interest",
-        "marker-symbol": "sight",
+        "marker-symbol": "Marker Solid",
         "url": "https://media.bikemap.net/routes/11276904/pois/thumbs/2a69ddd2-4fa2-4616-9537-a98d7f82063c.jpg.400x0_q80.jpg"
       },
       "geometry": {
@@ -8698,7 +8698,7 @@
       "properties": {
         "name": "Werkstatt",
         "desc": "Bike Service",
-        "marker-symbol": "repair"
+        "marker-symbol": "Bicycle"
       },
       "geometry": {
         "type": "Point",
@@ -8714,7 +8714,7 @@
       "properties": {
         "name": "Point of Interest",
         "desc": "Point of Interest",
-        "marker-symbol": "sight",
+        "marker-symbol": "Marker Solid",
         "url": "https://media.bikemap.net/routes/11276904/pois/thumbs/f92f6889-e036-4bca-b0f9-7ed0ab6df464.jpg.400x0_q80.jpg"
       },
       "geometry": {
@@ -8731,7 +8731,7 @@
       "properties": {
         "name": "Point of Interest",
         "desc": "Point of Interest",
-        "marker-symbol": "sight",
+        "marker-symbol": "Marker Solid",
         "url": "https://media.bikemap.net/routes/11276904/pois/thumbs/3b77145f-d31b-4078-a951-04c3a785157b.jpg.400x0_q80.jpg"
       },
       "geometry": {
@@ -8748,7 +8748,7 @@
       "properties": {
         "name": "Katzenbuckel",
         "desc": "Photo",
-        "marker-symbol": "photo",
+        "marker-symbol": "Camera",
         "url": "https://media.bikemap.net/routes/11276904/pois/thumbs/73dcdae3-0f12-4630-ba7a-d110ec33e692.jpg.400x0_q80.jpg"
       },
       "geometry": {
@@ -8765,7 +8765,7 @@
       "properties": {
         "name": "Friedhof",
         "desc": "Drinking Water",
-        "marker-symbol": "water"
+        "marker-symbol": "Water"
       },
       "geometry": {
         "type": "Point",
