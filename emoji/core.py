@@ -11,6 +11,7 @@ Core components for emoji.
 
 import re
 import sys
+import warnings
 
 from emoji import unicode_codes
 
@@ -206,11 +207,16 @@ def replace_emoji(string, replace='', language=None, version=-1):
 
 
 def get_emoji_regexp(language=None):
-    """Returns compiled regular expression that matches all emojis defined in
+    """This method is deprecated and will be removed in the future.
+
+    Returns compiled regular expression that matches all emojis defined in
     ``emoji.EMOJI_DATA``. The regular expression is only compiled once.
 
     :param language: (optional) Parameter is no longer used
     """
+
+    warnings.warn("""'emoji.get_emoji_regexp' is deprecated and will be removed in version 2.0.0.
+To hide this warning, pin the package to 'emoji~=1.6.1'""", DeprecationWarning, stacklevel=2)
 
     global _EMOJI_REGEXP
     # Build emoji regexp once
