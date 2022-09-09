@@ -213,6 +213,7 @@ if __name__ == "__main__":
         'fr': extract_names(get_language_data_from_url(github_tag, 'fr'), 'fr'),
         'pt': extract_names(get_language_data_from_url(github_tag, 'pt'), 'pt'),
         'it': extract_names(get_language_data_from_url(github_tag, 'it'), 'it'),
+        'tr': extract_names(get_language_data_from_url(github_tag, 'tr'), 'tr'),
         # Do not update names in other languages:
         #'de': get_UNICODE_EMOJI('de'),
         #'es': get_UNICODE_EMOJI('es'),
