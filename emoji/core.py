@@ -32,7 +32,7 @@ def emojize(
         handle_version=None
 ):
     """
-    Replace emoji names in a string with unicode codes.
+    Replace emoji names in a string with Unicode codes.
         >>> import emoji
         >>> print(emoji.emojize("Python is fun :thumbsup:", language='alias'))
         Python is fun 👍
@@ -55,7 +55,7 @@ def emojize(
         all emoji above this version will be ignored.
     :param handle_version: (optional) Replace the emoji above ``version``
         instead of ignoring it. handle_version can be either a string or a
-        callable; If it is a callable, it's passed the unicode emoji and the
+        callable; If it is a callable, it's passed the Unicode emoji and the
         data dict from emoji.EMOJI_DATA and must return a replacement string
         to be used::
 
@@ -78,7 +78,7 @@ def emojize(
     else:
         language_pack = unicode_codes.get_emoji_unicode_dict(language)
 
-    pattern = re.compile(u'(%s[\\w\\-&.’”“()!#*+?–,/]+%s)' %
+    pattern = re.compile(u'(%s[\\w\\-&.’”“()!#*+?–,/ًٌٍَُِّْؤئيإأآةك‌ٔء«»]+%s)' %
                          (re.escape(delimiters[0]), re.escape(delimiters[1])), flags=re.UNICODE)
 
     def replace(match):
@@ -124,7 +124,7 @@ def demojize(
         handle_version=None
 ):
     """
-    Replace unicode emoji in a string with emoji shortcodes. Useful for storage.
+    Replace Unicode emoji in a string with emoji shortcodes. Useful for storage.
         >>> import emoji
         >>> print(emoji.emojize("Python is fun :thumbs_up:"))
         Python is fun 👍
@@ -133,7 +133,7 @@ def demojize(
         >>> print(emoji.demojize(u"Unicode is tricky 😯", delimiters=("__", "__")))
         Unicode is tricky __hushed_face__
 
-    :param string: String contains unicode characters. MUST BE UNICODE.
+    :param string: String contains Unicode characters. MUST BE UNICODE.
     :param delimiters: (optional) User delimiters other than ``_DEFAULT_DELIMITER``
     :param language: Choose language of emoji name: language code 'es', 'de', etc. or 'alias'
         to use English aliases
@@ -142,7 +142,7 @@ def demojize(
     :param handle_version: (optional) Replace the emoji above ``version``
         instead of removing it. handle_version can be either a string or a
         callable ``handle_version(emj: str, data: dict) -> str``; If it is
-        a callable, it's passed the unicode emoji and the data dict from
+        a callable, it's passed the Unicode emoji and the data dict from
         emoji.EMOJI_DATA and must return a replacement string  to be used.
         The passed data is in the form of::
 
@@ -214,11 +214,11 @@ def demojize(
 
 def replace_emoji(string, replace='',  version=-1):
     """
-    Replace unicode emoji in a customizable string.
+    Replace Unicode emoji in a customizable string.
 
-    :param string: String contains unicode characters. MUST BE UNICODE.
+    :param string: String contains Unicode characters. MUST BE UNICODE.
     :param replace: (optional) replace can be either a string or a callable;
-        If it is a callable, it's passed the unicode emoji and the data dict from
+        If it is a callable, it's passed the Unicode emoji and the data dict from
         emoji.EMOJI_DATA and must return a replacement string to be used.
         replace(str, dict) -> str
     :param version: (optional) Max version. If set to an Emoji Version,

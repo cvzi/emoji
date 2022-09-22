@@ -164,6 +164,11 @@ def extract_names(xml, lang):
             if lang == "de":
                 emoji_name = emoji_name.replace("\u201c", "").replace("\u201d", "")
 
+            if lang == "fa":
+                emoji_name = emoji_name.replace('\u200c',"_")
+                emoji_name = re.sub("_+","_",emoji_name)
+            
+
             if emj in data and data[emj] != emoji_name:
                 print(
                     f"# {lang}: CHANGED {data[emj]} TO {emoji_name} \t\t(Original: {text})")
@@ -172,7 +177,7 @@ def extract_names(xml, lang):
 
 
 def get_emoji_from_github_api() -> dict:
-    """Get emoji alias from Github API
+    """Get emoji alias from GitHub API
     """
 
     data = requests.get("https://api.github.com/emojis").json()
@@ -185,7 +190,7 @@ def get_emoji_from_github_api() -> dict:
             emj = "".join(chr(int(h, 16)) for h in m.group(1).split('-'))
             output[name] = emj
         else:
-            pass # Special Github emoji that is not part of Unicode
+            pass  # Special GitHub emoji that is not part of Unicode
 
     return output
 
@@ -213,6 +218,8 @@ if __name__ == "__main__":
         'fr': extract_names(get_language_data_from_url(github_tag, 'fr'), 'fr'),
         'pt': extract_names(get_language_data_from_url(github_tag, 'pt'), 'pt'),
         'it': extract_names(get_language_data_from_url(github_tag, 'it'), 'it'),
+        'fa': extract_names(get_language_data_from_url(github_tag, 'fa'), 'fa'),
+
         # Do not update names in other languages:
         #'de': get_UNICODE_EMOJI('de'),
         #'es': get_UNICODE_EMOJI('es'),
@@ -231,7 +238,6 @@ if __name__ == "__main__":
     for code, v in sorted(emojis.items(), key=lambda item: item[1]["en"]):
         language_str = ''
         emj = escapedToUnicodeMap[code]
-
         # add names in other languages
         for lang in languages:
             if emj in languages[lang]:
@@ -257,7 +263,7 @@ if __name__ == "__main__":
             if emj_no_variant in emoji_pkg.EMOJI_DATA and 'alias' in emoji_pkg.EMOJI_DATA[emj_no_variant]:
                 aliases.update(a[1:-1] for a in emoji_pkg.EMOJI_DATA[emj_no_variant]['alias'])
 
-        # Add alias from  Github API
+        # Add alias from  GitHub API
         for gh_alias in github_alias:
             if emj == github_alias[gh_alias]:
                 aliases.add(gh_alias)

@@ -1,6 +1,11 @@
 emoji
 =====
 
+2.1.0
+-----
+* Added Farsi support
+* Added Trove classifiers for Python 3.10 and 3.11
+
 2.0.0
 -----
 * Removed the old dicts EMOJI_UNICODE_*, UNICODE_EMOJI_*
@@ -111,4 +116,4 @@ emoji
 * Added ~400 codes to bring the emoji list up to date
 * emojize() regex now matches &.ô’Åéãíç
 * Unittests for API and to validate emoji formatting and parsing
-* decode() function to lookup emoji by their unicode code
+* decode() function to lookup emoji by their Unicode code
