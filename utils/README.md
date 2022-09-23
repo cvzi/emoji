@@ -40,6 +40,8 @@ Copy the content of `out.py` into the `EMOJI_DATA` dict in `emoji/unicode_codes/
 
 You can also add the new langauge to the `languages` dict in `utils/gh-pages/generatePages.py`.
 
+## Test the new `EMOJI_DATA`
+
 The final step is to run the tests to check that everything works as it should:
 
 ```sh
