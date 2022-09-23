@@ -42,7 +42,7 @@ STATUS = {
     "unqualified" : unqualified
 }
 
-LANGUAGES = ['en', 'es', 'pt', 'it', 'fr', 'de', 'fa']
+LANGUAGES = ['en', 'es', 'pt', 'it', 'fr', 'de', 'fa', 'tr']
 
 EMOJI_DATA = {
     u'\U0001F947': { # 🥇
@@ -54,7 +54,8 @@ EMOJI_DATA = {
         'fr': u':médaille_d’or:',
         'pt': ':medalha_de_ouro:',
         'it': u':medaglia_d’oro:',
-        'fa': u':مدال_طلا:'
+        'fa': u':مدال_طلا:',
+        'tr': u':birincilik_madalyası:'
     },
     u'\U0001F948': { # 🥈
         'en' : ':2nd_place_medal:',
@@ -65,7 +66,8 @@ EMOJI_DATA = {
         'fr': u':médaille_d’argent:',
         'pt': ':medalha_de_prata:',
         'it': u':medaglia_d’argento:',
-        'fa': u':مدال_نقره:'
+        'fa': u':مدال_نقره:',
+        'tr': u':ikincilik_madalyası:'
     },
     u'\U0001F949': { # 🥉
         'en' : ':3rd_place_medal:',
@@ -76,7 +78,8 @@ EMOJI_DATA = {
         'fr': u':médaille_de_bronze:',
         'pt': ':medalha_de_bronze:',
         'it': ':medaglia_di_bronzo:',
-        'fa': u':مدال_برنز:'
+        'fa': u':مدال_برنز:',
+        'tr': u':üçüncülük_madalyası:'
     },
     u'\U0001F18E': { # 🆎
         'en' : ':AB_button_(blood_type):',
@@ -88,7 +91,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_ab:',
         'pt': u':botão_ab_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_ab:',
-        'fa': u':دکمه_آ_ب_(گروه_خونی):'
+        'fa': u':دکمه_آ_ب_(گروه_خونی):',
+        'tr': u':ab_düğmesi_(kan_grubu):'
     },
     u'\U0001F3E7': { # 🏧
         'en' : ':ATM_sign:',
@@ -100,7 +104,8 @@ EMOJI_DATA = {
         'fr': ':distributeur_de_billets:',
         'pt': u':símbolo_de_caixa_automático:',
         'it': ':simbolo_dello_sportello_bancomat:',
-        'fa': u':نشان_عابربانک:'
+        'fa': u':نشان_عابربانک:',
+        'tr': u':atm_işareti:'
     },
     u'\U0001F170\U0000FE0F': { # 🅰️
         'en' : ':A_button_(blood_type):',
@@ -113,7 +118,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_a:',
         'pt': u':botão_a_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_a:',
-        'fa': u':دکمه_آ_(گروه_خونی):'
+        'fa': u':دکمه_آ_(گروه_خونی):',
+        'tr': u':a_düğmesi_(kan_grubu):'
     },
     u'\U0001F170': { # 🅰
         'en' : ':A_button_(blood_type):',
@@ -126,7 +132,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_a:',
         'pt': u':botão_a_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_a:',
-        'fa': u':دکمه_آ_(گروه_خونی):'
+        'fa': u':دکمه_آ_(گروه_خونی):',
+        'tr': u':a_düğmesi_(kan_grubu):'
     },
     u'\U0001F1E6\U0001F1EB': { # 🇦🇫
         'en' : ':Afghanistan:',
@@ -238,7 +245,8 @@ EMOJI_DATA = {
         'fr': ':verseau:',
         'pt': u':signo_de_aquário:',
         'it': u':segno_zodiacale_dell’acquario:',
-        'fa': u':برج_دلو:'
+        'fa': u':برج_دلو:',
+        'tr': ':kova_burcu:'
     },
     u'\U0001F1E6\U0001F1F7': { # 🇦🇷
         'en' : ':Argentina:',
@@ -262,7 +270,8 @@ EMOJI_DATA = {
         'fr': u':bélier_zodiaque:',
         'pt': u':signo_de_áries:',
         'it': u':segno_zodiacale_dell’ariete:',
-        'fa': u':برج_حمل:'
+        'fa': u':برج_حمل:',
+        'tr': u':koç_burcu:'
     },
     u'\U0001F1E6\U0001F1F2': { # 🇦🇲
         'en' : ':Armenia:',
@@ -340,7 +349,8 @@ EMOJI_DATA = {
         'fr': u':flèche_retour:',
         'pt': ':seta_back:',
         'it': ':freccia_back:',
-        'fa': u':پیکان_عقب:'
+        'fa': u':پیکان_عقب:',
+        'tr': ':geri_oku:'
     },
     u'\U0001F171\U0000FE0F': { # 🅱️
         'en' : ':B_button_(blood_type):',
@@ -353,7 +363,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_b:',
         'pt': u':botão_b_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_b:',
-        'fa': u':دکمه_ب_(گروه_خونی):'
+        'fa': u':دکمه_ب_(گروه_خونی):',
+        'tr': ':b_grubu_(kan_grubu):'
     },
     u'\U0001F171': { # 🅱
         'en' : ':B_button_(blood_type):',
@@ -366,7 +377,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_b:',
         'pt': u':botão_b_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_b:',
-        'fa': u':دکمه_ب_(گروه_خونی):'
+        'fa': u':دکمه_ب_(گروه_خونی):',
+        'tr': ':b_grubu_(kan_grubu):'
     },
     u'\U0001F1E7\U0001F1F8': { # 🇧🇸
         'en' : ':Bahamas:',
@@ -609,7 +621,8 @@ EMOJI_DATA = {
         'fr': ':bouton_effacer:',
         'pt': u':botão_cl:',
         'it': ':pulsante_cl:',
-        'fa': u':دکمهٔ_cl:'
+        'fa': u':دکمهٔ_cl:',
+        'tr': u':cl_düğmesi:'
     },
     u'\U0001F192': { # 🆒
         'en' : ':COOL_button:',
@@ -621,7 +634,8 @@ EMOJI_DATA = {
         'fr': ':bouton_cool:',
         'pt': u':botão_cool:',
         'it': ':pulsante_cool:',
-        'fa': u':دکمهٔ_cool:'
+        'fa': u':دکمهٔ_cool:',
+        'tr': u':cool_düğmesi:'
     },
     u'\U0001F1F0\U0001F1ED': { # 🇰🇭
         'en' : ':Cambodia:',
@@ -678,7 +692,8 @@ EMOJI_DATA = {
         'fr': ':cancer:',
         'pt': u':signo_de_câncer:',
         'it': ':segno_zodiacale_del_cancro:',
-        'fa': u':برج_سرطان:'
+        'fa': u':برج_سرطان:',
+        'tr': u':yengeç_burcu:'
     },
     u'\U0001F1E8\U0001F1FB': { # 🇨🇻
         'en' : ':Cape_Verde:',
@@ -702,7 +717,8 @@ EMOJI_DATA = {
         'fr': ':capricorne:',
         'pt': u':signo_de_capricórnio:',
         'it': ':segno_zodiacale_del_capricorno:',
-        'fa': u':برج_جدی:'
+        'fa': u':برج_جدی:',
+        'tr': u':oğlak_burcu:'
     },
     u'\U0001F1E7\U0001F1F6': { # 🇧🇶
         'en' : ':Caribbean_Netherlands:',
@@ -802,7 +818,8 @@ EMOJI_DATA = {
         'fr': u':sapin_de_noël:',
         'pt': u':árvore_de_natal:',
         'it': ':albero_di_natale:',
-        'fa': u':درخت_کریسمس:'
+        'fa': u':درخت_کریسمس:',
+        'tr': u':noel_ağacı:'
     },
     u'\U0001F1E8\U0001F1F5': { # 🇨🇵
         'en' : ':Clipperton_Island:',
@@ -1023,7 +1040,8 @@ EMOJI_DATA = {
         'fr': u':flèche_fin:',
         'pt': ':seta_end:',
         'it': ':freccia_end:',
-        'fa': u':پیکان_پایان:'
+        'fa': u':پیکان_پایان:',
+        'tr': u':bitiş_oku:'
     },
     u'\U0001F1EA\U0001F1E8': { # 🇪🇨
         'en' : ':Ecuador:',
@@ -1145,7 +1163,8 @@ EMOJI_DATA = {
         'fr': ':bouton_gratuit:',
         'pt': u':botão_free:',
         'it': ':pulsante_free:',
-        'fa': u':دکمهٔ_free:'
+        'fa': u':دکمهٔ_free:',
+        'tr': u':free_düğmesi:'
     },
     u'\U0001F1EB\U0001F1F0': { # 🇫🇰
         'en' : ':Falkland_Islands:',
@@ -1268,7 +1287,8 @@ EMOJI_DATA = {
         'fr': u':gémeaux:',
         'pt': u':signo_de_gêmeos:',
         'it': ':segno_zodiacale_dei_gemelli:',
-        'fa': u':برج_جوزا:'
+        'fa': u':برج_جوزا:',
+        'tr': ':ikizler_burcu:'
     },
     u'\U0001F1EC\U0001F1EA': { # 🇬🇪
         'en' : ':Georgia:',
@@ -1489,7 +1509,8 @@ EMOJI_DATA = {
         'fr': ':bouton_identifiant:',
         'pt': u':botão_id:',
         'it': ':pulsante_id:',
-        'fa': u':دکمهٔ_شناسایی:'
+        'fa': u':دکمهٔ_شناسایی:',
+        'tr': u':id_düğmesi:'
     },
     u'\U0001F1EE\U0001F1F8': { # 🇮🇸
         'en' : ':Iceland:',
@@ -1622,7 +1643,8 @@ EMOJI_DATA = {
         'fr': ':bouton_accepter_en_japonais:',
         'pt': u':botão_japonês_de_“aceitável”:',
         'it': u':ideogramma_giapponese_di_“accettabile”:',
-        'fa': u':دکمۀ_«قابل_قبول»_به_ژاپنی:'
+        'fa': u':دکمۀ_«قابل_قبول»_به_ژاپنی:',
+        'tr': u':japonca_kabul_edilebilir_düğmesi:'
     },
     u'\U0001F238': { # 🈸
         'en' : ':Japanese_application_button:',
@@ -1634,7 +1656,8 @@ EMOJI_DATA = {
         'fr': ':bouton_application_en_japonais:',
         'pt': u':botão_japonês_de_“aplicação”:',
         'it': u':ideogramma_giapponese_di_“candidatura”:',
-        'fa': u':دکمۀ_«تقاضانامه»_به_ژاپنی:'
+        'fa': u':دکمۀ_«تقاضانامه»_به_ژاپنی:',
+        'tr': u':japonca_uygulama_düğmesi:'
     },
     u'\U0001F250': { # 🉐
         'en' : ':Japanese_bargain_button:',
@@ -1646,7 +1669,8 @@ EMOJI_DATA = {
         'fr': ':bouton_bonne_affaire_en_japonais:',
         'pt': u':botão_japonês_de_“barganha”:',
         'it': u':ideogramma_giapponese_di_“occasione”:',
-        'fa': u':دکمهٔ_«قیمت_مناسب»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«قیمت_مناسب»_به_ژاپنی:',
+        'tr': u':japonca_avantaj_düğmesi:'
     },
     u'\U0001F3EF': { # 🏯
         'en' : ':Japanese_castle:',
@@ -1658,7 +1682,8 @@ EMOJI_DATA = {
         'fr': u':château_japonais:',
         'pt': u':castelo_japonês:',
         'it': ':castello_giapponese:',
-        'fa': u':قلعهٔ_ژاپنی:'
+        'fa': u':قلعهٔ_ژاپنی:',
+        'tr': u':japon_şatosu:'
     },
     u'\U00003297\U0000FE0F': { # ㊗️
         'en' : ':Japanese_congratulations_button:',
@@ -1671,7 +1696,8 @@ EMOJI_DATA = {
         'fr': u':bouton_félicitations_en_japonais:',
         'pt': u':botão_japonês_de_“parabéns”:',
         'it': u':ideogramma_giapponese_di_“congratulazioni”:',
-        'fa': u':دکمه_تبریک_به_ژاپنی:'
+        'fa': u':دکمه_تبریک_به_ژاپنی:',
+        'tr': u':japonca_tebrikler_düğmesi:'
     },
     u'\U00003297': { # ㊗
         'en' : ':Japanese_congratulations_button:',
@@ -1684,7 +1710,8 @@ EMOJI_DATA = {
         'fr': u':bouton_félicitations_en_japonais:',
         'pt': u':botão_japonês_de_“parabéns”:',
         'it': u':ideogramma_giapponese_di_“congratulazioni”:',
-        'fa': u':دکمهٔ_«تبریک»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«تبریک»_به_ژاپنی:',
+        'tr': u':japonca_tebrikler_düğmesi:'
     },
     u'\U0001F239': { # 🈹
         'en' : ':Japanese_discount_button:',
@@ -1696,7 +1723,8 @@ EMOJI_DATA = {
         'fr': u':bouton_réduction_en_japonais:',
         'pt': u':botão_japonês_de_“desconto”:',
         'it': u':ideogramma_giapponese_di_“sconto”:',
-        'fa': u':دکمۀ_«تخفیف»_به_ژاپنی:'
+        'fa': u':دکمۀ_«تخفیف»_به_ژاپنی:',
+        'tr': u':japonca_indirim_düğmesi:'
     },
     u'\U0001F38E': { # 🎎
         'en' : ':Japanese_dolls:',
@@ -1708,7 +1736,8 @@ EMOJI_DATA = {
         'fr': u':poupées_japonaises:',
         'pt': ':bonecas_japonesas:',
         'it': ':bambole_giapponesi:',
-        'fa': u':عروسک_های_ژاپنی:'
+        'fa': u':عروسک_های_ژاپنی:',
+        'tr': ':japon_oyuncak_bebekleri:'
     },
     u'\U0001F21A': { # 🈚
         'en' : ':Japanese_free_of_charge_button:',
@@ -1721,7 +1750,8 @@ EMOJI_DATA = {
         'fr': ':bouton_gratuit_en_japonais:',
         'pt': u':botão_japonês_de_“gratuito”:',
         'it': u':ideogramma_giapponese_di_“gratis”:',
-        'fa': u':دکمۀ_«رایگان»_به_ژاپنی:'
+        'fa': u':دکمۀ_«رایگان»_به_ژاپنی:',
+        'tr': u':japonca_ücretsiz_düğmesi:'
     },
     u'\U0001F201': { # 🈁
         'en' : ':Japanese_here_button:',
@@ -1733,7 +1763,8 @@ EMOJI_DATA = {
         'fr': ':bouton_ici_en_japonais:',
         'pt': u':botão_japonês_de_“aqui”:',
         'it': u':ideogramma_giapponese_per_“qui”:',
-        'fa': u':دکمهٔ_«اینجا»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«اینجا»_به_ژاپنی:',
+        'tr': u':japonca_burada_düğmesi:'
     },
     u'\U0001F237\U0000FE0F': { # 🈷️
         'en' : ':Japanese_monthly_amount_button:',
@@ -1746,7 +1777,8 @@ EMOJI_DATA = {
         'fr': ':bouton_montant_mensuel_en_japonais:',
         'pt': u':botão_japonês_de_“quantidade_mensal”:',
         'it': u':ideogramma_giapponese_di_“importo_mensile”:',
-        'fa': u':دکمه_مقدار_ماهانه_به_ژاپنی:'
+        'fa': u':دکمه_مقدار_ماهانه_به_ژاپنی:',
+        'tr': u':japonca_aylık_ücret_düğmesi:'
     },
     u'\U0001F237': { # 🈷
         'en' : ':Japanese_monthly_amount_button:',
@@ -1759,7 +1791,8 @@ EMOJI_DATA = {
         'fr': ':bouton_montant_mensuel_en_japonais:',
         'pt': u':botão_japonês_de_“quantidade_mensal”:',
         'it': u':ideogramma_giapponese_di_“importo_mensile”:',
-        'fa': u':دکمهٔ_«مقدار_ماهانه»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«مقدار_ماهانه»_به_ژاپنی:',
+        'tr': u':japonca_aylık_ücret_düğmesi:'
     },
     u'\U0001F235': { # 🈵
         'en' : ':Japanese_no_vacancy_button:',
@@ -1771,7 +1804,8 @@ EMOJI_DATA = {
         'fr': ':bouton_complet_en_japonais:',
         'pt': u':botão_japonês_de_“sem_vagas”:',
         'it': u':ideogramma_giapponese_di_“nessun_posto_libero”:',
-        'fa': u':دکمهٔ_«پُر»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«پُر»_به_ژاپنی:',
+        'tr': u':japonca_yer_yok_düğmesi:'
     },
     u'\U0001F236': { # 🈶
         'en' : ':Japanese_not_free_of_charge_button:',
@@ -1783,7 +1817,8 @@ EMOJI_DATA = {
         'fr': ':bouton_pas_gratuit_en_japonais:',
         'pt': u':botão_japonês_de_“não_gratuito”:',
         'it': u':ideogramma_giapponese_di_“a_pagamento”:',
-        'fa': u':دکمهٔ_غیرمجانی_به_ژاپنی:'
+        'fa': u':دکمهٔ_غیرمجانی_به_ژاپنی:',
+        'tr': u':japonca_ücretsiz_değil_düğmesi:'
     },
     u'\U0001F23A': { # 🈺
         'en' : ':Japanese_open_for_business_button:',
@@ -1795,7 +1830,8 @@ EMOJI_DATA = {
         'fr': ':bouton_ouvert_pour_affaires_en_japonais:',
         'pt': u':botão_japonês_de_“aberto_para_negócios”:',
         'it': u':ideogramma_giapponese_di_“aperto_al_pubblico”:',
-        'fa': u':دکمۀ_«آماده_برای_کسب_وکار»_به_ژاپنی:'
+        'fa': u':دکمۀ_«آماده_برای_کسب_وکار»_به_ژاپنی:',
+        'tr': u':japonca_hizmete_hazır_düğmesi:'
     },
     u'\U0001F234': { # 🈴
         'en' : ':Japanese_passing_grade_button:',
@@ -1807,7 +1843,8 @@ EMOJI_DATA = {
         'fr': u':bouton_note_pour_réussir_en_japonais:',
         'pt': u':botão_japonês_de_“nota_mínima”:',
         'it': u':ideogramma_giapponese_di_“voto_di_sufficienza”:',
-        'fa': u':دکمۀ_«نمرهٔ_قبولی»_به_ژاپنی:'
+        'fa': u':دکمۀ_«نمرهٔ_قبولی»_به_ژاپنی:',
+        'tr': u':japonca_geçer_not_düğmesi:'
     },
     u'\U0001F3E3': { # 🏣
         'en' : ':Japanese_post_office:',
@@ -1819,7 +1856,8 @@ EMOJI_DATA = {
         'fr': ':bureau_de_poste_japonais:',
         'pt': u':correio_japonês:',
         'it': ':ufficio_postale_giapponese:',
-        'fa': u':پست_خانهٔ_ژاپنی:'
+        'fa': u':پست_خانهٔ_ژاپنی:',
+        'tr': ':japon_postanesi:'
     },
     u'\U0001F232': { # 🈲
         'en' : ':Japanese_prohibited_button:',
@@ -1831,7 +1869,8 @@ EMOJI_DATA = {
         'fr': ':bouton_interdit_en_japonais:',
         'pt': u':botão_japonês_de_“proibido”:',
         'it': u':ideogramma_giapponese_di_“proibito”:',
-        'fa': u':دکمۀ_«ممنوع»_به_ژاپنی:'
+        'fa': u':دکمۀ_«ممنوع»_به_ژاپنی:',
+        'tr': u':japonca_yasak_düğmesi:'
     },
     u'\U0001F22F': { # 🈯
         'en' : ':Japanese_reserved_button:',
@@ -1844,7 +1883,8 @@ EMOJI_DATA = {
         'fr': u':bouton_réservé_en_japonais:',
         'pt': u':botão_japonês_de_“reservado”:',
         'it': u':ideogramma_giapponese_di_“riservato”:',
-        'fa': u':دکمۀ_«رزروشده»_به_ژاپنی:'
+        'fa': u':دکمۀ_«رزروشده»_به_ژاپنی:',
+        'tr': u':japonca_rezerve_düğmesi:'
     },
     u'\U00003299\U0000FE0F': { # ㊙️
         'en' : ':Japanese_secret_button:',
@@ -1857,7 +1897,8 @@ EMOJI_DATA = {
         'fr': ':bouton_secret_en_japonais:',
         'pt': u':botão_japonês_de_“segredo”:',
         'it': u':ideogramma_giapponese_di_“segreto”:',
-        'fa': u':دکمه_راز_به_ژاپنی:'
+        'fa': u':دکمه_راز_به_ژاپنی:',
+        'tr': u':japonca_sır_düğmesi:'
     },
     u'\U00003299': { # ㊙
         'en' : ':Japanese_secret_button:',
@@ -1870,7 +1911,8 @@ EMOJI_DATA = {
         'fr': ':bouton_secret_en_japonais:',
         'pt': u':botão_japonês_de_“segredo”:',
         'it': u':ideogramma_giapponese_di_“segreto”:',
-        'fa': u':دکمهٔ_«راز»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«راز»_به_ژاپنی:',
+        'tr': u':japonca_sır_düğmesi:'
     },
     u'\U0001F202\U0000FE0F': { # 🈂️
         'en' : ':Japanese_service_charge_button:',
@@ -1883,7 +1925,8 @@ EMOJI_DATA = {
         'fr': ':bouton_frais_de_service_en_japonais:',
         'pt': u':botão_japonês_de_“taxa_de_serviço”:',
         'it': u':ideogramma_giapponese_di_“costo_del_servizio”:',
-        'fa': u':دکمه_هزینه_خدمات_به_ژاپنی:'
+        'fa': u':دکمه_هزینه_خدمات_به_ژاپنی:',
+        'tr': u':japonca_servis_ücreti_düğmesi:'
     },
     u'\U0001F202': { # 🈂
         'en' : ':Japanese_service_charge_button:',
@@ -1896,7 +1939,8 @@ EMOJI_DATA = {
         'fr': ':bouton_frais_de_service_en_japonais:',
         'pt': u':botão_japonês_de_“taxa_de_serviço”:',
         'it': u':ideogramma_giapponese_di_“costo_del_servizio”:',
-        'fa': u':دکمهٔ_«هزینهٔ_خدمات»_به_ژاپنی:'
+        'fa': u':دکمهٔ_«هزینهٔ_خدمات»_به_ژاپنی:',
+        'tr': u':japonca_servis_ücreti_düğmesi:'
     },
     u'\U0001F530': { # 🔰
         'en' : ':Japanese_symbol_for_beginner:',
@@ -1908,7 +1952,8 @@ EMOJI_DATA = {
         'fr': u':symbole_japonais_de_débutant:',
         'pt': u':símbolo_japonês_de_principiante:',
         'it': u':ideogramma_giapponese_di_“principiante”:',
-        'fa': u':نماد_ژاپنی_سطح_مبتدی:'
+        'fa': u':نماد_ژاپنی_سطح_مبتدی:',
+        'tr': u':japonca_yeni_başlayan_sembolü:'
     },
     u'\U0001F233': { # 🈳
         'en' : ':Japanese_vacancy_button:',
@@ -1920,7 +1965,8 @@ EMOJI_DATA = {
         'fr': ':bouton_chambres_disponibles_en_japonais:',
         'pt': u':botão_japonês_de_“vago”:',
         'it': u':ideogramma_giapponese_di_“posto_libero”:',
-        'fa': u':دکمۀ_«پست_خالی»_به_ژاپنی:'
+        'fa': u':دکمۀ_«پست_خالی»_به_ژاپنی:',
+        'tr': u':japonca_yer_var_düğmesi:'
     },
     u'\U0001F1EF\U0001F1EA': { # 🇯🇪
         'en' : ':Jersey:',
@@ -2054,7 +2100,8 @@ EMOJI_DATA = {
         'fr': ':lion:',
         'pt': u':signo_de_leão:',
         'it': ':segno_zodiacale_del_leone:',
-        'fa': u':برج_اسد:'
+        'fa': u':برج_اسد:',
+        'tr': ':aslan_burcu:'
     },
     u'\U0001F1F1\U0001F1F8': { # 🇱🇸
         'en' : ':Lesotho:',
@@ -2089,7 +2136,8 @@ EMOJI_DATA = {
         'fr': ':balance:',
         'pt': ':signo_de_libra:',
         'it': ':segno_zodiacale_della_bilancia:',
-        'fa': u':برج_میزان:'
+        'fa': u':برج_میزان:',
+        'tr': ':terazi_burcu:'
     },
     u'\U0001F1F1\U0001F1FE': { # 🇱🇾
         'en' : ':Libya:',
@@ -2376,7 +2424,8 @@ EMOJI_DATA = {
         'fr': u':mère_noël:',
         'pt': u':mamãe_noel:',
         'it': ':mamma_natale:',
-        'fa': u':مامان_نوئل:'
+        'fa': u':مامان_نوئل:',
+        'tr': ':noel_anne:'
     },
     u'\U0001F936\U0001F3FF': { # 🤶🏿
         'en' : ':Mrs._Claus_dark_skin_tone:',
@@ -2449,7 +2498,8 @@ EMOJI_DATA = {
         'fr': ':bouton_nouveau:',
         'pt': u':botão_new:',
         'it': ':pulsante_new:',
-        'fa': u':دکمهٔ_new:'
+        'fa': u':دکمهٔ_new:',
+        'tr': u':new_düğmesi:'
     },
     u'\U0001F196': { # 🆖
         'en' : ':NG_button:',
@@ -2461,7 +2511,8 @@ EMOJI_DATA = {
         'fr': ':bouton_pas_bien:',
         'pt': u':botão_ng:',
         'it': ':pulsante_ng:',
-        'fa': u':دکمهٔ_ng:'
+        'fa': u':دکمهٔ_ng:',
+        'tr': u':ng_düğmesi:'
     },
     u'\U0001F1F3\U0001F1E6': { # 🇳🇦
         'en' : ':Namibia:',
@@ -2638,7 +2689,8 @@ EMOJI_DATA = {
         'fr': ':bouton_ok:',
         'pt': u':botão_ok:',
         'it': ':pulsante_ok:',
-        'fa': u':دکمهٔ_ok:'
+        'fa': u':دکمهٔ_ok:',
+        'tr': u':ok_düğmesi:'
     },
     u'\U0001F44C': { # 👌
         'en' : ':OK_hand:',
@@ -2650,7 +2702,8 @@ EMOJI_DATA = {
         'fr': ':ok:',
         'pt': ':sinal_de_ok:',
         'it': ':mano_che_fa_ok:',
-        'fa': u':علامت_اوکی:'
+        'fa': u':علامت_اوکی:',
+        'tr': u':tamam_işareti:'
     },
     u'\U0001F44C\U0001F3FF': { # 👌🏿
         'en' : ':OK_hand_dark_skin_tone:',
@@ -2712,7 +2765,8 @@ EMOJI_DATA = {
         'fr': u':flèche_activé:',
         'pt': ':seta_on!:',
         'it': ':freccia_on:',
-        'fa': u':پیکان_روشن:'
+        'fa': u':پیکان_روشن:',
+        'tr': u':açık_oku:'
     },
     u'\U0001F17E\U0000FE0F': { # 🅾️
         'en' : ':O_button_(blood_type):',
@@ -2725,7 +2779,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_o:',
         'pt': u':botão_o_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_0:',
-        'fa': u':دکمه_ا_(گروه_خونی):'
+        'fa': u':دکمه_ا_(گروه_خونی):',
+        'tr': u':0_düğmesi_(kan_grubu):'
     },
     u'\U0001F17E': { # 🅾
         'en' : ':O_button_(blood_type):',
@@ -2738,7 +2793,8 @@ EMOJI_DATA = {
         'fr': ':groupe_sanguin_o:',
         'pt': u':botão_o_(tipo_sanguíneo):',
         'it': ':gruppo_sanguigno_0:',
-        'fa': u':دکمه_اُ_(گروه_خونی):'
+        'fa': u':دکمه_اُ_(گروه_خونی):',
+        'tr': u':0_düğmesi_(kan_grubu):'
     },
     u'\U0001F1F4\U0001F1F2': { # 🇴🇲
         'en' : ':Oman:',
@@ -2761,7 +2817,8 @@ EMOJI_DATA = {
         'fr': ':serpentaire:',
         'pt': u':signo_de_ofiúco:',
         'it': u':segno_zodiacale_dell’ofiuco:',
-        'fa': u':برج_حوا:'
+        'fa': u':برج_حوا:',
+        'tr': u':yılancı:'
     },
     u'\U0001F17F\U0000FE0F': { # 🅿️
         'en' : ':P_button:',
@@ -2774,7 +2831,8 @@ EMOJI_DATA = {
         'fr': ':bouton_p:',
         'pt': u':botão_p:',
         'it': ':pulsante_p:',
-        'fa': u':دکمه_پی:'
+        'fa': u':دکمه_پی:',
+        'tr': u':p_düğmesi:'
     },
     u'\U0001F17F': { # 🅿
         'en' : ':P_button:',
@@ -2787,7 +2845,8 @@ EMOJI_DATA = {
         'fr': ':bouton_p:',
         'pt': u':botão_p:',
         'it': ':pulsante_p:',
-        'fa': u':دکمه_پی:'
+        'fa': u':دکمه_پی:',
+        'tr': u':p_düğmesi:'
     },
     u'\U0001F1F5\U0001F1F0': { # 🇵🇰
         'en' : ':Pakistan:',
@@ -2888,7 +2947,8 @@ EMOJI_DATA = {
         'fr': ':poissons:',
         'pt': ':signo_de_peixes:',
         'it': ':segno_zodiacale_dei_pesci:',
-        'fa': u':برج_حوت:'
+        'fa': u':برج_حوت:',
+        'tr': u':balık_burcu:'
     },
     u'\U0001F1F5\U0001F1F3': { # 🇵🇳
         'en' : ':Pitcairn_Islands:',
@@ -2999,7 +3059,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bientôt:',
         'pt': ':seta_soon:',
         'it': ':freccia_soon:',
-        'fa': u':پیکان_به_زودی:'
+        'fa': u':پیکان_به_زودی:',
+        'tr': u':yakında_işareti:'
     },
     u'\U0001F198': { # 🆘
         'en' : ':SOS_button:',
@@ -3011,7 +3072,8 @@ EMOJI_DATA = {
         'fr': ':bouton_sos:',
         'pt': u':botão_sos:',
         'it': ':pulsante_sos:',
-        'fa': u':دکمه_اس_او_اس:'
+        'fa': u':دکمه_اس_او_اس:',
+        'tr': u':sos_düğmesi:'
     },
     u'\U00002650': { # ♐
         'en' : ':Sagittarius:',
@@ -3024,7 +3086,8 @@ EMOJI_DATA = {
         'fr': ':sagittaire:',
         'pt': u':signo_de_sagitário:',
         'it': ':segno_zodiacale_del_saggitario:',
-        'fa': u':برج_قوس:'
+        'fa': u':برج_قوس:',
+        'tr': ':yay_burcu:'
     },
     u'\U0001F1FC\U0001F1F8': { # 🇼🇸
         'en' : ':Samoa:',
@@ -3058,7 +3121,8 @@ EMOJI_DATA = {
         'fr': u':père_noël:',
         'pt': ':papai_noel:',
         'it': ':babbo_natale:',
-        'fa': u':بابا_نوئل:'
+        'fa': u':بابا_نوئل:',
+        'tr': ':noel_baba:'
     },
     u'\U0001F385\U0001F3FF': { # 🎅🏿
         'en' : ':Santa_Claus_dark_skin_tone:',
@@ -3132,7 +3196,8 @@ EMOJI_DATA = {
         'fr': ':scorpion_zodiaque:',
         'pt': u':signo_de_escorpião:',
         'it': ':segno_zodiacale_dello_scorpione:',
-        'fa': u':برج_عقرب:'
+        'fa': u':برج_عقرب:',
+        'tr': ':akrep_burcu:'
     },
     u'\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F': { # 🏴󠁧󠁢󠁳󠁣󠁴󠁿
         'en' : ':Scotland:',
@@ -3408,7 +3473,8 @@ EMOJI_DATA = {
         'fr': u':statue_de_la_liberté:',
         'pt': u':estátua_da_liberdade:',
         'it': u':statua_della_libertà:',
-        'fa': u':مجسمهٔ_آزادی:'
+        'fa': u':مجسمهٔ_آزادی:',
+        'tr': u':özgürlük_heykeli:'
     },
     u'\U0001F1F8\U0001F1E9': { # 🇸🇩
         'en' : ':Sudan:',
@@ -3497,7 +3563,8 @@ EMOJI_DATA = {
         'fr': ':t-rex:',
         'pt': ':tiranossauro_rex:',
         'it': ':t-rex:',
-        'fa': u':تی_رکس:'
+        'fa': u':تی_رکس:',
+        'tr': ':t-rex:'
     },
     u'\U0001F51D': { # 🔝
         'en' : ':TOP_arrow:',
@@ -3509,7 +3576,8 @@ EMOJI_DATA = {
         'fr': u':flèche_en_haut:',
         'pt': ':seta_top:',
         'it': ':freccia_top:',
-        'fa': u':پیکان_رو:'
+        'fa': u':پیکان_رو:',
+        'tr': u':yukarı_oku:'
     },
     u'\U0001F1F9\U0001F1FC': { # 🇹🇼
         'en' : ':Taiwan:',
@@ -3555,7 +3623,8 @@ EMOJI_DATA = {
         'fr': ':taureau:',
         'pt': ':signo_de_touro:',
         'it': ':segno_zodiacale_del_toro:',
-        'fa': u':برج_ثور:'
+        'fa': u':برج_ثور:',
+        'tr': u':boğa_burcu:'
     },
     u'\U0001F1F9\U0001F1ED': { # 🇹🇭
         'en' : ':Thailand:',
@@ -3611,7 +3680,8 @@ EMOJI_DATA = {
         'fr': ':tour_de_tokyo:',
         'pt': u':torre_de_tóquio:',
         'it': ':torre_di_tokyo:',
-        'fa': u':برج_توکیو:'
+        'fa': u':برج_توکیو:',
+        'tr': ':tokyo_kulesi:'
     },
     u'\U0001F1F9\U0001F1F4': { # 🇹🇴
         'en' : ':Tonga:',
@@ -3733,7 +3803,8 @@ EMOJI_DATA = {
         'fr': ':bouton_vers_le_haut:',
         'pt': u':botão_up!:',
         'it': ':pulsante_up!:',
-        'fa': u':دکمهٔ_!up:'
+        'fa': u':دکمهٔ_!up:',
+        'tr': u':up!_düğmesi:'
     },
     u'\U0001F1FA\U0001F1EC': { # 🇺🇬
         'en' : ':Uganda:',
@@ -3833,7 +3904,8 @@ EMOJI_DATA = {
         'fr': ':bouton_vs:',
         'pt': u':botão_vs:',
         'it': ':pulsante_vs:',
-        'fa': u':دکمهٔ_vs:'
+        'fa': u':دکمهٔ_vs:',
+        'tr': u':vs_düğmesi:'
     },
     u'\U0001F1FB\U0001F1FA': { # 🇻🇺
         'en' : ':Vanuatu:',
@@ -3890,7 +3962,8 @@ EMOJI_DATA = {
         'fr': ':vierge:',
         'pt': ':signo_de_virgem:',
         'it': ':segno_zodiacale_della_vergine:',
-        'fa': u':برج_سنبله:'
+        'fa': u':برج_سنبله:',
+        'tr': u':başak_burcu:'
     },
     u'\U0001F3F4\U000E0067\U000E0062\U000E0077\U000E006C\U000E0073\U000E007F': { # 🏴󠁧󠁢󠁷󠁬󠁳󠁿
         'en' : ':Wales:',
@@ -3967,7 +4040,8 @@ EMOJI_DATA = {
         'fr': ':abaque:',
         'pt': u':ábaco:',
         'it': ':abaco:',
-        'fa': u':چرتکه:'
+        'fa': u':چرتکه:',
+        'tr': u':abaküs:'
     },
     u'\U0001FA97': { # 🪗
         'en' : ':accordion:',
@@ -3978,7 +4052,8 @@ EMOJI_DATA = {
         'fr': u':accordéon:',
         'pt': u':acordeão:',
         'it': ':fisarmonica:',
-        'fa': u':آکوردئون:'
+        'fa': u':آکوردئون:',
+        'tr': ':akordiyon:'
     },
     u'\U0001FA79': { # 🩹
         'en' : ':adhesive_bandage:',
@@ -3989,7 +4064,8 @@ EMOJI_DATA = {
         'fr': ':sparadrap:',
         'pt': ':atadura_adesiva:',
         'it': ':cerotto:',
-        'fa': u':چسب_زخم:'
+        'fa': u':چسب_زخم:',
+        'tr': u':yara_bandı:'
     },
     u'\U0001F39F\U0000FE0F': { # 🎟️
         'en' : ':admission_tickets:',
@@ -4002,7 +4078,8 @@ EMOJI_DATA = {
         'fr': u':billet_d’entrée:',
         'pt': ':ingresso_de_cinema:',
         'it': u':biglietto_d’ingresso:',
-        'fa': u':بلیت_ورود:'
+        'fa': u':بلیت_ورود:',
+        'tr': u':giriş_bileti:'
     },
     u'\U0001F39F': { # 🎟
         'en' : ':admission_tickets:',
@@ -4015,7 +4092,8 @@ EMOJI_DATA = {
         'fr': u':billet_d’entrée:',
         'pt': ':ingresso_de_cinema:',
         'it': u':biglietto_d’ingresso:',
-        'fa': u':بلیت_ورود:'
+        'fa': u':بلیت_ورود:',
+        'tr': u':giriş_bileti:'
     },
     u'\U0001F6A1': { # 🚡
         'en' : ':aerial_tramway:',
@@ -4026,7 +4104,8 @@ EMOJI_DATA = {
         'fr': u':tramway_aérien:',
         'pt': u':teleférico:',
         'it': ':funivia_aerea:',
-        'fa': u':تراموای_هوایی:'
+        'fa': u':تراموای_هوایی:',
+        'tr': ':teleferik:'
     },
     u'\U00002708\U0000FE0F': { # ✈️
         'en' : ':airplane:',
@@ -4038,7 +4117,8 @@ EMOJI_DATA = {
         'fr': ':avion:',
         'pt': u':avião:',
         'it': ':aeroplano:',
-        'fa': u':هواپیما:'
+        'fa': u':هواپیما:',
+        'tr': u':uçak:'
     },
     u'\U00002708': { # ✈
         'en' : ':airplane:',
@@ -4050,7 +4130,8 @@ EMOJI_DATA = {
         'fr': ':avion:',
         'pt': u':avião:',
         'it': ':aeroplano:',
-        'fa': u':هواپیما:'
+        'fa': u':هواپیما:',
+        'tr': u':uçak:'
     },
     u'\U0001F6EC': { # 🛬
         'en' : ':airplane_arrival:',
@@ -4062,7 +4143,8 @@ EMOJI_DATA = {
         'fr': u':avion_à_l’atterrissage:',
         'pt': u':avião_aterrissando:',
         'it': ':atterraggio:',
-        'fa': u':زمان_ورود_هواپیما:'
+        'fa': u':زمان_ورود_هواپیما:',
+        'tr': u':inen_uçak:'
     },
     u'\U0001F6EB': { # 🛫
         'en' : ':airplane_departure:',
@@ -4074,7 +4156,8 @@ EMOJI_DATA = {
         'fr': u':avion_au_décollage:',
         'pt': u':avião_decolando:',
         'it': ':decollo:',
-        'fa': u':زمان_حرکت_هواپیما:'
+        'fa': u':زمان_حرکت_هواپیما:',
+        'tr': u':kalkan_uçak:'
     },
     u'\U000023F0': { # ⏰
         'en' : ':alarm_clock:',
@@ -4085,7 +4168,8 @@ EMOJI_DATA = {
         'fr': u':réveil:',
         'pt': ':despertador:',
         'it': ':sveglia:',
-        'fa': u':ساعت_رومیزی:'
+        'fa': u':ساعت_رومیزی:',
+        'tr': u':çalar_saat:'
     },
     u'\U00002697\U0000FE0F': { # ⚗️
         'en' : ':alembic:',
@@ -4097,7 +4181,8 @@ EMOJI_DATA = {
         'fr': ':alambic:',
         'pt': ':alambique:',
         'it': ':alambicco:',
-        'fa': u':انبیق:'
+        'fa': u':انبیق:',
+        'tr': ':imbik:'
     },
     u'\U00002697': { # ⚗
         'en' : ':alembic:',
@@ -4109,7 +4194,8 @@ EMOJI_DATA = {
         'fr': ':alambic:',
         'pt': ':alambique:',
         'it': ':alambicco:',
-        'fa': u':انبیق:'
+        'fa': u':انبیق:',
+        'tr': ':imbik:'
     },
     u'\U0001F47D': { # 👽
         'en' : ':alien:',
@@ -4121,7 +4207,8 @@ EMOJI_DATA = {
         'fr': ':alien:',
         'pt': u':alienígena:',
         'it': ':alieno:',
-        'fa': u':موجود_فضایی:'
+        'fa': u':موجود_فضایی:',
+        'tr': u':uzaylı:'
     },
     u'\U0001F47E': { # 👾
         'en' : ':alien_monster:',
@@ -4133,7 +4220,8 @@ EMOJI_DATA = {
         'fr': u':monstre_de_l’espace:',
         'pt': u':monstro_alienígena:',
         'it': ':mostro_alieno:',
-        'fa': u':هیولای_فضایی:'
+        'fa': u':هیولای_فضایی:',
+        'tr': u':uzaylı_canavar:'
     },
     u'\U0001F691': { # 🚑
         'en' : ':ambulance:',
@@ -4145,7 +4233,8 @@ EMOJI_DATA = {
         'fr': ':ambulance:',
         'pt': u':ambulância:',
         'it': ':ambulanza:',
-        'fa': u':آمبولانس:'
+        'fa': u':آمبولانس:',
+        'tr': ':ambulans:'
     },
     u'\U0001F3C8': { # 🏈
         'en' : ':american_football:',
@@ -4157,7 +4246,8 @@ EMOJI_DATA = {
         'fr': u':football_américain:',
         'pt': ':bola_de_futebol_americano:',
         'it': ':football_americano:',
-        'fa': u':فوتبال_امریکایی:'
+        'fa': u':فوتبال_امریکایی:',
+        'tr': ':amerikan_futbolu:'
     },
     u'\U0001F3FA': { # 🏺
         'en' : ':amphora:',
@@ -4168,7 +4258,8 @@ EMOJI_DATA = {
         'fr': ':amphore:',
         'pt': u':ânfora:',
         'it': ':anfora:',
-        'fa': u':سبو:'
+        'fa': u':سبو:',
+        'tr': ':amfora:'
     },
     u'\U0001FAC0': { # 🫀
         'en' : ':anatomical_heart:',
@@ -4179,7 +4270,8 @@ EMOJI_DATA = {
         'fr': u':cœur:',
         'pt': u':coração_humano:',
         'it': ':organo_del_cuore:',
-        'fa': u':قلب:'
+        'fa': u':قلب:',
+        'tr': ':kalp:'
     },
     u'\U00002693': { # ⚓
         'en' : ':anchor:',
@@ -4191,7 +4283,8 @@ EMOJI_DATA = {
         'fr': ':ancre:',
         'pt': u':âncora:',
         'it': ':ancora:',
-        'fa': u':لنگر:'
+        'fa': u':لنگر:',
+        'tr': u':çıpa:'
     },
     u'\U0001F4A2': { # 💢
         'en' : ':anger_symbol:',
@@ -4203,7 +4296,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_colère:',
         'pt': u':símbolo_de_raiva:',
         'it': ':rabbia:',
-        'fa': u':نماد_عصبانیت:'
+        'fa': u':نماد_عصبانیت:',
+        'tr': u':öfke_simgesi:'
     },
     u'\U0001F620': { # 😠
         'en' : ':angry_face:',
@@ -4215,7 +4309,8 @@ EMOJI_DATA = {
         'fr': u':visage_en_colère:',
         'pt': ':rosto_zangado:',
         'it': ':faccina_arrabbiata:',
-        'fa': u':عصبانی:'
+        'fa': u':عصبانی:',
+        'tr': u':öfkeli_yüz:'
     },
     u'\U0001F47F': { # 👿
         'en' : ':angry_face_with_horns:',
@@ -4227,7 +4322,8 @@ EMOJI_DATA = {
         'fr': u':visage_en_colère_avec_des_cornes:',
         'pt': ':rosto_zangado_com_chifres:',
         'it': ':faccina_arrabbiata_con_corna:',
-        'fa': u':چهره_عصبانی_با_دو_شاخ:'
+        'fa': u':چهره_عصبانی_با_دو_شاخ:',
+        'tr': u':boynuzlu_kızgın_yüz:'
     },
     u'\U0001F627': { # 😧
         'en' : ':anguished_face:',
@@ -4239,7 +4335,8 @@ EMOJI_DATA = {
         'fr': u':visage_angoissé:',
         'pt': ':rosto_angustiado:',
         'it': ':faccina_angosciata:',
-        'fa': u':دردمند:'
+        'fa': u':دردمند:',
+        'tr': u':kederli_yüz:'
     },
     u'\U0001F41C': { # 🐜
         'en' : ':ant:',
@@ -4250,7 +4347,8 @@ EMOJI_DATA = {
         'fr': ':fourmi:',
         'pt': ':formiga:',
         'it': ':formica:',
-        'fa': u':مورچه:'
+        'fa': u':مورچه:',
+        'tr': u':karınca:'
     },
     u'\U0001F4F6': { # 📶
         'en' : ':antenna_bars:',
@@ -4262,7 +4360,8 @@ EMOJI_DATA = {
         'fr': u':barres_de_réseau:',
         'pt': ':barras_de_sinal:',
         'it': ':segnale_cellulare:',
-        'fa': u':نوار_سیگنال:'
+        'fa': u':نوار_سیگنال:',
+        'tr': u':sinyal_gücü:'
     },
     u'\U0001F630': { # 😰
         'en' : ':anxious_face_with_sweat:',
@@ -4274,7 +4373,8 @@ EMOJI_DATA = {
         'fr': ':visage_anxieux_avec_goutte_de_sueur:',
         'pt': ':rosto_ansioso_com_gota_de_suor:',
         'it': ':faccina_sudata_in_ansia:',
-        'fa': u':عرق_ترس:'
+        'fa': u':عرق_ترس:',
+        'tr': u':terli_ve_endişeli_yüz:'
     },
     u'\U0001F69B': { # 🚛
         'en' : ':articulated_lorry:',
@@ -4285,7 +4385,8 @@ EMOJI_DATA = {
         'fr': ':semi-remorque:',
         'pt': u':caminhão:',
         'it': ':autoarticolato:',
-        'fa': u':کامیون_مفصلی:'
+        'fa': u':کامیون_مفصلی:',
+        'tr': u':tır:'
     },
     u'\U0001F9D1\U0000200D\U0001F3A8': { # 🧑‍🎨
         'en' : ':artist:',
@@ -4296,7 +4397,8 @@ EMOJI_DATA = {
         'fr': ':artiste:',
         'pt': ':artista:',
         'it': ':artista:',
-        'fa': u':هنرمند:'
+        'fa': u':هنرمند:',
+        'tr': ':ressam:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F3A8': { # 🧑🏿‍🎨
         'en' : ':artist_dark_skin_tone:',
@@ -4358,7 +4460,8 @@ EMOJI_DATA = {
         'fr': ':palette_de_peinture:',
         'pt': ':paleta_de_tintas:',
         'it': ':tavolozza:',
-        'fa': u':پالت_نقاشی:'
+        'fa': u':پالت_نقاشی:',
+        'tr': ':boya_paleti:'
     },
     u'\U0001F632': { # 😲
         'en' : ':astonished_face:',
@@ -4370,7 +4473,8 @@ EMOJI_DATA = {
         'fr': u':visage_stupéfait:',
         'pt': ':rosto_espantado:',
         'it': ':faccina_stupita:',
-        'fa': u':بهت_زده:'
+        'fa': u':بهت_زده:',
+        'tr': u':afallamış_yüz:'
     },
     u'\U0001F9D1\U0000200D\U0001F680': { # 🧑‍🚀
         'en' : ':astronaut:',
@@ -4381,7 +4485,8 @@ EMOJI_DATA = {
         'fr': ':astronaute:',
         'pt': ':astronauta:',
         'it': ':astronauta:',
-        'fa': u':فضانورد:'
+        'fa': u':فضانورد:',
+        'tr': ':astronot:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F680': { # 🧑🏿‍🚀
         'en' : ':astronaut_dark_skin_tone:',
@@ -4443,7 +4548,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_l’atome:',
         'pt': u':símbolo_de_átomo:',
         'it': u':simbolo_dell’atomo:',
-        'fa': u':نماد_اتم:'
+        'fa': u':نماد_اتم:',
+        'tr': u':atom_sembolü:'
     },
     u'\U0000269B': { # ⚛
         'en' : ':atom_symbol:',
@@ -4455,7 +4561,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_l’atome:',
         'pt': u':símbolo_de_átomo:',
         'it': u':simbolo_dell’atomo:',
-        'fa': u':نماد_اتم:'
+        'fa': u':نماد_اتم:',
+        'tr': u':atom_sembolü:'
     },
     u'\U0001F6FA': { # 🛺
         'en' : ':auto_rickshaw:',
@@ -4466,7 +4573,8 @@ EMOJI_DATA = {
         'fr': ':tuk_tuk:',
         'pt': u':automóvel_riquixá:',
         'it': u':risciò_a_motore:',
-        'fa': u':اتوریکشا:'
+        'fa': u':اتوریکشا:',
+        'tr': u':elektrikli_çekçek:'
     },
     u'\U0001F697': { # 🚗
         'en' : ':automobile:',
@@ -4478,7 +4586,8 @@ EMOJI_DATA = {
         'fr': ':voiture:',
         'pt': ':carro:',
         'it': ':auto:',
-        'fa': u':خودرو:'
+        'fa': u':خودرو:',
+        'tr': ':araba:'
     },
     u'\U0001F951': { # 🥑
         'en' : ':avocado:',
@@ -4489,7 +4598,8 @@ EMOJI_DATA = {
         'fr': ':avocat:',
         'pt': ':abacate:',
         'it': ':avocado:',
-        'fa': u':آووکادو:'
+        'fa': u':آووکادو:',
+        'tr': ':avokado:'
     },
     u'\U0001FA93': { # 🪓
         'en' : ':axe:',
@@ -4500,7 +4610,8 @@ EMOJI_DATA = {
         'fr': ':hache:',
         'pt': ':machado:',
         'it': ':ascia:',
-        'fa': u':تبر:'
+        'fa': u':تبر:',
+        'tr': ':balta:'
     },
     u'\U0001F476': { # 👶
         'en' : ':baby:',
@@ -4511,7 +4622,8 @@ EMOJI_DATA = {
         'fr': u':bébé:',
         'pt': u':bebê:',
         'it': ':neonato:',
-        'fa': u':نوزاد:'
+        'fa': u':نوزاد:',
+        'tr': ':bebek:'
     },
     u'\U0001F47C': { # 👼
         'en' : ':baby_angel:',
@@ -4523,7 +4635,8 @@ EMOJI_DATA = {
         'fr': u':bébé_ange:',
         'pt': u':bebê_anjo:',
         'it': ':angioletto:',
-        'fa': u':فرشته_کوچولو:'
+        'fa': u':فرشته_کوچولو:',
+        'tr': ':bebek_melek:'
     },
     u'\U0001F47C\U0001F3FF': { # 👼🏿
         'en' : ':baby_angel_dark_skin_tone:',
@@ -4584,7 +4697,8 @@ EMOJI_DATA = {
         'fr': ':biberon:',
         'pt': ':mamadeira:',
         'it': ':biberon:',
-        'fa': u':شیشه_شیر:'
+        'fa': u':شیشه_شیر:',
+        'tr': ':biberon:'
     },
     u'\U0001F424': { # 🐤
         'en' : ':baby_chick:',
@@ -4595,7 +4709,8 @@ EMOJI_DATA = {
         'fr': ':poussin:',
         'pt': ':pintinho_de_perfil:',
         'it': ':pulcino:',
-        'fa': u':جوجه:'
+        'fa': u':جوجه:',
+        'tr': ':civciv:'
     },
     u'\U0001F476\U0001F3FF': { # 👶🏿
         'en' : ':baby_dark_skin_tone:',
@@ -4657,7 +4772,8 @@ EMOJI_DATA = {
         'fr': u':symbole_bébé:',
         'pt': u':símbolo_de_bebê:',
         'it': ':simbolo_con_immagine_di_bambino:',
-        'fa': u':نماد_نوزاد:'
+        'fa': u':نماد_نوزاد:',
+        'tr': u':bebek_işareti:'
     },
     u'\U0001F447': { # 👇
         'en' : ':backhand_index_pointing_down:',
@@ -4670,7 +4786,8 @@ EMOJI_DATA = {
         'fr': ':main_avec_index_pointant_vers_le_bas:',
         'pt': u':dorso_da_mão_com_dedo_indicador_apontando_para_baixo:',
         'it': ':indice_abbassato:',
-        'fa': u':اشاره_به_پایین:'
+        'fa': u':اشاره_به_پایین:',
+        'tr': u':elinin_tersiyle_aşağıyı_gösteren_işaret_parmağı:'
     },
     u'\U0001F447\U0001F3FF': { # 👇🏿
         'en' : ':backhand_index_pointing_down_dark_skin_tone:',
@@ -4733,7 +4850,8 @@ EMOJI_DATA = {
         'fr': u':main_avec_index_pointant_à_gauche:',
         'pt': u':dorso_da_mão_com_dedo_indicador_apontando_para_a_esquerda:',
         'it': ':indice_verso_sinistra:',
-        'fa': u':اشاره_به_چپ:'
+        'fa': u':اشاره_به_چپ:',
+        'tr': u':elinin_tersiyle_solu_gösteren_işaret_parmağı:'
     },
     u'\U0001F448\U0001F3FF': { # 👈🏿
         'en' : ':backhand_index_pointing_left_dark_skin_tone:',
@@ -4796,7 +4914,8 @@ EMOJI_DATA = {
         'fr': u':main_avec_index_pointant_à_droite:',
         'pt': u':dorso_da_mão_com_dedo_indicador_apontando_para_a_direita:',
         'it': ':indice_verso_destra:',
-        'fa': u':اشاره_به_راست:'
+        'fa': u':اشاره_به_راست:',
+        'tr': u':elinin_tersiyle_sağı_gösteren_işaret_parmağı:'
     },
     u'\U0001F449\U0001F3FF': { # 👉🏿
         'en' : ':backhand_index_pointing_right_dark_skin_tone:',
@@ -4859,7 +4978,8 @@ EMOJI_DATA = {
         'fr': ':main_avec_index_pointant_vers_le_haut:',
         'pt': u':dorso_da_mão_com_dedo_indicador_apontando_para_cima:',
         'it': ':indice_alzato:',
-        'fa': u':اشاره_به_بالا_با_پشت_دست:'
+        'fa': u':اشاره_به_بالا_با_پشت_دست:',
+        'tr': u':elinin_tersiyle_yukarıyı_gösteren_işaret_parmağı:'
     },
     u'\U0001F446\U0001F3FF': { # 👆🏿
         'en' : ':backhand_index_pointing_up_dark_skin_tone:',
@@ -4921,7 +5041,8 @@ EMOJI_DATA = {
         'fr': ':cartable:',
         'pt': ':mochila:',
         'it': ':zaino:',
-        'fa': u':کوله_پشتی:'
+        'fa': u':کوله_پشتی:',
+        'tr': u':okul_çantası:'
     },
     u'\U0001F953': { # 🥓
         'en' : ':bacon:',
@@ -4932,7 +5053,8 @@ EMOJI_DATA = {
         'fr': ':lard:',
         'pt': ':bacon:',
         'it': ':pancetta:',
-        'fa': u':بیکن:'
+        'fa': u':بیکن:',
+        'tr': u':domuz_pastırması:'
     },
     u'\U0001F9A1': { # 🦡
         'en' : ':badger:',
@@ -4943,7 +5065,8 @@ EMOJI_DATA = {
         'fr': ':blaireau:',
         'pt': ':texugo:',
         'it': ':tasso:',
-        'fa': u':گورکن:'
+        'fa': u':گورکن:',
+        'tr': ':porsuk:'
     },
     u'\U0001F3F8': { # 🏸
         'en' : ':badminton:',
@@ -4955,7 +5078,8 @@ EMOJI_DATA = {
         'fr': ':badminton:',
         'pt': ':badminton:',
         'it': ':badminton:',
-        'fa': u':بدمینتون:'
+        'fa': u':بدمینتون:',
+        'tr': ':badminton:'
     },
     u'\U0001F96F': { # 🥯
         'en' : ':bagel:',
@@ -4966,7 +5090,8 @@ EMOJI_DATA = {
         'fr': ':bagel:',
         'pt': ':rosca:',
         'it': ':bagel:',
-        'fa': u':نان_بیگل:'
+        'fa': u':نان_بیگل:',
+        'tr': ':simit:'
     },
     u'\U0001F6C4': { # 🛄
         'en' : ':baggage_claim:',
@@ -4977,7 +5102,8 @@ EMOJI_DATA = {
         'fr': ':retrait_des_bagages:',
         'pt': u':restituição_de_bagagem:',
         'it': ':simbolo_del_ritiro_bagagli:',
-        'fa': u':دریافت_بار:'
+        'fa': u':دریافت_بار:',
+        'tr': ':bagaj_teslim:'
     },
     u'\U0001F956': { # 🥖
         'en' : ':baguette_bread:',
@@ -4988,7 +5114,8 @@ EMOJI_DATA = {
         'fr': ':baguette:',
         'pt': ':baguete:',
         'it': ':baguette:',
-        'fa': u':نان_باگت:'
+        'fa': u':نان_باگت:',
+        'tr': ':baget_ekmek:'
     },
     u'\U00002696\U0000FE0F': { # ⚖️
         'en' : ':balance_scale:',
@@ -5001,7 +5128,8 @@ EMOJI_DATA = {
         'fr': u':balance_à_poids:',
         'pt': u':balança:',
         'it': ':bilancia_a_doppio_piatto:',
-        'fa': u':ترازو:'
+        'fa': u':ترازو:',
+        'tr': ':terazi:'
     },
     u'\U00002696': { # ⚖
         'en' : ':balance_scale:',
@@ -5014,7 +5142,8 @@ EMOJI_DATA = {
         'fr': u':balance_à_poids:',
         'pt': u':balança:',
         'it': ':bilancia_a_doppio_piatto:',
-        'fa': u':ترازو:'
+        'fa': u':ترازو:',
+        'tr': ':terazi:'
     },
     u'\U0001F9B2': { # 🦲
         'en' : ':bald:',
@@ -5025,7 +5154,8 @@ EMOJI_DATA = {
         'fr': ':chauve:',
         'pt': ':careca:',
         'it': ':calvo:',
-        'fa': u':تاس:'
+        'fa': u':تاس:',
+        'tr': ':kel:'
     },
     u'\U0001FA70': { # 🩰
         'en' : ':ballet_shoes:',
@@ -5036,7 +5166,8 @@ EMOJI_DATA = {
         'fr': ':chaussons_de_danse:',
         'pt': u':sapatilha_de_balé:',
         'it': ':scarpette_da_ballerina:',
-        'fa': u':کفش_باله:'
+        'fa': u':کفش_باله:',
+        'tr': u':bale_ayakkabıları:'
     },
     u'\U0001F388': { # 🎈
         'en' : ':balloon:',
@@ -5047,7 +5178,8 @@ EMOJI_DATA = {
         'fr': ':ballon_gonflable:',
         'pt': u':balão:',
         'it': ':palloncino:',
-        'fa': u':بادکنک:'
+        'fa': u':بادکنک:',
+        'tr': ':balon:'
     },
     u'\U0001F5F3\U0000FE0F': { # 🗳️
         'en' : ':ballot_box_with_ballot:',
@@ -5060,7 +5192,8 @@ EMOJI_DATA = {
         'fr': u':urne_électorale:',
         'pt': u':urna_eleitoral_com_cédula:',
         'it': ':urna_elettorale_con_scheda:',
-        'fa': u':صندوق_رأی:'
+        'fa': u':صندوق_رأی:',
+        'tr': u':oy_sandığı:'
     },
     u'\U0001F5F3': { # 🗳
         'en' : ':ballot_box_with_ballot:',
@@ -5073,7 +5206,8 @@ EMOJI_DATA = {
         'fr': u':urne_électorale:',
         'pt': u':urna_eleitoral_com_cédula:',
         'it': ':urna_elettorale_con_scheda:',
-        'fa': u':صندوق_رأی:'
+        'fa': u':صندوق_رأی:',
+        'tr': u':oy_sandığı:'
     },
     u'\U0001F34C': { # 🍌
         'en' : ':banana:',
@@ -5084,7 +5218,8 @@ EMOJI_DATA = {
         'fr': ':banane:',
         'pt': ':banana:',
         'it': ':banana:',
-        'fa': u':موز:'
+        'fa': u':موز:',
+        'tr': ':muz:'
     },
     u'\U0001FA95': { # 🪕
         'en' : ':banjo:',
@@ -5095,7 +5230,8 @@ EMOJI_DATA = {
         'fr': ':banjo:',
         'pt': ':banjo:',
         'it': ':banjo:',
-        'fa': u':بانجو:'
+        'fa': u':بانجو:',
+        'tr': ':banjo:'
     },
     u'\U0001F3E6': { # 🏦
         'en' : ':bank:',
@@ -5106,7 +5242,8 @@ EMOJI_DATA = {
         'fr': ':banque:',
         'pt': ':banco:',
         'it': ':banca:',
-        'fa': u':بانک:'
+        'fa': u':بانک:',
+        'tr': ':banka:'
     },
     u'\U0001F4CA': { # 📊
         'en' : ':bar_chart:',
@@ -5117,7 +5254,8 @@ EMOJI_DATA = {
         'fr': u':graphiques_à_barres:',
         'pt': u':gráfico_de_barras:',
         'it': ':grafico_a_barre:',
-        'fa': u':نمودار_ستونی:'
+        'fa': u':نمودار_ستونی:',
+        'tr': u':çubuk_grafiği:'
     },
     u'\U0001F488': { # 💈
         'en' : ':barber_pole:',
@@ -5129,7 +5267,8 @@ EMOJI_DATA = {
         'fr': ':enseigne_de_barbier:',
         'pt': ':barbearia:',
         'it': ':barbiere:',
-        'fa': u':چراغ_سلمانی:'
+        'fa': u':چراغ_سلمانی:',
+        'tr': u':berber_dükkanı:'
     },
     u'\U000026BE': { # ⚾
         'en' : ':baseball:',
@@ -5141,7 +5280,8 @@ EMOJI_DATA = {
         'fr': ':baseball:',
         'pt': ':bola_de_beisebol:',
         'it': ':palla_da_baseball:',
-        'fa': u':بیسبال:'
+        'fa': u':بیسبال:',
+        'tr': ':beyzbol:'
     },
     u'\U0001F9FA': { # 🧺
         'en' : ':basket:',
@@ -5152,7 +5292,8 @@ EMOJI_DATA = {
         'fr': ':panier:',
         'pt': ':cesta:',
         'it': ':cesto:',
-        'fa': u':سبد:'
+        'fa': u':سبد:',
+        'tr': ':sepet:'
     },
     u'\U0001F3C0': { # 🏀
         'en' : ':basketball:',
@@ -5163,7 +5304,8 @@ EMOJI_DATA = {
         'fr': ':basket:',
         'pt': ':bola_de_basquete:',
         'it': ':palla_da_pallacanestro:',
-        'fa': u':بسکتبال:'
+        'fa': u':بسکتبال:',
+        'tr': ':basketbol:'
     },
     u'\U0001F987': { # 🦇
         'en' : ':bat:',
@@ -5174,7 +5316,8 @@ EMOJI_DATA = {
         'fr': ':chauve-souris:',
         'pt': ':morcego:',
         'it': ':pipistrello:',
-        'fa': u':خفاش:'
+        'fa': u':خفاش:',
+        'tr': ':yarasa:'
     },
     u'\U0001F6C1': { # 🛁
         'en' : ':bathtub:',
@@ -5185,7 +5328,8 @@ EMOJI_DATA = {
         'fr': ':baignoire:',
         'pt': ':banheira:',
         'it': ':vasca:',
-        'fa': u':وان_حمام:'
+        'fa': u':وان_حمام:',
+        'tr': u':banyo_küveti:'
     },
     u'\U0001F50B': { # 🔋
         'en' : ':battery:',
@@ -5196,7 +5340,8 @@ EMOJI_DATA = {
         'fr': ':pile:',
         'pt': ':pilha:',
         'it': ':batteria:',
-        'fa': u':باتری:'
+        'fa': u':باتری:',
+        'tr': ':pil:'
     },
     u'\U0001F3D6\U0000FE0F': { # 🏖️
         'en' : ':beach_with_umbrella:',
@@ -5209,7 +5354,8 @@ EMOJI_DATA = {
         'fr': ':plage_avec_parasol:',
         'pt': ':praia_e_guarda-sol:',
         'it': ':spiaggia_con_ombrellone:',
-        'fa': u':ساحل_و_سایبان:'
+        'fa': u':ساحل_و_سایبان:',
+        'tr': u':plaj_ve_şemsiye:'
     },
     u'\U0001F3D6': { # 🏖
         'en' : ':beach_with_umbrella:',
@@ -5222,7 +5368,8 @@ EMOJI_DATA = {
         'fr': ':plage_avec_parasol:',
         'pt': ':praia_e_guarda-sol:',
         'it': ':spiaggia_con_ombrellone:',
-        'fa': u':ساحل_و_سایبان:'
+        'fa': u':ساحل_و_سایبان:',
+        'tr': u':plaj_ve_şemsiye:'
     },
     u'\U0001F601': { # 😁
         'en' : ':beaming_face_with_smiling_eyes:',
@@ -5234,7 +5381,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant_aux_yeux_rieurs:',
         'pt': ':rosto_contente_com_olhos_sorridentes:',
         'it': ':faccina_raggiante_con_occhi_felici:',
-        'fa': u':خندهٔ_دندانی:'
+        'fa': u':خندهٔ_دندانی:',
+        'tr': u':gülen_gözlerle_sırıtma:'
     },
     u'\U0001FAD8': { # 🫘
         'en' : ':beans:',
@@ -5245,7 +5393,8 @@ EMOJI_DATA = {
         'fr': ':haricots:',
         'pt': u':feijões:',
         'it': ':fagioli:',
-        'fa': u':لوبیا:'
+        'fa': u':لوبیا:',
+        'tr': ':fasulye:'
     },
     u'\U0001F43B': { # 🐻
         'en' : ':bear:',
@@ -5256,7 +5405,8 @@ EMOJI_DATA = {
         'fr': ':ours:',
         'pt': ':rosto_de_urso:',
         'it': ':orso:',
-        'fa': u':خرس:'
+        'fa': u':خرس:',
+        'tr': u':ayı:'
     },
     u'\U0001F493': { # 💓
         'en' : ':beating_heart:',
@@ -5268,7 +5418,8 @@ EMOJI_DATA = {
         'fr': u':cœur_battant:',
         'pt': u':coração_pulsante:',
         'it': ':cuore_che_batte:',
-        'fa': u':قلب_تپنده:'
+        'fa': u':قلب_تپنده:',
+        'tr': u':çarpan_kalp:'
     },
     u'\U0001F9AB': { # 🦫
         'en' : ':beaver:',
@@ -5279,7 +5430,8 @@ EMOJI_DATA = {
         'fr': ':castor:',
         'pt': ':castor:',
         'it': ':castoro:',
-        'fa': u':بیدستر:'
+        'fa': u':بیدستر:',
+        'tr': ':kunduz:'
     },
     u'\U0001F6CF\U0000FE0F': { # 🛏️
         'en' : ':bed:',
@@ -5291,7 +5443,8 @@ EMOJI_DATA = {
         'fr': ':lit:',
         'pt': ':cama:',
         'it': ':letto:',
-        'fa': u':تختخواب:'
+        'fa': u':تختخواب:',
+        'tr': ':yatak:'
     },
     u'\U0001F6CF': { # 🛏
         'en' : ':bed:',
@@ -5303,7 +5456,8 @@ EMOJI_DATA = {
         'fr': ':lit:',
         'pt': ':cama:',
         'it': ':letto:',
-        'fa': u':تختخواب:'
+        'fa': u':تختخواب:',
+        'tr': ':yatak:'
     },
     u'\U0001F37A': { # 🍺
         'en' : ':beer_mug:',
@@ -5315,7 +5469,8 @@ EMOJI_DATA = {
         'fr': ':chope:',
         'pt': ':cerveja:',
         'it': ':boccale_di_birra:',
-        'fa': u':لیوان_آب_جو:'
+        'fa': u':لیوان_آب_جو:',
+        'tr': u':bira_kupası:'
     },
     u'\U0001FAB2': { # 🪲
         'en' : ':beetle:',
@@ -5326,7 +5481,8 @@ EMOJI_DATA = {
         'fr': u':scarabée:',
         'pt': ':besouro:',
         'it': ':coleottero:',
-        'fa': u':سوسک:'
+        'fa': u':سوسک:',
+        'tr': u':böcek:'
     },
     u'\U0001F514': { # 🔔
         'en' : ':bell:',
@@ -5337,7 +5493,8 @@ EMOJI_DATA = {
         'fr': ':cloche:',
         'pt': ':sino:',
         'it': ':campana:',
-        'fa': u':زنگ:'
+        'fa': u':زنگ:',
+        'tr': ':zil:'
     },
     u'\U0001FAD1': { # 🫑
         'en' : ':bell_pepper:',
@@ -5348,7 +5505,8 @@ EMOJI_DATA = {
         'fr': ':poivron:',
         'pt': u':pimentão:',
         'it': ':peperone:',
-        'fa': u':فلفل_دلمه_ای:'
+        'fa': u':فلفل_دلمه_ای:',
+        'tr': ':dolma_biber:'
     },
     u'\U0001F515': { # 🔕
         'en' : ':bell_with_slash:',
@@ -5360,7 +5518,8 @@ EMOJI_DATA = {
         'fr': u':alarme_désactivée:',
         'pt': ':sino_silenciado:',
         'it': ':campana_sbarrata:',
-        'fa': u':خط_قرمز_روی_زنگوله:'
+        'fa': u':خط_قرمز_روی_زنگوله:',
+        'tr': u':üzeri_çizili_zil:'
     },
     u'\U0001F6CE\U0000FE0F': { # 🛎️
         'en' : ':bellhop_bell:',
@@ -5372,7 +5531,8 @@ EMOJI_DATA = {
         'fr': ':cloche_de_comptoir:',
         'pt': ':sineta:',
         'it': ':campanello_da_hotel:',
-        'fa': u':زنگ_میز_پذیرش:'
+        'fa': u':زنگ_میز_پذیرش:',
+        'tr': ':resepsiyon_zili:'
     },
     u'\U0001F6CE': { # 🛎
         'en' : ':bellhop_bell:',
@@ -5384,7 +5544,8 @@ EMOJI_DATA = {
         'fr': ':cloche_de_comptoir:',
         'pt': ':sineta:',
         'it': ':campanello_da_hotel:',
-        'fa': u':زنگ_میز_پذیرش:'
+        'fa': u':زنگ_میز_پذیرش:',
+        'tr': ':resepsiyon_zili:'
     },
     u'\U0001F371': { # 🍱
         'en' : ':bento_box:',
@@ -5396,7 +5557,8 @@ EMOJI_DATA = {
         'fr': u':boîte_déjeuner:',
         'pt': u':bentô:',
         'it': ':bento_box:',
-        'fa': u':جعبه_بنتو:'
+        'fa': u':جعبه_بنتو:',
+        'tr': ':bento:'
     },
     u'\U0001F9C3': { # 🧃
         'en' : ':beverage_box:',
@@ -5407,7 +5569,8 @@ EMOJI_DATA = {
         'fr': ':briquette_de_jus:',
         'pt': ':suco_de_caixa:',
         'it': ':bevanda_monodose:',
-        'fa': u':پاکت_نوشیدنی:'
+        'fa': u':پاکت_نوشیدنی:',
+        'tr': u':içecek_kutusu:'
     },
     u'\U0001F6B2': { # 🚲
         'en' : ':bicycle:',
@@ -5420,7 +5583,8 @@ EMOJI_DATA = {
         'fr': u':vélo:',
         'pt': ':bicicleta:',
         'it': ':bicicletta:',
-        'fa': u':دوچرخه:'
+        'fa': u':دوچرخه:',
+        'tr': ':bisiklet:'
     },
     u'\U0001F459': { # 👙
         'en' : ':bikini:',
@@ -5431,7 +5595,8 @@ EMOJI_DATA = {
         'fr': ':bikini:',
         'pt': u':biquíni:',
         'it': ':bikini:',
-        'fa': u':بیکینی:'
+        'fa': u':بیکینی:',
+        'tr': ':bikini:'
     },
     u'\U0001F9E2': { # 🧢
         'en' : ':billed_cap:',
@@ -5442,7 +5607,8 @@ EMOJI_DATA = {
         'fr': u':casquette_américaine:',
         'pt': u':boné:',
         'it': ':cappello_con_visiera:',
-        'fa': u':کلاه_لبه_دار:'
+        'fa': u':کلاه_لبه_دار:',
+        'tr': u':siperli_şapka:'
     },
     u'\U00002623\U0000FE0F': { # ☣️
         'en' : ':biohazard:',
@@ -5455,7 +5621,8 @@ EMOJI_DATA = {
         'fr': ':danger_biologique:',
         'pt': u':risco_biológico:',
         'it': ':simbolo_del_rischio_biologico:',
-        'fa': u':خطر_زیستی:'
+        'fa': u':خطر_زیستی:',
+        'tr': ':biyolojik_tehlike:'
     },
     u'\U00002623': { # ☣
         'en' : ':biohazard:',
@@ -5468,7 +5635,8 @@ EMOJI_DATA = {
         'fr': ':danger_biologique:',
         'pt': u':risco_biológico:',
         'it': ':simbolo_del_rischio_biologico:',
-        'fa': u':خطر_زیستی:'
+        'fa': u':خطر_زیستی:',
+        'tr': ':biyolojik_tehlike:'
     },
     u'\U0001F426': { # 🐦
         'en' : ':bird:',
@@ -5480,7 +5648,8 @@ EMOJI_DATA = {
         'fr': ':oiseau:',
         'pt': u':pássaro:',
         'it': ':uccello:',
-        'fa': u':پرنده:'
+        'fa': u':پرنده:',
+        'tr': u':kuş:'
     },
     u'\U0001F382': { # 🎂
         'en' : ':birthday_cake:',
@@ -5492,7 +5661,8 @@ EMOJI_DATA = {
         'fr': u':gâteau_d’anniversaire:',
         'pt': u':bolo_de_aniversário:',
         'it': ':torta_di_compleanno:',
-        'fa': u':کیک_تولد:'
+        'fa': u':کیک_تولد:',
+        'tr': u':doğum_günü_pastası:'
     },
     u'\U0001F9AC': { # 🦬
         'en' : ':bison:',
@@ -5503,7 +5673,8 @@ EMOJI_DATA = {
         'fr': ':bison:',
         'pt': u':bisão:',
         'it': ':bisonte:',
-        'fa': u':گاومیش:'
+        'fa': u':گاومیش:',
+        'tr': ':bizon:'
     },
     u'\U0001FAE6': { # 🫦
         'en' : ':biting_lip:',
@@ -5514,7 +5685,8 @@ EMOJI_DATA = {
         'fr': u':lèvres_qui_se_mordent:',
         'pt': u':mordendo_o_lábio:',
         'it': ':bocca_che_morde_il_labbro:',
-        'fa': u':گازگرفتن_لب:'
+        'fa': u':گازگرفتن_لب:',
+        'tr': u':ısırılan_dudak:'
     },
     u'\U0001F408\U0000200D\U00002B1B': { # 🐈‍⬛
         'en' : ':black_cat:',
@@ -5525,7 +5697,8 @@ EMOJI_DATA = {
         'fr': ':chat_noir:',
         'pt': ':gato_preto:',
         'it': ':gatto_nero:',
-        'fa': u':گربه_سیاه:'
+        'fa': u':گربه_سیاه:',
+        'tr': ':kara_kedi:'
     },
     u'\U000026AB': { # ⚫
         'en' : ':black_circle:',
@@ -5537,7 +5710,8 @@ EMOJI_DATA = {
         'fr': ':disque_noir:',
         'pt': u':círculo_preto:',
         'it': ':cerchio_nero:',
-        'fa': u':دایره_مشکی:'
+        'fa': u':دایره_مشکی:',
+        'tr': ':siyah_daire:'
     },
     u'\U0001F3F4': { # 🏴
         'en' : ':black_flag:',
@@ -5549,7 +5723,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_noir:',
         'pt': ':bandeira_preta:',
         'it': ':bandiera_nera:',
-        'fa': u':پرچم_سیاه:'
+        'fa': u':پرچم_سیاه:',
+        'tr': ':siyah_bayrak:'
     },
     u'\U0001F5A4': { # 🖤
         'en' : ':black_heart:',
@@ -5560,7 +5735,8 @@ EMOJI_DATA = {
         'fr': u':cœur_noir:',
         'pt': u':coração_preto:',
         'it': ':cuore_nero:',
-        'fa': u':قلب_سیاه:'
+        'fa': u':قلب_سیاه:',
+        'tr': ':siyah_kalp:'
     },
     u'\U00002B1B': { # ⬛
         'en' : ':black_large_square:',
@@ -5572,7 +5748,8 @@ EMOJI_DATA = {
         'fr': u':grand_carré_noir:',
         'pt': ':quadrado_preto_grande:',
         'it': ':quadrato_nero_grande:',
-        'fa': u':مربع_مشکی_بزرگ:'
+        'fa': u':مربع_مشکی_بزرگ:',
+        'tr': u':büyük_siyah_kare:'
     },
     u'\U000025FE': { # ◾
         'en' : ':black_medium-small_square:',
@@ -5585,7 +5762,8 @@ EMOJI_DATA = {
         'fr': u':carré_petit_moyen_noir:',
         'pt': u':quadrado_preto_médio_menor:',
         'it': ':quadrato_nero_medio-piccolo:',
-        'fa': u':مربع_مشکی_نسبتاً_کوچک:'
+        'fa': u':مربع_مشکی_نسبتاً_کوچک:',
+        'tr': u':küçük-orta_siyah_kare:'
     },
     u'\U000025FC\U0000FE0F': { # ◼️
         'en' : ':black_medium_square:',
@@ -5597,7 +5775,8 @@ EMOJI_DATA = {
         'fr': u':carré_moyen_noir:',
         'pt': u':quadrado_preto_médio:',
         'it': ':quadrato_nero_medio:',
-        'fa': u':مربع_مشکی_متوسط:'
+        'fa': u':مربع_مشکی_متوسط:',
+        'tr': ':orta_boy_siyah_kare:'
     },
     u'\U000025FC': { # ◼
         'en' : ':black_medium_square:',
@@ -5609,7 +5788,8 @@ EMOJI_DATA = {
         'fr': u':carré_moyen_noir:',
         'pt': u':quadrado_preto_médio:',
         'it': ':quadrato_nero_medio:',
-        'fa': u':مربع_مشکی_متوسط:'
+        'fa': u':مربع_مشکی_متوسط:',
+        'tr': ':orta_boy_siyah_kare:'
     },
     u'\U00002712\U0000FE0F': { # ✒️
         'en' : ':black_nib:',
@@ -5621,7 +5801,8 @@ EMOJI_DATA = {
         'fr': ':stylo_plume_noir:',
         'pt': ':ponta_de_caneta_tinteiro:',
         'it': ':pennino:',
-        'fa': u':قلم_مشکی:'
+        'fa': u':قلم_مشکی:',
+        'tr': u':siyah_uç:'
     },
     u'\U00002712': { # ✒
         'en' : ':black_nib:',
@@ -5633,7 +5814,8 @@ EMOJI_DATA = {
         'fr': ':stylo_plume_noir:',
         'pt': ':ponta_de_caneta_tinteiro:',
         'it': ':pennino:',
-        'fa': u':قلم_مشکی:'
+        'fa': u':قلم_مشکی:',
+        'tr': u':siyah_uç:'
     },
     u'\U000025AA\U0000FE0F': { # ▪️
         'en' : ':black_small_square:',
@@ -5645,7 +5827,8 @@ EMOJI_DATA = {
         'fr': u':petit_carré_noir:',
         'pt': ':quadrado_preto_pequeno:',
         'it': ':quadrato_nero_piccolo:',
-        'fa': u':مربع_مشکی_کوچک:'
+        'fa': u':مربع_مشکی_کوچک:',
+        'tr': u':küçük_siyah_kare:'
     },
     u'\U000025AA': { # ▪
         'en' : ':black_small_square:',
@@ -5657,7 +5840,8 @@ EMOJI_DATA = {
         'fr': u':petit_carré_noir:',
         'pt': ':quadrado_preto_pequeno:',
         'it': ':quadrato_nero_piccolo:',
-        'fa': u':مربع_مشکی_کوچک:'
+        'fa': u':مربع_مشکی_کوچک:',
+        'tr': u':küçük_siyah_kare:'
     },
     u'\U0001F532': { # 🔲
         'en' : ':black_square_button:',
@@ -5668,7 +5852,8 @@ EMOJI_DATA = {
         'fr': u':carré_noir:',
         'pt': u':botão_quadrado_preto:',
         'it': ':tasto_quadrato_bianco_con_bordo_nero:',
-        'fa': u':دکمۀ_مربع_مشکی:'
+        'fa': u':دکمۀ_مربع_مشکی:',
+        'tr': u':siyah_kare_düğme:'
     },
     u'\U0001F33C': { # 🌼
         'en' : ':blossom:',
@@ -5679,7 +5864,8 @@ EMOJI_DATA = {
         'fr': ':bourgeon:',
         'pt': ':flor:',
         'it': ':fiore:',
-        'fa': u':شکوفه:'
+        'fa': u':شکوفه:',
+        'tr': u':çiçek_açma:'
     },
     u'\U0001F421': { # 🐡
         'en' : ':blowfish:',
@@ -5690,7 +5876,8 @@ EMOJI_DATA = {
         'fr': ':poisson-lune:',
         'pt': ':baiacu:',
         'it': ':pesce_palla:',
-        'fa': u':ماهی_بادکنکی:'
+        'fa': u':ماهی_بادکنکی:',
+        'tr': u':balon_balığı:'
     },
     u'\U0001F4D8': { # 📘
         'en' : ':blue_book:',
@@ -5701,7 +5888,8 @@ EMOJI_DATA = {
         'fr': ':livre_bleu:',
         'pt': ':livro_azul:',
         'it': ':libro_blu:',
-        'fa': u':کتاب_آبی:'
+        'fa': u':کتاب_آبی:',
+        'tr': ':mavi_kitap:'
     },
     u'\U0001F535': { # 🔵
         'en' : ':blue_circle:',
@@ -5713,7 +5901,8 @@ EMOJI_DATA = {
         'fr': ':disque_bleu:',
         'pt': u':círculo_azul:',
         'it': ':cerchio_blu:',
-        'fa': u':دایره_آبی:'
+        'fa': u':دایره_آبی:',
+        'tr': ':mavi_daire:'
     },
     u'\U0001F499': { # 💙
         'en' : ':blue_heart:',
@@ -5724,7 +5913,8 @@ EMOJI_DATA = {
         'fr': u':cœur_bleu:',
         'pt': u':coração_azul:',
         'it': ':cuore_azzurro:',
-        'fa': u':قلب_آبی:'
+        'fa': u':قلب_آبی:',
+        'tr': ':mavi_kalp:'
     },
     u'\U0001F7E6': { # 🟦
         'en' : ':blue_square:',
@@ -5735,7 +5925,8 @@ EMOJI_DATA = {
         'fr': u':carré_bleu:',
         'pt': ':quadrado_azul:',
         'it': ':quadrato_blu:',
-        'fa': u':مربع_آبی:'
+        'fa': u':مربع_آبی:',
+        'tr': ':mavi_kare:'
     },
     u'\U0001FAD0': { # 🫐
         'en' : ':blueberries:',
@@ -5746,7 +5937,8 @@ EMOJI_DATA = {
         'fr': ':myrtilles:',
         'pt': ':mirtilos:',
         'it': ':mirtilli:',
-        'fa': u':توت_آبی:'
+        'fa': u':توت_آبی:',
+        'tr': ':yaban_mersini:'
     },
     u'\U0001F417': { # 🐗
         'en' : ':boar:',
@@ -5757,7 +5949,8 @@ EMOJI_DATA = {
         'fr': ':sanglier:',
         'pt': ':javali:',
         'it': ':cinghiale:',
-        'fa': u':گراز_نر:'
+        'fa': u':گراز_نر:',
+        'tr': ':yaban_domuzu:'
     },
     u'\U0001F4A3': { # 💣
         'en' : ':bomb:',
@@ -5769,7 +5962,8 @@ EMOJI_DATA = {
         'fr': ':bombe:',
         'pt': ':bomba:',
         'it': ':bomba:',
-        'fa': u':بمب:'
+        'fa': u':بمب:',
+        'tr': ':bomba:'
     },
     u'\U0001F9B4': { # 🦴
         'en' : ':bone:',
@@ -5780,7 +5974,8 @@ EMOJI_DATA = {
         'fr': ':os:',
         'pt': ':osso:',
         'it': ':osso:',
-        'fa': u':استخوان:'
+        'fa': u':استخوان:',
+        'tr': ':kemik:'
     },
     u'\U0001F516': { # 🔖
         'en' : ':bookmark:',
@@ -5791,7 +5986,8 @@ EMOJI_DATA = {
         'fr': ':marque-page:',
         'pt': u':marcador_de_página:',
         'it': ':segnalibro:',
-        'fa': u':نشان_گذار_کتاب:'
+        'fa': u':نشان_گذار_کتاب:',
+        'tr': u':yer_işareti:'
     },
     u'\U0001F4D1': { # 📑
         'en' : ':bookmark_tabs:',
@@ -5802,7 +5998,8 @@ EMOJI_DATA = {
         'fr': ':signets:',
         'pt': u':marcadores_de_página:',
         'it': ':etichette_segnalibro:',
-        'fa': u':برچسب_های_نشانه_گذاری:'
+        'fa': u':برچسب_های_نشانه_گذاری:',
+        'tr': u':sayfa_ayraçları:'
     },
     u'\U0001F4DA': { # 📚
         'en' : ':books:',
@@ -5814,7 +6011,8 @@ EMOJI_DATA = {
         'fr': ':livres:',
         'pt': ':livros:',
         'it': ':libri:',
-        'fa': u':چند_کتاب:'
+        'fa': u':چند_کتاب:',
+        'tr': ':kitaplar:'
     },
     u'\U0001FA83': { # 🪃
         'en' : ':boomerang:',
@@ -5825,7 +6023,8 @@ EMOJI_DATA = {
         'fr': ':boomerang:',
         'pt': ':bumerangue:',
         'it': ':boomerang:',
-        'fa': u':بومرنگ:'
+        'fa': u':بومرنگ:',
+        'tr': ':bumerang:'
     },
     u'\U0001F37E': { # 🍾
         'en' : ':bottle_with_popping_cork:',
@@ -5837,7 +6036,8 @@ EMOJI_DATA = {
         'fr': ':bouteille_de_champagne:',
         'pt': ':garrafa_de_champanhe:',
         'it': ':bottiglia_stappata:',
-        'fa': u':شامپاین_جوشان:'
+        'fa': u':شامپاین_جوشان:',
+        'tr': u':patlayan_mantarlı_şişe:'
     },
     u'\U0001F490': { # 💐
         'en' : ':bouquet:',
@@ -5848,7 +6048,8 @@ EMOJI_DATA = {
         'fr': ':bouquet:',
         'pt': u':buquê:',
         'it': ':mazzo_di_fiori:',
-        'fa': u':دسته_گل:'
+        'fa': u':دسته_گل:',
+        'tr': ':buket:'
     },
     u'\U0001F3F9': { # 🏹
         'en' : ':bow_and_arrow:',
@@ -5859,7 +6060,8 @@ EMOJI_DATA = {
         'fr': u':arc_et_flèche:',
         'pt': ':arco_e_flecha:',
         'it': ':arco_e_freccia:',
-        'fa': u':تیر_و_کمان:'
+        'fa': u':تیر_و_کمان:',
+        'tr': ':ok_ve_yay:'
     },
     u'\U0001F963': { # 🥣
         'en' : ':bowl_with_spoon:',
@@ -5870,7 +6072,8 @@ EMOJI_DATA = {
         'fr': u':bol_avec_cuillère:',
         'pt': ':tigela_com_colher:',
         'it': ':ciotola_con_cucchiaio:',
-        'fa': u':کاسه_و_قاشق:'
+        'fa': u':کاسه_و_قاشق:',
+        'tr': u':kaşıklı_kase:'
     },
     u'\U0001F3B3': { # 🎳
         'en' : ':bowling:',
@@ -5881,7 +6084,8 @@ EMOJI_DATA = {
         'fr': ':bowling:',
         'pt': ':boliche:',
         'it': ':bowling:',
-        'fa': u':بولینگ:'
+        'fa': u':بولینگ:',
+        'tr': ':bovling:'
     },
     u'\U0001F94A': { # 🥊
         'en' : ':boxing_glove:',
@@ -5892,7 +6096,8 @@ EMOJI_DATA = {
         'fr': ':gant_de_boxe:',
         'pt': ':luva_de_boxe:',
         'it': ':guantone_da_pugilato:',
-        'fa': u':دست_کش_بوکس:'
+        'fa': u':دست_کش_بوکس:',
+        'tr': ':boks_eldiveni:'
     },
     u'\U0001F466': { # 👦
         'en' : ':boy:',
@@ -5903,7 +6108,8 @@ EMOJI_DATA = {
         'fr': u':garçon:',
         'pt': ':menino:',
         'it': ':bambino:',
-        'fa': u':پسر:'
+        'fa': u':پسر:',
+        'tr': u':erkek_çocuk:'
     },
     u'\U0001F466\U0001F3FF': { # 👦🏿
         'en' : ':boy_dark_skin_tone:',
@@ -5964,7 +6170,8 @@ EMOJI_DATA = {
         'fr': ':cerveau:',
         'pt': u':cérebro:',
         'it': ':cervello:',
-        'fa': u':مغز:'
+        'fa': u':مغز:',
+        'tr': ':beyin:'
     },
     u'\U0001F35E': { # 🍞
         'en' : ':bread:',
@@ -5975,7 +6182,8 @@ EMOJI_DATA = {
         'fr': ':pain:',
         'pt': u':pão:',
         'it': ':pane_in_cassetta:',
-        'fa': u':نان:'
+        'fa': u':نان:',
+        'tr': ':ekmek:'
     },
     u'\U0001F931': { # 🤱
         'en' : ':breast-feeding:',
@@ -5987,7 +6195,8 @@ EMOJI_DATA = {
         'fr': ':allaitement:',
         'pt': ':amamentando:',
         'it': ':allattare:',
-        'fa': u':تغذیه_با_شیر_مادر:'
+        'fa': u':تغذیه_با_شیر_مادر:',
+        'tr': u':emziren_kadın:'
     },
     u'\U0001F931\U0001F3FF': { # 🤱🏿
         'en' : ':breast-feeding_dark_skin_tone:',
@@ -6049,7 +6258,8 @@ EMOJI_DATA = {
         'fr': ':brique:',
         'pt': ':tijolo:',
         'it': ':mattoni:',
-        'fa': u':دیوار_آجری:'
+        'fa': u':دیوار_آجری:',
+        'tr': u':tuğla:'
     },
     u'\U0001F309': { # 🌉
         'en' : ':bridge_at_night:',
@@ -6060,7 +6270,8 @@ EMOJI_DATA = {
         'fr': ':pont_de_nuit:',
         'pt': u':ponte_à_noite:',
         'it': ':ponte_di_notte:',
-        'fa': u':پل_در_شب:'
+        'fa': u':پل_در_شب:',
+        'tr': u':gece_vakti_köprü:'
     },
     u'\U0001F4BC': { # 💼
         'en' : ':briefcase:',
@@ -6071,7 +6282,8 @@ EMOJI_DATA = {
         'fr': ':porte-documents:',
         'pt': ':maleta:',
         'it': ':valigetta_24_ore:',
-        'fa': u':کیف_اسناد:'
+        'fa': u':کیف_اسناد:',
+        'tr': u':evrak_çantası:'
     },
     u'\U0001FA72': { # 🩲
         'en' : ':briefs:',
@@ -6083,7 +6295,8 @@ EMOJI_DATA = {
         'fr': ':slip:',
         'pt': ':cueca:',
         'it': ':slip:',
-        'fa': u':شورت_اسلیپ:'
+        'fa': u':شورت_اسلیپ:',
+        'tr': ':slip_mayo:'
     },
     u'\U0001F506': { # 🔆
         'en' : ':bright_button:',
@@ -6095,7 +6308,8 @@ EMOJI_DATA = {
         'fr': u':luminosité_élevée:',
         'pt': u':botão_de_aumentar_brilho:',
         'it': u':luminosità_elevata:',
-        'fa': u':دکمهٔ_روشن_کردن_صفحه:'
+        'fa': u':دکمهٔ_روشن_کردن_صفحه:',
+        'tr': u':yüksek_parlaklık:'
     },
     u'\U0001F966': { # 🥦
         'en' : ':broccoli:',
@@ -6106,7 +6320,8 @@ EMOJI_DATA = {
         'fr': ':brocoli:',
         'pt': u':brócolis:',
         'it': ':broccoli:',
-        'fa': u':بروکلی:'
+        'fa': u':بروکلی:',
+        'tr': ':brokoli:'
     },
     u'\U0001F494': { # 💔
         'en' : ':broken_heart:',
@@ -6117,7 +6332,8 @@ EMOJI_DATA = {
         'fr': u':cœur_brisé:',
         'pt': u':coração_partido:',
         'it': ':cuore_infranto:',
-        'fa': u':قلب_شکسته:'
+        'fa': u':قلب_شکسته:',
+        'tr': u':kırık_kalp:'
     },
     u'\U0001F9F9': { # 🧹
         'en' : ':broom:',
@@ -6128,7 +6344,8 @@ EMOJI_DATA = {
         'fr': ':balai:',
         'pt': ':vassoura:',
         'it': ':scopa:',
-        'fa': u':جارو:'
+        'fa': u':جارو:',
+        'tr': u':süpürge:'
     },
     u'\U0001F7E4': { # 🟤
         'en' : ':brown_circle:',
@@ -6139,7 +6356,8 @@ EMOJI_DATA = {
         'fr': ':disque_marron:',
         'pt': u':círculo_marrom:',
         'it': ':cerchio_marrone:',
-        'fa': u':دایره_قهوه_ای:'
+        'fa': u':دایره_قهوه_ای:',
+        'tr': ':kahverengi_daire:'
     },
     u'\U0001F90E': { # 🤎
         'en' : ':brown_heart:',
@@ -6150,7 +6368,8 @@ EMOJI_DATA = {
         'fr': u':cœur_marron:',
         'pt': u':coração_marrom:',
         'it': ':cuore_marrone:',
-        'fa': u':قلب_قهوه_ای:'
+        'fa': u':قلب_قهوه_ای:',
+        'tr': ':kahverengi_kalp:'
     },
     u'\U0001F7EB': { # 🟫
         'en' : ':brown_square:',
@@ -6161,7 +6380,8 @@ EMOJI_DATA = {
         'fr': u':carré_marron:',
         'pt': ':quadrado_marrom:',
         'it': ':quadrato_marrone:',
-        'fa': u':مربع_قهوه_ای:'
+        'fa': u':مربع_قهوه_ای:',
+        'tr': ':kahverengi_kare:'
     },
     u'\U0001F9CB': { # 🧋
         'en' : ':bubble_tea:',
@@ -6172,7 +6392,8 @@ EMOJI_DATA = {
         'fr': u':thé_aux_perles:',
         'pt': u':chá_perolado:',
         'it': ':bubble_tea:',
-        'fa': u':چای_حُبابی:'
+        'fa': u':چای_حُبابی:',
+        'tr': ':bubble_tea:'
     },
     u'\U0001FAE7': { # 🫧
         'en' : ':bubbles:',
@@ -6183,7 +6404,8 @@ EMOJI_DATA = {
         'fr': ':bulles:',
         'pt': ':bolhas:',
         'it': ':bolle:',
-        'fa': u':حباب:'
+        'fa': u':حباب:',
+        'tr': ':baloncuk:'
     },
     u'\U0001FAA3': { # 🪣
         'en' : ':bucket:',
@@ -6194,7 +6416,8 @@ EMOJI_DATA = {
         'fr': ':seau:',
         'pt': ':balde:',
         'it': ':secchio:',
-        'fa': u':سطل:'
+        'fa': u':سطل:',
+        'tr': ':kova:'
     },
     u'\U0001F41B': { # 🐛
         'en' : ':bug:',
@@ -6205,7 +6428,8 @@ EMOJI_DATA = {
         'fr': ':chenille:',
         'pt': ':inseto:',
         'it': ':insetto:',
-        'fa': u':حشره:'
+        'fa': u':حشره:',
+        'tr': u':tırtıl:'
     },
     u'\U0001F3D7\U0000FE0F': { # 🏗️
         'en' : ':building_construction:',
@@ -6217,7 +6441,8 @@ EMOJI_DATA = {
         'fr': u':construction_d’un_bâtiment:',
         'pt': u':construção:',
         'it': ':edificio_in_costruzione:',
-        'fa': u':ساخت_وساز_ساختمانی:'
+        'fa': u':ساخت_وساز_ساختمانی:',
+        'tr': u':bina_inşaatı:'
     },
     u'\U0001F3D7': { # 🏗
         'en' : ':building_construction:',
@@ -6229,7 +6454,8 @@ EMOJI_DATA = {
         'fr': u':construction_d’un_bâtiment:',
         'pt': u':construção:',
         'it': ':edificio_in_costruzione:',
-        'fa': u':ساخت_وساز_ساختمانی:'
+        'fa': u':ساخت_وساز_ساختمانی:',
+        'tr': u':bina_inşaatı:'
     },
     u'\U0001F685': { # 🚅
         'en' : ':bullet_train:',
@@ -6241,7 +6467,8 @@ EMOJI_DATA = {
         'fr': u':train_à_grande_vitesse:',
         'pt': u':trem_de_alta_velocidade_japonês:',
         'it': u':treno_alta_velocità_punta_arrotondata:',
-        'fa': u':قطار_تندرو:'
+        'fa': u':قطار_تندرو:',
+        'tr': u':yuvarlak_uçlu_yüksek_hızlı_tren:'
     },
     u'\U0001F3AF': { # 🎯
         'en' : ':bullseye:',
@@ -6253,7 +6480,8 @@ EMOJI_DATA = {
         'fr': ':dans_le_mille:',
         'pt': ':no_alvo:',
         'it': ':bersaglio:',
-        'fa': u':پیکان_در_قلب_هدف:'
+        'fa': u':پیکان_در_قلب_هدف:',
+        'tr': ':tam_isabet:'
     },
     u'\U0001F32F': { # 🌯
         'en' : ':burrito:',
@@ -6264,7 +6492,8 @@ EMOJI_DATA = {
         'fr': ':burrito:',
         'pt': ':burrito:',
         'it': ':burrito:',
-        'fa': u':بوریتو:'
+        'fa': u':بوریتو:',
+        'tr': ':burito:'
     },
     u'\U0001F68C': { # 🚌
         'en' : ':bus:',
@@ -6275,7 +6504,8 @@ EMOJI_DATA = {
         'fr': ':bus:',
         'pt': u':ônibus:',
         'it': ':bus:',
-        'fa': u':اتوبوس:'
+        'fa': u':اتوبوس:',
+        'tr': u':otobüs:'
     },
     u'\U0001F68F': { # 🚏
         'en' : ':bus_stop:',
@@ -6287,7 +6517,8 @@ EMOJI_DATA = {
         'fr': u':arrêt_de_bus:',
         'pt': u':ponto_de_ônibus:',
         'it': u':fermata_dell’autobus:',
-        'fa': u':ایستگاه_اتوبوس:'
+        'fa': u':ایستگاه_اتوبوس:',
+        'tr': u':otobüs_durağı:'
     },
     u'\U0001F464': { # 👤
         'en' : ':bust_in_silhouette:',
@@ -6298,7 +6529,8 @@ EMOJI_DATA = {
         'fr': ':silhouette_de_buste:',
         'pt': ':silhueta_de_busto:',
         'it': ':profilo_di_persona:',
-        'fa': u':تندیس_سایه_نما:'
+        'fa': u':تندیس_سایه_نما:',
+        'tr': u':siluet_büst:'
     },
     u'\U0001F465': { # 👥
         'en' : ':busts_in_silhouette:',
@@ -6309,7 +6541,8 @@ EMOJI_DATA = {
         'fr': ':silhouettes_de_bustes:',
         'pt': ':silhueta_de_bustos:',
         'it': ':profilo_di_due_persone:',
-        'fa': u':تندیس_های_سایه_نما:'
+        'fa': u':تندیس_های_سایه_نما:',
+        'tr': u':siluet_büstler:'
     },
     u'\U0001F9C8': { # 🧈
         'en' : ':butter:',
@@ -6320,7 +6553,8 @@ EMOJI_DATA = {
         'fr': ':beurre:',
         'pt': ':manteiga:',
         'it': ':burro:',
-        'fa': u':کره:'
+        'fa': u':کره:',
+        'tr': u':tereyağı:'
     },
     u'\U0001F98B': { # 🦋
         'en' : ':butterfly:',
@@ -6331,7 +6565,8 @@ EMOJI_DATA = {
         'fr': ':papillon:',
         'pt': ':borboleta:',
         'it': ':farfalla:',
-        'fa': u':پروانه:'
+        'fa': u':پروانه:',
+        'tr': ':kelebek:'
     },
     u'\U0001F335': { # 🌵
         'en' : ':cactus:',
@@ -6342,7 +6577,8 @@ EMOJI_DATA = {
         'fr': ':cactus:',
         'pt': ':cacto:',
         'it': ':cactus:',
-        'fa': u':کاکتوس:'
+        'fa': u':کاکتوس:',
+        'tr': u':kaktüs:'
     },
     u'\U0001F4C5': { # 📅
         'en' : ':calendar:',
@@ -6354,7 +6590,8 @@ EMOJI_DATA = {
         'fr': ':calendrier:',
         'pt': u':calendário:',
         'it': ':calendario:',
-        'fa': u':تقویم:'
+        'fa': u':تقویم:',
+        'tr': ':takvim:'
     },
     u'\U0001F919': { # 🤙
         'en' : ':call_me_hand:',
@@ -6365,7 +6602,8 @@ EMOJI_DATA = {
         'fr': u':signe_appel_téléphonique_avec_les_doigts:',
         'pt': ':sinal_me_liga:',
         'it': ':mano_con_gesto_di_chiamata:',
-        'fa': u':دست_به_شکل_تلفن:'
+        'fa': u':دست_به_شکل_تلفن:',
+        'tr': u':beni_ara_işareti:'
     },
     u'\U0001F919\U0001F3FF': { # 🤙🏿
         'en' : ':call_me_hand_dark_skin_tone:',
@@ -6427,7 +6665,8 @@ EMOJI_DATA = {
         'fr': ':dromadaire:',
         'pt': ':camelo:',
         'it': ':dromedario:',
-        'fa': u':شتر:'
+        'fa': u':شتر:',
+        'tr': ':deve:'
     },
     u'\U0001F4F7': { # 📷
         'en' : ':camera:',
@@ -6439,7 +6678,8 @@ EMOJI_DATA = {
         'fr': ':appareil_photo:',
         'pt': u':câmera:',
         'it': ':fotocamera:',
-        'fa': u':دوربین:'
+        'fa': u':دوربین:',
+        'tr': u':fotoğraf_makinesi:'
     },
     u'\U0001F4F8': { # 📸
         'en' : ':camera_with_flash:',
@@ -6451,7 +6691,8 @@ EMOJI_DATA = {
         'fr': ':appareil_photo_avec_flash:',
         'pt': u':câmera_com_flash:',
         'it': ':fotocamera_con_flash:',
-        'fa': u':دوربین_با_فلاش:'
+        'fa': u':دوربین_با_فلاش:',
+        'tr': u':flaşlı_fotoğraf_makinesi:'
     },
     u'\U0001F3D5\U0000FE0F': { # 🏕️
         'en' : ':camping:',
@@ -6463,7 +6704,8 @@ EMOJI_DATA = {
         'fr': ':camping:',
         'pt': ':acampamento:',
         'it': ':campeggio:',
-        'fa': u':چادرزنی:'
+        'fa': u':چادرزنی:',
+        'tr': ':kamp:'
     },
     u'\U0001F3D5': { # 🏕
         'en' : ':camping:',
@@ -6475,7 +6717,8 @@ EMOJI_DATA = {
         'fr': ':camping:',
         'pt': ':acampamento:',
         'it': ':campeggio:',
-        'fa': u':چادرزنی:'
+        'fa': u':چادرزنی:',
+        'tr': ':kamp:'
     },
     u'\U0001F56F\U0000FE0F': { # 🕯️
         'en' : ':candle:',
@@ -6487,7 +6730,8 @@ EMOJI_DATA = {
         'fr': ':bougie:',
         'pt': ':vela:',
         'it': ':candela:',
-        'fa': u':شمع:'
+        'fa': u':شمع:',
+        'tr': ':mum:'
     },
     u'\U0001F56F': { # 🕯
         'en' : ':candle:',
@@ -6499,7 +6743,8 @@ EMOJI_DATA = {
         'fr': ':bougie:',
         'pt': ':vela:',
         'it': ':candela:',
-        'fa': u':شمع:'
+        'fa': u':شمع:',
+        'tr': ':mum:'
     },
     u'\U0001F36C': { # 🍬
         'en' : ':candy:',
@@ -6510,7 +6755,8 @@ EMOJI_DATA = {
         'fr': ':bonbon:',
         'pt': ':bala:',
         'it': ':caramella:',
-        'fa': u':آب_نبات_:'
+        'fa': u':آب_نبات_:',
+        'tr': u':şekerleme:'
     },
     u'\U0001F96B': { # 🥫
         'en' : ':canned_food:',
@@ -6521,7 +6767,8 @@ EMOJI_DATA = {
         'fr': ':aliments_en_conserve:',
         'pt': ':comida_enlatada:',
         'it': ':cibo_in_scatola:',
-        'fa': u':غذای_کنسروشده:'
+        'fa': u':غذای_کنسروشده:',
+        'tr': u':konserve_gıda:'
     },
     u'\U0001F6F6': { # 🛶
         'en' : ':canoe:',
@@ -6532,7 +6779,8 @@ EMOJI_DATA = {
         'fr': u':canoë:',
         'pt': ':canoa:',
         'it': ':canoa:',
-        'fa': u':بلم:'
+        'fa': u':بلم:',
+        'tr': ':kano:'
     },
     u'\U0001F5C3\U0000FE0F': { # 🗃️
         'en' : ':card_file_box:',
@@ -6544,7 +6792,8 @@ EMOJI_DATA = {
         'fr': u':boîte_à_dossiers:',
         'pt': ':caixa_de_arquivos:',
         'it': ':schedario_da_tavolo:',
-        'fa': u':جعبه_نگه_داری_کارت:'
+        'fa': u':جعبه_نگه_داری_کارت:',
+        'tr': ':dosya_kutusu:'
     },
     u'\U0001F5C3': { # 🗃
         'en' : ':card_file_box:',
@@ -6556,7 +6805,8 @@ EMOJI_DATA = {
         'fr': u':boîte_à_dossiers:',
         'pt': ':caixa_de_arquivos:',
         'it': ':schedario_da_tavolo:',
-        'fa': u':جعبه_نگه_داری_کارت:'
+        'fa': u':جعبه_نگه_داری_کارت:',
+        'tr': ':dosya_kutusu:'
     },
     u'\U0001F4C7': { # 📇
         'en' : ':card_index:',
@@ -6567,7 +6817,8 @@ EMOJI_DATA = {
         'fr': u':carnet_d’adresses:',
         'pt': u':índice_de_cartões:',
         'it': ':schedario:',
-        'fa': u':کارت_های_راهنما:'
+        'fa': u':کارت_های_راهنما:',
+        'tr': ':kart_dizini:'
     },
     u'\U0001F5C2\U0000FE0F': { # 🗂️
         'en' : ':card_index_dividers:',
@@ -6579,7 +6830,8 @@ EMOJI_DATA = {
         'fr': ':intercalaires:',
         'pt': ':divisores_de_pastas:',
         'it': ':divisori_per_schedario:',
-        'fa': u':جداکننده:'
+        'fa': u':جداکننده:',
+        'tr': u':dosya_ayırıcı:'
     },
     u'\U0001F5C2': { # 🗂
         'en' : ':card_index_dividers:',
@@ -6591,7 +6843,8 @@ EMOJI_DATA = {
         'fr': ':intercalaires:',
         'pt': ':divisores_de_pastas:',
         'it': ':divisori_per_schedario:',
-        'fa': u':جداکننده:'
+        'fa': u':جداکننده:',
+        'tr': u':dosya_ayırıcı:'
     },
     u'\U0001F3A0': { # 🎠
         'en' : ':carousel_horse:',
@@ -6602,7 +6855,8 @@ EMOJI_DATA = {
         'fr': u':cheval_de_manège:',
         'pt': ':carrossel:',
         'it': ':cavallo_da_giostra:',
-        'fa': u':چرخ_وفلک_اسبی:'
+        'fa': u':چرخ_وفلک_اسبی:',
+        'tr': u':atlıkarınca:'
     },
     u'\U0001F38F': { # 🎏
         'en' : ':carp_streamer:',
@@ -6614,7 +6868,8 @@ EMOJI_DATA = {
         'fr': ':koinobori:',
         'pt': ':bandeira_de_carpas:',
         'it': ':aquilone_a_forma_di_carpa:',
-        'fa': u':پرچم_های_ماهی_در_باد:'
+        'fa': u':پرچم_های_ماهی_در_باد:',
+        'tr': u':sazan_şekilli_flama:'
     },
     u'\U0001FA9A': { # 🪚
         'en' : ':carpentry_saw:',
@@ -6625,7 +6880,8 @@ EMOJI_DATA = {
         'fr': ':scie:',
         'pt': ':serrote:',
         'it': ':sega_da_falegname:',
-        'fa': u':اره_نجاری:'
+        'fa': u':اره_نجاری:',
+        'tr': ':testere:'
     },
     u'\U0001F955': { # 🥕
         'en' : ':carrot:',
@@ -6636,7 +6892,8 @@ EMOJI_DATA = {
         'fr': ':carotte:',
         'pt': ':cenoura:',
         'it': ':carota:',
-        'fa': u':هویج:'
+        'fa': u':هویج:',
+        'tr': u':havuç:'
     },
     u'\U0001F3F0': { # 🏰
         'en' : ':castle:',
@@ -6648,7 +6905,8 @@ EMOJI_DATA = {
         'fr': u':château:',
         'pt': ':castelo:',
         'it': ':castello:',
-        'fa': u':قلعه:'
+        'fa': u':قلعه:',
+        'tr': u':şato:'
     },
     u'\U0001F408': { # 🐈
         'en' : ':cat:',
@@ -6661,7 +6919,8 @@ EMOJI_DATA = {
         'fr': ':chat:',
         'pt': ':gato:',
         'it': ':gatto:',
-        'fa': u':گربه:'
+        'fa': u':گربه:',
+        'tr': ':kedi:'
     },
     u'\U0001F431': { # 🐱
         'en' : ':cat_face:',
@@ -6673,7 +6932,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_chat:',
         'pt': ':rosto_de_gato:',
         'it': ':muso_di_gatto:',
-        'fa': u':صورت_گربه:'
+        'fa': u':صورت_گربه:',
+        'tr': u':kedi_yüzü:'
     },
     u'\U0001F639': { # 😹
         'en' : ':cat_with_tears_of_joy:',
@@ -6685,7 +6945,8 @@ EMOJI_DATA = {
         'fr': ':chat_qui_pleure_de_joie:',
         'pt': u':rosto_de_gato_com_lágrimas_de_alegria:',
         'it': ':gatto_con_lacrime_di_gioia:',
-        'fa': u':گربهٔ_خندان_با_اشک_شوق:'
+        'fa': u':گربهٔ_خندان_با_اشک_شوق:',
+        'tr': u':sevinç_gözyaşları_döken_kedi:'
     },
     u'\U0001F63C': { # 😼
         'en' : ':cat_with_wry_smile:',
@@ -6697,7 +6958,8 @@ EMOJI_DATA = {
         'fr': ':chat_avec_sourire_en_coin:',
         'pt': u':rosto_de_gato_com_sorriso_irônico:',
         'it': ':gatto_con_sorriso_sarcastico:',
-        'fa': u':گربه_با_پوزخند:'
+        'fa': u':گربه_با_پوزخند:',
+        'tr': u':iğneleyici_kedi_yüzü:'
     },
     u'\U000026D3\U0000FE0F': { # ⛓️
         'en' : ':chains:',
@@ -6709,7 +6971,8 @@ EMOJI_DATA = {
         'fr': u':chaînes:',
         'pt': ':correntes:',
         'it': ':catene:',
-        'fa': u':غل_و_زنجیر:'
+        'fa': u':غل_و_زنجیر:',
+        'tr': ':zincir:'
     },
     u'\U000026D3': { # ⛓
         'en' : ':chains:',
@@ -6721,7 +6984,8 @@ EMOJI_DATA = {
         'fr': u':chaînes:',
         'pt': ':correntes:',
         'it': ':catene:',
-        'fa': u':غل_و_زنجیر:'
+        'fa': u':غل_و_زنجیر:',
+        'tr': ':zincir:'
     },
     u'\U0001FA91': { # 🪑
         'en' : ':chair:',
@@ -6732,7 +6996,8 @@ EMOJI_DATA = {
         'fr': ':chaise:',
         'pt': ':cadeira:',
         'it': ':sedia:',
-        'fa': u':صندلی:'
+        'fa': u':صندلی:',
+        'tr': ':sandalye:'
     },
     u'\U0001F4C9': { # 📉
         'en' : ':chart_decreasing:',
@@ -6744,7 +7009,8 @@ EMOJI_DATA = {
         'fr': ':graphique_en_baisse:',
         'pt': u':gráfico_caindo:',
         'it': ':grafico_con_andamento_negativo:',
-        'fa': u':نمودار_نزولی:'
+        'fa': u':نمودار_نزولی:',
+        'tr': u':iniş_grafiği:'
     },
     u'\U0001F4C8': { # 📈
         'en' : ':chart_increasing:',
@@ -6756,7 +7022,8 @@ EMOJI_DATA = {
         'fr': ':graphique_en_hausse:',
         'pt': u':gráfico_subindo:',
         'it': ':grafico_con_andamento_positivo:',
-        'fa': u':نمودار_صعودی:'
+        'fa': u':نمودار_صعودی:',
+        'tr': u':artış_grafiği:'
     },
     u'\U0001F4B9': { # 💹
         'en' : ':chart_increasing_with_yen:',
@@ -6768,7 +7035,8 @@ EMOJI_DATA = {
         'fr': ':courbe_avec_yen_en_hausse:',
         'pt': u':gráfico_subindo_com_iene:',
         'it': ':grafico_ascendente:',
-        'fa': u':نمودار_صعودی_با_ین:'
+        'fa': u':نمودار_صعودی_با_ین:',
+        'tr': u':yen_simgeli_artış_grafiği:'
     },
     u'\U00002611\U0000FE0F': { # ☑️
         'en' : ':check_box_with_check:',
@@ -6781,7 +7049,8 @@ EMOJI_DATA = {
         'fr': u':case_cochée:',
         'pt': u':caixa_de_seleção_marcada_com_tique:',
         'it': ':riquadro_con_spunta:',
-        'fa': u':مربع_با_علامت_تیک:'
+        'fa': u':مربع_با_علامت_تیک:',
+        'tr': u':seçilmiş_onay_kutusu:'
     },
     u'\U00002611': { # ☑
         'en' : ':check_box_with_check:',
@@ -6794,7 +7063,8 @@ EMOJI_DATA = {
         'fr': u':case_cochée:',
         'pt': u':caixa_de_seleção_marcada_com_tique:',
         'it': ':riquadro_con_spunta:',
-        'fa': u':مربع_با_علامت_تیک:'
+        'fa': u':مربع_با_علامت_تیک:',
+        'tr': u':seçilmiş_onay_kutusu:'
     },
     u'\U00002714\U0000FE0F': { # ✔️
         'en' : ':check_mark:',
@@ -6807,7 +7077,8 @@ EMOJI_DATA = {
         'fr': ':coche:',
         'pt': u':marca_de_seleção:',
         'it': ':segno_di_spunta_nero:',
-        'fa': u':علامت_تیک:'
+        'fa': u':علامت_تیک:',
+        'tr': u':onay_işareti:'
     },
     u'\U00002714': { # ✔
         'en' : ':check_mark:',
@@ -6820,7 +7091,8 @@ EMOJI_DATA = {
         'fr': ':coche:',
         'pt': u':marca_de_seleção:',
         'it': ':segno_di_spunta:',
-        'fa': u':علامت_تیک:'
+        'fa': u':علامت_تیک:',
+        'tr': u':onay_işareti:'
     },
     u'\U00002705': { # ✅
         'en' : ':check_mark_button:',
@@ -6832,7 +7104,8 @@ EMOJI_DATA = {
         'fr': u':bouton_coché:',
         'pt': u':marca_de_seleção_branca:',
         'it': ':pulsante_segno_di_spunta:',
-        'fa': u':علامت_تأیید:'
+        'fa': u':علامت_تأیید:',
+        'tr': u':onay_işareti_düğmesi:'
     },
     u'\U0001F9C0': { # 🧀
         'en' : ':cheese_wedge:',
@@ -6844,7 +7117,8 @@ EMOJI_DATA = {
         'fr': ':part_de_fromage:',
         'pt': ':queijo:',
         'it': ':fetta_di_formaggio:',
-        'fa': u':قاچ_پنیر:'
+        'fa': u':قاچ_پنیر:',
+        'tr': ':peynir_dilimi:'
     },
     u'\U0001F3C1': { # 🏁
         'en' : ':chequered_flag:',
@@ -6856,7 +7130,8 @@ EMOJI_DATA = {
         'fr': u':drapeau_à_damier:',
         'pt': ':bandeira_quadriculada:',
         'it': ':bandiera_a_scacchi:',
-        'fa': u':پرچم_شطرنجی:'
+        'fa': u':پرچم_شطرنجی:',
+        'tr': u':damalı_bayrak:'
     },
     u'\U0001F352': { # 🍒
         'en' : ':cherries:',
@@ -6867,7 +7142,8 @@ EMOJI_DATA = {
         'fr': ':cerises:',
         'pt': ':cereja:',
         'it': ':ciliegie:',
-        'fa': u':گیلاس:'
+        'fa': u':گیلاس:',
+        'tr': ':kiraz:'
     },
     u'\U0001F338': { # 🌸
         'en' : ':cherry_blossom:',
@@ -6878,7 +7154,8 @@ EMOJI_DATA = {
         'fr': ':fleur_de_cerisier:',
         'pt': ':flor_de_cerejeira:',
         'it': ':fiore_di_ciliegio:',
-        'fa': u':شکوفه_گیلاس:'
+        'fa': u':شکوفه_گیلاس:',
+        'tr': u':kiraz_çiçeği:'
     },
     u'\U0000265F\U0000FE0F': { # ♟️
         'en' : ':chess_pawn:',
@@ -6890,7 +7167,8 @@ EMOJI_DATA = {
         'fr': u':pion_d’échec:',
         'pt': u':peão_de_xadrez:',
         'it': ':pedina_degli_scacchi:',
-        'fa': u':پیاده_شطرنج:'
+        'fa': u':پیاده_شطرنج:',
+        'tr': ':piyon:'
     },
     u'\U0000265F': { # ♟
         'en' : ':chess_pawn:',
@@ -6902,7 +7180,8 @@ EMOJI_DATA = {
         'fr': u':pion_d’échec:',
         'pt': u':peão_de_xadrez:',
         'it': ':pedina_degli_scacchi:',
-        'fa': u':پیاده_شطرنج:'
+        'fa': u':پیاده_شطرنج:',
+        'tr': ':piyon:'
     },
     u'\U0001F330': { # 🌰
         'en' : ':chestnut:',
@@ -6913,7 +7192,8 @@ EMOJI_DATA = {
         'fr': u':châtaigne:',
         'pt': ':castanha:',
         'it': ':castagna:',
-        'fa': u':فندق:'
+        'fa': u':فندق:',
+        'tr': ':kestane:'
     },
     u'\U0001F414': { # 🐔
         'en' : ':chicken:',
@@ -6924,7 +7204,8 @@ EMOJI_DATA = {
         'fr': ':poule:',
         'pt': ':galinha:',
         'it': ':gallina:',
-        'fa': u':مرغ:'
+        'fa': u':مرغ:',
+        'tr': ':tavuk:'
     },
     u'\U0001F9D2': { # 🧒
         'en' : ':child:',
@@ -6935,7 +7216,8 @@ EMOJI_DATA = {
         'fr': ':enfant:',
         'pt': u':criança:',
         'it': ':bimbo:',
-        'fa': u':بچه:'
+        'fa': u':بچه:',
+        'tr': u':çocuk:'
     },
     u'\U0001F9D2\U0001F3FF': { # 🧒🏿
         'en' : ':child_dark_skin_tone:',
@@ -6996,7 +7278,8 @@ EMOJI_DATA = {
         'fr': u':traversée_d’enfants:',
         'pt': u':crianças_atravessando:',
         'it': ':attraversamento_bambini:',
-        'fa': u':عبور_کودکان:'
+        'fa': u':عبور_کودکان:',
+        'tr': u':karşıya_geçen_çocuklar:'
     },
     u'\U0001F43F\U0000FE0F': { # 🐿️
         'en' : ':chipmunk:',
@@ -7008,7 +7291,8 @@ EMOJI_DATA = {
         'fr': u':écureuil:',
         'pt': ':esquilo:',
         'it': ':scoiattolo:',
-        'fa': u':سنجاب_راه_راه:'
+        'fa': u':سنجاب_راه_راه:',
+        'tr': ':sincap:'
     },
     u'\U0001F43F': { # 🐿
         'en' : ':chipmunk:',
@@ -7020,7 +7304,8 @@ EMOJI_DATA = {
         'fr': u':écureuil:',
         'pt': ':esquilo:',
         'it': ':scoiattolo:',
-        'fa': u':سنجاب_راه_راه:'
+        'fa': u':سنجاب_راه_راه:',
+        'tr': ':sincap:'
     },
     u'\U0001F36B': { # 🍫
         'en' : ':chocolate_bar:',
@@ -7031,7 +7316,8 @@ EMOJI_DATA = {
         'fr': u':barre_chocolatée:',
         'pt': ':chocolate:',
         'it': ':cioccolato:',
-        'fa': u':تخته_شکلات:'
+        'fa': u':تخته_شکلات:',
+        'tr': u':çikolata:'
     },
     u'\U0001F962': { # 🥢
         'en' : ':chopsticks:',
@@ -7042,7 +7328,8 @@ EMOJI_DATA = {
         'fr': ':baguettes:',
         'pt': ':hashi:',
         'it': ':bacchette:',
-        'fa': u':چاپ_استیک:'
+        'fa': u':چاپ_استیک:',
+        'tr': u':yemek_çubukları:'
     },
     u'\U000026EA': { # ⛪
         'en' : ':church:',
@@ -7054,7 +7341,8 @@ EMOJI_DATA = {
         'fr': u':église:',
         'pt': ':igreja:',
         'it': ':chiesa:',
-        'fa': u':کلیسا:'
+        'fa': u':کلیسا:',
+        'tr': ':kilise:'
     },
     u'\U0001F6AC': { # 🚬
         'en' : ':cigarette:',
@@ -7066,7 +7354,8 @@ EMOJI_DATA = {
         'fr': ':cigarette:',
         'pt': ':cigarro:',
         'it': ':sigaretta:',
-        'fa': u':سیگار:'
+        'fa': u':سیگار:',
+        'tr': ':sigara:'
     },
     u'\U0001F3A6': { # 🎦
         'en' : ':cinema:',
@@ -7077,7 +7366,8 @@ EMOJI_DATA = {
         'fr': u':cinéma:',
         'pt': ':cinema:',
         'it': ':simbolo_del_cinema:',
-        'fa': u':سینما:'
+        'fa': u':سینما:',
+        'tr': ':sinema:'
     },
     u'\U000024C2\U0000FE0F': { # Ⓜ️
         'en' : ':circled_M:',
@@ -7090,7 +7380,8 @@ EMOJI_DATA = {
         'fr': u':m_encerclé:',
         'pt': u':círculo_com_a_letra_m:',
         'it': ':pulsante_m_cerchiata:',
-        'fa': u':حرف_ام_در_دایره:'
+        'fa': u':حرف_ام_در_دایره:',
+        'tr': u':daire_içinde_m_harfi:'
     },
     u'\U000024C2': { # Ⓜ
         'en' : ':circled_M:',
@@ -7103,7 +7394,8 @@ EMOJI_DATA = {
         'fr': u':m_encerclé:',
         'pt': u':círculo_com_a_letra_m:',
         'it': ':pulsante_m_cerchiata:',
-        'fa': u':حرف_ام_در_دایره:'
+        'fa': u':حرف_ام_در_دایره:',
+        'tr': u':daire_içinde_m_harfi:'
     },
     u'\U0001F3AA': { # 🎪
         'en' : ':circus_tent:',
@@ -7114,7 +7406,8 @@ EMOJI_DATA = {
         'fr': ':chapiteau:',
         'pt': ':circo:',
         'it': ':circo:',
-        'fa': u':چادر_سیرک:'
+        'fa': u':چادر_سیرک:',
+        'tr': u':sirk_çadırı:'
     },
     u'\U0001F3D9\U0000FE0F': { # 🏙️
         'en' : ':cityscape:',
@@ -7126,7 +7419,8 @@ EMOJI_DATA = {
         'fr': ':ville:',
         'pt': ':cidade:',
         'it': ':paesaggio_urbano:',
-        'fa': u':نمای_شهر:'
+        'fa': u':نمای_شهر:',
+        'tr': u':şehir_manzarası:'
     },
     u'\U0001F3D9': { # 🏙
         'en' : ':cityscape:',
@@ -7138,7 +7432,8 @@ EMOJI_DATA = {
         'fr': ':ville:',
         'pt': ':cidade:',
         'it': ':paesaggio_urbano:',
-        'fa': u':نمای_شهر:'
+        'fa': u':نمای_شهر:',
+        'tr': u':şehir_manzarası:'
     },
     u'\U0001F306': { # 🌆
         'en' : ':cityscape_at_dusk:',
@@ -7150,7 +7445,8 @@ EMOJI_DATA = {
         'fr': u':ville_au_crépuscule:',
         'pt': ':cidade_ao_anoitecer:',
         'it': u':città_al_tramonto:',
-        'fa': u':نمای_شهر_هنگام_غروب:'
+        'fa': u':نمای_شهر_هنگام_غروب:',
+        'tr': u':şehirde_alacakaranlık:'
     },
     u'\U0001F5DC\U0000FE0F': { # 🗜️
         'en' : ':clamp:',
@@ -7163,7 +7459,8 @@ EMOJI_DATA = {
         'fr': ':serre-joint:',
         'pt': u':braçadeira:',
         'it': ':morsetto:',
-        'fa': u':پرس:'
+        'fa': u':پرس:',
+        'tr': ':mengene:'
     },
     u'\U0001F5DC': { # 🗜
         'en' : ':clamp:',
@@ -7176,7 +7473,8 @@ EMOJI_DATA = {
         'fr': ':serre-joint:',
         'pt': u':braçadeira:',
         'it': ':morsetto:',
-        'fa': u':پرس:'
+        'fa': u':پرس:',
+        'tr': ':mengene:'
     },
     u'\U0001F3AC': { # 🎬
         'en' : ':clapper_board:',
@@ -7189,7 +7487,8 @@ EMOJI_DATA = {
         'fr': ':clap:',
         'pt': ':claquete:',
         'it': ':ciak:',
-        'fa': u':کلاکت:'
+        'fa': u':کلاکت:',
+        'tr': u':film_tahtası:'
     },
     u'\U0001F44F': { # 👏
         'en' : ':clapping_hands:',
@@ -7201,7 +7500,8 @@ EMOJI_DATA = {
         'fr': ':applaudissements:',
         'pt': u':mãos_aplaudindo:',
         'it': ':mani_che_applaudono:',
-        'fa': u':دست_زدن:'
+        'fa': u':دست_زدن:',
+        'tr': u':el_çırpma:'
     },
     u'\U0001F44F\U0001F3FF': { # 👏🏿
         'en' : ':clapping_hands_dark_skin_tone:',
@@ -7263,7 +7563,8 @@ EMOJI_DATA = {
         'fr': ':monument_classique:',
         'pt': u':prédio_grego:',
         'it': ':edificio_classico:',
-        'fa': u':ساختمان_باستانی:'
+        'fa': u':ساختمان_باستانی:',
+        'tr': u':tarihi_yapı:'
     },
     u'\U0001F3DB': { # 🏛
         'en' : ':classical_building:',
@@ -7275,7 +7576,8 @@ EMOJI_DATA = {
         'fr': ':monument_classique:',
         'pt': u':prédio_grego:',
         'it': ':edificio_classico:',
-        'fa': u':ساختمان_باستانی:'
+        'fa': u':ساختمان_باستانی:',
+        'tr': u':tarihi_yapı:'
     },
     u'\U0001F37B': { # 🍻
         'en' : ':clinking_beer_mugs:',
@@ -7287,7 +7589,8 @@ EMOJI_DATA = {
         'fr': u':chopes_de_bière:',
         'pt': ':canecas_de_cerveja:',
         'it': ':boccali_di_birra:',
-        'fa': u':لیوان_های_آبجو_را_به_هم_زدن:'
+        'fa': u':لیوان_های_آبجو_را_به_هم_زدن:',
+        'tr': u':bira_kupaları_tokuşturma:'
     },
     u'\U0001F942': { # 🥂
         'en' : ':clinking_glasses:',
@@ -7298,7 +7601,8 @@ EMOJI_DATA = {
         'fr': ':trinquer:',
         'pt': u':taças_brindando:',
         'it': ':brindisi:',
-        'fa': u':صدای_به_هم_خوردن_پیاله_ها:'
+        'fa': u':صدای_به_هم_خوردن_پیاله_ها:',
+        'tr': u':kadeh_tokuşturma:'
     },
     u'\U0001F4CB': { # 📋
         'en' : ':clipboard:',
@@ -7310,7 +7614,8 @@ EMOJI_DATA = {
         'fr': ':porte-bloc:',
         'pt': ':prancheta:',
         'it': ':portablocco:',
-        'fa': u':تختهٔ_گیره_دار:'
+        'fa': u':تختهٔ_گیره_دار:',
+        'tr': ':pano:'
     },
     u'\U0001F503': { # 🔃
         'en' : ':clockwise_vertical_arrows:',
@@ -7322,7 +7627,8 @@ EMOJI_DATA = {
         'fr': u':flèches_dans_le_sens_horaire:',
         'pt': u':setas_verticais_no_sentido_horário:',
         'it': ':frecce_verticali_che_ruotano_in_senso_orario:',
-        'fa': u':جهت_عقربه_های_ساعت:'
+        'fa': u':جهت_عقربه_های_ساعت:',
+        'tr': u':saat_yönünde_dönen_oklar:'
     },
     u'\U0001F4D5': { # 📕
         'en' : ':closed_book:',
@@ -7333,7 +7639,8 @@ EMOJI_DATA = {
         'fr': u':livre_fermé:',
         'pt': ':livro_fechado:',
         'it': ':libro_chiuso:',
-        'fa': u':کتاب_بسته:'
+        'fa': u':کتاب_بسته:',
+        'tr': u':kapalı_kitap:'
     },
     u'\U0001F4EA': { # 📪
         'en' : ':closed_mailbox_with_lowered_flag:',
@@ -7346,7 +7653,8 @@ EMOJI_DATA = {
         'fr': u':boîte_aux_lettres_fermée_drapeau_baissé:',
         'pt': ':caixa_de_correio_fechada_com_bandeira_abaixada:',
         'it': ':cassetta_postale_chiusa_bandierina_abbassata:',
-        'fa': u':صندوق_پستی_بسته_با_پرچم_پایین:'
+        'fa': u':صندوق_پستی_بسته_با_پرچم_پایین:',
+        'tr': u':işareti_aşağıda_kapalı_posta_kutusu:'
     },
     u'\U0001F4EB': { # 📫
         'en' : ':closed_mailbox_with_raised_flag:',
@@ -7359,7 +7667,8 @@ EMOJI_DATA = {
         'fr': u':boîte_aux_lettres_fermée_drapeau_levé:',
         'pt': ':caixa_de_correio_fechada_com_bandeira_levantada:',
         'it': ':cassetta_postale_chiusa_bandierina_alzata:',
-        'fa': u':صندوق_پستی_بسته_با_پرچم_بالا:'
+        'fa': u':صندوق_پستی_بسته_با_پرچم_بالا:',
+        'tr': u':işareti_yukarıda_kapalı_posta_kutusu:'
     },
     u'\U0001F302': { # 🌂
         'en' : ':closed_umbrella:',
@@ -7370,7 +7679,8 @@ EMOJI_DATA = {
         'fr': u':parapluie_fermé:',
         'pt': ':guarda-chuva_fechado:',
         'it': ':ombrello_chiuso:',
-        'fa': u':چتر_بسته:'
+        'fa': u':چتر_بسته:',
+        'tr': u':kapalı_şemsiye:'
     },
     u'\U00002601\U0000FE0F': { # ☁️
         'en' : ':cloud:',
@@ -7382,7 +7692,8 @@ EMOJI_DATA = {
         'fr': ':nuage:',
         'pt': ':nuvem:',
         'it': ':nuvola:',
-        'fa': u':ابر:'
+        'fa': u':ابر:',
+        'tr': ':bulut:'
     },
     u'\U00002601': { # ☁
         'en' : ':cloud:',
@@ -7394,7 +7705,8 @@ EMOJI_DATA = {
         'fr': ':nuage:',
         'pt': ':nuvem:',
         'it': ':nuvola:',
-        'fa': u':ابر:'
+        'fa': u':ابر:',
+        'tr': ':bulut:'
     },
     u'\U0001F329\U0000FE0F': { # 🌩️
         'en' : ':cloud_with_lightning:',
@@ -7406,7 +7718,8 @@ EMOJI_DATA = {
         'fr': u':nuage_avec_éclair:',
         'pt': u':nuvem_com_trovão:',
         'it': ':fulmini:',
-        'fa': u':ابر_با_برق:'
+        'fa': u':ابر_با_برق:',
+        'tr': u':şimşek_bulutu:'
     },
     u'\U0001F329': { # 🌩
         'en' : ':cloud_with_lightning:',
@@ -7418,7 +7731,8 @@ EMOJI_DATA = {
         'fr': u':nuage_avec_éclair:',
         'pt': u':nuvem_com_trovão:',
         'it': ':fulmini:',
-        'fa': u':ابر_با_برق:'
+        'fa': u':ابر_با_برق:',
+        'tr': u':şimşek_bulutu:'
     },
     u'\U000026C8\U0000FE0F': { # ⛈️
         'en' : ':cloud_with_lightning_and_rain:',
@@ -7431,7 +7745,8 @@ EMOJI_DATA = {
         'fr': u':nuage_avec_éclair_et_pluie:',
         'pt': u':chuva_com_trovão:',
         'it': ':temporale:',
-        'fa': u':ابر_با_رعدوبرق_و_باران:'
+        'fa': u':ابر_با_رعدوبرق_و_باران:',
+        'tr': u':şimşek_ve_yağmurlu_bulut:'
     },
     u'\U000026C8': { # ⛈
         'en' : ':cloud_with_lightning_and_rain:',
@@ -7444,7 +7759,8 @@ EMOJI_DATA = {
         'fr': u':nuage_avec_éclair_et_pluie:',
         'pt': u':chuva_com_trovão:',
         'it': ':temporale:',
-        'fa': u':ابر_با_رعدوبرق_و_باران:'
+        'fa': u':ابر_با_رعدوبرق_و_باران:',
+        'tr': u':şimşek_ve_yağmurlu_bulut:'
     },
     u'\U0001F327\U0000FE0F': { # 🌧️
         'en' : ':cloud_with_rain:',
@@ -7456,7 +7772,8 @@ EMOJI_DATA = {
         'fr': ':nuage_avec_pluie:',
         'pt': ':nuvem_com_chuva:',
         'it': ':pioggia:',
-        'fa': u':ابر_بارانی:'
+        'fa': u':ابر_بارانی:',
+        'tr': u':yağmur_bulutu:'
     },
     u'\U0001F327': { # 🌧
         'en' : ':cloud_with_rain:',
@@ -7468,7 +7785,8 @@ EMOJI_DATA = {
         'fr': ':nuage_avec_pluie:',
         'pt': ':nuvem_com_chuva:',
         'it': ':pioggia:',
-        'fa': u':ابر_بارانی:'
+        'fa': u':ابر_بارانی:',
+        'tr': u':yağmur_bulutu:'
     },
     u'\U0001F328\U0000FE0F': { # 🌨️
         'en' : ':cloud_with_snow:',
@@ -7480,7 +7798,8 @@ EMOJI_DATA = {
         'fr': ':nuage_avec_neige:',
         'pt': ':nuvem_com_neve:',
         'it': ':neve:',
-        'fa': u':ابر_برفی:'
+        'fa': u':ابر_برفی:',
+        'tr': ':kar_bulutu:'
     },
     u'\U0001F328': { # 🌨
         'en' : ':cloud_with_snow:',
@@ -7492,7 +7811,8 @@ EMOJI_DATA = {
         'fr': ':nuage_avec_neige:',
         'pt': ':nuvem_com_neve:',
         'it': ':neve:',
-        'fa': u':ابر_برفی:'
+        'fa': u':ابر_برفی:',
+        'tr': ':kar_bulutu:'
     },
     u'\U0001F921': { # 🤡
         'en' : ':clown_face:',
@@ -7503,7 +7823,8 @@ EMOJI_DATA = {
         'fr': ':visage_de_clown:',
         'pt': u':rosto_de_palhaço:',
         'it': ':faccina_pagliaccio:',
-        'fa': u':دلقک:'
+        'fa': u':دلقک:',
+        'tr': u':palyaço_yüzü:'
     },
     u'\U00002663\U0000FE0F': { # ♣️
         'en' : ':club_suit:',
@@ -7516,7 +7837,8 @@ EMOJI_DATA = {
         'fr': u':trèfle_cartes:',
         'pt': ':naipe_de_paus:',
         'it': ':fiori:',
-        'fa': u':خال_گشنیز:'
+        'fa': u':خال_گشنیز:',
+        'tr': ':sinek:'
     },
     u'\U00002663': { # ♣
         'en' : ':club_suit:',
@@ -7529,7 +7851,8 @@ EMOJI_DATA = {
         'fr': u':trèfle_cartes:',
         'pt': ':naipe_de_paus:',
         'it': ':fiori:',
-        'fa': u':خال_گشنیز:'
+        'fa': u':خال_گشنیز:',
+        'tr': ':sinek:'
     },
     u'\U0001F45D': { # 👝
         'en' : ':clutch_bag:',
@@ -7541,7 +7864,8 @@ EMOJI_DATA = {
         'fr': ':pochette:',
         'pt': ':bolsa_pequena:',
         'it': ':pochette:',
-        'fa': u':کیف_بدون_تسمه_زنانه:'
+        'fa': u':کیف_بدون_تسمه_زنانه:',
+        'tr': ':para_kesesi:'
     },
     u'\U0001F9E5': { # 🧥
         'en' : ':coat:',
@@ -7552,7 +7876,8 @@ EMOJI_DATA = {
         'fr': ':manteau:',
         'pt': ':casaco:',
         'it': ':cappotto:',
-        'fa': u':پالتو:'
+        'fa': u':پالتو:',
+        'tr': ':kaban:'
     },
     u'\U0001FAB3': { # 🪳
         'en' : ':cockroach:',
@@ -7563,7 +7888,8 @@ EMOJI_DATA = {
         'fr': ':cafard:',
         'pt': ':barata:',
         'it': ':scarafaggio:',
-        'fa': u':سوسک_حمام:'
+        'fa': u':سوسک_حمام:',
+        'tr': u':hamam_böceği:'
     },
     u'\U0001F378': { # 🍸
         'en' : ':cocktail_glass:',
@@ -7576,7 +7902,8 @@ EMOJI_DATA = {
         'fr': ':cocktail:',
         'pt': ':coquetel:',
         'it': ':cocktail:',
-        'fa': u':جام_کوکتل:'
+        'fa': u':جام_کوکتل:',
+        'tr': ':kokteyl_kadehi:'
     },
     u'\U0001F965': { # 🥥
         'en' : ':coconut:',
@@ -7587,7 +7914,8 @@ EMOJI_DATA = {
         'fr': ':noix_de_coco:',
         'pt': ':coco:',
         'it': ':cocco:',
-        'fa': u':نارگیل:'
+        'fa': u':نارگیل:',
+        'tr': ':hindistan_cevizi:'
     },
     u'\U000026B0\U0000FE0F': { # ⚰️
         'en' : ':coffin:',
@@ -7599,7 +7927,8 @@ EMOJI_DATA = {
         'fr': ':cercueil:',
         'pt': u':caixão:',
         'it': ':bara:',
-        'fa': u':تابوت:'
+        'fa': u':تابوت:',
+        'tr': ':tabut:'
     },
     u'\U000026B0': { # ⚰
         'en' : ':coffin:',
@@ -7611,7 +7940,8 @@ EMOJI_DATA = {
         'fr': ':cercueil:',
         'pt': u':caixão:',
         'it': ':bara:',
-        'fa': u':تابوت:'
+        'fa': u':تابوت:',
+        'tr': ':tabut:'
     },
     u'\U0001FA99': { # 🪙
         'en' : ':coin:',
@@ -7622,7 +7952,8 @@ EMOJI_DATA = {
         'fr': u':pièce:',
         'pt': ':moeda:',
         'it': ':moneta:',
-        'fa': u':سکه:'
+        'fa': u':سکه:',
+        'tr': ':bozuk_para:'
     },
     u'\U0001F976': { # 🥶
         'en' : ':cold_face:',
@@ -7633,7 +7964,8 @@ EMOJI_DATA = {
         'fr': ':visage_bleu_et_froid:',
         'pt': ':rosto_gelado:',
         'it': ':faccina_congelata:',
-        'fa': u':خیلی_سرد:'
+        'fa': u':خیلی_سرد:',
+        'tr': u':üşümüş_yüz:'
     },
     u'\U0001F4A5': { # 💥
         'en' : ':collision:',
@@ -7645,7 +7977,8 @@ EMOJI_DATA = {
         'fr': ':explosion:',
         'pt': u':colisão:',
         'it': ':collisione:',
-        'fa': u':برخورد:'
+        'fa': u':برخورد:',
+        'tr': u':çarpışma:'
     },
     u'\U00002604\U0000FE0F': { # ☄️
         'en' : ':comet:',
@@ -7657,7 +7990,8 @@ EMOJI_DATA = {
         'fr': u':comète:',
         'pt': ':cometa:',
         'it': ':cometa:',
-        'fa': u':ستاره_دنباله_دار:'
+        'fa': u':ستاره_دنباله_دار:',
+        'tr': u':kuyruklu_yıldız:'
     },
     u'\U00002604': { # ☄
         'en' : ':comet:',
@@ -7669,7 +8003,8 @@ EMOJI_DATA = {
         'fr': u':comète:',
         'pt': ':cometa:',
         'it': ':cometa:',
-        'fa': u':ستاره_دنباله_دار:'
+        'fa': u':ستاره_دنباله_دار:',
+        'tr': u':kuyruklu_yıldız:'
     },
     u'\U0001F9ED': { # 🧭
         'en' : ':compass:',
@@ -7680,7 +8015,8 @@ EMOJI_DATA = {
         'fr': ':boussole:',
         'pt': u':bússola:',
         'it': ':bussola:',
-        'fa': u':قطب_نما:'
+        'fa': u':قطب_نما:',
+        'tr': ':pusula:'
     },
     u'\U0001F4BD': { # 💽
         'en' : ':computer_disk:',
@@ -7692,7 +8028,8 @@ EMOJI_DATA = {
         'fr': u':disque_d’ordinateur:',
         'pt': ':minidisc:',
         'it': ':minidisc:',
-        'fa': u':مینی_دیسک:'
+        'fa': u':مینی_دیسک:',
+        'tr': ':mini_disk:'
     },
     u'\U0001F5B1\U0000FE0F': { # 🖱️
         'en' : ':computer_mouse:',
@@ -7705,7 +8042,8 @@ EMOJI_DATA = {
         'fr': u':souris_d’ordinateur:',
         'pt': ':mouse:',
         'it': ':mouse:',
-        'fa': u':موشواره:'
+        'fa': u':موشواره:',
+        'tr': ':bilgisayar_faresi:'
     },
     u'\U0001F5B1': { # 🖱
         'en' : ':computer_mouse:',
@@ -7718,7 +8056,8 @@ EMOJI_DATA = {
         'fr': u':souris_d’ordinateur:',
         'pt': ':mouse:',
         'it': ':mouse:',
-        'fa': u':موشواره:'
+        'fa': u':موشواره:',
+        'tr': ':bilgisayar_faresi:'
     },
     u'\U0001F38A': { # 🎊
         'en' : ':confetti_ball:',
@@ -7729,7 +8068,8 @@ EMOJI_DATA = {
         'fr': ':confettis:',
         'pt': ':confete:',
         'it': ':coriandoli:',
-        'fa': u':توپ_پولکی:'
+        'fa': u':توپ_پولکی:',
+        'tr': ':konfeti:'
     },
     u'\U0001F616': { # 😖
         'en' : ':confounded_face:',
@@ -7741,7 +8081,8 @@ EMOJI_DATA = {
         'fr': u':visage_déconcerté:',
         'pt': ':rosto_perplexo:',
         'it': ':faccina_frustrata:',
-        'fa': u':سردرگم:'
+        'fa': u':سردرگم:',
+        'tr': u':kafası_çok_karışık_yüz:'
     },
     u'\U0001F615': { # 😕
         'en' : ':confused_face:',
@@ -7753,7 +8094,8 @@ EMOJI_DATA = {
         'fr': ':visage_confus:',
         'pt': ':rosto_confuso:',
         'it': ':faccina_confusa:',
-        'fa': u':گیج_شده:'
+        'fa': u':گیج_شده:',
+        'tr': u':kafası_karışık_yüz:'
     },
     u'\U0001F6A7': { # 🚧
         'en' : ':construction:',
@@ -7764,7 +8106,8 @@ EMOJI_DATA = {
         'fr': ':travaux:',
         'pt': u':em_construção:',
         'it': ':area_cantiere:',
-        'fa': u':ساخت_وساز:'
+        'fa': u':ساخت_وساز:',
+        'tr': u':inşaat:'
     },
     u'\U0001F477': { # 👷
         'en' : ':construction_worker:',
@@ -7775,7 +8118,8 @@ EMOJI_DATA = {
         'fr': u':personnel_du_bâtiment:',
         'pt': u':trabalhador_de_construção_civil:',
         'it': ':operaio_edile:',
-        'fa': u':کارگر:'
+        'fa': u':کارگر:',
+        'tr': u':inşaat_işçisi:'
     },
     u'\U0001F477\U0001F3FF': { # 👷🏿
         'en' : ':construction_worker_dark_skin_tone:',
@@ -7837,7 +8181,8 @@ EMOJI_DATA = {
         'fr': u':boutons_de_réglage:',
         'pt': u':botões_giratórios:',
         'it': ':manopole_di_controllo:',
-        'fa': u':دسته_های_کنترل:'
+        'fa': u':دسته_های_کنترل:',
+        'tr': u':kontrol_düğmeleri:'
     },
     u'\U0001F39B': { # 🎛
         'en' : ':control_knobs:',
@@ -7849,7 +8194,8 @@ EMOJI_DATA = {
         'fr': u':boutons_de_réglage:',
         'pt': u':botões_giratórios:',
         'it': ':manopole_di_controllo:',
-        'fa': u':دسته_های_کنترل:'
+        'fa': u':دسته_های_کنترل:',
+        'tr': u':kontrol_düğmeleri:'
     },
     u'\U0001F3EA': { # 🏪
         'en' : ':convenience_store:',
@@ -7860,7 +8206,8 @@ EMOJI_DATA = {
         'fr': u':supérette:',
         'pt': u':loja_de_conveniência:',
         'it': ':minimarket:',
-        'fa': u':بقالی:'
+        'fa': u':بقالی:',
+        'tr': u':sürekli_açık_market:'
     },
     u'\U0001F9D1\U0000200D\U0001F373': { # 🧑‍🍳
         'en' : ':cook:',
@@ -7871,7 +8218,8 @@ EMOJI_DATA = {
         'fr': ':cuisinier_(tous_genres):',
         'pt': ':chef_de_cozinha:',
         'it': ':persona_che_cucina:',
-        'fa': u':آشپز:'
+        'fa': u':آشپز:',
+        'tr': u':aşçı:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F373': { # 🧑🏿‍🍳
         'en' : ':cook_dark_skin_tone:',
@@ -7933,7 +8281,8 @@ EMOJI_DATA = {
         'fr': ':bol_de_riz:',
         'pt': ':arroz_cozido:',
         'it': ':riso_bollito:',
-        'fa': u':برنج_پخته:'
+        'fa': u':برنج_پخته:',
+        'tr': ':pilav:'
     },
     u'\U0001F36A': { # 🍪
         'en' : ':cookie:',
@@ -7944,7 +8293,8 @@ EMOJI_DATA = {
         'fr': ':cookie:',
         'pt': ':biscoito:',
         'it': ':biscotto:',
-        'fa': u':کلوچه:'
+        'fa': u':کلوچه:',
+        'tr': ':kurabiye:'
     },
     u'\U0001F373': { # 🍳
         'en' : ':cooking:',
@@ -7956,7 +8306,8 @@ EMOJI_DATA = {
         'fr': u':œuf_au_plat:',
         'pt': ':ovo_frito:',
         'it': ':cucinare:',
-        'fa': u':آشپزی:'
+        'fa': u':آشپزی:',
+        'tr': u':yemek_pişirme:'
     },
     u'\U000000A9\U0000FE0F': { # ©️
         'en' : ':copyright:',
@@ -7968,7 +8319,8 @@ EMOJI_DATA = {
         'fr': ':symbole_copyright:',
         'pt': u':símbolo_de_copyright:',
         'it': ':copyright:',
-        'fa': u':حق_نسخه_برداری:'
+        'fa': u':حق_نسخه_برداری:',
+        'tr': u':telif_hakkı_işareti:'
     },
     u'\U000000A9': { # ©
         'en' : ':copyright:',
@@ -7980,7 +8332,8 @@ EMOJI_DATA = {
         'fr': ':symbole_copyright:',
         'pt': u':símbolo_de_copyright:',
         'it': ':copyright:',
-        'fa': u':حق_نسخه_برداری:'
+        'fa': u':حق_نسخه_برداری:',
+        'tr': u':telif_hakkı_işareti:'
     },
     u'\U0001FAB8': { # 🪸
         'en' : ':coral:',
@@ -7991,7 +8344,8 @@ EMOJI_DATA = {
         'fr': ':corail:',
         'pt': ':coral:',
         'it': ':corallo:',
-        'fa': u':مرجان:'
+        'fa': u':مرجان:',
+        'tr': ':mercan:'
     },
     u'\U0001F6CB\U0000FE0F': { # 🛋️
         'en' : ':couch_and_lamp:',
@@ -8003,7 +8357,8 @@ EMOJI_DATA = {
         'fr': u':canapé_et_lampe:',
         'pt': u':sofá_e_luminária:',
         'it': ':divano_e_lampada:',
-        'fa': u':مبل_راحتی_و_چراغ:'
+        'fa': u':مبل_راحتی_و_چراغ:',
+        'tr': ':kanepe_ve_lamba:'
     },
     u'\U0001F6CB': { # 🛋
         'en' : ':couch_and_lamp:',
@@ -8015,7 +8370,8 @@ EMOJI_DATA = {
         'fr': u':canapé_et_lampe:',
         'pt': u':sofá_e_luminária:',
         'it': ':divano_e_lampada:',
-        'fa': u':مبل_راحتی_و_چراغ:'
+        'fa': u':مبل_راحتی_و_چراغ:',
+        'tr': ':kanepe_ve_lamba:'
     },
     u'\U0001F504': { # 🔄
         'en' : ':counterclockwise_arrows_button:',
@@ -8027,7 +8383,8 @@ EMOJI_DATA = {
         'fr': u':flèches_dans_le_sens_antihoraire:',
         'pt': u':botão_de_setas_em_sentido_anti-horário:',
         'it': ':frecce_che_ruotano_in_senso_antiorario:',
-        'fa': u':خلاف_جهت_عقربه_های_ساعت:'
+        'fa': u':خلاف_جهت_عقربه_های_ساعت:',
+        'tr': u':saat_yönünün_tersinde_dönen_oklar:'
     },
     u'\U0001F491': { # 💑
         'en' : ':couple_with_heart:',
@@ -8038,7 +8395,8 @@ EMOJI_DATA = {
         'fr': u':couple_avec_cœur:',
         'pt': ':casal_apaixonado:',
         'it': ':coppia_con_cuore:',
-        'fa': u':زوج_عاشق:'
+        'fa': u':زوج_عاشق:',
+        'tr': u':kalpli_çift:'
     },
     u'\U0001F491\U0001F3FF': { # 💑🏿
         'en' : ':couple_with_heart_dark_skin_tone:',
@@ -9070,7 +9428,8 @@ EMOJI_DATA = {
         'fr': ':vache:',
         'pt': ':vaca:',
         'it': ':mucca:',
-        'fa': u':گاو_ماده:'
+        'fa': u':گاو_ماده:',
+        'tr': ':inek:'
     },
     u'\U0001F42E': { # 🐮
         'en' : ':cow_face:',
@@ -9082,7 +9441,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_vache:',
         'pt': ':rosto_de_vaca:',
         'it': ':muso_di_mucca:',
-        'fa': u':صورت_گاو:'
+        'fa': u':صورت_گاو:',
+        'tr': u':inek_yüzü:'
     },
     u'\U0001F920': { # 🤠
         'en' : ':cowboy_hat_face:',
@@ -9093,7 +9453,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_chapeau_de_cowboy:',
         'pt': u':rosto_com_chapéu_de_caubói:',
         'it': ':faccina_con_cappello_da_cowboy:',
-        'fa': u':کلاه_کابوی:'
+        'fa': u':کلاه_کابوی:',
+        'tr': u':kovboy_şapkalı_yüz:'
     },
     u'\U0001F980': { # 🦀
         'en' : ':crab:',
@@ -9104,7 +9465,8 @@ EMOJI_DATA = {
         'fr': ':crabe:',
         'pt': ':caranguejo:',
         'it': ':granchio:',
-        'fa': u':خرچنگ:'
+        'fa': u':خرچنگ:',
+        'tr': u':yengeç:'
     },
     u'\U0001F58D\U0000FE0F': { # 🖍️
         'en' : ':crayon:',
@@ -9117,7 +9479,8 @@ EMOJI_DATA = {
         'fr': ':crayon_pastel:',
         'pt': ':giz_de_cera:',
         'it': ':pastello_a_cera:',
-        'fa': u':مدادشمعی:'
+        'fa': u':مدادشمعی:',
+        'tr': ':pastel_boya:'
     },
     u'\U0001F58D': { # 🖍
         'en' : ':crayon:',
@@ -9130,7 +9493,8 @@ EMOJI_DATA = {
         'fr': ':crayon_pastel:',
         'pt': ':giz_de_cera:',
         'it': ':pastello_a_cera:',
-        'fa': u':مدادشمعی:'
+        'fa': u':مدادشمعی:',
+        'tr': ':pastel_boya:'
     },
     u'\U0001F4B3': { # 💳
         'en' : ':credit_card:',
@@ -9142,7 +9506,8 @@ EMOJI_DATA = {
         'fr': ':carte_bancaire:',
         'pt': u':cartão_de_crédito:',
         'it': ':carta_di_credito:',
-        'fa': u':کارت_اعتباری:'
+        'fa': u':کارت_اعتباری:',
+        'tr': u':kredi_kartı:'
     },
     u'\U0001F319': { # 🌙
         'en' : ':crescent_moon:',
@@ -9153,7 +9518,8 @@ EMOJI_DATA = {
         'fr': ':croissant_de_lune:',
         'pt': ':lua_crescente:',
         'it': ':spicchio_di_luna:',
-        'fa': u':هلال_ماه:'
+        'fa': u':هلال_ماه:',
+        'tr': ':hilal:'
     },
     u'\U0001F997': { # 🦗
         'en' : ':cricket:',
@@ -9164,7 +9530,8 @@ EMOJI_DATA = {
         'fr': ':criquet:',
         'pt': ':grilo:',
         'it': ':grillo:',
-        'fa': u':جیرجیرک:'
+        'fa': u':جیرجیرک:',
+        'tr': u':cırcır_böceği:'
     },
     u'\U0001F3CF': { # 🏏
         'en' : ':cricket_game:',
@@ -9176,7 +9543,8 @@ EMOJI_DATA = {
         'fr': ':cricket:',
         'pt': u':críquete:',
         'it': ':cricket:',
-        'fa': u':کریکت:'
+        'fa': u':کریکت:',
+        'tr': ':kriket:'
     },
     u'\U0001F40A': { # 🐊
         'en' : ':crocodile:',
@@ -9187,7 +9555,8 @@ EMOJI_DATA = {
         'fr': ':crocodile:',
         'pt': ':crocodilo:',
         'it': ':coccodrillo:',
-        'fa': u':تمساح:'
+        'fa': u':تمساح:',
+        'tr': ':timsah:'
     },
     u'\U0001F950': { # 🥐
         'en' : ':croissant:',
@@ -9198,7 +9567,8 @@ EMOJI_DATA = {
         'fr': ':croissant:',
         'pt': ':croissant:',
         'it': ':croissant:',
-        'fa': u':کرواسان:'
+        'fa': u':کرواسان:',
+        'tr': ':kruvasan:'
     },
     u'\U0000274C': { # ❌
         'en' : ':cross_mark:',
@@ -9210,7 +9580,8 @@ EMOJI_DATA = {
         'fr': ':croix:',
         'pt': ':xis:',
         'it': ':croce:',
-        'fa': u':ضربدر:'
+        'fa': u':ضربدر:',
+        'tr': u':çarpı_işareti:'
     },
     u'\U0000274E': { # ❎
         'en' : ':cross_mark_button:',
@@ -9222,7 +9593,8 @@ EMOJI_DATA = {
         'fr': ':bouton_croix:',
         'pt': u':botão_de_xis:',
         'it': ':croce_con_quadrato:',
-        'fa': u':دکمه_ایکس:'
+        'fa': u':دکمه_ایکس:',
+        'tr': u':çarpı_işareti_düğmesi:'
     },
     u'\U0001F91E': { # 🤞
         'en' : ':crossed_fingers:',
@@ -9233,7 +9605,8 @@ EMOJI_DATA = {
         'fr': u':doigts_croisés:',
         'pt': ':dedos_cruzados:',
         'it': ':dita_incrociate:',
-        'fa': u':انگشتان_گره_خورده:'
+        'fa': u':انگشتان_گره_خورده:',
+        'tr': u':şans_dileme:'
     },
     u'\U0001F91E\U0001F3FF': { # 🤞🏿
         'en' : ':crossed_fingers_dark_skin_tone:',
@@ -9294,7 +9667,8 @@ EMOJI_DATA = {
         'fr': u':drapeaux_croisés:',
         'pt': ':bandeiras_cruzadas:',
         'it': ':bandiere_del_giappone_incrociate:',
-        'fa': u':پرچم_های_ضرب_دری:'
+        'fa': u':پرچم_های_ضرب_دری:',
+        'tr': u':çapraz_bayraklar:'
     },
     u'\U00002694\U0000FE0F': { # ⚔️
         'en' : ':crossed_swords:',
@@ -9306,7 +9680,8 @@ EMOJI_DATA = {
         'fr': u':épées_croisées:',
         'pt': ':espadas_cruzadas:',
         'it': ':spade_incrociate:',
-        'fa': u':شمشیرهای_ضرب_دری:'
+        'fa': u':شمشیرهای_ضرب_دری:',
+        'tr': u':çapraz_kılıçlar:'
     },
     u'\U00002694': { # ⚔
         'en' : ':crossed_swords:',
@@ -9318,7 +9693,8 @@ EMOJI_DATA = {
         'fr': u':épées_croisées:',
         'pt': ':espadas_cruzadas:',
         'it': ':spade_incrociate:',
-        'fa': u':شمشیرهای_ضرب_دری:'
+        'fa': u':شمشیرهای_ضرب_دری:',
+        'tr': u':çapraz_kılıçlar:'
     },
     u'\U0001F451': { # 👑
         'en' : ':crown:',
@@ -9329,7 +9705,8 @@ EMOJI_DATA = {
         'fr': ':couronne:',
         'pt': ':coroa:',
         'it': ':corona:',
-        'fa': u':تاج:'
+        'fa': u':تاج:',
+        'tr': u':taç:'
     },
     u'\U0001FA7C': { # 🩼
         'en' : ':crutch:',
@@ -9340,7 +9717,8 @@ EMOJI_DATA = {
         'fr': u':béquille:',
         'pt': ':muleta:',
         'it': ':stampella:',
-        'fa': u':عصای_زیر_بغل:'
+        'fa': u':عصای_زیر_بغل:',
+        'tr': u':koltuk_değneği:'
     },
     u'\U0001F63F': { # 😿
         'en' : ':crying_cat:',
@@ -9352,7 +9730,8 @@ EMOJI_DATA = {
         'fr': ':chat_qui_pleure:',
         'pt': ':rosto_de_gato_chorando:',
         'it': ':gatto_che_piange:',
-        'fa': u':گربهٔ_گریان:'
+        'fa': u':گربهٔ_گریان:',
+        'tr': u':ağlayan_kedi:'
     },
     u'\U0001F622': { # 😢
         'en' : ':crying_face:',
@@ -9364,7 +9743,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_pleure:',
         'pt': ':rosto_chorando:',
         'it': ':faccina_che_piange:',
-        'fa': u':گریان:'
+        'fa': u':گریان:',
+        'tr': u':ağlayan_yüz:'
     },
     u'\U0001F52E': { # 🔮
         'en' : ':crystal_ball:',
@@ -9375,7 +9755,8 @@ EMOJI_DATA = {
         'fr': ':boule_de_cristal:',
         'pt': ':bola_de_cristal:',
         'it': ':sfera_di_cristallo:',
-        'fa': u':گوی:'
+        'fa': u':گوی:',
+        'tr': u':kristal_küre:'
     },
     u'\U0001F952': { # 🥒
         'en' : ':cucumber:',
@@ -9386,7 +9767,8 @@ EMOJI_DATA = {
         'fr': ':concombre:',
         'pt': ':pepino:',
         'it': ':cetriolo:',
-        'fa': u':خیار:'
+        'fa': u':خیار:',
+        'tr': u':salatalık:'
     },
     u'\U0001F964': { # 🥤
         'en' : ':cup_with_straw:',
@@ -9397,7 +9779,8 @@ EMOJI_DATA = {
         'fr': ':gobelet_avec_paille:',
         'pt': ':copo_com_canudo:',
         'it': ':bicchiere_con_cannuccia:',
-        'fa': u':فنجان_با_نی:'
+        'fa': u':فنجان_با_نی:',
+        'tr': ':pipetli_bardak:'
     },
     u'\U0001F9C1': { # 🧁
         'en' : ':cupcake:',
@@ -9408,7 +9791,8 @@ EMOJI_DATA = {
         'fr': ':cupcake:',
         'pt': ':cupcake:',
         'it': ':cupcake:',
-        'fa': u':کیک_فنجانی:'
+        'fa': u':کیک_فنجانی:',
+        'tr': ':cupcake:'
     },
     u'\U0001F94C': { # 🥌
         'en' : ':curling_stone:',
@@ -9419,7 +9803,8 @@ EMOJI_DATA = {
         'fr': ':pierre_de_curling:',
         'pt': ':pedra_de_curling:',
         'it': ':stone_da_curling:',
-        'fa': u':سنگ_کرلینگ:'
+        'fa': u':سنگ_کرلینگ:',
+        'tr': u':curling_taşı:'
     },
     u'\U0001F9B1': { # 🦱
         'en' : ':curly_hair:',
@@ -9430,7 +9815,8 @@ EMOJI_DATA = {
         'fr': u':cheveux_bouclés:',
         'pt': ':cabelo_cacheado:',
         'it': ':capelli_ricci:',
-        'fa': u':موفرفری:'
+        'fa': u':موفرفری:',
+        'tr': u':kıvırcık_saç:'
     },
     u'\U000027B0': { # ➰
         'en' : ':curly_loop:',
@@ -9441,7 +9827,8 @@ EMOJI_DATA = {
         'fr': ':boucle:',
         'pt': u':laço_encaracolado:',
         'it': ':occhiello:',
-        'fa': u':حلقه_مجعد:'
+        'fa': u':حلقه_مجعد:',
+        'tr': u':kıvrık_döngü:'
     },
     u'\U0001F4B1': { # 💱
         'en' : ':currency_exchange:',
@@ -9452,7 +9839,8 @@ EMOJI_DATA = {
         'fr': ':conversion_de_devise:',
         'pt': u':câmbio_de_moeda:',
         'it': ':cambio_valuta:',
-        'fa': u':تبدیل_ارز:'
+        'fa': u':تبدیل_ارز:',
+        'tr': ':kambiyo:'
     },
     u'\U0001F35B': { # 🍛
         'en' : ':curry_rice:',
@@ -9464,7 +9852,8 @@ EMOJI_DATA = {
         'fr': ':riz_au_curry:',
         'pt': ':arroz_com_curry:',
         'it': ':riso_al_curry:',
-        'fa': u':برنج_با_کاری:'
+        'fa': u':برنج_با_کاری:',
+        'tr': u':körili_pilav:'
     },
     u'\U0001F36E': { # 🍮
         'en' : ':custard:',
@@ -9475,7 +9864,8 @@ EMOJI_DATA = {
         'fr': u':crème_renversée:',
         'pt': ':pudim:',
         'it': ':budino:',
-        'fa': u':کاستارد:'
+        'fa': u':کاستارد:',
+        'tr': ':krem_karamel:'
     },
     u'\U0001F6C3': { # 🛃
         'en' : ':customs:',
@@ -9486,7 +9876,8 @@ EMOJI_DATA = {
         'fr': ':douane:',
         'pt': u':alfândega:',
         'it': ':simbolo_della_dogana:',
-        'fa': u':گمرک:'
+        'fa': u':گمرک:',
+        'tr': u':gümrük:'
     },
     u'\U0001F969': { # 🥩
         'en' : ':cut_of_meat:',
@@ -9497,7 +9888,8 @@ EMOJI_DATA = {
         'fr': ':morceau_de_viande:',
         'pt': ':corte_de_carne:',
         'it': ':taglio_di_carne:',
-        'fa': u':برش_گوشت:'
+        'fa': u':برش_گوشت:',
+        'tr': u':parça_et:'
     },
     u'\U0001F300': { # 🌀
         'en' : ':cyclone:',
@@ -9508,7 +9900,8 @@ EMOJI_DATA = {
         'fr': ':cyclone:',
         'pt': ':ciclone:',
         'it': ':ciclone:',
-        'fa': u':چرخند:'
+        'fa': u':چرخند:',
+        'tr': ':siklon:'
     },
     u'\U0001F5E1\U0000FE0F': { # 🗡️
         'en' : ':dagger:',
@@ -9521,7 +9914,8 @@ EMOJI_DATA = {
         'fr': ':dague:',
         'pt': ':adaga:',
         'it': ':pugnale:',
-        'fa': u':خنجر:'
+        'fa': u':خنجر:',
+        'tr': u':hançer:'
     },
     u'\U0001F5E1': { # 🗡
         'en' : ':dagger:',
@@ -9534,7 +9928,8 @@ EMOJI_DATA = {
         'fr': ':dague:',
         'pt': ':adaga:',
         'it': ':pugnale:',
-        'fa': u':خنجر:'
+        'fa': u':خنجر:',
+        'tr': u':hançer:'
     },
     u'\U0001F361': { # 🍡
         'en' : ':dango:',
@@ -9545,7 +9940,8 @@ EMOJI_DATA = {
         'fr': ':brochette_de_bonbons:',
         'pt': ':dango:',
         'it': ':dango:',
-        'fa': u':دانگو:'
+        'fa': u':دانگو:',
+        'tr': u':pirinç_tatlısı:'
     },
     u'\U0001F3FF': { # 🏿
         'en' : ':dark_skin_tone:',
@@ -9557,7 +9953,8 @@ EMOJI_DATA = {
         'fr': u':peau_foncée:',
         'pt': ':pele_escura:',
         'it': ':carnagione_scura:',
-        'fa': u':پوست_آبنوسی:'
+        'fa': u':پوست_آبنوسی:',
+        'tr': ':koyu_cilt_tonu:'
     },
     u'\U0001F4A8': { # 💨
         'en' : ':dashing_away:',
@@ -9569,7 +9966,8 @@ EMOJI_DATA = {
         'fr': u':décamper:',
         'pt': ':rapidez:',
         'it': ':nuvola_di_polvere:',
-        'fa': u':به_سرعت_باد:'
+        'fa': u':به_سرعت_باد:',
+        'tr': u':hızla_fırlama:'
     },
     u'\U0001F9CF\U0000200D\U00002642\U0000FE0F': { # 🧏‍♂️
         'en' : ':deaf_man:',
@@ -9580,7 +9978,8 @@ EMOJI_DATA = {
         'fr': ':homme_sourd:',
         'pt': ':homem_surdo:',
         'it': ':uomo_con_problemi_di_udito:',
-        'fa': u':مرد_ناشنوا:'
+        'fa': u':مرد_ناشنوا:',
+        'tr': u':işitme_engelli_erkek:'
     },
     u'\U0001F9CF\U0000200D\U00002642': { # 🧏‍♂
         'en' : ':deaf_man:',
@@ -9591,7 +9990,8 @@ EMOJI_DATA = {
         'fr': ':homme_sourd:',
         'pt': ':homem_surdo:',
         'it': ':uomo_con_problemi_di_udito:',
-        'fa': u':مرد_ناشنوا:'
+        'fa': u':مرد_ناشنوا:',
+        'tr': u':işitme_engelli_erkek:'
     },
     u'\U0001F9CF\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧏🏿‍♂️
         'en' : ':deaf_man_dark_skin_tone:',
@@ -9702,7 +10102,8 @@ EMOJI_DATA = {
         'fr': ':personne_sourde:',
         'pt': ':pessoa_surda:',
         'it': ':persona_con_problemi_di_udito:',
-        'fa': u':آدم_ناشنوا:'
+        'fa': u':آدم_ناشنوا:',
+        'tr': u':işitme_engelli_kişi:'
     },
     u'\U0001F9CF\U0001F3FF': { # 🧏🏿
         'en' : ':deaf_person_dark_skin_tone:',
@@ -9763,7 +10164,8 @@ EMOJI_DATA = {
         'fr': ':femme_sourde:',
         'pt': ':mulher_surda:',
         'it': ':donna_con_problemi_di_udito:',
-        'fa': u':زن_ناشنوا:'
+        'fa': u':زن_ناشنوا:',
+        'tr': u':işitme_engelli_kadın:'
     },
     u'\U0001F9CF\U0000200D\U00002640': { # 🧏‍♀
         'en' : ':deaf_woman:',
@@ -9774,7 +10176,8 @@ EMOJI_DATA = {
         'fr': ':femme_sourde:',
         'pt': ':mulher_surda:',
         'it': ':donna_con_problemi_di_udito:',
-        'fa': u':زن_ناشنوا:'
+        'fa': u':زن_ناشنوا:',
+        'tr': u':işitme_engelli_kadın:'
     },
     u'\U0001F9CF\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧏🏿‍♀️
         'en' : ':deaf_woman_dark_skin_tone:',
@@ -9885,7 +10288,8 @@ EMOJI_DATA = {
         'fr': u':arbre_à_feuilles_caduques:',
         'pt': u':árvore_caidiça:',
         'it': ':albero_deciduo:',
-        'fa': u':درخت_سبز:'
+        'fa': u':درخت_سبز:',
+        'tr': u':yaprak_döken_ağaç:'
     },
     u'\U0001F98C': { # 🦌
         'en' : ':deer:',
@@ -9896,7 +10300,8 @@ EMOJI_DATA = {
         'fr': ':cerf:',
         'pt': ':cervo:',
         'it': ':cervo:',
-        'fa': u':گوزن:'
+        'fa': u':گوزن:',
+        'tr': ':geyik:'
     },
     u'\U0001F69A': { # 🚚
         'en' : ':delivery_truck:',
@@ -9908,7 +10313,8 @@ EMOJI_DATA = {
         'fr': ':camion_de_livraison:',
         'pt': u':caminhão_de_entrega:',
         'it': ':camion:',
-        'fa': u':کامیون_پخش:'
+        'fa': u':کامیون_پخش:',
+        'tr': ':nakliye_kamyonu:'
     },
     u'\U0001F3EC': { # 🏬
         'en' : ':department_store:',
@@ -9919,7 +10325,8 @@ EMOJI_DATA = {
         'fr': ':grand_magasin:',
         'pt': ':loja_de_departamentos:',
         'it': ':grande_magazzino:',
-        'fa': u':فروشگاه_بزرگ:'
+        'fa': u':فروشگاه_بزرگ:',
+        'tr': u':çok_katlı_mağaza:'
     },
     u'\U0001F3DA\U0000FE0F': { # 🏚️
         'en' : ':derelict_house:',
@@ -9932,7 +10339,8 @@ EMOJI_DATA = {
         'fr': u':maison_abandonnée:',
         'pt': ':casa_abandonada:',
         'it': ':casa_in_rovina:',
-        'fa': u':خانه_متروکه:'
+        'fa': u':خانه_متروکه:',
+        'tr': u':terkedilmiş_ev:'
     },
     u'\U0001F3DA': { # 🏚
         'en' : ':derelict_house:',
@@ -9945,7 +10353,8 @@ EMOJI_DATA = {
         'fr': u':maison_abandonnée:',
         'pt': ':casa_abandonada:',
         'it': ':casa_in_rovina:',
-        'fa': u':خانهٔ_متروکه:'
+        'fa': u':خانهٔ_متروکه:',
+        'tr': u':terkedilmiş_ev:'
     },
     u'\U0001F3DC\U0000FE0F': { # 🏜️
         'en' : ':desert:',
@@ -9957,7 +10366,8 @@ EMOJI_DATA = {
         'fr': u':désert:',
         'pt': ':deserto:',
         'it': ':deserto:',
-        'fa': u':بیابان:'
+        'fa': u':بیابان:',
+        'tr': u':çöl:'
     },
     u'\U0001F3DC': { # 🏜
         'en' : ':desert:',
@@ -9969,7 +10379,8 @@ EMOJI_DATA = {
         'fr': u':désert:',
         'pt': ':deserto:',
         'it': ':deserto:',
-        'fa': u':بیابان:'
+        'fa': u':بیابان:',
+        'tr': u':çöl:'
     },
     u'\U0001F3DD\U0000FE0F': { # 🏝️
         'en' : ':desert_island:',
@@ -9981,7 +10392,8 @@ EMOJI_DATA = {
         'fr': u':île_déserte:',
         'pt': ':ilha_deserta:',
         'it': ':isola_deserta:',
-        'fa': u':جزیره_خالی_از_سکنه:'
+        'fa': u':جزیره_خالی_از_سکنه:',
+        'tr': u':ıssız_ada:'
     },
     u'\U0001F3DD': { # 🏝
         'en' : ':desert_island:',
@@ -9993,7 +10405,8 @@ EMOJI_DATA = {
         'fr': u':île_déserte:',
         'pt': ':ilha_deserta:',
         'it': ':isola_deserta:',
-        'fa': u':جزیرهٔ_خالی_از_سکنه:'
+        'fa': u':جزیرهٔ_خالی_از_سکنه:',
+        'tr': u':ıssız_ada:'
     },
     u'\U0001F5A5\U0000FE0F': { # 🖥️
         'en' : ':desktop_computer:',
@@ -10005,7 +10418,8 @@ EMOJI_DATA = {
         'fr': ':ordinateur_de_bureau:',
         'pt': ':computador_de_mesa:',
         'it': ':computer_fisso:',
-        'fa': u':رایانه_میزی:'
+        'fa': u':رایانه_میزی:',
+        'tr': u':masaüstü_bilgisayar:'
     },
     u'\U0001F5A5': { # 🖥
         'en' : ':desktop_computer:',
@@ -10017,7 +10431,8 @@ EMOJI_DATA = {
         'fr': ':ordinateur_de_bureau:',
         'pt': ':computador_de_mesa:',
         'it': ':computer_fisso:',
-        'fa': u':رایانهٔ_میزی:'
+        'fa': u':رایانهٔ_میزی:',
+        'tr': u':masaüstü_bilgisayar:'
     },
     u'\U0001F575\U0000FE0F': { # 🕵️
         'en' : ':detective:',
@@ -10030,7 +10445,8 @@ EMOJI_DATA = {
         'fr': u':détective:',
         'pt': ':detetive:',
         'it': ':detective:',
-        'fa': u':کارآگاه:'
+        'fa': u':کارآگاه:',
+        'tr': ':dedektif:'
     },
     u'\U0001F575': { # 🕵
         'en' : ':detective:',
@@ -10043,7 +10459,8 @@ EMOJI_DATA = {
         'fr': u':détective:',
         'pt': ':detetive:',
         'it': ':detective:',
-        'fa': u':کارآگاه:'
+        'fa': u':کارآگاه:',
+        'tr': ':dedektif:'
     },
     u'\U0001F575\U0001F3FF': { # 🕵🏿
         'en' : ':detective_dark_skin_tone:',
@@ -10106,7 +10523,8 @@ EMOJI_DATA = {
         'fr': ':carreau:',
         'pt': ':naipe_de_ouros:',
         'it': ':quadri:',
-        'fa': u':خال_خشت:'
+        'fa': u':خال_خشت:',
+        'tr': ':karo:'
     },
     u'\U00002666': { # ♦
         'en' : ':diamond_suit:',
@@ -10119,7 +10537,8 @@ EMOJI_DATA = {
         'fr': ':carreau:',
         'pt': ':naipe_de_ouros:',
         'it': ':quadri:',
-        'fa': u':خال_خشت:'
+        'fa': u':خال_خشت:',
+        'tr': ':karo:'
     },
     u'\U0001F4A0': { # 💠
         'en' : ':diamond_with_a_dot:',
@@ -10131,7 +10550,8 @@ EMOJI_DATA = {
         'fr': ':diamant_avec_un_point:',
         'pt': ':diamante_com_um_ponto:',
         'it': ':petalo_di_fiore:',
-        'fa': u':لوزی_نقطه_دار:'
+        'fa': u':لوزی_نقطه_دار:',
+        'tr': u':içinde_noktalı_karo:'
     },
     u'\U0001F505': { # 🔅
         'en' : ':dim_button:',
@@ -10143,7 +10563,8 @@ EMOJI_DATA = {
         'fr': u':luminosité_faible:',
         'pt': u':botão_de_diminuir_brilho:',
         'it': u':luminosità_bassa:',
-        'fa': u':دکمهٔ_تار_کردن_صفحه:'
+        'fa': u':دکمهٔ_تار_کردن_صفحه:',
+        'tr': u':düşük_parlaklık:'
     },
     u'\U0001F61E': { # 😞
         'en' : ':disappointed_face:',
@@ -10155,7 +10576,8 @@ EMOJI_DATA = {
         'fr': u':visage_déçu:',
         'pt': ':rosto_desapontado:',
         'it': ':faccina_delusa:',
-        'fa': u':ناامید:'
+        'fa': u':ناامید:',
+        'tr': u':memnuniyetsiz_yüz:'
     },
     u'\U0001F978': { # 🥸
         'en' : ':disguised_face:',
@@ -10166,7 +10588,8 @@ EMOJI_DATA = {
         'fr': u':visage_déguisé:',
         'pt': u':rosto_disfarçado:',
         'it': ':faccina_travestita:',
-        'fa': u':تغییرقیافه_داده:'
+        'fa': u':تغییرقیافه_داده:',
+        'tr': u':gizlenmiş_yüz:'
     },
     u'\U00002797': { # ➗
         'en' : ':divide:',
@@ -10178,7 +10601,8 @@ EMOJI_DATA = {
         'fr': ':signe_diviser:',
         'pt': u':símbolo_de_divisão:',
         'it': ':divisione:',
-        'fa': u':تقسیم_کردن:'
+        'fa': u':تقسیم_کردن:',
+        'tr': u':bölü_işareti:'
     },
     u'\U0001F93F': { # 🤿
         'en' : ':diving_mask:',
@@ -10189,7 +10613,8 @@ EMOJI_DATA = {
         'fr': u':masque_de_plongée:',
         'pt': u':máscara_de_mergulho:',
         'it': ':maschera_da_sub:',
-        'fa': u':ماسک_غواصی:'
+        'fa': u':ماسک_غواصی:',
+        'tr': u':dalgıç_maskesi:'
     },
     u'\U0001FA94': { # 🪔
         'en' : ':diya_lamp:',
@@ -10200,7 +10625,8 @@ EMOJI_DATA = {
         'fr': ':diya:',
         'pt': u':lâmpada_de_óleo:',
         'it': ':diya:',
-        'fa': u':چراغ_دایا:'
+        'fa': u':چراغ_دایا:',
+        'tr': ':diya_lamba:'
     },
     u'\U0001F4AB': { # 💫
         'en' : ':dizzy:',
@@ -10211,7 +10637,8 @@ EMOJI_DATA = {
         'fr': u':étourdissement:',
         'pt': ':zonzo:',
         'it': ':stella_con_scia:',
-        'fa': u':سرگیجه:'
+        'fa': u':سرگیجه:',
+        'tr': u':baş_dönmesi:'
     },
     u'\U0001F9EC': { # 🧬
         'en' : ':dna:',
@@ -10222,7 +10649,8 @@ EMOJI_DATA = {
         'fr': ':adn:',
         'pt': ':dna:',
         'it': ':dna:',
-        'fa': u':دی_ان_ای:'
+        'fa': u':دی_ان_ای:',
+        'tr': ':dna:'
     },
     u'\U0001F9A4': { # 🦤
         'en' : ':dodo:',
@@ -10233,7 +10661,8 @@ EMOJI_DATA = {
         'fr': ':dodo:',
         'pt': u':dodô:',
         'it': ':dodo:',
-        'fa': u':دودو:'
+        'fa': u':دودو:',
+        'tr': u':dodo_kuşu:'
     },
     u'\U0001F415': { # 🐕
         'en' : ':dog:',
@@ -10246,7 +10675,8 @@ EMOJI_DATA = {
         'fr': ':chien:',
         'pt': ':cachorro:',
         'it': ':cane:',
-        'fa': u':سگ:'
+        'fa': u':سگ:',
+        'tr': u':köpek:'
     },
     u'\U0001F436': { # 🐶
         'en' : ':dog_face:',
@@ -10258,7 +10688,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_chien:',
         'pt': ':rosto_de_cachorro:',
         'it': ':muso_di_cane:',
-        'fa': u':صورت_سگ:'
+        'fa': u':صورت_سگ:',
+        'tr': u':köpek_yüzü:'
     },
     u'\U0001F4B5': { # 💵
         'en' : ':dollar_banknote:',
@@ -10270,7 +10701,8 @@ EMOJI_DATA = {
         'fr': ':billet_en_dollars:',
         'pt': u':nota_de_dólar:',
         'it': ':banconota_dollaro:',
-        'fa': u':اسکناس_دلار:'
+        'fa': u':اسکناس_دلار:',
+        'tr': ':dolar_banknot:'
     },
     u'\U0001F42C': { # 🐬
         'en' : ':dolphin:',
@@ -10282,7 +10714,8 @@ EMOJI_DATA = {
         'fr': ':dauphin:',
         'pt': ':golfinho:',
         'it': ':delfino:',
-        'fa': u':دلفین:'
+        'fa': u':دلفین:',
+        'tr': ':yunus:'
     },
     u'\U0001F6AA': { # 🚪
         'en' : ':door:',
@@ -10293,7 +10726,8 @@ EMOJI_DATA = {
         'fr': ':porte:',
         'pt': ':porta:',
         'it': ':porta:',
-        'fa': u':در:'
+        'fa': u':در:',
+        'tr': u':kapı:'
     },
     u'\U0001FAE5': { # 🫥
         'en' : ':dotted_line_face:',
@@ -10304,7 +10738,8 @@ EMOJI_DATA = {
         'fr': u':visage_en_pointillés:',
         'pt': ':rosto_com_linha_pontilhada:',
         'it': ':faccina_tratteggiata:',
-        'fa': u':چهره_با_خط_چین:'
+        'fa': u':چهره_با_خط_چین:',
+        'tr': u':noktalı_çizgili_yüz:'
     },
     u'\U0001F52F': { # 🔯
         'en' : ':dotted_six-pointed_star:',
@@ -10316,7 +10751,8 @@ EMOJI_DATA = {
         'fr': u':étoile_à_6_branches:',
         'pt': ':estrela_de_seis_pontas:',
         'it': ':stella_a_sei_punte:',
-        'fa': u':ستارهٔ_شش_پر:'
+        'fa': u':ستارهٔ_شش_پر:',
+        'tr': u':altı_köşeli_yıldız:'
     },
     u'\U000027BF': { # ➿
         'en' : ':double_curly_loop:',
@@ -10328,7 +10764,8 @@ EMOJI_DATA = {
         'fr': ':double_boucle:',
         'pt': ':loop_encaracolado_duas_vezes:',
         'it': ':doppio_occhiello:',
-        'fa': u':حلقه_مجعد_دوتایی:'
+        'fa': u':حلقه_مجعد_دوتایی:',
+        'tr': u':çift_kıvrık_döngü:'
     },
     u'\U0000203C\U0000FE0F': { # ‼️
         'en' : ':double_exclamation_mark:',
@@ -10341,7 +10778,8 @@ EMOJI_DATA = {
         'fr': u':double_point_d’exclamation:',
         'pt': u':dupla_exclamação:',
         'it': ':doppio_punto_esclamativo:',
-        'fa': u':علامت_تعجب_دوتایی:'
+        'fa': u':علامت_تعجب_دوتایی:',
+        'tr': u':çift_ünlem:'
     },
     u'\U0000203C': { # ‼
         'en' : ':double_exclamation_mark:',
@@ -10354,7 +10792,8 @@ EMOJI_DATA = {
         'fr': u':double_point_d’exclamation:',
         'pt': u':dupla_exclamação:',
         'it': ':doppio_punto_esclamativo:',
-        'fa': u':علامت_تعجب_دوتایی:'
+        'fa': u':علامت_تعجب_دوتایی:',
+        'tr': u':çift_ünlem:'
     },
     u'\U0001F369': { # 🍩
         'en' : ':doughnut:',
@@ -10365,7 +10804,8 @@ EMOJI_DATA = {
         'fr': ':doughnut:',
         'pt': ':donut:',
         'it': ':ciambella:',
-        'fa': u':دونات:'
+        'fa': u':دونات:',
+        'tr': ':donut:'
     },
     u'\U0001F54A\U0000FE0F': { # 🕊️
         'en' : ':dove:',
@@ -10378,7 +10818,8 @@ EMOJI_DATA = {
         'fr': ':colombe:',
         'pt': ':pomba_branca:',
         'it': ':colomba:',
-        'fa': u':کبوتر:'
+        'fa': u':کبوتر:',
+        'tr': u':güvercin:'
     },
     u'\U0001F54A': { # 🕊
         'en' : ':dove:',
@@ -10391,7 +10832,8 @@ EMOJI_DATA = {
         'fr': ':colombe:',
         'pt': ':pomba_branca:',
         'it': ':colomba:',
-        'fa': u':کبوتر:'
+        'fa': u':کبوتر:',
+        'tr': u':güvercin:'
     },
     u'\U00002199\U0000FE0F': { # ↙️
         'en' : ':down-left_arrow:',
@@ -10404,7 +10846,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bas_gauche:',
         'pt': ':seta_para_baixo_e_para_a_esquerda:',
         'it': ':freccia_in_basso_a_sinistra:',
-        'fa': u':پیکان_پایین_چپ:'
+        'fa': u':پیکان_پایین_چپ:',
+        'tr': u':sol_aşağı_ok:'
     },
     u'\U00002199': { # ↙
         'en' : ':down-left_arrow:',
@@ -10417,7 +10860,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bas_gauche:',
         'pt': ':seta_para_baixo_e_para_a_esquerda:',
         'it': ':freccia_in_basso_a_sinistra:',
-        'fa': u':پیکان_پایین_چپ:'
+        'fa': u':پیکان_پایین_چپ:',
+        'tr': u':sol_aşağı_ok:'
     },
     u'\U00002198\U0000FE0F': { # ↘️
         'en' : ':down-right_arrow:',
@@ -10430,7 +10874,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bas_droite:',
         'pt': ':seta_para_baixo_e_para_a_direita:',
         'it': ':freccia_in_basso_a_destra:',
-        'fa': u':پیکان_پایین_راست:'
+        'fa': u':پیکان_پایین_راست:',
+        'tr': u':sağ_aşağı_ok:'
     },
     u'\U00002198': { # ↘
         'en' : ':down-right_arrow:',
@@ -10443,7 +10888,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bas_droite:',
         'pt': ':seta_para_baixo_e_para_a_direita:',
         'it': ':freccia_in_basso_a_destra:',
-        'fa': u':پیکان_پایین_راست:'
+        'fa': u':پیکان_پایین_راست:',
+        'tr': u':sağ_aşağı_ok:'
     },
     u'\U00002B07\U0000FE0F': { # ⬇️
         'en' : ':down_arrow:',
@@ -10456,7 +10902,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bas:',
         'pt': ':seta_para_baixo:',
         'it': ':freccia_rivolta_verso_il_basso:',
-        'fa': u':پیکان_پایین:'
+        'fa': u':پیکان_پایین:',
+        'tr': u':aşağı_ok:'
     },
     u'\U00002B07': { # ⬇
         'en' : ':down_arrow:',
@@ -10469,7 +10916,8 @@ EMOJI_DATA = {
         'fr': u':flèche_bas:',
         'pt': ':seta_para_baixo:',
         'it': ':freccia_rivolta_verso_il_basso:',
-        'fa': u':پیکان_پایین:'
+        'fa': u':پیکان_پایین:',
+        'tr': u':aşağı_ok:'
     },
     u'\U0001F613': { # 😓
         'en' : ':downcast_face_with_sweat:',
@@ -10481,7 +10929,8 @@ EMOJI_DATA = {
         'fr': u':visage_démoralisé_avec_goutte_de_sueur:',
         'pt': ':rosto_cabisbaixo_com_gota_de_suor:',
         'it': ':faccina_abbattuta_sudata:',
-        'fa': u':عرق_سرد:'
+        'fa': u':عرق_سرد:',
+        'tr': u':soğuk_ter:'
     },
     u'\U0001F53D': { # 🔽
         'en' : ':downwards_button:',
@@ -10493,7 +10942,8 @@ EMOJI_DATA = {
         'fr': ':petit_triangle_bas:',
         'pt': u':botão_apontando_para_baixo:',
         'it': ':pulsante_a_triangolo_rivolto_verso_il_basso:',
-        'fa': u':دکمهٔ_پایین:'
+        'fa': u':دکمهٔ_پایین:',
+        'tr': u':aşağı_düğmesi:'
     },
     u'\U0001F409': { # 🐉
         'en' : ':dragon:',
@@ -10504,7 +10954,8 @@ EMOJI_DATA = {
         'fr': ':dragon:',
         'pt': u':dragão:',
         'it': ':drago:',
-        'fa': u':اژدها:'
+        'fa': u':اژدها:',
+        'tr': ':ejderha:'
     },
     u'\U0001F432': { # 🐲
         'en' : ':dragon_face:',
@@ -10515,7 +10966,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_dragon:',
         'pt': u':rosto_de_dragão:',
         'it': ':testa_di_drago:',
-        'fa': u':صورت_اژدها:'
+        'fa': u':صورت_اژدها:',
+        'tr': u':ejderha_yüzü:'
     },
     u'\U0001F457': { # 👗
         'en' : ':dress:',
@@ -10526,7 +10978,8 @@ EMOJI_DATA = {
         'fr': ':robe:',
         'pt': ':vestido:',
         'it': ':vestito:',
-        'fa': u':پیراهن_زنانه:'
+        'fa': u':پیراهن_زنانه:',
+        'tr': ':elbise:'
     },
     u'\U0001F924': { # 🤤
         'en' : ':drooling_face:',
@@ -10537,7 +10990,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_bave:',
         'pt': ':rosto_babando:',
         'it': ':faccina_che_sbava:',
-        'fa': u':آب_افتادن_دهان:'
+        'fa': u':آب_افتادن_دهان:',
+        'tr': u':salya_akıtan_yüz:'
     },
     u'\U0001FA78': { # 🩸
         'en' : ':drop_of_blood:',
@@ -10548,7 +11002,8 @@ EMOJI_DATA = {
         'fr': ':goutte_de_sang:',
         'pt': ':gota_de_sangue:',
         'it': ':goccia_di_sangue:',
-        'fa': u':قطره_خون:'
+        'fa': u':قطره_خون:',
+        'tr': u':kan_damlası:'
     },
     u'\U0001F4A7': { # 💧
         'en' : ':droplet:',
@@ -10559,7 +11014,8 @@ EMOJI_DATA = {
         'fr': u':goutte_d’eau:',
         'pt': ':gota:',
         'it': ':goccia:',
-        'fa': u':قطره:'
+        'fa': u':قطره:',
+        'tr': u':damlacık:'
     },
     u'\U0001F941': { # 🥁
         'en' : ':drum:',
@@ -10570,7 +11026,8 @@ EMOJI_DATA = {
         'fr': ':batterie:',
         'pt': ':tambor:',
         'it': ':tamburo:',
-        'fa': u':طبل:'
+        'fa': u':طبل:',
+        'tr': ':davul:'
     },
     u'\U0001F986': { # 🦆
         'en' : ':duck:',
@@ -10581,7 +11038,8 @@ EMOJI_DATA = {
         'fr': ':canard:',
         'pt': ':pato:',
         'it': ':anatra:',
-        'fa': u':مرغابی:'
+        'fa': u':مرغابی:',
+        'tr': u':ördek:'
     },
     u'\U0001F95F': { # 🥟
         'en' : ':dumpling:',
@@ -10592,7 +11050,8 @@ EMOJI_DATA = {
         'fr': u':boulette_de_pâte:',
         'pt': u':bolinho_asiático:',
         'it': ':raviolo:',
-        'fa': u':کوفته:'
+        'fa': u':کوفته:',
+        'tr': u':mantı:'
     },
     u'\U0001F4C0': { # 📀
         'en' : ':dvd:',
@@ -10603,7 +11062,8 @@ EMOJI_DATA = {
         'fr': ':dvd:',
         'pt': ':dvd:',
         'it': ':dvd:',
-        'fa': u':دی_وی_دی:'
+        'fa': u':دی_وی_دی:',
+        'tr': ':dvd:'
     },
     u'\U0001F4E7': { # 📧
         'en' : ':e-mail:',
@@ -10615,7 +11075,8 @@ EMOJI_DATA = {
         'fr': ':e-mail:',
         'pt': ':e-mail:',
         'it': ':e-mail:',
-        'fa': u':ایمیل:'
+        'fa': u':ایمیل:',
+        'tr': ':e-posta:'
     },
     u'\U0001F985': { # 🦅
         'en' : ':eagle:',
@@ -10626,7 +11087,8 @@ EMOJI_DATA = {
         'fr': ':aigle:',
         'pt': u':águia:',
         'it': ':aquila:',
-        'fa': u':عقاب:'
+        'fa': u':عقاب:',
+        'tr': ':kartal:'
     },
     u'\U0001F442': { # 👂
         'en' : ':ear:',
@@ -10638,7 +11100,8 @@ EMOJI_DATA = {
         'fr': ':oreille:',
         'pt': ':orelha:',
         'it': ':orecchio:',
-        'fa': u':گوش:'
+        'fa': u':گوش:',
+        'tr': ':kulak:'
     },
     u'\U0001F442\U0001F3FF': { # 👂🏿
         'en' : ':ear_dark_skin_tone:',
@@ -10700,7 +11163,8 @@ EMOJI_DATA = {
         'fr': u':épi_de_maïs:',
         'pt': ':milho:',
         'it': ':pannocchia:',
-        'fa': u':بلال_ذرت:'
+        'fa': u':بلال_ذرت:',
+        'tr': u':mısır_koçanı:'
     },
     u'\U0001F9BB': { # 🦻
         'en' : ':ear_with_hearing_aid:',
@@ -10711,7 +11175,8 @@ EMOJI_DATA = {
         'fr': u':oreille_appareillée:',
         'pt': ':ouvido_com_aparelho_auditivo:',
         'it': ':orecchio_con_apparecchio_acustico:',
-        'fa': u':سمعک_در_گوش:'
+        'fa': u':سمعک_در_گوش:',
+        'tr': u':işitme_cihazı_olan_kulak:'
     },
     u'\U0001F9BB\U0001F3FF': { # 🦻🏿
         'en' : ':ear_with_hearing_aid_dark_skin_tone:',
@@ -10773,7 +11238,8 @@ EMOJI_DATA = {
         'fr': u':œuf:',
         'pt': ':ovo:',
         'it': ':uovo:',
-        'fa': u':تخم_مرغ:'
+        'fa': u':تخم_مرغ:',
+        'tr': ':yumurta:'
     },
     u'\U0001F346': { # 🍆
         'en' : ':eggplant:',
@@ -10784,7 +11250,8 @@ EMOJI_DATA = {
         'fr': ':aubergine:',
         'pt': ':berinjela:',
         'it': ':melanzana:',
-        'fa': u':بادمجان:'
+        'fa': u':بادمجان:',
+        'tr': u':patlıcan:'
     },
     u'\U00002734\U0000FE0F': { # ✴️
         'en' : ':eight-pointed_star:',
@@ -10797,7 +11264,8 @@ EMOJI_DATA = {
         'fr': u':étoile_huit_branches:',
         'pt': ':estrela_de_oito_pontas:',
         'it': ':stella_stilizzata:',
-        'fa': u':ستاره_هشت_پر:'
+        'fa': u':ستاره_هشت_پر:',
+        'tr': u':sekiz_noktalı_yıldız:'
     },
     u'\U00002734': { # ✴
         'en' : ':eight-pointed_star:',
@@ -10810,7 +11278,8 @@ EMOJI_DATA = {
         'fr': u':étoile_huit_branches:',
         'pt': ':estrela_de_oito_pontas:',
         'it': ':stella_stilizzata:',
-        'fa': u':ستاره_هشت_پر:'
+        'fa': u':ستاره_هشت_پر:',
+        'tr': u':sekiz_noktalı_yıldız:'
     },
     u'\U00002733\U0000FE0F': { # ✳️
         'en' : ':eight-spoked_asterisk:',
@@ -10823,7 +11292,8 @@ EMOJI_DATA = {
         'fr': u':astérisque_huit_branches:',
         'pt': ':asterisco_de_oito_pontas:',
         'it': ':asterisco:',
-        'fa': u':ستاره_هشت_پره:'
+        'fa': u':ستاره_هشت_پره:',
+        'tr': u':sekiz_uçlu_yıldız:'
     },
     u'\U00002733': { # ✳
         'en' : ':eight-spoked_asterisk:',
@@ -10836,7 +11306,8 @@ EMOJI_DATA = {
         'fr': u':astérisque_huit_branches:',
         'pt': ':asterisco_de_oito_pontas:',
         'it': ':asterisco:',
-        'fa': u':ستاره_هشت_پره:'
+        'fa': u':ستاره_هشت_پره:',
+        'tr': u':sekiz_uçlu_yıldız:'
     },
     u'\U0001F563': { # 🕣
         'en' : ':eight-thirty:',
@@ -10849,7 +11320,8 @@ EMOJI_DATA = {
         'fr': ':huit_heures_et_demie:',
         'pt': ':oito_e_meia:',
         'it': ':ore_otto_e_mezza:',
-        'fa': u':ساعت_هشت_و_نیم:'
+        'fa': u':ساعت_هشت_و_نیم:',
+        'tr': u':sekiz_buçuk:'
     },
     u'\U0001F557': { # 🕗
         'en' : u':eight_o’clock:',
@@ -10862,7 +11334,8 @@ EMOJI_DATA = {
         'fr': ':huit_heures:',
         'pt': ':8_horas:',
         'it': ':ore_otto:',
-        'fa': u':ساعت_هشت:'
+        'fa': u':ساعت_هشت:',
+        'tr': ':saat_8:'
     },
     u'\U000023CF\U0000FE0F': { # ⏏️
         'en' : ':eject_button:',
@@ -10875,7 +11348,8 @@ EMOJI_DATA = {
         'fr': u':bouton_éjecter:',
         'pt': u':botão_ejetar:',
         'it': ':pulsante_di_espulsione:',
-        'fa': u':دکمه_خروج:'
+        'fa': u':دکمه_خروج:',
+        'tr': u':çıkarma_düğmesi:'
     },
     u'\U000023CF': { # ⏏
         'en' : ':eject_button:',
@@ -10888,7 +11362,8 @@ EMOJI_DATA = {
         'fr': u':bouton_éjecter:',
         'pt': u':botão_ejetar:',
         'it': ':pulsante_di_espulsione:',
-        'fa': u':دکمهٔ_خروج:'
+        'fa': u':دکمهٔ_خروج:',
+        'tr': u':çıkarma_düğmesi:'
     },
     u'\U0001F50C': { # 🔌
         'en' : ':electric_plug:',
@@ -10899,7 +11374,8 @@ EMOJI_DATA = {
         'fr': u':câble_avec_fiche_électrique:',
         'pt': u':tomada_elétrica:',
         'it': ':spina_elettrica:',
-        'fa': u':دوشاخه:'
+        'fa': u':دوشاخه:',
+        'tr': u':elektrik_fişi:'
     },
     u'\U0001F418': { # 🐘
         'en' : ':elephant:',
@@ -10910,7 +11386,8 @@ EMOJI_DATA = {
         'fr': u':éléphant:',
         'pt': ':elefante:',
         'it': ':elefante:',
-        'fa': u':فیل:'
+        'fa': u':فیل:',
+        'tr': ':fil:'
     },
     u'\U0001F6D7': { # 🛗
         'en' : ':elevator:',
@@ -10921,7 +11398,8 @@ EMOJI_DATA = {
         'fr': ':ascenseur:',
         'pt': ':elevador:',
         'it': ':ascensore:',
-        'fa': u':بالابر:'
+        'fa': u':بالابر:',
+        'tr': u':asansör:'
     },
     u'\U0001F566': { # 🕦
         'en' : ':eleven-thirty:',
@@ -10934,7 +11412,8 @@ EMOJI_DATA = {
         'fr': ':onze_heures_et_demie:',
         'pt': ':onze_e_meia:',
         'it': ':ore_undici_e_mezza:',
-        'fa': u':ساعت_یازده_و_نیم:'
+        'fa': u':ساعت_یازده_و_نیم:',
+        'tr': u':on_bir_buçuk:'
     },
     u'\U0001F55A': { # 🕚
         'en' : u':eleven_o’clock:',
@@ -10947,7 +11426,8 @@ EMOJI_DATA = {
         'fr': ':onze_heures:',
         'pt': ':11_horas:',
         'it': ':ore_undici:',
-        'fa': u':ساعت_یازده:'
+        'fa': u':ساعت_یازده:',
+        'tr': ':saat_11:'
     },
     u'\U0001F9DD': { # 🧝
         'en' : ':elf:',
@@ -10958,7 +11438,8 @@ EMOJI_DATA = {
         'fr': ':elfe:',
         'pt': ':elfo:',
         'it': ':elfo:',
-        'fa': u':اِلف:'
+        'fa': u':اِلف:',
+        'tr': ':elf:'
     },
     u'\U0001F9DD\U0001F3FF': { # 🧝🏿
         'en' : ':elf_dark_skin_tone:',
@@ -11019,7 +11500,8 @@ EMOJI_DATA = {
         'fr': ':nid_vide:',
         'pt': ':ninho_vazio:',
         'it': ':nido_vuoto:',
-        'fa': u':آشیانه_خالی:'
+        'fa': u':آشیانه_خالی:',
+        'tr': u':boş_yuva:'
     },
     u'\U00002709\U0000FE0F': { # ✉️
         'en' : ':envelope:',
@@ -11031,7 +11513,8 @@ EMOJI_DATA = {
         'fr': ':enveloppe:',
         'pt': ':envelope:',
         'it': ':busta:',
-        'fa': u':پاکت_نامه:'
+        'fa': u':پاکت_نامه:',
+        'tr': ':zarf:'
     },
     u'\U00002709': { # ✉
         'en' : ':envelope:',
@@ -11043,7 +11526,8 @@ EMOJI_DATA = {
         'fr': ':enveloppe:',
         'pt': ':envelope:',
         'it': ':busta:',
-        'fa': u':پاکت_نامه:'
+        'fa': u':پاکت_نامه:',
+        'tr': ':zarf:'
     },
     u'\U0001F4E9': { # 📩
         'en' : ':envelope_with_arrow:',
@@ -11054,7 +11538,8 @@ EMOJI_DATA = {
         'fr': u':enveloppe_avec_flèche:',
         'pt': ':envelope_com_seta:',
         'it': ':posta_in_uscita:',
-        'fa': u':پاکت_نامه_با_پیکان:'
+        'fa': u':پاکت_نامه_با_پیکان:',
+        'tr': ':oklu_zarf:'
     },
     u'\U0001F4B6': { # 💶
         'en' : ':euro_banknote:',
@@ -11066,7 +11551,8 @@ EMOJI_DATA = {
         'fr': ':billet_en_euros:',
         'pt': ':nota_de_euro:',
         'it': ':banconota_euro:',
-        'fa': u':اسکناس_یورو:'
+        'fa': u':اسکناس_یورو:',
+        'tr': ':euro_banknot:'
     },
     u'\U0001F332': { # 🌲
         'en' : ':evergreen_tree:',
@@ -11077,7 +11563,8 @@ EMOJI_DATA = {
         'fr': u':conifère:',
         'pt': u':conífera:',
         'it': ':albero_sempreverde:',
-        'fa': u':همیشه_سبز:'
+        'fa': u':همیشه_سبز:',
+        'tr': u':yaprak_dökmeyen_ağaç:'
     },
     u'\U0001F411': { # 🐑
         'en' : ':ewe:',
@@ -11089,7 +11576,8 @@ EMOJI_DATA = {
         'fr': ':mouton:',
         'pt': ':ovelha:',
         'it': ':pecora:',
-        'fa': u':میش:'
+        'fa': u':میش:',
+        'tr': ':koyun:'
     },
     u'\U00002049\U0000FE0F': { # ⁉️
         'en' : ':exclamation_question_mark:',
@@ -11102,7 +11590,8 @@ EMOJI_DATA = {
         'fr': u':points_d’exclamation_et_d’interrogation:',
         'pt': u':exclamação_com_interrogação:',
         'it': ':punto_esclamativo_e_interrogativo:',
-        'fa': u':علامت_تعجب_و_سؤال:'
+        'fa': u':علامت_تعجب_و_سؤال:',
+        'tr': u':ünlemli_soru_işareti:'
     },
     u'\U00002049': { # ⁉
         'en' : ':exclamation_question_mark:',
@@ -11115,7 +11604,8 @@ EMOJI_DATA = {
         'fr': u':points_d’exclamation_et_d’interrogation:',
         'pt': u':exclamação_com_interrogação:',
         'it': ':punto_esclamativo_e_interrogativo:',
-        'fa': u':علامت_تعجب_و_سؤال:'
+        'fa': u':علامت_تعجب_و_سؤال:',
+        'tr': u':ünlemli_soru_işareti:'
     },
     u'\U0001F92F': { # 🤯
         'en' : ':exploding_head:',
@@ -11126,7 +11616,8 @@ EMOJI_DATA = {
         'fr': u':tête_qui_explose:',
         'pt': u':cabeça_explodindo:',
         'it': ':testa_che_esplode:',
-        'fa': u':سر_منفجرشده:'
+        'fa': u':سر_منفجرشده:',
+        'tr': ':patlayan_kafa:'
     },
     u'\U0001F611': { # 😑
         'en' : ':expressionless_face:',
@@ -11138,7 +11629,8 @@ EMOJI_DATA = {
         'fr': ':visage_sans_expression:',
         'pt': ':rosto_inexpressivo:',
         'it': ':faccina_inespressiva:',
-        'fa': u':صورت_بی_حالت:'
+        'fa': u':صورت_بی_حالت:',
+        'tr': u':ifadesiz_yüz:'
     },
     u'\U0001F441\U0000FE0F': { # 👁️
         'en' : ':eye:',
@@ -11150,7 +11642,8 @@ EMOJI_DATA = {
         'fr': u':œil:',
         'pt': ':olho:',
         'it': ':occhio:',
-        'fa': u':چشم:'
+        'fa': u':چشم:',
+        'tr': u':göz:'
     },
     u'\U0001F441': { # 👁
         'en' : ':eye:',
@@ -11162,7 +11655,8 @@ EMOJI_DATA = {
         'fr': u':œil:',
         'pt': ':olho:',
         'it': ':occhio:',
-        'fa': u':چشم:'
+        'fa': u':چشم:',
+        'tr': u':göz:'
     },
     u'\U0001F441\U0000FE0F\U0000200D\U0001F5E8\U0000FE0F': { # 👁️‍🗨️
         'en' : ':eye_in_speech_bubble:',
@@ -11173,7 +11667,8 @@ EMOJI_DATA = {
         'fr': u':œil_dans_une_bulle_de_bd:',
         'pt': u':olho_no_balão_de_diálogo:',
         'it': ':occhio_nel_fumetto:',
-        'fa': u':چشم_در_حباب_گفتار:'
+        'fa': u':چشم_در_حباب_گفتار:',
+        'tr': u':konuşma_balonunda_göz:'
     },
     u'\U0001F441\U0000200D\U0001F5E8\U0000FE0F': { # 👁‍🗨️
         'en' : ':eye_in_speech_bubble:',
@@ -11184,7 +11679,8 @@ EMOJI_DATA = {
         'fr': u':œil_dans_une_bulle_de_bd:',
         'pt': u':olho_no_balão_de_diálogo:',
         'it': ':occhio_nel_fumetto:',
-        'fa': u':چشم_در_حباب_گفتار:'
+        'fa': u':چشم_در_حباب_گفتار:',
+        'tr': u':konuşma_balonunda_göz:'
     },
     u'\U0001F441\U0000FE0F\U0000200D\U0001F5E8': { # 👁️‍🗨
         'en' : ':eye_in_speech_bubble:',
@@ -11195,7 +11691,8 @@ EMOJI_DATA = {
         'fr': u':œil_dans_une_bulle_de_bd:',
         'pt': u':olho_no_balão_de_diálogo:',
         'it': ':occhio_nel_fumetto:',
-        'fa': u':چشم_در_حباب_گفتار:'
+        'fa': u':چشم_در_حباب_گفتار:',
+        'tr': u':konuşma_balonunda_göz:'
     },
     u'\U0001F441\U0000200D\U0001F5E8': { # 👁‍🗨
         'en' : ':eye_in_speech_bubble:',
@@ -11206,7 +11703,8 @@ EMOJI_DATA = {
         'fr': u':œil_dans_une_bulle_de_bd:',
         'pt': u':olho_no_balão_de_diálogo:',
         'it': ':occhio_nel_fumetto:',
-        'fa': u':چشم_در_حباب_گفتار:'
+        'fa': u':چشم_در_حباب_گفتار:',
+        'tr': u':konuşma_balonunda_göz:'
     },
     u'\U0001F440': { # 👀
         'en' : ':eyes:',
@@ -11217,7 +11715,8 @@ EMOJI_DATA = {
         'fr': ':yeux:',
         'pt': ':olhos:',
         'it': ':occhi:',
-        'fa': u':دو_چشم:'
+        'fa': u':دو_چشم:',
+        'tr': u':gözler:'
     },
     u'\U0001F618': { # 😘
         'en' : ':face_blowing_a_kiss:',
@@ -11229,7 +11728,8 @@ EMOJI_DATA = {
         'fr': ':visage_envoyant_un_bisou:',
         'pt': ':rosto_mandando_um_beijo:',
         'it': ':faccina_che_manda_un_bacio:',
-        'fa': u':بوسه_فرستادن:'
+        'fa': u':بوسه_فرستادن:',
+        'tr': u':öpücük_gönderen_yüz:'
     },
     u'\U0001F62E\U0000200D\U0001F4A8': { # 😮‍💨
         'en' : ':face_exhaling:',
@@ -11240,7 +11740,8 @@ EMOJI_DATA = {
         'fr': ':visage_expirant:',
         'pt': ':rosto_exalando:',
         'it': ':faccina_che_espira:',
-        'fa': u':صورتک_در_حال_بازدم:'
+        'fa': u':صورتک_در_حال_بازدم:',
+        'tr': u':nefes_veren_yüz:'
     },
     u'\U0001F979': { # 🥹
         'en' : ':face_holding_back_tears:',
@@ -11251,7 +11752,8 @@ EMOJI_DATA = {
         'fr': ':visage_retenant_ses_larmes:',
         'pt': u':rosto_segurando_as_lágrimas:',
         'it': ':faccina_che_trattiene_le_lacrime:',
-        'fa': u':چهره_با_چشمان_پراشک:'
+        'fa': u':چهره_با_چشمان_پراشک:',
+        'tr': u':gözleri_dolmuş_yüz:'
     },
     u'\U0001F636\U0000200D\U0001F32B\U0000FE0F': { # 😶‍🌫️
         'en' : ':face_in_clouds:',
@@ -11262,7 +11764,8 @@ EMOJI_DATA = {
         'fr': ':visage_dans_les_nuages:',
         'pt': ':rosto_nas_nuvens:',
         'it': ':testa_tra_le_nuvole:',
-        'fa': u':صورتک_میان_ابر:'
+        'fa': u':صورتک_میان_ابر:',
+        'tr': u':bulutlardaki_yüz:'
     },
     u'\U0001F636\U0000200D\U0001F32B': { # 😶‍🌫
         'en' : ':face_in_clouds:',
@@ -11273,7 +11776,8 @@ EMOJI_DATA = {
         'fr': ':visage_dans_les_nuages:',
         'pt': ':rosto_nas_nuvens:',
         'it': ':testa_tra_le_nuvole:',
-        'fa': u':صورتک_میان_ابر:'
+        'fa': u':صورتک_میان_ابر:',
+        'tr': u':bulutlardaki_yüz:'
     },
     u'\U0001F60B': { # 😋
         'en' : ':face_savoring_food:',
@@ -11285,7 +11789,8 @@ EMOJI_DATA = {
         'fr': ':miam:',
         'pt': ':rosto_saboreando_comida:',
         'it': ':faccina_che_si_lecca_i_baffi:',
-        'fa': u':صورت_با_زبان_آب_افتاده:'
+        'fa': u':صورت_با_زبان_آب_افتاده:',
+        'tr': u':lezzetli_yiyecek_beğenen_yüz:'
     },
     u'\U0001F631': { # 😱
         'en' : ':face_screaming_in_fear:',
@@ -11297,7 +11802,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_hurle_de_peur:',
         'pt': ':rosto_gritando_de_medo:',
         'it': ':faccina_terrorizzata:',
-        'fa': u':جیغ_ترس:'
+        'fa': u':جیغ_ترس:',
+        'tr': u':korkuyla_çığlık_atan_yüz:'
     },
     u'\U0001F92E': { # 🤮
         'en' : ':face_vomiting:',
@@ -11309,7 +11815,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_vomit:',
         'pt': ':rosto_vomitando:',
         'it': ':faccina_che_vomita:',
-        'fa': u':درحال_استفراغ:'
+        'fa': u':درحال_استفراغ:',
+        'tr': u':kusan_yüz:'
     },
     u'\U0001F635': { # 😵
         'en' : ':face_with_crossed-out_eyes:',
@@ -11321,7 +11828,8 @@ EMOJI_DATA = {
         'fr': u':visage_étourdi:',
         'pt': ':rosto_atordoado:',
         'it': ':faccina_frastornata:',
-        'fa': u':گیج:'
+        'fa': u':گیج:',
+        'tr': u':sersemlemiş_yüz:'
     },
     u'\U0001FAE4': { # 🫤
         'en' : ':face_with_diagonal_mouth:',
@@ -11332,7 +11840,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_bouche_en_diagonale:',
         'pt': ':rosto_com_boca_diagonal:',
         'it': ':faccina_perplessa:',
-        'fa': u':صورت_با_دهان_کج:'
+        'fa': u':صورت_با_دهان_کج:',
+        'tr': u':şüpheli_yüz:'
     },
     u'\U0001F92D': { # 🤭
         'en' : ':face_with_hand_over_mouth:',
@@ -11344,7 +11853,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_une_main_sur_la_bouche:',
         'pt': u':rosto_com_a_mão_sobre_a_boca:',
         'it': ':faccina_con_mano_sulla_bocca:',
-        'fa': u':دست_روی_دهن:'
+        'fa': u':دست_روی_دهن:',
+        'tr': u':eliyle_ağzını_kapatan_yüz:'
     },
     u'\U0001F915': { # 🤕
         'en' : ':face_with_head-bandage:',
@@ -11356,7 +11866,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_bandage_autour_de_la_tête:',
         'pt': u':rosto_com_atadura_na_cabeça:',
         'it': ':faccina_con_la_testa_bendata:',
-        'fa': u':سر_باندپیچی_شده:'
+        'fa': u':سر_باندپیچی_شده:',
+        'tr': u':kafası_sarılı_yüz:'
     },
     u'\U0001F637': { # 😷
         'en' : ':face_with_medical_mask:',
@@ -11368,7 +11879,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_masque:',
         'pt': u':rosto_com_máscara_médica:',
         'it': ':faccina_con_mascherina:',
-        'fa': u':صورت_با_ماسک_پزشکی:'
+        'fa': u':صورت_با_ماسک_پزشکی:',
+        'tr': u':maskeli_yüz:'
     },
     u'\U0001F9D0': { # 🧐
         'en' : ':face_with_monocle:',
@@ -11380,7 +11892,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_un_monocle:',
         'pt': u':rosto_com_monóculo:',
         'it': ':faccina_con_monocolo:',
-        'fa': u':صورت_با_عینک_یک_چشمی:'
+        'fa': u':صورت_با_عینک_یک_چشمی:',
+        'tr': u':tek_cam_gözlüklü_yüz:'
     },
     u'\U0001FAE2': { # 🫢
         'en' : ':face_with_open_eyes_and_hand_over_mouth:',
@@ -11391,7 +11904,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_yeux_ouverts_et_main_sur_la_bouche:',
         'pt': u':rosto_com_olhos_abertos_e_mão_sobre_a_boca:',
         'it': ':faccina_con_occhi_aperti_e_mano_sulla_bocca:',
-        'fa': u':چهره_با_چشمان_باز_و_دست_روی_دهان:'
+        'fa': u':چهره_با_چشمان_باز_و_دست_روی_دهان:',
+        'tr': u':el_ağızdayken_gözler_açık_yüz:'
     },
     u'\U0001F62E': { # 😮
         'en' : ':face_with_open_mouth:',
@@ -11403,7 +11917,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_bouche_ouverte:',
         'pt': ':rosto_com_boca_aberta:',
         'it': ':faccina_con_bocca_aperta:',
-        'fa': u':دهان_باز_از_تعجب:'
+        'fa': u':دهان_باز_از_تعجب:',
+        'tr': u':ağzı_açık_yüz:'
     },
     u'\U0001FAE3': { # 🫣
         'en' : ':face_with_peeking_eye:',
@@ -11414,7 +11929,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_regarde_entre_ses_doigts:',
         'pt': ':rosto_com_olho_espiando:',
         'it': ':faccina_che_sbircia_tra_le_dita:',
-        'fa': u':چهره_با_نگاه_دزدکی:'
+        'fa': u':چهره_با_نگاه_دزدکی:',
+        'tr': u':gizlice_bakan_yüz:'
     },
     u'\U0001F928': { # 🤨
         'en' : ':face_with_raised_eyebrow:',
@@ -11426,7 +11942,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_les_sourcils_relevés:',
         'pt': ':rosto_com_sobrancelha_levantada:',
         'it': ':faccia_con_sopracciglia_alzate:',
-        'fa': u':صورت_با_ابروی_بالاداده:'
+        'fa': u':صورت_با_ابروی_بالاداده:',
+        'tr': u':tek_kaşı_çatık_yüz:'
     },
     u'\U0001F644': { # 🙄
         'en' : ':face_with_rolling_eyes:',
@@ -11438,7 +11955,8 @@ EMOJI_DATA = {
         'fr': ':visage_roulant_des_yeux:',
         'pt': ':rosto_com_olhos_revirados:',
         'it': ':faccina_con_occhi_al_cielo:',
-        'fa': u':نگاه_کلافه:'
+        'fa': u':نگاه_کلافه:',
+        'tr': u':gözlerini_deviren_yüz:'
     },
     u'\U0001F635\U0000200D\U0001F4AB': { # 😵‍💫
         'en' : ':face_with_spiral_eyes:',
@@ -11449,7 +11967,8 @@ EMOJI_DATA = {
         'fr': ':visage_aux_yeux_en_spirales:',
         'pt': ':rosto_com_olhos_em_espiral:',
         'it': ':faccina_con_occhi_a_spirale:',
-        'fa': u':صورتک_با_چشمان_چرخشی:'
+        'fa': u':صورتک_با_چشمان_چرخشی:',
+        'tr': u':sarmal_gözlü_yüz:'
     },
     u'\U0001F624': { # 😤
         'en' : ':face_with_steam_from_nose:',
@@ -11461,7 +11980,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_fumée_sortant_des_narines:',
         'pt': ':rosto_soltando_vapor_pelo_nariz:',
         'it': ':faccina_che_sbuffa:',
-        'fa': u':ژست_برندگی_با_دلخوری:'
+        'fa': u':ژست_برندگی_با_دلخوری:',
+        'tr': u':burnundan_soluyan_yüz:'
     },
     u'\U0001F92C': { # 🤬
         'en' : ':face_with_symbols_on_mouth:',
@@ -11473,7 +11993,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_des_symboles_dans_la_bouche:',
         'pt': u':rosto_com_símbolos_na_boca:',
         'it': ':faccina_con_simboli_sulla_bocca:',
-        'fa': u':صورت_با_نمادهایی_روی_دهان:'
+        'fa': u':صورت_با_نمادهایی_روی_دهان:',
+        'tr': u':ağzında_semboller_olan_yüz:'
     },
     u'\U0001F602': { # 😂
         'en' : ':face_with_tears_of_joy:',
@@ -11485,7 +12006,8 @@ EMOJI_DATA = {
         'fr': ':visage_riant_aux_larmes:',
         'pt': ':rosto_chorando_de_rir:',
         'it': ':faccina_con_lacrime_di_gioia:',
-        'fa': u':روده_بر:'
+        'fa': u':روده_بر:',
+        'tr': u':sevinç_gözyaşları:'
     },
     u'\U0001F912': { # 🤒
         'en' : ':face_with_thermometer:',
@@ -11496,7 +12018,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_thermomètre:',
         'pt': u':rosto_com_termômetro:',
         'it': ':faccina_con_termometro:',
-        'fa': u':تب_دار:'
+        'fa': u':تب_دار:',
+        'tr': u':ağzında_termometre_olan_yüz:'
     },
     u'\U0001F61B': { # 😛
         'en' : ':face_with_tongue:',
@@ -11508,7 +12031,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_tire_la_langue:',
         'pt': u':rosto_mostrando_a_língua:',
         'it': ':faccina_che_mostra_la_lingua:',
-        'fa': u':زبونک:'
+        'fa': u':زبونک:',
+        'tr': u':dil_dışarıda:'
     },
     u'\U0001F636': { # 😶
         'en' : ':face_without_mouth:',
@@ -11520,7 +12044,8 @@ EMOJI_DATA = {
         'fr': ':visage_sans_bouche:',
         'pt': ':rosto_sem_boca:',
         'it': ':faccina_senza_bocca:',
-        'fa': u':صورت_بدون_لب:'
+        'fa': u':صورت_بدون_لب:',
+        'tr': u':ağzı_olmayan_yüz:'
     },
     u'\U0001F3ED': { # 🏭
         'en' : ':factory:',
@@ -11532,7 +12057,8 @@ EMOJI_DATA = {
         'fr': ':usine:',
         'pt': u':fábrica:',
         'it': ':fabbrica:',
-        'fa': u':کارخانه:'
+        'fa': u':کارخانه:',
+        'tr': ':fabrika:'
     },
     u'\U0001F9D1\U0000200D\U0001F3ED': { # 🧑‍🏭
         'en' : ':factory_worker:',
@@ -11543,7 +12069,8 @@ EMOJI_DATA = {
         'fr': ':ouvrier_(tous_genres):',
         'pt': u':funcionário_de_fábrica:',
         'it': ':persona_che_lavora_in_fabbrica:',
-        'fa': u':کارگر_کارخانه:'
+        'fa': u':کارگر_کارخانه:',
+        'tr': u':fabrika_işçisi:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F3ED': { # 🧑🏿‍🏭
         'en' : ':factory_worker_dark_skin_tone:',
@@ -11604,7 +12131,8 @@ EMOJI_DATA = {
         'fr': u':personnage_féérique:',
         'pt': ':fada:',
         'it': ':fata:',
-        'fa': u':پری:'
+        'fa': u':پری:',
+        'tr': ':peri:'
     },
     u'\U0001F9DA\U0001F3FF': { # 🧚🏿
         'en' : ':fairy_dark_skin_tone:',
@@ -11665,7 +12193,8 @@ EMOJI_DATA = {
         'fr': ':falafels:',
         'pt': ':falafel:',
         'it': ':falafel:',
-        'fa': u':فلافل:'
+        'fa': u':فلافل:',
+        'tr': ':falafel:'
     },
     u'\U0001F342': { # 🍂
         'en' : ':fallen_leaf:',
@@ -11676,7 +12205,8 @@ EMOJI_DATA = {
         'fr': ':feuille_morte:',
         'pt': u':folhas_caídas:',
         'it': ':foglia_caduta:',
-        'fa': u':برگ_ریزان:'
+        'fa': u':برگ_ریزان:',
+        'tr': u':düşen_yapraklar:'
     },
     u'\U0001F46A': { # 👪
         'en' : ':family:',
@@ -11688,7 +12218,8 @@ EMOJI_DATA = {
         'fr': ':famille:',
         'pt': u':família:',
         'it': ':famiglia:',
-        'fa': u':خانواده:'
+        'fa': u':خانواده:',
+        'tr': ':aile:'
     },
     u'\U0001F468\U0000200D\U0001F466': { # 👨‍👦
         'en' : ':family_man_boy:',
@@ -11949,7 +12480,8 @@ EMOJI_DATA = {
         'fr': ':fermier_(tous_genres):',
         'pt': ':agricultor:',
         'it': ':agricoltore:',
-        'fa': u':کشاورز:'
+        'fa': u':کشاورز:',
+        'tr': u':çiftçi:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F33E': { # 🧑🏿‍🌾
         'en' : ':farmer_dark_skin_tone:',
@@ -12012,7 +12544,8 @@ EMOJI_DATA = {
         'fr': ':bouton_avance_rapide:',
         'pt': u':botão_avançar:',
         'it': ':pulsante_di_avanzamento_rapido:',
-        'fa': u':دکمهٔ_سریع_به_جلو:'
+        'fa': u':دکمهٔ_سریع_به_جلو:',
+        'tr': u':ileri_sarma_düğmesi:'
     },
     u'\U000023EC': { # ⏬
         'en' : ':fast_down_button:',
@@ -12024,7 +12557,8 @@ EMOJI_DATA = {
         'fr': u':double_flèche_vers_le_bas:',
         'pt': u':botão_de_avanço_para_baixo:',
         'it': ':doppia_freccia_in_basso:',
-        'fa': u':دکمهٔ_سریع_به_پایین:'
+        'fa': u':دکمهٔ_سریع_به_پایین:',
+        'tr': u':hızlı_aşağı_düğmesi:'
     },
     u'\U000023EA': { # ⏪
         'en' : ':fast_reverse_button:',
@@ -12037,7 +12571,8 @@ EMOJI_DATA = {
         'fr': ':bouton_retour_rapide:',
         'pt': u':botão_de_retroceder:',
         'it': ':pulsante_di_riavvolgimento_rapido:',
-        'fa': u':دکمهٔ_سریع_به_عقب:'
+        'fa': u':دکمهٔ_سریع_به_عقب:',
+        'tr': u':hızlı_geri_düğmesi:'
     },
     u'\U000023EB': { # ⏫
         'en' : ':fast_up_button:',
@@ -12049,7 +12584,8 @@ EMOJI_DATA = {
         'fr': u':double_flèche_vers_le_haut:',
         'pt': u':botão_de_avanço_para_cima:',
         'it': ':pulsante_doppia_freccia_in_alto:',
-        'fa': u':دکمهٔ_سریع_به_بالا:'
+        'fa': u':دکمهٔ_سریع_به_بالا:',
+        'tr': u':hızlı_yukarı_düğmesi:'
     },
     u'\U0001F4E0': { # 📠
         'en' : ':fax_machine:',
@@ -12061,7 +12597,8 @@ EMOJI_DATA = {
         'fr': ':fax:',
         'pt': ':fax:',
         'it': ':fax:',
-        'fa': u':دستگاه_نمابر:'
+        'fa': u':دستگاه_نمابر:',
+        'tr': ':faks_makinesi:'
     },
     u'\U0001F628': { # 😨
         'en' : ':fearful_face:',
@@ -12073,7 +12610,8 @@ EMOJI_DATA = {
         'fr': u':visage_effrayé:',
         'pt': ':rosto_amedrontado:',
         'it': ':faccina_impaurita:',
-        'fa': u':ترسیده:'
+        'fa': u':ترسیده:',
+        'tr': u':korkulu_yüz:'
     },
     u'\U0001FAB6': { # 🪶
         'en' : ':feather:',
@@ -12084,7 +12622,8 @@ EMOJI_DATA = {
         'fr': ':plume:',
         'pt': ':pena:',
         'it': ':piuma:',
-        'fa': u':پَر:'
+        'fa': u':پَر:',
+        'tr': u':kuş_tüyü:'
     },
     u'\U00002640\U0000FE0F': { # ♀️
         'en' : ':female_sign:',
@@ -12096,7 +12635,8 @@ EMOJI_DATA = {
         'fr': ':symbole_de_la_femme:',
         'pt': u':símbolo_de_feminino:',
         'it': ':simbolo_genere_femminile:',
-        'fa': u':نشان_ناهید:'
+        'fa': u':نشان_ناهید:',
+        'tr': u':kadın_sembolü:'
     },
     u'\U00002640': { # ♀
         'en' : ':female_sign:',
@@ -12108,7 +12648,8 @@ EMOJI_DATA = {
         'fr': ':symbole_de_la_femme:',
         'pt': u':símbolo_de_feminino:',
         'it': ':simbolo_genere_femminile:',
-        'fa': u':نشان_ناهید:'
+        'fa': u':نشان_ناهید:',
+        'tr': u':kadın_sembolü:'
     },
     u'\U0001F3A1': { # 🎡
         'en' : ':ferris_wheel:',
@@ -12119,7 +12660,8 @@ EMOJI_DATA = {
         'fr': ':grande_roue:',
         'pt': ':roda_gigante:',
         'it': ':ruota_panoramica:',
-        'fa': u':چرخ_وفلک:'
+        'fa': u':چرخ_وفلک:',
+        'tr': u':dönme_dolap:'
     },
     u'\U000026F4\U0000FE0F': { # ⛴️
         'en' : ':ferry:',
@@ -12131,7 +12673,8 @@ EMOJI_DATA = {
         'fr': ':ferry:',
         'pt': ':balsa:',
         'it': ':traghetto:',
-        'fa': u':فرابر:'
+        'fa': u':فرابر:',
+        'tr': ':feribot:'
     },
     u'\U000026F4': { # ⛴
         'en' : ':ferry:',
@@ -12143,7 +12686,8 @@ EMOJI_DATA = {
         'fr': ':ferry:',
         'pt': ':balsa:',
         'it': ':traghetto:',
-        'fa': u':فرابر:'
+        'fa': u':فرابر:',
+        'tr': ':feribot:'
     },
     u'\U0001F3D1': { # 🏑
         'en' : ':field_hockey:',
@@ -12155,7 +12699,8 @@ EMOJI_DATA = {
         'fr': ':hockey_sur_gazon:',
         'pt': u':hóquei_de_campo:',
         'it': ':hockey_su_prato:',
-        'fa': u':هاکی_روی_چمن:'
+        'fa': u':هاکی_روی_چمن:',
+        'tr': u':çim_hokeyi:'
     },
     u'\U0001F5C4\U0000FE0F': { # 🗄️
         'en' : ':file_cabinet:',
@@ -12167,7 +12712,8 @@ EMOJI_DATA = {
         'fr': u':meuble_à_dossiers:',
         'pt': u':gavetas_de_escritório:',
         'it': ':schedario_da_ufficio:',
-        'fa': u':کشوی_پرونده:'
+        'fa': u':کشوی_پرونده:',
+        'tr': u':dosya_dolabı:'
     },
     u'\U0001F5C4': { # 🗄
         'en' : ':file_cabinet:',
@@ -12179,7 +12725,8 @@ EMOJI_DATA = {
         'fr': u':meuble_à_dossiers:',
         'pt': u':gavetas_de_escritório:',
         'it': ':schedario_da_ufficio:',
-        'fa': u':کشوی_پرونده:'
+        'fa': u':کشوی_پرونده:',
+        'tr': u':dosya_dolabı:'
     },
     u'\U0001F4C1': { # 📁
         'en' : ':file_folder:',
@@ -12190,7 +12737,8 @@ EMOJI_DATA = {
         'fr': ':dossier:',
         'pt': ':pasta_de_arquivos:',
         'it': ':cartella_file:',
-        'fa': u':پوشه:'
+        'fa': u':پوشه:',
+        'tr': u':dosya_klasörü:'
     },
     u'\U0001F39E\U0000FE0F': { # 🎞️
         'en' : ':film_frames:',
@@ -12203,7 +12751,8 @@ EMOJI_DATA = {
         'fr': ':pellicule:',
         'pt': ':rolo_de_filmes:',
         'it': ':pellicola_cinematografica:',
-        'fa': u':حلقه_فیلم:'
+        'fa': u':حلقه_فیلم:',
+        'tr': ':film_kareleri:'
     },
     u'\U0001F39E': { # 🎞
         'en' : ':film_frames:',
@@ -12216,7 +12765,8 @@ EMOJI_DATA = {
         'fr': ':pellicule:',
         'pt': ':rolo_de_filmes:',
         'it': ':pellicola_cinematografica:',
-        'fa': u':حلقهٔ_فیلم:'
+        'fa': u':حلقهٔ_فیلم:',
+        'tr': ':film_kareleri:'
     },
     u'\U0001F4FD\U0000FE0F': { # 📽️
         'en' : ':film_projector:',
@@ -12228,7 +12778,8 @@ EMOJI_DATA = {
         'fr': u':projecteur_cinématographique:',
         'pt': ':projetor_de_filmes:',
         'it': ':proiettore_cinematografico:',
-        'fa': u':پروژکتور:'
+        'fa': u':پروژکتور:',
+        'tr': u':film_projektörü:'
     },
     u'\U0001F4FD': { # 📽
         'en' : ':film_projector:',
@@ -12240,7 +12791,8 @@ EMOJI_DATA = {
         'fr': u':projecteur_cinématographique:',
         'pt': ':projetor_de_filmes:',
         'it': ':proiettore_cinematografico:',
-        'fa': u':پروژکتور:'
+        'fa': u':پروژکتور:',
+        'tr': u':film_projektörü:'
     },
     u'\U0001F525': { # 🔥
         'en' : ':fire:',
@@ -12251,7 +12803,8 @@ EMOJI_DATA = {
         'fr': ':feu:',
         'pt': ':fogo:',
         'it': ':fuoco:',
-        'fa': u':آتش:'
+        'fa': u':آتش:',
+        'tr': u':ateş:'
     },
     u'\U0001F692': { # 🚒
         'en' : ':fire_engine:',
@@ -12262,7 +12815,8 @@ EMOJI_DATA = {
         'fr': ':camion_de_pompier:',
         'pt': ':carro_do_corpo_de_bombeiros:',
         'it': ':camion_dei_pompieri:',
-        'fa': u':ماشین_آتش_نشانی:'
+        'fa': u':ماشین_آتش_نشانی:',
+        'tr': u':itfaiye_arabası:'
     },
     u'\U0001F9EF': { # 🧯
         'en' : ':fire_extinguisher:',
@@ -12273,7 +12827,8 @@ EMOJI_DATA = {
         'fr': ':extincteur:',
         'pt': u':extintor_de_incêndio:',
         'it': ':estintore:',
-        'fa': u':کپسول_آتش_نشانی:'
+        'fa': u':کپسول_آتش_نشانی:',
+        'tr': u':yangın_söndürücü:'
     },
     u'\U0001F9E8': { # 🧨
         'en' : ':firecracker:',
@@ -12284,7 +12839,8 @@ EMOJI_DATA = {
         'fr': u':pétard:',
         'pt': ':bombinha:',
         'it': ':petardo:',
-        'fa': u':ترقه:'
+        'fa': u':ترقه:',
+        'tr': ':maytap:'
     },
     u'\U0001F9D1\U0000200D\U0001F692': { # 🧑‍🚒
         'en' : ':firefighter:',
@@ -12295,7 +12851,8 @@ EMOJI_DATA = {
         'fr': ':pompier:',
         'pt': ':bombeiro:',
         'it': ':pompiere:',
-        'fa': u':مأمور_آتش_نشانی:'
+        'fa': u':مأمور_آتش_نشانی:',
+        'tr': ':itfaiyeci:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F692': { # 🧑🏿‍🚒
         'en' : ':firefighter_dark_skin_tone:',
@@ -12356,7 +12913,8 @@ EMOJI_DATA = {
         'fr': u':feu_d’artifice:',
         'pt': u':fogos_de_artifício:',
         'it': u':fuochi_d’artificio:',
-        'fa': u':آتش_بازی:'
+        'fa': u':آتش_بازی:',
+        'tr': u':havai_fişek:'
     },
     u'\U0001F313': { # 🌓
         'en' : ':first_quarter_moon:',
@@ -12367,7 +12925,8 @@ EMOJI_DATA = {
         'fr': ':premier_quartier_de_lune:',
         'pt': ':quarto_crescente:',
         'it': ':primo_quarto_di_luna:',
-        'fa': u':یک_چهارم_نخست:'
+        'fa': u':یک_چهارم_نخست:',
+        'tr': u':ilk_dördün:'
     },
     u'\U0001F31B': { # 🌛
         'en' : ':first_quarter_moon_face:',
@@ -12379,7 +12938,8 @@ EMOJI_DATA = {
         'fr': ':premier_quartier_de_lune_avec_visage:',
         'pt': ':rosto_da_lua_de_quarto_crescente:',
         'it': ':faccina_primo_quarto_di_luna:',
-        'fa': u':صورت_یک_چهارم_اول:'
+        'fa': u':صورت_یک_چهارم_اول:',
+        'tr': u':ilk_dördün_ay_yüzü:'
     },
     u'\U0001F41F': { # 🐟
         'en' : ':fish:',
@@ -12391,7 +12951,8 @@ EMOJI_DATA = {
         'fr': ':poisson:',
         'pt': ':peixe:',
         'it': ':pesce:',
-        'fa': u':ماهی:'
+        'fa': u':ماهی:',
+        'tr': u':balık:'
     },
     u'\U0001F365': { # 🍥
         'en' : ':fish_cake_with_swirl:',
@@ -12403,7 +12964,8 @@ EMOJI_DATA = {
         'fr': ':croquette_de_poisson:',
         'pt': ':bolinho_de_peixe:',
         'it': ':tortino_di_pesce_a_spirale:',
-        'fa': u':کیک_ماهی:'
+        'fa': u':کیک_ماهی:',
+        'tr': u':balık_köftesi:'
     },
     u'\U0001F3A3': { # 🎣
         'en' : ':fishing_pole:',
@@ -12415,7 +12977,8 @@ EMOJI_DATA = {
         'fr': u':pêche_à_la_ligne:',
         'pt': ':pesca:',
         'it': ':canna_da_pesca:',
-        'fa': u':چوب_ماهیگیری:'
+        'fa': u':چوب_ماهیگیری:',
+        'tr': ':olta:'
     },
     u'\U0001F560': { # 🕠
         'en' : ':five-thirty:',
@@ -12428,7 +12991,8 @@ EMOJI_DATA = {
         'fr': ':cinq_heures_et_demie:',
         'pt': ':cinco_e_meia:',
         'it': ':ore_cinque_e_mezza:',
-        'fa': u':ساعت_پنج_و_نیم:'
+        'fa': u':ساعت_پنج_و_نیم:',
+        'tr': u':beş_buçuk:'
     },
     u'\U0001F554': { # 🕔
         'en' : u':five_o’clock:',
@@ -12441,7 +13005,8 @@ EMOJI_DATA = {
         'fr': ':cinq_heures:',
         'pt': ':5_horas:',
         'it': ':ore_cinque:',
-        'fa': u':ساعت_پنج:'
+        'fa': u':ساعت_پنج:',
+        'tr': ':saat_5:'
     },
     u'\U000026F3': { # ⛳
         'en' : ':flag_in_hole:',
@@ -12454,7 +13019,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_de_golf:',
         'pt': ':bandeira_no_buraco:',
         'it': ':bandiera_in_buca:',
-        'fa': u':پرچم_در_سوراخ:'
+        'fa': u':پرچم_در_سوراخ:',
+        'tr': ':delikteki_bayrak:'
     },
     u'\U0001F9A9': { # 🦩
         'en' : ':flamingo:',
@@ -12465,7 +13031,8 @@ EMOJI_DATA = {
         'fr': ':flamant:',
         'pt': ':flamingo:',
         'it': ':fenicottero:',
-        'fa': u':فلامینگو:'
+        'fa': u':فلامینگو:',
+        'tr': ':flamingo:'
     },
     u'\U0001F526': { # 🔦
         'en' : ':flashlight:',
@@ -12476,7 +13043,8 @@ EMOJI_DATA = {
         'fr': ':torche:',
         'pt': ':lanterna:',
         'it': ':torcia:',
-        'fa': u':چراغ_قوه:'
+        'fa': u':چراغ_قوه:',
+        'tr': ':el_feneri:'
     },
     u'\U0001F97F': { # 🥿
         'en' : ':flat_shoe:',
@@ -12487,7 +13055,8 @@ EMOJI_DATA = {
         'fr': ':chaussure_plate:',
         'pt': ':sapatilha:',
         'it': ':ballerina:',
-        'fa': u':کفش_بی_پاشنه:'
+        'fa': u':کفش_بی_پاشنه:',
+        'tr': u':düz_ayakkabı:'
     },
     u'\U0001FAD3': { # 🫓
         'en' : ':flatbread:',
@@ -12498,7 +13067,8 @@ EMOJI_DATA = {
         'fr': ':galette:',
         'pt': u':pão_sírio:',
         'it': ':focaccia:',
-        'fa': u':نان_مسطح:'
+        'fa': u':نان_مسطح:',
+        'tr': u':yassı_ekmek:'
     },
     u'\U0000269C\U0000FE0F': { # ⚜️
         'en' : ':fleur-de-lis:',
@@ -12511,7 +13081,8 @@ EMOJI_DATA = {
         'fr': ':fleur_de_lys:',
         'pt': ':flor-de-lis:',
         'it': ':giglio_araldico:',
-        'fa': u':نماد_گل_زنبق:'
+        'fa': u':نماد_گل_زنبق:',
+        'tr': ':zambak:'
     },
     u'\U0000269C': { # ⚜
         'en' : ':fleur-de-lis:',
@@ -12524,7 +13095,8 @@ EMOJI_DATA = {
         'fr': ':fleur_de_lys:',
         'pt': ':flor-de-lis:',
         'it': ':giglio_araldico:',
-        'fa': u':نماد_گل_زنبق:'
+        'fa': u':نماد_گل_زنبق:',
+        'tr': ':zambak:'
     },
     u'\U0001F4AA': { # 💪
         'en' : ':flexed_biceps:',
@@ -12536,7 +13108,8 @@ EMOJI_DATA = {
         'fr': u':biceps_contracté:',
         'pt': u':bíceps:',
         'it': ':bicipite:',
-        'fa': u':عضلهٔ_بازو:'
+        'fa': u':عضلهٔ_بازو:',
+        'tr': u':pazı:'
     },
     u'\U0001F4AA\U0001F3FF': { # 💪🏿
         'en' : ':flexed_biceps_dark_skin_tone:',
@@ -12597,7 +13170,8 @@ EMOJI_DATA = {
         'fr': ':disquette:',
         'pt': ':disquete:',
         'it': ':floppy_disc:',
-        'fa': u':فلاپی_دیسک:'
+        'fa': u':فلاپی_دیسک:',
+        'tr': ':disket:'
     },
     u'\U0001F3B4': { # 🎴
         'en' : ':flower_playing_cards:',
@@ -12608,7 +13182,8 @@ EMOJI_DATA = {
         'fr': ':jeu_des_fleurs:',
         'pt': ':carta_de_flores:',
         'it': ':carta_da_gioco_hanafuda:',
-        'fa': u':کارت_بازی_گل_دار:'
+        'fa': u':کارت_بازی_گل_دار:',
+        'tr': u':çiçekli_oyun_kağıtları:'
     },
     u'\U0001F633': { # 😳
         'en' : ':flushed_face:',
@@ -12620,7 +13195,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_rougit:',
         'pt': ':rosto_ruborizado:',
         'it': ':faccina_imbarazzata:',
-        'fa': u':سرخ_شده:'
+        'fa': u':سرخ_شده:',
+        'tr': u':kızarmış_ve_şaşkın_yüz:'
     },
     u'\U0001FAB0': { # 🪰
         'en' : ':fly:',
@@ -12631,7 +13207,8 @@ EMOJI_DATA = {
         'fr': ':mouche:',
         'pt': ':mosca:',
         'it': ':mosca:',
-        'fa': u':مگس:'
+        'fa': u':مگس:',
+        'tr': ':karasinek:'
     },
     u'\U0001F94F': { # 🥏
         'en' : ':flying_disc:',
@@ -12642,7 +13219,8 @@ EMOJI_DATA = {
         'fr': ':disque_volant:',
         'pt': ':frisbee:',
         'it': ':frisbee:',
-        'fa': u':فریزبی:'
+        'fa': u':فریزبی:',
+        'tr': ':frizbi:'
     },
     u'\U0001F6F8': { # 🛸
         'en' : ':flying_saucer:',
@@ -12653,7 +13231,8 @@ EMOJI_DATA = {
         'fr': ':soucoupe_volante:',
         'pt': ':disco_voador:',
         'it': ':disco_volante:',
-        'fa': u':بشقاب_پرنده:'
+        'fa': u':بشقاب_پرنده:',
+        'tr': u':uçan_daire:'
     },
     u'\U0001F32B\U0000FE0F': { # 🌫️
         'en' : ':fog:',
@@ -12665,7 +13244,8 @@ EMOJI_DATA = {
         'fr': ':brouillard:',
         'pt': ':neblina:',
         'it': ':nebbia:',
-        'fa': u':مه:'
+        'fa': u':مه:',
+        'tr': ':sis:'
     },
     u'\U0001F32B': { # 🌫
         'en' : ':fog:',
@@ -12677,7 +13257,8 @@ EMOJI_DATA = {
         'fr': ':brouillard:',
         'pt': ':nevoeiro:',
         'it': ':nebbia:',
-        'fa': u':مه:'
+        'fa': u':مه:',
+        'tr': ':sis:'
     },
     u'\U0001F301': { # 🌁
         'en' : ':foggy:',
@@ -12688,7 +13269,8 @@ EMOJI_DATA = {
         'fr': ':brume:',
         'pt': ':enevoado:',
         'it': ':nebbioso:',
-        'fa': u':مه_آلود:'
+        'fa': u':مه_آلود:',
+        'tr': ':sisli:'
     },
     u'\U0001F64F': { # 🙏
         'en' : ':folded_hands:',
@@ -12700,7 +13282,8 @@ EMOJI_DATA = {
         'fr': u':mains_en_prière:',
         'pt': u':mãos_juntas:',
         'it': ':mani_giunte:',
-        'fa': u':خواهش_می_کنم:'
+        'fa': u':خواهش_می_کنم:',
+        'tr': u':birleşen_eller:'
     },
     u'\U0001F64F\U0001F3FF': { # 🙏🏿
         'en' : ':folded_hands_dark_skin_tone:',
@@ -12761,7 +13344,8 @@ EMOJI_DATA = {
         'fr': ':fondue:',
         'pt': ':fondue:',
         'it': ':fonduta:',
-        'fa': u':فوندو:'
+        'fa': u':فوندو:',
+        'tr': u':fondü:'
     },
     u'\U0001F9B6': { # 🦶
         'en' : ':foot:',
@@ -12772,7 +13356,8 @@ EMOJI_DATA = {
         'fr': ':pied:',
         'pt': u':pé:',
         'it': ':piede:',
-        'fa': u':پا:'
+        'fa': u':پا:',
+        'tr': ':ayak:'
     },
     u'\U0001F9B6\U0001F3FF': { # 🦶🏿
         'en' : ':foot_dark_skin_tone:',
@@ -12833,7 +13418,8 @@ EMOJI_DATA = {
         'fr': ':traces_de_pas:',
         'pt': ':pegadas:',
         'it': ':impronta_di_piedi:',
-        'fa': u':رد_پا:'
+        'fa': u':رد_پا:',
+        'tr': ':ayak_izi:'
     },
     u'\U0001F374': { # 🍴
         'en' : ':fork_and_knife:',
@@ -12844,7 +13430,8 @@ EMOJI_DATA = {
         'fr': ':fourchette_et_couteau:',
         'pt': ':garfo_e_faca:',
         'it': ':forchetta_e_coltello:',
-        'fa': u':کارد_و_چنگال:'
+        'fa': u':کارد_و_چنگال:',
+        'tr': u':çatal_ve_bıçak:'
     },
     u'\U0001F37D\U0000FE0F': { # 🍽️
         'en' : ':fork_and_knife_with_plate:',
@@ -12857,7 +13444,8 @@ EMOJI_DATA = {
         'fr': ':fourchette_et_couteau_avec_assiette:',
         'pt': ':prato_com_talheres:',
         'it': ':piatto_e_posate:',
-        'fa': u':بشقاب_و_کارد_و_چنگال:'
+        'fa': u':بشقاب_و_کارد_و_چنگال:',
+        'tr': u':tabakla_birlikte_çatal_ve_bıçak:'
     },
     u'\U0001F37D': { # 🍽
         'en' : ':fork_and_knife_with_plate:',
@@ -12870,7 +13458,8 @@ EMOJI_DATA = {
         'fr': ':fourchette_et_couteau_avec_assiette:',
         'pt': ':prato_com_talheres:',
         'it': ':piatto_e_posate:',
-        'fa': u':بشقاب_و_کارد_و_چنگال:'
+        'fa': u':بشقاب_و_کارد_و_چنگال:',
+        'tr': u':tabakla_birlikte_çatal_ve_bıçak:'
     },
     u'\U0001F960': { # 🥠
         'en' : ':fortune_cookie:',
@@ -12881,7 +13470,8 @@ EMOJI_DATA = {
         'fr': ':biscuit_chinois:',
         'pt': ':biscoito_da_sorte:',
         'it': ':biscotto_della_fortuna:',
-        'fa': u':شیرینی_شانس:'
+        'fa': u':شیرینی_شانس:',
+        'tr': ':fal_kurabiyesi:'
     },
     u'\U000026F2': { # ⛲
         'en' : ':fountain:',
@@ -12893,7 +13483,8 @@ EMOJI_DATA = {
         'fr': ':fontaine:',
         'pt': ':fonte:',
         'it': ':fontana:',
-        'fa': u':فواره:'
+        'fa': u':فواره:',
+        'tr': u':fıskiye:'
     },
     u'\U0001F58B\U0000FE0F': { # 🖋️
         'en' : ':fountain_pen:',
@@ -12906,7 +13497,8 @@ EMOJI_DATA = {
         'fr': ':stylo_plume:',
         'pt': ':caneta_tinteiro:',
         'it': ':penna_stilografica:',
-        'fa': u':خودنویس:'
+        'fa': u':خودنویس:',
+        'tr': ':dolma_kalem:'
     },
     u'\U0001F58B': { # 🖋
         'en' : ':fountain_pen:',
@@ -12919,7 +13511,8 @@ EMOJI_DATA = {
         'fr': ':stylo_plume:',
         'pt': ':caneta_tinteiro:',
         'it': ':penna_stilografica:',
-        'fa': u':خودنویس:'
+        'fa': u':خودنویس:',
+        'tr': ':dolma_kalem:'
     },
     u'\U0001F55F': { # 🕟
         'en' : ':four-thirty:',
@@ -12932,7 +13525,8 @@ EMOJI_DATA = {
         'fr': ':quatre_heures_et_demie:',
         'pt': ':quatro_e_meia:',
         'it': ':ore_quattro_e_mezza:',
-        'fa': u':ساعت_چهار_و_نیم:'
+        'fa': u':ساعت_چهار_و_نیم:',
+        'tr': u':dört_buçuk:'
     },
     u'\U0001F340': { # 🍀
         'en' : ':four_leaf_clover:',
@@ -12943,7 +13537,8 @@ EMOJI_DATA = {
         'fr': u':trèfle_à_quatre_feuilles:',
         'pt': ':trevo_de_quatro_folhas:',
         'it': ':quadrifoglio:',
-        'fa': u':شبدر_چهاربرگ:'
+        'fa': u':شبدر_چهاربرگ:',
+        'tr': u':dört_yapraklı_yonca:'
     },
     u'\U0001F553': { # 🕓
         'en' : u':four_o’clock:',
@@ -12956,7 +13551,8 @@ EMOJI_DATA = {
         'fr': ':quatre_heures:',
         'pt': ':4_horas:',
         'it': ':ore_quattro:',
-        'fa': u':ساعت_چهار:'
+        'fa': u':ساعت_چهار:',
+        'tr': ':saat_4:'
     },
     u'\U0001F98A': { # 🦊
         'en' : ':fox:',
@@ -12968,7 +13564,8 @@ EMOJI_DATA = {
         'fr': ':renard:',
         'pt': ':rosto_de_raposa:',
         'it': ':volpe:',
-        'fa': u':روباه:'
+        'fa': u':روباه:',
+        'tr': ':tilki:'
     },
     u'\U0001F5BC\U0000FE0F': { # 🖼️
         'en' : ':framed_picture:',
@@ -12981,7 +13578,8 @@ EMOJI_DATA = {
         'fr': ':cadre_avec_image:',
         'pt': ':quadro_emoldurado:',
         'it': ':quadro_incorniciato:',
-        'fa': u':عکس_در_قاب:'
+        'fa': u':عکس_در_قاب:',
+        'tr': u':resimli_çerçeve:'
     },
     u'\U0001F5BC': { # 🖼
         'en' : ':framed_picture:',
@@ -12994,7 +13592,8 @@ EMOJI_DATA = {
         'fr': ':cadre_avec_image:',
         'pt': ':quadro_emoldurado:',
         'it': ':quadro_incorniciato:',
-        'fa': u':عکس_در_قاب:'
+        'fa': u':عکس_در_قاب:',
+        'tr': u':resimli_çerçeve:'
     },
     u'\U0001F35F': { # 🍟
         'en' : ':french_fries:',
@@ -13006,7 +13605,8 @@ EMOJI_DATA = {
         'fr': ':frites:',
         'pt': ':batata_frita:',
         'it': ':patatine:',
-        'fa': u':سیب_زمینی_سرخ_کرده:'
+        'fa': u':سیب_زمینی_سرخ_کرده:',
+        'tr': u':patates_kızartması:'
     },
     u'\U0001F364': { # 🍤
         'en' : ':fried_shrimp:',
@@ -13017,7 +13617,8 @@ EMOJI_DATA = {
         'fr': ':beignet_de_crevette:',
         'pt': u':camarão_frito:',
         'it': ':gambero_fritto:',
-        'fa': u':میگو_سوخاری:'
+        'fa': u':میگو_سوخاری:',
+        'tr': u':kızarmış_karides:'
     },
     u'\U0001F438': { # 🐸
         'en' : ':frog:',
@@ -13028,7 +13629,8 @@ EMOJI_DATA = {
         'fr': ':grenouille:',
         'pt': ':sapo:',
         'it': ':rana:',
-        'fa': u':قورباغه:'
+        'fa': u':قورباغه:',
+        'tr': u':kurbağa:'
     },
     u'\U0001F425': { # 🐥
         'en' : ':front-facing_baby_chick:',
@@ -13040,7 +13642,8 @@ EMOJI_DATA = {
         'fr': ':poussin_de_face:',
         'pt': ':pintinho_de_frente:',
         'it': ':pulcino_visto_di_fronte:',
-        'fa': u':جوجه_از_روبرو:'
+        'fa': u':جوجه_از_روبرو:',
+        'tr': u':önden_civciv:'
     },
     u'\U00002639\U0000FE0F': { # ☹️
         'en' : ':frowning_face:',
@@ -13053,7 +13656,8 @@ EMOJI_DATA = {
         'fr': u':visage_mécontent:',
         'pt': ':rosto_descontente:',
         'it': ':faccina_imbronciata:',
-        'fa': u':اخمو:'
+        'fa': u':اخمو:',
+        'tr': u':asık_surat:'
     },
     u'\U00002639': { # ☹
         'en' : ':frowning_face:',
@@ -13066,7 +13670,8 @@ EMOJI_DATA = {
         'fr': u':visage_mécontent:',
         'pt': ':rosto_descontente:',
         'it': ':faccina_imbronciata:',
-        'fa': u':اخمو:'
+        'fa': u':اخمو:',
+        'tr': u':asık_surat:'
     },
     u'\U0001F626': { # 😦
         'en' : ':frowning_face_with_open_mouth:',
@@ -13078,7 +13683,8 @@ EMOJI_DATA = {
         'fr': u':visage_mécontent_avec_bouche_ouverte:',
         'pt': ':rosto_franzido_com_boca_aberta:',
         'it': ':faccina_imbronciata_con_bocca_aperta:',
-        'fa': u':چهره_درهم_کشیده_با_دهان_باز:'
+        'fa': u':چهره_درهم_کشیده_با_دهان_باز:',
+        'tr': u':hoşnutsuz_yüz:'
     },
     u'\U000026FD': { # ⛽
         'en' : ':fuel_pump:',
@@ -13091,7 +13697,8 @@ EMOJI_DATA = {
         'fr': u':pompe_à_essence:',
         'pt': ':posto_de_gasolina:',
         'it': ':stazione_di_servizio:',
-        'fa': u':پمپ_بنزین:'
+        'fa': u':پمپ_بنزین:',
+        'tr': u':akaryakıt_istasyonu:'
     },
     u'\U0001F315': { # 🌕
         'en' : ':full_moon:',
@@ -13103,7 +13710,8 @@ EMOJI_DATA = {
         'fr': ':pleine_lune:',
         'pt': ':lua_cheia:',
         'it': ':luna_piena:',
-        'fa': u':ماه_کامل:'
+        'fa': u':ماه_کامل:',
+        'tr': ':dolunay:'
     },
     u'\U0001F31D': { # 🌝
         'en' : ':full_moon_face:',
@@ -13115,7 +13723,8 @@ EMOJI_DATA = {
         'fr': ':pleine_lune_avec_visage:',
         'pt': ':rosto_da_lua_cheia:',
         'it': ':faccina_luna_piena:',
-        'fa': u':صورت_ماه_کامل:'
+        'fa': u':صورت_ماه_کامل:',
+        'tr': u':dolunay_yüzü:'
     },
     u'\U000026B1\U0000FE0F': { # ⚱️
         'en' : ':funeral_urn:',
@@ -13127,7 +13736,8 @@ EMOJI_DATA = {
         'fr': u':urne_funéraire:',
         'pt': u':urna_funerária:',
         'it': ':urna_funeraria:',
-        'fa': u':خاکستردان:'
+        'fa': u':خاکستردان:',
+        'tr': u':kül_kavanozu:'
     },
     u'\U000026B1': { # ⚱
         'en' : ':funeral_urn:',
@@ -13139,7 +13749,8 @@ EMOJI_DATA = {
         'fr': u':urne_funéraire:',
         'pt': u':urna_funerária:',
         'it': ':urna_funeraria:',
-        'fa': u':خاکستردان:'
+        'fa': u':خاکستردان:',
+        'tr': u':kül_kavanozu:'
     },
     u'\U0001F3B2': { # 🎲
         'en' : ':game_die:',
@@ -13150,7 +13761,8 @@ EMOJI_DATA = {
         'fr': u':dés:',
         'pt': ':jogo_de_dado:',
         'it': ':dado:',
-        'fa': u':تاس_بازی:'
+        'fa': u':تاس_بازی:',
+        'tr': u':oyun_zarı:'
     },
     u'\U0001F9C4': { # 🧄
         'en' : ':garlic:',
@@ -13161,7 +13773,8 @@ EMOJI_DATA = {
         'fr': ':ail:',
         'pt': ':alho:',
         'it': ':aglio:',
-        'fa': u':سیر:'
+        'fa': u':سیر:',
+        'tr': u':sarımsak:'
     },
     u'\U00002699\U0000FE0F': { # ⚙️
         'en' : ':gear:',
@@ -13173,7 +13786,8 @@ EMOJI_DATA = {
         'fr': u':roue_dentée:',
         'pt': ':engrenagem:',
         'it': ':ingranaggio:',
-        'fa': u':چرخ_دنده:'
+        'fa': u':چرخ_دنده:',
+        'tr': u':dişli:'
     },
     u'\U00002699': { # ⚙
         'en' : ':gear:',
@@ -13185,7 +13799,8 @@ EMOJI_DATA = {
         'fr': u':roue_dentée:',
         'pt': ':engrenagem:',
         'it': ':ingranaggio:',
-        'fa': u':چرخ_دنده:'
+        'fa': u':چرخ_دنده:',
+        'tr': u':dişli:'
     },
     u'\U0001F48E': { # 💎
         'en' : ':gem_stone:',
@@ -13197,7 +13812,8 @@ EMOJI_DATA = {
         'fr': u':pierre_précieuse:',
         'pt': ':pedra_preciosa:',
         'it': ':gemma:',
-        'fa': u':جواهر:'
+        'fa': u':جواهر:',
+        'tr': u':mücevher:'
     },
     u'\U0001F9DE': { # 🧞
         'en' : ':genie:',
@@ -13208,7 +13824,8 @@ EMOJI_DATA = {
         'fr': u':génie:',
         'pt': u':gênio:',
         'it': ':genio:',
-        'fa': u':جن:'
+        'fa': u':جن:',
+        'tr': ':cin:'
     },
     u'\U0001F47B': { # 👻
         'en' : ':ghost:',
@@ -13219,7 +13836,8 @@ EMOJI_DATA = {
         'fr': u':fantôme:',
         'pt': ':fantasma:',
         'it': ':fantasma:',
-        'fa': u':روح:'
+        'fa': u':روح:',
+        'tr': ':hayalet:'
     },
     u'\U0001F992': { # 🦒
         'en' : ':giraffe:',
@@ -13230,7 +13848,8 @@ EMOJI_DATA = {
         'fr': ':girafe:',
         'pt': ':girafa:',
         'it': ':giraffa:',
-        'fa': u':زرافه:'
+        'fa': u':زرافه:',
+        'tr': u':zürafa:'
     },
     u'\U0001F467': { # 👧
         'en' : ':girl:',
@@ -13241,7 +13860,8 @@ EMOJI_DATA = {
         'fr': ':fille:',
         'pt': ':menina:',
         'it': ':bambina:',
-        'fa': u':دختر:'
+        'fa': u':دختر:',
+        'tr': u':kız_çocuk:'
     },
     u'\U0001F467\U0001F3FF': { # 👧🏿
         'en' : ':girl_dark_skin_tone:',
@@ -13303,7 +13923,8 @@ EMOJI_DATA = {
         'fr': ':verre_de_lait:',
         'pt': ':copo_de_leite:',
         'it': ':bicchiere_di_latte:',
-        'fa': u':لیوان_شیر:'
+        'fa': u':لیوان_شیر:',
+        'tr': u':süt_bardağı:'
     },
     u'\U0001F453': { # 👓
         'en' : ':glasses:',
@@ -13316,7 +13937,8 @@ EMOJI_DATA = {
         'fr': ':lunettes_de_vue:',
         'pt': u':óculos:',
         'it': ':occhiali_da_vista:',
-        'fa': u':عینک_طبی:'
+        'fa': u':عینک_طبی:',
+        'tr': u':gözlük:'
     },
     u'\U0001F30E': { # 🌎
         'en' : ':globe_showing_Americas:',
@@ -13329,7 +13951,8 @@ EMOJI_DATA = {
         'fr': u':globe_tourné_sur_les_amériques:',
         'pt': u':globo_mostrando_as_américas:',
         'it': ':america:',
-        'fa': u':نقشهٔ_قارهٔ_امریکا_روی_کره:'
+        'fa': u':نقشهٔ_قارهٔ_امریکا_روی_کره:',
+        'tr': u':yerkürede_amerika:'
     },
     u'\U0001F30F': { # 🌏
         'en' : ':globe_showing_Asia-Australia:',
@@ -13342,7 +13965,8 @@ EMOJI_DATA = {
         'fr': u':globe_tourné_sur_l’asie_et_l’australie:',
         'pt': u':globo_mostrando_ásia_e_oceania:',
         'it': ':asia_e_australia:',
-        'fa': u':نقشهٔ_آسیا-اقیانوسیه_روی_کره:'
+        'fa': u':نقشهٔ_آسیا-اقیانوسیه_روی_کره:',
+        'tr': u':yerkürede_asya-avustralya:'
     },
     u'\U0001F30D': { # 🌍
         'en' : ':globe_showing_Europe-Africa:',
@@ -13355,7 +13979,8 @@ EMOJI_DATA = {
         'fr': u':globe_tourné_sur_l’afrique_et_l’europe:',
         'pt': u':globo_mostrando_europa_e_áfrica:',
         'it': ':europa_e_africa:',
-        'fa': u':نقشهٔ_اروپا-افریقا_روی_کره:'
+        'fa': u':نقشهٔ_اروپا-افریقا_روی_کره:',
+        'tr': u':yerkürede_avrupa-afrika:'
     },
     u'\U0001F310': { # 🌐
         'en' : ':globe_with_meridians:',
@@ -13366,7 +13991,8 @@ EMOJI_DATA = {
         'fr': u':globe_avec_méridiens:',
         'pt': ':globo_com_meridianos:',
         'it': ':globo_con_meridiani:',
-        'fa': u':کره_با_نصف_النهارها:'
+        'fa': u':کره_با_نصف_النهارها:',
+        'tr': u':meridyenli_yerküre:'
     },
     u'\U0001F9E4': { # 🧤
         'en' : ':gloves:',
@@ -13377,7 +14003,8 @@ EMOJI_DATA = {
         'fr': ':gants:',
         'pt': ':luvas:',
         'it': ':guanti:',
-        'fa': u':دستکش:'
+        'fa': u':دستکش:',
+        'tr': ':eldiven:'
     },
     u'\U0001F31F': { # 🌟
         'en' : ':glowing_star:',
@@ -13389,7 +14016,8 @@ EMOJI_DATA = {
         'fr': u':étoile_brillante:',
         'pt': ':estrela_brilhante:',
         'it': ':stella_che_brilla:',
-        'fa': u':ستاره_درخشان:'
+        'fa': u':ستاره_درخشان:',
+        'tr': u':parıldayan_yıldız:'
     },
     u'\U0001F945': { # 🥅
         'en' : ':goal_net:',
@@ -13400,7 +14028,8 @@ EMOJI_DATA = {
         'fr': ':cage:',
         'pt': ':gol:',
         'it': ':porta_da_calcio:',
-        'fa': u':دروازه:'
+        'fa': u':دروازه:',
+        'tr': u':kale_ağı:'
     },
     u'\U0001F410': { # 🐐
         'en' : ':goat:',
@@ -13411,7 +14040,8 @@ EMOJI_DATA = {
         'fr': u':chèvre:',
         'pt': ':cabra:',
         'it': ':capra:',
-        'fa': u':بز:'
+        'fa': u':بز:',
+        'tr': u':keçi:'
     },
     u'\U0001F47A': { # 👺
         'en' : ':goblin:',
@@ -13423,7 +14053,8 @@ EMOJI_DATA = {
         'fr': ':monstre_japonais:',
         'pt': u':duende_japonês:',
         'it': ':goblin:',
-        'fa': u':جن_کوتوله:'
+        'fa': u':جن_کوتوله:',
+        'tr': ':goblin:'
     },
     u'\U0001F97D': { # 🥽
         'en' : ':goggles:',
@@ -13434,7 +14065,8 @@ EMOJI_DATA = {
         'fr': ':lunettes:',
         'pt': u':óculos_de_proteção:',
         'it': ':maschera:',
-        'fa': u':عینک_ایمنی:'
+        'fa': u':عینک_ایمنی:',
+        'tr': u':koruyucu_gözlük:'
     },
     u'\U0001F98D': { # 🦍
         'en' : ':gorilla:',
@@ -13445,7 +14077,8 @@ EMOJI_DATA = {
         'fr': ':gorille:',
         'pt': ':gorila:',
         'it': ':gorilla:',
-        'fa': u':گوریل:'
+        'fa': u':گوریل:',
+        'tr': ':goril:'
     },
     u'\U0001F393': { # 🎓
         'en' : ':graduation_cap:',
@@ -13458,7 +14091,8 @@ EMOJI_DATA = {
         'fr': ':toque_universitaire:',
         'pt': u':chapéu_de_formatura:',
         'it': ':cappello_da_laureato:',
-        'fa': u':کلاه_فارغ_التحصیلی:'
+        'fa': u':کلاه_فارغ_التحصیلی:',
+        'tr': ':mezuniyet_kepi:'
     },
     u'\U0001F347': { # 🍇
         'en' : ':grapes:',
@@ -13469,7 +14103,8 @@ EMOJI_DATA = {
         'fr': ':raisin:',
         'pt': ':uvas:',
         'it': ':uva:',
-        'fa': u':انگور:'
+        'fa': u':انگور:',
+        'tr': u':üzüm:'
     },
     u'\U0001F34F': { # 🍏
         'en' : ':green_apple:',
@@ -13480,7 +14115,8 @@ EMOJI_DATA = {
         'fr': ':pomme_verte:',
         'pt': u':maçã_verde:',
         'it': ':mela_verde:',
-        'fa': u':سیب_سبز:'
+        'fa': u':سیب_سبز:',
+        'tr': u':yeşil_elma:'
     },
     u'\U0001F4D7': { # 📗
         'en' : ':green_book:',
@@ -13491,7 +14127,8 @@ EMOJI_DATA = {
         'fr': ':livre_vert:',
         'pt': ':livro_verde:',
         'it': ':libro_verde:',
-        'fa': u':کتاب_سبز:'
+        'fa': u':کتاب_سبز:',
+        'tr': u':yeşil_kitap:'
     },
     u'\U0001F7E2': { # 🟢
         'en' : ':green_circle:',
@@ -13502,7 +14139,8 @@ EMOJI_DATA = {
         'fr': ':disque_vert:',
         'pt': u':círculo_verde:',
         'it': ':cerchio_verde:',
-        'fa': u':دایره_سبز:'
+        'fa': u':دایره_سبز:',
+        'tr': u':yeşil_daire:'
     },
     u'\U0001F49A': { # 💚
         'en' : ':green_heart:',
@@ -13513,7 +14151,8 @@ EMOJI_DATA = {
         'fr': u':cœur_vert:',
         'pt': u':coração_verde:',
         'it': ':cuore_verde:',
-        'fa': u':قلب_سبز:'
+        'fa': u':قلب_سبز:',
+        'tr': u':yeşil_kalp:'
     },
     u'\U0001F957': { # 🥗
         'en' : ':green_salad:',
@@ -13524,7 +14163,8 @@ EMOJI_DATA = {
         'fr': ':salade_verte:',
         'pt': ':salada_verde:',
         'it': ':insalata_verde:',
-        'fa': u':سالاد_سبزیجات:'
+        'fa': u':سالاد_سبزیجات:',
+        'tr': u':yeşil_salata:'
     },
     u'\U0001F7E9': { # 🟩
         'en' : ':green_square:',
@@ -13535,7 +14175,8 @@ EMOJI_DATA = {
         'fr': u':carré_vert:',
         'pt': ':quadrado_verde:',
         'it': ':quadrato_verde:',
-        'fa': u':مربع_سبز:'
+        'fa': u':مربع_سبز:',
+        'tr': u':yeşil_kare:'
     },
     u'\U0001F62C': { # 😬
         'en' : ':grimacing_face:',
@@ -13547,7 +14188,8 @@ EMOJI_DATA = {
         'fr': u':visage_grimaçant:',
         'pt': ':rosto_expressando_desagrado:',
         'it': ':faccina_con_smorfia:',
-        'fa': u':دهن_کجی:'
+        'fa': u':دهن_کجی:',
+        'tr': u':dişlerini_gösteren_yüz:'
     },
     u'\U0001F63A': { # 😺
         'en' : ':grinning_cat:',
@@ -13559,7 +14201,8 @@ EMOJI_DATA = {
         'fr': ':chat_qui_sourit:',
         'pt': ':rosto_de_gato_sorrindo:',
         'it': ':gatto_che_sorride:',
-        'fa': u':گربهٔ_خندان:'
+        'fa': u':گربهٔ_خندان:',
+        'tr': u':sırıtan_kedi:'
     },
     u'\U0001F638': { # 😸
         'en' : ':grinning_cat_with_smiling_eyes:',
@@ -13571,7 +14214,8 @@ EMOJI_DATA = {
         'fr': ':chat_qui_sourit_avec_des_yeux_rieurs:',
         'pt': ':rosto_de_gato_sorrindo_com_olhos_sorridentes:',
         'it': ':gatto_che_sogghigna:',
-        'fa': u':گربه_با_چشم_های_خندان:'
+        'fa': u':گربه_با_چشم_های_خندان:',
+        'tr': u':gülen_gözlerle_sırıtan_kedi:'
     },
     u'\U0001F600': { # 😀
         'en' : ':grinning_face:',
@@ -13583,7 +14227,8 @@ EMOJI_DATA = {
         'fr': ':visage_rieur:',
         'pt': ':rosto_risonho:',
         'it': ':faccina_con_un_gran_sorriso:',
-        'fa': u':خنده:'
+        'fa': u':خنده:',
+        'tr': u':sırıtan_yüz:'
     },
     u'\U0001F603': { # 😃
         'en' : ':grinning_face_with_big_eyes:',
@@ -13595,7 +14240,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant_avec_de_grands_yeux:',
         'pt': ':rosto_risonho_com_olhos_bem_abertos:',
         'it': ':faccina_con_un_gran_sorriso_e_occhi_spalancati:',
-        'fa': u':صورت_خندان:'
+        'fa': u':صورت_خندان:',
+        'tr': u':ağzı_açık_sırıtma:'
     },
     u'\U0001F604': { # 😄
         'en' : ':grinning_face_with_smiling_eyes:',
@@ -13607,7 +14253,8 @@ EMOJI_DATA = {
         'fr': u':visage_très_souriant_aux_yeux_rieurs:',
         'pt': ':rosto_risonho_com_olhos_sorridentes:',
         'it': ':faccina_con_sorriso_e_occhi_sorridenti:',
-        'fa': u':خندان:'
+        'fa': u':خندان:',
+        'tr': u':gülen_gözlerle_ağzı_açık_sırıtma:'
     },
     u'\U0001F605': { # 😅
         'en' : ':grinning_face_with_sweat:',
@@ -13619,7 +14266,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant_avec_une_goutte_de_sueur:',
         'pt': ':rosto_risonho_com_gota_de_suor:',
         'it': ':faccina_con_un_gran_sorriso_e_goccia_di_sudore:',
-        'fa': u':صورت_خندان_و_عرق_کرده:'
+        'fa': u':صورت_خندان_و_عرق_کرده:',
+        'tr': u':soğuk_terli_ağzı_açık_gülümseme:'
     },
     u'\U0001F606': { # 😆
         'en' : ':grinning_squinting_face:',
@@ -13631,7 +14279,8 @@ EMOJI_DATA = {
         'fr': u':visage_souriant_avec_yeux_plissés:',
         'pt': ':rosto_risonho_com_olhos_semicerrados:',
         'it': ':sorriso_a_bocca_aperta_con_occhi_chiusi:',
-        'fa': u':قاه_قاه:'
+        'fa': u':قاه_قاه:',
+        'tr': u':kapalı_gözlerle_ağzı_açık_sırıtma:'
     },
     u'\U0001F497': { # 💗
         'en' : ':growing_heart:',
@@ -13643,7 +14292,8 @@ EMOJI_DATA = {
         'fr': u':cœur_grandissant:',
         'pt': u':coração_crescendo:',
         'it': ':cuore_che_cresce:',
-        'fa': u':قلب_هیجان_زده:'
+        'fa': u':قلب_هیجان_زده:',
+        'tr': u':büyüyen_kalp:'
     },
     u'\U0001F482': { # 💂
         'en' : ':guard:',
@@ -13655,7 +14305,8 @@ EMOJI_DATA = {
         'fr': ':garde:',
         'pt': ':guarda:',
         'it': ':guardia:',
-        'fa': u':گارد_نظامی:'
+        'fa': u':گارد_نظامی:',
+        'tr': u':muhafız:'
     },
     u'\U0001F482\U0001F3FF': { # 💂🏿
         'en' : ':guard_dark_skin_tone:',
@@ -13716,7 +14367,8 @@ EMOJI_DATA = {
         'fr': ':chien_guide:',
         'pt': u':cão-guia:',
         'it': ':cane_guida:',
-        'fa': u':سگ_راهنما:'
+        'fa': u':سگ_راهنما:',
+        'tr': u':rehber_köpek:'
     },
     u'\U0001F3B8': { # 🎸
         'en' : ':guitar:',
@@ -13727,7 +14379,8 @@ EMOJI_DATA = {
         'fr': ':guitare:',
         'pt': ':guitarra:',
         'it': ':chitarra:',
-        'fa': u':گیتار:'
+        'fa': u':گیتار:',
+        'tr': ':gitar:'
     },
     u'\U0001F354': { # 🍔
         'en' : ':hamburger:',
@@ -13738,7 +14391,8 @@ EMOJI_DATA = {
         'fr': ':hamburger:',
         'pt': u':hambúrguer:',
         'it': ':hamburger:',
-        'fa': u':همبرگر:'
+        'fa': u':همبرگر:',
+        'tr': ':hamburger:'
     },
     u'\U0001F528': { # 🔨
         'en' : ':hammer:',
@@ -13749,7 +14403,8 @@ EMOJI_DATA = {
         'fr': ':marteau:',
         'pt': ':martelo:',
         'it': ':martello:',
-        'fa': u':چکش:'
+        'fa': u':چکش:',
+        'tr': u':çekiç:'
     },
     u'\U00002692\U0000FE0F': { # ⚒️
         'en' : ':hammer_and_pick:',
@@ -13761,7 +14416,8 @@ EMOJI_DATA = {
         'fr': ':marteau_et_pioche:',
         'pt': ':martelo_e_picareta:',
         'it': ':piccone_e_martello:',
-        'fa': u':چکش_و_کلنگ:'
+        'fa': u':چکش_و_کلنگ:',
+        'tr': u':çekiç_ve_kazma:'
     },
     u'\U00002692': { # ⚒
         'en' : ':hammer_and_pick:',
@@ -13773,7 +14429,8 @@ EMOJI_DATA = {
         'fr': ':marteau_et_pioche:',
         'pt': ':martelo_e_picareta:',
         'it': ':piccone_e_martello:',
-        'fa': u':چکش_و_کلنگ:'
+        'fa': u':چکش_و_کلنگ:',
+        'tr': u':çekiç_ve_kazma:'
     },
     u'\U0001F6E0\U0000FE0F': { # 🛠️
         'en' : ':hammer_and_wrench:',
@@ -13785,7 +14442,8 @@ EMOJI_DATA = {
         'fr': u':marteau_et_clé_à_molette:',
         'pt': ':martelo_e_chave-inglesa:',
         'it': ':martello_e_chiave_inglese:',
-        'fa': u':چکش_و_آچار:'
+        'fa': u':چکش_و_آچار:',
+        'tr': u':çekiç_ve_somun_anahtarı:'
     },
     u'\U0001F6E0': { # 🛠
         'en' : ':hammer_and_wrench:',
@@ -13797,7 +14455,8 @@ EMOJI_DATA = {
         'fr': u':marteau_et_clé_à_molette:',
         'pt': ':martelo_e_chave-inglesa:',
         'it': ':martello_e_chiave_inglese:',
-        'fa': u':چکش_و_آچار:'
+        'fa': u':چکش_و_آچار:',
+        'tr': u':çekiç_ve_somun_anahtarı:'
     },
     u'\U0001FAAC': { # 🪬
         'en' : ':hamsa:',
@@ -13808,7 +14467,8 @@ EMOJI_DATA = {
         'fr': ':main_de_fatma:',
         'pt': u':hamsá:',
         'it': ':mano_di_fatima:',
-        'fa': u':خمسه:'
+        'fa': u':خمسه:',
+        'tr': u':fatıma’nın_eli:'
     },
     u'\U0001F439': { # 🐹
         'en' : ':hamster:',
@@ -13819,7 +14479,8 @@ EMOJI_DATA = {
         'fr': ':hamster:',
         'pt': ':rosto_de_hamster:',
         'it': ':criceto:',
-        'fa': u':همستر:'
+        'fa': u':همستر:',
+        'tr': ':hamster:'
     },
     u'\U0001F590\U0000FE0F': { # 🖐️
         'en' : ':hand_with_fingers_splayed:',
@@ -13832,7 +14493,8 @@ EMOJI_DATA = {
         'fr': u':main_levée_doigts_écartés:',
         'pt': u':mão_aberta_com_os_dedos_separados:',
         'it': ':mano_aperta:',
-        'fa': u':دست_با_انگشتان_باز:'
+        'fa': u':دست_با_انگشتان_باز:',
+        'tr': u':parmaklar_açık_el_kaldırma:'
     },
     u'\U0001F590': { # 🖐
         'en' : ':hand_with_fingers_splayed:',
@@ -13845,7 +14507,8 @@ EMOJI_DATA = {
         'fr': u':main_levée_doigts_écartés:',
         'pt': u':mão_aberta_com_os_dedos_separados:',
         'it': ':mano_aperta:',
-        'fa': u':دست_با_انگشتان_باز:'
+        'fa': u':دست_با_انگشتان_باز:',
+        'tr': u':parmaklar_açık_el_kaldırma:'
     },
     u'\U0001F590\U0001F3FF': { # 🖐🏿
         'en' : ':hand_with_fingers_splayed_dark_skin_tone:',
@@ -13906,7 +14569,8 @@ EMOJI_DATA = {
         'fr': u':main_avec_index_et_pouce_croisés:',
         'pt': u':mão_com_dedo_indicador_e_polegar_cruzados:',
         'it': ':mano_con_indice_e_pollice_incrociati:',
-        'fa': u':دست_با_انگشت_اشاره_و_شست_متقاطع:'
+        'fa': u':دست_با_انگشت_اشاره_و_شست_متقاطع:',
+        'tr': u':işaret_parmağı_ve_baş_parmak_birbirine_geçmiş_el:'
     },
     u'\U0001FAF0\U0001F3FF': { # 🫰🏿
         'en' : ':hand_with_index_finger_and_thumb_crossed_dark_skin_tone:',
@@ -13942,7 +14606,8 @@ EMOJI_DATA = {
         'fr': u':sac_à_main:',
         'pt': u':bolsa_de_mão:',
         'it': ':borsa:',
-        'fa': u':کیف_دوشی:'
+        'fa': u':کیف_دوشی:',
+        'tr': u':el_çantası:'
     },
     u'\U0001F91D': { # 🤝
         'en' : ':handshake:',
@@ -13953,7 +14618,8 @@ EMOJI_DATA = {
         'fr': u':poignée_de_main:',
         'pt': u':aperto_de_mãos:',
         'it': ':stretta_di_mano:',
-        'fa': u':دست_دادن:'
+        'fa': u':دست_دادن:',
+        'tr': u':el_sıkışma:'
     },
     u'\U0001F91D\U0001F3FF': { # 🤝🏿
         'en' : ':handshake_dark_skin_tone:',
@@ -14089,7 +14755,8 @@ EMOJI_DATA = {
         'fr': u':poussin_qui_éclôt:',
         'pt': ':pintinho_chocando:',
         'it': ':pulcino_che_nasce:',
-        'fa': u':جوجه_ازتخم_بیرون_آمده:'
+        'fa': u':جوجه_ازتخم_بیرون_آمده:',
+        'tr': u':yumurtadan_çıkan_civciv:'
     },
     u'\U0001F3A7': { # 🎧
         'en' : ':headphone:',
@@ -14102,7 +14769,8 @@ EMOJI_DATA = {
         'fr': ':casque:',
         'pt': ':fones_de_ouvido:',
         'it': ':cuffie:',
-        'fa': u':هدفون:'
+        'fa': u':هدفون:',
+        'tr': u':kulaklık:'
     },
     u'\U0001FAA6': { # 🪦
         'en' : ':headstone:',
@@ -14113,7 +14781,8 @@ EMOJI_DATA = {
         'fr': ':pierre_tombale:',
         'pt': u':lápide:',
         'it': ':lapide:',
-        'fa': u':سنگ_قبر:'
+        'fa': u':سنگ_قبر:',
+        'tr': u':mezar_taşı:'
     },
     u'\U0001F9D1\U0000200D\U00002695\U0000FE0F': { # 🧑‍⚕️
         'en' : ':health_worker:',
@@ -14124,7 +14793,8 @@ EMOJI_DATA = {
         'fr': u':professionnel_de_la_santé_(tous_genres):',
         'pt': u':profissional_de_saúde:',
         'it': u':persona_che_lavora_nella_sanità:',
-        'fa': u':مأمور_بهداشت:'
+        'fa': u':مأمور_بهداشت:',
+        'tr': u':sağlık_çalışanı:'
     },
     u'\U0001F9D1\U0000200D\U00002695': { # 🧑‍⚕
         'en' : ':health_worker:',
@@ -14135,7 +14805,8 @@ EMOJI_DATA = {
         'fr': u':professionnel_de_la_santé_(tous_genres):',
         'pt': u':profissional_de_saúde:',
         'it': u':persona_che_lavora_nella_sanità:',
-        'fa': u':مأمور_بهداشت:'
+        'fa': u':مأمور_بهداشت:',
+        'tr': u':sağlık_çalışanı:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U00002695\U0000FE0F': { # 🧑🏿‍⚕️
         'en' : ':health_worker_dark_skin_tone:',
@@ -14247,7 +14918,8 @@ EMOJI_DATA = {
         'fr': ':singe_ne_rien_entendre:',
         'pt': u':macaco_que_não_ouve_nada:',
         'it': ':non_sento:',
-        'fa': u':میمون_شرنشنو:'
+        'fa': u':میمون_شرنشنو:',
+        'tr': u':duymadım:'
     },
     u'\U0001F49F': { # 💟
         'en' : ':heart_decoration:',
@@ -14258,7 +14930,8 @@ EMOJI_DATA = {
         'fr': u':décoration_avec_cœur:',
         'pt': u':coração_decorativo:',
         'it': ':decorazione_con_cuore:',
-        'fa': u':قلب_تزئینی:'
+        'fa': u':قلب_تزئینی:',
+        'tr': ':kalpli_dekorasyon:'
     },
     u'\U00002763\U0000FE0F': { # ❣️
         'en' : ':heart_exclamation:',
@@ -14271,7 +14944,8 @@ EMOJI_DATA = {
         'fr': u':cœur_point_d’exclamation:',
         'pt': u':exclamação_de_coração:',
         'it': ':punto_esclamativo_a_cuore:',
-        'fa': u':علامت_تعجب_قلبی:'
+        'fa': u':علامت_تعجب_قلبی:',
+        'tr': u':kalp_şeklinde_ünlem_işareti:'
     },
     u'\U00002763': { # ❣
         'en' : ':heart_exclamation:',
@@ -14284,7 +14958,8 @@ EMOJI_DATA = {
         'fr': u':cœur_point_d’exclamation:',
         'pt': u':exclamação_de_coração:',
         'it': ':punto_esclamativo_a_cuore:',
-        'fa': u':علامت_تعجب_قلبی:'
+        'fa': u':علامت_تعجب_قلبی:',
+        'tr': u':kalp_şeklinde_ünlem_işareti:'
     },
     u'\U0001FAF6': { # 🫶
         'en' : ':heart_hands:',
@@ -14295,7 +14970,8 @@ EMOJI_DATA = {
         'fr': u':mains_qui_forment_un_cœur:',
         'pt': u':mãos_de_coração:',
         'it': ':mani_a_cuore:',
-        'fa': u':شکل_قلب_با_دست:'
+        'fa': u':شکل_قلب_با_دست:',
+        'tr': u':kalp_oluşturan_eller:'
     },
     u'\U0001FAF6\U0001F3FF': { # 🫶🏿
         'en' : ':heart_hands_dark_skin_tone:',
@@ -14331,7 +15007,8 @@ EMOJI_DATA = {
         'fr': u':cœur_enflammé:',
         'pt': u':coração_em_chamas:',
         'it': ':cuore_in_fiamme:',
-        'fa': u':قلب_در_آتش:'
+        'fa': u':قلب_در_آتش:',
+        'tr': u':ateşli_kalp:'
     },
     u'\U00002764\U0000200D\U0001F525': { # ❤‍🔥
         'en' : ':heart_on_fire:',
@@ -14342,7 +15019,8 @@ EMOJI_DATA = {
         'fr': u':cœur_enflammé:',
         'pt': u':coração_em_chamas:',
         'it': ':cuore_in_fiamme:',
-        'fa': u':قلب_در_آتش:'
+        'fa': u':قلب_در_آتش:',
+        'tr': u':ateşli_kalp:'
     },
     u'\U00002665\U0000FE0F': { # ♥️
         'en' : ':heart_suit:',
@@ -14355,7 +15033,8 @@ EMOJI_DATA = {
         'fr': u':cœur_cartes:',
         'pt': ':naipe_de_copas:',
         'it': ':cuori:',
-        'fa': u':خال_دل:'
+        'fa': u':خال_دل:',
+        'tr': ':kupa:'
     },
     u'\U00002665': { # ♥
         'en' : ':heart_suit:',
@@ -14368,7 +15047,8 @@ EMOJI_DATA = {
         'fr': u':cœur_cartes:',
         'pt': ':naipe_de_copas:',
         'it': ':cuori:',
-        'fa': u':خال_دل:'
+        'fa': u':خال_دل:',
+        'tr': ':kupa:'
     },
     u'\U0001F498': { # 💘
         'en' : ':heart_with_arrow:',
@@ -14380,7 +15060,8 @@ EMOJI_DATA = {
         'fr': u':cœur_et_flèche:',
         'pt': u':coração_com_flecha:',
         'it': ':cuore_con_freccia:',
-        'fa': u':قلب_تیرخورده:'
+        'fa': u':قلب_تیرخورده:',
+        'tr': u':ok_saplanmış_kalp:'
     },
     u'\U0001F49D': { # 💝
         'en' : ':heart_with_ribbon:',
@@ -14392,7 +15073,8 @@ EMOJI_DATA = {
         'fr': u':cœur_avec_ruban:',
         'pt': u':coração_com_fita:',
         'it': ':cuore_con_fiocco:',
-        'fa': u':قلب_با_روبان:'
+        'fa': u':قلب_با_روبان:',
+        'tr': ':kurdeleli_kalp:'
     },
     u'\U0001F4B2': { # 💲
         'en' : ':heavy_dollar_sign:',
@@ -14403,7 +15085,8 @@ EMOJI_DATA = {
         'fr': ':symbole_dollar:',
         'pt': u':cifrão:',
         'it': ':dollaro:',
-        'fa': u':نماد_دلار:'
+        'fa': u':نماد_دلار:',
+        'tr': u':dolar_işareti:'
     },
     u'\U0001F7F0': { # 🟰
         'en' : ':heavy_equals_sign:',
@@ -14414,7 +15097,8 @@ EMOJI_DATA = {
         'fr': u':signe_égal_gras:',
         'pt': ':sinal_de_igual:',
         'it': ':segno_di_uguaglianza:',
-        'fa': u':علامت_تساوی_پررنگ:'
+        'fa': u':علامت_تساوی_پررنگ:',
+        'tr': u':kalın_eşittir_işareti:'
     },
     u'\U0001F994': { # 🦔
         'en' : ':hedgehog:',
@@ -14425,7 +15109,8 @@ EMOJI_DATA = {
         'fr': u':hérisson:',
         'pt': ':porco-espinho:',
         'it': ':riccio:',
-        'fa': u':جوجه_تیغی:'
+        'fa': u':جوجه_تیغی:',
+        'tr': ':kirpi:'
     },
     u'\U0001F681': { # 🚁
         'en' : ':helicopter:',
@@ -14436,7 +15121,8 @@ EMOJI_DATA = {
         'fr': u':hélicoptère:',
         'pt': u':helicóptero:',
         'it': ':elicottero:',
-        'fa': u':هلیکوپتر:'
+        'fa': u':هلیکوپتر:',
+        'tr': ':helikopter:'
     },
     u'\U0001F33F': { # 🌿
         'en' : ':herb:',
@@ -14447,7 +15133,8 @@ EMOJI_DATA = {
         'fr': ':feuille:',
         'pt': ':erva:',
         'it': ':pianta:',
-        'fa': u':گیاه_دارویی:'
+        'fa': u':گیاه_دارویی:',
+        'tr': ':ot:'
     },
     u'\U0001F33A': { # 🌺
         'en' : ':hibiscus:',
@@ -14458,7 +15145,8 @@ EMOJI_DATA = {
         'fr': ':hibiscus:',
         'pt': ':hibisco:',
         'it': ':ibisco:',
-        'fa': u':گل_ختمی:'
+        'fa': u':گل_ختمی:',
+        'tr': u':çingülü:'
     },
     u'\U0001F460': { # 👠
         'en' : ':high-heeled_shoe:',
@@ -14470,7 +15158,8 @@ EMOJI_DATA = {
         'fr': u':chaussure_à_talon_haut:',
         'pt': ':sapato_de_salto_alto:',
         'it': ':scarpa_con_il_tacco:',
-        'fa': u':کفش_پاشنه_بلند:'
+        'fa': u':کفش_پاشنه_بلند:',
+        'tr': u':yüksek_topuklu_ayakkabı:'
     },
     u'\U0001F684': { # 🚄
         'en' : ':high-speed_train:',
@@ -14482,7 +15171,8 @@ EMOJI_DATA = {
         'fr': ':tgv:',
         'pt': ':trem_de_alta_velocidade:',
         'it': u':treno_alta_velocità:',
-        'fa': u':قطار_سریع_السیر:'
+        'fa': u':قطار_سریع_السیر:',
+        'tr': u':yüksek_hızlı_tren:'
     },
     u'\U000026A1': { # ⚡
         'en' : ':high_voltage:',
@@ -14495,7 +15185,8 @@ EMOJI_DATA = {
         'fr': ':haute_tension:',
         'pt': u':alta_tensão:',
         'it': ':alta_tensione:',
-        'fa': u':ولتاژ_بالا:'
+        'fa': u':ولتاژ_بالا:',
+        'tr': u':yüksek_voltaj:'
     },
     u'\U0001F97E': { # 🥾
         'en' : ':hiking_boot:',
@@ -14506,7 +15197,8 @@ EMOJI_DATA = {
         'fr': u':chaussure_de_randonnée:',
         'pt': ':bota_de_trekking:',
         'it': ':stivale_da_trekking:',
-        'fa': u':چکمه_راه_پیمایی:'
+        'fa': u':چکمه_راه_پیمایی:',
+        'tr': u':yürüyüş_botu:'
     },
     u'\U0001F6D5': { # 🛕
         'en' : ':hindu_temple:',
@@ -14517,7 +15209,8 @@ EMOJI_DATA = {
         'fr': ':temple_hindou:',
         'pt': ':templo_hindu:',
         'it': u':tempio_indù:',
-        'fa': u':معبد_هندو:'
+        'fa': u':معبد_هندو:',
+        'tr': u':hindu_tapınağı:'
     },
     u'\U0001F99B': { # 🦛
         'en' : ':hippopotamus:',
@@ -14528,7 +15221,8 @@ EMOJI_DATA = {
         'fr': ':hippopotame:',
         'pt': u':hipopótamo:',
         'it': ':ippopotamo:',
-        'fa': u':اسب_آبی:'
+        'fa': u':اسب_آبی:',
+        'tr': ':hipopotam:'
     },
     u'\U0001F573\U0000FE0F': { # 🕳️
         'en' : ':hole:',
@@ -14540,7 +15234,8 @@ EMOJI_DATA = {
         'fr': ':trou:',
         'pt': ':buraco:',
         'it': ':buco:',
-        'fa': u':چاله:'
+        'fa': u':چاله:',
+        'tr': ':delik:'
     },
     u'\U0001F573': { # 🕳
         'en' : ':hole:',
@@ -14552,7 +15247,8 @@ EMOJI_DATA = {
         'fr': ':trou:',
         'pt': ':buraco:',
         'it': ':buco:',
-        'fa': u':چاله:'
+        'fa': u':چاله:',
+        'tr': ':delik:'
     },
     u'\U00002B55': { # ⭕
         'en' : ':hollow_red_circle:',
@@ -14565,7 +15261,8 @@ EMOJI_DATA = {
         'fr': ':cercle_rouge:',
         'pt': u':círculo_grande_oco:',
         'it': ':cerchio_rosso_vuoto:',
-        'fa': u':دایره_قرمز_توخالی:'
+        'fa': u':دایره_قرمز_توخالی:',
+        'tr': u':kalın_kırmızı_çember:'
     },
     u'\U0001F36F': { # 🍯
         'en' : ':honey_pot:',
@@ -14576,7 +15273,8 @@ EMOJI_DATA = {
         'fr': ':pot_de_miel:',
         'pt': ':pote_de_mel:',
         'it': ':barattolo_di_miele:',
-        'fa': u':ظرف_عسل:'
+        'fa': u':ظرف_عسل:',
+        'tr': u':bal_kabı:'
     },
     u'\U0001F41D': { # 🐝
         'en' : ':honeybee:',
@@ -14588,7 +15286,8 @@ EMOJI_DATA = {
         'fr': ':abeille:',
         'pt': ':abelha:',
         'it': ':ape:',
-        'fa': u':زنبور_عسل:'
+        'fa': u':زنبور_عسل:',
+        'tr': u':bal_arısı:'
     },
     u'\U0001FA9D': { # 🪝
         'en' : ':hook:',
@@ -14599,7 +15298,8 @@ EMOJI_DATA = {
         'fr': ':crochet:',
         'pt': ':gancho:',
         'it': ':gancio:',
-        'fa': u':قلاب:'
+        'fa': u':قلاب:',
+        'tr': u':çengel:'
     },
     u'\U0001F6A5': { # 🚥
         'en' : ':horizontal_traffic_light:',
@@ -14611,7 +15311,8 @@ EMOJI_DATA = {
         'fr': ':feu_tricolore_horizontal:',
         'pt': u':semáforo_horizontal:',
         'it': ':semaforo_orizzontale:',
-        'fa': u':چراغ_راهنمایی_افقی:'
+        'fa': u':چراغ_راهنمایی_افقی:',
+        'tr': u':yatay_trafik_ışıkları:'
     },
     u'\U0001F40E': { # 🐎
         'en' : ':horse:',
@@ -14623,7 +15324,8 @@ EMOJI_DATA = {
         'fr': ':cheval:',
         'pt': ':cavalo:',
         'it': ':cavallo:',
-        'fa': u':اسب:'
+        'fa': u':اسب:',
+        'tr': ':at:'
     },
     u'\U0001F434': { # 🐴
         'en' : ':horse_face:',
@@ -14635,7 +15337,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_cheval:',
         'pt': ':rosto_de_cavalo:',
         'it': ':muso_di_cavallo:',
-        'fa': u':صورت_اسب:'
+        'fa': u':صورت_اسب:',
+        'tr': u':at_yüzü:'
     },
     u'\U0001F3C7': { # 🏇
         'en' : ':horse_racing:',
@@ -14646,7 +15349,8 @@ EMOJI_DATA = {
         'fr': ':course_hippique:',
         'pt': ':corrida_de_cavalos:',
         'it': ':ippica:',
-        'fa': u':مسابقه_اسب_سواری:'
+        'fa': u':مسابقه_اسب_سواری:',
+        'tr': u':at_yarışı:'
     },
     u'\U0001F3C7\U0001F3FF': { # 🏇🏿
         'en' : ':horse_racing_dark_skin_tone:',
@@ -14707,7 +15411,8 @@ EMOJI_DATA = {
         'fr': u':hôpital:',
         'pt': ':hospital:',
         'it': ':ospedale:',
-        'fa': u':بیمارستان:'
+        'fa': u':بیمارستان:',
+        'tr': ':hastane:'
     },
     u'\U00002615': { # ☕
         'en' : ':hot_beverage:',
@@ -14720,7 +15425,8 @@ EMOJI_DATA = {
         'fr': ':boisson_chaude:',
         'pt': u':café:',
         'it': ':bevanda_calda:',
-        'fa': u':نوشیدنی_گرم:'
+        'fa': u':نوشیدنی_گرم:',
+        'tr': u':sıcak_içecek:'
     },
     u'\U0001F32D': { # 🌭
         'en' : ':hot_dog:',
@@ -14732,7 +15438,8 @@ EMOJI_DATA = {
         'fr': ':hot_dog:',
         'pt': ':cachorro-quente:',
         'it': ':hot_dog:',
-        'fa': u':هات_داگ:'
+        'fa': u':هات_داگ:',
+        'tr': u':sosisli_sandviç:'
     },
     u'\U0001F975': { # 🥵
         'en' : ':hot_face:',
@@ -14743,7 +15450,8 @@ EMOJI_DATA = {
         'fr': ':visage_rouge_et_chaud:',
         'pt': ':rosto_fervendo_de_calor:',
         'it': ':faccina_accaldata:',
-        'fa': u':خیلی_گرم:'
+        'fa': u':خیلی_گرم:',
+        'tr': u':kızarmış_yüz:'
     },
     u'\U0001F336\U0000FE0F': { # 🌶️
         'en' : ':hot_pepper:',
@@ -14755,7 +15463,8 @@ EMOJI_DATA = {
         'fr': ':piment_rouge:',
         'pt': ':pimenta:',
         'it': ':peperoncino:',
-        'fa': u':فلفل_قرمز:'
+        'fa': u':فلفل_قرمز:',
+        'tr': u':acı_biber:'
     },
     u'\U0001F336': { # 🌶
         'en' : ':hot_pepper:',
@@ -14767,7 +15476,8 @@ EMOJI_DATA = {
         'fr': ':piment_rouge:',
         'pt': ':pimenta:',
         'it': ':peperoncino:',
-        'fa': u':فلفل_قرمز:'
+        'fa': u':فلفل_قرمز:',
+        'tr': u':acı_biber:'
     },
     u'\U00002668\U0000FE0F': { # ♨️
         'en' : ':hot_springs:',
@@ -14780,7 +15490,8 @@ EMOJI_DATA = {
         'fr': ':sources_chaudes:',
         'pt': ':chamas:',
         'it': ':sorgenti_termali:',
-        'fa': u':چشمه_آب_گرم:'
+        'fa': u':چشمه_آب_گرم:',
+        'tr': u':kaplıca:'
     },
     u'\U00002668': { # ♨
         'en' : ':hot_springs:',
@@ -14793,7 +15504,8 @@ EMOJI_DATA = {
         'fr': ':sources_chaudes:',
         'pt': ':chamas:',
         'it': ':sorgenti_termali:',
-        'fa': u':چشمهٔ_آب_گرم:'
+        'fa': u':چشمهٔ_آب_گرم:',
+        'tr': u':kaplıca:'
     },
     u'\U0001F3E8': { # 🏨
         'en' : ':hotel:',
@@ -14804,7 +15516,8 @@ EMOJI_DATA = {
         'fr': u':hôtel:',
         'pt': ':hotel:',
         'it': ':hotel:',
-        'fa': u':هتل:'
+        'fa': u':هتل:',
+        'tr': ':otel:'
     },
     u'\U0000231B': { # ⌛
         'en' : ':hourglass_done:',
@@ -14817,7 +15530,8 @@ EMOJI_DATA = {
         'fr': ':sablier:',
         'pt': ':ampulheta:',
         'it': ':clessidra:',
-        'fa': u':ساعت_شنی:'
+        'fa': u':ساعت_شنی:',
+        'tr': ':kum_saati:'
     },
     u'\U000023F3': { # ⏳
         'en' : ':hourglass_not_done:',
@@ -14830,7 +15544,8 @@ EMOJI_DATA = {
         'fr': ':sablier_avec_sable_qui_coule:',
         'pt': ':ampulheta_contando_o_tempo:',
         'it': ':clessidra_che_scorre:',
-        'fa': u':ساعت_شنی_با_شن_روان:'
+        'fa': u':ساعت_شنی_با_شن_روان:',
+        'tr': ':akan_kum_saati:'
     },
     u'\U0001F3E0': { # 🏠
         'en' : ':house:',
@@ -14842,7 +15557,8 @@ EMOJI_DATA = {
         'fr': ':maison:',
         'pt': ':casa:',
         'it': ':casa:',
-        'fa': u':خانه:'
+        'fa': u':خانه:',
+        'tr': ':ev:'
     },
     u'\U0001F3E1': { # 🏡
         'en' : ':house_with_garden:',
@@ -14853,7 +15569,8 @@ EMOJI_DATA = {
         'fr': ':maison_avec_jardin:',
         'pt': ':casa_com_jardim:',
         'it': ':casa_con_giardino:',
-        'fa': u':خانهٔ_حیاط_دار:'
+        'fa': u':خانهٔ_حیاط_دار:',
+        'tr': u':bahçeli_ev:'
     },
     u'\U0001F3D8\U0000FE0F': { # 🏘️
         'en' : ':houses:',
@@ -14866,7 +15583,8 @@ EMOJI_DATA = {
         'fr': ':maisons:',
         'pt': ':casas:',
         'it': ':case:',
-        'fa': u':منازل:'
+        'fa': u':منازل:',
+        'tr': ':evler:'
     },
     u'\U0001F3D8': { # 🏘
         'en' : ':houses:',
@@ -14879,7 +15597,8 @@ EMOJI_DATA = {
         'fr': ':maisons:',
         'pt': ':casas:',
         'it': ':case:',
-        'fa': u':منازل:'
+        'fa': u':منازل:',
+        'tr': ':evler:'
     },
     u'\U0001F4AF': { # 💯
         'en' : ':hundred_points:',
@@ -14891,7 +15610,8 @@ EMOJI_DATA = {
         'fr': ':cent_points:',
         'pt': ':cem_pontos:',
         'it': ':100_punti:',
-        'fa': u':۱۰۰_امتیاز:'
+        'fa': u':۱۰۰_امتیاز:',
+        'tr': u':yüz_puan:'
     },
     u'\U0001F62F': { # 😯
         'en' : ':hushed_face:',
@@ -14903,7 +15623,8 @@ EMOJI_DATA = {
         'fr': u':visage_ébahi:',
         'pt': ':rosto_surpreso:',
         'it': ':faccina_sorpresa:',
-        'fa': u':مات_و_مبهوت:'
+        'fa': u':مات_و_مبهوت:',
+        'tr': u':şaşkın_yüz:'
     },
     u'\U0001F6D6': { # 🛖
         'en' : ':hut:',
@@ -14914,7 +15635,8 @@ EMOJI_DATA = {
         'fr': ':hutte:',
         'pt': ':cabana:',
         'it': ':capanna:',
-        'fa': u':کلبه:'
+        'fa': u':کلبه:',
+        'tr': u':kulübe:'
     },
     u'\U0001F9CA': { # 🧊
         'en' : ':ice:',
@@ -14926,7 +15648,8 @@ EMOJI_DATA = {
         'fr': u':glaçon:',
         'pt': ':cubo_de_gelo:',
         'it': ':cubetto_di_ghiaccio:',
-        'fa': u':قالب_یخ:'
+        'fa': u':قالب_یخ:',
+        'tr': u':buz_küpü:'
     },
     u'\U0001F368': { # 🍨
         'en' : ':ice_cream:',
@@ -14937,7 +15660,8 @@ EMOJI_DATA = {
         'fr': ':glace:',
         'pt': ':sorvete:',
         'it': ':coppa_di_gelato:',
-        'fa': u':بستنی:'
+        'fa': u':بستنی:',
+        'tr': ':dondurma:'
     },
     u'\U0001F3D2': { # 🏒
         'en' : ':ice_hockey:',
@@ -14949,7 +15673,8 @@ EMOJI_DATA = {
         'fr': ':hockey_sur_glace:',
         'pt': u':hóquei_no_gelo:',
         'it': ':hockey_su_ghiaccio:',
-        'fa': u':هاکی_روی_یخ:'
+        'fa': u':هاکی_روی_یخ:',
+        'tr': ':buz_hokeyi:'
     },
     u'\U000026F8\U0000FE0F': { # ⛸️
         'en' : ':ice_skate:',
@@ -14961,7 +15686,8 @@ EMOJI_DATA = {
         'fr': u':patin_à_glace:',
         'pt': ':patins_de_gelo:',
         'it': ':pattinaggio_su_ghiaccio:',
-        'fa': u':اسکی_روی_یخ:'
+        'fa': u':اسکی_روی_یخ:',
+        'tr': ':buz_pateni:'
     },
     u'\U000026F8': { # ⛸
         'en' : ':ice_skate:',
@@ -14973,7 +15699,8 @@ EMOJI_DATA = {
         'fr': u':patin_à_glace:',
         'pt': ':patins_de_gelo:',
         'it': ':pattinaggio_su_ghiaccio:',
-        'fa': u':اسکی_روی_یخ:'
+        'fa': u':اسکی_روی_یخ:',
+        'tr': ':buz_pateni:'
     },
     u'\U0001FAAA': { # 🪪
         'en' : ':identification_card:',
@@ -14984,7 +15711,8 @@ EMOJI_DATA = {
         'fr': u':carte_d’identité:',
         'pt': u':cartão_de_identificação:',
         'it': u':carta_d’identità:',
-        'fa': u':کارت_شناسایی:'
+        'fa': u':کارت_شناسایی:',
+        'tr': u':kimlik_kartı:'
     },
     u'\U0001F4E5': { # 📥
         'en' : ':inbox_tray:',
@@ -14996,7 +15724,8 @@ EMOJI_DATA = {
         'fr': u':boîte_de_réception:',
         'pt': ':bandeja_de_entrada:',
         'it': ':posta_ricevuta:',
-        'fa': u':صندوق_ورودی:'
+        'fa': u':صندوق_ورودی:',
+        'tr': ':gelen_kutusu:'
     },
     u'\U0001F4E8': { # 📨
         'en' : ':incoming_envelope:',
@@ -15007,7 +15736,8 @@ EMOJI_DATA = {
         'fr': u':message_reçu:',
         'pt': ':envelope_chegando:',
         'it': ':posta_in_arrivo:',
-        'fa': u':پاکت_نامهٔ_ورودی:'
+        'fa': u':پاکت_نامهٔ_ورودی:',
+        'tr': ':gelen_zarf:'
     },
     u'\U0001FAF5': { # 🫵
         'en' : ':index_pointing_at_the_viewer:',
@@ -15018,7 +15748,8 @@ EMOJI_DATA = {
         'fr': u':index_pointant_vers_l’utilisateur:',
         'pt': ':indicador_apontando_para_o_visualizador:',
         'it': u':indice_verso_l’osservatore:',
-        'fa': u':اشاره_به_بیننده:'
+        'fa': u':اشاره_به_بیننده:',
+        'tr': u':karşıyı_işaret_eden_işaret_parmağı:'
     },
     u'\U0001FAF5\U0001F3FF': { # 🫵🏿
         'en' : ':index_pointing_at_the_viewer_dark_skin_tone:',
@@ -15056,7 +15787,8 @@ EMOJI_DATA = {
         'fr': ':index_pointant_vers_le_haut:',
         'pt': ':indicador_apontando_para_cima:',
         'it': u':indice_verso_l’alto:',
-        'fa': u':اشاره_به_بالا:'
+        'fa': u':اشاره_به_بالا:',
+        'tr': u':yukarıyı_gösteren_işaret_parmağı:'
     },
     u'\U0000261D': { # ☝
         'en' : ':index_pointing_up:',
@@ -15069,7 +15801,8 @@ EMOJI_DATA = {
         'fr': ':index_pointant_vers_le_haut:',
         'pt': ':indicador_apontando_para_cima:',
         'it': u':indice_verso_l’alto:',
-        'fa': u':اشاره_به_بالا:'
+        'fa': u':اشاره_به_بالا:',
+        'tr': u':yukarıyı_gösteren_işaret_parmağı:'
     },
     u'\U0000261D\U0001F3FF': { # ☝🏿
         'en' : ':index_pointing_up_dark_skin_tone:',
@@ -15131,7 +15864,8 @@ EMOJI_DATA = {
         'fr': ':infini:',
         'pt': ':infinito:',
         'it': u':simbolo_dell’infinito:',
-        'fa': u':بی_نهایت:'
+        'fa': u':بی_نهایت:',
+        'tr': ':sonsuz:'
     },
     u'\U0000267E': { # ♾
         'en' : ':infinity:',
@@ -15143,7 +15877,8 @@ EMOJI_DATA = {
         'fr': ':infini:',
         'pt': ':infinito:',
         'it': u':simbolo_dell’infinito:',
-        'fa': u':بی_نهایت:'
+        'fa': u':بی_نهایت:',
+        'tr': ':sonsuz:'
     },
     u'\U00002139\U0000FE0F': { # ℹ️
         'en' : ':information:',
@@ -15156,7 +15891,8 @@ EMOJI_DATA = {
         'fr': u':source_d’informations:',
         'pt': u':informações:',
         'it': ':punto_informazioni:',
-        'fa': u':اطلاعات:'
+        'fa': u':اطلاعات:',
+        'tr': ':bilgi:'
     },
     u'\U00002139': { # ℹ
         'en' : ':information:',
@@ -15169,7 +15905,8 @@ EMOJI_DATA = {
         'fr': u':source_d’informations:',
         'pt': u':informações:',
         'it': ':punto_informazioni:',
-        'fa': u':اطلاعات:'
+        'fa': u':اطلاعات:',
+        'tr': ':bilgi:'
     },
     u'\U0001F524': { # 🔤
         'en' : ':input_latin_letters:',
@@ -15181,7 +15918,8 @@ EMOJI_DATA = {
         'fr': ':alphabet_latin:',
         'pt': ':letras_latinas:',
         'it': ':pulsante_con_lettere_latine:',
-        'fa': u':ورودی_حروف_لاتین:'
+        'fa': u':ورودی_حروف_لاتین:',
+        'tr': ':latin_alfabesi:'
     },
     u'\U0001F521': { # 🔡
         'en' : ':input_latin_lowercase:',
@@ -15193,7 +15931,8 @@ EMOJI_DATA = {
         'fr': ':minuscules:',
         'pt': u':letras_latinas_minúsculas:',
         'it': ':pulsante_con_lettere_latine_minuscole:',
-        'fa': u':ورودی_حروف_کوچک:'
+        'fa': u':ورودی_حروف_کوچک:',
+        'tr': u':küçük_harfler:'
     },
     u'\U0001F520': { # 🔠
         'en' : ':input_latin_uppercase:',
@@ -15205,7 +15944,8 @@ EMOJI_DATA = {
         'fr': ':majuscules:',
         'pt': u':letras_latinas_maiúsculas:',
         'it': ':pulsante_con_lettere_latine_maiuscole:',
-        'fa': u':ورودی_حروف_بزرگ:'
+        'fa': u':ورودی_حروف_بزرگ:',
+        'tr': u':büyük_harfler:'
     },
     u'\U0001F522': { # 🔢
         'en' : ':input_numbers:',
@@ -15217,7 +15957,8 @@ EMOJI_DATA = {
         'fr': ':saisie_de_chiffres:',
         'pt': u':números:',
         'it': ':pulsante_con_numeri:',
-        'fa': u':ورودی_عددی:'
+        'fa': u':ورودی_عددی:',
+        'tr': u':sayılar:'
     },
     u'\U0001F523': { # 🔣
         'en' : ':input_symbols:',
@@ -15229,7 +15970,8 @@ EMOJI_DATA = {
         'fr': ':saisie_de_symboles:',
         'pt': u':símbolos:',
         'it': ':pulsante_con_simboli:',
-        'fa': u':ورودی_نماد:'
+        'fa': u':ورودی_نماد:',
+        'tr': u':işaretler:'
     },
     u'\U0001F383': { # 🎃
         'en' : ':jack-o-lantern:',
@@ -15241,7 +15983,8 @@ EMOJI_DATA = {
         'fr': ':citrouille:',
         'pt': u':abóbora_de_halloween:',
         'it': ':zucca_di_halloween:',
-        'fa': u':فانوس_کدو_تنبل:'
+        'fa': u':فانوس_کدو_تنبل:',
+        'tr': ':kabak_fener:'
     },
     u'\U0001FAD9': { # 🫙
         'en' : ':jar:',
@@ -15252,7 +15995,8 @@ EMOJI_DATA = {
         'fr': ':bocal:',
         'pt': ':jarro:',
         'it': ':barattolo:',
-        'fa': u':شیشه_دهان_گشاد:'
+        'fa': u':شیشه_دهان_گشاد:',
+        'tr': ':kavanoz:'
     },
     u'\U0001F456': { # 👖
         'en' : ':jeans:',
@@ -15263,7 +16007,8 @@ EMOJI_DATA = {
         'fr': ':jean:',
         'pt': ':jeans:',
         'it': ':jeans:',
-        'fa': u':شلوار_جین:'
+        'fa': u':شلوار_جین:',
+        'tr': ':kot:'
     },
     u'\U0001F0CF': { # 🃏
         'en' : ':joker:',
@@ -15275,7 +16020,8 @@ EMOJI_DATA = {
         'fr': ':carte_joker:',
         'pt': ':curinga:',
         'it': ':jolly:',
-        'fa': u':جوکر:'
+        'fa': u':جوکر:',
+        'tr': ':joker:'
     },
     u'\U0001F579\U0000FE0F': { # 🕹️
         'en' : ':joystick:',
@@ -15287,7 +16033,8 @@ EMOJI_DATA = {
         'fr': ':manette_de_jeu:',
         'pt': ':joystick:',
         'it': ':joystick:',
-        'fa': u':دسته_بازی:'
+        'fa': u':دسته_بازی:',
+        'tr': u':oyun_çubuğu:'
     },
     u'\U0001F579': { # 🕹
         'en' : ':joystick:',
@@ -15299,7 +16046,8 @@ EMOJI_DATA = {
         'fr': ':manette_de_jeu:',
         'pt': ':joystick:',
         'it': ':joystick:',
-        'fa': u':دسته_بازی:'
+        'fa': u':دسته_بازی:',
+        'tr': u':oyun_çubuğu:'
     },
     u'\U0001F9D1\U0000200D\U00002696\U0000FE0F': { # 🧑‍⚖️
         'en' : ':judge:',
@@ -15310,7 +16058,8 @@ EMOJI_DATA = {
         'fr': ':juge:',
         'pt': ':juiz_no_tribunal:',
         'it': ':giudice:',
-        'fa': u':قاضی:'
+        'fa': u':قاضی:',
+        'tr': ':hakim:'
     },
     u'\U0001F9D1\U0000200D\U00002696': { # 🧑‍⚖
         'en' : ':judge:',
@@ -15321,7 +16070,8 @@ EMOJI_DATA = {
         'fr': ':juge:',
         'pt': ':juiz_no_tribunal:',
         'it': ':giudice:',
-        'fa': u':قاضی:'
+        'fa': u':قاضی:',
+        'tr': ':hakim:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U00002696\U0000FE0F': { # 🧑🏿‍⚖️
         'en' : ':judge_dark_skin_tone:',
@@ -15432,7 +16182,8 @@ EMOJI_DATA = {
         'fr': ':kaaba:',
         'pt': u':caaba_islã:',
         'it': ':kaaba:',
-        'fa': u':کعبه:'
+        'fa': u':کعبه:',
+        'tr': u':kâbe:'
     },
     u'\U0001F998': { # 🦘
         'en' : ':kangaroo:',
@@ -15443,7 +16194,8 @@ EMOJI_DATA = {
         'fr': ':kangourou:',
         'pt': ':canguru:',
         'it': ':canguro:',
-        'fa': u':کانگورو:'
+        'fa': u':کانگورو:',
+        'tr': ':kanguru:'
     },
     u'\U0001F511': { # 🔑
         'en' : ':key:',
@@ -15454,7 +16206,8 @@ EMOJI_DATA = {
         'fr': u':clé:',
         'pt': ':chave:',
         'it': ':chiave:',
-        'fa': u':کلید:'
+        'fa': u':کلید:',
+        'tr': ':anahtar:'
     },
     u'\U00002328\U0000FE0F': { # ⌨️
         'en' : ':keyboard:',
@@ -15466,7 +16219,8 @@ EMOJI_DATA = {
         'fr': ':clavier:',
         'pt': ':teclado:',
         'it': ':tastiera:',
-        'fa': u':صفحه_کلید:'
+        'fa': u':صفحه_کلید:',
+        'tr': ':klavye:'
     },
     u'\U00002328': { # ⌨
         'en' : ':keyboard:',
@@ -15478,7 +16232,8 @@ EMOJI_DATA = {
         'fr': ':clavier:',
         'pt': ':teclado:',
         'it': ':tastiera:',
-        'fa': u':صفحه_کلید:'
+        'fa': u':صفحه_کلید:',
+        'tr': ':klavye:'
     },
     u'\U00000023\U0000FE0F\U000020E3': { # #️⃣
         'en' : ':keycap_#:',
@@ -15702,7 +16457,8 @@ EMOJI_DATA = {
         'fr': ':trottinette:',
         'pt': ':patinete:',
         'it': ':monopattino:',
-        'fa': u':چرخ_پایی:'
+        'fa': u':چرخ_پایی:',
+        'tr': u':ayakla_sürülen_skuter:'
     },
     u'\U0001F458': { # 👘
         'en' : ':kimono:',
@@ -15713,7 +16469,8 @@ EMOJI_DATA = {
         'fr': ':kimono:',
         'pt': ':quimono:',
         'it': ':kimono:',
-        'fa': u':کیمونو:'
+        'fa': u':کیمونو:',
+        'tr': ':kimono:'
     },
     u'\U0001F48F': { # 💏
         'en' : ':kiss:',
@@ -15725,7 +16482,8 @@ EMOJI_DATA = {
         'fr': ':bisou:',
         'pt': ':beijo:',
         'it': ':bacio_tra_coppia:',
-        'fa': u':بوسه:'
+        'fa': u':بوسه:',
+        'tr': u':öpücük:'
     },
     u'\U0001F48F\U0001F3FF': { # 💏🏿
         'en' : ':kiss_dark_skin_tone:',
@@ -16012,7 +16770,8 @@ EMOJI_DATA = {
         'fr': u':trace_de_rouge_à_lèvres:',
         'pt': ':marca_de_beijo:',
         'it': ':impronta_della_bocca:',
-        'fa': u':بوسه_ماتیکی:'
+        'fa': u':بوسه_ماتیکی:',
+        'tr': u':öpücük_izi:'
     },
     u'\U0001F48F\U0001F3FE': { # 💏🏾
         'en' : ':kiss_medium-dark_skin_tone:',
@@ -16768,7 +17527,8 @@ EMOJI_DATA = {
         'fr': ':chat_qui_fait_un_bisou:',
         'pt': ':rosto_de_gato_mandando_um_beijo:',
         'it': ':gatto_che_manda_baci:',
-        'fa': u':گربه_و_بوسهٔ_خجالتی:'
+        'fa': u':گربه_و_بوسهٔ_خجالتی:',
+        'tr': u':öpen_kedi:'
     },
     u'\U0001F617': { # 😗
         'en' : ':kissing_face:',
@@ -16780,7 +17540,8 @@ EMOJI_DATA = {
         'fr': ':visage_faisant_un_bisou:',
         'pt': ':rosto_beijando:',
         'it': ':faccina_che_bacia:',
-        'fa': u':بوسیدن:'
+        'fa': u':بوسیدن:',
+        'tr': u':öpen_yüz:'
     },
     u'\U0001F61A': { # 😚
         'en' : ':kissing_face_with_closed_eyes:',
@@ -16792,7 +17553,8 @@ EMOJI_DATA = {
         'fr': u':visage_faisant_un_bisou_avec_les_yeux_fermés:',
         'pt': ':rosto_beijando_com_olhos_fechados:',
         'it': ':faccina_che_bacia_con_occhi_chiusi:',
-        'fa': u':بوسهٔ_خجالتی:'
+        'fa': u':بوسهٔ_خجالتی:',
+        'tr': u':kapalı_gözlerle_öpen_yüz:'
     },
     u'\U0001F619': { # 😙
         'en' : ':kissing_face_with_smiling_eyes:',
@@ -16804,7 +17566,8 @@ EMOJI_DATA = {
         'fr': ':visage_aux_yeux_rieurs_faisant_un_bisou:',
         'pt': ':rosto_beijando_com_olhos_sorridentes:',
         'it': ':faccina_che_bacia_con_occhi_sorridenti:',
-        'fa': u':لبخند_و_بوسه:'
+        'fa': u':لبخند_و_بوسه:',
+        'tr': u':gülen_gözlerle_öpen_yüz:'
     },
     u'\U0001F52A': { # 🔪
         'en' : ':kitchen_knife:',
@@ -16816,7 +17579,8 @@ EMOJI_DATA = {
         'fr': ':couteau_de_cuisine:',
         'pt': ':faca_de_cozinha:',
         'it': ':coltello_da_cucina:',
-        'fa': u':چاقوی_آشپزخانه:'
+        'fa': u':چاقوی_آشپزخانه:',
+        'tr': u':mutfak_bıçağı:'
     },
     u'\U0001FA81': { # 🪁
         'en' : ':kite:',
@@ -16827,7 +17591,8 @@ EMOJI_DATA = {
         'fr': ':cerf-volant:',
         'pt': ':pipa:',
         'it': ':aquilone:',
-        'fa': u':بادبادک:'
+        'fa': u':بادبادک:',
+        'tr': u':uçurtma:'
     },
     u'\U0001F95D': { # 🥝
         'en' : ':kiwi_fruit:',
@@ -16838,7 +17603,8 @@ EMOJI_DATA = {
         'fr': ':kiwi:',
         'pt': ':kiwi:',
         'it': ':kiwi:',
-        'fa': u':کیوی:'
+        'fa': u':کیوی:',
+        'tr': ':kivi:'
     },
     u'\U0001FAA2': { # 🪢
         'en' : ':knot:',
@@ -16849,7 +17615,8 @@ EMOJI_DATA = {
         'fr': u':nœud:',
         'pt': u':nó:',
         'it': ':nodo:',
-        'fa': u':گره:'
+        'fa': u':گره:',
+        'tr': u':denizci_düğümü:'
     },
     u'\U0001F428': { # 🐨
         'en' : ':koala:',
@@ -16860,7 +17627,8 @@ EMOJI_DATA = {
         'fr': ':koala:',
         'pt': ':coala:',
         'it': ':koala:',
-        'fa': u':کوآلا:'
+        'fa': u':کوآلا:',
+        'tr': ':koala:'
     },
     u'\U0001F97C': { # 🥼
         'en' : ':lab_coat:',
@@ -16871,7 +17639,8 @@ EMOJI_DATA = {
         'fr': ':blouse_blanche:',
         'pt': ':jaleco:',
         'it': ':camice:',
-        'fa': u':روپوش_آزمایشگاه:'
+        'fa': u':روپوش_آزمایشگاه:',
+        'tr': u':laboratuvar_önlüğü:'
     },
     u'\U0001F3F7\U0000FE0F': { # 🏷️
         'en' : ':label:',
@@ -16883,7 +17652,8 @@ EMOJI_DATA = {
         'fr': u':étiquette:',
         'pt': ':etiqueta:',
         'it': ':etichetta:',
-        'fa': u':برچسب:'
+        'fa': u':برچسب:',
+        'tr': ':etiket:'
     },
     u'\U0001F3F7': { # 🏷
         'en' : ':label:',
@@ -16895,7 +17665,8 @@ EMOJI_DATA = {
         'fr': u':étiquette:',
         'pt': ':etiqueta:',
         'it': ':etichetta:',
-        'fa': u':برچسب:'
+        'fa': u':برچسب:',
+        'tr': ':etiket:'
     },
     u'\U0001F94D': { # 🥍
         'en' : ':lacrosse:',
@@ -16906,7 +17677,8 @@ EMOJI_DATA = {
         'fr': ':crosse:',
         'pt': ':lacrosse:',
         'it': ':lacrosse:',
-        'fa': u':لاکراس:'
+        'fa': u':لاکراس:',
+        'tr': ':lakros:'
     },
     u'\U0001FA9C': { # 🪜
         'en' : ':ladder:',
@@ -16917,7 +17689,8 @@ EMOJI_DATA = {
         'fr': u':échelle:',
         'pt': ':escada:',
         'it': ':scala:',
-        'fa': u':نردبان:'
+        'fa': u':نردبان:',
+        'tr': ':merdiven:'
     },
     u'\U0001F41E': { # 🐞
         'en' : ':lady_beetle:',
@@ -16929,7 +17702,8 @@ EMOJI_DATA = {
         'fr': ':coccinelle:',
         'pt': ':joaninha:',
         'it': ':coccinella:',
-        'fa': u':کفشدوزک:'
+        'fa': u':کفشدوزک:',
+        'tr': u':uğur_böceği:'
     },
     u'\U0001F4BB': { # 💻
         'en' : ':laptop:',
@@ -16942,7 +17716,8 @@ EMOJI_DATA = {
         'fr': ':ordinateur_portable:',
         'pt': ':laptop:',
         'it': ':computer_portatile:',
-        'fa': u':رایانهٔ_کیفی:'
+        'fa': u':رایانهٔ_کیفی:',
+        'tr': u':dizüstü_bilgisayar:'
     },
     u'\U0001F537': { # 🔷
         'en' : ':large_blue_diamond:',
@@ -16953,7 +17728,8 @@ EMOJI_DATA = {
         'fr': ':grand_losange_bleu:',
         'pt': ':losango_azul_grande:',
         'it': ':rombo_blu_grande:',
-        'fa': u':لوزی_آبی_بزرگ:'
+        'fa': u':لوزی_آبی_بزرگ:',
+        'tr': u':büyük_mavi_karo:'
     },
     u'\U0001F536': { # 🔶
         'en' : ':large_orange_diamond:',
@@ -16964,7 +17740,8 @@ EMOJI_DATA = {
         'fr': ':grand_losange_orange:',
         'pt': ':losango_laranja_grande:',
         'it': ':rombo_arancione_grande:',
-        'fa': u':لوزی_نارنجی_بزرگ:'
+        'fa': u':لوزی_نارنجی_بزرگ:',
+        'tr': u':büyük_turuncu_karo:'
     },
     u'\U0001F317': { # 🌗
         'en' : ':last_quarter_moon:',
@@ -16975,7 +17752,8 @@ EMOJI_DATA = {
         'fr': ':dernier_quartier_de_lune:',
         'pt': ':quarto_minguante:',
         'it': ':ultimo_quarto_di_luna:',
-        'fa': u':یک_چهارم_پایان:'
+        'fa': u':یک_چهارم_پایان:',
+        'tr': u':son_dördün:'
     },
     u'\U0001F31C': { # 🌜
         'en' : ':last_quarter_moon_face:',
@@ -16988,7 +17766,8 @@ EMOJI_DATA = {
         'fr': ':dernier_quartier_de_lune_avec_visage:',
         'pt': ':rosto_da_lua_de_quarto_minguante:',
         'it': ':faccina_ultimo_quarto_di_luna:',
-        'fa': u':صورت_یک_چهارم_آخر:'
+        'fa': u':صورت_یک_چهارم_آخر:',
+        'tr': u':son_dördün_ay_yüzü:'
     },
     u'\U000023EE\U0000FE0F': { # ⏮️
         'en' : ':last_track_button:',
@@ -17001,7 +17780,8 @@ EMOJI_DATA = {
         'fr': u':bouton_piste_précédente:',
         'pt': u':botão_de_faixa_anterior:',
         'it': ':pulsante_traccia_precedente:',
-        'fa': u':دکمه_آهنگ_قبلی:'
+        'fa': u':دکمه_آهنگ_قبلی:',
+        'tr': u':son_parça_düğmesi:'
     },
     u'\U000023EE': { # ⏮
         'en' : ':last_track_button:',
@@ -17014,7 +17794,8 @@ EMOJI_DATA = {
         'fr': u':bouton_piste_précédente:',
         'pt': u':botão_de_faixa_anterior:',
         'it': ':pulsante_traccia_precedente:',
-        'fa': u':دکمهٔ_آهنگ_قبلی:'
+        'fa': u':دکمهٔ_آهنگ_قبلی:',
+        'tr': u':son_parça_düğmesi:'
     },
     u'\U0000271D\U0000FE0F': { # ✝️
         'en' : ':latin_cross:',
@@ -17026,7 +17807,8 @@ EMOJI_DATA = {
         'fr': ':croix_latine:',
         'pt': ':cruz_latina:',
         'it': ':croce_latina:',
-        'fa': u':صلیب:'
+        'fa': u':صلیب:',
+        'tr': u':latin_haçı:'
     },
     u'\U0000271D': { # ✝
         'en' : ':latin_cross:',
@@ -17038,7 +17820,8 @@ EMOJI_DATA = {
         'fr': ':croix_latine:',
         'pt': ':cruz_latina:',
         'it': ':croce_latina:',
-        'fa': u':صلیب:'
+        'fa': u':صلیب:',
+        'tr': u':latin_haçı:'
     },
     u'\U0001F343': { # 🍃
         'en' : ':leaf_fluttering_in_wind:',
@@ -17050,7 +17833,8 @@ EMOJI_DATA = {
         'fr': ':feuille_virevoltante:',
         'pt': ':folha_ao_vento:',
         'it': ':foglia_al_vento:',
-        'fa': u':رقص_برگ_در_باد:'
+        'fa': u':رقص_برگ_در_باد:',
+        'tr': u':rüzgardaki_yaprak:'
     },
     u'\U0001F96C': { # 🥬
         'en' : ':leafy_green:',
@@ -17061,7 +17845,8 @@ EMOJI_DATA = {
         'fr': u':légume_à_feuilles_vertes:',
         'pt': ':verdura:',
         'it': ':verdure_a_foglia:',
-        'fa': u':برگ_سبز:'
+        'fa': u':برگ_سبز:',
+        'tr': u':yeşil_yapraklı_sebze:'
     },
     u'\U0001F4D2': { # 📒
         'en' : ':ledger:',
@@ -17072,7 +17857,8 @@ EMOJI_DATA = {
         'fr': ':carnet_de_compte:',
         'pt': u':livro_contábil:',
         'it': ':quaderno_ad_anelli:',
-        'fa': u':دفتر_سیمی:'
+        'fa': u':دفتر_سیمی:',
+        'tr': ':resmi_defter:'
     },
     u'\U0001F91B': { # 🤛
         'en' : ':left-facing_fist:',
@@ -17084,7 +17870,8 @@ EMOJI_DATA = {
         'fr': u':poing_à_gauche:',
         'pt': ':punho_esquerdo:',
         'it': ':pugno_a_sinistra:',
-        'fa': u':مشت_به_چپ:'
+        'fa': u':مشت_به_چپ:',
+        'tr': ':sola_bakan_yumruk:'
     },
     u'\U0001F91B\U0001F3FF': { # 🤛🏿
         'en' : ':left-facing_fist_dark_skin_tone:',
@@ -17147,7 +17934,8 @@ EMOJI_DATA = {
         'fr': u':flèche_gauche_droite:',
         'pt': ':seta_para_esquerda_e_direita:',
         'it': ':freccia_sinistra-destra:',
-        'fa': u':پیکان_دوطرفه:'
+        'fa': u':پیکان_دوطرفه:',
+        'tr': u':sol_ve_sağ_ok:'
     },
     u'\U00002194': { # ↔
         'en' : ':left-right_arrow:',
@@ -17160,7 +17948,8 @@ EMOJI_DATA = {
         'fr': u':flèche_gauche_droite:',
         'pt': ':seta_para_esquerda_e_direita:',
         'it': ':freccia_sinistra-destra:',
-        'fa': u':پیکان_دوطرفه:'
+        'fa': u':پیکان_دوطرفه:',
+        'tr': u':sol_ve_sağ_ok:'
     },
     u'\U00002B05\U0000FE0F': { # ⬅️
         'en' : ':left_arrow:',
@@ -17173,7 +17962,8 @@ EMOJI_DATA = {
         'fr': u':flèche_gauche:',
         'pt': ':seta_para_a_esquerda:',
         'it': ':freccia_rivolta_a_sinistra:',
-        'fa': u':پیکان_چپ:'
+        'fa': u':پیکان_چپ:',
+        'tr': ':sol_ok:'
     },
     u'\U00002B05': { # ⬅
         'en' : ':left_arrow:',
@@ -17186,7 +17976,8 @@ EMOJI_DATA = {
         'fr': u':flèche_gauche:',
         'pt': ':seta_para_a_esquerda:',
         'it': ':freccia_rivolta_a_sinistra:',
-        'fa': u':پیکان_چپ:'
+        'fa': u':پیکان_چپ:',
+        'tr': ':sol_ok:'
     },
     u'\U000021AA\U0000FE0F': { # ↪️
         'en' : ':left_arrow_curving_right:',
@@ -17199,7 +17990,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_droite:',
         'pt': ':seta_curva_da_esquerda_para_a_direita:',
         'it': ':freccia_curva_a_destra:',
-        'fa': u':پیکان_خمیده_چپ:'
+        'fa': u':پیکان_خمیده_چپ:',
+        'tr': u':sağa_kıvrımlı_sol_ok:'
     },
     u'\U000021AA': { # ↪
         'en' : ':left_arrow_curving_right:',
@@ -17212,7 +18004,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_droite:',
         'pt': ':seta_curva_da_esquerda_para_a_direita:',
         'it': ':freccia_curva_a_destra:',
-        'fa': u':پیکان_خمیده_چپ:'
+        'fa': u':پیکان_خمیده_چپ:',
+        'tr': u':sağa_kıvrımlı_sol_ok:'
     },
     u'\U0001F6C5': { # 🛅
         'en' : ':left_luggage:',
@@ -17223,7 +18016,8 @@ EMOJI_DATA = {
         'fr': ':consigne:',
         'pt': u':depósito_de_bagagem:',
         'it': ':simbolo_del_deposito_bagagli:',
-        'fa': u':امانت_بار:'
+        'fa': u':امانت_بار:',
+        'tr': u':eşya_emanet:'
     },
     u'\U0001F5E8\U0000FE0F': { # 🗨️
         'en' : ':left_speech_bubble:',
@@ -17235,7 +18029,8 @@ EMOJI_DATA = {
         'fr': ':bulle_de_parole_gauche:',
         'pt': u':balão_de_diálogo_à_esquerda:',
         'it': ':nuvoletta_nera:',
-        'fa': u':حباب_گفتار_چپ:'
+        'fa': u':حباب_گفتار_چپ:',
+        'tr': u':sol_konuşma_balonu:'
     },
     u'\U0001F5E8': { # 🗨
         'en' : ':left_speech_bubble:',
@@ -17247,7 +18042,8 @@ EMOJI_DATA = {
         'fr': ':bulle_de_parole_gauche:',
         'pt': u':balão_de_diálogo_à_esquerda:',
         'it': ':nuvoletta_nera:',
-        'fa': u':حباب_گفتار_چپ:'
+        'fa': u':حباب_گفتار_چپ:',
+        'tr': u':sol_konuşma_balonu:'
     },
     u'\U0001FAF2': { # 🫲
         'en' : ':leftwards_hand:',
@@ -17258,7 +18054,8 @@ EMOJI_DATA = {
         'fr': ':main_vers_la_gauche:',
         'pt': u':mão_para_a_esquerda:',
         'it': ':mano_rivolta_a_sinistra:',
-        'fa': u':دست_به_سمت_چپ:'
+        'fa': u':دست_به_سمت_چپ:',
+        'tr': ':sola_bakan_el:'
     },
     u'\U0001FAF2\U0001F3FF': { # 🫲🏿
         'en' : ':leftwards_hand_dark_skin_tone:',
@@ -17294,7 +18091,8 @@ EMOJI_DATA = {
         'fr': ':jambe:',
         'pt': ':perna:',
         'it': ':gamba:',
-        'fa': u':لنگ:'
+        'fa': u':لنگ:',
+        'tr': ':bacak:'
     },
     u'\U0001F9B5\U0001F3FF': { # 🦵🏿
         'en' : ':leg_dark_skin_tone:',
@@ -17355,7 +18153,8 @@ EMOJI_DATA = {
         'fr': ':citron:',
         'pt': u':limão:',
         'it': ':limone:',
-        'fa': u':لیمو_ترش:'
+        'fa': u':لیمو_ترش:',
+        'tr': ':limon:'
     },
     u'\U0001F406': { # 🐆
         'en' : ':leopard:',
@@ -17366,7 +18165,8 @@ EMOJI_DATA = {
         'fr': u':léopard:',
         'pt': ':leopardo:',
         'it': ':leopardo:',
-        'fa': u':پلنگ:'
+        'fa': u':پلنگ:',
+        'tr': ':leopar:'
     },
     u'\U0001F39A\U0000FE0F': { # 🎚️
         'en' : ':level_slider:',
@@ -17378,7 +18178,8 @@ EMOJI_DATA = {
         'fr': ':curseur_de_niveau:',
         'pt': ':controle_de_volume:',
         'it': ':cursore_del_volume:',
-        'fa': u':درجه_تنظیم_کننده:'
+        'fa': u':درجه_تنظیم_کننده:',
+        'tr': u':ayarlama_çubuğu:'
     },
     u'\U0001F39A': { # 🎚
         'en' : ':level_slider:',
@@ -17390,7 +18191,8 @@ EMOJI_DATA = {
         'fr': ':curseur_de_niveau:',
         'pt': ':controle_de_volume:',
         'it': ':cursore_del_volume:',
-        'fa': u':درجهٔ_تنظیم_کننده:'
+        'fa': u':درجهٔ_تنظیم_کننده:',
+        'tr': u':ayarlama_çubuğu:'
     },
     u'\U0001F4A1': { # 💡
         'en' : ':light_bulb:',
@@ -17402,7 +18204,8 @@ EMOJI_DATA = {
         'fr': ':ampoule:',
         'pt': u':lâmpada:',
         'it': ':lampadina:',
-        'fa': u':لامپ:'
+        'fa': u':لامپ:',
+        'tr': ':ampul:'
     },
     u'\U0001F688': { # 🚈
         'en' : ':light_rail:',
@@ -17413,7 +18216,8 @@ EMOJI_DATA = {
         'fr': u':métro_léger:',
         'pt': ':trem_urbano:',
         'it': ':metrotranvia:',
-        'fa': u':قطار_سبک_شهری:'
+        'fa': u':قطار_سبک_شهری:',
+        'tr': u':hafif_raylı:'
     },
     u'\U0001F3FB': { # 🏻
         'en' : ':light_skin_tone:',
@@ -17425,7 +18229,8 @@ EMOJI_DATA = {
         'fr': ':peau_claire:',
         'pt': ':pele_clara:',
         'it': ':carnagione_chiara:',
-        'fa': u':پوست_سفید:'
+        'fa': u':پوست_سفید:',
+        'tr': u':açık_cilt_tonu:'
     },
     u'\U0001F517': { # 🔗
         'en' : ':link:',
@@ -17436,7 +18241,8 @@ EMOJI_DATA = {
         'fr': u':chaînons:',
         'pt': ':link:',
         'it': ':collegamento:',
-        'fa': u':حلقهٔ_زنجیر:'
+        'fa': u':حلقهٔ_زنجیر:',
+        'tr': u':bağlantı_işareti:'
     },
     u'\U0001F587\U0000FE0F': { # 🖇️
         'en' : ':linked_paperclips:',
@@ -17449,7 +18255,8 @@ EMOJI_DATA = {
         'fr': ':trombones:',
         'pt': ':clipes_de_papel_conectados:',
         'it': ':graffette_attaccate:',
-        'fa': u':زنجیره_گیره:'
+        'fa': u':زنجیره_گیره:',
+        'tr': u':iç_içe_geçmiş_ataşlar:'
     },
     u'\U0001F587': { # 🖇
         'en' : ':linked_paperclips:',
@@ -17462,7 +18269,8 @@ EMOJI_DATA = {
         'fr': ':trombones:',
         'pt': ':clipes_de_papel_conectados:',
         'it': ':graffette_attaccate:',
-        'fa': u':زنجیرهٔ_گیره:'
+        'fa': u':زنجیرهٔ_گیره:',
+        'tr': u':iç_içe_geçmiş_ataşlar:'
     },
     u'\U0001F981': { # 🦁
         'en' : ':lion:',
@@ -17474,7 +18282,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_lion:',
         'pt': u':rosto_de_leão:',
         'it': ':leone:',
-        'fa': u':شیر:'
+        'fa': u':شیر:',
+        'tr': ':aslan:'
     },
     u'\U0001F484': { # 💄
         'en' : ':lipstick:',
@@ -17485,7 +18294,8 @@ EMOJI_DATA = {
         'fr': u':rouge_à_lèvres:',
         'pt': ':batom:',
         'it': ':rossetto:',
-        'fa': u':رژلب:'
+        'fa': u':رژلب:',
+        'tr': ':ruj:'
     },
     u'\U0001F6AE': { # 🚮
         'en' : ':litter_in_bin_sign:',
@@ -17497,7 +18307,8 @@ EMOJI_DATA = {
         'fr': u':icône_poubelle:',
         'pt': u':símbolo_de_lixeira:',
         'it': ':simbolo_per_la_raccolta_dei_rifiuti:',
-        'fa': u':علامت_ریختن_زباله_در_زباله_دان:'
+        'fa': u':علامت_ریختن_زباله_در_زباله_دان:',
+        'tr': u':çöp_kutusu_işareti:'
     },
     u'\U0001F98E': { # 🦎
         'en' : ':lizard:',
@@ -17508,7 +18319,8 @@ EMOJI_DATA = {
         'fr': u':lézard:',
         'pt': ':lagartixa:',
         'it': ':lucertola:',
-        'fa': u':مارمولک:'
+        'fa': u':مارمولک:',
+        'tr': ':kertenkele:'
     },
     u'\U0001F999': { # 🦙
         'en' : ':llama:',
@@ -17519,7 +18331,8 @@ EMOJI_DATA = {
         'fr': ':lama:',
         'pt': ':lhama:',
         'it': ':lama:',
-        'fa': u':لاما:'
+        'fa': u':لاما:',
+        'tr': ':lama:'
     },
     u'\U0001F99E': { # 🦞
         'en' : ':lobster:',
@@ -17530,7 +18343,8 @@ EMOJI_DATA = {
         'fr': ':homard:',
         'pt': ':lagosta:',
         'it': ':aragosta:',
-        'fa': u':لابستر:'
+        'fa': u':لابستر:',
+        'tr': u':ıstakoz:'
     },
     u'\U0001F512': { # 🔒
         'en' : ':locked:',
@@ -17543,7 +18357,8 @@ EMOJI_DATA = {
         'fr': u':cadenas_fermé:',
         'pt': ':cadeado:',
         'it': ':lucchetto_chiuso:',
-        'fa': u':قفل:'
+        'fa': u':قفل:',
+        'tr': ':kilit:'
     },
     u'\U0001F510': { # 🔐
         'en' : ':locked_with_key:',
@@ -17555,7 +18370,8 @@ EMOJI_DATA = {
         'fr': u':cadenas_fermé_avec_clé:',
         'pt': ':cadeado_fechado_com_chave:',
         'it': ':lucchetto_chiuso_con_chiave:',
-        'fa': u':قفل_و_کلید:'
+        'fa': u':قفل_و_کلید:',
+        'tr': u':anahtarlı_kapalı_kilit:'
     },
     u'\U0001F50F': { # 🔏
         'en' : ':locked_with_pen:',
@@ -17567,7 +18383,8 @@ EMOJI_DATA = {
         'fr': u':cadenas_fermé_avec_stylo:',
         'pt': ':cadeado_com_caneta:',
         'it': ':lucchetto_con_penna_stilo:',
-        'fa': u':قفل_با_قلم:'
+        'fa': u':قفل_با_قلم:',
+        'tr': ':kilit_ve_kalem:'
     },
     u'\U0001F682': { # 🚂
         'en' : ':locomotive:',
@@ -17579,7 +18396,8 @@ EMOJI_DATA = {
         'fr': ':locomotive:',
         'pt': ':locomotiva:',
         'it': ':locomotiva:',
-        'fa': u':لوکوموتیو:'
+        'fa': u':لوکوموتیو:',
+        'tr': u':buharlı_lokomotif:'
     },
     u'\U0001F36D': { # 🍭
         'en' : ':lollipop:',
@@ -17590,7 +18408,8 @@ EMOJI_DATA = {
         'fr': ':sucette:',
         'pt': ':pirulito:',
         'it': ':lecca_lecca:',
-        'fa': u':آب_نبات_چوبی:'
+        'fa': u':آب_نبات_چوبی:',
+        'tr': ':lolipop:'
     },
     u'\U0001FA98': { # 🪘
         'en' : ':long_drum:',
@@ -17601,7 +18420,8 @@ EMOJI_DATA = {
         'fr': u':djembé:',
         'pt': ':tambor_comprido:',
         'it': ':tamburo_lungo:',
-        'fa': u':طبل_بلند:'
+        'fa': u':طبل_بلند:',
+        'tr': ':uzun_davul:'
     },
     u'\U0001F9F4': { # 🧴
         'en' : ':lotion_bottle:',
@@ -17612,7 +18432,8 @@ EMOJI_DATA = {
         'fr': ':bouteille_de_lotion:',
         'pt': u':frasco_de_loção:',
         'it': ':flacone:',
-        'fa': u':بطری_لوسیون:'
+        'fa': u':بطری_لوسیون:',
+        'tr': u':losyon_şişesi:'
     },
     u'\U0001FAB7': { # 🪷
         'en' : ':lotus:',
@@ -17623,7 +18444,8 @@ EMOJI_DATA = {
         'fr': ':lotus:',
         'pt': u':lótus:',
         'it': ':loto:',
-        'fa': u':نیلوفر:'
+        'fa': u':نیلوفر:',
+        'tr': u':nilüfer:'
     },
     u'\U0001F62D': { # 😭
         'en' : ':loudly_crying_face:',
@@ -17635,7 +18457,8 @@ EMOJI_DATA = {
         'fr': u':visage_qui_pleure_à_chaudes_larmes:',
         'pt': ':rosto_chorando_aos_berros:',
         'it': ':faccina_disperata:',
-        'fa': u':هق_هق_گریه:'
+        'fa': u':هق_هق_گریه:',
+        'tr': u':avaz_avaz_ağlayan_yüz:'
     },
     u'\U0001F4E2': { # 📢
         'en' : ':loudspeaker:',
@@ -17646,7 +18469,8 @@ EMOJI_DATA = {
         'fr': ':haut-parleur:',
         'pt': ':buzina:',
         'it': ':altoparlante:',
-        'fa': u':بلندگو:'
+        'fa': u':بلندگو:',
+        'tr': u':hoparlör:'
     },
     u'\U0001F91F': { # 🤟
         'en' : ':love-you_gesture:',
@@ -17658,7 +18482,8 @@ EMOJI_DATA = {
         'fr': u':signe_je_t’aime:',
         'pt': ':gesto_de_te_amo:',
         'it': ':gesto_ti_amo:',
-        'fa': u':علامت_دوستت_دارم:'
+        'fa': u':علامت_دوستت_دارم:',
+        'tr': u':seni_seviyorum_işareti:'
     },
     u'\U0001F91F\U0001F3FF': { # 🤟🏿
         'en' : ':love-you_gesture_dark_skin_tone:',
@@ -17719,7 +18544,8 @@ EMOJI_DATA = {
         'fr': ':love_hotel:',
         'pt': ':motel:',
         'it': ':love_hotel:',
-        'fa': u':هتل_عشق_ورزی:'
+        'fa': u':هتل_عشق_ورزی:',
+        'tr': u':aşk_oteli:'
     },
     u'\U0001F48C': { # 💌
         'en' : ':love_letter:',
@@ -17730,7 +18556,8 @@ EMOJI_DATA = {
         'fr': u':lettre_d’amour:',
         'pt': ':carta_de_amor:',
         'it': u':lettera_d’amore:',
-        'fa': u':نامهٔ_عاشقانه:'
+        'fa': u':نامهٔ_عاشقانه:',
+        'tr': u':aşk_mektubu:'
     },
     u'\U0001FAAB': { # 🪫
         'en' : ':low_battery:',
@@ -17741,7 +18568,8 @@ EMOJI_DATA = {
         'fr': ':pile_faible:',
         'pt': ':pouca_bateria:',
         'it': ':batteria_scarica:',
-        'fa': u':باتری_ضعیف:'
+        'fa': u':باتری_ضعیف:',
+        'tr': u':düşük_pil:'
     },
     u'\U0001F9F3': { # 🧳
         'en' : ':luggage:',
@@ -17752,7 +18580,8 @@ EMOJI_DATA = {
         'fr': ':bagage:',
         'pt': ':mala:',
         'it': ':valigia:',
-        'fa': u':چمدان:'
+        'fa': u':چمدان:',
+        'tr': ':bavul:'
     },
     u'\U0001FAC1': { # 🫁
         'en' : ':lungs:',
@@ -17763,7 +18592,8 @@ EMOJI_DATA = {
         'fr': ':poumons:',
         'pt': u':pulmões:',
         'it': ':polmoni:',
-        'fa': u':ریه:'
+        'fa': u':ریه:',
+        'tr': u':akciğer:'
     },
     u'\U0001F925': { # 🤥
         'en' : ':lying_face:',
@@ -17774,7 +18604,8 @@ EMOJI_DATA = {
         'fr': ':visage_de_menteur:',
         'pt': ':rosto_de_mentiroso:',
         'it': ':faccina_bugiarda:',
-        'fa': u':صورت_دروغگو:'
+        'fa': u':صورت_دروغگو:',
+        'tr': u':yalan_söyleyen_yüz:'
     },
     u'\U0001F9D9': { # 🧙
         'en' : ':mage:',
@@ -17785,7 +18616,8 @@ EMOJI_DATA = {
         'fr': ':mage:',
         'pt': ':mago:',
         'it': ':mago:',
-        'fa': u':ساحر:'
+        'fa': u':ساحر:',
+        'tr': u':büyücü:'
     },
     u'\U0001F9D9\U0001F3FF': { # 🧙🏿
         'en' : ':mage_dark_skin_tone:',
@@ -17846,7 +18678,8 @@ EMOJI_DATA = {
         'fr': ':baguette_magique:',
         'pt': u':varinha_mágica:',
         'it': ':bacchetta_magica:',
-        'fa': u':عصای_سحرآمیز:'
+        'fa': u':عصای_سحرآمیز:',
+        'tr': ':sihirli_asa:'
     },
     u'\U0001F9F2': { # 🧲
         'en' : ':magnet:',
@@ -17857,7 +18690,8 @@ EMOJI_DATA = {
         'fr': ':aimant:',
         'pt': u':ímã:',
         'it': ':calamita:',
-        'fa': u':آهن_ربا:'
+        'fa': u':آهن_ربا:',
+        'tr': u':mıknatıs:'
     },
     u'\U0001F50D': { # 🔍
         'en' : ':magnifying_glass_tilted_left:',
@@ -17870,7 +18704,8 @@ EMOJI_DATA = {
         'fr': u':loupe_orientée_à_gauche:',
         'pt': ':lupa_para_a_esquerda:',
         'it': ':lente_di_ingrandimento_rivolta_a_sinistra:',
-        'fa': u':ذره_بین_روبه_چپ:'
+        'fa': u':ذره_بین_روبه_چپ:',
+        'tr': u':sola_dönük_büyüteç:'
     },
     u'\U0001F50E': { # 🔎
         'en' : ':magnifying_glass_tilted_right:',
@@ -17882,7 +18717,8 @@ EMOJI_DATA = {
         'fr': u':loupe_orientée_à_droite:',
         'pt': ':lupa_para_a_direita:',
         'it': ':lente_di_ingrandimento_rivolta_a_destra:',
-        'fa': u':ذره_بین_روبه_راست:'
+        'fa': u':ذره_بین_روبه_راست:',
+        'tr': u':sağa_dönük_büyüteç:'
     },
     u'\U0001F004': { # 🀄
         'en' : ':mahjong_red_dragon:',
@@ -17895,7 +18731,8 @@ EMOJI_DATA = {
         'fr': ':dragon_rouge_mahjong:',
         'pt': u':dragão_vermelho_de_mahjong:',
         'it': ':tessera_mahjong:',
-        'fa': u':ماژونگ_اژدهای_قرمز:'
+        'fa': u':ماژونگ_اژدهای_قرمز:',
+        'tr': u':kızıl_ejder_mahjong_taşı:'
     },
     u'\U00002642\U0000FE0F': { # ♂️
         'en' : ':male_sign:',
@@ -17907,7 +18744,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_l’homme:',
         'pt': u':símbolo_de_masculino:',
         'it': ':simbolo_genere_maschile:',
-        'fa': u':نشان_مریخ:'
+        'fa': u':نشان_مریخ:',
+        'tr': u':erkek_sembolü:'
     },
     u'\U00002642': { # ♂
         'en' : ':male_sign:',
@@ -17919,7 +18757,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_l’homme:',
         'pt': u':símbolo_de_masculino:',
         'it': ':simbolo_genere_maschile:',
-        'fa': u':نشان_مریخ:'
+        'fa': u':نشان_مریخ:',
+        'tr': u':erkek_sembolü:'
     },
     u'\U0001F9A3': { # 🦣
         'en' : ':mammoth:',
@@ -17930,7 +18769,8 @@ EMOJI_DATA = {
         'fr': ':mammouth:',
         'pt': ':mamute:',
         'it': ':mammut:',
-        'fa': u':ماموت:'
+        'fa': u':ماموت:',
+        'tr': ':mamut:'
     },
     u'\U0001F468': { # 👨
         'en' : ':man:',
@@ -17941,7 +18781,8 @@ EMOJI_DATA = {
         'fr': ':homme:',
         'pt': ':homem:',
         'it': ':uomo:',
-        'fa': u':مرد:'
+        'fa': u':مرد:',
+        'tr': ':erkek:'
     },
     u'\U0001F468\U0000200D\U0001F3A8': { # 👨‍🎨
         'en' : ':man_artist:',
@@ -17952,7 +18793,8 @@ EMOJI_DATA = {
         'fr': ':artiste_homme:',
         'pt': u':artista_plástico:',
         'it': ':artista_uomo:',
-        'fa': u':هنرمند_مرد:'
+        'fa': u':هنرمند_مرد:',
+        'tr': ':erkek_ressam:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F3A8': { # 👨🏿‍🎨
         'en' : ':man_artist_dark_skin_tone:',
@@ -18013,7 +18855,8 @@ EMOJI_DATA = {
         'fr': ':astronaute_homme:',
         'pt': ':astronauta_homem:',
         'it': ':astronauta_uomo:',
-        'fa': u':فضانورد_مرد:'
+        'fa': u':فضانورد_مرد:',
+        'tr': ':erkek_astronot:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F680': { # 👨🏿‍🚀
         'en' : ':man_astronaut_dark_skin_tone:',
@@ -18084,7 +18927,8 @@ EMOJI_DATA = {
         'fr': ':homme_barbu:',
         'pt': ':homem_barbudo:',
         'it': ':uomo_con_la_barba:',
-        'fa': u':مرد_ریش:'
+        'fa': u':مرد_ریش:',
+        'tr': ':erkek_sakal:'
     },
     u'\U0001F9D4\U0000200D\U00002642': { # 🧔‍♂
         'en' : ':man_beard:',
@@ -18095,7 +18939,8 @@ EMOJI_DATA = {
         'fr': ':homme_barbu:',
         'pt': ':homem_barbudo:',
         'it': ':uomo_con_la_barba:',
-        'fa': u':مرد_ریش:'
+        'fa': u':مرد_ریش:',
+        'tr': ':erkek_sakal:'
     },
     u'\U0001F6B4\U0000200D\U00002642\U0000FE0F': { # 🚴‍♂️
         'en' : ':man_biking:',
@@ -18106,7 +18951,8 @@ EMOJI_DATA = {
         'fr': ':cycliste_homme:',
         'pt': ':homem_ciclista:',
         'it': ':ciclista_uomo:',
-        'fa': u':دوچرخه_سوار_مرد:'
+        'fa': u':دوچرخه_سوار_مرد:',
+        'tr': u':bisiklet_süren_erkek:'
     },
     u'\U0001F6B4\U0000200D\U00002642': { # 🚴‍♂
         'en' : ':man_biking:',
@@ -18117,7 +18963,8 @@ EMOJI_DATA = {
         'fr': ':cycliste_homme:',
         'pt': ':homem_ciclista:',
         'it': ':ciclista_uomo:',
-        'fa': u':دوچرخه_سوار_مرد:'
+        'fa': u':دوچرخه_سوار_مرد:',
+        'tr': u':bisiklet_süren_erkek:'
     },
     u'\U0001F6B4\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🚴🏿‍♂️
         'en' : ':man_biking_dark_skin_tone:',
@@ -18228,7 +19075,8 @@ EMOJI_DATA = {
         'fr': ':homme_blond:',
         'pt': ':homem_cabelo_loiro:',
         'it': ':uomo_biondo:',
-        'fa': u':مرد_مو_بور:'
+        'fa': u':مرد_مو_بور:',
+        'tr': u':sarışın_erkek:'
     },
     u'\U0001F471\U0000200D\U00002642': { # 👱‍♂
         'en' : ':man_blond_hair:',
@@ -18239,7 +19087,8 @@ EMOJI_DATA = {
         'fr': ':homme_blond:',
         'pt': ':homem_cabelo_loiro:',
         'it': ':uomo_biondo:',
-        'fa': u':مرد_مو_بور:'
+        'fa': u':مرد_مو_بور:',
+        'tr': u':sarışın_erkek:'
     },
     u'\U000026F9\U0000FE0F\U0000200D\U00002642\U0000FE0F': { # ⛹️‍♂️
         'en' : ':man_bouncing_ball:',
@@ -18250,7 +19099,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_ballon:',
         'pt': ':homem_jogando_basquete:',
         'it': ':uomo_che_fa_rimbalzare_una_palla:',
-        'fa': u':مرد_و_توپ:'
+        'fa': u':مرد_و_توپ:',
+        'tr': ':top_sektiren_erkek:'
     },
     u'\U000026F9\U0000200D\U00002642\U0000FE0F': { # ⛹‍♂️
         'en' : ':man_bouncing_ball:',
@@ -18261,7 +19111,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_ballon:',
         'pt': ':homem_jogando_basquete:',
         'it': ':uomo_che_fa_rimbalzare_una_palla:',
-        'fa': u':مرد_و_توپ:'
+        'fa': u':مرد_و_توپ:',
+        'tr': ':top_sektiren_erkek:'
     },
     u'\U000026F9\U0000FE0F\U0000200D\U00002642': { # ⛹️‍♂
         'en' : ':man_bouncing_ball:',
@@ -18272,7 +19123,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_ballon:',
         'pt': ':homem_jogando_basquete:',
         'it': ':uomo_che_fa_rimbalzare_una_palla:',
-        'fa': u':مرد_و_توپ:'
+        'fa': u':مرد_و_توپ:',
+        'tr': ':top_sektiren_erkek:'
     },
     u'\U000026F9\U0000200D\U00002642': { # ⛹‍♂
         'en' : ':man_bouncing_ball:',
@@ -18283,7 +19135,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_ballon:',
         'pt': ':homem_jogando_basquete:',
         'it': ':uomo_che_fa_rimbalzare_una_palla:',
-        'fa': u':مرد_و_توپ:'
+        'fa': u':مرد_و_توپ:',
+        'tr': ':top_sektiren_erkek:'
     },
     u'\U000026F9\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # ⛹🏿‍♂️
         'en' : ':man_bouncing_ball_dark_skin_tone:',
@@ -18394,7 +19247,8 @@ EMOJI_DATA = {
         'fr': u':homme_qui_s’incline:',
         'pt': u':homem_fazendo_reverência:',
         'it': ':uomo_che_fa_inchino_profondo:',
-        'fa': u':مرد_تعظیم_می_کند:'
+        'fa': u':مرد_تعظیم_می_کند:',
+        'tr': u':başını_öne_eğen_erkek:'
     },
     u'\U0001F647\U0000200D\U00002642': { # 🙇‍♂
         'en' : ':man_bowing:',
@@ -18405,7 +19259,8 @@ EMOJI_DATA = {
         'fr': u':homme_qui_s’incline:',
         'pt': u':homem_fazendo_reverência:',
         'it': ':uomo_che_fa_inchino_profondo:',
-        'fa': u':مرد_تعظیم_می_کند:'
+        'fa': u':مرد_تعظیم_می_کند:',
+        'tr': u':başını_öne_eğen_erkek:'
     },
     u'\U0001F647\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🙇🏿‍♂️
         'en' : ':man_bowing_dark_skin_tone:',
@@ -18516,7 +19371,8 @@ EMOJI_DATA = {
         'fr': ':homme_faisant_la_roue:',
         'pt': ':homem_fazendo_estrela:',
         'it': ':uomo_che_fa_la_ruota:',
-        'fa': u':مردِ_چرخ_وفلک_زن:'
+        'fa': u':مردِ_چرخ_وفلک_زن:',
+        'tr': ':perende_atan_erkek:'
     },
     u'\U0001F938\U0000200D\U00002642': { # 🤸‍♂
         'en' : ':man_cartwheeling:',
@@ -18527,7 +19383,8 @@ EMOJI_DATA = {
         'fr': ':homme_faisant_la_roue:',
         'pt': ':homem_fazendo_estrela:',
         'it': ':uomo_che_fa_la_ruota:',
-        'fa': u':مردِ_چرخ_وفلک_زن:'
+        'fa': u':مردِ_چرخ_وفلک_زن:',
+        'tr': ':perende_atan_erkek:'
     },
     u'\U0001F938\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤸🏿‍♂️
         'en' : ':man_cartwheeling_dark_skin_tone:',
@@ -18638,7 +19495,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_grimpe:',
         'pt': ':homem_escalando:',
         'it': ':scalatore:',
-        'fa': u':مرد_کوه_نوردی_می_کند:'
+        'fa': u':مرد_کوه_نوردی_می_کند:',
+        'tr': u':dağcı_erkek:'
     },
     u'\U0001F9D7\U0000200D\U00002642': { # 🧗‍♂
         'en' : ':man_climbing:',
@@ -18649,7 +19507,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_grimpe:',
         'pt': ':homem_escalando:',
         'it': ':scalatore:',
-        'fa': u':مرد_کوه_نوردی_می_کند:'
+        'fa': u':مرد_کوه_نوردی_می_کند:',
+        'tr': u':dağcı_erkek:'
     },
     u'\U0001F9D7\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧗🏿‍♂️
         'en' : ':man_climbing_dark_skin_tone:',
@@ -18760,7 +19619,8 @@ EMOJI_DATA = {
         'fr': u':ouvrier_du_bâtiment:',
         'pt': ':pedreiro:',
         'it': ':operaio_edile_uomo:',
-        'fa': u':کارگر_ساختمانی_مرد:'
+        'fa': u':کارگر_ساختمانی_مرد:',
+        'tr': u':erkek_inşaat_işçisi:'
     },
     u'\U0001F477\U0000200D\U00002642': { # 👷‍♂
         'en' : ':man_construction_worker:',
@@ -18771,7 +19631,8 @@ EMOJI_DATA = {
         'fr': u':ouvrier_du_bâtiment:',
         'pt': ':pedreiro:',
         'it': ':operaio_edile_uomo:',
-        'fa': u':کارگر_ساختمانی_مرد:'
+        'fa': u':کارگر_ساختمانی_مرد:',
+        'tr': u':erkek_inşaat_işçisi:'
     },
     u'\U0001F477\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 👷🏿‍♂️
         'en' : ':man_construction_worker_dark_skin_tone:',
@@ -18882,7 +19743,8 @@ EMOJI_DATA = {
         'fr': ':cuisinier:',
         'pt': ':cozinheiro:',
         'it': ':cuoco:',
-        'fa': u':آشپز_مرد:'
+        'fa': u':آشپز_مرد:',
+        'tr': u':erkek_aşçı:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F373': { # 👨🏿‍🍳
         'en' : ':man_cook_dark_skin_tone:',
@@ -18953,7 +19815,8 @@ EMOJI_DATA = {
         'fr': ':danseur:',
         'pt': u':homem_dançando:',
         'it': ':uomo_che_balla:',
-        'fa': u':مرد_درحال_رقص:'
+        'fa': u':مرد_درحال_رقص:',
+        'tr': ':dans_eden_adam:'
     },
     u'\U0001F57A\U0001F3FF': { # 🕺🏿
         'en' : ':man_dancing_dark_skin_tone:',
@@ -19094,7 +19957,8 @@ EMOJI_DATA = {
         'fr': u':détective_homme:',
         'pt': ':detetive_homem:',
         'it': ':investigatore:',
-        'fa': u':کارآگاه_مرد:'
+        'fa': u':کارآگاه_مرد:',
+        'tr': ':erkek_dedektif:'
     },
     u'\U0001F575\U0000200D\U00002642\U0000FE0F': { # 🕵‍♂️
         'en' : ':man_detective:',
@@ -19105,7 +19969,8 @@ EMOJI_DATA = {
         'fr': u':détective_homme:',
         'pt': ':detetive_homem:',
         'it': ':investigatore:',
-        'fa': u':کارآگاه_مرد:'
+        'fa': u':کارآگاه_مرد:',
+        'tr': ':erkek_dedektif:'
     },
     u'\U0001F575\U0000FE0F\U0000200D\U00002642': { # 🕵️‍♂
         'en' : ':man_detective:',
@@ -19116,7 +19981,8 @@ EMOJI_DATA = {
         'fr': u':détective_homme:',
         'pt': ':detetive_homem:',
         'it': ':investigatore:',
-        'fa': u':کارآگاه_مرد:'
+        'fa': u':کارآگاه_مرد:',
+        'tr': ':erkek_dedektif:'
     },
     u'\U0001F575\U0000200D\U00002642': { # 🕵‍♂
         'en' : ':man_detective:',
@@ -19127,7 +19993,8 @@ EMOJI_DATA = {
         'fr': u':détective_homme:',
         'pt': ':detetive_homem:',
         'it': ':investigatore:',
-        'fa': u':کارآگاه_مرد:'
+        'fa': u':کارآگاه_مرد:',
+        'tr': ':erkek_dedektif:'
     },
     u'\U0001F575\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🕵🏿‍♂️
         'en' : ':man_detective_dark_skin_tone:',
@@ -19238,7 +20105,8 @@ EMOJI_DATA = {
         'fr': ':elfe_homme:',
         'pt': ':elfo_homem:',
         'it': ':elfo_uomo:',
-        'fa': u':اِلف_مرد:'
+        'fa': u':اِلف_مرد:',
+        'tr': ':erkek_elf:'
     },
     u'\U0001F9DD\U0000200D\U00002642': { # 🧝‍♂
         'en' : ':man_elf:',
@@ -19249,7 +20117,8 @@ EMOJI_DATA = {
         'fr': ':elfe_homme:',
         'pt': ':elfo_homem:',
         'it': ':elfo_uomo:',
-        'fa': u':اِلف_مرد:'
+        'fa': u':اِلف_مرد:',
+        'tr': ':erkek_elf:'
     },
     u'\U0001F9DD\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧝🏿‍♂️
         'en' : ':man_elf_dark_skin_tone:',
@@ -19360,7 +20229,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_la_paume_sur_le_visage:',
         'pt': ':homem_decepcionado:',
         'it': ':uomo_esasperato:',
-        'fa': u':مرد_با_کف_دست_به_پیشانی_می_زند:'
+        'fa': u':مرد_با_کف_دست_به_پیشانی_می_زند:',
+        'tr': u':eliyle_yüzünü_kapatan_erkek:'
     },
     u'\U0001F926\U0000200D\U00002642': { # 🤦‍♂
         'en' : ':man_facepalming:',
@@ -19371,7 +20241,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_la_paume_sur_le_visage:',
         'pt': ':homem_decepcionado:',
         'it': ':uomo_esasperato:',
-        'fa': u':مرد_با_کف_دست_به_پیشانی_می_زند:'
+        'fa': u':مرد_با_کف_دست_به_پیشانی_می_زند:',
+        'tr': u':eliyle_yüzünü_kapatan_erkek:'
     },
     u'\U0001F926\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤦🏿‍♂️
         'en' : ':man_facepalming_dark_skin_tone:',
@@ -19482,7 +20353,8 @@ EMOJI_DATA = {
         'fr': ':ouvrier:',
         'pt': u':operário:',
         'it': ':operaio:',
-        'fa': u':کارگر_کارخانه_مرد:'
+        'fa': u':کارگر_کارخانه_مرد:',
+        'tr': u':erkek_fabrika_işçisi:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F3ED': { # 👨🏿‍🏭
         'en' : ':man_factory_worker_dark_skin_tone:',
@@ -19543,7 +20415,8 @@ EMOJI_DATA = {
         'fr': u':féetaud:',
         'pt': ':homem_fada:',
         'it': ':folletto_alato:',
-        'fa': u':پری_مرد:'
+        'fa': u':پری_مرد:',
+        'tr': ':erkek_peri:'
     },
     u'\U0001F9DA\U0000200D\U00002642': { # 🧚‍♂
         'en' : ':man_fairy:',
@@ -19554,7 +20427,8 @@ EMOJI_DATA = {
         'fr': u':féetaud:',
         'pt': ':homem_fada:',
         'it': ':folletto_alato:',
-        'fa': u':پری_مرد:'
+        'fa': u':پری_مرد:',
+        'tr': ':erkek_peri:'
     },
     u'\U0001F9DA\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧚🏿‍♂️
         'en' : ':man_fairy_dark_skin_tone:',
@@ -19665,7 +20539,8 @@ EMOJI_DATA = {
         'fr': ':fermier:',
         'pt': ':fazendeiro:',
         'it': ':contadino:',
-        'fa': u':کشاورز_مرد:'
+        'fa': u':کشاورز_مرد:',
+        'tr': u':erkek_çiftçi:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F33E': { # 👨🏿‍🌾
         'en' : ':man_farmer_dark_skin_tone:',
@@ -19726,7 +20601,8 @@ EMOJI_DATA = {
         'fr': u':homme_allaitant_un_bébé:',
         'pt': u':homem_alimentando_bebê:',
         'it': ':uomo_che_allatta:',
-        'fa': u':مردی_که_به_بچه_شیر_می_دهد:'
+        'fa': u':مردی_که_به_بچه_شیر_می_دهد:',
+        'tr': ':bebek_emziren_erkek:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F37C': { # 👨🏿‍🍼
         'en' : ':man_feeding_baby_dark_skin_tone:',
@@ -19787,7 +20663,8 @@ EMOJI_DATA = {
         'fr': ':pompier_homme:',
         'pt': ':bombeiro_homem:',
         'it': ':pompiere_uomo:',
-        'fa': u':آتش_نشان_مرد:'
+        'fa': u':آتش_نشان_مرد:',
+        'tr': ':erkek_itfaiyeci:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F692': { # 👨🏿‍🚒
         'en' : ':man_firefighter_dark_skin_tone:',
@@ -19848,7 +20725,8 @@ EMOJI_DATA = {
         'fr': u':homme_fronçant_les_sourcils:',
         'pt': ':homem_franzindo_a_sobrancelha:',
         'it': ':uomo_corrucciato:',
-        'fa': u':مرد_اخم_می_کند:'
+        'fa': u':مرد_اخم_می_کند:',
+        'tr': ':somurtan_erkek:'
     },
     u'\U0001F64D\U0000200D\U00002642': { # 🙍‍♂
         'en' : ':man_frowning:',
@@ -19859,7 +20737,8 @@ EMOJI_DATA = {
         'fr': u':homme_fronçant_les_sourcils:',
         'pt': ':homem_franzindo_a_sobrancelha:',
         'it': ':uomo_corrucciato:',
-        'fa': u':مرد_اخم_می_کند:'
+        'fa': u':مرد_اخم_می_کند:',
+        'tr': ':somurtan_erkek:'
     },
     u'\U0001F64D\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🙍🏿‍♂️
         'en' : ':man_frowning_dark_skin_tone:',
@@ -19970,7 +20849,8 @@ EMOJI_DATA = {
         'fr': u':génie_homme:',
         'pt': u':homem_gênio:',
         'it': ':genio_uomo:',
-        'fa': u':مرد_جن:'
+        'fa': u':مرد_جن:',
+        'tr': ':erkek_cin:'
     },
     u'\U0001F9DE\U0000200D\U00002642': { # 🧞‍♂
         'en' : ':man_genie:',
@@ -19981,7 +20861,8 @@ EMOJI_DATA = {
         'fr': u':génie_homme:',
         'pt': u':homem_gênio:',
         'it': ':genio_uomo:',
-        'fa': u':مرد_جن:'
+        'fa': u':مرد_جن:',
+        'tr': ':erkek_cin:'
     },
     u'\U0001F645\U0000200D\U00002642\U0000FE0F': { # 🙅‍♂️
         'en' : ':man_gesturing_NO:',
@@ -19992,7 +20873,8 @@ EMOJI_DATA = {
         'fr': u':homme_faisant_un_geste_d’interdiction:',
         'pt': u':homem_fazendo_gesto_de_“não”:',
         'it': ':uomo_con_gesto_di_rifiuto:',
-        'fa': u':مرد_نمی_پذیرد:'
+        'fa': u':مرد_نمی_پذیرد:',
+        'tr': u':hayır_hareketi_yapan_erkek:'
     },
     u'\U0001F645\U0000200D\U00002642': { # 🙅‍♂
         'en' : ':man_gesturing_NO:',
@@ -20003,7 +20885,8 @@ EMOJI_DATA = {
         'fr': u':homme_faisant_un_geste_d’interdiction:',
         'pt': u':homem_fazendo_gesto_de_“não”:',
         'it': ':uomo_con_gesto_di_rifiuto:',
-        'fa': u':مرد_نمی_پذیرد:'
+        'fa': u':مرد_نمی_پذیرد:',
+        'tr': u':hayır_hareketi_yapan_erkek:'
     },
     u'\U0001F645\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🙅🏿‍♂️
         'en' : ':man_gesturing_NO_dark_skin_tone:',
@@ -20114,7 +20997,8 @@ EMOJI_DATA = {
         'fr': u':homme_faisant_un_geste_d’acceptation:',
         'pt': u':homem_fazendo_gesto_de_“ok”:',
         'it': ':uomo_con_gesto_ok:',
-        'fa': u':مرد_می_پذیرد:'
+        'fa': u':مرد_می_پذیرد:',
+        'tr': ':tamam_hareketi_yapan_erkek:'
     },
     u'\U0001F646\U0000200D\U00002642': { # 🙆‍♂
         'en' : ':man_gesturing_OK:',
@@ -20125,7 +21009,8 @@ EMOJI_DATA = {
         'fr': u':homme_faisant_un_geste_d’acceptation:',
         'pt': u':homem_fazendo_gesto_de_“ok”:',
         'it': ':uomo_con_gesto_ok:',
-        'fa': u':مرد_می_پذیرد:'
+        'fa': u':مرد_می_پذیرد:',
+        'tr': ':tamam_hareketi_yapan_erkek:'
     },
     u'\U0001F646\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🙆🏿‍♂️
         'en' : ':man_gesturing_OK_dark_skin_tone:',
@@ -20236,7 +21121,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_se_fait_couper_les_cheveux:',
         'pt': ':homem_cortando_o_cabelo:',
         'it': ':taglio_di_capelli_per_uomo:',
-        'fa': u':مرد_مو_کوتاه_می_کند:'
+        'fa': u':مرد_مو_کوتاه_می_کند:',
+        'tr': u':saç_kestiren_erkek:'
     },
     u'\U0001F487\U0000200D\U00002642': { # 💇‍♂
         'en' : ':man_getting_haircut:',
@@ -20247,7 +21133,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_se_fait_couper_les_cheveux:',
         'pt': ':homem_cortando_o_cabelo:',
         'it': ':taglio_di_capelli_per_uomo:',
-        'fa': u':مرد_مو_کوتاه_می_کند:'
+        'fa': u':مرد_مو_کوتاه_می_کند:',
+        'tr': u':saç_kestiren_erkek:'
     },
     u'\U0001F487\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 💇🏿‍♂️
         'en' : ':man_getting_haircut_dark_skin_tone:',
@@ -20358,7 +21245,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_se_fait_masser:',
         'pt': ':homem_recebendo_massagem_facial:',
         'it': ':uomo_che_riceve_un_massaggio:',
-        'fa': u':ماساژ_صورت_مرد:'
+        'fa': u':ماساژ_صورت_مرد:',
+        'tr': u':yüz_masajı_yaptıran_erkek:'
     },
     u'\U0001F486\U0000200D\U00002642': { # 💆‍♂
         'en' : ':man_getting_massage:',
@@ -20369,7 +21257,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_se_fait_masser:',
         'pt': ':homem_recebendo_massagem_facial:',
         'it': ':uomo_che_riceve_un_massaggio:',
-        'fa': u':ماساژ_صورت_مرد:'
+        'fa': u':ماساژ_صورت_مرد:',
+        'tr': u':yüz_masajı_yaptıran_erkek:'
     },
     u'\U0001F486\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 💆🏿‍♂️
         'en' : ':man_getting_massage_dark_skin_tone:',
@@ -20480,7 +21369,8 @@ EMOJI_DATA = {
         'fr': ':golfeur:',
         'pt': ':homem_golfista:',
         'it': ':golfista_uomo:',
-        'fa': u':گلف_باز_مرد:'
+        'fa': u':گلف_باز_مرد:',
+        'tr': ':golf_oynayan_erkek:'
     },
     u'\U0001F3CC\U0000200D\U00002642\U0000FE0F': { # 🏌‍♂️
         'en' : ':man_golfing:',
@@ -20491,7 +21381,8 @@ EMOJI_DATA = {
         'fr': ':golfeur:',
         'pt': ':homem_golfista:',
         'it': ':golfista_uomo:',
-        'fa': u':گلف_باز_مرد:'
+        'fa': u':گلف_باز_مرد:',
+        'tr': ':golf_oynayan_erkek:'
     },
     u'\U0001F3CC\U0000FE0F\U0000200D\U00002642': { # 🏌️‍♂
         'en' : ':man_golfing:',
@@ -20502,7 +21393,8 @@ EMOJI_DATA = {
         'fr': ':golfeur:',
         'pt': ':homem_golfista:',
         'it': ':golfista_uomo:',
-        'fa': u':گلف_باز_مرد:'
+        'fa': u':گلف_باز_مرد:',
+        'tr': ':golf_oynayan_erkek:'
     },
     u'\U0001F3CC\U0000200D\U00002642': { # 🏌‍♂
         'en' : ':man_golfing:',
@@ -20513,7 +21405,8 @@ EMOJI_DATA = {
         'fr': ':golfeur:',
         'pt': ':homem_golfista:',
         'it': ':golfista_uomo:',
-        'fa': u':گلف_باز_مرد:'
+        'fa': u':گلف_باز_مرد:',
+        'tr': ':golf_oynayan_erkek:'
     },
     u'\U0001F3CC\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🏌🏿‍♂️
         'en' : ':man_golfing_dark_skin_tone:',
@@ -20624,7 +21517,8 @@ EMOJI_DATA = {
         'fr': ':garde_homme:',
         'pt': ':guarda_homem:',
         'it': ':guardia_uomo:',
-        'fa': u':گارد_مرد:'
+        'fa': u':گارد_مرد:',
+        'tr': u':erkek_muhafız:'
     },
     u'\U0001F482\U0000200D\U00002642': { # 💂‍♂
         'en' : ':man_guard:',
@@ -20635,7 +21529,8 @@ EMOJI_DATA = {
         'fr': ':garde_homme:',
         'pt': ':guarda_homem:',
         'it': ':guardia_uomo:',
-        'fa': u':گارد_مرد:'
+        'fa': u':گارد_مرد:',
+        'tr': u':erkek_muhafız:'
     },
     u'\U0001F482\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 💂🏿‍♂️
         'en' : ':man_guard_dark_skin_tone:',
@@ -20746,7 +21641,8 @@ EMOJI_DATA = {
         'fr': u':professionnel_de_la_santé:',
         'pt': u':homem_profissional_da_saúde:',
         'it': ':operatore_sanitario:',
-        'fa': u':مددکار_بهداشت_مرد:'
+        'fa': u':مددکار_بهداشت_مرد:',
+        'tr': u':erkek_sağlık_çalışanı:'
     },
     u'\U0001F468\U0000200D\U00002695': { # 👨‍⚕
         'en' : ':man_health_worker:',
@@ -20757,7 +21653,8 @@ EMOJI_DATA = {
         'fr': u':professionnel_de_la_santé:',
         'pt': u':homem_profissional_da_saúde:',
         'it': ':operatore_sanitario:',
-        'fa': u':مددکار_بهداشت_مرد:'
+        'fa': u':مددکار_بهداشت_مرد:',
+        'tr': u':erkek_sağlık_çalışanı:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U00002695\U0000FE0F': { # 👨🏿‍⚕️
         'en' : ':man_health_worker_dark_skin_tone:',
@@ -20868,7 +21765,8 @@ EMOJI_DATA = {
         'fr': ':homme_dans_la_posture_du_lotus:',
         'pt': u':homem_na_posição_de_lótus:',
         'it': ':uomo_in_posizione_del_loto:',
-        'fa': u':مرد_در_حالت_خلسه:'
+        'fa': u':مرد_در_حالت_خلسه:',
+        'tr': ':lotus_pozisyonundaki_erkek:'
     },
     u'\U0001F9D8\U0000200D\U00002642': { # 🧘‍♂
         'en' : ':man_in_lotus_position:',
@@ -20879,7 +21777,8 @@ EMOJI_DATA = {
         'fr': ':homme_dans_la_posture_du_lotus:',
         'pt': u':homem_na_posição_de_lótus:',
         'it': ':uomo_in_posizione_del_loto:',
-        'fa': u':مرد_در_حالت_خلسه:'
+        'fa': u':مرد_در_حالت_خلسه:',
+        'tr': ':lotus_pozisyonundaki_erkek:'
     },
     u'\U0001F9D8\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧘🏿‍♂️
         'en' : ':man_in_lotus_position_dark_skin_tone:',
@@ -20990,7 +21889,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_fauteuil_roulant_manuel:',
         'pt': ':homem_em_cadeira_de_rodas_manual:',
         'it': ':uomo_su_sedia_a_rotelle_manuale:',
-        'fa': u':مرد_در_صندلی_چرخ_دار_دستی:'
+        'fa': u':مرد_در_صندلی_چرخ_دار_دستی:',
+        'tr': ':tekerlekli_sandalyede_erkek:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F9BD': { # 👨🏿‍🦽
         'en' : ':man_in_manual_wheelchair_dark_skin_tone:',
@@ -21051,7 +21951,8 @@ EMOJI_DATA = {
         'fr': u':homme_en_fauteuil_motorisé:',
         'pt': ':homem_em_cadeira_de_rodas_motorizada:',
         'it': ':uomo_su_sedia_a_rotelle_motorizzata:',
-        'fa': u':مرد_در_صندلی_چرخ_دار_برقی:'
+        'fa': u':مرد_در_صندلی_چرخ_دار_برقی:',
+        'tr': ':elektrikli_tekerlekli_sandalyede_erkek:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F9BC': { # 👨🏿‍🦼
         'en' : ':man_in_motorized_wheelchair_dark_skin_tone:',
@@ -21112,7 +22013,8 @@ EMOJI_DATA = {
         'fr': ':homme_au_hammam:',
         'pt': ':homem_na_sauna:',
         'it': ':uomo_in_sauna:',
-        'fa': u':مرد_در_حمام_بخار:'
+        'fa': u':مرد_در_حمام_بخار:',
+        'tr': u':buhar_odasındaki_erkek:'
     },
     u'\U0001F9D6\U0000200D\U00002642': { # 🧖‍♂
         'en' : ':man_in_steamy_room:',
@@ -21123,7 +22025,8 @@ EMOJI_DATA = {
         'fr': ':homme_au_hammam:',
         'pt': ':homem_na_sauna:',
         'it': ':uomo_in_sauna:',
-        'fa': u':مرد_در_حمام_بخار:'
+        'fa': u':مرد_در_حمام_بخار:',
+        'tr': u':buhar_odasındaki_erkek:'
     },
     u'\U0001F9D6\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧖🏿‍♂️
         'en' : ':man_in_steamy_room_dark_skin_tone:',
@@ -21234,7 +22137,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_smoking:',
         'pt': ':homem_de_smoking:',
         'it': ':uomo_in_smoking:',
-        'fa': u':مرد_با_کت_و_شلوار_و_پاپیون:'
+        'fa': u':مرد_با_کت_و_شلوار_و_پاپیون:',
+        'tr': ':smokinli_erkek:'
     },
     u'\U0001F935\U0000200D\U00002642': { # 🤵‍♂
         'en' : ':man_in_tuxedo:',
@@ -21245,7 +22149,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_smoking:',
         'pt': ':homem_de_smoking:',
         'it': ':uomo_in_smoking:',
-        'fa': u':مرد_با_کت_و_شلوار_و_پاپیون:'
+        'fa': u':مرد_با_کت_و_شلوار_و_پاپیون:',
+        'tr': ':smokinli_erkek:'
     },
     u'\U0001F935\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤵🏿‍♂️
         'en' : ':man_in_tuxedo_dark_skin_tone:',
@@ -21356,7 +22261,8 @@ EMOJI_DATA = {
         'fr': ':juge_homme:',
         'pt': ':juiz:',
         'it': ':giudice_uomo:',
-        'fa': u':قاضی_مرد:'
+        'fa': u':قاضی_مرد:',
+        'tr': ':erkek_hakim:'
     },
     u'\U0001F468\U0000200D\U00002696': { # 👨‍⚖
         'en' : ':man_judge:',
@@ -21367,7 +22273,8 @@ EMOJI_DATA = {
         'fr': ':juge_homme:',
         'pt': ':juiz:',
         'it': ':giudice_uomo:',
-        'fa': u':قاضی_مرد:'
+        'fa': u':قاضی_مرد:',
+        'tr': ':erkek_hakim:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U00002696\U0000FE0F': { # 👨🏿‍⚖️
         'en' : ':man_judge_dark_skin_tone:',
@@ -21478,7 +22385,8 @@ EMOJI_DATA = {
         'fr': ':jongleur:',
         'pt': ':homem_malabarista:',
         'it': ':giocoliere_uomo:',
-        'fa': u':مرد_ژانگولربازی_می_کند:'
+        'fa': u':مرد_ژانگولربازی_می_کند:',
+        'tr': u':jonglör_erkek:'
     },
     u'\U0001F939\U0000200D\U00002642': { # 🤹‍♂
         'en' : ':man_juggling:',
@@ -21489,7 +22397,8 @@ EMOJI_DATA = {
         'fr': ':jongleur:',
         'pt': ':homem_malabarista:',
         'it': ':giocoliere_uomo:',
-        'fa': u':مرد_ژانگولربازی_می_کند:'
+        'fa': u':مرد_ژانگولربازی_می_کند:',
+        'tr': u':jonglör_erkek:'
     },
     u'\U0001F939\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤹🏿‍♂️
         'en' : ':man_juggling_dark_skin_tone:',
@@ -21600,7 +22509,8 @@ EMOJI_DATA = {
         'fr': u':homme_à_genoux:',
         'pt': ':homem_ajoelhando:',
         'it': ':uomo_inginocchiato:',
-        'fa': u':مرد_زانوزده:'
+        'fa': u':مرد_زانوزده:',
+        'tr': u':diz_çöken_erkek:'
     },
     u'\U0001F9CE\U0000200D\U00002642': { # 🧎‍♂
         'en' : ':man_kneeling:',
@@ -21611,7 +22521,8 @@ EMOJI_DATA = {
         'fr': u':homme_à_genoux:',
         'pt': ':homem_ajoelhando:',
         'it': ':uomo_inginocchiato:',
-        'fa': u':مرد_زانوزده:'
+        'fa': u':مرد_زانوزده:',
+        'tr': u':diz_çöken_erkek:'
     },
     u'\U0001F9CE\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧎🏿‍♂️
         'en' : ':man_kneeling_dark_skin_tone:',
@@ -21722,7 +22633,8 @@ EMOJI_DATA = {
         'fr': u':homme_haltérophile:',
         'pt': ':homem_levantando_peso:',
         'it': ':uomo_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_مرد:'
+        'fa': u':وزنه_بردار_مرد:',
+        'tr': u':ağırlık_kaldıran_erkek:'
     },
     u'\U0001F3CB\U0000200D\U00002642\U0000FE0F': { # 🏋‍♂️
         'en' : ':man_lifting_weights:',
@@ -21733,7 +22645,8 @@ EMOJI_DATA = {
         'fr': u':homme_haltérophile:',
         'pt': ':homem_levantando_peso:',
         'it': ':uomo_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_مرد:'
+        'fa': u':وزنه_بردار_مرد:',
+        'tr': u':ağırlık_kaldıran_erkek:'
     },
     u'\U0001F3CB\U0000FE0F\U0000200D\U00002642': { # 🏋️‍♂
         'en' : ':man_lifting_weights:',
@@ -21744,7 +22657,8 @@ EMOJI_DATA = {
         'fr': u':homme_haltérophile:',
         'pt': ':homem_levantando_peso:',
         'it': ':uomo_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_مرد:'
+        'fa': u':وزنه_بردار_مرد:',
+        'tr': u':ağırlık_kaldıran_erkek:'
     },
     u'\U0001F3CB\U0000200D\U00002642': { # 🏋‍♂
         'en' : ':man_lifting_weights:',
@@ -21755,7 +22669,8 @@ EMOJI_DATA = {
         'fr': u':homme_haltérophile:',
         'pt': ':homem_levantando_peso:',
         'it': ':uomo_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_مرد:'
+        'fa': u':وزنه_بردار_مرد:',
+        'tr': u':ağırlık_kaldıran_erkek:'
     },
     u'\U0001F3CB\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🏋🏿‍♂️
         'en' : ':man_lifting_weights_dark_skin_tone:',
@@ -21946,7 +22861,8 @@ EMOJI_DATA = {
         'fr': ':mage_homme:',
         'pt': ':homem_mago:',
         'it': ':mago_uomo:',
-        'fa': u':ساحر_مرد:'
+        'fa': u':ساحر_مرد:',
+        'tr': u':erkek_büyücü:'
     },
     u'\U0001F9D9\U0000200D\U00002642': { # 🧙‍♂
         'en' : ':man_mage:',
@@ -21957,7 +22873,8 @@ EMOJI_DATA = {
         'fr': ':mage_homme:',
         'pt': ':homem_mago:',
         'it': ':mago_uomo:',
-        'fa': u':ساحر_مرد:'
+        'fa': u':ساحر_مرد:',
+        'tr': u':erkek_büyücü:'
     },
     u'\U0001F9D9\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧙🏿‍♂️
         'en' : ':man_mage_dark_skin_tone:',
@@ -22068,7 +22985,8 @@ EMOJI_DATA = {
         'fr': u':mécanicien:',
         'pt': u':mecânico:',
         'it': ':meccanico_uomo:',
-        'fa': u':تعمیرکار_مرد:'
+        'fa': u':تعمیرکار_مرد:',
+        'tr': ':erkek_tamirci:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F527': { # 👨🏿‍🔧
         'en' : ':man_mechanic_dark_skin_tone:',
@@ -22369,7 +23287,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_vtt:',
         'pt': ':homem_fazendo_mountain_bike:',
         'it': ':ciclista_uomo_di_mountain_bike:',
-        'fa': u':مرد_و_دوچرخه_سواری_کوهستان:'
+        'fa': u':مرد_و_دوچرخه_سواری_کوهستان:',
+        'tr': u':dağ_bisikleti_süren_erkek:'
     },
     u'\U0001F6B5\U0000200D\U00002642': { # 🚵‍♂
         'en' : ':man_mountain_biking:',
@@ -22380,7 +23299,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_vtt:',
         'pt': ':homem_fazendo_mountain_bike:',
         'it': ':ciclista_uomo_di_mountain_bike:',
-        'fa': u':مرد_و_دوچرخه_سواری_کوهستان:'
+        'fa': u':مرد_و_دوچرخه_سواری_کوهستان:',
+        'tr': u':dağ_bisikleti_süren_erkek:'
     },
     u'\U0001F6B5\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🚵🏿‍♂️
         'en' : ':man_mountain_biking_dark_skin_tone:',
@@ -22491,7 +23411,8 @@ EMOJI_DATA = {
         'fr': u':employé_de_bureau:',
         'pt': u':funcionário_de_escritório:',
         'it': ':impiegato:',
-        'fa': u':کارمند_مرد:'
+        'fa': u':کارمند_مرد:',
+        'tr': u':erkek_ofis_çalışanı:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F4BC': { # 👨🏿‍💼
         'en' : ':man_office_worker_dark_skin_tone:',
@@ -22552,7 +23473,8 @@ EMOJI_DATA = {
         'fr': ':pilote_homme:',
         'pt': u':piloto_de_avião_homem:',
         'it': ':pilota_uomo:',
-        'fa': u':خلبان_مرد:'
+        'fa': u':خلبان_مرد:',
+        'tr': ':erkek_pilot:'
     },
     u'\U0001F468\U0000200D\U00002708': { # 👨‍✈
         'en' : ':man_pilot:',
@@ -22563,7 +23485,8 @@ EMOJI_DATA = {
         'fr': ':pilote_homme:',
         'pt': u':piloto_de_avião_homem:',
         'it': ':pilota_uomo:',
-        'fa': u':خلبان_مرد:'
+        'fa': u':خلبان_مرد:',
+        'tr': ':erkek_pilot:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U00002708\U0000FE0F': { # 👨🏿‍✈️
         'en' : ':man_pilot_dark_skin_tone:',
@@ -22674,7 +23597,8 @@ EMOJI_DATA = {
         'fr': ':handballeur:',
         'pt': ':jogador_de_handebol:',
         'it': ':pallamanista_uomo:',
-        'fa': u':هندبالیست_مرد:'
+        'fa': u':هندبالیست_مرد:',
+        'tr': ':hentbol_oynayan_erkek:'
     },
     u'\U0001F93E\U0000200D\U00002642': { # 🤾‍♂
         'en' : ':man_playing_handball:',
@@ -22685,7 +23609,8 @@ EMOJI_DATA = {
         'fr': ':handballeur:',
         'pt': ':jogador_de_handebol:',
         'it': ':pallamanista_uomo:',
-        'fa': u':هندبالیست_مرد:'
+        'fa': u':هندبالیست_مرد:',
+        'tr': ':hentbol_oynayan_erkek:'
     },
     u'\U0001F93E\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤾🏿‍♂️
         'en' : ':man_playing_handball_dark_skin_tone:',
@@ -22796,7 +23721,8 @@ EMOJI_DATA = {
         'fr': ':joueur_de_water-polo:',
         'pt': u':homem_jogando_polo_aquático:',
         'it': ':pallanuotista_uomo:',
-        'fa': u':واترپلو_مردان:'
+        'fa': u':واترپلو_مردان:',
+        'tr': ':su_topu_oynayan_erkek:'
     },
     u'\U0001F93D\U0000200D\U00002642': { # 🤽‍♂
         'en' : ':man_playing_water_polo:',
@@ -22807,7 +23733,8 @@ EMOJI_DATA = {
         'fr': ':joueur_de_water-polo:',
         'pt': u':homem_jogando_polo_aquático:',
         'it': ':pallanuotista_uomo:',
-        'fa': u':واترپلو_مردان:'
+        'fa': u':واترپلو_مردان:',
+        'tr': ':su_topu_oynayan_erkek:'
     },
     u'\U0001F93D\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤽🏿‍♂️
         'en' : ':man_playing_water_polo_dark_skin_tone:',
@@ -22918,7 +23845,8 @@ EMOJI_DATA = {
         'fr': ':policier:',
         'pt': ':policial_homem:',
         'it': ':poliziotto_uomo:',
-        'fa': u':پلیس_مرد:'
+        'fa': u':پلیس_مرد:',
+        'tr': ':erkek_polis_memuru:'
     },
     u'\U0001F46E\U0000200D\U00002642': { # 👮‍♂
         'en' : ':man_police_officer:',
@@ -22929,7 +23857,8 @@ EMOJI_DATA = {
         'fr': ':policier:',
         'pt': ':policial_homem:',
         'it': ':poliziotto_uomo:',
-        'fa': u':پلیس_مرد:'
+        'fa': u':پلیس_مرد:',
+        'tr': ':erkek_polis_memuru:'
     },
     u'\U0001F46E\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 👮🏿‍♂️
         'en' : ':man_police_officer_dark_skin_tone:',
@@ -23040,7 +23969,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_boude:',
         'pt': ':homem_fazendo_bico:',
         'it': ':uomo_imbronciato:',
-        'fa': u':مرد_اخم_وتخم_می_کند:'
+        'fa': u':مرد_اخم_وتخم_می_کند:',
+        'tr': u':darılan_erkek:'
     },
     u'\U0001F64E\U0000200D\U00002642': { # 🙎‍♂
         'en' : ':man_pouting:',
@@ -23051,7 +23981,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_boude:',
         'pt': ':homem_fazendo_bico:',
         'it': ':uomo_imbronciato:',
-        'fa': u':مرد_اخم_وتخم_می_کند:'
+        'fa': u':مرد_اخم_وتخم_می_کند:',
+        'tr': u':darılan_erkek:'
     },
     u'\U0001F64E\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🙎🏿‍♂️
         'en' : ':man_pouting_dark_skin_tone:',
@@ -23162,7 +24093,8 @@ EMOJI_DATA = {
         'fr': u':homme_qui_lève_la_main:',
         'pt': u':homem_levantando_a_mão:',
         'it': ':uomo_con_mano_alzata:',
-        'fa': u':مرد_دستش_را_بالا_می_برد:'
+        'fa': u':مرد_دستش_را_بالا_می_برد:',
+        'tr': u':elini_kaldıran_erkek:'
     },
     u'\U0001F64B\U0000200D\U00002642': { # 🙋‍♂
         'en' : ':man_raising_hand:',
@@ -23173,7 +24105,8 @@ EMOJI_DATA = {
         'fr': u':homme_qui_lève_la_main:',
         'pt': u':homem_levantando_a_mão:',
         'it': ':uomo_con_mano_alzata:',
-        'fa': u':مرد_دستش_را_بالا_می_برد:'
+        'fa': u':مرد_دستش_را_بالا_می_برد:',
+        'tr': u':elini_kaldıran_erkek:'
     },
     u'\U0001F64B\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🙋🏿‍♂️
         'en' : ':man_raising_hand_dark_skin_tone:',
@@ -23294,7 +24227,8 @@ EMOJI_DATA = {
         'fr': ':rameur_dans_une_barque:',
         'pt': ':homem_remando:',
         'it': ':uomo_in_barca_a_remi:',
-        'fa': u':پاروزن_مرد:'
+        'fa': u':پاروزن_مرد:',
+        'tr': u':sandalda_kürek_çeken_erkek:'
     },
     u'\U0001F6A3\U0000200D\U00002642': { # 🚣‍♂
         'en' : ':man_rowing_boat:',
@@ -23305,7 +24239,8 @@ EMOJI_DATA = {
         'fr': ':rameur_dans_une_barque:',
         'pt': ':homem_remando:',
         'it': ':uomo_in_barca_a_remi:',
-        'fa': u':پاروزن_مرد:'
+        'fa': u':پاروزن_مرد:',
+        'tr': u':sandalda_kürek_çeken_erkek:'
     },
     u'\U0001F6A3\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🚣🏿‍♂️
         'en' : ':man_rowing_boat_dark_skin_tone:',
@@ -23416,7 +24351,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_court:',
         'pt': ':homem_correndo:',
         'it': ':uomo_che_corre:',
-        'fa': u':مرد_دونده:'
+        'fa': u':مرد_دونده:',
+        'tr': u':koşan_erkek:'
     },
     u'\U0001F3C3\U0000200D\U00002642': { # 🏃‍♂
         'en' : ':man_running:',
@@ -23427,7 +24363,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_court:',
         'pt': ':homem_correndo:',
         'it': ':uomo_che_corre:',
-        'fa': u':مرد_دونده:'
+        'fa': u':مرد_دونده:',
+        'tr': u':koşan_erkek:'
     },
     u'\U0001F3C3\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🏃🏿‍♂️
         'en' : ':man_running_dark_skin_tone:',
@@ -23538,7 +24475,8 @@ EMOJI_DATA = {
         'fr': ':scientifique_homme:',
         'pt': ':cientista_homem:',
         'it': ':scienziato:',
-        'fa': u':دانشمند_مرد:'
+        'fa': u':دانشمند_مرد:',
+        'tr': u':erkek_bilim_insanı:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F52C': { # 👨🏿‍🔬
         'en' : ':man_scientist_dark_skin_tone:',
@@ -23599,7 +24537,8 @@ EMOJI_DATA = {
         'fr': u':homme_qui_hausse_les_épaules:',
         'pt': ':homem_dando_de_ombros:',
         'it': ':uomo_che_scrolla_le_spalle:',
-        'fa': u':مرد_شانه_بالا_می_اندازد:'
+        'fa': u':مرد_شانه_بالا_می_اندازد:',
+        'tr': ':omuz_silken_erkek:'
     },
     u'\U0001F937\U0000200D\U00002642': { # 🤷‍♂
         'en' : ':man_shrugging:',
@@ -23610,7 +24549,8 @@ EMOJI_DATA = {
         'fr': u':homme_qui_hausse_les_épaules:',
         'pt': ':homem_dando_de_ombros:',
         'it': ':uomo_che_scrolla_le_spalle:',
-        'fa': u':مرد_شانه_بالا_می_اندازد:'
+        'fa': u':مرد_شانه_بالا_می_اندازد:',
+        'tr': ':omuz_silken_erkek:'
     },
     u'\U0001F937\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🤷🏿‍♂️
         'en' : ':man_shrugging_dark_skin_tone:',
@@ -23721,7 +24661,8 @@ EMOJI_DATA = {
         'fr': ':chanteur:',
         'pt': ':cantor_homem:',
         'it': ':cantante_uomo:',
-        'fa': u':خواننده_مرد:'
+        'fa': u':خواننده_مرد:',
+        'tr': u':erkek_şarkıcı:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F3A4': { # 👨🏿‍🎤
         'en' : ':man_singer_dark_skin_tone:',
@@ -23782,7 +24723,8 @@ EMOJI_DATA = {
         'fr': ':homme_debout:',
         'pt': u':homem_em_pé:',
         'it': ':uomo_in_piedi:',
-        'fa': u':مرد_ایستاده:'
+        'fa': u':مرد_ایستاده:',
+        'tr': ':ayakta_duran_erkek:'
     },
     u'\U0001F9CD\U0000200D\U00002642': { # 🧍‍♂
         'en' : ':man_standing:',
@@ -23793,7 +24735,8 @@ EMOJI_DATA = {
         'fr': ':homme_debout:',
         'pt': u':homem_em_pé:',
         'it': ':uomo_in_piedi:',
-        'fa': u':مرد_ایستاده:'
+        'fa': u':مرد_ایستاده:',
+        'tr': ':ayakta_duran_erkek:'
     },
     u'\U0001F9CD\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧍🏿‍♂️
         'en' : ':man_standing_dark_skin_tone:',
@@ -23904,7 +24847,8 @@ EMOJI_DATA = {
         'fr': u':étudiant:',
         'pt': ':estudante:',
         'it': ':studente_maschio:',
-        'fa': u':دانشجوی_مرد:'
+        'fa': u':دانشجوی_مرد:',
+        'tr': u':erkek_öğrenci:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F393': { # 👨🏿‍🎓
         'en' : ':man_student_dark_skin_tone:',
@@ -23965,7 +24909,8 @@ EMOJI_DATA = {
         'fr': u':super-héros_homme:',
         'pt': u':homem_super-herói:',
         'it': ':supereroe_uomo:',
-        'fa': u':ابرقهرمان_مرد:'
+        'fa': u':ابرقهرمان_مرد:',
+        'tr': u':erkek_süper_kahraman:'
     },
     u'\U0001F9B8\U0000200D\U00002642': { # 🦸‍♂
         'en' : ':man_superhero:',
@@ -23976,7 +24921,8 @@ EMOJI_DATA = {
         'fr': u':super-héros_homme:',
         'pt': u':homem_super-herói:',
         'it': ':supereroe_uomo:',
-        'fa': u':ابرقهرمان_مرد:'
+        'fa': u':ابرقهرمان_مرد:',
+        'tr': u':erkek_süper_kahraman:'
     },
     u'\U0001F9B8\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🦸🏿‍♂️
         'en' : ':man_superhero_dark_skin_tone:',
@@ -24087,7 +25033,8 @@ EMOJI_DATA = {
         'fr': ':super-vilain_homme:',
         'pt': u':homem_supervilão:',
         'it': ':supercattivo_uomo:',
-        'fa': u':ابرشرور_مرد:'
+        'fa': u':ابرشرور_مرد:',
+        'tr': u':erkek_süper_kötü:'
     },
     u'\U0001F9B9\U0000200D\U00002642': { # 🦹‍♂
         'en' : ':man_supervillain:',
@@ -24098,7 +25045,8 @@ EMOJI_DATA = {
         'fr': ':super-vilain_homme:',
         'pt': u':homem_supervilão:',
         'it': ':supercattivo_uomo:',
-        'fa': u':ابرشرور_مرد:'
+        'fa': u':ابرشرور_مرد:',
+        'tr': u':erkek_süper_kötü:'
     },
     u'\U0001F9B9\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🦹🏿‍♂️
         'en' : ':man_supervillain_dark_skin_tone:',
@@ -24209,7 +25157,8 @@ EMOJI_DATA = {
         'fr': ':surfeur:',
         'pt': ':homem_surfista:',
         'it': ':surfista_uomo:',
-        'fa': u':موج_سوار_مرد:'
+        'fa': u':موج_سوار_مرد:',
+        'tr': u':sörf_yapan_erkek:'
     },
     u'\U0001F3C4\U0000200D\U00002642': { # 🏄‍♂
         'en' : ':man_surfing:',
@@ -24220,7 +25169,8 @@ EMOJI_DATA = {
         'fr': ':surfeur:',
         'pt': ':homem_surfista:',
         'it': ':surfista_uomo:',
-        'fa': u':موج_سوار_مرد:'
+        'fa': u':موج_سوار_مرد:',
+        'tr': u':sörf_yapan_erkek:'
     },
     u'\U0001F3C4\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🏄🏿‍♂️
         'en' : ':man_surfing_dark_skin_tone:',
@@ -24331,7 +25281,8 @@ EMOJI_DATA = {
         'fr': ':nageur:',
         'pt': ':homem_nadando:',
         'it': ':nuotatore:',
-        'fa': u':شناگر_مرد:'
+        'fa': u':شناگر_مرد:',
+        'tr': u':yüzen_erkek:'
     },
     u'\U0001F3CA\U0000200D\U00002642': { # 🏊‍♂
         'en' : ':man_swimming:',
@@ -24342,7 +25293,8 @@ EMOJI_DATA = {
         'fr': ':nageur:',
         'pt': ':homem_nadando:',
         'it': ':nuotatore:',
-        'fa': u':شناگر_مرد:'
+        'fa': u':شناگر_مرد:',
+        'tr': u':yüzen_erkek:'
     },
     u'\U0001F3CA\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🏊🏿‍♂️
         'en' : ':man_swimming_dark_skin_tone:',
@@ -24453,7 +25405,8 @@ EMOJI_DATA = {
         'fr': ':enseignant:',
         'pt': ':professor:',
         'it': ':professore:',
-        'fa': u':آموزگار_مرد:'
+        'fa': u':آموزگار_مرد:',
+        'tr': u':erkek_öğretmen:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F3EB': { # 👨🏿‍🏫
         'en' : ':man_teacher_dark_skin_tone:',
@@ -24514,7 +25467,8 @@ EMOJI_DATA = {
         'fr': ':informaticien:',
         'pt': u':tecnólogo:',
         'it': ':tecnologo:',
-        'fa': u':کارشناس_فناوری_مرد:'
+        'fa': u':کارشناس_فناوری_مرد:',
+        'tr': u':erkek_teknoloji_uzmanı:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F4BB': { # 👨🏿‍💻
         'en' : ':man_technologist_dark_skin_tone:',
@@ -24575,7 +25529,8 @@ EMOJI_DATA = {
         'fr': ':homme_paume_vers_le_haut:',
         'pt': ':homem_com_a_palma_virada_para_cima:',
         'it': ':uomo_con_suggerimento:',
-        'fa': u':مرد_کمک_می_کند:'
+        'fa': u':مرد_کمک_می_کند:',
+        'tr': u':elini_yana_yatıran_erkek:'
     },
     u'\U0001F481\U0000200D\U00002642': { # 💁‍♂
         'en' : ':man_tipping_hand:',
@@ -24586,7 +25541,8 @@ EMOJI_DATA = {
         'fr': ':homme_paume_vers_le_haut:',
         'pt': ':homem_com_a_palma_virada_para_cima:',
         'it': ':uomo_al_punto_informazioni:',
-        'fa': u':مرد_کمک_می_کند:'
+        'fa': u':مرد_کمک_می_کند:',
+        'tr': u':elini_yana_yatıran_erkek:'
     },
     u'\U0001F481\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 💁🏿‍♂️
         'en' : ':man_tipping_hand_dark_skin_tone:',
@@ -24697,7 +25653,8 @@ EMOJI_DATA = {
         'fr': ':vampire_homme:',
         'pt': ':homem_vampiro:',
         'it': ':vampiro_uomo:',
-        'fa': u':خون_آشام_مرد:'
+        'fa': u':خون_آشام_مرد:',
+        'tr': ':erkek_vampir:'
     },
     u'\U0001F9DB\U0000200D\U00002642': { # 🧛‍♂
         'en' : ':man_vampire:',
@@ -24708,7 +25665,8 @@ EMOJI_DATA = {
         'fr': ':vampire_homme:',
         'pt': ':homem_vampiro:',
         'it': ':vampiro_uomo:',
-        'fa': u':خون_آشام_مرد:'
+        'fa': u':خون_آشام_مرد:',
+        'tr': ':erkek_vampir:'
     },
     u'\U0001F9DB\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧛🏿‍♂️
         'en' : ':man_vampire_dark_skin_tone:',
@@ -24819,7 +25777,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_marche:',
         'pt': ':homem_andando:',
         'it': ':uomo_che_cammina:',
-        'fa': u':مرد_پیاده_روی_می_کند:'
+        'fa': u':مرد_پیاده_روی_می_کند:',
+        'tr': u':yürüyen_erkek:'
     },
     u'\U0001F6B6\U0000200D\U00002642': { # 🚶‍♂
         'en' : ':man_walking:',
@@ -24830,7 +25789,8 @@ EMOJI_DATA = {
         'fr': ':homme_qui_marche:',
         'pt': ':homem_andando:',
         'it': ':uomo_che_cammina:',
-        'fa': u':مرد_پیاده_روی_می_کند:'
+        'fa': u':مرد_پیاده_روی_می_کند:',
+        'tr': u':yürüyen_erkek:'
     },
     u'\U0001F6B6\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🚶🏿‍♂️
         'en' : ':man_walking_dark_skin_tone:',
@@ -24941,7 +25901,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_turban:',
         'pt': ':homem_com_turbante:',
         'it': ':uomo_con_turbante:',
-        'fa': u':مرد_با_دستار:'
+        'fa': u':مرد_با_دستار:',
+        'tr': u':sarıklı_erkek:'
     },
     u'\U0001F473\U0000200D\U00002642': { # 👳‍♂
         'en' : ':man_wearing_turban:',
@@ -24952,7 +25913,8 @@ EMOJI_DATA = {
         'fr': ':homme_en_turban:',
         'pt': ':homem_com_turbante:',
         'it': ':uomo_con_turbante:',
-        'fa': u':مرد_با_دستار:'
+        'fa': u':مرد_با_دستار:',
+        'tr': u':sarıklı_erkek:'
     },
     u'\U0001F473\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 👳🏿‍♂️
         'en' : ':man_wearing_turban_dark_skin_tone:',
@@ -25073,7 +26035,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_voile:',
         'pt': u':noivo_com_véu:',
         'it': ':sposo_con_velo:',
-        'fa': u':مرد_با_تور_عروس:'
+        'fa': u':مرد_با_تور_عروس:',
+        'tr': u':duvaklı_erkek:'
     },
     u'\U0001F470\U0000200D\U00002642': { # 👰‍♂
         'en' : ':man_with_veil:',
@@ -25084,7 +26047,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_voile:',
         'pt': u':noivo_com_véu:',
         'it': ':sposo_con_velo:',
-        'fa': u':مرد_با_تور_عروس:'
+        'fa': u':مرد_با_تور_عروس:',
+        'tr': u':duvaklı_erkek:'
     },
     u'\U0001F470\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 👰🏿‍♂️
         'en' : ':man_with_veil_dark_skin_tone:',
@@ -25195,7 +26159,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_canne_blanche:',
         'pt': ':homem_com_bengala_para_cego:',
         'it': ':uomo_con_bastone_bianco_di_orientamento:',
-        'fa': u':مرد_با_عصای_سفید:'
+        'fa': u':مرد_با_عصای_سفید:',
+        'tr': u':görme_engelli_bastonlu_erkek:'
     },
     u'\U0001F468\U0001F3FF\U0000200D\U0001F9AF': { # 👨🏿‍🦯
         'en' : ':man_with_white_cane_dark_skin_tone:',
@@ -25256,7 +26221,8 @@ EMOJI_DATA = {
         'fr': ':zombie_homme:',
         'pt': ':homem_zumbi:',
         'it': ':zombie_uomo:',
-        'fa': u':مرده_متحرک_مرد:'
+        'fa': u':مرده_متحرک_مرد:',
+        'tr': ':erkek_zombi:'
     },
     u'\U0001F9DF\U0000200D\U00002642': { # 🧟‍♂
         'en' : ':man_zombie:',
@@ -25267,7 +26233,8 @@ EMOJI_DATA = {
         'fr': ':zombie_homme:',
         'pt': ':homem_zumbi:',
         'it': ':zombie_uomo:',
-        'fa': u':مرده_متحرک_مرد:'
+        'fa': u':مرده_متحرک_مرد:',
+        'tr': ':erkek_zombi:'
     },
     u'\U0001F96D': { # 🥭
         'en' : ':mango:',
@@ -25278,7 +26245,8 @@ EMOJI_DATA = {
         'fr': ':mangue:',
         'pt': ':manga:',
         'it': ':mango:',
-        'fa': u':انبه:'
+        'fa': u':انبه:',
+        'tr': ':mango:'
     },
     u'\U0001F570\U0000FE0F': { # 🕰️
         'en' : ':mantelpiece_clock:',
@@ -25290,7 +26258,8 @@ EMOJI_DATA = {
         'fr': ':pendule:',
         'pt': u':relógio_de_mesa:',
         'it': ':orologio_da_mensola:',
-        'fa': u':ساعت_طاقچه_ای:'
+        'fa': u':ساعت_طاقچه_ای:',
+        'tr': ':raf_saati:'
     },
     u'\U0001F570': { # 🕰
         'en' : ':mantelpiece_clock:',
@@ -25302,7 +26271,8 @@ EMOJI_DATA = {
         'fr': ':pendule:',
         'pt': u':relógio_de_mesa:',
         'it': ':orologio_da_mensola:',
-        'fa': u':ساعت_طاقچه_ای:'
+        'fa': u':ساعت_طاقچه_ای:',
+        'tr': ':raf_saati:'
     },
     u'\U0001F9BD': { # 🦽
         'en' : ':manual_wheelchair:',
@@ -25313,7 +26283,8 @@ EMOJI_DATA = {
         'fr': ':fauteuil_roulant_manuel:',
         'pt': ':cadeira_de_rodas_manual:',
         'it': ':sedia_a_rotelle_manuale:',
-        'fa': u':صندلی_چرخ_دار_دستی:'
+        'fa': u':صندلی_چرخ_دار_دستی:',
+        'tr': ':tekerlekli_sandalye:'
     },
     u'\U0001F45E': { # 👞
         'en' : u':man’s_shoe:',
@@ -25325,7 +26296,8 @@ EMOJI_DATA = {
         'fr': u':chaussure_d’homme:',
         'pt': ':sapato_masculino:',
         'it': ':scarpa_da_uomo:',
-        'fa': u':کفش_مردانه:'
+        'fa': u':کفش_مردانه:',
+        'tr': u':erkek_ayakkabısı:'
     },
     u'\U0001F5FE': { # 🗾
         'en' : ':map_of_Japan:',
@@ -25337,7 +26309,8 @@ EMOJI_DATA = {
         'fr': ':carte_du_japon:',
         'pt': u':mapa_do_japão:',
         'it': ':mappa_del_giappone:',
-        'fa': u':نقشهٔ_ژاپن:'
+        'fa': u':نقشهٔ_ژاپن:',
+        'tr': u':japonya_haritası:'
     },
     u'\U0001F341': { # 🍁
         'en' : ':maple_leaf:',
@@ -25348,7 +26321,8 @@ EMOJI_DATA = {
         'fr': u':feuille_d’érable:',
         'pt': ':folha_de_bordo:',
         'it': u':foglia_d’acero:',
-        'fa': u':برگ_افرا:'
+        'fa': u':برگ_افرا:',
+        'tr': u':akçaağaç_yaprağı:'
     },
     u'\U0001F94B': { # 🥋
         'en' : ':martial_arts_uniform:',
@@ -25359,7 +26333,8 @@ EMOJI_DATA = {
         'fr': u':tenue_d’arts_martiaux:',
         'pt': ':quimono_de_artes_marciais:',
         'it': ':kimono_per_arti_marziali:',
-        'fa': u':لباس_هنرهای_رزمی:'
+        'fa': u':لباس_هنرهای_رزمی:',
+        'tr': u':dövüş_sporu_forması:'
     },
     u'\U0001F9C9': { # 🧉
         'en' : ':mate:',
@@ -25370,7 +26345,8 @@ EMOJI_DATA = {
         'fr': u':maté:',
         'pt': ':mate:',
         'it': ':mate:',
-        'fa': u':ماته:'
+        'fa': u':ماته:',
+        'tr': u':mate_çayı:'
     },
     u'\U0001F356': { # 🍖
         'en' : ':meat_on_bone:',
@@ -25381,7 +26357,8 @@ EMOJI_DATA = {
         'fr': ':viande_sur_un_os:',
         'pt': ':carne:',
         'it': ':carne:',
-        'fa': u':گوشت_با_استخوان:'
+        'fa': u':گوشت_با_استخوان:',
+        'tr': ':kemikli_et:'
     },
     u'\U0001F9D1\U0000200D\U0001F527': { # 🧑‍🔧
         'en' : ':mechanic:',
@@ -25392,7 +26369,8 @@ EMOJI_DATA = {
         'fr': u':mécanicien_(tous_genres):',
         'pt': u':mecânico_trabalhando:',
         'it': ':meccanico:',
-        'fa': u':مکانیک:'
+        'fa': u':مکانیک:',
+        'tr': ':tamirci:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F527': { # 🧑🏿‍🔧
         'en' : ':mechanic_dark_skin_tone:',
@@ -25453,7 +26431,8 @@ EMOJI_DATA = {
         'fr': u':bras_mécanique:',
         'pt': u':braço_mecânico:',
         'it': ':protesi_robotica_per_il_braccio:',
-        'fa': u':بازوی_مکانیکی:'
+        'fa': u':بازوی_مکانیکی:',
+        'tr': ':mekanik_kol:'
     },
     u'\U0001F9BF': { # 🦿
         'en' : ':mechanical_leg:',
@@ -25464,7 +26443,8 @@ EMOJI_DATA = {
         'fr': u':jambe_mécanique:',
         'pt': u':perna_mecânica:',
         'it': ':protesi_robotica_per_la_gamba:',
-        'fa': u':پای_مکانیکی:'
+        'fa': u':پای_مکانیکی:',
+        'tr': ':mekanik_bacak:'
     },
     u'\U00002695\U0000FE0F': { # ⚕️
         'en' : ':medical_symbol:',
@@ -25476,7 +26456,8 @@ EMOJI_DATA = {
         'fr': u':caducée:',
         'pt': u':símbolo_da_medicina:',
         'it': ':simbolo_della_medicina:',
-        'fa': u':نماد_پزشکی:'
+        'fa': u':نماد_پزشکی:',
+        'tr': u':tıp_sembolü:'
     },
     u'\U00002695': { # ⚕
         'en' : ':medical_symbol:',
@@ -25488,7 +26469,8 @@ EMOJI_DATA = {
         'fr': u':caducée:',
         'pt': u':símbolo_da_medicina:',
         'it': ':simbolo_della_medicina:',
-        'fa': u':نماد_پزشکی:'
+        'fa': u':نماد_پزشکی:',
+        'tr': u':tıp_sembolü:'
     },
     u'\U0001F3FE': { # 🏾
         'en' : ':medium-dark_skin_tone:',
@@ -25500,7 +26482,8 @@ EMOJI_DATA = {
         'fr': ':peau_mate:',
         'pt': ':pele_morena_escura:',
         'it': ':carnagione_abbastanza_scura:',
-        'fa': u':پوست_گندمی:'
+        'fa': u':پوست_گندمی:',
+        'tr': ':orta_koyu_cilt_tonu:'
     },
     u'\U0001F3FC': { # 🏼
         'en' : ':medium-light_skin_tone:',
@@ -25512,7 +26495,8 @@ EMOJI_DATA = {
         'fr': ':peau_moyennement_claire:',
         'pt': ':pele_morena_clara:',
         'it': ':carnagione_abbastanza_chiara:',
-        'fa': u':پوست_روشن:'
+        'fa': u':پوست_روشن:',
+        'tr': u':orta_açık_cilt_tonu:'
     },
     u'\U0001F3FD': { # 🏽
         'en' : ':medium_skin_tone:',
@@ -25524,7 +26508,8 @@ EMOJI_DATA = {
         'fr': u':peau_légèrement_mate:',
         'pt': ':pele_morena:',
         'it': ':carnagione_olivastra:',
-        'fa': u':پوست_طلایی:'
+        'fa': u':پوست_طلایی:',
+        'tr': ':orta_cilt_tonu:'
     },
     u'\U0001F4E3': { # 📣
         'en' : ':megaphone:',
@@ -25536,7 +26521,8 @@ EMOJI_DATA = {
         'fr': ':porte-voix:',
         'pt': ':megafone:',
         'it': ':megafono:',
-        'fa': u':بلندگوی_دستی:'
+        'fa': u':بلندگوی_دستی:',
+        'tr': ':megafon:'
     },
     u'\U0001F348': { # 🍈
         'en' : ':melon:',
@@ -25547,7 +26533,8 @@ EMOJI_DATA = {
         'fr': ':melon:',
         'pt': u':melão:',
         'it': ':melone:',
-        'fa': u':طالبی:'
+        'fa': u':طالبی:',
+        'tr': ':kavun:'
     },
     u'\U0001FAE0': { # 🫠
         'en' : ':melting_face:',
@@ -25558,7 +26545,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_fond:',
         'pt': ':rosto_derretendo:',
         'it': ':faccina_che_si_scioglie:',
-        'fa': u':چهره_درحال_ذوب_شدن:'
+        'fa': u':چهره_درحال_ذوب_شدن:',
+        'tr': u':eriyen_yüz:'
     },
     u'\U0001F4DD': { # 📝
         'en' : ':memo:',
@@ -25570,7 +26558,8 @@ EMOJI_DATA = {
         'fr': u':mémo:',
         'pt': ':memorando:',
         'it': ':memo:',
-        'fa': u':یادداشت:'
+        'fa': u':یادداشت:',
+        'tr': ':not:'
     },
     u'\U0001F46C': { # 👬
         'en' : ':men_holding_hands:',
@@ -25582,7 +26571,8 @@ EMOJI_DATA = {
         'fr': ':deux_hommes_se_tenant_la_main:',
         'pt': u':dois_homens_de_mãos_dadas:',
         'it': ':due_uomini_che_si_tengono_per_mano:',
-        'fa': u':دو_مرد_دست_در_دست:'
+        'fa': u':دو_مرد_دست_در_دست:',
+        'tr': u':el_ele_tutuşan_erkekler:'
     },
     u'\U0001F46C\U0001F3FF': { # 👬🏿
         'en' : ':men_holding_hands_dark_skin_tone:',
@@ -25843,7 +26833,8 @@ EMOJI_DATA = {
         'fr': ':hommes_avec_des_oreilles_de_lapin:',
         'pt': ':homens_com_orelhas_de_coelho:',
         'it': ':uomini_con_orecchie_da_coniglio:',
-        'fa': u':مردان_در_پارتی:'
+        'fa': u':مردان_در_پارتی:',
+        'tr': u':tavşan_kulaklı_erkekler:'
     },
     u'\U0001F46F\U0000200D\U00002642': { # 👯‍♂
         'en' : ':men_with_bunny_ears:',
@@ -25854,7 +26845,8 @@ EMOJI_DATA = {
         'fr': ':hommes_avec_des_oreilles_de_lapin:',
         'pt': ':homens_com_orelhas_de_coelho:',
         'it': ':uomini_con_orecchie_da_coniglio:',
-        'fa': u':مردان_در_پارتی:'
+        'fa': u':مردان_در_پارتی:',
+        'tr': u':tavşan_kulaklı_erkekler:'
     },
     u'\U0001F93C\U0000200D\U00002642\U0000FE0F': { # 🤼‍♂️
         'en' : ':men_wrestling:',
@@ -25865,7 +26857,8 @@ EMOJI_DATA = {
         'fr': ':lutteurs:',
         'pt': ':homens_lutando:',
         'it': ':lottatori:',
-        'fa': u':کُشتی_گیر_مرد:'
+        'fa': u':کُشتی_گیر_مرد:',
+        'tr': u':güreş_yapan_erkek:'
     },
     u'\U0001F93C\U0000200D\U00002642': { # 🤼‍♂
         'en' : ':men_wrestling:',
@@ -25876,7 +26869,8 @@ EMOJI_DATA = {
         'fr': ':lutteurs:',
         'pt': ':homens_lutando:',
         'it': ':lottatori:',
-        'fa': u':کُشتی_گیر_مرد:'
+        'fa': u':کُشتی_گیر_مرد:',
+        'tr': u':güreş_yapan_erkek:'
     },
     u'\U00002764\U0000FE0F\U0000200D\U0001FA79': { # ❤️‍🩹
         'en' : ':mending_heart:',
@@ -25887,7 +26881,8 @@ EMOJI_DATA = {
         'fr': u':cœur_avec_bandages:',
         'pt': u':coração_remendado:',
         'it': ':cuore_guarito:',
-        'fa': u':قلب_التیام_یافته:'
+        'fa': u':قلب_التیام_یافته:',
+        'tr': u':iyileşen_kalp:'
     },
     u'\U00002764\U0000200D\U0001FA79': { # ❤‍🩹
         'en' : ':mending_heart:',
@@ -25898,7 +26893,8 @@ EMOJI_DATA = {
         'fr': u':cœur_avec_bandages:',
         'pt': u':coração_remendado:',
         'it': ':cuore_guarito:',
-        'fa': u':قلب_التیام_یافته:'
+        'fa': u':قلب_التیام_یافته:',
+        'tr': u':iyileşen_kalp:'
     },
     u'\U0001F54E': { # 🕎
         'en' : ':menorah:',
@@ -25910,7 +26906,8 @@ EMOJI_DATA = {
         'fr': u':chandelier_à_sept_branches:',
         'pt': u':menorá:',
         'it': ':menorah:',
-        'fa': u':منورا:'
+        'fa': u':منورا:',
+        'tr': u':yahudi_şamdanı:'
     },
     u'\U0001F6B9': { # 🚹
         'en' : u':men’s_room:',
@@ -25923,7 +26920,8 @@ EMOJI_DATA = {
         'fr': ':symbole_toilettes_hommes:',
         'pt': ':banheiro_masculino:',
         'it': ':simbolo_del_bagno_degli_uomini:',
-        'fa': u':توالت_مردانه:'
+        'fa': u':توالت_مردانه:',
+        'tr': ':erkekler_tuvaleti:'
     },
     u'\U0001F9DC\U0000200D\U00002640\U0000FE0F': { # 🧜‍♀️
         'en' : ':mermaid:',
@@ -25934,7 +26932,8 @@ EMOJI_DATA = {
         'fr': u':sirène:',
         'pt': ':sereia:',
         'it': ':sirena_donna:',
-        'fa': u':پری_دریایی:'
+        'fa': u':پری_دریایی:',
+        'tr': u':denizkızı:'
     },
     u'\U0001F9DC\U0000200D\U00002640': { # 🧜‍♀
         'en' : ':mermaid:',
@@ -25945,7 +26944,8 @@ EMOJI_DATA = {
         'fr': u':sirène:',
         'pt': ':sereia:',
         'it': ':sirena_donna:',
-        'fa': u':پری_دریایی:'
+        'fa': u':پری_دریایی:',
+        'tr': u':denizkızı:'
     },
     u'\U0001F9DC\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧜🏿‍♀️
         'en' : ':mermaid_dark_skin_tone:',
@@ -26056,7 +27056,8 @@ EMOJI_DATA = {
         'fr': ':triton:',
         'pt': ':sereio:',
         'it': ':tritone:',
-        'fa': u':دریامرد:'
+        'fa': u':دریامرد:',
+        'tr': u':balık_adam:'
     },
     u'\U0001F9DC\U0000200D\U00002642': { # 🧜‍♂
         'en' : ':merman:',
@@ -26067,7 +27068,8 @@ EMOJI_DATA = {
         'fr': ':triton:',
         'pt': ':sereio:',
         'it': ':tritone:',
-        'fa': u':دریامرد:'
+        'fa': u':دریامرد:',
+        'tr': u':balık_adam:'
     },
     u'\U0001F9DC\U0001F3FF\U0000200D\U00002642\U0000FE0F': { # 🧜🏿‍♂️
         'en' : ':merman_dark_skin_tone:',
@@ -26178,7 +27180,8 @@ EMOJI_DATA = {
         'fr': u':créature_aquatique:',
         'pt': ':pessoa_sereia:',
         'it': ':sirena:',
-        'fa': u':دریامردمان:'
+        'fa': u':دریامردمان:',
+        'tr': u':balık_insan:'
     },
     u'\U0001F9DC\U0001F3FF': { # 🧜🏿
         'en' : ':merperson_dark_skin_tone:',
@@ -26240,7 +27243,8 @@ EMOJI_DATA = {
         'fr': u':métro:',
         'pt': u':metrô:',
         'it': ':metropolitana:',
-        'fa': u':قطار_شهری:'
+        'fa': u':قطار_شهری:',
+        'tr': ':metro:'
     },
     u'\U0001F9A0': { # 🦠
         'en' : ':microbe:',
@@ -26251,7 +27255,8 @@ EMOJI_DATA = {
         'fr': ':microbe:',
         'pt': u':micróbio:',
         'it': ':microbo:',
-        'fa': u':میکروب:'
+        'fa': u':میکروب:',
+        'tr': ':mikrop:'
     },
     u'\U0001F3A4': { # 🎤
         'en' : ':microphone:',
@@ -26262,7 +27267,8 @@ EMOJI_DATA = {
         'fr': ':micro:',
         'pt': ':microfone:',
         'it': ':microfono:',
-        'fa': u':میکروفون:'
+        'fa': u':میکروفون:',
+        'tr': ':mikrofon:'
     },
     u'\U0001F52C': { # 🔬
         'en' : ':microscope:',
@@ -26273,7 +27279,8 @@ EMOJI_DATA = {
         'fr': ':microscope:',
         'pt': u':microscópio:',
         'it': ':microscopio:',
-        'fa': u':میکروسکوپ:'
+        'fa': u':میکروسکوپ:',
+        'tr': ':mikroskop:'
     },
     u'\U0001F595': { # 🖕
         'en' : ':middle_finger:',
@@ -26285,7 +27292,8 @@ EMOJI_DATA = {
         'fr': u':doigt_d’honneur:',
         'pt': ':dedo_do_meio:',
         'it': ':dito_medio:',
-        'fa': u':انگشت_میانه:'
+        'fa': u':انگشت_میانه:',
+        'tr': ':orta_parmak:'
     },
     u'\U0001F595\U0001F3FF': { # 🖕🏿
         'en' : ':middle_finger_dark_skin_tone:',
@@ -26346,7 +27354,8 @@ EMOJI_DATA = {
         'fr': ':casque_militaire:',
         'pt': ':capacete_militar:',
         'it': ':elmetto_militare:',
-        'fa': u':کلاه_خود:'
+        'fa': u':کلاه_خود:',
+        'tr': u':asker_kaskı:'
     },
     u'\U0001F396\U0000FE0F': { # 🎖️
         'en' : ':military_medal:',
@@ -26359,7 +27368,8 @@ EMOJI_DATA = {
         'fr': u':médaille_militaire:',
         'pt': ':medalha_militar:',
         'it': ':medaglia_militare:',
-        'fa': u':مدال_ارتشی:'
+        'fa': u':مدال_ارتشی:',
+        'tr': ':askeri_madalya:'
     },
     u'\U0001F396': { # 🎖
         'en' : ':military_medal:',
@@ -26372,7 +27382,8 @@ EMOJI_DATA = {
         'fr': u':médaille_militaire:',
         'pt': ':medalha_militar:',
         'it': ':medaglia_militare:',
-        'fa': u':مدال_ارتشی:'
+        'fa': u':مدال_ارتشی:',
+        'tr': ':askeri_madalya:'
     },
     u'\U0001F30C': { # 🌌
         'en' : ':milky_way:',
@@ -26383,7 +27394,8 @@ EMOJI_DATA = {
         'fr': u':voie_lactée:',
         'pt': u':via_láctea:',
         'it': ':via_lattea:',
-        'fa': u':راه_شیری:'
+        'fa': u':راه_شیری:',
+        'tr': ':samanyolu:'
     },
     u'\U0001F690': { # 🚐
         'en' : ':minibus:',
@@ -26394,7 +27406,8 @@ EMOJI_DATA = {
         'fr': ':minibus:',
         'pt': ':van:',
         'it': ':pulmino:',
-        'fa': u':مینی_بوس:'
+        'fa': u':مینی_بوس:',
+        'tr': u':minibüs:'
     },
     u'\U00002796': { # ➖
         'en' : ':minus:',
@@ -26406,7 +27419,8 @@ EMOJI_DATA = {
         'fr': ':moins:',
         'pt': u':símbolo_de_subtração:',
         'it': ':sottrazione:',
-        'fa': u':تفریق:'
+        'fa': u':تفریق:',
+        'tr': ':eksi:'
     },
     u'\U0001FA9E': { # 🪞
         'en' : ':mirror:',
@@ -26417,7 +27431,8 @@ EMOJI_DATA = {
         'fr': ':miroir:',
         'pt': ':espelho:',
         'it': ':specchio:',
-        'fa': u':آینه:'
+        'fa': u':آینه:',
+        'tr': ':ayna:'
     },
     u'\U0001FAA9': { # 🪩
         'en' : ':mirror_ball:',
@@ -26428,7 +27443,8 @@ EMOJI_DATA = {
         'fr': u':boule_à_facettes:',
         'pt': ':globo_de_espelhos:',
         'it': ':palla_da_discoteca:',
-        'fa': u':توپ_آینه_ای:'
+        'fa': u':توپ_آینه_ای:',
+        'tr': u':aynalı_küre:'
     },
     u'\U0001F5FF': { # 🗿
         'en' : ':moai:',
@@ -26440,7 +27456,8 @@ EMOJI_DATA = {
         'fr': ':moai:',
         'pt': ':moai:',
         'it': ':moai:',
-        'fa': u':سردیس_موآی:'
+        'fa': u':سردیس_موآی:',
+        'tr': ':moyai_heykeli:'
     },
     u'\U0001F4F1': { # 📱
         'en' : ':mobile_phone:',
@@ -26452,7 +27469,8 @@ EMOJI_DATA = {
         'fr': u':téléphone_portable:',
         'pt': ':telefone_celular:',
         'it': ':telefono_cellulare:',
-        'fa': u':تلفن_همراه:'
+        'fa': u':تلفن_همراه:',
+        'tr': ':cep_telefonu:'
     },
     u'\U0001F4F4': { # 📴
         'en' : ':mobile_phone_off:',
@@ -26463,7 +27481,8 @@ EMOJI_DATA = {
         'fr': u':téléphone_éteint:',
         'pt': ':telefone_celular_desligado:',
         'it': ':cellulare_spento:',
-        'fa': u':تلفن_همراه_خاموش:'
+        'fa': u':تلفن_همراه_خاموش:',
+        'tr': u':cep_telefonu_kapalı:'
     },
     u'\U0001F4F2': { # 📲
         'en' : ':mobile_phone_with_arrow:',
@@ -26475,7 +27494,8 @@ EMOJI_DATA = {
         'fr': ':appel_entrant:',
         'pt': ':telefone_celular_com_seta:',
         'it': ':telefono_cellulare_con_freccia:',
-        'fa': u':تلفن_همراه_با_پیکان:'
+        'fa': u':تلفن_همراه_با_پیکان:',
+        'tr': u':ok_işaretli_cep_telefonu:'
     },
     u'\U0001F911': { # 🤑
         'en' : ':money-mouth_face:',
@@ -26487,7 +27507,8 @@ EMOJI_DATA = {
         'fr': ':argent_dans_les_yeux_et_la_bouche:',
         'pt': u':rosto_com_cifrões:',
         'it': ':faccina_avida_di_denaro:',
-        'fa': u':صورت_پول_دوست:'
+        'fa': u':صورت_پول_دوست:',
+        'tr': u':para_ağızlı_yüz:'
     },
     u'\U0001F4B0': { # 💰
         'en' : ':money_bag:',
@@ -26500,7 +27521,8 @@ EMOJI_DATA = {
         'fr': u':sac_plein_d’argent:',
         'pt': ':saco_de_dinheiro:',
         'it': ':sacco_di_soldi:',
-        'fa': u':کیسهٔ_پول:'
+        'fa': u':کیسهٔ_پول:',
+        'tr': u':para_torbası:'
     },
     u'\U0001F4B8': { # 💸
         'en' : ':money_with_wings:',
@@ -26511,7 +27533,8 @@ EMOJI_DATA = {
         'fr': ':billet_avec_des_ailes:',
         'pt': ':dinheiro_voando:',
         'it': ':soldi_con_le_ali:',
-        'fa': u':اسکناس_بال_دار:'
+        'fa': u':اسکناس_بال_دار:',
+        'tr': u':kanatlı_para:'
     },
     u'\U0001F412': { # 🐒
         'en' : ':monkey:',
@@ -26522,7 +27545,8 @@ EMOJI_DATA = {
         'fr': ':singe:',
         'pt': ':macaco:',
         'it': ':scimmia:',
-        'fa': u':میمون:'
+        'fa': u':میمون:',
+        'tr': ':maymun:'
     },
     u'\U0001F435': { # 🐵
         'en' : ':monkey_face:',
@@ -26533,7 +27557,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_singe:',
         'pt': ':rosto_de_macaco:',
         'it': ':muso_di_scimmia:',
-        'fa': u':صورت_میمون:'
+        'fa': u':صورت_میمون:',
+        'tr': u':maymun_yüzü:'
     },
     u'\U0001F69D': { # 🚝
         'en' : ':monorail:',
@@ -26544,7 +27569,8 @@ EMOJI_DATA = {
         'fr': ':monorail:',
         'pt': ':monotrilho:',
         'it': ':monorotaia:',
-        'fa': u':تک_ریل:'
+        'fa': u':تک_ریل:',
+        'tr': ':monoray:'
     },
     u'\U0001F96E': { # 🥮
         'en' : ':moon_cake:',
@@ -26555,7 +27581,8 @@ EMOJI_DATA = {
         'fr': u':gâteau_de_lune:',
         'pt': ':bolo_lunar:',
         'it': ':torta_della_luna:',
-        'fa': u':کیک_ماه:'
+        'fa': u':کیک_ماه:',
+        'tr': u':ay_pastası:'
     },
     u'\U0001F391': { # 🎑
         'en' : ':moon_viewing_ceremony:',
@@ -26567,7 +27594,8 @@ EMOJI_DATA = {
         'fr': u':cérémonie_de_la_lune:',
         'pt': u':contemplação_da_lua:',
         'it': ':contemplazione_della_luna:',
-        'fa': u':آئین_مشاهدهٔ_ماه_کامل:'
+        'fa': u':آئین_مشاهدهٔ_ماه_کامل:',
+        'tr': ':ay_izleme:'
     },
     u'\U0001F54C': { # 🕌
         'en' : ':mosque:',
@@ -26578,7 +27606,8 @@ EMOJI_DATA = {
         'fr': u':mosquée:',
         'pt': ':mesquita:',
         'it': ':moschea:',
-        'fa': u':مسجد:'
+        'fa': u':مسجد:',
+        'tr': ':cami:'
     },
     u'\U0001F99F': { # 🦟
         'en' : ':mosquito:',
@@ -26589,7 +27618,8 @@ EMOJI_DATA = {
         'fr': ':moustique:',
         'pt': ':mosquito:',
         'it': ':zanzara:',
-        'fa': u':پشه:'
+        'fa': u':پشه:',
+        'tr': ':sivrisinek:'
     },
     u'\U0001F6E5\U0000FE0F': { # 🛥️
         'en' : ':motor_boat:',
@@ -26601,7 +27631,8 @@ EMOJI_DATA = {
         'fr': u':bateau_à_moteur:',
         'pt': ':barco:',
         'it': ':barca_a_motore:',
-        'fa': u':قایق_موتوری:'
+        'fa': u':قایق_موتوری:',
+        'tr': ':motorlu_tekne:'
     },
     u'\U0001F6E5': { # 🛥
         'en' : ':motor_boat:',
@@ -26613,7 +27644,8 @@ EMOJI_DATA = {
         'fr': u':bateau_à_moteur:',
         'pt': ':barco:',
         'it': ':barca_a_motore:',
-        'fa': u':قایق_موتوری:'
+        'fa': u':قایق_موتوری:',
+        'tr': ':motorlu_tekne:'
     },
     u'\U0001F6F5': { # 🛵
         'en' : ':motor_scooter:',
@@ -26624,7 +27656,8 @@ EMOJI_DATA = {
         'fr': ':scooter:',
         'pt': ':scooter:',
         'it': ':scooter:',
-        'fa': u':اسکوتر:'
+        'fa': u':اسکوتر:',
+        'tr': ':motorlu_skuter:'
     },
     u'\U0001F3CD\U0000FE0F': { # 🏍️
         'en' : ':motorcycle:',
@@ -26637,7 +27670,8 @@ EMOJI_DATA = {
         'fr': ':moto:',
         'pt': ':motocicleta:',
         'it': ':motocicletta:',
-        'fa': u':موتورسیکلت:'
+        'fa': u':موتورسیکلت:',
+        'tr': ':motosiklet:'
     },
     u'\U0001F3CD': { # 🏍
         'en' : ':motorcycle:',
@@ -26650,7 +27684,8 @@ EMOJI_DATA = {
         'fr': ':moto:',
         'pt': ':motocicleta:',
         'it': ':motocicletta:',
-        'fa': u':موتورسیکلت:'
+        'fa': u':موتورسیکلت:',
+        'tr': ':motosiklet:'
     },
     u'\U0001F9BC': { # 🦼
         'en' : ':motorized_wheelchair:',
@@ -26661,7 +27696,8 @@ EMOJI_DATA = {
         'fr': u':fauteuil_motorisé:',
         'pt': ':cadeira_de_rodas_motorizada:',
         'it': ':sedia_a_rotelle_motorizzata:',
-        'fa': u':صندلی_چرخ_دار_برقی:'
+        'fa': u':صندلی_چرخ_دار_برقی:',
+        'tr': ':elektrikli_tekerlekli_sandalye:'
     },
     u'\U0001F6E3\U0000FE0F': { # 🛣️
         'en' : ':motorway:',
@@ -26673,7 +27709,8 @@ EMOJI_DATA = {
         'fr': ':autoroute:',
         'pt': ':estrada:',
         'it': ':autostrada:',
-        'fa': u':بزرگراه:'
+        'fa': u':بزرگراه:',
+        'tr': ':otoban:'
     },
     u'\U0001F6E3': { # 🛣
         'en' : ':motorway:',
@@ -26685,7 +27722,8 @@ EMOJI_DATA = {
         'fr': ':autoroute:',
         'pt': ':estrada:',
         'it': ':autostrada:',
-        'fa': u':بزرگراه:'
+        'fa': u':بزرگراه:',
+        'tr': ':otoban:'
     },
     u'\U0001F5FB': { # 🗻
         'en' : ':mount_fuji:',
@@ -26696,7 +27734,8 @@ EMOJI_DATA = {
         'fr': ':mont_fuji:',
         'pt': ':monte_fuji:',
         'it': ':monte_fuji:',
-        'fa': u':کوه_فوجی:'
+        'fa': u':کوه_فوجی:',
+        'tr': u':fuji_dağı:'
     },
     u'\U000026F0\U0000FE0F': { # ⛰️
         'en' : ':mountain:',
@@ -26708,7 +27747,8 @@ EMOJI_DATA = {
         'fr': ':montagne:',
         'pt': ':montanha:',
         'it': ':montagna:',
-        'fa': u':کوه:'
+        'fa': u':کوه:',
+        'tr': u':dağ:'
     },
     u'\U000026F0': { # ⛰
         'en' : ':mountain:',
@@ -26720,7 +27760,8 @@ EMOJI_DATA = {
         'fr': ':montagne:',
         'pt': ':montanha:',
         'it': ':montagna:',
-        'fa': u':کوه:'
+        'fa': u':کوه:',
+        'tr': u':dağ:'
     },
     u'\U0001F6A0': { # 🚠
         'en' : ':mountain_cableway:',
@@ -26731,7 +27772,8 @@ EMOJI_DATA = {
         'fr': u':téléphérique:',
         'pt': u':cabo_suspenso_usado_em_teleféricos_nas_montanhas:',
         'it': ':funivia:',
-        'fa': u':تله_کابین_کوهستانی:'
+        'fa': u':تله_کابین_کوهستانی:',
+        'tr': u':dağ_teleferik_hattı:'
     },
     u'\U0001F69E': { # 🚞
         'en' : ':mountain_railway:',
@@ -26742,7 +27784,8 @@ EMOJI_DATA = {
         'fr': ':train_de_montagne:',
         'pt': ':estrada_de_ferro_na_montanha:',
         'it': ':ferrovia_di_montagna:',
-        'fa': u':ریل_کوهستانی:'
+        'fa': u':ریل_کوهستانی:',
+        'tr': u':dağ_demiryolu:'
     },
     u'\U0001F401': { # 🐁
         'en' : ':mouse:',
@@ -26754,7 +27797,8 @@ EMOJI_DATA = {
         'fr': ':souris:',
         'pt': ':camundongo:',
         'it': ':topo:',
-        'fa': u':موش:'
+        'fa': u':موش:',
+        'tr': ':fare:'
     },
     u'\U0001F42D': { # 🐭
         'en' : ':mouse_face:',
@@ -26766,7 +27810,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_souris:',
         'pt': ':rosto_de_camundongo:',
         'it': ':muso_di_topo:',
-        'fa': u':صورت_موش:'
+        'fa': u':صورت_موش:',
+        'tr': u':fare_yüzü:'
     },
     u'\U0001FAA4': { # 🪤
         'en' : ':mouse_trap:',
@@ -26777,7 +27822,8 @@ EMOJI_DATA = {
         'fr': u':tapette_à_souris:',
         'pt': ':ratoeira:',
         'it': ':trappola_per_topi:',
-        'fa': u':تله_موش:'
+        'fa': u':تله_موش:',
+        'tr': u':fare_kapanı:'
     },
     u'\U0001F444': { # 👄
         'en' : ':mouth:',
@@ -26789,7 +27835,8 @@ EMOJI_DATA = {
         'fr': ':bouche:',
         'pt': ':boca:',
         'it': ':bocca:',
-        'fa': u':لب:'
+        'fa': u':لب:',
+        'tr': u':ağız:'
     },
     u'\U0001F3A5': { # 🎥
         'en' : ':movie_camera:',
@@ -26800,7 +27847,8 @@ EMOJI_DATA = {
         'fr': u':caméra:',
         'pt': u':câmera_de_cinema:',
         'it': ':cinepresa:',
-        'fa': u':دوربین_سینمایی:'
+        'fa': u':دوربین_سینمایی:',
+        'tr': u':film_kamerası:'
     },
     u'\U00002716\U0000FE0F': { # ✖️
         'en' : ':multiply:',
@@ -26813,7 +27861,8 @@ EMOJI_DATA = {
         'fr': ':signe_multiplier:',
         'pt': u':sinal_de_multiplicação:',
         'it': ':segno_moltiplicazione:',
-        'fa': u':ضرب_کردن:'
+        'fa': u':ضرب_کردن:',
+        'tr': u':çarpım_işareti:'
     },
     u'\U00002716': { # ✖
         'en' : ':multiply:',
@@ -26826,7 +27875,8 @@ EMOJI_DATA = {
         'fr': ':signe_multiplier:',
         'pt': u':sinal_de_multiplicação:',
         'it': ':moltiplicazione:',
-        'fa': u':ضرب_کردن:'
+        'fa': u':ضرب_کردن:',
+        'tr': u':çarpım_işareti:'
     },
     u'\U0001F344': { # 🍄
         'en' : ':mushroom:',
@@ -26837,7 +27887,8 @@ EMOJI_DATA = {
         'fr': ':champignon:',
         'pt': ':cogumelo:',
         'it': ':fungo:',
-        'fa': u':قارچ:'
+        'fa': u':قارچ:',
+        'tr': ':mantar:'
     },
     u'\U0001F3B9': { # 🎹
         'en' : ':musical_keyboard:',
@@ -26848,7 +27899,8 @@ EMOJI_DATA = {
         'fr': ':piano:',
         'pt': ':teclado_musical:',
         'it': ':piano:',
-        'fa': u':کیبورد_موسیقی:'
+        'fa': u':کیبورد_موسیقی:',
+        'tr': u':müzik_klavyesi:'
     },
     u'\U0001F3B5': { # 🎵
         'en' : ':musical_note:',
@@ -26859,7 +27911,8 @@ EMOJI_DATA = {
         'fr': ':note_de_musique:',
         'pt': ':nota_musical:',
         'it': ':nota_musicale:',
-        'fa': u':نت_موسیقی:'
+        'fa': u':نت_موسیقی:',
+        'tr': u':müzik_notası:'
     },
     u'\U0001F3B6': { # 🎶
         'en' : ':musical_notes:',
@@ -26871,7 +27924,8 @@ EMOJI_DATA = {
         'fr': ':notes_de_musique:',
         'pt': ':notas_musicais:',
         'it': ':note_musicali:',
-        'fa': u':نت_های_موسیقی:'
+        'fa': u':نت_های_موسیقی:',
+        'tr': u':müzik_notaları:'
     },
     u'\U0001F3BC': { # 🎼
         'en' : ':musical_score:',
@@ -26882,7 +27936,8 @@ EMOJI_DATA = {
         'fr': ':partition:',
         'pt': ':partitura_musical:',
         'it': ':pentagramma:',
-        'fa': u':پارتیتور:'
+        'fa': u':پارتیتور:',
+        'tr': u':sol_anahtarı:'
     },
     u'\U0001F507': { # 🔇
         'en' : ':muted_speaker:',
@@ -26894,7 +27949,8 @@ EMOJI_DATA = {
         'fr': ':muet:',
         'pt': ':alto-falante_silenciado:',
         'it': ':altoparlante_disattivato:',
-        'fa': u':بلندگوی_خاموش:'
+        'fa': u':بلندگوی_خاموش:',
+        'tr': u':ses_kapalı:'
     },
     u'\U0001F9D1\U0000200D\U0001F384': { # 🧑‍🎄
         'en' : ':mx_claus:',
@@ -26905,7 +27961,8 @@ EMOJI_DATA = {
         'fr': ':santa:',
         'pt': ':noel:',
         'it': ':santa_claus:',
-        'fa': u':نوئل:'
+        'fa': u':نوئل:',
+        'tr': ':cinsiyet_belirtmeyen_noel_karakteri:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F384': { # 🧑🏿‍🎄
         'en' : ':mx_claus_dark_skin_tone:',
@@ -26967,7 +28024,8 @@ EMOJI_DATA = {
         'fr': u':vernis_à_ongles:',
         'pt': ':esmalte_de_unha:',
         'it': ':smalto_per_unghie:',
-        'fa': u':لاک_زدن:'
+        'fa': u':لاک_زدن:',
+        'tr': u':oje_sürme:'
     },
     u'\U0001F485\U0001F3FF': { # 💅🏿
         'en' : ':nail_polish_dark_skin_tone:',
@@ -27028,7 +28086,8 @@ EMOJI_DATA = {
         'fr': ':badge_nominatif:',
         'pt': u':crachá:',
         'it': ':tesserino_per_nome:',
-        'fa': u':برچسب_نام:'
+        'fa': u':برچسب_نام:',
+        'tr': ':ad_rozeti:'
     },
     u'\U0001F3DE\U0000FE0F': { # 🏞️
         'en' : ':national_park:',
@@ -27040,7 +28099,8 @@ EMOJI_DATA = {
         'fr': ':parc_national:',
         'pt': ':parque_nacional:',
         'it': ':parco_nazionale:',
-        'fa': u':پارک_ملی:'
+        'fa': u':پارک_ملی:',
+        'tr': ':milli_park:'
     },
     u'\U0001F3DE': { # 🏞
         'en' : ':national_park:',
@@ -27052,7 +28112,8 @@ EMOJI_DATA = {
         'fr': ':parc_national:',
         'pt': ':parque_nacional:',
         'it': ':parco_nazionale:',
-        'fa': u':پارک_ملی:'
+        'fa': u':پارک_ملی:',
+        'tr': ':milli_park:'
     },
     u'\U0001F922': { # 🤢
         'en' : ':nauseated_face:',
@@ -27063,7 +28124,8 @@ EMOJI_DATA = {
         'fr': u':visage_nauséeux:',
         'pt': ':rosto_nauseado:',
         'it': ':faccina_nauseata:',
-        'fa': u':حالت_تهوع:'
+        'fa': u':حالت_تهوع:',
+        'tr': u':kusmak_üzere_olan_yüz:'
     },
     u'\U0001F9FF': { # 🧿
         'en' : ':nazar_amulet:',
@@ -27074,7 +28136,8 @@ EMOJI_DATA = {
         'fr': u':mauvais_œil:',
         'pt': ':olho_grego:',
         'it': ':occhio_di_allah:',
-        'fa': u':نظرقربانی:'
+        'fa': u':نظرقربانی:',
+        'tr': u':nazarlık:'
     },
     u'\U0001F454': { # 👔
         'en' : ':necktie:',
@@ -27085,7 +28148,8 @@ EMOJI_DATA = {
         'fr': ':cravate:',
         'pt': ':gravata:',
         'it': ':cravatta:',
-        'fa': u':کراوات:'
+        'fa': u':کراوات:',
+        'tr': ':kravat:'
     },
     u'\U0001F913': { # 🤓
         'en' : ':nerd_face:',
@@ -27096,7 +28160,8 @@ EMOJI_DATA = {
         'fr': ':visage_de_geek:',
         'pt': ':rosto_de_nerd:',
         'it': ':faccina_nerd:',
-        'fa': u':خوره:'
+        'fa': u':خوره:',
+        'tr': u':ukala_yüz:'
     },
     u'\U0001FABA': { # 🪺
         'en' : ':nest_with_eggs:',
@@ -27107,7 +28172,8 @@ EMOJI_DATA = {
         'fr': u':nid_avec_œufs:',
         'pt': ':ninho_com_ovos:',
         'it': ':nido_con_uova:',
-        'fa': u':آشیانه_با_تخم:'
+        'fa': u':آشیانه_با_تخم:',
+        'tr': ':yumurta_bulunan_yuva:'
     },
     u'\U0001FA86': { # 🪆
         'en' : ':nesting_dolls:',
@@ -27118,7 +28184,8 @@ EMOJI_DATA = {
         'fr': u':poupées_russes:',
         'pt': ':boneca_russa:',
         'it': ':matrioska:',
-        'fa': u':عروسک_تودرتو:'
+        'fa': u':عروسک_تودرتو:',
+        'tr': u':matruşka:'
     },
     u'\U0001F610': { # 😐
         'en' : ':neutral_face:',
@@ -27130,7 +28197,8 @@ EMOJI_DATA = {
         'fr': ':visage_neutre:',
         'pt': ':rosto_neutro:',
         'it': ':faccina_neutra:',
-        'fa': u':خنثی:'
+        'fa': u':خنثی:',
+        'tr': u':duygusuz_yüz:'
     },
     u'\U0001F311': { # 🌑
         'en' : ':new_moon:',
@@ -27141,7 +28209,8 @@ EMOJI_DATA = {
         'fr': ':nouvelle_lune:',
         'pt': ':lua_nova:',
         'it': ':luna_nuova:',
-        'fa': u':ماه_نو:'
+        'fa': u':ماه_نو:',
+        'tr': ':yeni_ay:'
     },
     u'\U0001F31A': { # 🌚
         'en' : ':new_moon_face:',
@@ -27153,7 +28222,8 @@ EMOJI_DATA = {
         'fr': ':nouvelle_lune_avec_visage:',
         'pt': ':rosto_da_lua_nova:',
         'it': ':faccina_luna_nuova:',
-        'fa': u':صورت_ماه_نو:'
+        'fa': u':صورت_ماه_نو:',
+        'tr': u':yeni_ay_yüzü:'
     },
     u'\U0001F4F0': { # 📰
         'en' : ':newspaper:',
@@ -27164,7 +28234,8 @@ EMOJI_DATA = {
         'fr': ':journal:',
         'pt': ':jornal:',
         'it': ':quotidiano:',
-        'fa': u':روزنامه:'
+        'fa': u':روزنامه:',
+        'tr': ':gazete:'
     },
     u'\U000023ED\U0000FE0F': { # ⏭️
         'en' : ':next_track_button:',
@@ -27177,7 +28248,8 @@ EMOJI_DATA = {
         'fr': ':bouton_piste_suivante:',
         'pt': u':botão_de_próxima_faixa:',
         'it': ':traccia_successiva:',
-        'fa': u':دکمه_آهنگ_بعدی:'
+        'fa': u':دکمه_آهنگ_بعدی:',
+        'tr': u':sonraki_parça_düğmesi:'
     },
     u'\U000023ED': { # ⏭
         'en' : ':next_track_button:',
@@ -27190,7 +28262,8 @@ EMOJI_DATA = {
         'fr': ':bouton_piste_suivante:',
         'pt': u':botão_de_próxima_faixa:',
         'it': ':traccia_successiva:',
-        'fa': u':دکمهٔ_آهنگ_بعدی:'
+        'fa': u':دکمهٔ_آهنگ_بعدی:',
+        'tr': u':sonraki_parça_düğmesi:'
     },
     u'\U0001F303': { # 🌃
         'en' : ':night_with_stars:',
@@ -27201,7 +28274,8 @@ EMOJI_DATA = {
         'fr': u':nuit_étoilée:',
         'pt': ':noite_estrelada:',
         'it': ':notte_stellata:',
-        'fa': u':شب_پرستاره:'
+        'fa': u':شب_پرستاره:',
+        'tr': u':yıldızlı_gece:'
     },
     u'\U0001F564': { # 🕤
         'en' : ':nine-thirty:',
@@ -27214,7 +28288,8 @@ EMOJI_DATA = {
         'fr': ':neuf_heures_et_demie:',
         'pt': ':nove_e_meia:',
         'it': ':ore_nove_e_mezza:',
-        'fa': u':ساعت_نه_و_نیم:'
+        'fa': u':ساعت_نه_و_نیم:',
+        'tr': u':dokuz_buçuk:'
     },
     u'\U0001F558': { # 🕘
         'en' : u':nine_o’clock:',
@@ -27227,7 +28302,8 @@ EMOJI_DATA = {
         'fr': ':neuf_heures:',
         'pt': ':9_horas:',
         'it': ':ore_nove:',
-        'fa': u':ساعت_نه:'
+        'fa': u':ساعت_نه:',
+        'tr': ':saat_9:'
     },
     u'\U0001F977': { # 🥷
         'en' : ':ninja:',
@@ -27238,7 +28314,8 @@ EMOJI_DATA = {
         'fr': ':ninja:',
         'pt': ':ninja:',
         'it': ':ninja:',
-        'fa': u':نینجا:'
+        'fa': u':نینجا:',
+        'tr': ':ninja:'
     },
     u'\U0001F977\U0001F3FF': { # 🥷🏿
         'en' : ':ninja_dark_skin_tone:',
@@ -27299,7 +28376,8 @@ EMOJI_DATA = {
         'fr': u':vélos_interdits:',
         'pt': ':proibido_andar_de_bicicleta:',
         'it': ':segnale_di_divieto_di_transito_delle_biciclette:',
-        'fa': u':دوچرخه_ممنوع:'
+        'fa': u':دوچرخه_ممنوع:',
+        'tr': ':bisiklet_yasak:'
     },
     u'\U000026D4': { # ⛔
         'en' : ':no_entry:',
@@ -27311,7 +28389,8 @@ EMOJI_DATA = {
         'fr': ':sens_interdit:',
         'pt': ':entrada_proibida:',
         'it': ':segnale_di_divieto_di_accesso:',
-        'fa': u':ورود_ممنوع:'
+        'fa': u':ورود_ممنوع:',
+        'tr': ':girilmez:'
     },
     u'\U0001F6AF': { # 🚯
         'en' : ':no_littering:',
@@ -27323,7 +28402,8 @@ EMOJI_DATA = {
         'fr': u':dépôt_d’ordures_interdit:',
         'pt': u':proibido_jogar_lixo_no_chão:',
         'it': ':simbolo_del_divieto_di_gettare_rifiuti:',
-        'fa': u':ریختن_زباله_ممنوع:'
+        'fa': u':ریختن_زباله_ممنوع:',
+        'tr': u':çöp_atılmaz:'
     },
     u'\U0001F4F5': { # 📵
         'en' : ':no_mobile_phones:',
@@ -27334,7 +28414,8 @@ EMOJI_DATA = {
         'fr': u':téléphones_portables_interdits:',
         'pt': ':proibido_o_uso_de_telefone_celular:',
         'it': u':simbolo_che_vieta_l’uso_dei_cellulari:',
-        'fa': u':تلفن_همراه_ممنوع:'
+        'fa': u':تلفن_همراه_ممنوع:',
+        'tr': ':cep_telefonu_yasak:'
     },
     u'\U0001F51E': { # 🔞
         'en' : ':no_one_under_eighteen:',
@@ -27346,7 +28427,8 @@ EMOJI_DATA = {
         'fr': ':18_ans_et_plus:',
         'pt': ':proibido_para_menores_de_18_anos:',
         'it': ':simbolo_di_divieto_ai_minorenni:',
-        'fa': u':زیر_۱۸_سال_ممنوع:'
+        'fa': u':زیر_۱۸_سال_ممنوع:',
+        'tr': u':18_yaş_altı_yasak:'
     },
     u'\U0001F6B7': { # 🚷
         'en' : ':no_pedestrians:',
@@ -27357,7 +28439,8 @@ EMOJI_DATA = {
         'fr': u':interdit_aux_piétons:',
         'pt': ':proibida_a_passagem_de_pedestres:',
         'it': ':simbolo_del_divieto_di_transito_pedoni:',
-        'fa': u':عابر_پیاده_ممنوع:'
+        'fa': u':عابر_پیاده_ممنوع:',
+        'tr': ':yayalara_yasak:'
     },
     u'\U0001F6AD': { # 🚭
         'en' : ':no_smoking:',
@@ -27369,7 +28452,8 @@ EMOJI_DATA = {
         'fr': ':interdiction_de_fumer:',
         'pt': ':proibido_fumar:',
         'it': ':segnale_di_vietato_fumare:',
-        'fa': u':سیگار_کشیدن_ممنوع:'
+        'fa': u':سیگار_کشیدن_ممنوع:',
+        'tr': u':sigara_içilmez:'
     },
     u'\U0001F6B1': { # 🚱
         'en' : ':non-potable_water:',
@@ -27381,7 +28465,8 @@ EMOJI_DATA = {
         'fr': ':eau_non_potable:',
         'pt': u':água_não_potável:',
         'it': ':simbolo_di_acqua_non_potabile:',
-        'fa': u':آب_غیرآشامیدنی:'
+        'fa': u':آب_غیرآشامیدنی:',
+        'tr': u':içilmeyen_su:'
     },
     u'\U0001F443': { # 👃
         'en' : ':nose:',
@@ -27392,7 +28477,8 @@ EMOJI_DATA = {
         'fr': ':nez:',
         'pt': ':nariz:',
         'it': ':naso:',
-        'fa': u':بینی:'
+        'fa': u':بینی:',
+        'tr': ':burun:'
     },
     u'\U0001F443\U0001F3FF': { # 👃🏿
         'en' : ':nose_dark_skin_tone:',
@@ -27453,7 +28539,8 @@ EMOJI_DATA = {
         'fr': ':carnet:',
         'pt': ':caderno:',
         'it': ':quaderno:',
-        'fa': u':دفتر_یادداشت:'
+        'fa': u':دفتر_یادداشت:',
+        'tr': ':not_defteri:'
     },
     u'\U0001F4D4': { # 📔
         'en' : ':notebook_with_decorative_cover:',
@@ -27464,7 +28551,8 @@ EMOJI_DATA = {
         'fr': ':carnet_avec_couverture:',
         'pt': ':caderno_decorado:',
         'it': ':quaderno_con_copertina_decorata:',
-        'fa': u':دفتر_با_جلد_سخت:'
+        'fa': u':دفتر_با_جلد_سخت:',
+        'tr': u':süslü_not_defteri:'
     },
     u'\U0001F529': { # 🔩
         'en' : ':nut_and_bolt:',
@@ -27475,7 +28563,8 @@ EMOJI_DATA = {
         'fr': u':vis_et_écrou:',
         'pt': ':porca_e_parafuso:',
         'it': ':vite_e_bullone:',
-        'fa': u':پیچ_و_مهره:'
+        'fa': u':پیچ_و_مهره:',
+        'tr': ':somun_ve_vida:'
     },
     u'\U0001F419': { # 🐙
         'en' : ':octopus:',
@@ -27486,7 +28575,8 @@ EMOJI_DATA = {
         'fr': ':pieuvre:',
         'pt': ':polvo:',
         'it': ':polpo:',
-        'fa': u':هشت_پا:'
+        'fa': u':هشت_پا:',
+        'tr': ':ahtapot:'
     },
     u'\U0001F362': { # 🍢
         'en' : ':oden:',
@@ -27497,7 +28587,8 @@ EMOJI_DATA = {
         'fr': ':brochette_de_poisson:',
         'pt': ':oden:',
         'it': ':oden_giapponese:',
-        'fa': u':اودن:'
+        'fa': u':اودن:',
+        'tr': ':oden:'
     },
     u'\U0001F3E2': { # 🏢
         'en' : ':office_building:',
@@ -27509,7 +28600,8 @@ EMOJI_DATA = {
         'fr': ':immeuble_de_bureaux:',
         'pt': u':edifício_comercial:',
         'it': ':edificio:',
-        'fa': u':ساختمان_اداری:'
+        'fa': u':ساختمان_اداری:',
+        'tr': u':ofis_binası:'
     },
     u'\U0001F9D1\U0000200D\U0001F4BC': { # 🧑‍💼
         'en' : ':office_worker:',
@@ -27520,7 +28612,8 @@ EMOJI_DATA = {
         'fr': u':employé_de_bureau_(tous_genres):',
         'pt': u':trabalhador_de_escritório:',
         'it': u':persona_che_fa_un_lavoro_d’ufficio:',
-        'fa': u':کارمند:'
+        'fa': u':کارمند:',
+        'tr': u':ofis_çalışanı:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F4BC': { # 🧑🏿‍💼
         'en' : ':office_worker_dark_skin_tone:',
@@ -27582,7 +28675,8 @@ EMOJI_DATA = {
         'fr': ':ogre:',
         'pt': ':ogro:',
         'it': ':orco:',
-        'fa': u':دیو:'
+        'fa': u':دیو:',
+        'tr': ':dev:'
     },
     u'\U0001F6E2\U0000FE0F': { # 🛢️
         'en' : ':oil_drum:',
@@ -27594,7 +28688,8 @@ EMOJI_DATA = {
         'fr': u':baril_de_pétrole:',
         'pt': u':barril_de_óleo:',
         'it': ':barile_di_petrolio:',
-        'fa': u':بشکه_نفت:'
+        'fa': u':بشکه_نفت:',
+        'tr': ':petrol_varili:'
     },
     u'\U0001F6E2': { # 🛢
         'en' : ':oil_drum:',
@@ -27606,7 +28701,8 @@ EMOJI_DATA = {
         'fr': u':baril_de_pétrole:',
         'pt': u':barril_de_óleo:',
         'it': ':barile_di_petrolio:',
-        'fa': u':بشکه_نفت:'
+        'fa': u':بشکه_نفت:',
+        'tr': ':petrol_varili:'
     },
     u'\U0001F5DD\U0000FE0F': { # 🗝️
         'en' : ':old_key:',
@@ -27618,7 +28714,8 @@ EMOJI_DATA = {
         'fr': u':clé_ancienne:',
         'pt': ':chave_antiga:',
         'it': ':chiave_antica:',
-        'fa': u':کلید_قدیمی:'
+        'fa': u':کلید_قدیمی:',
+        'tr': ':eski_anahtar:'
     },
     u'\U0001F5DD': { # 🗝
         'en' : ':old_key:',
@@ -27630,7 +28727,8 @@ EMOJI_DATA = {
         'fr': u':clé_ancienne:',
         'pt': ':chave_antiga:',
         'it': ':chiave_antica:',
-        'fa': u':کلید_قدیمی:'
+        'fa': u':کلید_قدیمی:',
+        'tr': ':eski_anahtar:'
     },
     u'\U0001F474': { # 👴
         'en' : ':old_man:',
@@ -27642,7 +28740,8 @@ EMOJI_DATA = {
         'fr': u':homme_âgé:',
         'pt': ':homem_idoso:',
         'it': ':uomo_anziano:',
-        'fa': u':پیرمرد:'
+        'fa': u':پیرمرد:',
+        'tr': u':yaşlı_erkek:'
     },
     u'\U0001F474\U0001F3FF': { # 👴🏿
         'en' : ':old_man_dark_skin_tone:',
@@ -27704,7 +28803,8 @@ EMOJI_DATA = {
         'fr': u':femme_âgée:',
         'pt': ':idosa:',
         'it': ':donna_anziana:',
-        'fa': u':پیرزن:'
+        'fa': u':پیرزن:',
+        'tr': u':yaşlı_kadın:'
     },
     u'\U0001F475\U0001F3FF': { # 👵🏿
         'en' : ':old_woman_dark_skin_tone:',
@@ -27766,7 +28866,8 @@ EMOJI_DATA = {
         'fr': u':personne_âgée:',
         'pt': ':idoso:',
         'it': ':persona_anziana:',
-        'fa': u':میان_سال:'
+        'fa': u':میان_سال:',
+        'tr': u':yaşlı_yetişkin:'
     },
     u'\U0001F9D3\U0001F3FF': { # 🧓🏿
         'en' : ':older_person_dark_skin_tone:',
@@ -27827,7 +28928,8 @@ EMOJI_DATA = {
         'fr': ':olive:',
         'pt': ':azeitona:',
         'it': ':oliva:',
-        'fa': u':زیتون:'
+        'fa': u':زیتون:',
+        'tr': ':zeytin:'
     },
     u'\U0001F549\U0000FE0F': { # 🕉️
         'en' : ':om:',
@@ -27840,7 +28942,8 @@ EMOJI_DATA = {
         'fr': ':om:',
         'pt': ':om:',
         'it': ':om:',
-        'fa': u':ام:'
+        'fa': u':ام:',
+        'tr': ':om:'
     },
     u'\U0001F549': { # 🕉
         'en' : ':om:',
@@ -27853,7 +28956,8 @@ EMOJI_DATA = {
         'fr': ':om:',
         'pt': ':om:',
         'it': ':om:',
-        'fa': u':اُم:'
+        'fa': u':اُم:',
+        'tr': ':om:'
     },
     u'\U0001F698': { # 🚘
         'en' : ':oncoming_automobile:',
@@ -27865,7 +28969,8 @@ EMOJI_DATA = {
         'fr': ':voiture_de_face:',
         'pt': ':carro_se_aproximando:',
         'it': ':auto_in_arrivo:',
-        'fa': u':خودرویی_که_نزدیک_می_شود:'
+        'fa': u':خودرویی_که_نزدیک_می_شود:',
+        'tr': u':yaklaşan_araba:'
     },
     u'\U0001F68D': { # 🚍
         'en' : ':oncoming_bus:',
@@ -27877,7 +28982,8 @@ EMOJI_DATA = {
         'fr': ':bus_de_face:',
         'pt': u':ônibus_se_aproximando:',
         'it': ':bus_in_arrivo:',
-        'fa': u':اتوبوس_روبه_جلو:'
+        'fa': u':اتوبوس_روبه_جلو:',
+        'tr': u':yaklaşan_otobüs:'
     },
     u'\U0001F44A': { # 👊
         'en' : ':oncoming_fist:',
@@ -27889,7 +28995,8 @@ EMOJI_DATA = {
         'fr': ':poing_de_face:',
         'pt': ':soco:',
         'it': ':pugno_chiuso:',
-        'fa': u':مشت_گره_کرده:'
+        'fa': u':مشت_گره_کرده:',
+        'tr': u':yaklaşan_yumruk:'
     },
     u'\U0001F44A\U0001F3FF': { # 👊🏿
         'en' : ':oncoming_fist_dark_skin_tone:',
@@ -27951,7 +29058,8 @@ EMOJI_DATA = {
         'fr': ':voiture_de_police_de_face:',
         'pt': ':viatura_policial_se_aproximando:',
         'it': ':macchina_della_polizia_in_arrivo:',
-        'fa': u':ماشین_پلیسی_که_نزدیک_می_شود:'
+        'fa': u':ماشین_پلیسی_که_نزدیک_می_شود:',
+        'tr': u':yaklaşan_polis_arabası:'
     },
     u'\U0001F696': { # 🚖
         'en' : ':oncoming_taxi:',
@@ -27962,7 +29070,8 @@ EMOJI_DATA = {
         'fr': ':taxi_de_face:',
         'pt': u':táxi_se_aproximando:',
         'it': ':taxi_in_arrivo:',
-        'fa': u':تاکسی_ای_که_نزدیک_می_شود:'
+        'fa': u':تاکسی_ای_که_نزدیک_می_شود:',
+        'tr': u':yaklaşan_taksi:'
     },
     u'\U0001FA71': { # 🩱
         'en' : ':one-piece_swimsuit:',
@@ -27974,7 +29083,8 @@ EMOJI_DATA = {
         'fr': u':maillot_de_bain_une_pièce:',
         'pt': u':maiô:',
         'it': ':costume_da_bagno_intero:',
-        'fa': u':مایو_یک_تکه:'
+        'fa': u':مایو_یک_تکه:',
+        'tr': u':tek_parça_mayo:'
     },
     u'\U0001F55C': { # 🕜
         'en' : ':one-thirty:',
@@ -27987,7 +29097,8 @@ EMOJI_DATA = {
         'fr': ':une_heure_et_demie:',
         'pt': ':uma_e_meia:',
         'it': ':ore_una_e_mezza:',
-        'fa': u':ساعت_یک_و_نیم:'
+        'fa': u':ساعت_یک_و_نیم:',
+        'tr': u':bir_buçuk:'
     },
     u'\U0001F550': { # 🕐
         'en' : u':one_o’clock:',
@@ -28000,7 +29111,8 @@ EMOJI_DATA = {
         'fr': ':une_heure:',
         'pt': ':1_hora:',
         'it': ':ore_una:',
-        'fa': u':ساعت_یک:'
+        'fa': u':ساعت_یک:',
+        'tr': ':saat_1:'
     },
     u'\U0001F9C5': { # 🧅
         'en' : ':onion:',
@@ -28011,7 +29123,8 @@ EMOJI_DATA = {
         'fr': ':oignon:',
         'pt': ':cebola:',
         'it': ':cipolla:',
-        'fa': u':پیاز:'
+        'fa': u':پیاز:',
+        'tr': u':soğan:'
     },
     u'\U0001F4D6': { # 📖
         'en' : ':open_book:',
@@ -28023,7 +29136,8 @@ EMOJI_DATA = {
         'fr': ':livre_ouvert:',
         'pt': ':livro_aberto:',
         'it': ':libro_aperto:',
-        'fa': u':کتاب_باز:'
+        'fa': u':کتاب_باز:',
+        'tr': u':açık_kitap:'
     },
     u'\U0001F4C2': { # 📂
         'en' : ':open_file_folder:',
@@ -28034,7 +29148,8 @@ EMOJI_DATA = {
         'fr': ':dossier_ouvert:',
         'pt': ':pasta_de_arquivos_aberta:',
         'it': ':cartella_aperta:',
-        'fa': u':پوشهٔ_باز:'
+        'fa': u':پوشهٔ_باز:',
+        'tr': u':açık_dosya_klasörü:'
     },
     u'\U0001F450': { # 👐
         'en' : ':open_hands:',
@@ -28045,7 +29160,8 @@ EMOJI_DATA = {
         'fr': ':mains_ouvertes:',
         'pt': u':mãos_abertas:',
         'it': ':mani_aperte:',
-        'fa': u':دست_های_باز:'
+        'fa': u':دست_های_باز:',
+        'tr': u':eller_açık:'
     },
     u'\U0001F450\U0001F3FF': { # 👐🏿
         'en' : ':open_hands_dark_skin_tone:',
@@ -28108,7 +29224,8 @@ EMOJI_DATA = {
         'fr': u':boîte_aux_lettres_ouverte_drapeau_baissé:',
         'pt': ':caixa_de_correio_aberta_com_bandeira_abaixada:',
         'it': ':cassetta_postale_aperta_bandierina_abbassata:',
-        'fa': u':صندوق_پستی_باز_با_پرچم_پایین:'
+        'fa': u':صندوق_پستی_باز_با_پرچم_پایین:',
+        'tr': u':işareti_aşağıda_açık_posta_kutusu:'
     },
     u'\U0001F4EC': { # 📬
         'en' : ':open_mailbox_with_raised_flag:',
@@ -28121,7 +29238,8 @@ EMOJI_DATA = {
         'fr': u':boîte_aux_lettres_ouverte_drapeau_levé:',
         'pt': ':caixa_de_correio_aberta_com_bandeira_levantada:',
         'it': ':cassetta_postale_aperta_bandierina_alzata:',
-        'fa': u':صندوق_پستی_باز_با_پرچم_بالا:'
+        'fa': u':صندوق_پستی_باز_با_پرچم_بالا:',
+        'tr': u':işareti_yukarıda_açık_posta_kutusu:'
     },
     u'\U0001F4BF': { # 💿
         'en' : ':optical_disk:',
@@ -28134,7 +29252,8 @@ EMOJI_DATA = {
         'fr': ':cd:',
         'pt': ':cd:',
         'it': ':disco_ottico:',
-        'fa': u':سی_دی:'
+        'fa': u':سی_دی:',
+        'tr': ':optik_disk:'
     },
     u'\U0001F4D9': { # 📙
         'en' : ':orange_book:',
@@ -28145,7 +29264,8 @@ EMOJI_DATA = {
         'fr': ':livre_orange:',
         'pt': ':livro_laranja:',
         'it': ':libro_arancione:',
-        'fa': u':کتاب_نارنجی:'
+        'fa': u':کتاب_نارنجی:',
+        'tr': ':turuncu_kitap:'
     },
     u'\U0001F7E0': { # 🟠
         'en' : ':orange_circle:',
@@ -28156,7 +29276,8 @@ EMOJI_DATA = {
         'fr': ':disque_orange:',
         'pt': u':círculo_laranja:',
         'it': ':cerchio_arancione:',
-        'fa': u':دایره_نارنجی:'
+        'fa': u':دایره_نارنجی:',
+        'tr': ':turuncu_daire:'
     },
     u'\U0001F9E1': { # 🧡
         'en' : ':orange_heart:',
@@ -28167,7 +29288,8 @@ EMOJI_DATA = {
         'fr': u':cœur_orange:',
         'pt': u':coração_laranja:',
         'it': ':cuore_arancione:',
-        'fa': u':قلب_نارنجی:'
+        'fa': u':قلب_نارنجی:',
+        'tr': ':turuncu_kalp:'
     },
     u'\U0001F7E7': { # 🟧
         'en' : ':orange_square:',
@@ -28178,7 +29300,8 @@ EMOJI_DATA = {
         'fr': u':carré_orange:',
         'pt': ':quadrado_laranja:',
         'it': ':quadrato_arancione:',
-        'fa': u':مربع_نارنجی:'
+        'fa': u':مربع_نارنجی:',
+        'tr': ':turuncu_kare:'
     },
     u'\U0001F9A7': { # 🦧
         'en' : ':orangutan:',
@@ -28189,7 +29312,8 @@ EMOJI_DATA = {
         'fr': ':orang-outan:',
         'pt': ':orangotango:',
         'it': ':orangotango:',
-        'fa': u':اورانگوتان:'
+        'fa': u':اورانگوتان:',
+        'tr': ':orangutan:'
     },
     u'\U00002626\U0000FE0F': { # ☦️
         'en' : ':orthodox_cross:',
@@ -28201,7 +29325,8 @@ EMOJI_DATA = {
         'fr': ':croix_orthodoxe:',
         'pt': ':cruz_ortodoxa:',
         'it': ':croce_ortodossa:',
-        'fa': u':صلیب_ارتدوکسی:'
+        'fa': u':صلیب_ارتدوکسی:',
+        'tr': u':ortodoks_haçı:'
     },
     u'\U00002626': { # ☦
         'en' : ':orthodox_cross:',
@@ -28213,7 +29338,8 @@ EMOJI_DATA = {
         'fr': ':croix_orthodoxe:',
         'pt': ':cruz_ortodoxa:',
         'it': ':croce_ortodossa:',
-        'fa': u':صلیب_ارتدوکسی:'
+        'fa': u':صلیب_ارتدوکسی:',
+        'tr': u':ortodoks_haçı:'
     },
     u'\U0001F9A6': { # 🦦
         'en' : ':otter:',
@@ -28224,7 +29350,8 @@ EMOJI_DATA = {
         'fr': ':loutre:',
         'pt': ':lontra:',
         'it': ':lontra:',
-        'fa': u':سمور_آبی:'
+        'fa': u':سمور_آبی:',
+        'tr': ':su_samuru:'
     },
     u'\U0001F4E4': { # 📤
         'en' : ':outbox_tray:',
@@ -28236,7 +29363,8 @@ EMOJI_DATA = {
         'fr': u':boîte_d’envoi:',
         'pt': u':bandeja_de_saída:',
         'it': ':posta_inviata:',
-        'fa': u':صندوق_خروجی:'
+        'fa': u':صندوق_خروجی:',
+        'tr': ':giden_kutusu:'
     },
     u'\U0001F989': { # 🦉
         'en' : ':owl:',
@@ -28247,7 +29375,8 @@ EMOJI_DATA = {
         'fr': ':chouette:',
         'pt': ':coruja:',
         'it': ':gufo:',
-        'fa': u':جغد:'
+        'fa': u':جغد:',
+        'tr': u':baykuş:'
     },
     u'\U0001F402': { # 🐂
         'en' : ':ox:',
@@ -28258,7 +29387,8 @@ EMOJI_DATA = {
         'fr': u':bœuf:',
         'pt': ':boi:',
         'it': ':bue:',
-        'fa': u':گاو_نر:'
+        'fa': u':گاو_نر:',
+        'tr': u':öküz:'
     },
     u'\U0001F9AA': { # 🦪
         'en' : ':oyster:',
@@ -28269,7 +29399,8 @@ EMOJI_DATA = {
         'fr': u':huître:',
         'pt': ':ostra:',
         'it': ':ostrica:',
-        'fa': u':صدف_خوراکی:'
+        'fa': u':صدف_خوراکی:',
+        'tr': ':istiridye:'
     },
     u'\U0001F4E6': { # 📦
         'en' : ':package:',
@@ -28281,7 +29412,8 @@ EMOJI_DATA = {
         'fr': ':colis:',
         'pt': ':pacote:',
         'it': ':pacco:',
-        'fa': u':بسته:'
+        'fa': u':بسته:',
+        'tr': ':paket:'
     },
     u'\U0001F4C4': { # 📄
         'en' : ':page_facing_up:',
@@ -28292,7 +29424,8 @@ EMOJI_DATA = {
         'fr': ':page:',
         'pt': u':página_voltada_para_cima:',
         'it': ':pagina:',
-        'fa': u':صفحهٔ_روبه_بالا:'
+        'fa': u':صفحهٔ_روبه_بالا:',
+        'tr': u':yüzü_yukarıda_sayfa:'
     },
     u'\U0001F4C3': { # 📃
         'en' : ':page_with_curl:',
@@ -28303,7 +29436,8 @@ EMOJI_DATA = {
         'fr': u':page_enroulée:',
         'pt': u':página_dobrada:',
         'it': ':pagina_con_piega:',
-        'fa': u':صفحهٔ_تاشده:'
+        'fa': u':صفحهٔ_تاشده:',
+        'tr': u':kıvrık_sayfa:'
     },
     u'\U0001F4DF': { # 📟
         'en' : ':pager:',
@@ -28315,7 +29449,8 @@ EMOJI_DATA = {
         'fr': ':bipeur:',
         'pt': ':pager:',
         'it': ':cercapersone:',
-        'fa': u':پیجر:'
+        'fa': u':پیجر:',
+        'tr': u':çağrı_cihazı:'
     },
     u'\U0001F58C\U0000FE0F': { # 🖌️
         'en' : ':paintbrush:',
@@ -28328,7 +29463,8 @@ EMOJI_DATA = {
         'fr': ':pinceau:',
         'pt': ':pincel:',
         'it': ':pennello:',
-        'fa': u':قلم_مو:'
+        'fa': u':قلم_مو:',
+        'tr': u':boya_fırçası:'
     },
     u'\U0001F58C': { # 🖌
         'en' : ':paintbrush:',
@@ -28341,7 +29477,8 @@ EMOJI_DATA = {
         'fr': ':pinceau:',
         'pt': ':pincel:',
         'it': ':pennello:',
-        'fa': u':قلم_مو:'
+        'fa': u':قلم_مو:',
+        'tr': u':boya_fırçası:'
     },
     u'\U0001FAF3': { # 🫳
         'en' : ':palm_down_hand:',
@@ -28352,7 +29489,8 @@ EMOJI_DATA = {
         'fr': ':main_paume_vers_le_bas:',
         'pt': u':mão_com_a_palma_para_baixo:',
         'it': ':mano_con_il_palmo_verso_il_basso:',
-        'fa': u':کف_دست_به_پایین:'
+        'fa': u':کف_دست_به_پایین:',
+        'tr': u':avuç_içi_aşağı_bakan_el:'
     },
     u'\U0001FAF3\U0001F3FF': { # 🫳🏿
         'en' : ':palm_down_hand_dark_skin_tone:',
@@ -28388,7 +29526,8 @@ EMOJI_DATA = {
         'fr': ':palmier:',
         'pt': ':palmeira:',
         'it': ':palma:',
-        'fa': u':نخل:'
+        'fa': u':نخل:',
+        'tr': u':palmiye_ağacı:'
     },
     u'\U0001FAF4': { # 🫴
         'en' : ':palm_up_hand:',
@@ -28399,7 +29538,8 @@ EMOJI_DATA = {
         'fr': ':main_paume_vers_le_haut:',
         'pt': u':mão_com_a_palma_para_cima:',
         'it': u':mano_con_il_palmo_verso_l’alto:',
-        'fa': u':کف_دست_به_بالا:'
+        'fa': u':کف_دست_به_بالا:',
+        'tr': u':avuç_içi_yukarı_bakan_el:'
     },
     u'\U0001FAF4\U0001F3FF': { # 🫴🏿
         'en' : ':palm_up_hand_dark_skin_tone:',
@@ -28435,7 +29575,8 @@ EMOJI_DATA = {
         'fr': ':paume_contre_paume_doigts_vers_le_haut:',
         'pt': ':palmas_unidas_para_cima:',
         'it': ':mani_unite_in_alto:',
-        'fa': u':دست_دعا:'
+        'fa': u':دست_دعا:',
+        'tr': u':iki_avuç_açık:'
     },
     u'\U0001F932\U0001F3FF': { # 🤲🏿
         'en' : ':palms_up_together_dark_skin_tone:',
@@ -28496,7 +29637,8 @@ EMOJI_DATA = {
         'fr': ':pancakes:',
         'pt': ':panquecas:',
         'it': ':pancake:',
-        'fa': u':پنکیک:'
+        'fa': u':پنکیک:',
+        'tr': ':krep:'
     },
     u'\U0001F43C': { # 🐼
         'en' : ':panda:',
@@ -28508,7 +29650,8 @@ EMOJI_DATA = {
         'fr': ':panda:',
         'pt': ':rosto_de_panda:',
         'it': ':panda:',
-        'fa': u':پاندا:'
+        'fa': u':پاندا:',
+        'tr': ':panda:'
     },
     u'\U0001F4CE': { # 📎
         'en' : ':paperclip:',
@@ -28519,7 +29662,8 @@ EMOJI_DATA = {
         'fr': ':trombone:',
         'pt': ':clipe_de_papel:',
         'it': ':graffetta:',
-        'fa': u':گیرهٔ_کاغذ:'
+        'fa': u':گیرهٔ_کاغذ:',
+        'tr': u':ataş:'
     },
     u'\U0001FA82': { # 🪂
         'en' : ':parachute:',
@@ -28530,7 +29674,8 @@ EMOJI_DATA = {
         'fr': ':parachute:',
         'pt': ':paraquedas:',
         'it': ':paracadute:',
-        'fa': u':چتر_نجات:'
+        'fa': u':چتر_نجات:',
+        'tr': u':paraşüt:'
     },
     u'\U0001F99C': { # 🦜
         'en' : ':parrot:',
@@ -28541,7 +29686,8 @@ EMOJI_DATA = {
         'fr': ':perroquet:',
         'pt': ':papagaio:',
         'it': ':pappagallo:',
-        'fa': u':طوطی:'
+        'fa': u':طوطی:',
+        'tr': u':papağan:'
     },
     u'\U0000303D\U0000FE0F': { # 〽️
         'en' : ':part_alternation_mark:',
@@ -28553,7 +29699,8 @@ EMOJI_DATA = {
         'fr': ':alternance:',
         'pt': u':sinal_japonês_indicando_início_de_música:',
         'it': ':simbolo_di_alternanza_delle_parti:',
-        'fa': u':علامت_تناوب_بخش:'
+        'fa': u':علامت_تناوب_بخش:',
+        'tr': u':parça_değiştirme_işareti:'
     },
     u'\U0000303D': { # 〽
         'en' : ':part_alternation_mark:',
@@ -28565,7 +29712,8 @@ EMOJI_DATA = {
         'fr': ':alternance:',
         'pt': u':sinal_japonês_indicando_início_de_música:',
         'it': ':simbolo_di_alternanza_delle_parti:',
-        'fa': u':علامت_تناوب_بخش:'
+        'fa': u':علامت_تناوب_بخش:',
+        'tr': u':parça_değiştirme_işareti:'
     },
     u'\U0001F389': { # 🎉
         'en' : ':party_popper:',
@@ -28577,7 +29725,8 @@ EMOJI_DATA = {
         'fr': ':cotillons:',
         'pt': ':cone_de_festa:',
         'it': ':spara_coriandoli:',
-        'fa': u':بمب_کاغذ_رنگی:'
+        'fa': u':بمب_کاغذ_رنگی:',
+        'tr': ':parti_konfetisi:'
     },
     u'\U0001F973': { # 🥳
         'en' : ':partying_face:',
@@ -28588,7 +29737,8 @@ EMOJI_DATA = {
         'fr': ':visage_festif:',
         'pt': ':rosto_festivo:',
         'it': ':faccina_che_festeggia:',
-        'fa': u':جشن_و_سور:'
+        'fa': u':جشن_و_سور:',
+        'tr': u':partide_eğlenen_yüz:'
     },
     u'\U0001F6F3\U0000FE0F': { # 🛳️
         'en' : ':passenger_ship:',
@@ -28600,7 +29750,8 @@ EMOJI_DATA = {
         'fr': ':paquebot:',
         'pt': ':cruzeiro:',
         'it': ':nave_da_crociera:',
-        'fa': u':کشتی_مسافربری:'
+        'fa': u':کشتی_مسافربری:',
+        'tr': ':yolcu_gemisi:'
     },
     u'\U0001F6F3': { # 🛳
         'en' : ':passenger_ship:',
@@ -28612,7 +29763,8 @@ EMOJI_DATA = {
         'fr': ':paquebot:',
         'pt': ':cruzeiro:',
         'it': ':nave_da_crociera:',
-        'fa': u':کشتی_مسافربری:'
+        'fa': u':کشتی_مسافربری:',
+        'tr': ':yolcu_gemisi:'
     },
     u'\U0001F6C2': { # 🛂
         'en' : ':passport_control:',
@@ -28623,7 +29775,8 @@ EMOJI_DATA = {
         'fr': u':contrôle_des_passeports:',
         'pt': ':controle_de_passaportes:',
         'it': ':simbolo_del_controllo_passaporti:',
-        'fa': u':کنترل_گذرنامه:'
+        'fa': u':کنترل_گذرنامه:',
+        'tr': u':pasaport_kontrolü:'
     },
     u'\U000023F8\U0000FE0F': { # ⏸️
         'en' : ':pause_button:',
@@ -28636,7 +29789,8 @@ EMOJI_DATA = {
         'fr': ':bouton_pause:',
         'pt': u':botão_pausar:',
         'it': ':pulsante_pausa:',
-        'fa': u':دکمه_مکث:'
+        'fa': u':دکمه_مکث:',
+        'tr': u':duraklatma_düğmesi:'
     },
     u'\U000023F8': { # ⏸
         'en' : ':pause_button:',
@@ -28649,7 +29803,8 @@ EMOJI_DATA = {
         'fr': ':bouton_pause:',
         'pt': u':botão_pausar:',
         'it': ':pulsante_pausa:',
-        'fa': u':دکمهٔ_مکث:'
+        'fa': u':دکمهٔ_مکث:',
+        'tr': u':duraklatma_düğmesi:'
     },
     u'\U0001F43E': { # 🐾
         'en' : ':paw_prints:',
@@ -28661,7 +29816,8 @@ EMOJI_DATA = {
         'fr': u':empreintes_d’animaux:',
         'pt': ':patas:',
         'it': ':impronte_di_zampe:',
-        'fa': u':رد_پنجه:'
+        'fa': u':رد_پنجه:',
+        'tr': u':pençe_izi:'
     },
     u'\U0000262E\U0000FE0F': { # ☮️
         'en' : ':peace_symbol:',
@@ -28673,7 +29829,8 @@ EMOJI_DATA = {
         'fr': ':symbole_de_paix:',
         'pt': u':símbolo_da_paz:',
         'it': ':simbolo_della_pace:',
-        'fa': u':نماد_صلح:'
+        'fa': u':نماد_صلح:',
+        'tr': u':barış_sembolü:'
     },
     u'\U0000262E': { # ☮
         'en' : ':peace_symbol:',
@@ -28685,7 +29842,8 @@ EMOJI_DATA = {
         'fr': ':symbole_de_paix:',
         'pt': u':símbolo_da_paz:',
         'it': ':simbolo_della_pace:',
-        'fa': u':نماد_صلح:'
+        'fa': u':نماد_صلح:',
+        'tr': u':barış_sembolü:'
     },
     u'\U0001F351': { # 🍑
         'en' : ':peach:',
@@ -28696,7 +29854,8 @@ EMOJI_DATA = {
         'fr': u':pêche:',
         'pt': u':pêssego:',
         'it': ':pesca:',
-        'fa': u':هلو:'
+        'fa': u':هلو:',
+        'tr': u':şeftali:'
     },
     u'\U0001F99A': { # 🦚
         'en' : ':peacock:',
@@ -28707,7 +29866,8 @@ EMOJI_DATA = {
         'fr': ':paon:',
         'pt': u':pavão:',
         'it': ':pavone:',
-        'fa': u':طاووس:'
+        'fa': u':طاووس:',
+        'tr': u':tavus_kuşu:'
     },
     u'\U0001F95C': { # 🥜
         'en' : ':peanuts:',
@@ -28718,7 +29878,8 @@ EMOJI_DATA = {
         'fr': u':cacahuètes:',
         'pt': ':amendoim:',
         'it': ':arachidi:',
-        'fa': u':بادام_زمینی:'
+        'fa': u':بادام_زمینی:',
+        'tr': u':yer_fıstığı:'
     },
     u'\U0001F350': { # 🍐
         'en' : ':pear:',
@@ -28729,7 +29890,8 @@ EMOJI_DATA = {
         'fr': ':poire:',
         'pt': ':pera:',
         'it': ':pera:',
-        'fa': u':گلابی:'
+        'fa': u':گلابی:',
+        'tr': ':armut:'
     },
     u'\U0001F58A\U0000FE0F': { # 🖊️
         'en' : ':pen:',
@@ -28742,7 +29904,8 @@ EMOJI_DATA = {
         'fr': ':stylo:',
         'pt': ':caneta:',
         'it': ':penna_a_sfera:',
-        'fa': u':خودکار:'
+        'fa': u':خودکار:',
+        'tr': ':kalem:'
     },
     u'\U0001F58A': { # 🖊
         'en' : ':pen:',
@@ -28755,7 +29918,8 @@ EMOJI_DATA = {
         'fr': ':stylo:',
         'pt': ':caneta:',
         'it': ':penna_a_sfera:',
-        'fa': u':خودکار:'
+        'fa': u':خودکار:',
+        'tr': ':kalem:'
     },
     u'\U0000270F\U0000FE0F': { # ✏️
         'en' : ':pencil:',
@@ -28768,7 +29932,8 @@ EMOJI_DATA = {
         'fr': ':crayon:',
         'pt': u':lápis:',
         'it': ':matita:',
-        'fa': u':مداد:'
+        'fa': u':مداد:',
+        'tr': u':kurşun_kalem:'
     },
     u'\U0000270F': { # ✏
         'en' : ':pencil:',
@@ -28781,7 +29946,8 @@ EMOJI_DATA = {
         'fr': ':crayon:',
         'pt': u':lápis:',
         'it': ':matita:',
-        'fa': u':مداد:'
+        'fa': u':مداد:',
+        'tr': u':kurşun_kalem:'
     },
     u'\U0001F427': { # 🐧
         'en' : ':penguin:',
@@ -28792,7 +29958,8 @@ EMOJI_DATA = {
         'fr': ':pingouin:',
         'pt': ':pinguim:',
         'it': ':pinguino:',
-        'fa': u':پنگوئن:'
+        'fa': u':پنگوئن:',
+        'tr': ':penguen:'
     },
     u'\U0001F614': { # 😔
         'en' : ':pensive_face:',
@@ -28804,7 +29971,8 @@ EMOJI_DATA = {
         'fr': ':visage_pensif:',
         'pt': ':rosto_deprimido:',
         'it': ':faccina_pensierosa:',
-        'fa': u':افسرده:'
+        'fa': u':افسرده:',
+        'tr': u':düşünceli_yüz:'
     },
     u'\U0001F9D1\U0000200D\U0001F91D\U0000200D\U0001F9D1': { # 🧑‍🤝‍🧑
         'en' : ':people_holding_hands:',
@@ -28815,7 +29983,8 @@ EMOJI_DATA = {
         'fr': ':deux_personnes_se_tenant_la_main:',
         'pt': u':pessoas_de_mãos_dadas:',
         'it': ':persone_che_si_tengono_per_mano:',
-        'fa': u':اشخاصی_دست_در_دست_هم:'
+        'fa': u':اشخاصی_دست_در_دست_هم:',
+        'tr': u':el_ele_tutuşan_insanlar:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F91D\U0000200D\U0001F9D1\U0001F3FF': { # 🧑🏿‍🤝‍🧑🏿
         'en' : ':people_holding_hands_dark_skin_tone:',
@@ -29076,7 +30245,8 @@ EMOJI_DATA = {
         'fr': u':étreinte:',
         'pt': u':pessoas_se_abraçando:',
         'it': ':persone_che_si_abbracciano:',
-        'fa': u':درآغوش_گرفتن:'
+        'fa': u':درآغوش_گرفتن:',
+        'tr': u':kucaklaşan_insanlar:'
     },
     u'\U0001F46F': { # 👯
         'en' : ':people_with_bunny_ears:',
@@ -29088,7 +30258,8 @@ EMOJI_DATA = {
         'fr': ':personnes_avec_des_oreilles_de_lapin:',
         'pt': ':pessoas_com_orelhas_de_coelho:',
         'it': ':persone_con_orecchie_da_coniglio:',
-        'fa': u':رقص:'
+        'fa': u':رقص:',
+        'tr': u':tavşan_kulaklı_kişiler:'
     },
     u'\U0001F93C': { # 🤼
         'en' : ':people_wrestling:',
@@ -29100,7 +30271,8 @@ EMOJI_DATA = {
         'fr': ':personnes_faisant_de_la_lutte:',
         'pt': ':pessoas_lutando:',
         'it': ':persone_che_fanno_la_lotta:',
-        'fa': u':کُشتی_گیران:'
+        'fa': u':کُشتی_گیران:',
+        'tr': u':güreşen_kişiler:'
     },
     u'\U0001F3AD': { # 🎭
         'en' : ':performing_arts:',
@@ -29112,7 +30284,8 @@ EMOJI_DATA = {
         'fr': ':spectacle_vivant:',
         'pt': u':máscara:',
         'it': ':maschere:',
-        'fa': u':هنرهای_نمایشی:'
+        'fa': u':هنرهای_نمایشی:',
+        'tr': u':sahne_sanatları:'
     },
     u'\U0001F623': { # 😣
         'en' : ':persevering_face:',
@@ -29124,7 +30297,8 @@ EMOJI_DATA = {
         'fr': u':visage_persévérant:',
         'pt': ':rosto_perseverante:',
         'it': ':faccina_perseverante:',
-        'fa': u':پافشاری:'
+        'fa': u':پافشاری:',
+        'tr': u':kararlı_yüz:'
     },
     u'\U0001F9D1': { # 🧑
         'en' : ':person:',
@@ -29136,7 +30310,8 @@ EMOJI_DATA = {
         'fr': ':adulte:',
         'pt': ':pessoa:',
         'it': ':persona:',
-        'fa': u':شخص:'
+        'fa': u':شخص:',
+        'tr': u':yetişkin:'
     },
     u'\U0001F9D1\U0000200D\U0001F9B2': { # 🧑‍🦲
         'en' : ':person_bald:',
@@ -29158,7 +30333,8 @@ EMOJI_DATA = {
         'fr': ':personne_barbue:',
         'pt': ':homem_barba:',
         'it': ':persona_con_la_barba:',
-        'fa': u':مرد_ریش_دار:'
+        'fa': u':مرد_ریش_دار:',
+        'tr': u':sakallı_kişi:'
     },
     u'\U0001F6B4': { # 🚴
         'en' : ':person_biking:',
@@ -29170,7 +30346,8 @@ EMOJI_DATA = {
         'fr': ':cycliste:',
         'pt': ':ciclista:',
         'it': ':ciclista:',
-        'fa': u':دوچرخه_سوار:'
+        'fa': u':دوچرخه_سوار:',
+        'tr': u':bisiklet_süren_kişi:'
     },
     u'\U0001F6B4\U0001F3FF': { # 🚴🏿
         'en' : ':person_biking_dark_skin_tone:',
@@ -29232,7 +30409,8 @@ EMOJI_DATA = {
         'fr': ':personne_blonde:',
         'pt': ':pessoa_cabelo_louro:',
         'it': ':persona_bionda:',
-        'fa': u':آدم_موبلوند:'
+        'fa': u':آدم_موبلوند:',
+        'tr': u':sarışın_kişi:'
     },
     u'\U000026F9\U0000FE0F': { # ⛹️
         'en' : ':person_bouncing_ball:',
@@ -29245,7 +30423,8 @@ EMOJI_DATA = {
         'fr': ':personne_avec_ballon:',
         'pt': ':pessoa_jogando_basquete:',
         'it': ':persona_che_fa_rimbalzare_una_palla:',
-        'fa': u':شخص_با_توپ:'
+        'fa': u':شخص_با_توپ:',
+        'tr': u':top_sektiren_kişi:'
     },
     u'\U000026F9': { # ⛹
         'en' : ':person_bouncing_ball:',
@@ -29258,7 +30437,8 @@ EMOJI_DATA = {
         'fr': ':personne_avec_ballon:',
         'pt': ':pessoa_jogando_basquete:',
         'it': ':persona_che_fa_rimbalzare_una_palla:',
-        'fa': u':شخص_با_توپ:'
+        'fa': u':شخص_با_توپ:',
+        'tr': u':top_sektiren_kişi:'
     },
     u'\U000026F9\U0001F3FF': { # ⛹🏿
         'en' : ':person_bouncing_ball_dark_skin_tone:',
@@ -29320,7 +30500,8 @@ EMOJI_DATA = {
         'fr': u':personne_qui_s’incline:',
         'pt': u':pessoa_fazendo_reverência:',
         'it': ':persona_che_fa_un_inchino_profondo:',
-        'fa': u':عذرخواهی:'
+        'fa': u':عذرخواهی:',
+        'tr': u':başını_öne_eğme:'
     },
     u'\U0001F647\U0001F3FF': { # 🙇🏿
         'en' : ':person_bowing_dark_skin_tone:',
@@ -29382,7 +30563,8 @@ EMOJI_DATA = {
         'fr': ':personne_faisant_la_roue:',
         'pt': ':pessoa_fazendo_estrela:',
         'it': ':persona_che_fa_la_ruota:',
-        'fa': u':حرکت_چرخ_و_فلک:'
+        'fa': u':حرکت_چرخ_و_فلک:',
+        'tr': u':perende_atan_kişi:'
     },
     u'\U0001F938\U0001F3FF': { # 🤸🏿
         'en' : ':person_cartwheeling_dark_skin_tone:',
@@ -29444,7 +30626,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_grimpe:',
         'pt': ':pessoa_escalando:',
         'it': ':persona_che_scala:',
-        'fa': u':فردی_کوه_نوردی_می_کند:'
+        'fa': u':فردی_کوه_نوردی_می_کند:',
+        'tr': u':dağcı_kişi:'
     },
     u'\U0001F9D7\U0001F3FF': { # 🧗🏿
         'en' : ':person_climbing_dark_skin_tone:',
@@ -29586,7 +30769,8 @@ EMOJI_DATA = {
         'fr': ':personne_avec_la_paume_sur_le_visage:',
         'pt': ':pessoa_decepcionada:',
         'it': ':persona_esasperata:',
-        'fa': u':با_کف_دست_به_پیشانی_زدن:'
+        'fa': u':با_کف_دست_به_پیشانی_زدن:',
+        'tr': u':yüzünü_eliyle_kapama:'
     },
     u'\U0001F926\U0001F3FF': { # 🤦🏿
         'en' : ':person_facepalming_dark_skin_tone:',
@@ -29647,7 +30831,8 @@ EMOJI_DATA = {
         'fr': u':personne_allaitant_un_bébé:',
         'pt': u':pessoa_alimentando_bebê:',
         'it': ':persona_che_allatta:',
-        'fa': u':شخصی_که_به_بچه_شیر_می_دهد:'
+        'fa': u':شخصی_که_به_بچه_شیر_می_دهد:',
+        'tr': u':bebek_emziren_kişi:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F37C': { # 🧑🏿‍🍼
         'en' : ':person_feeding_baby_dark_skin_tone:',
@@ -29708,7 +30893,8 @@ EMOJI_DATA = {
         'fr': ':escrimeur:',
         'pt': ':esgrimista:',
         'it': ':schermidore:',
-        'fa': u':شمشیربازی:'
+        'fa': u':شمشیربازی:',
+        'tr': ':eskrimci:'
     },
     u'\U0001F64D': { # 🙍
         'en' : ':person_frowning:',
@@ -29720,7 +30906,8 @@ EMOJI_DATA = {
         'fr': u':personne_fronçant_les_sourcils:',
         'pt': ':franzindo_a_sobrancelha:',
         'it': ':persona_corrucciata:',
-        'fa': u':آدم_اخمو:'
+        'fa': u':آدم_اخمو:',
+        'tr': ':somurtma:'
     },
     u'\U0001F64D\U0001F3FF': { # 🙍🏿
         'en' : ':person_frowning_dark_skin_tone:',
@@ -29782,7 +30969,8 @@ EMOJI_DATA = {
         'fr': u':personne_faisant_un_geste_d’interdiction:',
         'pt': u':pessoa_fazendo_gesto_de_“não”:',
         'it': ':persona_che_fa_segno_di_no:',
-        'fa': u':ابداً_نه:'
+        'fa': u':ابداً_نه:',
+        'tr': u':hayır_hareketi:'
     },
     u'\U0001F645\U0001F3FF': { # 🙅🏿
         'en' : ':person_gesturing_NO_dark_skin_tone:',
@@ -29844,7 +31032,8 @@ EMOJI_DATA = {
         'fr': u':personne_faisant_un_geste_d’acceptation:',
         'pt': u':pessoa_fazendo_gesto_de_“ok”:',
         'it': ':persona_con_gesto_ok:',
-        'fa': u':باشه:'
+        'fa': u':باشه:',
+        'tr': ':tamam_hareketi:'
     },
     u'\U0001F646\U0001F3FF': { # 🙆🏿
         'en' : ':person_gesturing_OK_dark_skin_tone:',
@@ -29906,7 +31095,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_se_fait_couper_les_cheveux:',
         'pt': ':pessoa_cortando_o_cabelo:',
         'it': ':taglio_di_capelli:',
-        'fa': u':آرایشگاه:'
+        'fa': u':آرایشگاه:',
+        'tr': u':saç_kesimi:'
     },
     u'\U0001F487\U0001F3FF': { # 💇🏿
         'en' : ':person_getting_haircut_dark_skin_tone:',
@@ -29968,7 +31158,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_se_fait_masser:',
         'pt': ':pessoa_recebendo_massagem_facial:',
         'it': ':persona_che_riceve_un_massaggio:',
-        'fa': u':ماساژ_صورت:'
+        'fa': u':ماساژ_صورت:',
+        'tr': u':yüz_masajı:'
     },
     u'\U0001F486\U0001F3FF': { # 💆🏿
         'en' : ':person_getting_massage_dark_skin_tone:',
@@ -30031,7 +31222,8 @@ EMOJI_DATA = {
         'fr': ':joueur_de_golf:',
         'pt': ':golfista:',
         'it': ':persona_che_gioca_a_golf:',
-        'fa': u':گلف_باز:'
+        'fa': u':گلف_باز:',
+        'tr': u':golf_oynayan_kişi:'
     },
     u'\U0001F3CC': { # 🏌
         'en' : ':person_golfing:',
@@ -30044,7 +31236,8 @@ EMOJI_DATA = {
         'fr': ':joueur_de_golf:',
         'pt': ':golfista:',
         'it': ':persona_che_gioca_a_golf:',
-        'fa': u':گلف_باز:'
+        'fa': u':گلف_باز:',
+        'tr': u':golf_oynayan_kişi:'
     },
     u'\U0001F3CC\U0001F3FF': { # 🏌🏿
         'en' : ':person_golfing_dark_skin_tone:',
@@ -30106,7 +31299,8 @@ EMOJI_DATA = {
         'fr': ':personne_au_lit:',
         'pt': ':pessoa_deitada_na_cama:',
         'it': ':persona_a_letto:',
-        'fa': u':فرد_در_تختخواب:'
+        'fa': u':فرد_در_تختخواب:',
+        'tr': u':yatakta_yatan_kişi:'
     },
     u'\U0001F6CC\U0001F3FF': { # 🛌🏿
         'en' : ':person_in_bed_dark_skin_tone:',
@@ -30168,7 +31362,8 @@ EMOJI_DATA = {
         'fr': ':personne_dans_la_posture_du_lotus:',
         'pt': u':pessoa_na_posição_de_lótus:',
         'it': ':persona_in_posizione_del_loto:',
-        'fa': u':فرد_در_حالت_خلسه:'
+        'fa': u':فرد_در_حالت_خلسه:',
+        'tr': u':lotus_pozisyonundaki_kişi:'
     },
     u'\U0001F9D8\U0001F3FF': { # 🧘🏿
         'en' : ':person_in_lotus_position_dark_skin_tone:',
@@ -30229,7 +31424,8 @@ EMOJI_DATA = {
         'fr': ':personne_en_fauteuil_roulant_manuel:',
         'pt': ':pessoa_em_cadeira_de_rodas_manual:',
         'it': ':persona_su_sedia_a_rotelle_manuale:',
-        'fa': u':شخصی_با_صندلی_چرخ_دار_دستی:'
+        'fa': u':شخصی_با_صندلی_چرخ_دار_دستی:',
+        'tr': u':tekerlekli_sandalyede_kişi:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F9BD': { # 🧑🏿‍🦽
         'en' : ':person_in_manual_wheelchair_dark_skin_tone:',
@@ -30290,7 +31486,8 @@ EMOJI_DATA = {
         'fr': u':personne_en_fauteuil_motorisé:',
         'pt': ':pessoa_em_cadeira_de_rodas_motorizada:',
         'it': ':persona_su_sedia_a_rotelle_motorizzata:',
-        'fa': u':شخصی_با_صندلی_چرخ_دار_موتوری:'
+        'fa': u':شخصی_با_صندلی_چرخ_دار_موتوری:',
+        'tr': u':elektrikli_tekerlekli_sandalyede_kişi:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F9BC': { # 🧑🏿‍🦼
         'en' : ':person_in_motorized_wheelchair_dark_skin_tone:',
@@ -30352,7 +31549,8 @@ EMOJI_DATA = {
         'fr': ':personne_au_hammam:',
         'pt': ':pessoa_na_sauna:',
         'it': ':persona_in_sauna:',
-        'fa': u':فردی_در_حمام_بخار:'
+        'fa': u':فردی_در_حمام_بخار:',
+        'tr': u':buhar_odasındaki_kişi:'
     },
     u'\U0001F9D6\U0001F3FF': { # 🧖🏿
         'en' : ':person_in_steamy_room_dark_skin_tone:',
@@ -30415,7 +31613,8 @@ EMOJI_DATA = {
         'fr': u':homme_d’affaires_en_lévitation:',
         'pt': ':homem_de_terno_levitando:',
         'it': ':uomo_con_completo_che_levita:',
-        'fa': u':پرواز_مرد_با_لباس_رسمی:'
+        'fa': u':پرواز_مرد_با_لباس_رسمی:',
+        'tr': u':havalanan_takım_elbiseli_adam:'
     },
     u'\U0001F574': { # 🕴
         'en' : ':person_in_suit_levitating:',
@@ -30428,7 +31627,8 @@ EMOJI_DATA = {
         'fr': u':homme_d’affaires_en_lévitation:',
         'pt': ':homem_de_terno_levitando:',
         'it': ':uomo_con_completo_che_levita:',
-        'fa': u':پرواز_مرد_با_لباس_رسمی:'
+        'fa': u':پرواز_مرد_با_لباس_رسمی:',
+        'tr': u':havalanan_takım_elbiseli_adam:'
     },
     u'\U0001F574\U0001F3FF': { # 🕴🏿
         'en' : ':person_in_suit_levitating_dark_skin_tone:',
@@ -30489,7 +31689,8 @@ EMOJI_DATA = {
         'fr': ':personne_en_smoking:',
         'pt': ':pessoa_de_smoking:',
         'it': ':persona_in_smoking:',
-        'fa': u':شخص_با_کت_و_شلوار_و_پاپیون:'
+        'fa': u':شخص_با_کت_و_شلوار_و_پاپیون:',
+        'tr': u':smokinli_kişi:'
     },
     u'\U0001F935\U0001F3FF': { # 🤵🏿
         'en' : ':person_in_tuxedo_dark_skin_tone:',
@@ -30551,7 +31752,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_jongle:',
         'pt': ':malabarista:',
         'it': ':persona_che_fa_giocoleria:',
-        'fa': u':ژانگولربازی:'
+        'fa': u':ژانگولربازی:',
+        'tr': u':jonglör:'
     },
     u'\U0001F939\U0001F3FF': { # 🤹🏿
         'en' : ':person_juggling_dark_skin_tone:',
@@ -30613,7 +31815,8 @@ EMOJI_DATA = {
         'fr': u':personne_à_genoux:',
         'pt': ':pessoa_ajoelhando:',
         'it': ':persona_inginocchiata:',
-        'fa': u':آدم_زانوزده:'
+        'fa': u':آدم_زانوزده:',
+        'tr': u':diz_çöken_kişi:'
     },
     u'\U0001F9CE\U0001F3FF': { # 🧎🏿
         'en' : ':person_kneeling_dark_skin_tone:',
@@ -30676,7 +31879,8 @@ EMOJI_DATA = {
         'fr': u':haltérophile:',
         'pt': ':pessoa_levantando_peso:',
         'it': ':persona_che_solleva_pesi:',
-        'fa': u':وزنه_بردار:'
+        'fa': u':وزنه_بردار:',
+        'tr': u':ağırlık_kaldıran_kişi:'
     },
     u'\U0001F3CB': { # 🏋
         'en' : ':person_lifting_weights:',
@@ -30689,7 +31893,8 @@ EMOJI_DATA = {
         'fr': u':haltérophile:',
         'pt': ':pessoa_levantando_peso:',
         'it': ':persona_che_solleva_pesi:',
-        'fa': u':وزنه_بردار:'
+        'fa': u':وزنه_بردار:',
+        'tr': u':ağırlık_kaldıran_kişi:'
     },
     u'\U0001F3CB\U0001F3FF': { # 🏋🏿
         'en' : ':person_lifting_weights_dark_skin_tone:',
@@ -31031,7 +32236,8 @@ EMOJI_DATA = {
         'fr': ':personne_en_vtt:',
         'pt': ':pessoa_fazendo_mountain_bike:',
         'it': ':ciclista_di_mountain_bike:',
-        'fa': u':دوچرخه_کوهستان:'
+        'fa': u':دوچرخه_کوهستان:',
+        'tr': u':dağ_bisikletçisi:'
     },
     u'\U0001F6B5\U0001F3FF': { # 🚵🏿
         'en' : ':person_mountain_biking_dark_skin_tone:',
@@ -31093,7 +32299,8 @@ EMOJI_DATA = {
         'fr': ':personne_jouant_au_handball:',
         'pt': ':handebol:',
         'it': ':persona_che_gioca_a_pallamano:',
-        'fa': u':هندبال:'
+        'fa': u':هندبال:',
+        'tr': ':hentbol:'
     },
     u'\U0001F93E\U0001F3FF': { # 🤾🏿
         'en' : ':person_playing_handball_dark_skin_tone:',
@@ -31155,7 +32362,8 @@ EMOJI_DATA = {
         'fr': ':personne_jouant_au_water-polo:',
         'pt': u':pessoa_jogando_polo_aquático:',
         'it': ':persona_che_gioca_a_pallanuoto:',
-        'fa': u':واترپلو:'
+        'fa': u':واترپلو:',
+        'tr': ':su_topu:'
     },
     u'\U0001F93D\U0001F3FF': { # 🤽🏿
         'en' : ':person_playing_water_polo_dark_skin_tone:',
@@ -31217,7 +32425,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_boude:',
         'pt': ':pessoa_fazendo_bico:',
         'it': ':persona_imbronciata:',
-        'fa': u':آدم_ناراضی:'
+        'fa': u':آدم_ناراضی:',
+        'tr': u':darılma:'
     },
     u'\U0001F64E\U0001F3FF': { # 🙎🏿
         'en' : ':person_pouting_dark_skin_tone:',
@@ -31279,7 +32488,8 @@ EMOJI_DATA = {
         'fr': u':personne_qui_lève_la_main:',
         'pt': u':pessoa_levantando_a_mão:',
         'it': ':persona_con_mano_alzata:',
-        'fa': u':ای_ول:'
+        'fa': u':ای_ول:',
+        'tr': u':elini_kaldırma:'
     },
     u'\U0001F64B\U0001F3FF': { # 🙋🏿
         'en' : ':person_raising_hand_dark_skin_tone:',
@@ -31351,7 +32561,8 @@ EMOJI_DATA = {
         'fr': ':personne_ramant_dans_une_barque:',
         'pt': ':pessoa_remando:',
         'it': ':persona_in_barca_a_remi:',
-        'fa': u':قایق_پارویی:'
+        'fa': u':قایق_پارویی:',
+        'tr': u':sandalda_kürek_çeken_kişi:'
     },
     u'\U0001F6A3\U0001F3FF': { # 🚣🏿
         'en' : ':person_rowing_boat_dark_skin_tone:',
@@ -31413,7 +32624,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_court:',
         'pt': ':pessoa_correndo:',
         'it': ':persona_che_corre:',
-        'fa': u':دونده:'
+        'fa': u':دونده:',
+        'tr': u':koşan_kişi:'
     },
     u'\U0001F3C3\U0001F3FF': { # 🏃🏿
         'en' : ':person_running_dark_skin_tone:',
@@ -31475,7 +32687,8 @@ EMOJI_DATA = {
         'fr': u':personne_qui_hausse_les_épaules:',
         'pt': ':pessoa_dando_de_ombros:',
         'it': ':persona_che_scrolla_le_spalle:',
-        'fa': u':شانه_بالا_انداختن:'
+        'fa': u':شانه_بالا_انداختن:',
+        'tr': ':omuz_silkme:'
     },
     u'\U0001F937\U0001F3FF': { # 🤷🏿
         'en' : ':person_shrugging_dark_skin_tone:',
@@ -31537,7 +32750,8 @@ EMOJI_DATA = {
         'fr': ':personne_debout:',
         'pt': u':pessoa_em_pé:',
         'it': ':persona_in_piedi:',
-        'fa': u':آدم_ایستاده:'
+        'fa': u':آدم_ایستاده:',
+        'tr': u':ayakta_duran_kişi:'
     },
     u'\U0001F9CD\U0001F3FF': { # 🧍🏿
         'en' : ':person_standing_dark_skin_tone:',
@@ -31600,7 +32814,8 @@ EMOJI_DATA = {
         'fr': ':personne_faisant_du_surf:',
         'pt': ':surfista:',
         'it': ':persona_che_fa_surf:',
-        'fa': u':موج_سوار:'
+        'fa': u':موج_سوار:',
+        'tr': u':sörf_yapan_kişi:'
     },
     u'\U0001F3C4\U0001F3FF': { # 🏄🏿
         'en' : ':person_surfing_dark_skin_tone:',
@@ -31663,7 +32878,8 @@ EMOJI_DATA = {
         'fr': ':personne_nageant:',
         'pt': ':pessoa_nadando:',
         'it': ':persona_che_nuota:',
-        'fa': u':شناگر:'
+        'fa': u':شناگر:',
+        'tr': u':yüzen_kişi:'
     },
     u'\U0001F3CA\U0001F3FF': { # 🏊🏿
         'en' : ':person_swimming_dark_skin_tone:',
@@ -31725,7 +32941,8 @@ EMOJI_DATA = {
         'fr': ':personne_prenant_un_bain:',
         'pt': ':pessoa_tomando_banho:',
         'it': ':persona_che_fa_il_bagno:',
-        'fa': u':فرد_در_وان:'
+        'fa': u':فرد_در_وان:',
+        'tr': u':banyo_yapan_kişi:'
     },
     u'\U0001F6C0\U0001F3FF': { # 🛀🏿
         'en' : ':person_taking_bath_dark_skin_tone:',
@@ -31787,7 +33004,8 @@ EMOJI_DATA = {
         'fr': ':personne_paume_vers_le_haut:',
         'pt': ':pessoa_com_a_palma_virada_para_cima:',
         'it': ':persona_al_punto_informazioni:',
-        'fa': u':آماده_کمک:'
+        'fa': u':آماده_کمک:',
+        'tr': u':elini_yana_yatırma:'
     },
     u'\U0001F481\U0001F3FF': { # 💁🏿
         'en' : ':person_tipping_hand_dark_skin_tone:',
@@ -31849,7 +33067,8 @@ EMOJI_DATA = {
         'fr': ':personne_qui_marche:',
         'pt': ':pessoa_andando:',
         'it': ':pedone:',
-        'fa': u':عابر_پیاده:'
+        'fa': u':عابر_پیاده:',
+        'tr': u':yürüyen_kişi:'
     },
     u'\U0001F6B6\U0001F3FF': { # 🚶🏿
         'en' : ':person_walking_dark_skin_tone:',
@@ -31911,7 +33130,8 @@ EMOJI_DATA = {
         'fr': ':personne_en_turban:',
         'pt': ':pessoa_com_turbante:',
         'it': ':persona_con_turbante:',
-        'fa': u':مرد_عمامه_دار:'
+        'fa': u':مرد_عمامه_دار:',
+        'tr': u':sarıklı_kişi:'
     },
     u'\U0001F473\U0001F3FF': { # 👳🏿
         'en' : ':person_wearing_turban_dark_skin_tone:',
@@ -31982,7 +33202,8 @@ EMOJI_DATA = {
         'fr': ':personne_avec_une_couronne:',
         'pt': ':pessoa_com_coroa:',
         'it': ':persona_con_corona:',
-        'fa': u':آدم_تاج_دار:'
+        'fa': u':آدم_تاج_دار:',
+        'tr': u':taç_takmış_insan:'
     },
     u'\U0001FAC5\U0001F3FF': { # 🫅🏿
         'en' : ':person_with_crown_dark_skin_tone:',
@@ -32019,7 +33240,8 @@ EMOJI_DATA = {
         'fr': ':homme_avec_casquette_chinoise:',
         'pt': u':homem_de_boné:',
         'it': ':uomo_con_zucchetto_cinese:',
-        'fa': u':مرد_با_کلاه_چینی:'
+        'fa': u':مرد_با_کلاه_چینی:',
+        'tr': u':çin_şapkalı_erkek:'
     },
     u'\U0001F472\U0001F3FF': { # 👲🏿
         'en' : ':person_with_skullcap_dark_skin_tone:',
@@ -32081,7 +33303,8 @@ EMOJI_DATA = {
         'fr': u':personne_mariée_avec_voile:',
         'pt': u':pessoa_com_véu:',
         'it': ':persona_con_velo:',
-        'fa': u':شخص_با_تور_عروس:'
+        'fa': u':شخص_با_تور_عروس:',
+        'tr': u':duvaklı_gelin:'
     },
     u'\U0001F470\U0001F3FF': { # 👰🏿
         'en' : ':person_with_veil_dark_skin_tone:',
@@ -32142,7 +33365,8 @@ EMOJI_DATA = {
         'fr': ':personne_avec_une_canne_blanche:',
         'pt': ':pessoa_com_bengala_para_cego:',
         'it': ':persona_con_bastone_di_orientamento:',
-        'fa': u':شخصی_با_عصای_راهنما:'
+        'fa': u':شخصی_با_عصای_راهنما:',
+        'tr': u':görme_engelli_bastonlu_kişi:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F9AF': { # 🧑🏿‍🦯
         'en' : ':person_with_white_cane_dark_skin_tone:',
@@ -32203,7 +33427,8 @@ EMOJI_DATA = {
         'fr': u':boîte_de_pétri:',
         'pt': ':placa_de_petri:',
         'it': ':piastra_di_petri:',
-        'fa': u':ظرف_کشت:'
+        'fa': u':ظرف_کشت:',
+        'tr': u':petri_kabı:'
     },
     u'\U000026CF\U0000FE0F': { # ⛏️
         'en' : ':pick:',
@@ -32215,7 +33440,8 @@ EMOJI_DATA = {
         'fr': ':pioche:',
         'pt': ':picareta:',
         'it': ':piccone:',
-        'fa': u':کلنگ:'
+        'fa': u':کلنگ:',
+        'tr': ':kazma:'
     },
     u'\U000026CF': { # ⛏
         'en' : ':pick:',
@@ -32227,7 +33453,8 @@ EMOJI_DATA = {
         'fr': ':pioche:',
         'pt': ':picareta:',
         'it': ':piccone:',
-        'fa': u':کلنگ:'
+        'fa': u':کلنگ:',
+        'tr': ':kazma:'
     },
     u'\U0001F6FB': { # 🛻
         'en' : ':pickup_truck:',
@@ -32238,7 +33465,8 @@ EMOJI_DATA = {
         'fr': ':pick-up:',
         'pt': ':caminhonete:',
         'it': ':pickup:',
-        'fa': u':وانت:'
+        'fa': u':وانت:',
+        'tr': ':pikap:'
     },
     u'\U0001F967': { # 🥧
         'en' : ':pie:',
@@ -32249,7 +33477,8 @@ EMOJI_DATA = {
         'fr': ':tarte:',
         'pt': ':torta:',
         'it': ':torta:',
-        'fa': u':پای:'
+        'fa': u':پای:',
+        'tr': ':tart:'
     },
     u'\U0001F416': { # 🐖
         'en' : ':pig:',
@@ -32261,7 +33490,8 @@ EMOJI_DATA = {
         'fr': ':cochon:',
         'pt': ':porco:',
         'it': ':maiale:',
-        'fa': u':خوک:'
+        'fa': u':خوک:',
+        'tr': ':domuz:'
     },
     u'\U0001F437': { # 🐷
         'en' : ':pig_face:',
@@ -32273,7 +33503,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_cochon:',
         'pt': ':rosto_de_porco:',
         'it': ':muso_di_maiale:',
-        'fa': u':صورت_خوک:'
+        'fa': u':صورت_خوک:',
+        'tr': u':domuz_yüzü:'
     },
     u'\U0001F43D': { # 🐽
         'en' : ':pig_nose:',
@@ -32284,7 +33515,8 @@ EMOJI_DATA = {
         'fr': ':groin:',
         'pt': ':nariz_de_porco:',
         'it': ':naso_da_maiale:',
-        'fa': u':دماغ_خوک:'
+        'fa': u':دماغ_خوک:',
+        'tr': ':domuz_burnu:'
     },
     u'\U0001F4A9': { # 💩
         'en' : ':pile_of_poo:',
@@ -32296,7 +33528,8 @@ EMOJI_DATA = {
         'fr': ':tas_de_crotte:',
         'pt': u':cocô:',
         'it': ':cacca:',
-        'fa': u':یه_تپهٔ_گه:'
+        'fa': u':یه_تپهٔ_گه:',
+        'tr': ':kaka:'
     },
     u'\U0001F48A': { # 💊
         'en' : ':pill:',
@@ -32307,7 +33540,8 @@ EMOJI_DATA = {
         'fr': ':pilule:',
         'pt': ':comprimido:',
         'it': ':pillola:',
-        'fa': u':قرص:'
+        'fa': u':قرص:',
+        'tr': ':hap:'
     },
     u'\U0001F9D1\U0000200D\U00002708\U0000FE0F': { # 🧑‍✈️
         'en' : ':pilot:',
@@ -32318,7 +33552,8 @@ EMOJI_DATA = {
         'fr': ':pilote:',
         'pt': ':piloto:',
         'it': ':pilota:',
-        'fa': u':خلبان:'
+        'fa': u':خلبان:',
+        'tr': ':pilot:'
     },
     u'\U0001F9D1\U0000200D\U00002708': { # 🧑‍✈
         'en' : ':pilot:',
@@ -32329,7 +33564,8 @@ EMOJI_DATA = {
         'fr': ':pilote:',
         'pt': ':piloto:',
         'it': ':pilota:',
-        'fa': u':خلبان:'
+        'fa': u':خلبان:',
+        'tr': ':pilot:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U00002708\U0000FE0F': { # 🧑🏿‍✈️
         'en' : ':pilot_dark_skin_tone:',
@@ -32440,7 +33676,8 @@ EMOJI_DATA = {
         'fr': ':bout_des_doigts_joints:',
         'pt': ':dedos_comprimidos:',
         'it': ':mano_a_pigna:',
-        'fa': u':انگشتان_جمع_شده:'
+        'fa': u':انگشتان_جمع_شده:',
+        'tr': u':kıstırma_hareketi_yapan_parmaklar:'
     },
     u'\U0001F90C\U0001F3FF': { # 🤌🏿
         'en' : ':pinched_fingers_dark_skin_tone:',
@@ -32501,7 +33738,8 @@ EMOJI_DATA = {
         'fr': u':pouce_et_index_rapprochés:',
         'pt': u':mão_beliscando:',
         'it': ':mano_che_fa_il_gesto_del_pizzico:',
-        'fa': u':دست_در_حال_نیشگون_گرفتن:'
+        'fa': u':دست_در_حال_نیشگون_گرفتن:',
+        'tr': u':kıstırma_hareketi_yapan_el:'
     },
     u'\U0001F90F\U0001F3FF': { # 🤏🏿
         'en' : ':pinching_hand_dark_skin_tone:',
@@ -32563,7 +33801,8 @@ EMOJI_DATA = {
         'fr': u':bambou_décoratif:',
         'pt': u':decoração_de_pinhos:',
         'it': u':bambù_decorato:',
-        'fa': u':تزئین_کاج:'
+        'fa': u':تزئین_کاج:',
+        'tr': u':çam_süsleme:'
     },
     u'\U0001F34D': { # 🍍
         'en' : ':pineapple:',
@@ -32574,7 +33813,8 @@ EMOJI_DATA = {
         'fr': ':ananas:',
         'pt': ':abacaxi:',
         'it': ':ananas:',
-        'fa': u':آناناس:'
+        'fa': u':آناناس:',
+        'tr': ':ananas:'
     },
     u'\U0001F3D3': { # 🏓
         'en' : ':ping_pong:',
@@ -32586,7 +33826,8 @@ EMOJI_DATA = {
         'fr': ':ping-pong:',
         'pt': ':pingue-pongue:',
         'it': ':ping_pong:',
-        'fa': u':پینگ_پونگ:'
+        'fa': u':پینگ_پونگ:',
+        'tr': ':masa_tenisi:'
     },
     u'\U0001F3F4\U0000200D\U00002620\U0000FE0F': { # 🏴‍☠️
         'en' : ':pirate_flag:',
@@ -32597,7 +33838,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_de_pirate:',
         'pt': ':bandeira_de_pirata:',
         'it': ':bandiera_dei_pirati:',
-        'fa': u':پرچم_دزدان_دریایی:'
+        'fa': u':پرچم_دزدان_دریایی:',
+        'tr': u':korsan_bayrağı:'
     },
     u'\U0001F3F4\U0000200D\U00002620': { # 🏴‍☠
         'en' : ':pirate_flag:',
@@ -32608,7 +33850,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_de_pirate:',
         'pt': ':bandeira_de_pirata:',
         'it': ':bandiera_dei_pirati:',
-        'fa': u':پرچم_دزدان_دریایی:'
+        'fa': u':پرچم_دزدان_دریایی:',
+        'tr': u':korsan_bayrağı:'
     },
     u'\U0001F355': { # 🍕
         'en' : ':pizza:',
@@ -32619,7 +33862,8 @@ EMOJI_DATA = {
         'fr': ':pizza:',
         'pt': ':pizza:',
         'it': ':pizza:',
-        'fa': u':پیتزا:'
+        'fa': u':پیتزا:',
+        'tr': ':pizza_dilimi:'
     },
     u'\U0001FA85': { # 🪅
         'en' : u':piñata:',
@@ -32631,7 +33875,8 @@ EMOJI_DATA = {
         'fr': u':piñata:',
         'pt': ':pinhata:',
         'it': ':pentolaccia:',
-        'fa': u':پینیاتا:'
+        'fa': u':پینیاتا:',
+        'tr': ':pinyata:'
     },
     u'\U0001FAA7': { # 🪧
         'en' : ':placard:',
@@ -32642,7 +33887,8 @@ EMOJI_DATA = {
         'fr': ':pancarte:',
         'pt': ':placa:',
         'it': ':cartello:',
-        'fa': u':پلاکارد:'
+        'fa': u':پلاکارد:',
+        'tr': ':tabela:'
     },
     u'\U0001F6D0': { # 🛐
         'en' : ':place_of_worship:',
@@ -32653,7 +33899,8 @@ EMOJI_DATA = {
         'fr': ':lieu_de_culte:',
         'pt': ':local_de_culto:',
         'it': ':luogo_di_culto:',
-        'fa': u':محل_عبادت:'
+        'fa': u':محل_عبادت:',
+        'tr': ':ibadethane:'
     },
     u'\U000025B6\U0000FE0F': { # ▶️
         'en' : ':play_button:',
@@ -32666,7 +33913,8 @@ EMOJI_DATA = {
         'fr': ':bouton_lecture:',
         'pt': u':botão_reproduzir:',
         'it': ':pulsante_di_riproduzione:',
-        'fa': u':دکمه_پخش:'
+        'fa': u':دکمه_پخش:',
+        'tr': u':oynatma_düğmesi:'
     },
     u'\U000025B6': { # ▶
         'en' : ':play_button:',
@@ -32679,7 +33927,8 @@ EMOJI_DATA = {
         'fr': ':bouton_lecture:',
         'pt': u':botão_reproduzir:',
         'it': ':pulsante_di_riproduzione:',
-        'fa': u':دکمهٔ_پخش:'
+        'fa': u':دکمهٔ_پخش:',
+        'tr': u':oynatma_düğmesi:'
     },
     u'\U000023EF\U0000FE0F': { # ⏯️
         'en' : ':play_or_pause_button:',
@@ -32692,7 +33941,8 @@ EMOJI_DATA = {
         'fr': ':bouton_lecture/pause:',
         'pt': u':botão_de_reproduzir_ou_pausar:',
         'it': ':pulsante_riproduci_pausa:',
-        'fa': u':دکمه_پخش_یا_مکث:'
+        'fa': u':دکمه_پخش_یا_مکث:',
+        'tr': u':oynatma_veya_duraklatma_düğmesi:'
     },
     u'\U000023EF': { # ⏯
         'en' : ':play_or_pause_button:',
@@ -32705,7 +33955,8 @@ EMOJI_DATA = {
         'fr': ':bouton_lecture/pause:',
         'pt': u':botão_de_reproduzir_ou_pausar:',
         'it': ':pulsante_riproduci/pausa:',
-        'fa': u':دکمهٔ_پخش_یا_مکث:'
+        'fa': u':دکمهٔ_پخش_یا_مکث:',
+        'tr': u':oynatma_veya_duraklatma_düğmesi:'
     },
     u'\U0001F6DD': { # 🛝
         'en' : ':playground_slide:',
@@ -32716,7 +33967,8 @@ EMOJI_DATA = {
         'fr': ':toboggan:',
         'pt': ':escorregador:',
         'it': ':scivolo:',
-        'fa': u':سرسره:'
+        'fa': u':سرسره:',
+        'tr': u':kaydırak:'
     },
     u'\U0001F97A': { # 🥺
         'en' : ':pleading_face:',
@@ -32727,7 +33979,8 @@ EMOJI_DATA = {
         'fr': ':visage_implorant:',
         'pt': ':rosto_implorando:',
         'it': ':faccina_supplichevole:',
-        'fa': u':التماس_کنان:'
+        'fa': u':التماس_کنان:',
+        'tr': u':yalvaran_yüz:'
     },
     u'\U0001FAA0': { # 🪠
         'en' : ':plunger:',
@@ -32738,7 +33991,8 @@ EMOJI_DATA = {
         'fr': ':ventouse:',
         'pt': ':desentupidor:',
         'it': ':sturalavandini:',
-        'fa': u':لوله_بازکن:'
+        'fa': u':لوله_بازکن:',
+        'tr': u':lavabo_pompası:'
     },
     u'\U00002795': { # ➕
         'en' : ':plus:',
@@ -32750,7 +34004,8 @@ EMOJI_DATA = {
         'fr': ':plus:',
         'pt': u':símbolo_de_adição:',
         'it': ':addizione:',
-        'fa': u':بعلاوه:'
+        'fa': u':بعلاوه:',
+        'tr': u':artı:'
     },
     u'\U0001F43B\U0000200D\U00002744\U0000FE0F': { # 🐻‍❄️
         'en' : ':polar_bear:',
@@ -32761,7 +34016,8 @@ EMOJI_DATA = {
         'fr': ':ours_polaire:',
         'pt': ':urso_polar:',
         'it': ':orso_polare:',
-        'fa': u':خرس_قطبی:'
+        'fa': u':خرس_قطبی:',
+        'tr': u':kutup_ayısı:'
     },
     u'\U0001F43B\U0000200D\U00002744': { # 🐻‍❄
         'en' : ':polar_bear:',
@@ -32772,7 +34028,8 @@ EMOJI_DATA = {
         'fr': ':ours_polaire:',
         'pt': ':urso_polar:',
         'it': ':orso_polare:',
-        'fa': u':خرس_قطبی:'
+        'fa': u':خرس_قطبی:',
+        'tr': u':kutup_ayısı:'
     },
     u'\U0001F693': { # 🚓
         'en' : ':police_car:',
@@ -32783,7 +34040,8 @@ EMOJI_DATA = {
         'fr': ':voiture_de_police:',
         'pt': ':viatura_policial:',
         'it': ':macchina_della_polizia:',
-        'fa': u':ماشین_پلیس:'
+        'fa': u':ماشین_پلیس:',
+        'tr': u':polis_arabası:'
     },
     u'\U0001F6A8': { # 🚨
         'en' : ':police_car_light:',
@@ -32795,7 +34053,8 @@ EMOJI_DATA = {
         'fr': ':gyrophare:',
         'pt': ':sirene:',
         'it': ':lampeggiante:',
-        'fa': u':چراغ_ماشین_پلیس:'
+        'fa': u':چراغ_ماشین_پلیس:',
+        'tr': u':polis_lambası:'
     },
     u'\U0001F46E': { # 👮
         'en' : ':police_officer:',
@@ -32807,7 +34066,8 @@ EMOJI_DATA = {
         'fr': ':officier_de_police:',
         'pt': ':policial:',
         'it': ':agente_di_polizia:',
-        'fa': u':پلیس:'
+        'fa': u':پلیس:',
+        'tr': ':polis_memuru:'
     },
     u'\U0001F46E\U0001F3FF': { # 👮🏿
         'en' : ':police_officer_dark_skin_tone:',
@@ -32868,7 +34128,8 @@ EMOJI_DATA = {
         'fr': ':caniche:',
         'pt': ':poodle:',
         'it': ':barboncino:',
-        'fa': u':پودل:'
+        'fa': u':پودل:',
+        'tr': u':kaniş:'
     },
     u'\U0001F3B1': { # 🎱
         'en' : ':pool_8_ball:',
@@ -32880,7 +34141,8 @@ EMOJI_DATA = {
         'fr': ':boule_de_billard:',
         'pt': ':bilhar:',
         'it': ':palla_da_biliardo:',
-        'fa': u':بیلیارد:'
+        'fa': u':بیلیارد:',
+        'tr': ':bilardo:'
     },
     u'\U0001F37F': { # 🍿
         'en' : ':popcorn:',
@@ -32891,7 +34153,8 @@ EMOJI_DATA = {
         'fr': ':pop-corn:',
         'pt': ':pipoca:',
         'it': ':popcorn:',
-        'fa': u':ذرت_بوداده:'
+        'fa': u':ذرت_بوداده:',
+        'tr': u':patlamış_mısır:'
     },
     u'\U0001F3E4': { # 🏤
         'en' : ':post_office:',
@@ -32903,7 +34166,8 @@ EMOJI_DATA = {
         'fr': ':bureau_de_poste:',
         'pt': ':correio:',
         'it': ':ufficio_postale:',
-        'fa': u':ادارهٔ_پست:'
+        'fa': u':ادارهٔ_پست:',
+        'tr': ':postane:'
     },
     u'\U0001F4EF': { # 📯
         'en' : ':postal_horn:',
@@ -32914,7 +34178,8 @@ EMOJI_DATA = {
         'fr': ':cor_postal:',
         'pt': ':corneta_postal:',
         'it': ':corno_postale:',
-        'fa': u':شیپور_پست:'
+        'fa': u':شیپور_پست:',
+        'tr': ':posta_klaksonu:'
     },
     u'\U0001F4EE': { # 📮
         'en' : ':postbox:',
@@ -32925,7 +34190,8 @@ EMOJI_DATA = {
         'fr': u':boîte_aux_lettres:',
         'pt': ':caixa_de_correio:',
         'it': ':cassetta_delle_lettere:',
-        'fa': u':صندوق_پست:'
+        'fa': u':صندوق_پست:',
+        'tr': ':posta_kutusu:'
     },
     u'\U0001F372': { # 🍲
         'en' : ':pot_of_food:',
@@ -32937,7 +34203,8 @@ EMOJI_DATA = {
         'fr': ':marmite:',
         'pt': ':panela:',
         'it': ':pentola_di_cibo:',
-        'fa': u':ظرف_غذا:'
+        'fa': u':ظرف_غذا:',
+        'tr': ':yemek_tenceresi:'
     },
     u'\U0001F6B0': { # 🚰
         'en' : ':potable_water:',
@@ -32948,7 +34215,8 @@ EMOJI_DATA = {
         'fr': ':eau_potable:',
         'pt': u':água_potável:',
         'it': ':acqua_potabile:',
-        'fa': u':آب_آشامیدنی:'
+        'fa': u':آب_آشامیدنی:',
+        'tr': u':içilebilir_su:'
     },
     u'\U0001F954': { # 🥔
         'en' : ':potato:',
@@ -32959,7 +34227,8 @@ EMOJI_DATA = {
         'fr': ':pomme_de_terre:',
         'pt': ':batata:',
         'it': ':patata:',
-        'fa': u':سیب_زمینی:'
+        'fa': u':سیب_زمینی:',
+        'tr': ':patates:'
     },
     u'\U0001FAB4': { # 🪴
         'en' : ':potted_plant:',
@@ -32970,7 +34239,8 @@ EMOJI_DATA = {
         'fr': ':plante_en_pot:',
         'pt': ':vaso_com_planta:',
         'it': ':pianta_in_vaso:',
-        'fa': u':گیاه_گلدانی:'
+        'fa': u':گیاه_گلدانی:',
+        'tr': u':saksı_bitkisi:'
     },
     u'\U0001F357': { # 🍗
         'en' : ':poultry_leg:',
@@ -32981,7 +34251,8 @@ EMOJI_DATA = {
         'fr': ':cuisse_de_poulet:',
         'pt': ':coxa_de_frango:',
         'it': ':coscia_di_pollo:',
-        'fa': u':ران_ماکیان:'
+        'fa': u':ران_ماکیان:',
+        'tr': ':tavuk_butu:'
     },
     u'\U0001F4B7': { # 💷
         'en' : ':pound_banknote:',
@@ -32993,7 +34264,8 @@ EMOJI_DATA = {
         'fr': ':billet_en_livres:',
         'pt': ':nota_de_libra:',
         'it': ':banconota_sterlina:',
-        'fa': u':اسکناس_پوند:'
+        'fa': u':اسکناس_پوند:',
+        'tr': ':sterlin_banknot:'
     },
     u'\U0001FAD7': { # 🫗
         'en' : ':pouring_liquid:',
@@ -33004,7 +34276,8 @@ EMOJI_DATA = {
         'fr': ':verser_un_liquide:',
         'pt': u':derramando_líquido:',
         'it': ':liquido_versato:',
-        'fa': u':ریختن_مایع:'
+        'fa': u':ریختن_مایع:',
+        'tr': u':dökülen_sıvı:'
     },
     u'\U0001F63E': { # 😾
         'en' : ':pouting_cat:',
@@ -33015,7 +34288,8 @@ EMOJI_DATA = {
         'fr': ':chat_qui_boude:',
         'pt': ':rosto_de_gato_mal-humorado:',
         'it': ':gatto_imbronciato:',
-        'fa': u':گربهٔ_اخمو:'
+        'fa': u':گربهٔ_اخمو:',
+        'tr': ':somurtan_kedi:'
     },
     u'\U0001F621': { # 😡
         'en' : ':pouting_face:',
@@ -33027,7 +34301,8 @@ EMOJI_DATA = {
         'fr': ':visage_boudeur:',
         'pt': ':rosto_furioso:',
         'it': ':faccina_accigliata:',
-        'fa': u':خشمگین:'
+        'fa': u':خشمگین:',
+        'tr': u':somurtkan_yüz:'
     },
     u'\U0001F4FF': { # 📿
         'en' : ':prayer_beads:',
@@ -33038,7 +34313,8 @@ EMOJI_DATA = {
         'fr': ':chapelet:',
         'pt': u':rosário_de_oração:',
         'it': ':rosario:',
-        'fa': u':تسبیح:'
+        'fa': u':تسبیح:',
+        'tr': ':tespih:'
     },
     u'\U0001FAC3': { # 🫃
         'en' : ':pregnant_man:',
@@ -33049,7 +34325,8 @@ EMOJI_DATA = {
         'fr': ':homme_enceinte:',
         'pt': u':homem_grávido:',
         'it': ':uomo_incinto:',
-        'fa': u':مرد_باردار:'
+        'fa': u':مرد_باردار:',
+        'tr': ':hamile_adam:'
     },
     u'\U0001FAC3\U0001F3FF': { # 🫃🏿
         'en' : ':pregnant_man_dark_skin_tone:',
@@ -33085,7 +34362,8 @@ EMOJI_DATA = {
         'fr': ':personne_enceinte:',
         'pt': u':pessoa_grávida:',
         'it': ':persona_incinta:',
-        'fa': u':آدم_باردار:'
+        'fa': u':آدم_باردار:',
+        'tr': u':hamile_kişi:'
     },
     u'\U0001FAC4\U0001F3FF': { # 🫄🏿
         'en' : ':pregnant_person_dark_skin_tone:',
@@ -33121,7 +34399,8 @@ EMOJI_DATA = {
         'fr': ':femme_enceinte:',
         'pt': u':grávida:',
         'it': ':donna_incinta:',
-        'fa': u':زن_باردار:'
+        'fa': u':زن_باردار:',
+        'tr': u':hamile_kadın:'
     },
     u'\U0001F930\U0001F3FF': { # 🤰🏿
         'en' : ':pregnant_woman_dark_skin_tone:',
@@ -33182,7 +34461,8 @@ EMOJI_DATA = {
         'fr': ':bretzel:',
         'pt': ':pretzel:',
         'it': ':pretzel:',
-        'fa': u':چوب_شور:'
+        'fa': u':چوب_شور:',
+        'tr': ':pretzel:'
     },
     u'\U0001F934': { # 🤴
         'en' : ':prince:',
@@ -33193,7 +34473,8 @@ EMOJI_DATA = {
         'fr': ':prince:',
         'pt': u':príncipe:',
         'it': ':principe:',
-        'fa': u':شاهزاده:'
+        'fa': u':شاهزاده:',
+        'tr': ':prens:'
     },
     u'\U0001F934\U0001F3FF': { # 🤴🏿
         'en' : ':prince_dark_skin_tone:',
@@ -33254,7 +34535,8 @@ EMOJI_DATA = {
         'fr': ':princesse:',
         'pt': ':princesa:',
         'it': ':principessa:',
-        'fa': u':شاهزاده_خانم:'
+        'fa': u':شاهزاده_خانم:',
+        'tr': ':prenses:'
     },
     u'\U0001F478\U0001F3FF': { # 👸🏿
         'en' : ':princess_dark_skin_tone:',
@@ -33316,7 +34598,8 @@ EMOJI_DATA = {
         'fr': ':imprimante:',
         'pt': ':impressora:',
         'it': ':stampante:',
-        'fa': u':چاپگر:'
+        'fa': u':چاپگر:',
+        'tr': u':yazıcı:'
     },
     u'\U0001F5A8': { # 🖨
         'en' : ':printer:',
@@ -33328,7 +34611,8 @@ EMOJI_DATA = {
         'fr': ':imprimante:',
         'pt': ':impressora:',
         'it': ':stampante:',
-        'fa': u':چاپگر:'
+        'fa': u':چاپگر:',
+        'tr': u':yazıcı:'
     },
     u'\U0001F6AB': { # 🚫
         'en' : ':prohibited:',
@@ -33340,7 +34624,8 @@ EMOJI_DATA = {
         'fr': u':symbole_d’interdiction:',
         'pt': ':proibido:',
         'it': ':segnale_di_divieto:',
-        'fa': u':ممنوع:'
+        'fa': u':ممنوع:',
+        'tr': ':girmek_yasak:'
     },
     u'\U0001F7E3': { # 🟣
         'en' : ':purple_circle:',
@@ -33351,7 +34636,8 @@ EMOJI_DATA = {
         'fr': ':disque_violet:',
         'pt': u':círculo_roxo:',
         'it': ':cerchio_viola:',
-        'fa': u':دایره_بنفش:'
+        'fa': u':دایره_بنفش:',
+        'tr': ':mor_daire:'
     },
     u'\U0001F49C': { # 💜
         'en' : ':purple_heart:',
@@ -33362,7 +34648,8 @@ EMOJI_DATA = {
         'fr': u':cœur_violet:',
         'pt': u':coração_roxo:',
         'it': ':cuore_viola:',
-        'fa': u':قلب_بنفش:'
+        'fa': u':قلب_بنفش:',
+        'tr': ':mor_kalp:'
     },
     u'\U0001F7EA': { # 🟪
         'en' : ':purple_square:',
@@ -33373,7 +34660,8 @@ EMOJI_DATA = {
         'fr': u':carré_violet:',
         'pt': ':quadrado_roxo:',
         'it': ':quadrato_viola:',
-        'fa': u':مربع_بنفش:'
+        'fa': u':مربع_بنفش:',
+        'tr': ':mor_kare:'
     },
     u'\U0001F45B': { # 👛
         'en' : ':purse:',
@@ -33384,7 +34672,8 @@ EMOJI_DATA = {
         'fr': ':porte-monnaie:',
         'pt': ':bolsinha:',
         'it': ':borsellino:',
-        'fa': u':کیف_دستی:'
+        'fa': u':کیف_دستی:',
+        'tr': u':cüzdan:'
     },
     u'\U0001F4CC': { # 📌
         'en' : ':pushpin:',
@@ -33395,7 +34684,8 @@ EMOJI_DATA = {
         'fr': ':punaise:',
         'pt': ':tacha:',
         'it': ':puntina:',
-        'fa': u':سنجاق:'
+        'fa': u':سنجاق:',
+        'tr': ':raptiye:'
     },
     u'\U0001F9E9': { # 🧩
         'en' : ':puzzle_piece:',
@@ -33407,7 +34697,8 @@ EMOJI_DATA = {
         'fr': u':pièce_de_puzzle:',
         'pt': u':quebra-cabeça:',
         'it': ':pezzo_di_puzzle:',
-        'fa': u':قطعه_پازل:'
+        'fa': u':قطعه_پازل:',
+        'tr': u':yapboz_parçası:'
     },
     u'\U0001F407': { # 🐇
         'en' : ':rabbit:',
@@ -33419,7 +34710,8 @@ EMOJI_DATA = {
         'fr': ':lapin:',
         'pt': ':coelho:',
         'it': ':coniglio:',
-        'fa': u':خرگوش:'
+        'fa': u':خرگوش:',
+        'tr': u':tavşan:'
     },
     u'\U0001F430': { # 🐰
         'en' : ':rabbit_face:',
@@ -33431,7 +34723,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_lapin:',
         'pt': ':rosto_de_coelho:',
         'it': ':muso_di_coniglio:',
-        'fa': u':صورت_خرگوش:'
+        'fa': u':صورت_خرگوش:',
+        'tr': u':tavşan_yüzü:'
     },
     u'\U0001F99D': { # 🦝
         'en' : ':raccoon:',
@@ -33442,7 +34735,8 @@ EMOJI_DATA = {
         'fr': ':raton_laveur:',
         'pt': ':guaxinim:',
         'it': ':procione:',
-        'fa': u':راکون:'
+        'fa': u':راکون:',
+        'tr': ':rakun:'
     },
     u'\U0001F3CE\U0000FE0F': { # 🏎️
         'en' : ':racing_car:',
@@ -33454,7 +34748,8 @@ EMOJI_DATA = {
         'fr': ':voiture_de_course:',
         'pt': ':carro_de_corrida:',
         'it': ':auto_da_corsa:',
-        'fa': u':ماشین_مسابقه:'
+        'fa': u':ماشین_مسابقه:',
+        'tr': u':yarış_arabası:'
     },
     u'\U0001F3CE': { # 🏎
         'en' : ':racing_car:',
@@ -33466,7 +34761,8 @@ EMOJI_DATA = {
         'fr': ':voiture_de_course:',
         'pt': ':carro_de_corrida:',
         'it': ':auto_da_corsa:',
-        'fa': u':ماشین_مسابقه:'
+        'fa': u':ماشین_مسابقه:',
+        'tr': u':yarış_arabası:'
     },
     u'\U0001F4FB': { # 📻
         'en' : ':radio:',
@@ -33478,7 +34774,8 @@ EMOJI_DATA = {
         'fr': ':radio:',
         'pt': u':rádio:',
         'it': ':radio:',
-        'fa': u':رادیو:'
+        'fa': u':رادیو:',
+        'tr': ':radyo:'
     },
     u'\U0001F518': { # 🔘
         'en' : ':radio_button:',
@@ -33489,7 +34786,8 @@ EMOJI_DATA = {
         'fr': ':bouton_radio:',
         'pt': u':botão_de_opção:',
         'it': ':pulsante_rotondo:',
-        'fa': u':دکمهٔ_رادیویی:'
+        'fa': u':دکمهٔ_رادیویی:',
+        'tr': u':radyo_düğmesi:'
     },
     u'\U00002622\U0000FE0F': { # ☢️
         'en' : ':radioactive:',
@@ -33502,7 +34800,8 @@ EMOJI_DATA = {
         'fr': ':radioactif:',
         'pt': ':radioativo:',
         'it': u':simbolo_della_radioattività:',
-        'fa': u':رادیواکتیو:'
+        'fa': u':رادیواکتیو:',
+        'tr': ':radyoaktif:'
     },
     u'\U00002622': { # ☢
         'en' : ':radioactive:',
@@ -33515,7 +34814,8 @@ EMOJI_DATA = {
         'fr': ':radioactif:',
         'pt': ':radioativo:',
         'it': u':simbolo_della_radioattività:',
-        'fa': u':رادیواکتیو:'
+        'fa': u':رادیواکتیو:',
+        'tr': ':radyoaktif:'
     },
     u'\U0001F683': { # 🚃
         'en' : ':railway_car:',
@@ -33526,7 +34826,8 @@ EMOJI_DATA = {
         'fr': ':wagon:',
         'pt': u':vagão_de_trem:',
         'it': ':vagone:',
-        'fa': u':واگن_ریلی:'
+        'fa': u':واگن_ریلی:',
+        'tr': ':vagon:'
     },
     u'\U0001F6E4\U0000FE0F': { # 🛤️
         'en' : ':railway_track:',
@@ -33538,7 +34839,8 @@ EMOJI_DATA = {
         'fr': u':voie_ferrée:',
         'pt': ':trilhos:',
         'it': ':binari:',
-        'fa': u':ریل_قطار:'
+        'fa': u':ریل_قطار:',
+        'tr': ':tren_yolu:'
     },
     u'\U0001F6E4': { # 🛤
         'en' : ':railway_track:',
@@ -33550,7 +34852,8 @@ EMOJI_DATA = {
         'fr': u':voie_ferrée:',
         'pt': ':trilhos:',
         'it': ':binari:',
-        'fa': u':ریل_قطار:'
+        'fa': u':ریل_قطار:',
+        'tr': ':tren_yolu:'
     },
     u'\U0001F308': { # 🌈
         'en' : ':rainbow:',
@@ -33561,7 +34864,8 @@ EMOJI_DATA = {
         'fr': ':arc-en-ciel:',
         'pt': u':arco-íris:',
         'it': ':arcobaleno:',
-        'fa': u':رنگین_کمان:'
+        'fa': u':رنگین_کمان:',
+        'tr': u':gökkuşağı:'
     },
     u'\U0001F3F3\U0000FE0F\U0000200D\U0001F308': { # 🏳️‍🌈
         'en' : ':rainbow_flag:',
@@ -33572,7 +34876,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_arc-en-ciel:',
         'pt': u':bandeira_do_arco-íris:',
         'it': ':bandiera_arcobaleno:',
-        'fa': u':پرچم_رنگین_کمان:'
+        'fa': u':پرچم_رنگین_کمان:',
+        'tr': u':gökkuşağı_bayrağı:'
     },
     u'\U0001F3F3\U0000200D\U0001F308': { # 🏳‍🌈
         'en' : ':rainbow_flag:',
@@ -33583,7 +34888,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_arc-en-ciel:',
         'pt': u':bandeira_do_arco-íris:',
         'it': ':bandiera_arcobaleno:',
-        'fa': u':پرچم_رنگین_کمان:'
+        'fa': u':پرچم_رنگین_کمان:',
+        'tr': u':gökkuşağı_bayrağı:'
     },
     u'\U0001F91A': { # 🤚
         'en' : ':raised_back_of_hand:',
@@ -33594,7 +34900,8 @@ EMOJI_DATA = {
         'fr': u':dos_de_main_levée:',
         'pt': u':dorso_da_mão_levantado:',
         'it': ':dorso_mano_alzata:',
-        'fa': u':پشت_دست:'
+        'fa': u':پشت_دست:',
+        'tr': u':elinin_tersini_kaldırma:'
     },
     u'\U0001F91A\U0001F3FF': { # 🤚🏿
         'en' : ':raised_back_of_hand_dark_skin_tone:',
@@ -33656,7 +34963,8 @@ EMOJI_DATA = {
         'fr': u':poing_levé:',
         'pt': ':punho_levantado:',
         'it': ':pugno:',
-        'fa': u':مشت_کردن:'
+        'fa': u':مشت_کردن:',
+        'tr': u':yumruk_kaldırma:'
     },
     u'\U0000270A\U0001F3FF': { # ✊🏿
         'en' : ':raised_fist_dark_skin_tone:',
@@ -33718,7 +35026,8 @@ EMOJI_DATA = {
         'fr': u':main_levée:',
         'pt': u':mão_levantada:',
         'it': ':mano_alzata:',
-        'fa': u':دست_بالابرده:'
+        'fa': u':دست_بالابرده:',
+        'tr': u':el_kaldırma:'
     },
     u'\U0000270B\U0001F3FF': { # ✋🏿
         'en' : ':raised_hand_dark_skin_tone:',
@@ -33780,7 +35089,8 @@ EMOJI_DATA = {
         'fr': u':mains_levées:',
         'pt': u':mãos_para_cima:',
         'it': ':mani_alzate:',
-        'fa': u':دست_های_بالا_آورده:'
+        'fa': u':دست_های_بالا_آورده:',
+        'tr': ':eller_havaya:'
     },
     u'\U0001F64C\U0001F3FF': { # 🙌🏿
         'en' : ':raising_hands_dark_skin_tone:',
@@ -33841,7 +35151,8 @@ EMOJI_DATA = {
         'fr': u':bélier:',
         'pt': ':carneiro:',
         'it': ':montone:',
-        'fa': u':قوچ:'
+        'fa': u':قوچ:',
+        'tr': u':koç:'
     },
     u'\U0001F400': { # 🐀
         'en' : ':rat:',
@@ -33852,7 +35163,8 @@ EMOJI_DATA = {
         'fr': ':rat:',
         'pt': ':rato:',
         'it': ':ratto:',
-        'fa': u':موش_صحرایی:'
+        'fa': u':موش_صحرایی:',
+        'tr': u':sıçan:'
     },
     u'\U0001FA92': { # 🪒
         'en' : ':razor:',
@@ -33863,7 +35175,8 @@ EMOJI_DATA = {
         'fr': ':rasoir:',
         'pt': u':lâmina:',
         'it': ':rasoio:',
-        'fa': u':ریش_تراش:'
+        'fa': u':ریش_تراش:',
+        'tr': ':ustura:'
     },
     u'\U0001F9FE': { # 🧾
         'en' : ':receipt:',
@@ -33874,7 +35187,8 @@ EMOJI_DATA = {
         'fr': u':reçu:',
         'pt': ':recibo:',
         'it': ':scontrino:',
-        'fa': u':رسید:'
+        'fa': u':رسید:',
+        'tr': ':makbuz:'
     },
     u'\U000023FA\U0000FE0F': { # ⏺️
         'en' : ':record_button:',
@@ -33887,7 +35201,8 @@ EMOJI_DATA = {
         'fr': ':bouton_enregistrer:',
         'pt': u':botão_gravar:',
         'it': ':pulsante_di_registrazione:',
-        'fa': u':دکمه_ضبط:'
+        'fa': u':دکمه_ضبط:',
+        'tr': u':kayıt_düğmesi:'
     },
     u'\U000023FA': { # ⏺
         'en' : ':record_button:',
@@ -33900,7 +35215,8 @@ EMOJI_DATA = {
         'fr': ':bouton_enregistrer:',
         'pt': u':botão_gravar:',
         'it': ':pulsante_di_registrazione:',
-        'fa': u':دکمهٔ_ضبط:'
+        'fa': u':دکمهٔ_ضبط:',
+        'tr': u':kayıt_düğmesi:'
     },
     u'\U0000267B\U0000FE0F': { # ♻️
         'en' : ':recycling_symbol:',
@@ -33913,7 +35229,8 @@ EMOJI_DATA = {
         'fr': ':symbole_recyclage:',
         'pt': u':símbolo_de_reciclagem:',
         'it': ':simbolo_del_riciclaggio:',
-        'fa': u':نماد_بازیافت:'
+        'fa': u':نماد_بازیافت:',
+        'tr': u':geri_dönüşüm_simgesi:'
     },
     u'\U0000267B': { # ♻
         'en' : ':recycling_symbol:',
@@ -33926,7 +35243,8 @@ EMOJI_DATA = {
         'fr': ':symbole_recyclage:',
         'pt': u':símbolo_de_reciclagem:',
         'it': ':simbolo_del_riciclaggio:',
-        'fa': u':نماد_بازیافت:'
+        'fa': u':نماد_بازیافت:',
+        'tr': u':geri_dönüşüm_simgesi:'
     },
     u'\U0001F34E': { # 🍎
         'en' : ':red_apple:',
@@ -33938,7 +35256,8 @@ EMOJI_DATA = {
         'fr': ':pomme_rouge:',
         'pt': u':maçã_vermelha:',
         'it': ':mela_rossa:',
-        'fa': u':سیب_سرخ:'
+        'fa': u':سیب_سرخ:',
+        'tr': u':kırmızı_elma:'
     },
     u'\U0001F534': { # 🔴
         'en' : ':red_circle:',
@@ -33949,7 +35268,8 @@ EMOJI_DATA = {
         'fr': ':disque_rouge:',
         'pt': u':círculo_vermelho:',
         'it': ':cerchio_rosso:',
-        'fa': u':دایره_قرمز:'
+        'fa': u':دایره_قرمز:',
+        'tr': u':kırmızı_daire:'
     },
     u'\U0001F9E7': { # 🧧
         'en' : ':red_envelope:',
@@ -33960,7 +35280,8 @@ EMOJI_DATA = {
         'fr': ':enveloppe_rouge:',
         'pt': ':envelope_vermelho:',
         'it': ':busta_hongbao:',
-        'fa': u':پاکت_سرخ:'
+        'fa': u':پاکت_سرخ:',
+        'tr': u':kırmızı_zarf:'
     },
     u'\U00002757': { # ❗
         'en' : ':red_exclamation_mark:',
@@ -33973,7 +35294,8 @@ EMOJI_DATA = {
         'fr': u':point_d’exclamation_rouge:',
         'pt': u':ponto_de_exclamação_vermelho:',
         'it': ':punto_esclamativo_rosso:',
-        'fa': u':علامت_تعجب_قرمز:'
+        'fa': u':علامت_تعجب_قرمز:',
+        'tr': u':kırmızı_ünlem_işareti:'
     },
     u'\U0001F9B0': { # 🦰
         'en' : ':red_hair:',
@@ -33984,7 +35306,8 @@ EMOJI_DATA = {
         'fr': ':cheveux_roux:',
         'pt': ':cabelo_vermelho:',
         'it': ':capelli_rossi:',
-        'fa': u':موقرمز:'
+        'fa': u':موقرمز:',
+        'tr': u':kızıl_saç:'
     },
     u'\U00002764\U0000FE0F': { # ❤️
         'en' : ':red_heart:',
@@ -33997,7 +35320,8 @@ EMOJI_DATA = {
         'fr': u':cœur_rouge:',
         'pt': u':coração_vermelho:',
         'it': ':cuore_rosso:',
-        'fa': u':قلب_قرمز:'
+        'fa': u':قلب_قرمز:',
+        'tr': u':kırmızı_kalp:'
     },
     u'\U00002764': { # ❤
         'en' : ':red_heart:',
@@ -34010,7 +35334,8 @@ EMOJI_DATA = {
         'fr': u':cœur_rouge:',
         'pt': u':coração_vermelho:',
         'it': ':cuore_rosso:',
-        'fa': u':قلب_قرمز:'
+        'fa': u':قلب_قرمز:',
+        'tr': u':kırmızı_kalp:'
     },
     u'\U0001F3EE': { # 🏮
         'en' : ':red_paper_lantern:',
@@ -34022,7 +35347,8 @@ EMOJI_DATA = {
         'fr': ':lampion_rouge:',
         'pt': ':lanterna_vermelha_de_papel:',
         'it': ':lanterna_rossa:',
-        'fa': u':فانوس_کاغذی_قرمز:'
+        'fa': u':فانوس_کاغذی_قرمز:',
+        'tr': u':kırmızı_kağıt_fener:'
     },
     u'\U00002753': { # ❓
         'en' : ':red_question_mark:',
@@ -34035,7 +35361,8 @@ EMOJI_DATA = {
         'fr': u':point_d’interrogation_rouge:',
         'pt': u':ponto_de_interrogação_vermelho:',
         'it': ':punto_interrogativo_rosso:',
-        'fa': u':علامت_سؤال_قرمز:'
+        'fa': u':علامت_سؤال_قرمز:',
+        'tr': u':kırmızı_soru_işareti:'
     },
     u'\U0001F7E5': { # 🟥
         'en' : ':red_square:',
@@ -34046,7 +35373,8 @@ EMOJI_DATA = {
         'fr': u':carré_rouge:',
         'pt': ':quadrado_vermelho:',
         'it': ':quadrato_rosso:',
-        'fa': u':مربع_سرخ:'
+        'fa': u':مربع_سرخ:',
+        'tr': u':kırmızı_kare:'
     },
     u'\U0001F53B': { # 🔻
         'en' : ':red_triangle_pointed_down:',
@@ -34058,7 +35386,8 @@ EMOJI_DATA = {
         'fr': ':triangle_rouge_pointant_vers_le_bas:',
         'pt': u':triângulo_vermelho_para_baixo:',
         'it': ':triangolo_rosso_con_punta_verso_il_basso:',
-        'fa': u':مثلث_با_رأس_پایین:'
+        'fa': u':مثلث_با_رأس_پایین:',
+        'tr': u':aşağı_bakan_kırmızı_üçgen:'
     },
     u'\U0001F53A': { # 🔺
         'en' : ':red_triangle_pointed_up:',
@@ -34070,7 +35399,8 @@ EMOJI_DATA = {
         'fr': ':triangle_rouge_pointant_vers_le_haut:',
         'pt': u':triângulo_vermelho_para_cima:',
         'it': u':triangolo_rosso_con_punta_verso_l’alto:',
-        'fa': u':مثلث_با_رأس_بالا:'
+        'fa': u':مثلث_با_رأس_بالا:',
+        'tr': u':yukarı_bakan_kırmızı_üçgen:'
     },
     u'\U000000AE\U0000FE0F': { # ®️
         'en' : ':registered:',
@@ -34082,7 +35412,8 @@ EMOJI_DATA = {
         'fr': u':marque_déposée:',
         'pt': u':símbolo_de_registrado:',
         'it': ':marchio_registrato:',
-        'fa': u':نشان_تجاری_ثبت_شده:'
+        'fa': u':نشان_تجاری_ثبت_شده:',
+        'tr': u':tescil_işareti:'
     },
     u'\U000000AE': { # ®
         'en' : ':registered:',
@@ -34094,7 +35425,8 @@ EMOJI_DATA = {
         'fr': u':marque_déposée:',
         'pt': u':símbolo_de_registrado:',
         'it': ':marchio_registrato:',
-        'fa': u':نشان_تجاری_ثبت_شده:'
+        'fa': u':نشان_تجاری_ثبت_شده:',
+        'tr': u':tescil_işareti:'
     },
     u'\U0001F60C': { # 😌
         'en' : ':relieved_face:',
@@ -34106,7 +35438,8 @@ EMOJI_DATA = {
         'fr': u':visage_soulagé:',
         'pt': ':rosto_aliviado:',
         'it': ':faccina_sollevata:',
-        'fa': u':آسوده_خاطر:'
+        'fa': u':آسوده_خاطر:',
+        'tr': u':rahatlamış_yüz:'
     },
     u'\U0001F397\U0000FE0F': { # 🎗️
         'en' : ':reminder_ribbon:',
@@ -34118,7 +35451,8 @@ EMOJI_DATA = {
         'fr': u':ruban_de_mémoire:',
         'pt': ':fita_de_lembrete:',
         'it': ':nastro:',
-        'fa': u':روبان_یادآوری:'
+        'fa': u':روبان_یادآوری:',
+        'tr': ':anma_kurdelesi:'
     },
     u'\U0001F397': { # 🎗
         'en' : ':reminder_ribbon:',
@@ -34130,7 +35464,8 @@ EMOJI_DATA = {
         'fr': u':ruban_de_mémoire:',
         'pt': ':fita_de_lembrete:',
         'it': ':nastro:',
-        'fa': u':روبان_یادآوری:'
+        'fa': u':روبان_یادآوری:',
+        'tr': ':anma_kurdelesi:'
     },
     u'\U0001F501': { # 🔁
         'en' : ':repeat_button:',
@@ -34142,7 +35477,8 @@ EMOJI_DATA = {
         'fr': u':bouton_répétition:',
         'pt': u':botão_de_repetir:',
         'it': ':pulsante_di_ripetizione_della_riproduzione:',
-        'fa': u':دکمهٔ_تکرار:'
+        'fa': u':دکمهٔ_تکرار:',
+        'tr': u':tekrarlama_düğmesi:'
     },
     u'\U0001F502': { # 🔂
         'en' : ':repeat_single_button:',
@@ -34154,7 +35490,8 @@ EMOJI_DATA = {
         'fr': u':bouton_répétition_de_la_piste:',
         'pt': u':botão_de_repetir_uma_única_faixa:',
         'it': ':pulsante_di_ripetizione_della_riproduzione_di_una_traccia:',
-        'fa': u':دکمهٔ_یک_بار_تکرار:'
+        'fa': u':دکمهٔ_یک_بار_تکرار:',
+        'tr': u':tek_parça_tekrarlama_düğmesi:'
     },
     u'\U000026D1\U0000FE0F': { # ⛑️
         'en' : u':rescue_worker’s_helmet:',
@@ -34167,7 +35504,8 @@ EMOJI_DATA = {
         'fr': ':casque_de_secouriste:',
         'pt': ':capacacete_de_socorrista:',
         'it': ':elmetto_con_croce_bianca:',
-        'fa': u':کلاه_صلیب_سرخ:'
+        'fa': u':کلاه_صلیب_سرخ:',
+        'tr': u':yardım_ekibi_kaskı:'
     },
     u'\U000026D1': { # ⛑
         'en' : u':rescue_worker’s_helmet:',
@@ -34180,7 +35518,8 @@ EMOJI_DATA = {
         'fr': ':casque_de_secouriste:',
         'pt': ':capacacete_de_socorrista:',
         'it': ':elmetto_con_croce_bianca:',
-        'fa': u':کلاه_صلیب_سرخ:'
+        'fa': u':کلاه_صلیب_سرخ:',
+        'tr': u':yardım_ekibi_kaskı:'
     },
     u'\U0001F6BB': { # 🚻
         'en' : ':restroom:',
@@ -34191,7 +35530,8 @@ EMOJI_DATA = {
         'fr': ':panneau_toilettes:',
         'pt': ':banheiro:',
         'it': ':simbolo_dei_servizi_igienici:',
-        'fa': u':توالت_عمومی:'
+        'fa': u':توالت_عمومی:',
+        'tr': ':tuvalet:'
     },
     u'\U000025C0\U0000FE0F': { # ◀️
         'en' : ':reverse_button:',
@@ -34204,7 +35544,8 @@ EMOJI_DATA = {
         'fr': ':bouton_retour:',
         'pt': u':botão_de_voltar:',
         'it': ':pulsante_di_riavvolgimento:',
-        'fa': u':دکمه_برگرداندن:'
+        'fa': u':دکمه_برگرداندن:',
+        'tr': u':geri_düğmesi:'
     },
     u'\U000025C0': { # ◀
         'en' : ':reverse_button:',
@@ -34217,7 +35558,8 @@ EMOJI_DATA = {
         'fr': ':bouton_retour:',
         'pt': u':botão_de_voltar:',
         'it': ':pulsante_di_riavvolgimento:',
-        'fa': u':دکمهٔ_برگرداندن:'
+        'fa': u':دکمهٔ_برگرداندن:',
+        'tr': u':geri_düğmesi:'
     },
     u'\U0001F49E': { # 💞
         'en' : ':revolving_hearts:',
@@ -34228,7 +35570,8 @@ EMOJI_DATA = {
         'fr': u':cœurs_qui_tournent:',
         'pt': u':corações_girando:',
         'it': ':cuori_che_girano:',
-        'fa': u':قلب_چرخان:'
+        'fa': u':قلب_چرخان:',
+        'tr': u':dönen_kalpler:'
     },
     u'\U0001F98F': { # 🦏
         'en' : ':rhinoceros:',
@@ -34239,7 +35582,8 @@ EMOJI_DATA = {
         'fr': u':rhinocéros:',
         'pt': ':rinoceronte:',
         'it': ':rinoceronte:',
-        'fa': u':کرگدن:'
+        'fa': u':کرگدن:',
+        'tr': ':gergedan:'
     },
     u'\U0001F380': { # 🎀
         'en' : ':ribbon:',
@@ -34250,7 +35594,8 @@ EMOJI_DATA = {
         'fr': ':ruban:',
         'pt': u':laço_de_fita:',
         'it': ':fiocco:',
-        'fa': u':روبان:'
+        'fa': u':روبان:',
+        'tr': ':kurdele:'
     },
     u'\U0001F359': { # 🍙
         'en' : ':rice_ball:',
@@ -34261,7 +35606,8 @@ EMOJI_DATA = {
         'fr': ':boulette_de_riz:',
         'pt': u':arroz_japonês:',
         'it': ':onigiri:',
-        'fa': u':کوفته_برنجی:'
+        'fa': u':کوفته_برنجی:',
+        'tr': u':pirinç_topu:'
     },
     u'\U0001F358': { # 🍘
         'en' : ':rice_cracker:',
@@ -34272,7 +35618,8 @@ EMOJI_DATA = {
         'fr': ':galette_de_riz:',
         'pt': ':biscoito_de_arroz:',
         'it': ':galletta_di_riso:',
-        'fa': u':تردک_برنجی:'
+        'fa': u':تردک_برنجی:',
+        'tr': u':pirinç_gevreği:'
     },
     u'\U0001F91C': { # 🤜
         'en' : ':right-facing_fist:',
@@ -34284,7 +35631,8 @@ EMOJI_DATA = {
         'fr': u':poing_à_droite:',
         'pt': ':punho_direito:',
         'it': ':pugno_a_destra:',
-        'fa': u':مشت_به_راست:'
+        'fa': u':مشت_به_راست:',
+        'tr': u':sağa_bakan_yumruk:'
     },
     u'\U0001F91C\U0001F3FF': { # 🤜🏿
         'en' : ':right-facing_fist_dark_skin_tone:',
@@ -34346,7 +35694,8 @@ EMOJI_DATA = {
         'fr': u':bulle_colère_droite:',
         'pt': u':balão_de_raiva_à_direita:',
         'it': ':nuvoletta_rabbia:',
-        'fa': u':حباب_خشم_راست:'
+        'fa': u':حباب_خشم_راست:',
+        'tr': u':sağ_öfke_balonu:'
     },
     u'\U0001F5EF': { # 🗯
         'en' : ':right_anger_bubble:',
@@ -34358,7 +35707,8 @@ EMOJI_DATA = {
         'fr': u':bulle_colère_droite:',
         'pt': u':balão_de_raiva_à_direita:',
         'it': ':nuvoletta_rabbia:',
-        'fa': u':حباب_خشم_راست:'
+        'fa': u':حباب_خشم_راست:',
+        'tr': u':sağ_öfke_balonu:'
     },
     u'\U000027A1\U0000FE0F': { # ➡️
         'en' : ':right_arrow:',
@@ -34371,7 +35721,8 @@ EMOJI_DATA = {
         'fr': u':flèche_droite:',
         'pt': ':seta_para_a_direita:',
         'it': ':freccia_rivolta_verso_destra:',
-        'fa': u':پیکان_راست:'
+        'fa': u':پیکان_راست:',
+        'tr': u':sağ_ok:'
     },
     u'\U000027A1': { # ➡
         'en' : ':right_arrow:',
@@ -34384,7 +35735,8 @@ EMOJI_DATA = {
         'fr': u':flèche_droite:',
         'pt': ':seta_para_a_direita:',
         'it': ':freccia_rivolta_verso_destra:',
-        'fa': u':پیکان_راست:'
+        'fa': u':پیکان_راست:',
+        'tr': u':sağ_ok:'
     },
     u'\U00002935\U0000FE0F': { # ⤵️
         'en' : ':right_arrow_curving_down:',
@@ -34397,7 +35749,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_bas:',
         'pt': ':seta_para_a_direita_curvada_para_baixo:',
         'it': ':freccia_curva_in_basso:',
-        'fa': u':پیکان_خمیده_پایین_راست:'
+        'fa': u':پیکان_خمیده_پایین_راست:',
+        'tr': u':aşağı_kıvrımlı_sağ_ok:'
     },
     u'\U00002935': { # ⤵
         'en' : ':right_arrow_curving_down:',
@@ -34410,7 +35763,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_bas:',
         'pt': ':seta_para_a_direita_curvada_para_baixo:',
         'it': ':freccia_curva_in_basso:',
-        'fa': u':پیکان_خمیده_پایین_راست:'
+        'fa': u':پیکان_خمیده_پایین_راست:',
+        'tr': u':aşağı_kıvrımlı_sağ_ok:'
     },
     u'\U000021A9\U0000FE0F': { # ↩️
         'en' : ':right_arrow_curving_left:',
@@ -34423,7 +35777,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_gauche:',
         'pt': ':seta_curva_da_direita_para_a_esquerda:',
         'it': ':freccia_curva_a_sinistra:',
-        'fa': u':پیکان_خمیده_راست:'
+        'fa': u':پیکان_خمیده_راست:',
+        'tr': u':sola_kıvrımlı_sağ_ok:'
     },
     u'\U000021A9': { # ↩
         'en' : ':right_arrow_curving_left:',
@@ -34436,7 +35791,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_gauche:',
         'pt': ':seta_curva_da_direita_para_a_esquerda:',
         'it': ':freccia_curva_a_sinistra:',
-        'fa': u':پیکان_خمیده_راست:'
+        'fa': u':پیکان_خمیده_راست:',
+        'tr': u':sola_kıvrımlı_sağ_ok:'
     },
     u'\U00002934\U0000FE0F': { # ⤴️
         'en' : ':right_arrow_curving_up:',
@@ -34449,7 +35805,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_haut:',
         'pt': ':seta_para_a_direita_curvada_para_cima:',
         'it': ':freccia_curva_in_alto:',
-        'fa': u':پیکان_خمیده_بالا_راست:'
+        'fa': u':پیکان_خمیده_بالا_راست:',
+        'tr': u':yukarı_kıvrımlı_sağ_ok:'
     },
     u'\U00002934': { # ⤴
         'en' : ':right_arrow_curving_up:',
@@ -34462,7 +35819,8 @@ EMOJI_DATA = {
         'fr': u':flèche_courbe_haut:',
         'pt': ':seta_para_a_direita_curvada_para_cima:',
         'it': ':freccia_curva_in_alto:',
-        'fa': u':پیکان_خمیده_بالا_راست:'
+        'fa': u':پیکان_خمیده_بالا_راست:',
+        'tr': u':yukarı_kıvrımlı_sağ_ok:'
     },
     u'\U0001FAF1': { # 🫱
         'en' : ':rightwards_hand:',
@@ -34473,7 +35831,8 @@ EMOJI_DATA = {
         'fr': ':main_vers_la_droite:',
         'pt': u':mão_para_a_direita:',
         'it': ':mano_rivolta_a_destra:',
-        'fa': u':دست_به_سمت_راست:'
+        'fa': u':دست_به_سمت_راست:',
+        'tr': u':sağa_bakan_el:'
     },
     u'\U0001FAF1\U0001F3FF': { # 🫱🏿
         'en' : ':rightwards_hand_dark_skin_tone:',
@@ -34509,7 +35868,8 @@ EMOJI_DATA = {
         'fr': ':bague:',
         'pt': ':anel:',
         'it': ':anello:',
-        'fa': u':حلقه:'
+        'fa': u':حلقه:',
+        'tr': u':yüzük:'
     },
     u'\U0001F6DF': { # 🛟
         'en' : ':ring_buoy:',
@@ -34520,7 +35880,8 @@ EMOJI_DATA = {
         'fr': u':bouée_de_sauvetage:',
         'pt': ':boia:',
         'it': ':salvagente:',
-        'fa': u':حلقه_نجات:'
+        'fa': u':حلقه_نجات:',
+        'tr': ':cankurtaran_simidi:'
     },
     u'\U0001FA90': { # 🪐
         'en' : ':ringed_planet:',
@@ -34531,7 +35892,8 @@ EMOJI_DATA = {
         'fr': u':planète_à_anneaux:',
         'pt': u':planeta_com_anéis:',
         'it': ':pianeta_con_satellite:',
-        'fa': u':سیاره_حلقه_دار:'
+        'fa': u':سیاره_حلقه_دار:',
+        'tr': u':halkalı_gezegen:'
     },
     u'\U0001F360': { # 🍠
         'en' : ':roasted_sweet_potato:',
@@ -34543,7 +35905,8 @@ EMOJI_DATA = {
         'fr': ':patate_douce:',
         'pt': ':batata_assada:',
         'it': ':patata_dolce_arrosto:',
-        'fa': u':سیب_زمینی_شیرین_کباب_شده:'
+        'fa': u':سیب_زمینی_شیرین_کباب_شده:',
+        'tr': u':fırınlanmış_patates:'
     },
     u'\U0001F916': { # 🤖
         'en' : ':robot:',
@@ -34555,7 +35918,8 @@ EMOJI_DATA = {
         'fr': ':robot:',
         'pt': u':rosto_de_robô:',
         'it': ':faccina_di_robot:',
-        'fa': u':روبات:'
+        'fa': u':روبات:',
+        'tr': ':robot:'
     },
     u'\U0001FAA8': { # 🪨
         'en' : ':rock:',
@@ -34566,7 +35930,8 @@ EMOJI_DATA = {
         'fr': ':rocher:',
         'pt': ':pedra:',
         'it': ':roccia:',
-        'fa': u':صخره:'
+        'fa': u':صخره:',
+        'tr': ':kaya:'
     },
     u'\U0001F680': { # 🚀
         'en' : ':rocket:',
@@ -34577,7 +35942,8 @@ EMOJI_DATA = {
         'fr': u':fusée:',
         'pt': ':foguete:',
         'it': ':razzo:',
-        'fa': u':موشک:'
+        'fa': u':موشک:',
+        'tr': ':roket:'
     },
     u'\U0001F9FB': { # 🧻
         'en' : ':roll_of_paper:',
@@ -34588,7 +35954,8 @@ EMOJI_DATA = {
         'fr': ':rouleau_de_papier:',
         'pt': ':rolo_de_papel:',
         'it': ':rotolo_di_carta_igienica:',
-        'fa': u':رول_کاغذ:'
+        'fa': u':رول_کاغذ:',
+        'tr': u':kağıt_rulosu:'
     },
     u'\U0001F5DE\U0000FE0F': { # 🗞️
         'en' : ':rolled-up_newspaper:',
@@ -34601,7 +35968,8 @@ EMOJI_DATA = {
         'fr': u':journal_roulé:',
         'pt': ':jornal_enrolado:',
         'it': ':quotidiano_arrotolato:',
-        'fa': u':رول_روزنامه:'
+        'fa': u':رول_روزنامه:',
+        'tr': ':rulo_gazete:'
     },
     u'\U0001F5DE': { # 🗞
         'en' : ':rolled-up_newspaper:',
@@ -34614,7 +35982,8 @@ EMOJI_DATA = {
         'fr': u':journal_roulé:',
         'pt': ':jornal_enrolado:',
         'it': ':quotidiano_arrotolato:',
-        'fa': u':رول_روزنامه:'
+        'fa': u':رول_روزنامه:',
+        'tr': ':rulo_gazete:'
     },
     u'\U0001F3A2': { # 🎢
         'en' : ':roller_coaster:',
@@ -34625,7 +35994,8 @@ EMOJI_DATA = {
         'fr': ':montagnes_russes:',
         'pt': ':montanha_russa:',
         'it': ':montagne_russe:',
-        'fa': u':ترن_هوایی:'
+        'fa': u':ترن_هوایی:',
+        'tr': u':hız_treni:'
     },
     u'\U0001F6FC': { # 🛼
         'en' : ':roller_skate:',
@@ -34636,7 +36006,8 @@ EMOJI_DATA = {
         'fr': u':patin_à_roulettes:',
         'pt': ':patins_de_rodas:',
         'it': ':pattini_a_rotelle:',
-        'fa': u':کفش_اسکیت:'
+        'fa': u':کفش_اسکیت:',
+        'tr': ':paten:'
     },
     u'\U0001F923': { # 🤣
         'en' : ':rolling_on_the_floor_laughing:',
@@ -34648,7 +36019,8 @@ EMOJI_DATA = {
         'fr': ':se_rouler_par_terre_de_rire:',
         'pt': u':rolando_no_chão_de_rir:',
         'it': ':ridere_a_crepapelle:',
-        'fa': u':از_خنده_غش_کردن:'
+        'fa': u':از_خنده_غش_کردن:',
+        'tr': u':gülmekten_yerlere_yatma:'
     },
     u'\U0001F413': { # 🐓
         'en' : ':rooster:',
@@ -34659,7 +36031,8 @@ EMOJI_DATA = {
         'fr': ':coq:',
         'pt': ':galo:',
         'it': ':gallo:',
-        'fa': u':خروس:'
+        'fa': u':خروس:',
+        'tr': ':horoz:'
     },
     u'\U0001F339': { # 🌹
         'en' : ':rose:',
@@ -34670,7 +36043,8 @@ EMOJI_DATA = {
         'fr': ':rose:',
         'pt': ':rosa:',
         'it': ':rosa:',
-        'fa': u':رز:'
+        'fa': u':رز:',
+        'tr': u':gül:'
     },
     u'\U0001F3F5\U0000FE0F': { # 🏵️
         'en' : ':rosette:',
@@ -34682,7 +36056,8 @@ EMOJI_DATA = {
         'fr': ':rosette:',
         'pt': ':roseta:',
         'it': ':rosetta:',
-        'fa': u':گل_رزت:'
+        'fa': u':گل_رزت:',
+        'tr': u':çiçek_rozet:'
     },
     u'\U0001F3F5': { # 🏵
         'en' : ':rosette:',
@@ -34694,7 +36069,8 @@ EMOJI_DATA = {
         'fr': ':rosette:',
         'pt': ':roseta:',
         'it': ':rosetta:',
-        'fa': u':گل_رزت:'
+        'fa': u':گل_رزت:',
+        'tr': u':çiçek_rozet:'
     },
     u'\U0001F4CD': { # 📍
         'en' : ':round_pushpin:',
@@ -34705,7 +36081,8 @@ EMOJI_DATA = {
         'fr': u':épingle:',
         'pt': ':tacha_redonda:',
         'it': ':puntina_arrotondata:',
-        'fa': u':سنجاق_ته_گرد:'
+        'fa': u':سنجاق_ته_گرد:',
+        'tr': ':yuvarlak_raptiye:'
     },
     u'\U0001F3C9': { # 🏉
         'en' : ':rugby_football:',
@@ -34716,7 +36093,8 @@ EMOJI_DATA = {
         'fr': ':rugby:',
         'pt': ':bola_de_rugby:',
         'it': ':pallone_da_rugby:',
-        'fa': u':راگبی:'
+        'fa': u':راگبی:',
+        'tr': ':ragbi:'
     },
     u'\U0001F3BD': { # 🎽
         'en' : ':running_shirt:',
@@ -34728,7 +36106,8 @@ EMOJI_DATA = {
         'fr': ':maillot_de_course:',
         'pt': ':camiseta_de_corrida:',
         'it': ':maglia_da_corsa:',
-        'fa': u':لباس_دو:'
+        'fa': u':لباس_دو:',
+        'tr': u':koşu_tişörtü:'
     },
     u'\U0001F45F': { # 👟
         'en' : ':running_shoe:',
@@ -34740,7 +36119,8 @@ EMOJI_DATA = {
         'fr': ':chaussure_de_sport:',
         'pt': u':tênis_de_corrida:',
         'it': ':scarpa_sportiva:',
-        'fa': u':کفش_دویدن:'
+        'fa': u':کفش_دویدن:',
+        'tr': u':koşu_ayakkabısı:'
     },
     u'\U0001F625': { # 😥
         'en' : ':sad_but_relieved_face:',
@@ -34752,7 +36132,8 @@ EMOJI_DATA = {
         'fr': u':visage_triste_mais_soulagé:',
         'pt': ':rosto_triste_mas_aliviado:',
         'it': ':faccina_delusa_ma_sollevata:',
-        'fa': u':ناامید_اما_تسکین_یافته:'
+        'fa': u':ناامید_اما_تسکین_یافته:',
+        'tr': u':üzgün_ama_rahatlamış_yüz:'
     },
     u'\U0001F9F7': { # 🧷
         'en' : ':safety_pin:',
@@ -34763,7 +36144,8 @@ EMOJI_DATA = {
         'fr': u':épingle_de_sûreté:',
         'pt': u':alfinete_de_segurança:',
         'it': ':spilla_da_balia:',
-        'fa': u':سنجاق_قفلی:'
+        'fa': u':سنجاق_قفلی:',
+        'tr': u':çengelli_iğne:'
     },
     u'\U0001F9BA': { # 🦺
         'en' : ':safety_vest:',
@@ -34774,7 +36156,8 @@ EMOJI_DATA = {
         'fr': u':gilet_de_sécurité:',
         'pt': ':colete_salva-vidas:',
         'it': ':gilet_di_sicurezza:',
-        'fa': u':جلیقه_ایمنی:'
+        'fa': u':جلیقه_ایمنی:',
+        'tr': u':güvenlik_yeleği:'
     },
     u'\U000026F5': { # ⛵
         'en' : ':sailboat:',
@@ -34787,7 +36170,8 @@ EMOJI_DATA = {
         'fr': ':voilier:',
         'pt': ':barco_a_vela:',
         'it': ':barca_a_vela:',
-        'fa': u':قایق_بادبانی:'
+        'fa': u':قایق_بادبانی:',
+        'tr': ':yelkenli_tekne:'
     },
     u'\U0001F376': { # 🍶
         'en' : ':sake:',
@@ -34798,7 +36182,8 @@ EMOJI_DATA = {
         'fr': u':saké:',
         'pt': u':saquê:',
         'it': u':sakè:',
-        'fa': u':ساکی:'
+        'fa': u':ساکی:',
+        'tr': ':sake:'
     },
     u'\U0001F9C2': { # 🧂
         'en' : ':salt:',
@@ -34809,7 +36194,8 @@ EMOJI_DATA = {
         'fr': ':sel:',
         'pt': ':sal:',
         'it': ':sale:',
-        'fa': u':نمک:'
+        'fa': u':نمک:',
+        'tr': ':tuz:'
     },
     u'\U0001FAE1': { # 🫡
         'en' : ':saluting_face:',
@@ -34820,7 +36206,8 @@ EMOJI_DATA = {
         'fr': ':visage_qui_fait_un_salut_militaire:',
         'pt': ':rosto_saudando:',
         'it': ':faccina_che_fa_il_saluto:',
-        'fa': u':چهره_سلام_کنان:'
+        'fa': u':چهره_سلام_کنان:',
+        'tr': u':selamlayan_yüz:'
     },
     u'\U0001F96A': { # 🥪
         'en' : ':sandwich:',
@@ -34831,7 +36218,8 @@ EMOJI_DATA = {
         'fr': ':sandwich:',
         'pt': u':sanduíche:',
         'it': ':sandwich:',
-        'fa': u':ساندویچ:'
+        'fa': u':ساندویچ:',
+        'tr': u':sandviç:'
     },
     u'\U0001F97B': { # 🥻
         'en' : ':sari:',
@@ -34842,7 +36230,8 @@ EMOJI_DATA = {
         'fr': ':sari:',
         'pt': ':sari:',
         'it': ':sari:',
-        'fa': u':ساری:'
+        'fa': u':ساری:',
+        'tr': ':sari:'
     },
     u'\U0001F6F0\U0000FE0F': { # 🛰️
         'en' : ':satellite:',
@@ -34855,7 +36244,8 @@ EMOJI_DATA = {
         'fr': ':satellite:',
         'pt': u':satélite:',
         'it': ':satellite:',
-        'fa': u':ماهواره:'
+        'fa': u':ماهواره:',
+        'tr': ':uydu:'
     },
     u'\U0001F6F0': { # 🛰
         'en' : ':satellite:',
@@ -34868,7 +36258,8 @@ EMOJI_DATA = {
         'fr': ':satellite:',
         'pt': u':satélite:',
         'it': ':satellite:',
-        'fa': u':ماهواره:'
+        'fa': u':ماهواره:',
+        'tr': ':uydu:'
     },
     u'\U0001F4E1': { # 📡
         'en' : ':satellite_antenna:',
@@ -34880,7 +36271,8 @@ EMOJI_DATA = {
         'fr': ':antenne_satellite:',
         'pt': u':antena_parabólica:',
         'it': ':antenna_satellitare:',
-        'fa': u':آنتن_ماهواره:'
+        'fa': u':آنتن_ماهواره:',
+        'tr': ':uydu_anteni:'
     },
     u'\U0001F995': { # 🦕
         'en' : ':sauropod:',
@@ -34891,7 +36283,8 @@ EMOJI_DATA = {
         'fr': ':sauropode:',
         'pt': u':saurópode:',
         'it': ':sauropode:',
-        'fa': u':سوسمار:'
+        'fa': u':سوسمار:',
+        'tr': ':soropod:'
     },
     u'\U0001F3B7': { # 🎷
         'en' : ':saxophone:',
@@ -34902,7 +36295,8 @@ EMOJI_DATA = {
         'fr': ':saxophone:',
         'pt': ':saxofone:',
         'it': ':sassofono:',
-        'fa': u':ساکسیفون:'
+        'fa': u':ساکسیفون:',
+        'tr': ':saksafon:'
     },
     u'\U0001F9E3': { # 🧣
         'en' : ':scarf:',
@@ -34913,7 +36307,8 @@ EMOJI_DATA = {
         'fr': ':foulard:',
         'pt': ':cachecol:',
         'it': ':sciarpa:',
-        'fa': u':روسری:'
+        'fa': u':روسری:',
+        'tr': u':atkı:'
     },
     u'\U0001F3EB': { # 🏫
         'en' : ':school:',
@@ -34924,7 +36319,8 @@ EMOJI_DATA = {
         'fr': u':école:',
         'pt': ':escola:',
         'it': ':scuola:',
-        'fa': u':مدرسه:'
+        'fa': u':مدرسه:',
+        'tr': ':okul:'
     },
     u'\U0001F9D1\U0000200D\U0001F52C': { # 🧑‍🔬
         'en' : ':scientist:',
@@ -34935,7 +36331,8 @@ EMOJI_DATA = {
         'fr': ':scientifique:',
         'pt': ':cientista:',
         'it': ':persona_che_lavora_in_campo_scientifico:',
-        'fa': u':دانشمند:'
+        'fa': u':دانشمند:',
+        'tr': u':bilim_insanı:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F52C': { # 🧑🏿‍🔬
         'en' : ':scientist_dark_skin_tone:',
@@ -34997,7 +36394,8 @@ EMOJI_DATA = {
         'fr': ':ciseaux:',
         'pt': ':tesoura:',
         'it': ':forbici:',
-        'fa': u':قیچی:'
+        'fa': u':قیچی:',
+        'tr': ':makas:'
     },
     u'\U00002702': { # ✂
         'en' : ':scissors:',
@@ -35009,7 +36407,8 @@ EMOJI_DATA = {
         'fr': ':ciseaux:',
         'pt': ':tesoura:',
         'it': ':forbici:',
-        'fa': u':قیچی:'
+        'fa': u':قیچی:',
+        'tr': ':makas:'
     },
     u'\U0001F982': { # 🦂
         'en' : ':scorpion:',
@@ -35020,7 +36419,8 @@ EMOJI_DATA = {
         'fr': ':scorpion:',
         'pt': u':escorpião:',
         'it': ':scorpione:',
-        'fa': u':عقرب:'
+        'fa': u':عقرب:',
+        'tr': ':akrep:'
     },
     u'\U0001FA9B': { # 🪛
         'en' : ':screwdriver:',
@@ -35031,7 +36431,8 @@ EMOJI_DATA = {
         'fr': ':tournevis:',
         'pt': ':chave_de_fenda:',
         'it': ':cacciavite:',
-        'fa': u':پیچ_گوشتی:'
+        'fa': u':پیچ_گوشتی:',
+        'tr': ':tornavida:'
     },
     u'\U0001F4DC': { # 📜
         'en' : ':scroll:',
@@ -35042,7 +36443,8 @@ EMOJI_DATA = {
         'fr': ':parchemin:',
         'pt': ':pergaminho:',
         'it': ':pergamena:',
-        'fa': u':طومار:'
+        'fa': u':طومار:',
+        'tr': u':parşömen:'
     },
     u'\U0001F9AD': { # 🦭
         'en' : ':seal:',
@@ -35053,7 +36455,8 @@ EMOJI_DATA = {
         'fr': ':phoque:',
         'pt': ':foca:',
         'it': ':foca:',
-        'fa': u':فُک:'
+        'fa': u':فُک:',
+        'tr': ':fok:'
     },
     u'\U0001F4BA': { # 💺
         'en' : ':seat:',
@@ -35064,7 +36467,8 @@ EMOJI_DATA = {
         'fr': u':siège:',
         'pt': ':assento:',
         'it': ':sedile:',
-        'fa': u':جایگاه:'
+        'fa': u':جایگاه:',
+        'tr': ':koltuk:'
     },
     u'\U0001F648': { # 🙈
         'en' : ':see-no-evil_monkey:',
@@ -35076,7 +36480,8 @@ EMOJI_DATA = {
         'fr': ':singe_ne_rien_voir:',
         'pt': u':macaco_que_não_vê_nada:',
         'it': ':non_vedo:',
-        'fa': u':میمون_شرنبین:'
+        'fa': u':میمون_شرنبین:',
+        'tr': u':görmedim:'
     },
     u'\U0001F331': { # 🌱
         'en' : ':seedling:',
@@ -35087,7 +36492,8 @@ EMOJI_DATA = {
         'fr': ':jeune_pousse:',
         'pt': ':muda_de_planta:',
         'it': ':germoglio:',
-        'fa': u':جوانه:'
+        'fa': u':جوانه:',
+        'tr': ':filizlenme:'
     },
     u'\U0001F933': { # 🤳
         'en' : ':selfie:',
@@ -35098,7 +36504,8 @@ EMOJI_DATA = {
         'fr': ':selfie:',
         'pt': ':selfie:',
         'it': ':selfie:',
-        'fa': u':خودگرفت:'
+        'fa': u':خودگرفت:',
+        'tr': ':selfie:'
     },
     u'\U0001F933\U0001F3FF': { # 🤳🏿
         'en' : ':selfie_dark_skin_tone:',
@@ -35159,7 +36566,8 @@ EMOJI_DATA = {
         'fr': u':chien_d’assistance:',
         'pt': u':cão_de_serviço:',
         'it': ':cane_da_assistenza:',
-        'fa': u':سگ_کمکی:'
+        'fa': u':سگ_کمکی:',
+        'tr': u':yardımcı_köpek:'
     },
     u'\U0001F562': { # 🕢
         'en' : ':seven-thirty:',
@@ -35172,7 +36580,8 @@ EMOJI_DATA = {
         'fr': ':sept_heures_et_demie:',
         'pt': ':sete_e_meia:',
         'it': ':ore_sette_e_mezza:',
-        'fa': u':ساعت_هفت_و_نیم:'
+        'fa': u':ساعت_هفت_و_نیم:',
+        'tr': u':yedi_buçuk:'
     },
     u'\U0001F556': { # 🕖
         'en' : u':seven_o’clock:',
@@ -35185,7 +36594,8 @@ EMOJI_DATA = {
         'fr': ':sept_heures:',
         'pt': ':7_horas:',
         'it': ':ore_sette:',
-        'fa': u':ساعت_هفت:'
+        'fa': u':ساعت_هفت:',
+        'tr': ':saat_7:'
     },
     u'\U0001FAA1': { # 🪡
         'en' : ':sewing_needle:',
@@ -35196,7 +36606,8 @@ EMOJI_DATA = {
         'fr': u':aiguille_à_coudre:',
         'pt': ':agulha_de_costura:',
         'it': ':ago_da_cucito:',
-        'fa': u':سوزن_خیاطی:'
+        'fa': u':سوزن_خیاطی:',
+        'tr': u':dikiş_iğnesi:'
     },
     u'\U0001F958': { # 🥘
         'en' : ':shallow_pan_of_food:',
@@ -35207,7 +36618,8 @@ EMOJI_DATA = {
         'fr': u':plat_mitonné:',
         'pt': u':caçarola_com_comida:',
         'it': ':padella_con_cibo:',
-        'fa': u':ماهیتابه_غذا:'
+        'fa': u':ماهیتابه_غذا:',
+        'tr': ':sahanda_yemek:'
     },
     u'\U00002618\U0000FE0F': { # ☘️
         'en' : ':shamrock:',
@@ -35219,7 +36631,8 @@ EMOJI_DATA = {
         'fr': u':trèfle:',
         'pt': ':trevo:',
         'it': ':trifoglio:',
-        'fa': u':برگ_شبدر:'
+        'fa': u':برگ_شبدر:',
+        'tr': ':yonca:'
     },
     u'\U00002618': { # ☘
         'en' : ':shamrock:',
@@ -35231,7 +36644,8 @@ EMOJI_DATA = {
         'fr': u':trèfle:',
         'pt': ':trevo:',
         'it': ':trifoglio:',
-        'fa': u':برگ_شبدر:'
+        'fa': u':برگ_شبدر:',
+        'tr': ':yonca:'
     },
     u'\U0001F988': { # 🦈
         'en' : ':shark:',
@@ -35242,7 +36656,8 @@ EMOJI_DATA = {
         'fr': ':requin:',
         'pt': u':tubarão:',
         'it': ':squalo:',
-        'fa': u':کوسه:'
+        'fa': u':کوسه:',
+        'tr': u':köpek_balığı:'
     },
     u'\U0001F367': { # 🍧
         'en' : ':shaved_ice:',
@@ -35253,7 +36668,8 @@ EMOJI_DATA = {
         'fr': u':granité:',
         'pt': ':raspadinha_de_gelo:',
         'it': ':granita:',
-        'fa': u':یخ_در_بهشت:'
+        'fa': u':یخ_در_بهشت:',
+        'tr': ':meyveli_buz:'
     },
     u'\U0001F33E': { # 🌾
         'en' : ':sheaf_of_rice:',
@@ -35265,7 +36681,8 @@ EMOJI_DATA = {
         'fr': ':plant_de_riz:',
         'pt': ':planta_de_arroz:',
         'it': ':pianta_di_riso:',
-        'fa': u':خوشه_برنج:'
+        'fa': u':خوشه_برنج:',
+        'tr': u':pirinç_bitkisi:'
     },
     u'\U0001F6E1\U0000FE0F': { # 🛡️
         'en' : ':shield:',
@@ -35277,7 +36694,8 @@ EMOJI_DATA = {
         'fr': ':bouclier:',
         'pt': ':escudo:',
         'it': ':scudo:',
-        'fa': u':سپر:'
+        'fa': u':سپر:',
+        'tr': ':kalkan:'
     },
     u'\U0001F6E1': { # 🛡
         'en' : ':shield:',
@@ -35289,7 +36707,8 @@ EMOJI_DATA = {
         'fr': ':bouclier:',
         'pt': ':escudo:',
         'it': ':scudo:',
-        'fa': u':سپر:'
+        'fa': u':سپر:',
+        'tr': ':kalkan:'
     },
     u'\U000026E9\U0000FE0F': { # ⛩️
         'en' : ':shinto_shrine:',
@@ -35301,7 +36720,8 @@ EMOJI_DATA = {
         'fr': ':sanctuaire_shinto:',
         'pt': u':santuário_japonês:',
         'it': ':santuario_shintoista:',
-        'fa': u':معبد_شینتو:'
+        'fa': u':معبد_شینتو:',
+        'tr': u':şinto_tapınağı:'
     },
     u'\U000026E9': { # ⛩
         'en' : ':shinto_shrine:',
@@ -35313,7 +36733,8 @@ EMOJI_DATA = {
         'fr': ':sanctuaire_shinto:',
         'pt': u':santuário_japonês:',
         'it': ':santuario_shintoista:',
-        'fa': u':معبد_شینتو:'
+        'fa': u':معبد_شینتو:',
+        'tr': u':şinto_tapınağı:'
     },
     u'\U0001F6A2': { # 🚢
         'en' : ':ship:',
@@ -35324,7 +36745,8 @@ EMOJI_DATA = {
         'fr': ':navire:',
         'pt': ':navio:',
         'it': ':nave:',
-        'fa': u':کشتی:'
+        'fa': u':کشتی:',
+        'tr': ':gemi:'
     },
     u'\U0001F320': { # 🌠
         'en' : ':shooting_star:',
@@ -35336,7 +36758,8 @@ EMOJI_DATA = {
         'fr': u':étoile_filante:',
         'pt': ':estrela_cadente:',
         'it': ':stella_cadente:',
-        'fa': u':ستاره_ثاقب:'
+        'fa': u':ستاره_ثاقب:',
+        'tr': u':yıldız_kayması:'
     },
     u'\U0001F6CD\U0000FE0F': { # 🛍️
         'en' : ':shopping_bags:',
@@ -35349,7 +36772,8 @@ EMOJI_DATA = {
         'fr': ':sacs_de_shopping:',
         'pt': ':sacolas_de_compras:',
         'it': ':borse_della_spesa:',
-        'fa': u':کیف_خرید:'
+        'fa': u':کیف_خرید:',
+        'tr': u':alışveriş_çantası:'
     },
     u'\U0001F6CD': { # 🛍
         'en' : ':shopping_bags:',
@@ -35362,7 +36786,8 @@ EMOJI_DATA = {
         'fr': ':sacs_de_shopping:',
         'pt': ':sacolas_de_compras:',
         'it': ':borse_della_spesa:',
-        'fa': u':کیف_خرید:'
+        'fa': u':کیف_خرید:',
+        'tr': u':alışveriş_çantası:'
     },
     u'\U0001F6D2': { # 🛒
         'en' : ':shopping_cart:',
@@ -35373,7 +36798,8 @@ EMOJI_DATA = {
         'fr': ':chariot:',
         'pt': ':carrinho_de_compras:',
         'it': ':carrello:',
-        'fa': u':گاری_خرید:'
+        'fa': u':گاری_خرید:',
+        'tr': u':alışveriş_arabası:'
     },
     u'\U0001F370': { # 🍰
         'en' : ':shortcake:',
@@ -35385,7 +36811,8 @@ EMOJI_DATA = {
         'fr': u':gâteau_sablé:',
         'pt': u':pão_de_ló_de_morango:',
         'it': ':fetta_di_torta:',
-        'fa': u':شُرت_کیک:'
+        'fa': u':شُرت_کیک:',
+        'tr': ':pasta_dilimi:'
     },
     u'\U0001FA73': { # 🩳
         'en' : ':shorts:',
@@ -35396,7 +36823,8 @@ EMOJI_DATA = {
         'fr': ':short:',
         'pt': ':shorts:',
         'it': ':pantaloncini:',
-        'fa': u':شلوارک:'
+        'fa': u':شلوارک:',
+        'tr': u':şort:'
     },
     u'\U0001F6BF': { # 🚿
         'en' : ':shower:',
@@ -35407,7 +36835,8 @@ EMOJI_DATA = {
         'fr': ':douche:',
         'pt': ':chuveiro:',
         'it': ':doccia:',
-        'fa': u':دوش:'
+        'fa': u':دوش:',
+        'tr': u':duş:'
     },
     u'\U0001F990': { # 🦐
         'en' : ':shrimp:',
@@ -35418,7 +36847,8 @@ EMOJI_DATA = {
         'fr': ':crevette:',
         'pt': u':camarão:',
         'it': ':gamberetto:',
-        'fa': u':میگو:'
+        'fa': u':میگو:',
+        'tr': ':karides:'
     },
     u'\U0001F500': { # 🔀
         'en' : ':shuffle_tracks_button:',
@@ -35430,7 +36860,8 @@ EMOJI_DATA = {
         'fr': u':bouton_lecture_aléatoire:',
         'pt': u':botão_de_músicas_aleatórias:',
         'it': ':pulsante_di_riproduzione_casuale:',
-        'fa': u':دکمهٔ_پخش_تصادفی:'
+        'fa': u':دکمهٔ_پخش_تصادفی:',
+        'tr': u':parça_karıştırma_düğmesi:'
     },
     u'\U0001F92B': { # 🤫
         'en' : ':shushing_face:',
@@ -35441,7 +36872,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_un_doigt_sur_la_bouche:',
         'pt': u':rosto_fazendo_sinal_de_silêncio:',
         'it': ':faccina_che_zittisce:',
-        'fa': u':هیس:'
+        'fa': u':هیس:',
+        'tr': u':sus_işareti_yapan_yüz:'
     },
     u'\U0001F918': { # 🤘
         'en' : ':sign_of_the_horns:',
@@ -35453,7 +36885,8 @@ EMOJI_DATA = {
         'fr': ':cornes_avec_les_doigts:',
         'pt': u':saudação_do_rock:',
         'it': ':segno_delle_corna:',
-        'fa': u':نماد_شاخ:'
+        'fa': u':نماد_شاخ:',
+        'tr': u':boynuz_işareti:'
     },
     u'\U0001F918\U0001F3FF': { # 🤘🏿
         'en' : ':sign_of_the_horns_dark_skin_tone:',
@@ -35514,7 +36947,8 @@ EMOJI_DATA = {
         'fr': ':chanteur_(tous_genres):',
         'pt': ':cantor:',
         'it': ':cantante:',
-        'fa': u':خواننده:'
+        'fa': u':خواننده:',
+        'tr': u':şarkıcı:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F3A4': { # 🧑🏿‍🎤
         'en' : ':singer_dark_skin_tone:',
@@ -35577,7 +37011,8 @@ EMOJI_DATA = {
         'fr': ':six_heures_et_demie:',
         'pt': ':seis_e_meia:',
         'it': ':ore_sei_e_mezza:',
-        'fa': u':ساعت_شش_و_نیم:'
+        'fa': u':ساعت_شش_و_نیم:',
+        'tr': u':altı_buçuk:'
     },
     u'\U0001F555': { # 🕕
         'en' : u':six_o’clock:',
@@ -35590,7 +37025,8 @@ EMOJI_DATA = {
         'fr': ':six_heures:',
         'pt': ':6_horas:',
         'it': ':ore_sei:',
-        'fa': u':ساعت_شش:'
+        'fa': u':ساعت_شش:',
+        'tr': ':saat_6:'
     },
     u'\U0001F6F9': { # 🛹
         'en' : ':skateboard:',
@@ -35601,7 +37037,8 @@ EMOJI_DATA = {
         'fr': u':planche_à_roulettes:',
         'pt': ':skate:',
         'it': ':skateboard:',
-        'fa': u':تختهٔ_اسکیت:'
+        'fa': u':تختهٔ_اسکیت:',
+        'tr': ':kaykay:'
     },
     u'\U000026F7\U0000FE0F': { # ⛷️
         'en' : ':skier:',
@@ -35613,7 +37050,8 @@ EMOJI_DATA = {
         'fr': ':skieur:',
         'pt': ':esquiador:',
         'it': ':sciatore:',
-        'fa': u':اسکی_سوار:'
+        'fa': u':اسکی_سوار:',
+        'tr': u':kayakçı:'
     },
     u'\U000026F7': { # ⛷
         'en' : ':skier:',
@@ -35625,7 +37063,8 @@ EMOJI_DATA = {
         'fr': ':skieur:',
         'pt': ':esquiador:',
         'it': ':sciatore:',
-        'fa': u':اسکی_سوار:'
+        'fa': u':اسکی_سوار:',
+        'tr': u':kayakçı:'
     },
     u'\U0001F3BF': { # 🎿
         'en' : ':skis:',
@@ -35637,7 +37076,8 @@ EMOJI_DATA = {
         'fr': ':ski:',
         'pt': ':esqui:',
         'it': ':sci:',
-        'fa': u':چوب_اسکی:'
+        'fa': u':چوب_اسکی:',
+        'tr': ':kayak:'
     },
     u'\U0001F480': { # 💀
         'en' : ':skull:',
@@ -35648,7 +37088,8 @@ EMOJI_DATA = {
         'fr': u':crâne:',
         'pt': ':caveira:',
         'it': ':teschio:',
-        'fa': u':جمجمه:'
+        'fa': u':جمجمه:',
+        'tr': u':kafatası:'
     },
     u'\U00002620\U0000FE0F': { # ☠️
         'en' : ':skull_and_crossbones:',
@@ -35660,7 +37101,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_mort:',
         'pt': ':caveira_e_ossos_cruzados:',
         'it': ':teschio_con_ossa_incrociate:',
-        'fa': u':جمجمه_و_استخوان_صلیبی:'
+        'fa': u':جمجمه_و_استخوان_صلیبی:',
+        'tr': ':kuru_kafa:'
     },
     u'\U00002620': { # ☠
         'en' : ':skull_and_crossbones:',
@@ -35672,7 +37114,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_mort:',
         'pt': ':caveira_e_ossos_cruzados:',
         'it': ':teschio_con_ossa_incrociate:',
-        'fa': u':جمجمه_و_استخوان_صلیبی:'
+        'fa': u':جمجمه_و_استخوان_صلیبی:',
+        'tr': ':kuru_kafa:'
     },
     u'\U0001F9A8': { # 🦨
         'en' : ':skunk:',
@@ -35683,7 +37126,8 @@ EMOJI_DATA = {
         'fr': ':mouffette:',
         'pt': u':gambá:',
         'it': ':puzzola:',
-        'fa': u':راسو:'
+        'fa': u':راسو:',
+        'tr': ':kokarca:'
     },
     u'\U0001F6F7': { # 🛷
         'en' : ':sled:',
@@ -35694,7 +37138,8 @@ EMOJI_DATA = {
         'fr': ':luge:',
         'pt': u':trenó:',
         'it': ':slitta:',
-        'fa': u':سورتمه:'
+        'fa': u':سورتمه:',
+        'tr': u':kızak:'
     },
     u'\U0001F634': { # 😴
         'en' : ':sleeping_face:',
@@ -35706,7 +37151,8 @@ EMOJI_DATA = {
         'fr': ':visage_somnolent:',
         'pt': ':rosto_dormindo:',
         'it': ':faccina_che_dorme:',
-        'fa': u':خوابیده:'
+        'fa': u':خوابیده:',
+        'tr': u':uyuyan_yüz:'
     },
     u'\U0001F62A': { # 😪
         'en' : ':sleepy_face:',
@@ -35718,7 +37164,8 @@ EMOJI_DATA = {
         'fr': ':visage_endormi:',
         'pt': ':rosto_sonolento:',
         'it': ':faccina_assonnata:',
-        'fa': u':خواب_آلود:'
+        'fa': u':خواب_آلود:',
+        'tr': u':uykulu_yüz:'
     },
     u'\U0001F641': { # 🙁
         'en' : ':slightly_frowning_face:',
@@ -35729,7 +37176,8 @@ EMOJI_DATA = {
         'fr': u':visage_légèrement_mécontent:',
         'pt': ':rosto_meio_triste:',
         'it': ':faccina_leggermente_imbronciata:',
-        'fa': u':دلخور:'
+        'fa': u':دلخور:',
+        'tr': u':biraz_asık_surat:'
     },
     u'\U0001F642': { # 🙂
         'en' : ':slightly_smiling_face:',
@@ -35740,7 +37188,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_un_léger_sourire:',
         'pt': ':rosto_levemente_sorridente:',
         'it': ':faccina_con_sorriso_accennato:',
-        'fa': u':لبخند_ملایم:'
+        'fa': u':لبخند_ملایم:',
+        'tr': u':hafifçe_gülümseyen_yüz:'
     },
     u'\U0001F3B0': { # 🎰
         'en' : ':slot_machine:',
@@ -35751,7 +37200,8 @@ EMOJI_DATA = {
         'fr': u':machine_à_sous:',
         'pt': u':caça-níquel:',
         'it': ':slot_machine:',
-        'fa': u':ماشین_پولی:'
+        'fa': u':ماشین_پولی:',
+        'tr': ':kumar_makinesi:'
     },
     u'\U0001F9A5': { # 🦥
         'en' : ':sloth:',
@@ -35762,7 +37212,8 @@ EMOJI_DATA = {
         'fr': ':paresseux:',
         'pt': u':preguiça:',
         'it': ':bradipo:',
-        'fa': u':تنبل:'
+        'fa': u':تنبل:',
+        'tr': ':tembel_hayvan:'
     },
     u'\U0001F6E9\U0000FE0F': { # 🛩️
         'en' : ':small_airplane:',
@@ -35774,7 +37225,8 @@ EMOJI_DATA = {
         'fr': ':petit_avion:',
         'pt': u':avião_pequeno:',
         'it': ':aereo_turistico:',
-        'fa': u':هواپیمای_کوچک:'
+        'fa': u':هواپیمای_کوچک:',
+        'tr': u':küçük_uçak:'
     },
     u'\U0001F6E9': { # 🛩
         'en' : ':small_airplane:',
@@ -35786,7 +37238,8 @@ EMOJI_DATA = {
         'fr': ':petit_avion:',
         'pt': u':avião_pequeno:',
         'it': ':aereo_turistico:',
-        'fa': u':هواپیمای_کوچک:'
+        'fa': u':هواپیمای_کوچک:',
+        'tr': u':küçük_uçak:'
     },
     u'\U0001F539': { # 🔹
         'en' : ':small_blue_diamond:',
@@ -35797,7 +37250,8 @@ EMOJI_DATA = {
         'fr': ':petit_losange_bleu:',
         'pt': ':losango_azul_pequeno:',
         'it': ':rombo_blu_piccolo:',
-        'fa': u':لوزی_آبی_کوچک:'
+        'fa': u':لوزی_آبی_کوچک:',
+        'tr': u':küçük_mavi_karo:'
     },
     u'\U0001F538': { # 🔸
         'en' : ':small_orange_diamond:',
@@ -35808,7 +37262,8 @@ EMOJI_DATA = {
         'fr': ':petit_losange_orange:',
         'pt': ':losango_laranja_pequeno:',
         'it': ':rombo_arancione_piccolo:',
-        'fa': u':لوزی_نارنجی_کوچک:'
+        'fa': u':لوزی_نارنجی_کوچک:',
+        'tr': u':küçük_turuncu_karo:'
     },
     u'\U0001F63B': { # 😻
         'en' : ':smiling_cat_with_heart-eyes:',
@@ -35820,7 +37275,8 @@ EMOJI_DATA = {
         'fr': u':chat_souriant_aux_yeux_en_cœurs:',
         'pt': u':rosto_de_gato_sorridente_com_olhos_de_coração:',
         'it': ':gatto_innamorato:',
-        'fa': u':گربهٔ_خندان_عاشق:'
+        'fa': u':گربهٔ_خندان_عاشق:',
+        'tr': u':kalp_gözlü_gülümseyen_kedi:'
     },
     u'\U0000263A\U0000FE0F': { # ☺️
         'en' : ':smiling_face:',
@@ -35833,7 +37289,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant:',
         'pt': ':rosto_sorridente:',
         'it': ':faccina_sorridente:',
-        'fa': u':لبخند:'
+        'fa': u':لبخند:',
+        'tr': u':gülen_yüz:'
     },
     u'\U0000263A': { # ☺
         'en' : ':smiling_face:',
@@ -35846,7 +37303,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant:',
         'pt': ':rosto_sorridente:',
         'it': ':faccina_sorridente:',
-        'fa': u':لبخند:'
+        'fa': u':لبخند:',
+        'tr': u':gülen_yüz:'
     },
     u'\U0001F607': { # 😇
         'en' : ':smiling_face_with_halo:',
@@ -35858,7 +37316,8 @@ EMOJI_DATA = {
         'fr': u':visage_souriant_avec_auréole:',
         'pt': u':rosto_sorridente_com_auréola:',
         'it': ':faccina_con_sorriso_e_aureola:',
-        'fa': u':هاله_دار:'
+        'fa': u':هاله_دار:',
+        'tr': u':ışık_halkalı_gülümseme:'
     },
     u'\U0001F60D': { # 😍
         'en' : ':smiling_face_with_heart-eyes:',
@@ -35870,7 +37329,8 @@ EMOJI_DATA = {
         'fr': u':visage_souriant_avec_yeux_en_forme_de_cœur:',
         'pt': u':rosto_sorridente_com_olhos_de_coração:',
         'it': ':faccina_con_sorriso_e_occhi_a_cuore:',
-        'fa': u':چشم_های_عاشق:'
+        'fa': u':چشم_های_عاشق:',
+        'tr': u':kalp_gözlü_gülümseme:'
     },
     u'\U0001F970': { # 🥰
         'en' : ':smiling_face_with_hearts:',
@@ -35882,7 +37342,8 @@ EMOJI_DATA = {
         'fr': u':visage_souriant_avec_cœurs:',
         'pt': u':rosto_sorridente_com_3_corações:',
         'it': ':faccina_con_cuoricini:',
-        'fa': u':صورت_خندان_و_عاشق:'
+        'fa': u':صورت_خندان_و_عاشق:',
+        'tr': u':3_kalpli_gülümseyen_yüz:'
     },
     u'\U0001F608': { # 😈
         'en' : ':smiling_face_with_horns:',
@@ -35894,7 +37355,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant_avec_des_cornes:',
         'pt': ':rosto_sorridente_com_chifres:',
         'it': ':faccina_con_sorriso_e_corna:',
-        'fa': u':صورت_لبخندزنان_با_دوشاخ:'
+        'fa': u':صورت_لبخندزنان_با_دوشاخ:',
+        'tr': u':boynuzlu_gülen_yüz:'
     },
     u'\U0001F917': { # 🤗
         'en' : ':smiling_face_with_open_hands:',
@@ -35906,7 +37368,8 @@ EMOJI_DATA = {
         'fr': u':visage_qui_fait_un_câlin:',
         'pt': u':rosto_abraçando:',
         'it': ':faccina_che_abbraccia:',
-        'fa': u':بغل_کردن:'
+        'fa': u':بغل_کردن:',
+        'tr': u':kucaklayarak_gülümseme:'
     },
     u'\U0001F60A': { # 😊
         'en' : ':smiling_face_with_smiling_eyes:',
@@ -35918,7 +37381,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant_avec_yeux_rieurs:',
         'pt': ':rosto_sorridente_com_olhos_sorridentes:',
         'it': ':faccina_con_occhi_sorridenti:',
-        'fa': u':لبخند_خجالتی:'
+        'fa': u':لبخند_خجالتی:',
+        'tr': u':ağzı_açık_gülme:'
     },
     u'\U0001F60E': { # 😎
         'en' : ':smiling_face_with_sunglasses:',
@@ -35930,7 +37394,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_lunettes_de_soleil:',
         'pt': u':rosto_sorridente_com_óculos_escuros:',
         'it': ':faccina_con_sorriso_e_occhiali_da_sole:',
-        'fa': u':باحال:'
+        'fa': u':باحال:',
+        'tr': u':güneş_gözlüklü_gülümseme:'
     },
     u'\U0001F972': { # 🥲
         'en' : ':smiling_face_with_tear:',
@@ -35941,7 +37406,8 @@ EMOJI_DATA = {
         'fr': ':visage_souriant_avec_une_larme:',
         'pt': u':rosto_sorridente_com_lágrima:',
         'it': ':faccina_sorridente_con_lacrima:',
-        'fa': u':چهرهٔ_خندان_با_اشک:'
+        'fa': u':چهرهٔ_خندان_با_اشک:',
+        'tr': u':gözü_yaşlı_gülümseyen_yüz:'
     },
     u'\U0001F60F': { # 😏
         'en' : ':smirking_face:',
@@ -35953,7 +37419,8 @@ EMOJI_DATA = {
         'fr': ':visage_avec_un_sourire_malin:',
         'pt': ':rosto_com_sorriso_maroto:',
         'it': ':faccina_con_sorrisetto:',
-        'fa': u':پوزخند:'
+        'fa': u':پوزخند:',
+        'tr': u':imalı_gülümseme:'
     },
     u'\U0001F40C': { # 🐌
         'en' : ':snail:',
@@ -35964,7 +37431,8 @@ EMOJI_DATA = {
         'fr': ':escargot:',
         'pt': ':caracol:',
         'it': ':lumaca:',
-        'fa': u':حلزون:'
+        'fa': u':حلزون:',
+        'tr': ':salyangoz:'
     },
     u'\U0001F40D': { # 🐍
         'en' : ':snake:',
@@ -35975,7 +37443,8 @@ EMOJI_DATA = {
         'fr': ':serpent:',
         'pt': ':cobra:',
         'it': ':serpente:',
-        'fa': u':مار:'
+        'fa': u':مار:',
+        'tr': u':yılan:'
     },
     u'\U0001F927': { # 🤧
         'en' : ':sneezing_face:',
@@ -35986,7 +37455,8 @@ EMOJI_DATA = {
         'fr': u':visage_qui_éternue:',
         'pt': ':rosto_espirrando:',
         'it': ':faccina_che_starnutisce:',
-        'fa': u':عطسه:'
+        'fa': u':عطسه:',
+        'tr': u':hapşıran_yüz:'
     },
     u'\U0001F3D4\U0000FE0F': { # 🏔️
         'en' : ':snow-capped_mountain:',
@@ -35999,7 +37469,8 @@ EMOJI_DATA = {
         'fr': u':montagne_enneigée:',
         'pt': ':montanha_com_neve:',
         'it': ':montagna_innevata:',
-        'fa': u':قله_برفی:'
+        'fa': u':قله_برفی:',
+        'tr': u':karla_kaplı_dağ:'
     },
     u'\U0001F3D4': { # 🏔
         'en' : ':snow-capped_mountain:',
@@ -36012,7 +37483,8 @@ EMOJI_DATA = {
         'fr': u':montagne_enneigée:',
         'pt': ':montanha_com_neve:',
         'it': ':montagna_innevata:',
-        'fa': u':قلهٔ_برفی:'
+        'fa': u':قلهٔ_برفی:',
+        'tr': u':karla_kaplı_dağ:'
     },
     u'\U0001F3C2': { # 🏂
         'en' : ':snowboarder:',
@@ -36024,7 +37496,8 @@ EMOJI_DATA = {
         'fr': ':snowboardeur:',
         'pt': ':praticante_de_snowboard:',
         'it': ':persona_sullo_snowboard:',
-        'fa': u':اسنوبرد:'
+        'fa': u':اسنوبرد:',
+        'tr': u':snowbordçu:'
     },
     u'\U0001F3C2\U0001F3FF': { # 🏂🏿
         'en' : ':snowboarder_dark_skin_tone:',
@@ -36086,7 +37559,8 @@ EMOJI_DATA = {
         'fr': ':flocon:',
         'pt': ':floco_de_neve:',
         'it': ':fiocco_di_neve:',
-        'fa': u':برف_دانه:'
+        'fa': u':برف_دانه:',
+        'tr': ':kar_tanesi:'
     },
     u'\U00002744': { # ❄
         'en' : ':snowflake:',
@@ -36098,7 +37572,8 @@ EMOJI_DATA = {
         'fr': ':flocon:',
         'pt': ':floco_de_neve:',
         'it': ':fiocco_di_neve:',
-        'fa': u':برف_دانه:'
+        'fa': u':برف_دانه:',
+        'tr': ':kar_tanesi:'
     },
     u'\U00002603\U0000FE0F': { # ☃️
         'en' : ':snowman:',
@@ -36111,7 +37586,8 @@ EMOJI_DATA = {
         'fr': ':bonhomme_de_neige:',
         'pt': ':boneco_de_neve:',
         'it': ':pupazzo_di_neve:',
-        'fa': u':آدم_برفی:'
+        'fa': u':آدم_برفی:',
+        'tr': ':kardan_adam:'
     },
     u'\U00002603': { # ☃
         'en' : ':snowman:',
@@ -36124,7 +37600,8 @@ EMOJI_DATA = {
         'fr': ':bonhomme_de_neige:',
         'pt': ':boneco_de_neve:',
         'it': ':pupazzo_di_neve:',
-        'fa': u':آدم_برفی:'
+        'fa': u':آدم_برفی:',
+        'tr': ':kardan_adam:'
     },
     u'\U000026C4': { # ⛄
         'en' : ':snowman_without_snow:',
@@ -36137,7 +37614,8 @@ EMOJI_DATA = {
         'fr': ':bonhomme_de_neige_sans_neige:',
         'pt': ':boneco_de_neve_sem_neve:',
         'it': ':pupazzo_di_neve_senza_neve:',
-        'fa': u':آدم_برفی_بدون_برف:'
+        'fa': u':آدم_برفی_بدون_برف:',
+        'tr': u':kar_yağmadan_kardan_adam:'
     },
     u'\U0001F9FC': { # 🧼
         'en' : ':soap:',
@@ -36148,7 +37626,8 @@ EMOJI_DATA = {
         'fr': ':savon:',
         'pt': ':sabonete:',
         'it': ':sapone:',
-        'fa': u':صابون:'
+        'fa': u':صابون:',
+        'tr': ':sabun:'
     },
     u'\U000026BD': { # ⚽
         'en' : ':soccer_ball:',
@@ -36161,7 +37640,8 @@ EMOJI_DATA = {
         'fr': ':ballon_de_football:',
         'pt': ':bola_de_futebol:',
         'it': ':pallone_da_calcio:',
-        'fa': u':توپ_فوتبال:'
+        'fa': u':توپ_فوتبال:',
+        'tr': ':futbol_topu:'
     },
     u'\U0001F9E6': { # 🧦
         'en' : ':socks:',
@@ -36172,7 +37652,8 @@ EMOJI_DATA = {
         'fr': ':chaussettes:',
         'pt': ':meias:',
         'it': ':calzini:',
-        'fa': u':جوراب:'
+        'fa': u':جوراب:',
+        'tr': u':çorap:'
     },
     u'\U0001F366': { # 🍦
         'en' : ':soft_ice_cream:',
@@ -36184,7 +37665,8 @@ EMOJI_DATA = {
         'fr': ':glace_italienne:',
         'pt': ':sorvete_italiano:',
         'it': ':cono_gelato:',
-        'fa': u':بستنی_قیفی:'
+        'fa': u':بستنی_قیفی:',
+        'tr': u':yumuşak_dondurma:'
     },
     u'\U0001F94E': { # 🥎
         'en' : ':softball:',
@@ -36195,7 +37677,8 @@ EMOJI_DATA = {
         'fr': ':softball:',
         'pt': ':softbol:',
         'it': ':palla_da_softball:',
-        'fa': u':سافت_بال:'
+        'fa': u':سافت_بال:',
+        'tr': ':softball:'
     },
     u'\U00002660\U0000FE0F': { # ♠️
         'en' : ':spade_suit:',
@@ -36208,7 +37691,8 @@ EMOJI_DATA = {
         'fr': ':pique:',
         'pt': ':naipe_de_espadas:',
         'it': ':picche:',
-        'fa': u':خال_پیک:'
+        'fa': u':خال_پیک:',
+        'tr': u':maça:'
     },
     u'\U00002660': { # ♠
         'en' : ':spade_suit:',
@@ -36221,7 +37705,8 @@ EMOJI_DATA = {
         'fr': ':pique:',
         'pt': ':naipe_de_espadas:',
         'it': ':picche:',
-        'fa': u':خال_پیک:'
+        'fa': u':خال_پیک:',
+        'tr': u':maça:'
     },
     u'\U0001F35D': { # 🍝
         'en' : ':spaghetti:',
@@ -36232,7 +37717,8 @@ EMOJI_DATA = {
         'fr': ':spaghetti:',
         'pt': ':espaguete:',
         'it': ':spaghetti:',
-        'fa': u':اسپاگتی:'
+        'fa': u':اسپاگتی:',
+        'tr': ':spagetti:'
     },
     u'\U00002747\U0000FE0F': { # ❇️
         'en' : ':sparkle:',
@@ -36244,7 +37730,8 @@ EMOJI_DATA = {
         'fr': u':éclat:',
         'pt': u':faísca:',
         'it': ':scintilla_stilizzata:',
-        'fa': u':جرقه:'
+        'fa': u':جرقه:',
+        'tr': ':parlama:'
     },
     u'\U00002747': { # ❇
         'en' : ':sparkle:',
@@ -36256,7 +37743,8 @@ EMOJI_DATA = {
         'fr': u':éclat:',
         'pt': u':faísca:',
         'it': ':scintilla_stilizzata:',
-        'fa': u':جرقه:'
+        'fa': u':جرقه:',
+        'tr': ':parlama:'
     },
     u'\U0001F387': { # 🎇
         'en' : ':sparkler:',
@@ -36267,7 +37755,8 @@ EMOJI_DATA = {
         'fr': ':cierge_magique:',
         'pt': ':vela_estrela:',
         'it': ':stellina_scintillante:',
-        'fa': u':فشفشه:'
+        'fa': u':فشفشه:',
+        'tr': u':fişek:'
     },
     u'\U00002728': { # ✨
         'en' : ':sparkles:',
@@ -36278,7 +37767,8 @@ EMOJI_DATA = {
         'fr': u':étincelles:',
         'pt': ':brilhos:',
         'it': ':stelline:',
-        'fa': u':درخشش:'
+        'fa': u':درخشش:',
+        'tr': u':parıltılar:'
     },
     u'\U0001F496': { # 💖
         'en' : ':sparkling_heart:',
@@ -36289,7 +37779,8 @@ EMOJI_DATA = {
         'fr': u':cœur_étincelant:',
         'pt': u':coração_brilhante:',
         'it': ':cuore_che_luccica:',
-        'fa': u':قلب_درخشان:'
+        'fa': u':قلب_درخشان:',
+        'tr': u':pırıldayan_kalp:'
     },
     u'\U0001F64A': { # 🙊
         'en' : ':speak-no-evil_monkey:',
@@ -36301,7 +37792,8 @@ EMOJI_DATA = {
         'fr': ':singe_ne_rien_dire:',
         'pt': u':macaco_que_não_fala_nada:',
         'it': ':non_parlo:',
-        'fa': u':میمون_شرنگو:'
+        'fa': u':میمون_شرنگو:',
+        'tr': ':bilmiyorum:'
     },
     u'\U0001F50A': { # 🔊
         'en' : ':speaker_high_volume:',
@@ -36313,7 +37805,8 @@ EMOJI_DATA = {
         'fr': u':volume_des_enceintes_élevé:',
         'pt': ':alto-falante_com_volume_alto:',
         'it': ':altoparlante_a_volume_alto:',
-        'fa': u':بلندگو_با_صدای_بلند:'
+        'fa': u':بلندگو_با_صدای_بلند:',
+        'tr': u':yüksek_ses:'
     },
     u'\U0001F508': { # 🔈
         'en' : ':speaker_low_volume:',
@@ -36326,7 +37819,8 @@ EMOJI_DATA = {
         'fr': ':volume_des_enceintes_faible:',
         'pt': ':alto-falante_com_volume_baixo:',
         'it': ':altoparlante_a_volume_basso:',
-        'fa': u':بلندگو_با_صدای_کم:'
+        'fa': u':بلندگو_با_صدای_کم:',
+        'tr': u':kısık_ses:'
     },
     u'\U0001F509': { # 🔉
         'en' : ':speaker_medium_volume:',
@@ -36338,7 +37832,8 @@ EMOJI_DATA = {
         'fr': ':volume_des_enceintes_moyen:',
         'pt': u':alto-falante_com_volume_médio:',
         'it': ':altoparlante_a_volume_intermedio:',
-        'fa': u':بلندگو_با_صدای_متعادل:'
+        'fa': u':بلندگو_با_صدای_متعادل:',
+        'tr': u':ses_açık:'
     },
     u'\U0001F5E3\U0000FE0F': { # 🗣️
         'en' : ':speaking_head:',
@@ -36351,7 +37846,8 @@ EMOJI_DATA = {
         'fr': u':tête_qui_parle:',
         'pt': ':silhueta_falando:',
         'it': ':persona_che_parla:',
-        'fa': u':درحال_صحبت_کردن:'
+        'fa': u':درحال_صحبت_کردن:',
+        'tr': u':konuşan_kişi:'
     },
     u'\U0001F5E3': { # 🗣
         'en' : ':speaking_head:',
@@ -36364,7 +37860,8 @@ EMOJI_DATA = {
         'fr': u':tête_qui_parle:',
         'pt': ':silhueta_falando:',
         'it': ':persona_che_parla:',
-        'fa': u':درحال_صحبت_کردن:'
+        'fa': u':درحال_صحبت_کردن:',
+        'tr': u':konuşan_kişi:'
     },
     u'\U0001F4AC': { # 💬
         'en' : ':speech_balloon:',
@@ -36375,7 +37872,8 @@ EMOJI_DATA = {
         'fr': ':bulle_de_parole:',
         'pt': u':balão_de_diálogo:',
         'it': ':fumetto:',
-        'fa': u':بالن_گفتار:'
+        'fa': u':بالن_گفتار:',
+        'tr': u':konuşma_balonu:'
     },
     u'\U0001F6A4': { # 🚤
         'en' : ':speedboat:',
@@ -36386,7 +37884,8 @@ EMOJI_DATA = {
         'fr': ':hors-bord:',
         'pt': ':lancha:',
         'it': ':motoscafo:',
-        'fa': u':قایق_تندرو:'
+        'fa': u':قایق_تندرو:',
+        'tr': u':sürat_teknesi:'
     },
     u'\U0001F577\U0000FE0F': { # 🕷️
         'en' : ':spider:',
@@ -36398,7 +37897,8 @@ EMOJI_DATA = {
         'fr': u':araignée:',
         'pt': ':aranha:',
         'it': ':ragno:',
-        'fa': u':عنکبوت:'
+        'fa': u':عنکبوت:',
+        'tr': u':örümcek:'
     },
     u'\U0001F577': { # 🕷
         'en' : ':spider:',
@@ -36410,7 +37910,8 @@ EMOJI_DATA = {
         'fr': u':araignée:',
         'pt': ':aranha:',
         'it': ':ragno:',
-        'fa': u':عنکبوت:'
+        'fa': u':عنکبوت:',
+        'tr': u':örümcek:'
     },
     u'\U0001F578\U0000FE0F': { # 🕸️
         'en' : ':spider_web:',
@@ -36422,7 +37923,8 @@ EMOJI_DATA = {
         'fr': u':toile_d’araignée:',
         'pt': ':teia_de_aranha:',
         'it': ':ragnatela:',
-        'fa': u':تار_عنکبوت:'
+        'fa': u':تار_عنکبوت:',
+        'tr': u':örümcek_ağı:'
     },
     u'\U0001F578': { # 🕸
         'en' : ':spider_web:',
@@ -36434,7 +37936,8 @@ EMOJI_DATA = {
         'fr': u':toile_d’araignée:',
         'pt': ':teia_de_aranha:',
         'it': ':ragnatela:',
-        'fa': u':تار_عنکبوت:'
+        'fa': u':تار_عنکبوت:',
+        'tr': u':örümcek_ağı:'
     },
     u'\U0001F5D3\U0000FE0F': { # 🗓️
         'en' : ':spiral_calendar:',
@@ -36447,7 +37950,8 @@ EMOJI_DATA = {
         'fr': u':calendrier_à_spirale:',
         'pt': u':calendário_espiral:',
         'it': ':calendario_a_spirale:',
-        'fa': u':تقویم_سیمی:'
+        'fa': u':تقویم_سیمی:',
+        'tr': ':spiral_takvim:'
     },
     u'\U0001F5D3': { # 🗓
         'en' : ':spiral_calendar:',
@@ -36460,7 +37964,8 @@ EMOJI_DATA = {
         'fr': u':calendrier_à_spirale:',
         'pt': u':calendário_espiral:',
         'it': ':calendario_a_spirale:',
-        'fa': u':تقویم_سیمی:'
+        'fa': u':تقویم_سیمی:',
+        'tr': ':spiral_takvim:'
     },
     u'\U0001F5D2\U0000FE0F': { # 🗒️
         'en' : ':spiral_notepad:',
@@ -36473,7 +37978,8 @@ EMOJI_DATA = {
         'fr': u':bloc-notes_à_spirale:',
         'pt': ':bloco_espiral:',
         'it': ':blocco_per_appunti_con_spirale:',
-        'fa': u':دفترچه_یادداشت_سیمی:'
+        'fa': u':دفترچه_یادداشت_سیمی:',
+        'tr': ':spiral_not_defteri:'
     },
     u'\U0001F5D2': { # 🗒
         'en' : ':spiral_notepad:',
@@ -36486,7 +37992,8 @@ EMOJI_DATA = {
         'fr': u':bloc-notes_à_spirale:',
         'pt': ':bloco_espiral:',
         'it': ':blocco_per_appunti_con_spirale:',
-        'fa': u':دفترچهٔ_یادداشت_سیمی:'
+        'fa': u':دفترچهٔ_یادداشت_سیمی:',
+        'tr': ':spiral_not_defteri:'
     },
     u'\U0001F41A': { # 🐚
         'en' : ':spiral_shell:',
@@ -36498,7 +38005,8 @@ EMOJI_DATA = {
         'fr': ':coquille_en_spirale:',
         'pt': ':caramujo:',
         'it': ':conchiglia:',
-        'fa': u':صدف_مارپیچی:'
+        'fa': u':صدف_مارپیچی:',
+        'tr': u':deniz_kabuğu:'
     },
     u'\U0001F9FD': { # 🧽
         'en' : ':sponge:',
@@ -36509,7 +38017,8 @@ EMOJI_DATA = {
         'fr': u':éponge:',
         'pt': ':esponja:',
         'it': ':spugna:',
-        'fa': u':لیف_حمام:'
+        'fa': u':لیف_حمام:',
+        'tr': u':sünger:'
     },
     u'\U0001F944': { # 🥄
         'en' : ':spoon:',
@@ -36520,7 +38029,8 @@ EMOJI_DATA = {
         'fr': u':cuillère:',
         'pt': ':colher:',
         'it': ':cucchiaio:',
-        'fa': u':قاشق:'
+        'fa': u':قاشق:',
+        'tr': u':kaşık:'
     },
     u'\U0001F699': { # 🚙
         'en' : ':sport_utility_vehicle:',
@@ -36532,7 +38042,8 @@ EMOJI_DATA = {
         'fr': u':véhicule_utilitaire_sport:',
         'pt': ':suv:',
         'it': ':suv:',
-        'fa': u':خودروی_شاسی_بلند:'
+        'fa': u':خودروی_شاسی_بلند:',
+        'tr': ':cip:'
     },
     u'\U0001F3C5': { # 🏅
         'en' : ':sports_medal:',
@@ -36544,7 +38055,8 @@ EMOJI_DATA = {
         'fr': u':médaille_sportive:',
         'pt': ':medalha_esportiva:',
         'it': ':medaglia_sportiva:',
-        'fa': u':مدال_ورزشی:'
+        'fa': u':مدال_ورزشی:',
+        'tr': u':spor_madalyası:'
     },
     u'\U0001F433': { # 🐳
         'en' : ':spouting_whale:',
@@ -36556,7 +38068,8 @@ EMOJI_DATA = {
         'fr': u':baleine_soufflant_par_son_évent:',
         'pt': u':baleia_esguichando_água:',
         'it': ':balena_che_spruzza_acqua:',
-        'fa': u':نهنگ_در_حال_آب_فشانی:'
+        'fa': u':نهنگ_در_حال_آب_فشانی:',
+        'tr': u':su_püskürten_balina:'
     },
     u'\U0001F991': { # 🦑
         'en' : ':squid:',
@@ -36567,7 +38080,8 @@ EMOJI_DATA = {
         'fr': ':calamar:',
         'pt': ':lula:',
         'it': ':calamaro:',
-        'fa': u':ماهی_مرکب:'
+        'fa': u':ماهی_مرکب:',
+        'tr': u':mürekkep_balığı:'
     },
     u'\U0001F61D': { # 😝
         'en' : ':squinting_face_with_tongue:',
@@ -36579,7 +38093,8 @@ EMOJI_DATA = {
         'fr': u':visage_qui_tire_la_langue_les_yeux_plissés:',
         'pt': u':rosto_com_olhos_semicerrados_e_língua_para_fora:',
         'it': ':faccina_con_un_gran_sorriso_che_mostra_la_lingua:',
-        'fa': u':زبونک_با_چشم_بسته:'
+        'fa': u':زبونک_با_چشم_بسته:',
+        'tr': u':dil_dışarıda_ve_gözler_kapalı:'
     },
     u'\U0001F3DF\U0000FE0F': { # 🏟️
         'en' : ':stadium:',
@@ -36591,7 +38106,8 @@ EMOJI_DATA = {
         'fr': ':stade:',
         'pt': u':estádio:',
         'it': ':stadio:',
-        'fa': u':ورزشگاه:'
+        'fa': u':ورزشگاه:',
+        'tr': ':stadyum:'
     },
     u'\U0001F3DF': { # 🏟
         'en' : ':stadium:',
@@ -36603,7 +38119,8 @@ EMOJI_DATA = {
         'fr': ':stade:',
         'pt': u':estádio:',
         'it': ':stadio:',
-        'fa': u':ورزشگاه:'
+        'fa': u':ورزشگاه:',
+        'tr': ':stadyum:'
     },
     u'\U00002B50': { # ⭐
         'en' : ':star:',
@@ -36615,7 +38132,8 @@ EMOJI_DATA = {
         'fr': u':étoile:',
         'pt': u':estrela_branca_média:',
         'it': ':stella:',
-        'fa': u':ستاره_سفید:'
+        'fa': u':ستاره_سفید:',
+        'tr': u':yıldız:'
     },
     u'\U0001F929': { # 🤩
         'en' : ':star-struck:',
@@ -36627,7 +38145,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_des_étoiles_à_la_place_des_yeux:',
         'pt': ':rosto_com_olhar_maravilhado:',
         'it': ':colpo_di_fulmine:',
-        'fa': u':آدم_مشهور_دیده:'
+        'fa': u':آدم_مشهور_دیده:',
+        'tr': u':yıldız_çarpmış:'
     },
     u'\U0000262A\U0000FE0F': { # ☪️
         'en' : ':star_and_crescent:',
@@ -36639,7 +38158,8 @@ EMOJI_DATA = {
         'fr': u':lune_et_étoile:',
         'pt': ':estrela_e_lua_crescente:',
         'it': ':mezzaluna_e_stella:',
-        'fa': u':هلال_و_ستاره:'
+        'fa': u':هلال_و_ستاره:',
+        'tr': u':ay_yıldız:'
     },
     u'\U0000262A': { # ☪
         'en' : ':star_and_crescent:',
@@ -36651,7 +38171,8 @@ EMOJI_DATA = {
         'fr': u':lune_et_étoile:',
         'pt': ':estrela_e_lua_crescente:',
         'it': ':mezzaluna_e_stella:',
-        'fa': u':هلال_و_ستاره:'
+        'fa': u':هلال_و_ستاره:',
+        'tr': u':ay_yıldız:'
     },
     u'\U00002721\U0000FE0F': { # ✡️
         'en' : ':star_of_David:',
@@ -36664,7 +38185,8 @@ EMOJI_DATA = {
         'fr': u':étoile_de_david:',
         'pt': ':estrela_de_davi:',
         'it': ':stella_di_david:',
-        'fa': u':ستاره_داود:'
+        'fa': u':ستاره_داود:',
+        'tr': u':davut_yıldızı:'
     },
     u'\U00002721': { # ✡
         'en' : ':star_of_David:',
@@ -36677,7 +38199,8 @@ EMOJI_DATA = {
         'fr': u':étoile_de_david:',
         'pt': ':estrela_de_davi:',
         'it': ':stella_di_david:',
-        'fa': u':ستارهٔ_داود:'
+        'fa': u':ستارهٔ_داود:',
+        'tr': u':davut_yıldızı:'
     },
     u'\U0001F689': { # 🚉
         'en' : ':station:',
@@ -36688,7 +38211,8 @@ EMOJI_DATA = {
         'fr': ':gare:',
         'pt': u':estação:',
         'it': ':stazione:',
-        'fa': u':ایستگاه_قطار:'
+        'fa': u':ایستگاه_قطار:',
+        'tr': ':tren_istasyonu:'
     },
     u'\U0001F35C': { # 🍜
         'en' : ':steaming_bowl:',
@@ -36700,7 +38224,8 @@ EMOJI_DATA = {
         'fr': ':bol_fumant:',
         'pt': u':lámen:',
         'it': ':ciotola_fumante:',
-        'fa': u':کاسه_نودل:'
+        'fa': u':کاسه_نودل:',
+        'tr': u':erişte:'
     },
     u'\U0001FA7A': { # 🩺
         'en' : ':stethoscope:',
@@ -36711,7 +38236,8 @@ EMOJI_DATA = {
         'fr': u':stéthoscope:',
         'pt': u':estetoscópio:',
         'it': ':stetoscopio:',
-        'fa': u':گوشی_پزشکی:'
+        'fa': u':گوشی_پزشکی:',
+        'tr': ':stetoskop:'
     },
     u'\U000023F9\U0000FE0F': { # ⏹️
         'en' : ':stop_button:',
@@ -36724,7 +38250,8 @@ EMOJI_DATA = {
         'fr': ':bouton_stop:',
         'pt': u':botão_parar:',
         'it': ':pulsante_stop:',
-        'fa': u':دکمه_توقف:'
+        'fa': u':دکمه_توقف:',
+        'tr': u':durdurma_düğmesi:'
     },
     u'\U000023F9': { # ⏹
         'en' : ':stop_button:',
@@ -36737,7 +38264,8 @@ EMOJI_DATA = {
         'fr': ':bouton_stop:',
         'pt': u':botão_parar:',
         'it': ':pulsante_stop:',
-        'fa': u':دکمهٔ_توقف:'
+        'fa': u':دکمهٔ_توقف:',
+        'tr': u':durdurma_düğmesi:'
     },
     u'\U0001F6D1': { # 🛑
         'en' : ':stop_sign:',
@@ -36748,7 +38276,8 @@ EMOJI_DATA = {
         'fr': ':stop:',
         'pt': ':sinal_de_pare:',
         'it': ':segnale_di_stop:',
-        'fa': u':علامت_ایست:'
+        'fa': u':علامت_ایست:',
+        'tr': u':dur_işareti:'
     },
     u'\U000023F1\U0000FE0F': { # ⏱️
         'en' : ':stopwatch:',
@@ -36760,7 +38289,8 @@ EMOJI_DATA = {
         'fr': u':chronomètre:',
         'pt': u':cronômetro:',
         'it': ':cronometro:',
-        'fa': u':کرنومتر:'
+        'fa': u':کرنومتر:',
+        'tr': ':kronometre:'
     },
     u'\U000023F1': { # ⏱
         'en' : ':stopwatch:',
@@ -36772,7 +38302,8 @@ EMOJI_DATA = {
         'fr': u':chronomètre:',
         'pt': u':cronômetro:',
         'it': ':cronometro:',
-        'fa': u':کرنومتر:'
+        'fa': u':کرنومتر:',
+        'tr': ':kronometre:'
     },
     u'\U0001F4CF': { # 📏
         'en' : ':straight_ruler:',
@@ -36783,7 +38314,8 @@ EMOJI_DATA = {
         'fr': u':règle:',
         'pt': u':régua_reta:',
         'it': ':righello:',
-        'fa': u':خط_کش:'
+        'fa': u':خط_کش:',
+        'tr': u':düz_cetvel:'
     },
     u'\U0001F353': { # 🍓
         'en' : ':strawberry:',
@@ -36794,7 +38326,8 @@ EMOJI_DATA = {
         'fr': ':fraise:',
         'pt': ':morango:',
         'it': ':fragola:',
-        'fa': u':توت_فرنگی:'
+        'fa': u':توت_فرنگی:',
+        'tr': u':çilek:'
     },
     u'\U0001F9D1\U0000200D\U0001F393': { # 🧑‍🎓
         'en' : ':student:',
@@ -36805,7 +38338,8 @@ EMOJI_DATA = {
         'fr': u':étudiant_(tous_genres):',
         'pt': ':aluno:',
         'it': ':studente:',
-        'fa': u':دانش_آموز:'
+        'fa': u':دانش_آموز:',
+        'tr': u':öğrenci:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F393': { # 🧑🏿‍🎓
         'en' : ':student_dark_skin_tone:',
@@ -36867,7 +38401,8 @@ EMOJI_DATA = {
         'fr': ':micro_de_studio:',
         'pt': u':microfone_de_estúdio:',
         'it': ':microfono_radiofonico:',
-        'fa': u':میکروفون_استودیویی:'
+        'fa': u':میکروفون_استودیویی:',
+        'tr': u':stüdyo_mikrofonu:'
     },
     u'\U0001F399': { # 🎙
         'en' : ':studio_microphone:',
@@ -36879,7 +38414,8 @@ EMOJI_DATA = {
         'fr': ':micro_de_studio:',
         'pt': u':microfone_de_estúdio:',
         'it': ':microfono_radiofonico:',
-        'fa': u':میکروفون_استودیویی:'
+        'fa': u':میکروفون_استودیویی:',
+        'tr': u':stüdyo_mikrofonu:'
     },
     u'\U0001F959': { # 🥙
         'en' : ':stuffed_flatbread:',
@@ -36890,7 +38426,8 @@ EMOJI_DATA = {
         'fr': ':kebab:',
         'pt': u':pão_recheado:',
         'it': ':pita_farcita:',
-        'fa': u':لقمه:'
+        'fa': u':لقمه:',
+        'tr': u':dürüm:'
     },
     u'\U00002600\U0000FE0F': { # ☀️
         'en' : ':sun:',
@@ -36903,7 +38440,8 @@ EMOJI_DATA = {
         'fr': ':soleil:',
         'pt': ':sol:',
         'it': ':sole:',
-        'fa': u':خورشید:'
+        'fa': u':خورشید:',
+        'tr': u':güneş:'
     },
     u'\U00002600': { # ☀
         'en' : ':sun:',
@@ -36916,7 +38454,8 @@ EMOJI_DATA = {
         'fr': ':soleil:',
         'pt': ':sol:',
         'it': ':sole:',
-        'fa': u':خورشید:'
+        'fa': u':خورشید:',
+        'tr': u':güneş:'
     },
     u'\U000026C5': { # ⛅
         'en' : ':sun_behind_cloud:',
@@ -36929,7 +38468,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_les_nuages:',
         'pt': u':sol_por_trás_das_nuvens:',
         'it': ':sole_coperto:',
-        'fa': u':خورشید_پشت_ابر:'
+        'fa': u':خورشید_پشت_ابر:',
+        'tr': u':bulutlar_ardındaki_güneş:'
     },
     u'\U0001F325\U0000FE0F': { # 🌥️
         'en' : ':sun_behind_large_cloud:',
@@ -36942,7 +38482,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_un_gros_nuage:',
         'pt': ':nublado:',
         'it': ':molto_nuvoloso:',
-        'fa': u':خورشید_پشت_ابر_بزرگ:'
+        'fa': u':خورشید_پشت_ابر_بزرگ:',
+        'tr': u':bulutta_kaybolan_güneş:'
     },
     u'\U0001F325': { # 🌥
         'en' : ':sun_behind_large_cloud:',
@@ -36955,7 +38496,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_un_gros_nuage:',
         'pt': ':nublado:',
         'it': ':molto_nuvoloso:',
-        'fa': u':خورشید_پشت_ابر_بزرگ:'
+        'fa': u':خورشید_پشت_ابر_بزرگ:',
+        'tr': u':bulutta_kaybolan_güneş:'
     },
     u'\U0001F326\U0000FE0F': { # 🌦️
         'en' : ':sun_behind_rain_cloud:',
@@ -36968,7 +38510,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_un_nuage_de_pluie:',
         'pt': ':sol_com_chuva:',
         'it': ':sole_coperto_e_pioggia:',
-        'fa': u':خورشید_پشت_ابر_بارانی:'
+        'fa': u':خورشید_پشت_ابر_بارانی:',
+        'tr': u':yağmur_bulutunun_arkasındaki_güneş:'
     },
     u'\U0001F326': { # 🌦
         'en' : ':sun_behind_rain_cloud:',
@@ -36981,7 +38524,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_un_nuage_de_pluie:',
         'pt': ':sol_com_chuva:',
         'it': ':sole_coperto_e_pioggia:',
-        'fa': u':خورشید_پشت_ابر_بارانی:'
+        'fa': u':خورشید_پشت_ابر_بارانی:',
+        'tr': u':yağmur_bulutunun_arkasındaki_güneş:'
     },
     u'\U0001F324\U0000FE0F': { # 🌤️
         'en' : ':sun_behind_small_cloud:',
@@ -36994,7 +38538,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_un_petit_nuage:',
         'pt': ':sol_com_nuvens:',
         'it': ':parzialmente_nuvoloso:',
-        'fa': u':خورشید_پشت_ابر_کوچک:'
+        'fa': u':خورشید_پشت_ابر_کوچک:',
+        'tr': u':bulutun_arkasındaki_güneş:'
     },
     u'\U0001F324': { # 🌤
         'en' : ':sun_behind_small_cloud:',
@@ -37007,7 +38552,8 @@ EMOJI_DATA = {
         'fr': u':soleil_derrière_un_petit_nuage:',
         'pt': ':sol_com_nuvens:',
         'it': ':parzialmente_nuvoloso:',
-        'fa': u':خورشید_پشت_ابر_کوچک:'
+        'fa': u':خورشید_پشت_ابر_کوچک:',
+        'tr': u':bulutun_arkasındaki_güneş:'
     },
     u'\U0001F31E': { # 🌞
         'en' : ':sun_with_face:',
@@ -37018,7 +38564,8 @@ EMOJI_DATA = {
         'fr': ':soleil_avec_visage:',
         'pt': ':rosto_do_sol:',
         'it': ':faccina_sole:',
-        'fa': u':صورت_خورشید:'
+        'fa': u':صورت_خورشید:',
+        'tr': u':güneş_yüz:'
     },
     u'\U0001F33B': { # 🌻
         'en' : ':sunflower:',
@@ -37029,7 +38576,8 @@ EMOJI_DATA = {
         'fr': ':tournesol:',
         'pt': ':girassol:',
         'it': ':girasole:',
-        'fa': u':گل_آفتابگردان:'
+        'fa': u':گل_آفتابگردان:',
+        'tr': u':ayçiçeği:'
     },
     u'\U0001F576\U0000FE0F': { # 🕶️
         'en' : ':sunglasses:',
@@ -37042,7 +38590,8 @@ EMOJI_DATA = {
         'fr': ':lunettes_de_soleil:',
         'pt': u':óculos_escuros:',
         'it': ':occhiali_da_sole:',
-        'fa': u':عینک_آفتابی:'
+        'fa': u':عینک_آفتابی:',
+        'tr': u':güneş_gözlüğü:'
     },
     u'\U0001F576': { # 🕶
         'en' : ':sunglasses:',
@@ -37055,7 +38604,8 @@ EMOJI_DATA = {
         'fr': ':lunettes_de_soleil:',
         'pt': u':óculos_escuros:',
         'it': ':occhiali_da_sole:',
-        'fa': u':عینک_آفتابی:'
+        'fa': u':عینک_آفتابی:',
+        'tr': u':güneş_gözlüğü:'
     },
     u'\U0001F305': { # 🌅
         'en' : ':sunrise:',
@@ -37066,7 +38616,8 @@ EMOJI_DATA = {
         'fr': ':soleil_levant:',
         'pt': u':aurora_sobre_água:',
         'it': ':alba:',
-        'fa': u':طلوع:'
+        'fa': u':طلوع:',
+        'tr': u':güneşin_doğuşu:'
     },
     u'\U0001F304': { # 🌄
         'en' : ':sunrise_over_mountains:',
@@ -37077,7 +38628,8 @@ EMOJI_DATA = {
         'fr': u':soleil_levant_derrière_les_montagnes:',
         'pt': ':aurora_sobre_montanhas:',
         'it': ':alba_sulle_montagne:',
-        'fa': u':طلوع_در_کوهستان:'
+        'fa': u':طلوع_در_کوهستان:',
+        'tr': u':dağların_arasından_güneşin_doğuşu:'
     },
     u'\U0001F307': { # 🌇
         'en' : ':sunset:',
@@ -37089,7 +38641,8 @@ EMOJI_DATA = {
         'fr': ':coucher_de_soleil:',
         'pt': u':pôr_do_sol:',
         'it': ':tramonto:',
-        'fa': u':غروب:'
+        'fa': u':غروب:',
+        'tr': u':gün_batımı:'
     },
     u'\U0001F9B8': { # 🦸
         'en' : ':superhero:',
@@ -37100,7 +38653,8 @@ EMOJI_DATA = {
         'fr': u':super-héros:',
         'pt': u':super-herói:',
         'it': ':supereroe:',
-        'fa': u':ابرقهرمان:'
+        'fa': u':ابرقهرمان:',
+        'tr': u':süper_kahraman:'
     },
     u'\U0001F9B8\U0001F3FF': { # 🦸🏿
         'en' : ':superhero_dark_skin_tone:',
@@ -37161,7 +38715,8 @@ EMOJI_DATA = {
         'fr': ':super-vilain:',
         'pt': u':supervilão:',
         'it': ':supercattivo:',
-        'fa': u':ابرشرور:'
+        'fa': u':ابرشرور:',
+        'tr': u':süper_kötü:'
     },
     u'\U0001F9B9\U0001F3FF': { # 🦹🏿
         'en' : ':supervillain_dark_skin_tone:',
@@ -37222,7 +38777,8 @@ EMOJI_DATA = {
         'fr': ':sushi:',
         'pt': ':sushi:',
         'it': ':sushi:',
-        'fa': u':سوشی:'
+        'fa': u':سوشی:',
+        'tr': u':suşi:'
     },
     u'\U0001F69F': { # 🚟
         'en' : ':suspension_railway:',
@@ -37233,7 +38789,8 @@ EMOJI_DATA = {
         'fr': ':train_suspendu:',
         'pt': ':estrada_de_ferro_suspensa:',
         'it': ':ferrovia_sospesa:',
-        'fa': u':قطار_معلق:'
+        'fa': u':قطار_معلق:',
+        'tr': ':asma_demiryolu:'
     },
     u'\U0001F9A2': { # 🦢
         'en' : ':swan:',
@@ -37244,7 +38801,8 @@ EMOJI_DATA = {
         'fr': ':cygne:',
         'pt': ':cisne:',
         'it': ':cigno:',
-        'fa': u':قو:'
+        'fa': u':قو:',
+        'tr': u':kuğu:'
     },
     u'\U0001F4A6': { # 💦
         'en' : ':sweat_droplets:',
@@ -37256,7 +38814,8 @@ EMOJI_DATA = {
         'fr': ':gouttes_de_sueur:',
         'pt': ':pingos_de_suor:',
         'it': ':gocce_di_sudore:',
-        'fa': u':قطره_های_عرق:'
+        'fa': u':قطره_های_عرق:',
+        'tr': u':ter_damlası:'
     },
     u'\U0001F54D': { # 🕍
         'en' : ':synagogue:',
@@ -37267,7 +38826,8 @@ EMOJI_DATA = {
         'fr': ':synagogue:',
         'pt': ':sinagoga:',
         'it': ':sinagoga:',
-        'fa': u':کنیسه:'
+        'fa': u':کنیسه:',
+        'tr': ':sinagog:'
     },
     u'\U0001F489': { # 💉
         'en' : ':syringe:',
@@ -37278,7 +38838,8 @@ EMOJI_DATA = {
         'fr': ':seringue:',
         'pt': ':seringa:',
         'it': ':siringa:',
-        'fa': u':سرنگ:'
+        'fa': u':سرنگ:',
+        'tr': u':şırınga:'
     },
     u'\U0001F455': { # 👕
         'en' : ':t-shirt:',
@@ -37290,7 +38851,8 @@ EMOJI_DATA = {
         'fr': ':t-shirt:',
         'pt': ':camiseta:',
         'it': ':t-shirt:',
-        'fa': u':تی_شرت:'
+        'fa': u':تی_شرت:',
+        'tr': u':tişört:'
     },
     u'\U0001F32E': { # 🌮
         'en' : ':taco:',
@@ -37301,7 +38863,8 @@ EMOJI_DATA = {
         'fr': ':taco:',
         'pt': ':taco:',
         'it': ':taco:',
-        'fa': u':تاکو:'
+        'fa': u':تاکو:',
+        'tr': ':tako:'
     },
     u'\U0001F961': { # 🥡
         'en' : ':takeout_box:',
@@ -37312,7 +38875,8 @@ EMOJI_DATA = {
         'fr': u':boîte_à_emporter:',
         'pt': ':caixa_para_viagem:',
         'it': ':confezione_da_asporto:',
-        'fa': u':جعبه_بردنی:'
+        'fa': u':جعبه_بردنی:',
+        'tr': ':yiyecek_paketi:'
     },
     u'\U0001FAD4': { # 🫔
         'en' : ':tamale:',
@@ -37323,7 +38887,8 @@ EMOJI_DATA = {
         'fr': ':tamal:',
         'pt': ':tamale:',
         'it': ':tamale:',
-        'fa': u':تامال:'
+        'fa': u':تامال:',
+        'tr': ':tamale:'
     },
     u'\U0001F38B': { # 🎋
         'en' : ':tanabata_tree:',
@@ -37334,7 +38899,8 @@ EMOJI_DATA = {
         'fr': u':arbre_à_vœux:',
         'pt': u':árvore_de_tanabata:',
         'it': ':albero_di_tanabata:',
-        'fa': u':درخت_تاناباتا:'
+        'fa': u':درخت_تاناباتا:',
+        'tr': u':tanabata_ağacı:'
     },
     u'\U0001F34A': { # 🍊
         'en' : ':tangerine:',
@@ -37346,7 +38912,8 @@ EMOJI_DATA = {
         'fr': ':mandarine:',
         'pt': ':tangerina:',
         'it': ':mandarino:',
-        'fa': u':نارنگی:'
+        'fa': u':نارنگی:',
+        'tr': ':mandalina:'
     },
     u'\U0001F695': { # 🚕
         'en' : ':taxi:',
@@ -37357,7 +38924,8 @@ EMOJI_DATA = {
         'fr': ':taxi:',
         'pt': u':táxi:',
         'it': ':taxi:',
-        'fa': u':تاکسی:'
+        'fa': u':تاکسی:',
+        'tr': ':taksi:'
     },
     u'\U0001F9D1\U0000200D\U0001F3EB': { # 🧑‍🏫
         'en' : ':teacher:',
@@ -37368,7 +38936,8 @@ EMOJI_DATA = {
         'fr': ':personnel_enseignant:',
         'pt': ':professora_na_escola:',
         'it': ':insegnante:',
-        'fa': u':معلم:'
+        'fa': u':معلم:',
+        'tr': u':öğretmen:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F3EB': { # 🧑🏿‍🏫
         'en' : ':teacher_dark_skin_tone:',
@@ -37430,7 +38999,8 @@ EMOJI_DATA = {
         'fr': ':tasse:',
         'pt': u':xícara_de_chá_sem_alça:',
         'it': u':tazza_da_tè_senza_manico:',
-        'fa': u':فنجان_چای_بدون_دسته:'
+        'fa': u':فنجان_چای_بدون_دسته:',
+        'tr': u':çay_fincanı:'
     },
     u'\U0001FAD6': { # 🫖
         'en' : ':teapot:',
@@ -37441,7 +39011,8 @@ EMOJI_DATA = {
         'fr': u':théière:',
         'pt': ':bule:',
         'it': ':teiera:',
-        'fa': u':قوری:'
+        'fa': u':قوری:',
+        'tr': ':demlik:'
     },
     u'\U0001F4C6': { # 📆
         'en' : ':tear-off_calendar:',
@@ -37453,7 +39024,8 @@ EMOJI_DATA = {
         'fr': u':éphéméride:',
         'pt': u':calendário_com_folhas_destacáveis:',
         'it': ':calendario_a_strappo:',
-        'fa': u':تقویم_رومیزی:'
+        'fa': u':تقویم_رومیزی:',
+        'tr': u':koparmalı_takvim:'
     },
     u'\U0001F9D1\U0000200D\U0001F4BB': { # 🧑‍💻
         'en' : ':technologist:',
@@ -37464,7 +39036,8 @@ EMOJI_DATA = {
         'fr': ':informaticien_(tous_genres):',
         'pt': ':programador:',
         'it': ':persona_esperta_di_tecnologia:',
-        'fa': u':متخصص:'
+        'fa': u':متخصص:',
+        'tr': u':teknoloji_uzmanı:'
     },
     u'\U0001F9D1\U0001F3FF\U0000200D\U0001F4BB': { # 🧑🏿‍💻
         'en' : ':technologist_dark_skin_tone:',
@@ -37525,7 +39098,8 @@ EMOJI_DATA = {
         'fr': ':ours_en_peluche:',
         'pt': u':ursinho_de_pelúcia:',
         'it': ':orsetto:',
-        'fa': u':تدی_خرسه:'
+        'fa': u':تدی_خرسه:',
+        'tr': u':oyuncak_ayı:'
     },
     u'\U0000260E\U0000FE0F': { # ☎️
         'en' : ':telephone:',
@@ -37538,7 +39112,8 @@ EMOJI_DATA = {
         'fr': u':téléphone:',
         'pt': ':telefone_no_gancho:',
         'it': ':telefono_fisso:',
-        'fa': u':تلفن:'
+        'fa': u':تلفن:',
+        'tr': ':telefon:'
     },
     u'\U0000260E': { # ☎
         'en' : ':telephone:',
@@ -37551,7 +39126,8 @@ EMOJI_DATA = {
         'fr': u':téléphone:',
         'pt': ':telefone_no_gancho:',
         'it': ':telefono_fisso:',
-        'fa': u':تلفن:'
+        'fa': u':تلفن:',
+        'tr': ':telefon:'
     },
     u'\U0001F4DE': { # 📞
         'en' : ':telephone_receiver:',
@@ -37562,7 +39138,8 @@ EMOJI_DATA = {
         'fr': u':combiné_téléphonique:',
         'pt': ':telefone:',
         'it': ':cornetta:',
-        'fa': u':گوشی_تلفن:'
+        'fa': u':گوشی_تلفن:',
+        'tr': ':ahize:'
     },
     u'\U0001F52D': { # 🔭
         'en' : ':telescope:',
@@ -37573,7 +39150,8 @@ EMOJI_DATA = {
         'fr': u':télescope:',
         'pt': u':telescópio:',
         'it': ':telescopio:',
-        'fa': u':تلسکوپ:'
+        'fa': u':تلسکوپ:',
+        'tr': ':teleskop:'
     },
     u'\U0001F4FA': { # 📺
         'en' : ':television:',
@@ -37586,7 +39164,8 @@ EMOJI_DATA = {
         'fr': u':téléviseur:',
         'pt': u':televisão:',
         'it': ':televisore:',
-        'fa': u':تلویزیون:'
+        'fa': u':تلویزیون:',
+        'tr': ':televizyon:'
     },
     u'\U0001F565': { # 🕥
         'en' : ':ten-thirty:',
@@ -37599,7 +39178,8 @@ EMOJI_DATA = {
         'fr': ':dix_heures_et_demie:',
         'pt': ':dez_e_meia:',
         'it': ':ore_dieci_e_mezza:',
-        'fa': u':ساعت_ده_و_نیم:'
+        'fa': u':ساعت_ده_و_نیم:',
+        'tr': u':on_buçuk:'
     },
     u'\U0001F559': { # 🕙
         'en' : u':ten_o’clock:',
@@ -37612,7 +39192,8 @@ EMOJI_DATA = {
         'fr': ':dix_heures:',
         'pt': ':10_horas:',
         'it': ':ore_dieci:',
-        'fa': u':ساعت_ده:'
+        'fa': u':ساعت_ده:',
+        'tr': ':saat_10:'
     },
     u'\U0001F3BE': { # 🎾
         'en' : ':tennis:',
@@ -37623,7 +39204,8 @@ EMOJI_DATA = {
         'fr': ':tennis:',
         'pt': u':tênis:',
         'it': ':tennis:',
-        'fa': u':تنیس:'
+        'fa': u':تنیس:',
+        'tr': ':tenis:'
     },
     u'\U000026FA': { # ⛺
         'en' : ':tent:',
@@ -37635,7 +39217,8 @@ EMOJI_DATA = {
         'fr': ':tente:',
         'pt': ':barraca:',
         'it': ':tenda:',
-        'fa': u':چادر:'
+        'fa': u':چادر:',
+        'tr': u':çadır:'
     },
     u'\U0001F9EA': { # 🧪
         'en' : ':test_tube:',
@@ -37646,7 +39229,8 @@ EMOJI_DATA = {
         'fr': u':tube_à_essai:',
         'pt': ':tubo_de_ensaio:',
         'it': ':provetta:',
-        'fa': u':لولهٔ_آزمایشگاه:'
+        'fa': u':لولهٔ_آزمایشگاه:',
+        'tr': u':deney_tüpü:'
     },
     u'\U0001F321\U0000FE0F': { # 🌡️
         'en' : ':thermometer:',
@@ -37658,7 +39242,8 @@ EMOJI_DATA = {
         'fr': u':thermomètre:',
         'pt': u':termômetro:',
         'it': ':termometro:',
-        'fa': u':دماسنج:'
+        'fa': u':دماسنج:',
+        'tr': ':termometre:'
     },
     u'\U0001F321': { # 🌡
         'en' : ':thermometer:',
@@ -37670,7 +39255,8 @@ EMOJI_DATA = {
         'fr': u':thermomètre:',
         'pt': u':termômetro:',
         'it': ':termometro:',
-        'fa': u':دماسنج:'
+        'fa': u':دماسنج:',
+        'tr': ':termometre:'
     },
     u'\U0001F914': { # 🤔
         'en' : ':thinking_face:',
@@ -37682,7 +39268,8 @@ EMOJI_DATA = {
         'fr': u':visage_en_pleine_réflexion:',
         'pt': ':rosto_pensativo:',
         'it': ':faccina_concentrata:',
-        'fa': u':درحال_تفکر:'
+        'fa': u':درحال_تفکر:',
+        'tr': u':düşünen_yüz:'
     },
     u'\U0001FA74': { # 🩴
         'en' : ':thong_sandal:',
@@ -37693,7 +39280,8 @@ EMOJI_DATA = {
         'fr': ':tong:',
         'pt': ':chinelo:',
         'it': ':infradito:',
-        'fa': u':دمپایی_لاانگشتی:'
+        'fa': u':دمپایی_لاانگشتی:',
+        'tr': u':parmak_arası_terlik:'
     },
     u'\U0001F4AD': { # 💭
         'en' : ':thought_balloon:',
@@ -37704,7 +39292,8 @@ EMOJI_DATA = {
         'fr': u':bulle_de_pensée:',
         'pt': u':balão_de_pensamento:',
         'it': ':nuvoletta:',
-        'fa': u':بالن_افکار:'
+        'fa': u':بالن_افکار:',
+        'tr': u':düşünce_balonu:'
     },
     u'\U0001F9F5': { # 🧵
         'en' : ':thread:',
@@ -37715,7 +39304,8 @@ EMOJI_DATA = {
         'fr': ':bobine_de_fil:',
         'pt': ':carretel:',
         'it': ':filo:',
-        'fa': u':نخ:'
+        'fa': u':نخ:',
+        'tr': ':iplik:'
     },
     u'\U0001F55E': { # 🕞
         'en' : ':three-thirty:',
@@ -37728,7 +39318,8 @@ EMOJI_DATA = {
         'fr': ':trois_heures_et_demie:',
         'pt': u':três_e_meia:',
         'it': ':ore_tre_e_mezza:',
-        'fa': u':ساعت_سه_و_نیم:'
+        'fa': u':ساعت_سه_و_نیم:',
+        'tr': u':üç_buçuk:'
     },
     u'\U0001F552': { # 🕒
         'en' : u':three_o’clock:',
@@ -37741,7 +39332,8 @@ EMOJI_DATA = {
         'fr': ':trois_heures:',
         'pt': ':3_horas:',
         'it': ':ore_tre:',
-        'fa': u':ساعت_سه:'
+        'fa': u':ساعت_سه:',
+        'tr': ':saat_3:'
     },
     u'\U0001F44E': { # 👎
         'en' : ':thumbs_down:',
@@ -37754,7 +39346,8 @@ EMOJI_DATA = {
         'fr': ':pouce_vers_le_bas:',
         'pt': ':polegar_para_baixo:',
         'it': ':pollice_verso:',
-        'fa': u':نپسندیدن:'
+        'fa': u':نپسندیدن:',
+        'tr': u':baş_parmak_aşağıda:'
     },
     u'\U0001F44E\U0001F3FF': { # 👎🏿
         'en' : ':thumbs_down_dark_skin_tone:',
@@ -37817,7 +39410,8 @@ EMOJI_DATA = {
         'fr': ':pouce_vers_le_haut:',
         'pt': ':polegar_para_cima:',
         'it': ':pollice_in_su:',
-        'fa': u':پسندیدن:'
+        'fa': u':پسندیدن:',
+        'tr': u':baş_parmak_yukarıda:'
     },
     u'\U0001F44D\U0001F3FF': { # 👍🏿
         'en' : ':thumbs_up_dark_skin_tone:',
@@ -37878,7 +39472,8 @@ EMOJI_DATA = {
         'fr': ':billet:',
         'pt': ':ingresso:',
         'it': ':biglietto:',
-        'fa': u':بلیت:'
+        'fa': u':بلیت:',
+        'tr': ':bilet:'
     },
     u'\U0001F405': { # 🐅
         'en' : ':tiger:',
@@ -37890,7 +39485,8 @@ EMOJI_DATA = {
         'fr': ':tigre:',
         'pt': ':tigre:',
         'it': ':tigre:',
-        'fa': u':ببر:'
+        'fa': u':ببر:',
+        'tr': ':kaplan:'
     },
     u'\U0001F42F': { # 🐯
         'en' : ':tiger_face:',
@@ -37902,7 +39498,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_tigre:',
         'pt': ':rosto_de_tigre:',
         'it': ':muso_di_tigre:',
-        'fa': u':صورت_ببر:'
+        'fa': u':صورت_ببر:',
+        'tr': u':kaplan_yüzü:'
     },
     u'\U000023F2\U0000FE0F': { # ⏲️
         'en' : ':timer_clock:',
@@ -37914,7 +39511,8 @@ EMOJI_DATA = {
         'fr': ':horloge:',
         'pt': u':relógio_temporizador:',
         'it': ':timer:',
-        'fa': u':تایمر:'
+        'fa': u':تایمر:',
+        'tr': ':alarm:'
     },
     u'\U000023F2': { # ⏲
         'en' : ':timer_clock:',
@@ -37926,7 +39524,8 @@ EMOJI_DATA = {
         'fr': ':horloge:',
         'pt': u':relógio_temporizador:',
         'it': ':timer:',
-        'fa': u':تایمر:'
+        'fa': u':تایمر:',
+        'tr': ':alarm:'
     },
     u'\U0001F62B': { # 😫
         'en' : ':tired_face:',
@@ -37937,7 +39536,8 @@ EMOJI_DATA = {
         'fr': u':visage_fatigué:',
         'pt': ':rosto_cansado:',
         'it': ':faccina_stanca:',
-        'fa': u':صورت_خسته:'
+        'fa': u':صورت_خسته:',
+        'tr': u':yorgun_yüz:'
     },
     u'\U0001F6BD': { # 🚽
         'en' : ':toilet:',
@@ -37948,7 +39548,8 @@ EMOJI_DATA = {
         'fr': ':toilettes:',
         'pt': u':vaso_sanitário:',
         'it': ':toilette:',
-        'fa': u':توالت:'
+        'fa': u':توالت:',
+        'tr': ':klozet:'
     },
     u'\U0001F345': { # 🍅
         'en' : ':tomato:',
@@ -37959,7 +39560,8 @@ EMOJI_DATA = {
         'fr': ':tomate:',
         'pt': ':tomate:',
         'it': ':pomodoro:',
-        'fa': u':گوجه_فرنگی:'
+        'fa': u':گوجه_فرنگی:',
+        'tr': ':domates:'
     },
     u'\U0001F445': { # 👅
         'en' : ':tongue:',
@@ -37970,7 +39572,8 @@ EMOJI_DATA = {
         'fr': ':langue:',
         'pt': u':língua:',
         'it': ':lingua:',
-        'fa': u':زبان:'
+        'fa': u':زبان:',
+        'tr': ':dil:'
     },
     u'\U0001F9F0': { # 🧰
         'en' : ':toolbox:',
@@ -37981,7 +39584,8 @@ EMOJI_DATA = {
         'fr': u':boîte_à_outils:',
         'pt': ':caixa_de_ferramentas:',
         'it': ':cassetta_degli_attrezzi:',
-        'fa': u':جعبه_ابزار:'
+        'fa': u':جعبه_ابزار:',
+        'tr': u':alet_çantası:'
     },
     u'\U0001F9B7': { # 🦷
         'en' : ':tooth:',
@@ -37992,7 +39596,8 @@ EMOJI_DATA = {
         'fr': ':dent:',
         'pt': ':dente:',
         'it': ':dente:',
-        'fa': u':دندان:'
+        'fa': u':دندان:',
+        'tr': u':diş:'
     },
     u'\U0001FAA5': { # 🪥
         'en' : ':toothbrush:',
@@ -38003,7 +39608,8 @@ EMOJI_DATA = {
         'fr': u':brosse_à_dents:',
         'pt': ':escova_de_dentes:',
         'it': ':spazzolino_da_denti:',
-        'fa': u':مسواک:'
+        'fa': u':مسواک:',
+        'tr': u':diş_fırçası:'
     },
     u'\U0001F3A9': { # 🎩
         'en' : ':top_hat:',
@@ -38015,7 +39621,8 @@ EMOJI_DATA = {
         'fr': ':haut_de_forme:',
         'pt': ':cartola:',
         'it': ':cilindro:',
-        'fa': u':کلاه_مردانه_استوانه_ای:'
+        'fa': u':کلاه_مردانه_استوانه_ای:',
+        'tr': u':silindir_şapka:'
     },
     u'\U0001F32A\U0000FE0F': { # 🌪️
         'en' : ':tornado:',
@@ -38028,7 +39635,8 @@ EMOJI_DATA = {
         'fr': ':tornade:',
         'pt': ':tornado:',
         'it': ':tornado:',
-        'fa': u':گردباد:'
+        'fa': u':گردباد:',
+        'tr': ':hortum:'
     },
     u'\U0001F32A': { # 🌪
         'en' : ':tornado:',
@@ -38041,7 +39649,8 @@ EMOJI_DATA = {
         'fr': ':tornade:',
         'pt': ':tornado:',
         'it': ':tornado:',
-        'fa': u':گردباد:'
+        'fa': u':گردباد:',
+        'tr': ':hortum:'
     },
     u'\U0001F5B2\U0000FE0F': { # 🖲️
         'en' : ':trackball:',
@@ -38053,7 +39662,8 @@ EMOJI_DATA = {
         'fr': ':boule_de_commande:',
         'pt': ':trackball:',
         'it': ':trackball:',
-        'fa': u':توپک:'
+        'fa': u':توپک:',
+        'tr': ':iz_topu:'
     },
     u'\U0001F5B2': { # 🖲
         'en' : ':trackball:',
@@ -38065,7 +39675,8 @@ EMOJI_DATA = {
         'fr': ':boule_de_commande:',
         'pt': ':trackball:',
         'it': ':trackball:',
-        'fa': u':توپک:'
+        'fa': u':توپک:',
+        'tr': ':iz_topu:'
     },
     u'\U0001F69C': { # 🚜
         'en' : ':tractor:',
@@ -38076,7 +39687,8 @@ EMOJI_DATA = {
         'fr': ':tracteur:',
         'pt': ':trator:',
         'it': ':trattore:',
-        'fa': u':تراکتور:'
+        'fa': u':تراکتور:',
+        'tr': u':traktör:'
     },
     u'\U00002122\U0000FE0F': { # ™️
         'en' : ':trade_mark:',
@@ -38089,7 +39701,8 @@ EMOJI_DATA = {
         'fr': u':marque_commerciale_déposée:',
         'pt': u':símbolo_de_marca_registrada:',
         'it': ':marchio:',
-        'fa': u':نماد_بازرگانی:'
+        'fa': u':نماد_بازرگانی:',
+        'tr': u':ticari_marka_işareti:'
     },
     u'\U00002122': { # ™
         'en' : ':trade_mark:',
@@ -38102,7 +39715,8 @@ EMOJI_DATA = {
         'fr': u':marque_commerciale_déposée:',
         'pt': u':símbolo_de_marca_registrada:',
         'it': ':marchio:',
-        'fa': u':نماد_بازرگانی:'
+        'fa': u':نماد_بازرگانی:',
+        'tr': u':ticari_marka_işareti:'
     },
     u'\U0001F686': { # 🚆
         'en' : ':train:',
@@ -38114,7 +39728,8 @@ EMOJI_DATA = {
         'fr': ':train:',
         'pt': ':trem:',
         'it': ':treno:',
-        'fa': u':قطار:'
+        'fa': u':قطار:',
+        'tr': ':tren:'
     },
     u'\U0001F68A': { # 🚊
         'en' : ':tram:',
@@ -38125,7 +39740,8 @@ EMOJI_DATA = {
         'fr': ':tramway:',
         'pt': u':bonde_elétrico:',
         'it': ':tram:',
-        'fa': u':تراموا:'
+        'fa': u':تراموا:',
+        'tr': ':tramvay:'
     },
     u'\U0001F68B': { # 🚋
         'en' : ':tram_car:',
@@ -38137,7 +39753,8 @@ EMOJI_DATA = {
         'fr': ':wagon_de_tramway:',
         'pt': ':bonde:',
         'it': ':vagone_del_tram:',
-        'fa': u':قطار_خیابانی:'
+        'fa': u':قطار_خیابانی:',
+        'tr': ':tramvay_vagonu:'
     },
     u'\U0001F3F3\U0000FE0F\U0000200D\U000026A7\U0000FE0F': { # 🏳️‍⚧️
         'en' : ':transgender_flag:',
@@ -38148,7 +39765,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_transgenre:',
         'pt': u':bandeira_transgênero:',
         'it': ':bandiera_transgender:',
-        'fa': u':پرچم_تراجنسیتی:'
+        'fa': u':پرچم_تراجنسیتی:',
+        'tr': u':transgender_bayrağı:'
     },
     u'\U0001F3F3\U0000200D\U000026A7\U0000FE0F': { # 🏳‍⚧️
         'en' : ':transgender_flag:',
@@ -38159,7 +39777,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_transgenre:',
         'pt': u':bandeira_transgênero:',
         'it': ':bandiera_transgender:',
-        'fa': u':پرچم_تراجنسیتی:'
+        'fa': u':پرچم_تراجنسیتی:',
+        'tr': u':transgender_bayrağı:'
     },
     u'\U0001F3F3\U0000FE0F\U0000200D\U000026A7': { # 🏳️‍⚧
         'en' : ':transgender_flag:',
@@ -38170,7 +39789,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_transgenre:',
         'pt': u':bandeira_transgênero:',
         'it': ':bandiera_transgender:',
-        'fa': u':پرچم_تراجنسیتی:'
+        'fa': u':پرچم_تراجنسیتی:',
+        'tr': u':transgender_bayrağı:'
     },
     u'\U0001F3F3\U0000200D\U000026A7': { # 🏳‍⚧
         'en' : ':transgender_flag:',
@@ -38181,7 +39801,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_transgenre:',
         'pt': u':bandeira_transgênero:',
         'it': ':bandiera_transgender:',
-        'fa': u':پرچم_تراجنسیتی:'
+        'fa': u':پرچم_تراجنسیتی:',
+        'tr': u':transgender_bayrağı:'
     },
     u'\U000026A7\U0000FE0F': { # ⚧️
         'en' : ':transgender_symbol:',
@@ -38193,7 +39814,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_la_communauté_transgenre:',
         'pt': u':símbolo_transgênero:',
         'it': ':simbolo_transgender:',
-        'fa': u':علامت_تراجنسیتی:'
+        'fa': u':علامت_تراجنسیتی:',
+        'tr': u':transgender_sembolü:'
     },
     u'\U000026A7': { # ⚧
         'en' : ':transgender_symbol:',
@@ -38205,7 +39827,8 @@ EMOJI_DATA = {
         'fr': u':symbole_de_la_communauté_transgenre:',
         'pt': u':símbolo_transgênero:',
         'it': ':simbolo_transgender:',
-        'fa': u':علامت_تراجنسیتی:'
+        'fa': u':علامت_تراجنسیتی:',
+        'tr': u':transgender_sembolü:'
     },
     u'\U0001F6A9': { # 🚩
         'en' : ':triangular_flag:',
@@ -38217,7 +39840,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_triangulaire:',
         'pt': ':bandeira_triangular:',
         'it': ':bandierina_rossa:',
-        'fa': u':پرچم_مثلثی:'
+        'fa': u':پرچم_مثلثی:',
+        'tr': u':üçgen_bayrak:'
     },
     u'\U0001F4D0': { # 📐
         'en' : ':triangular_ruler:',
@@ -38228,7 +39852,8 @@ EMOJI_DATA = {
         'fr': u':équerre:',
         'pt': u':régua_triangular:',
         'it': ':squadra:',
-        'fa': u':گونیا:'
+        'fa': u':گونیا:',
+        'tr': u':gönye:'
     },
     u'\U0001F531': { # 🔱
         'en' : ':trident_emblem:',
@@ -38240,7 +39865,8 @@ EMOJI_DATA = {
         'fr': ':trident:',
         'pt': ':emblema_de_tridente:',
         'it': ':tridente:',
-        'fa': u':نیزهٔ_سه_شاخه:'
+        'fa': u':نیزهٔ_سه_شاخه:',
+        'tr': u':üçlü_çatal_işareti:'
     },
     u'\U0001F9CC': { # 🧌
         'en' : ':troll:',
@@ -38251,7 +39877,8 @@ EMOJI_DATA = {
         'fr': ':troll:',
         'pt': ':troll:',
         'it': ':troll:',
-        'fa': u':غول:'
+        'fa': u':غول:',
+        'tr': ':trol:'
     },
     u'\U0001F68E': { # 🚎
         'en' : ':trolleybus:',
@@ -38262,7 +39889,8 @@ EMOJI_DATA = {
         'fr': ':trolleybus:',
         'pt': u':trólebus:',
         'it': ':filobus:',
-        'fa': u':اتوبوس_برقی:'
+        'fa': u':اتوبوس_برقی:',
+        'tr': u':troleybüs:'
     },
     u'\U0001F3C6': { # 🏆
         'en' : ':trophy:',
@@ -38274,7 +39902,8 @@ EMOJI_DATA = {
         'fr': u':trophée:',
         'pt': u':troféu:',
         'it': ':coppa:',
-        'fa': u':جام_ورزشی:'
+        'fa': u':جام_ورزشی:',
+        'tr': u':zafer_kupası:'
     },
     u'\U0001F379': { # 🍹
         'en' : ':tropical_drink:',
@@ -38285,7 +39914,8 @@ EMOJI_DATA = {
         'fr': ':cocktail_tropical:',
         'pt': ':bebida_tropical:',
         'it': ':cocktail_tropicale:',
-        'fa': u':نوشیدنی_استوایی:'
+        'fa': u':نوشیدنی_استوایی:',
+        'tr': u':tropik_içecek:'
     },
     u'\U0001F420': { # 🐠
         'en' : ':tropical_fish:',
@@ -38296,7 +39926,8 @@ EMOJI_DATA = {
         'fr': ':poisson_tropical:',
         'pt': ':peixe_tropical:',
         'it': ':pesce_tropicale:',
-        'fa': u':ماهی_استوایی:'
+        'fa': u':ماهی_استوایی:',
+        'tr': u':tropikal_balık:'
     },
     u'\U0001F3BA': { # 🎺
         'en' : ':trumpet:',
@@ -38307,7 +39938,8 @@ EMOJI_DATA = {
         'fr': ':trompette:',
         'pt': ':trompete:',
         'it': ':tromba:',
-        'fa': u':ترومپت:'
+        'fa': u':ترومپت:',
+        'tr': ':trompet:'
     },
     u'\U0001F337': { # 🌷
         'en' : ':tulip:',
@@ -38318,7 +39950,8 @@ EMOJI_DATA = {
         'fr': ':tulipe:',
         'pt': ':tulipa:',
         'it': ':tulipano:',
-        'fa': u':لاله:'
+        'fa': u':لاله:',
+        'tr': ':lale:'
     },
     u'\U0001F943': { # 🥃
         'en' : ':tumbler_glass:',
@@ -38329,7 +39962,8 @@ EMOJI_DATA = {
         'fr': ':verre_tumbler:',
         'pt': ':copo:',
         'it': ':bicchiere_tumbler:',
-        'fa': u':لیوان_ته_گنبدی:'
+        'fa': u':لیوان_ته_گنبدی:',
+        'tr': u':kısa_ve_geniş_bardak:'
     },
     u'\U0001F983': { # 🦃
         'en' : ':turkey:',
@@ -38340,7 +39974,8 @@ EMOJI_DATA = {
         'fr': ':dindon:',
         'pt': ':peru:',
         'it': ':tacchino:',
-        'fa': u':بوقلمون:'
+        'fa': u':بوقلمون:',
+        'tr': ':hindi:'
     },
     u'\U0001F422': { # 🐢
         'en' : ':turtle:',
@@ -38351,7 +39986,8 @@ EMOJI_DATA = {
         'fr': ':tortue:',
         'pt': ':tartaruga:',
         'it': ':tartaruga:',
-        'fa': u':لاک_پشت:'
+        'fa': u':لاک_پشت:',
+        'tr': u':kaplumbağa:'
     },
     u'\U0001F567': { # 🕧
         'en' : ':twelve-thirty:',
@@ -38364,7 +40000,8 @@ EMOJI_DATA = {
         'fr': ':midi/minuit_et_demie:',
         'pt': ':doze_e_meia:',
         'it': ':ore_dodici_e_mezza:',
-        'fa': u':ساعت_دوازده_و_نیم:'
+        'fa': u':ساعت_دوازده_و_نیم:',
+        'tr': u':on_iki_buçuk:'
     },
     u'\U0001F55B': { # 🕛
         'en' : u':twelve_o’clock:',
@@ -38377,7 +40014,8 @@ EMOJI_DATA = {
         'fr': ':midi/minuit:',
         'pt': ':12_horas:',
         'it': ':ore_dodici:',
-        'fa': u':ساعت_دوازده:'
+        'fa': u':ساعت_دوازده:',
+        'tr': ':saat_12:'
     },
     u'\U0001F42B': { # 🐫
         'en' : ':two-hump_camel:',
@@ -38389,7 +40027,8 @@ EMOJI_DATA = {
         'fr': ':chameau:',
         'pt': ':camelo_com_duas_corcovas:',
         'it': ':cammello:',
-        'fa': u':شتر_دو_کوهان:'
+        'fa': u':شتر_دو_کوهان:',
+        'tr': u':iki_hörgüçlü_deve:'
     },
     u'\U0001F55D': { # 🕝
         'en' : ':two-thirty:',
@@ -38402,7 +40041,8 @@ EMOJI_DATA = {
         'fr': ':deux_heures_et_demie:',
         'pt': ':duas_e_meia:',
         'it': ':ore_due_e_mezza:',
-        'fa': u':ساعت_دو_و_نیم:'
+        'fa': u':ساعت_دو_و_نیم:',
+        'tr': u':iki_buçuk:'
     },
     u'\U0001F495': { # 💕
         'en' : ':two_hearts:',
@@ -38413,7 +40053,8 @@ EMOJI_DATA = {
         'fr': u':deux_cœurs:',
         'pt': u':dois_corações:',
         'it': ':due_cuori:',
-        'fa': u':دو_قلب:'
+        'fa': u':دو_قلب:',
+        'tr': ':iki_kalp:'
     },
     u'\U0001F551': { # 🕑
         'en' : u':two_o’clock:',
@@ -38426,7 +40067,8 @@ EMOJI_DATA = {
         'fr': ':deux_heures:',
         'pt': ':2_horas:',
         'it': ':ore_due:',
-        'fa': u':ساعت_دو:'
+        'fa': u':ساعت_دو:',
+        'tr': ':saat_2:'
     },
     u'\U00002602\U0000FE0F': { # ☂️
         'en' : ':umbrella:',
@@ -38439,7 +40081,8 @@ EMOJI_DATA = {
         'fr': ':parapluie_ouvert:',
         'pt': ':guarda-chuva:',
         'it': ':ombrello:',
-        'fa': u':چتر:'
+        'fa': u':چتر:',
+        'tr': u':şemsiye:'
     },
     u'\U00002602': { # ☂
         'en' : ':umbrella:',
@@ -38452,7 +40095,8 @@ EMOJI_DATA = {
         'fr': ':parapluie_ouvert:',
         'pt': ':guarda-chuva:',
         'it': ':ombrello:',
-        'fa': u':چتر:'
+        'fa': u':چتر:',
+        'tr': u':şemsiye:'
     },
     u'\U000026F1\U0000FE0F': { # ⛱️
         'en' : ':umbrella_on_ground:',
@@ -38465,7 +40109,8 @@ EMOJI_DATA = {
         'fr': ':parasol_sur_le_sol:',
         'pt': ':guarda-sol:',
         'it': ':ombrellone:',
-        'fa': u':چتر_روی_زمین:'
+        'fa': u':چتر_روی_زمین:',
+        'tr': u':sabit_şemsiye:'
     },
     u'\U000026F1': { # ⛱
         'en' : ':umbrella_on_ground:',
@@ -38478,7 +40123,8 @@ EMOJI_DATA = {
         'fr': ':parasol_sur_le_sol:',
         'pt': ':guarda-sol:',
         'it': ':ombrellone:',
-        'fa': u':چتر_روی_زمین:'
+        'fa': u':چتر_روی_زمین:',
+        'tr': u':sabit_şemsiye:'
     },
     u'\U00002614': { # ☔
         'en' : ':umbrella_with_rain_drops:',
@@ -38491,7 +40137,8 @@ EMOJI_DATA = {
         'fr': ':parapluie_avec_gouttes_de_pluie:',
         'pt': ':sombrinha_na_chuva:',
         'it': ':ombrello_con_gocce_di_pioggia:',
-        'fa': u':چتر_خیس:'
+        'fa': u':چتر_خیس:',
+        'tr': u':yağmur_damlalı_şemsiye:'
     },
     u'\U0001F612': { # 😒
         'en' : ':unamused_face:',
@@ -38503,7 +40150,8 @@ EMOJI_DATA = {
         'fr': u':visage_blasé:',
         'pt': ':rosto_aborrecido:',
         'it': ':faccina_contrariata:',
-        'fa': u':کسل:'
+        'fa': u':کسل:',
+        'tr': u':keyifsiz_yüz:'
     },
     u'\U0001F984': { # 🦄
         'en' : ':unicorn:',
@@ -38515,7 +40163,8 @@ EMOJI_DATA = {
         'fr': ':licorne:',
         'pt': u':rosto_de_unicórnio:',
         'it': ':unicorno:',
-        'fa': u':تک_شاخ:'
+        'fa': u':تک_شاخ:',
+        'tr': ':tek_boynuzlu_at:'
     },
     u'\U0001F513': { # 🔓
         'en' : ':unlocked:',
@@ -38528,7 +40177,8 @@ EMOJI_DATA = {
         'fr': ':cadenas_ouvert:',
         'pt': ':cadeado_aberto:',
         'it': ':lucchetto_aperto:',
-        'fa': u':قفل_باز:'
+        'fa': u':قفل_باز:',
+        'tr': u':açık_kilit:'
     },
     u'\U00002195\U0000FE0F': { # ↕️
         'en' : ':up-down_arrow:',
@@ -38541,7 +40191,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut_bas:',
         'pt': ':seta_para_cima_e_para_baixo:',
         'it': u':freccia_su-giù:',
-        'fa': u':پیکان_بالا_و_پایین:'
+        'fa': u':پیکان_بالا_و_پایین:',
+        'tr': u':yukarı_ve_aşağı_ok:'
     },
     u'\U00002195': { # ↕
         'en' : ':up-down_arrow:',
@@ -38554,7 +40205,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut_bas:',
         'pt': ':seta_para_cima_e_para_baixo:',
         'it': u':freccia_su-giù:',
-        'fa': u':پیکان_بالا_و_پایین:'
+        'fa': u':پیکان_بالا_و_پایین:',
+        'tr': u':yukarı_ve_aşağı_ok:'
     },
     u'\U00002196\U0000FE0F': { # ↖️
         'en' : ':up-left_arrow:',
@@ -38567,7 +40219,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut_gauche:',
         'pt': ':seta_para_cima_e_para_a_esquerda:',
         'it': ':freccia_in_alto_a_sinistra:',
-        'fa': u':پیکان_بالا_چپ:'
+        'fa': u':پیکان_بالا_چپ:',
+        'tr': u':sol_yukarı_ok:'
     },
     u'\U00002196': { # ↖
         'en' : ':up-left_arrow:',
@@ -38580,7 +40233,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut_gauche:',
         'pt': ':seta_para_cima_e_para_a_esquerda:',
         'it': ':freccia_in_alto_a_sinistra:',
-        'fa': u':پیکان_بالا_چپ:'
+        'fa': u':پیکان_بالا_چپ:',
+        'tr': u':sol_yukarı_ok:'
     },
     u'\U00002197\U0000FE0F': { # ↗️
         'en' : ':up-right_arrow:',
@@ -38593,7 +40247,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut_droite:',
         'pt': ':seta_para_cima_e_para_a_direita:',
         'it': ':freccia_rivolta_verso_destra_che_punta_in_alto:',
-        'fa': u':پیکان_بالا_راست:'
+        'fa': u':پیکان_بالا_راست:',
+        'tr': u':sağ_yukarı_ok:'
     },
     u'\U00002197': { # ↗
         'en' : ':up-right_arrow:',
@@ -38606,7 +40261,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut_droite:',
         'pt': ':seta_para_cima_e_para_a_direita:',
         'it': ':freccia_rivolta_verso_destra_che_punta_in_alto:',
-        'fa': u':پیکان_بالا_راست:'
+        'fa': u':پیکان_بالا_راست:',
+        'tr': u':sağ_yukarı_ok:'
     },
     u'\U00002B06\U0000FE0F': { # ⬆️
         'en' : ':up_arrow:',
@@ -38619,7 +40275,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut:',
         'pt': ':seta_para_cima:',
         'it': u':freccia_rivolta_verso_l’alto:',
-        'fa': u':پیکان_بالا:'
+        'fa': u':پیکان_بالا:',
+        'tr': u':yukarı_ok:'
     },
     u'\U00002B06': { # ⬆
         'en' : ':up_arrow:',
@@ -38632,7 +40289,8 @@ EMOJI_DATA = {
         'fr': u':flèche_haut:',
         'pt': ':seta_para_cima:',
         'it': u':freccia_rivolta_verso_l’alto:',
-        'fa': u':پیکان_بالا:'
+        'fa': u':پیکان_بالا:',
+        'tr': u':yukarı_ok:'
     },
     u'\U0001F643': { # 🙃
         'en' : ':upside-down_face:',
@@ -38644,7 +40302,8 @@ EMOJI_DATA = {
         'fr': u':tête_à_l’envers:',
         'pt': u':rosto_de_cabeça_para_baixo:',
         'it': ':faccina_sottosopra:',
-        'fa': u':صورت_وارونه:'
+        'fa': u':صورت_وارونه:',
+        'tr': u':ters_yüz:'
     },
     u'\U0001F53C': { # 🔼
         'en' : ':upwards_button:',
@@ -38656,7 +40315,8 @@ EMOJI_DATA = {
         'fr': ':petit_triangle_haut:',
         'pt': u':botão_apontando_para_cima:',
         'it': u':pulsante_a_triangolo_rivolto_verso_l’alto:',
-        'fa': u':دکمهٔ_بالا:'
+        'fa': u':دکمهٔ_بالا:',
+        'tr': u':yukarı_düğmesi:'
     },
     u'\U0001F9DB': { # 🧛
         'en' : ':vampire:',
@@ -38667,7 +40327,8 @@ EMOJI_DATA = {
         'fr': ':vampire:',
         'pt': ':vampiro:',
         'it': ':vampiro:',
-        'fa': u':خون_آشام:'
+        'fa': u':خون_آشام:',
+        'tr': ':vampir:'
     },
     u'\U0001F9DB\U0001F3FF': { # 🧛🏿
         'en' : ':vampire_dark_skin_tone:',
@@ -38728,7 +40389,8 @@ EMOJI_DATA = {
         'fr': ':feu_tricolore_vertical:',
         'pt': u':semáforo_vertical:',
         'it': ':semaforo_verticale:',
-        'fa': u':چراغ_راهنمایی_عمودی:'
+        'fa': u':چراغ_راهنمایی_عمودی:',
+        'tr': u':dikey_trafik_ışıkları:'
     },
     u'\U0001F4F3': { # 📳
         'en' : ':vibration_mode:',
@@ -38739,7 +40401,8 @@ EMOJI_DATA = {
         'fr': ':mode_vibreur:',
         'pt': u':modo_vibratório:',
         'it': u':modalità_vibrazione:',
-        'fa': u':حالت_لرزش:'
+        'fa': u':حالت_لرزش:',
+        'tr': u':titreşim_modu:'
     },
     u'\U0000270C\U0000FE0F': { # ✌️
         'en' : ':victory_hand:',
@@ -38752,7 +40415,8 @@ EMOJI_DATA = {
         'fr': ':v_de_la_victoire:',
         'pt': u':mão_em_v_de_vitória:',
         'it': ':vittoria:',
-        'fa': u':علامت_پیروزی:'
+        'fa': u':علامت_پیروزی:',
+        'tr': u':zafer_işareti:'
     },
     u'\U0000270C': { # ✌
         'en' : ':victory_hand:',
@@ -38765,7 +40429,8 @@ EMOJI_DATA = {
         'fr': ':v_de_la_victoire:',
         'pt': u':mão_em_v_de_vitória:',
         'it': ':vittoria:',
-        'fa': u':علامت_پیروزی:'
+        'fa': u':علامت_پیروزی:',
+        'tr': u':zafer_işareti:'
     },
     u'\U0000270C\U0001F3FF': { # ✌🏿
         'en' : ':victory_hand_dark_skin_tone:',
@@ -38827,7 +40492,8 @@ EMOJI_DATA = {
         'fr': u':caméscope:',
         'pt': u':câmera_de_vídeo:',
         'it': ':videocamera:',
-        'fa': u':دوربین_فیلم_برداری:'
+        'fa': u':دوربین_فیلم_برداری:',
+        'tr': ':video_kamera:'
     },
     u'\U0001F3AE': { # 🎮
         'en' : ':video_game:',
@@ -38839,7 +40505,8 @@ EMOJI_DATA = {
         'fr': u':jeu_vidéo:',
         'pt': ':videogame:',
         'it': ':gamepad:',
-        'fa': u':بازی_ویدیویی:'
+        'fa': u':بازی_ویدیویی:',
+        'tr': ':video_oyunu:'
     },
     u'\U0001F4FC': { # 📼
         'en' : ':videocassette:',
@@ -38851,7 +40518,8 @@ EMOJI_DATA = {
         'fr': u':cassette_vidéo:',
         'pt': ':videocassete:',
         'it': ':videocassetta:',
-        'fa': u':کاست_ویدیویی:'
+        'fa': u':کاست_ویدیویی:',
+        'tr': ':videokaset:'
     },
     u'\U0001F3BB': { # 🎻
         'en' : ':violin:',
@@ -38862,7 +40530,8 @@ EMOJI_DATA = {
         'fr': ':violon:',
         'pt': ':violino:',
         'it': ':violino:',
-        'fa': u':ویولن:'
+        'fa': u':ویولن:',
+        'tr': ':keman:'
     },
     u'\U0001F30B': { # 🌋
         'en' : ':volcano:',
@@ -38873,7 +40542,8 @@ EMOJI_DATA = {
         'fr': ':volcan:',
         'pt': u':vulcão:',
         'it': ':vulcano:',
-        'fa': u':آتشفشان:'
+        'fa': u':آتشفشان:',
+        'tr': u':yanardağ:'
     },
     u'\U0001F3D0': { # 🏐
         'en' : ':volleyball:',
@@ -38884,7 +40554,8 @@ EMOJI_DATA = {
         'fr': ':volley-ball:',
         'pt': u':bola_de_vôlei:',
         'it': ':palla_da_pallavolo:',
-        'fa': u':والیبال:'
+        'fa': u':والیبال:',
+        'tr': ':voleybol:'
     },
     u'\U0001F596': { # 🖖
         'en' : ':vulcan_salute:',
@@ -38896,7 +40567,8 @@ EMOJI_DATA = {
         'fr': ':salut_vulcain:',
         'pt': u':saudação_vulcana:',
         'it': ':saluto_vulcaniano:',
-        'fa': u':سلام_ولکان:'
+        'fa': u':سلام_ولکان:',
+        'tr': u':vulkan_selamı:'
     },
     u'\U0001F596\U0001F3FF': { # 🖖🏿
         'en' : ':vulcan_salute_dark_skin_tone:',
@@ -38957,7 +40629,8 @@ EMOJI_DATA = {
         'fr': ':gaufre:',
         'pt': ':waffle:',
         'it': ':waffle:',
-        'fa': u':وافل:'
+        'fa': u':وافل:',
+        'tr': ':waffle:'
     },
     u'\U0001F318': { # 🌘
         'en' : ':waning_crescent_moon:',
@@ -38968,7 +40641,8 @@ EMOJI_DATA = {
         'fr': u':lune_décroissante:',
         'pt': u':lua_minguante_côncava:',
         'it': ':luna_calante:',
-        'fa': u':هلال_کاهنده_ماه:'
+        'fa': u':هلال_کاهنده_ماه:',
+        'tr': ':ince_ay:'
     },
     u'\U0001F316': { # 🌖
         'en' : ':waning_gibbous_moon:',
@@ -38979,7 +40653,8 @@ EMOJI_DATA = {
         'fr': u':lune_gibbeuse_décroissante:',
         'pt': ':lua_minguante_convexa:',
         'it': ':luna_gibbosa_calante:',
-        'fa': u':کوژماه_کاهنده:'
+        'fa': u':کوژماه_کاهنده:',
+        'tr': u':küçülen_ay:'
     },
     u'\U000026A0\U0000FE0F': { # ⚠️
         'en' : ':warning:',
@@ -38991,7 +40666,8 @@ EMOJI_DATA = {
         'fr': u':symbole_d’avertissement:',
         'pt': ':aviso:',
         'it': ':simbolo_di_avviso:',
-        'fa': u':هشدار:'
+        'fa': u':هشدار:',
+        'tr': u':uyarı_işareti:'
     },
     u'\U000026A0': { # ⚠
         'en' : ':warning:',
@@ -39003,7 +40679,8 @@ EMOJI_DATA = {
         'fr': u':symbole_d’avertissement:',
         'pt': ':aviso:',
         'it': ':simbolo_di_avviso:',
-        'fa': u':هشدار:'
+        'fa': u':هشدار:',
+        'tr': u':uyarı_işareti:'
     },
     u'\U0001F5D1\U0000FE0F': { # 🗑️
         'en' : ':wastebasket:',
@@ -39015,7 +40692,8 @@ EMOJI_DATA = {
         'fr': u':corbeille_à_papiers:',
         'pt': ':lixeira:',
         'it': ':cestino:',
-        'fa': u':سطل_کاغذ_باطله:'
+        'fa': u':سطل_کاغذ_باطله:',
+        'tr': u':çöp_sepeti:'
     },
     u'\U0001F5D1': { # 🗑
         'en' : ':wastebasket:',
@@ -39027,7 +40705,8 @@ EMOJI_DATA = {
         'fr': u':corbeille_à_papiers:',
         'pt': ':lixeira:',
         'it': ':cestino:',
-        'fa': u':سطل_کاغذ_باطله:'
+        'fa': u':سطل_کاغذ_باطله:',
+        'tr': u':çöp_sepeti:'
     },
     u'\U0000231A': { # ⌚
         'en' : ':watch:',
@@ -39039,7 +40718,8 @@ EMOJI_DATA = {
         'fr': ':montre:',
         'pt': u':relógio_de_pulso:',
         'it': ':orologio:',
-        'fa': u':ساعت_مچی:'
+        'fa': u':ساعت_مچی:',
+        'tr': ':kol_saati:'
     },
     u'\U0001F403': { # 🐃
         'en' : ':water_buffalo:',
@@ -39050,7 +40730,8 @@ EMOJI_DATA = {
         'fr': ':buffle:',
         'pt': u':búfalo-asiático:',
         'it': u':bufalo_d’acqua:',
-        'fa': u':بوفالوی_آبی:'
+        'fa': u':بوفالوی_آبی:',
+        'tr': ':manda:'
     },
     u'\U0001F6BE': { # 🚾
         'en' : ':water_closet:',
@@ -39062,7 +40743,8 @@ EMOJI_DATA = {
         'fr': ':wc:',
         'pt': ':wc:',
         'it': ':simbolo_del_wc:',
-        'fa': u':سرویس_بهداشتی:'
+        'fa': u':سرویس_بهداشتی:',
+        'tr': ':wc:'
     },
     u'\U0001F52B': { # 🔫
         'en' : ':water_pistol:',
@@ -39074,7 +40756,8 @@ EMOJI_DATA = {
         'fr': u':pistolet_à_eau:',
         'pt': u':pistola_d’água:',
         'it': ':pistola_ad_acqua:',
-        'fa': u':تفنگ_آب_پاش:'
+        'fa': u':تفنگ_آب_پاش:',
+        'tr': u':su_tabancası:'
     },
     u'\U0001F30A': { # 🌊
         'en' : ':water_wave:',
@@ -39086,7 +40769,8 @@ EMOJI_DATA = {
         'fr': ':vague:',
         'pt': ':onda:',
         'it': ':onda:',
-        'fa': u':موج_آب:'
+        'fa': u':موج_آب:',
+        'tr': ':dalga:'
     },
     u'\U0001F349': { # 🍉
         'en' : ':watermelon:',
@@ -39097,7 +40781,8 @@ EMOJI_DATA = {
         'fr': u':pastèque:',
         'pt': ':melancia:',
         'it': ':anguria:',
-        'fa': u':هندوانه:'
+        'fa': u':هندوانه:',
+        'tr': ':karpuz:'
     },
     u'\U0001F44B': { # 👋
         'en' : ':waving_hand:',
@@ -39109,7 +40794,8 @@ EMOJI_DATA = {
         'fr': ':signe_de_la_main:',
         'pt': u':mão_acenando:',
         'it': ':mano_che_saluta:',
-        'fa': u':تکان_دادن_دست:'
+        'fa': u':تکان_دادن_دست:',
+        'tr': ':el_sallama:'
     },
     u'\U0001F44B\U0001F3FF': { # 👋🏿
         'en' : ':waving_hand_dark_skin_tone:',
@@ -39171,7 +40857,8 @@ EMOJI_DATA = {
         'fr': u':ligne_ondulée:',
         'pt': u':travessão_ondulado:',
         'it': ':trattino_ondulato:',
-        'fa': u':خط_موج_دار:'
+        'fa': u':خط_موج_دار:',
+        'tr': u':dalgalı_çizgi:'
     },
     u'\U00003030': { # 〰
         'en' : ':wavy_dash:',
@@ -39183,7 +40870,8 @@ EMOJI_DATA = {
         'fr': u':ligne_ondulée:',
         'pt': u':travessão_ondulado:',
         'it': ':trattino_ondulato:',
-        'fa': u':خط_موج_دار:'
+        'fa': u':خط_موج_دار:',
+        'tr': u':dalgalı_çizgi:'
     },
     u'\U0001F312': { # 🌒
         'en' : ':waxing_crescent_moon:',
@@ -39194,7 +40882,8 @@ EMOJI_DATA = {
         'fr': ':lune_croissante:',
         'pt': u':lua_crescente_côncava:',
         'it': ':luna_crescente:',
-        'fa': u':هلال_فزاینده_ماه:'
+        'fa': u':هلال_فزاینده_ماه:',
+        'tr': u':büyüyen_ay:'
     },
     u'\U0001F314': { # 🌔
         'en' : ':waxing_gibbous_moon:',
@@ -39206,7 +40895,8 @@ EMOJI_DATA = {
         'fr': ':lune_gibbeuse_croissante:',
         'pt': ':lua_crescente_convexa:',
         'it': ':luna_gibbosa_crescente:',
-        'fa': u':کوژماه_افزاینده:'
+        'fa': u':کوژماه_افزاینده:',
+        'tr': u':geniş_ay:'
     },
     u'\U0001F640': { # 🙀
         'en' : ':weary_cat:',
@@ -39218,7 +40908,8 @@ EMOJI_DATA = {
         'fr': u':chat_fatigué:',
         'pt': ':rosto_de_gato_desolado:',
         'it': ':gatto_esterrefatto:',
-        'fa': u':گربهٔ_بهت_زده:'
+        'fa': u':گربهٔ_بهت_زده:',
+        'tr': u':korkuyla_bağıran_kedi:'
     },
     u'\U0001F629': { # 😩
         'en' : ':weary_face:',
@@ -39230,7 +40921,8 @@ EMOJI_DATA = {
         'fr': u':visage_épuisé:',
         'pt': ':rosto_desolado:',
         'it': ':faccina_esausta:',
-        'fa': u':ازپاافتاده:'
+        'fa': u':ازپاافتاده:',
+        'tr': u':çok_yorgun:'
     },
     u'\U0001F492': { # 💒
         'en' : ':wedding:',
@@ -39241,7 +40933,8 @@ EMOJI_DATA = {
         'fr': ':mariage:',
         'pt': ':capela_de_casamento:',
         'it': ':chiesa_per_matrimonio:',
-        'fa': u':ازدواج:'
+        'fa': u':ازدواج:',
+        'tr': u':düğün:'
     },
     u'\U0001F40B': { # 🐋
         'en' : ':whale:',
@@ -39253,7 +40946,8 @@ EMOJI_DATA = {
         'fr': ':baleine:',
         'pt': ':baleia:',
         'it': ':balena:',
-        'fa': u':نهنگ:'
+        'fa': u':نهنگ:',
+        'tr': ':balina:'
     },
     u'\U0001F6DE': { # 🛞
         'en' : ':wheel:',
@@ -39264,7 +40958,8 @@ EMOJI_DATA = {
         'fr': ':roue:',
         'pt': ':roda:',
         'it': ':ruota:',
-        'fa': u':چرخ:'
+        'fa': u':چرخ:',
+        'tr': ':tekerlek:'
     },
     u'\U00002638\U0000FE0F': { # ☸️
         'en' : ':wheel_of_dharma:',
@@ -39276,7 +40971,8 @@ EMOJI_DATA = {
         'fr': ':roue_du_dharma:',
         'pt': ':roda_do_dharma:',
         'it': ':ruota_del_dharma:',
-        'fa': u':چرخ_دارما:'
+        'fa': u':چرخ_دارما:',
+        'tr': u':darma_çemberi:'
     },
     u'\U00002638': { # ☸
         'en' : ':wheel_of_dharma:',
@@ -39288,7 +40984,8 @@ EMOJI_DATA = {
         'fr': ':roue_du_dharma:',
         'pt': ':roda_do_dharma:',
         'it': ':ruota_del_dharma:',
-        'fa': u':چرخ_دارما:'
+        'fa': u':چرخ_دارما:',
+        'tr': u':darma_çemberi:'
     },
     u'\U0000267F': { # ♿
         'en' : ':wheelchair_symbol:',
@@ -39301,7 +40998,8 @@ EMOJI_DATA = {
         'fr': u':symbole_accès_handicapés:',
         'pt': u':símbolo_de_cadeira_de_rodas:',
         'it': u':simbolo_della_disabilità:',
-        'fa': u':علامت_صندلی_چرخ_دار:'
+        'fa': u':علامت_صندلی_چرخ_دار:',
+        'tr': u':tekerlekli_sandalye_sembolü:'
     },
     u'\U0001F9AF': { # 🦯
         'en' : ':white_cane:',
@@ -39313,7 +41011,8 @@ EMOJI_DATA = {
         'fr': ':canne_blanche:',
         'pt': ':bengala_para_cegos:',
         'it': ':bastone_per_non_vedenti:',
-        'fa': u':عصای_سفید:'
+        'fa': u':عصای_سفید:',
+        'tr': u':görme_engelli_bastonu:'
     },
     u'\U000026AA': { # ⚪
         'en' : ':white_circle:',
@@ -39325,7 +41024,8 @@ EMOJI_DATA = {
         'fr': ':disque_blanc:',
         'pt': u':círculo_branco:',
         'it': ':cerchio_bianco:',
-        'fa': u':دایره_سفید:'
+        'fa': u':دایره_سفید:',
+        'tr': ':beyaz_daire:'
     },
     u'\U00002755': { # ❕
         'en' : ':white_exclamation_mark:',
@@ -39337,7 +41037,8 @@ EMOJI_DATA = {
         'fr': u':point_d’exclamation_blanc:',
         'pt': u':ponto_de_exclamação_branco:',
         'it': ':punto_esclamativo_bianco:',
-        'fa': u':علامت_تعجب_سفید:'
+        'fa': u':علامت_تعجب_سفید:',
+        'tr': u':beyaz_ünlem_işareti:'
     },
     u'\U0001F3F3\U0000FE0F': { # 🏳️
         'en' : ':white_flag:',
@@ -39350,7 +41051,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_blanc:',
         'pt': ':bandeira_branca:',
         'it': ':bandiera_bianca:',
-        'fa': u':پرچم_سفید:'
+        'fa': u':پرچم_سفید:',
+        'tr': ':beyaz_bayrak:'
     },
     u'\U0001F3F3': { # 🏳
         'en' : ':white_flag:',
@@ -39363,7 +41065,8 @@ EMOJI_DATA = {
         'fr': ':drapeau_blanc:',
         'pt': ':bandeira_branca:',
         'it': ':bandiera_bianca:',
-        'fa': u':پرچم_سفید:'
+        'fa': u':پرچم_سفید:',
+        'tr': ':beyaz_bayrak:'
     },
     u'\U0001F4AE': { # 💮
         'en' : ':white_flower:',
@@ -39374,7 +41077,8 @@ EMOJI_DATA = {
         'fr': ':fleur_blanche:',
         'pt': ':flor_branca:',
         'it': ':fiore_bianco:',
-        'fa': u':گل_سفید:'
+        'fa': u':گل_سفید:',
+        'tr': u':beyaz_çiçek:'
     },
     u'\U0001F9B3': { # 🦳
         'en' : ':white_hair:',
@@ -39385,7 +41089,8 @@ EMOJI_DATA = {
         'fr': ':cheveux_blancs:',
         'pt': ':cabelo_branco:',
         'it': ':capelli_bianchi:',
-        'fa': u':موسفید:'
+        'fa': u':موسفید:',
+        'tr': u':beyaz_saç:'
     },
     u'\U0001F90D': { # 🤍
         'en' : ':white_heart:',
@@ -39396,7 +41101,8 @@ EMOJI_DATA = {
         'fr': u':cœur_blanc:',
         'pt': u':coração_branco:',
         'it': ':cuore_bianco:',
-        'fa': u':قلب_سفید:'
+        'fa': u':قلب_سفید:',
+        'tr': ':beyaz_kalp:'
     },
     u'\U00002B1C': { # ⬜
         'en' : ':white_large_square:',
@@ -39408,7 +41114,8 @@ EMOJI_DATA = {
         'fr': u':grand_carré_blanc:',
         'pt': ':quadrado_branco_grande:',
         'it': ':quadrato_bianco_grande:',
-        'fa': u':مربع_سفید_بزرگ:'
+        'fa': u':مربع_سفید_بزرگ:',
+        'tr': u':büyük_beyaz_kare:'
     },
     u'\U000025FD': { # ◽
         'en' : ':white_medium-small_square:',
@@ -39421,7 +41128,8 @@ EMOJI_DATA = {
         'fr': u':carré_petit_moyen_blanc:',
         'pt': u':quadrado_branco_médio_menor:',
         'it': ':quadrato_bianco_medio-piccolo:',
-        'fa': u':مربع_سفید_نسبتاً_کوچک:'
+        'fa': u':مربع_سفید_نسبتاً_کوچک:',
+        'tr': u':küçük-orta_beyaz_kare:'
     },
     u'\U000025FB\U0000FE0F': { # ◻️
         'en' : ':white_medium_square:',
@@ -39433,7 +41141,8 @@ EMOJI_DATA = {
         'fr': u':carré_moyen_blanc:',
         'pt': u':quadrado_branco_médio:',
         'it': ':quadrato_bianco_medio:',
-        'fa': u':مربع_سفید_متوسط:'
+        'fa': u':مربع_سفید_متوسط:',
+        'tr': ':orta_boy_beyaz_kare:'
     },
     u'\U000025FB': { # ◻
         'en' : ':white_medium_square:',
@@ -39445,7 +41154,8 @@ EMOJI_DATA = {
         'fr': u':carré_moyen_blanc:',
         'pt': u':quadrado_branco_médio:',
         'it': ':quadrato_bianco_medio:',
-        'fa': u':مربع_سفید_متوسط:'
+        'fa': u':مربع_سفید_متوسط:',
+        'tr': ':orta_boy_beyaz_kare:'
     },
     u'\U00002754': { # ❔
         'en' : ':white_question_mark:',
@@ -39457,7 +41167,8 @@ EMOJI_DATA = {
         'fr': u':point_d’interrogation_blanc:',
         'pt': u':ponto_de_interrogação_branco:',
         'it': ':punto_interrogativo_bianco:',
-        'fa': u':علامت_سؤال_سفید:'
+        'fa': u':علامت_سؤال_سفید:',
+        'tr': u':beyaz_soru_işareti:'
     },
     u'\U000025AB\U0000FE0F': { # ▫️
         'en' : ':white_small_square:',
@@ -39469,7 +41180,8 @@ EMOJI_DATA = {
         'fr': u':petit_carré_blanc:',
         'pt': ':quadrado_branco_pequeno:',
         'it': ':quadrato_bianco_piccolo:',
-        'fa': u':مربع_سفید_کوچک:'
+        'fa': u':مربع_سفید_کوچک:',
+        'tr': u':küçük_beyaz_kare:'
     },
     u'\U000025AB': { # ▫
         'en' : ':white_small_square:',
@@ -39481,7 +41193,8 @@ EMOJI_DATA = {
         'fr': u':petit_carré_blanc:',
         'pt': ':quadrado_branco_pequeno:',
         'it': ':quadrato_bianco_piccolo:',
-        'fa': u':مربع_سفید_کوچک:'
+        'fa': u':مربع_سفید_کوچک:',
+        'tr': u':küçük_beyaz_kare:'
     },
     u'\U0001F533': { # 🔳
         'en' : ':white_square_button:',
@@ -39492,7 +41205,8 @@ EMOJI_DATA = {
         'fr': u':carré_blanc:',
         'pt': u':botão_quadrado_branco:',
         'it': ':tasto_quadrato_nero_con_bordo_bianco:',
-        'fa': u':دکمۀ_مربع_سفید:'
+        'fa': u':دکمۀ_مربع_سفید:',
+        'tr': u':beyaz_kare_düğme:'
     },
     u'\U0001F940': { # 🥀
         'en' : ':wilted_flower:',
@@ -39503,7 +41217,8 @@ EMOJI_DATA = {
         'fr': u':fleur_fanée:',
         'pt': ':flor_murcha:',
         'it': ':fiore_appassito:',
-        'fa': u':گل_پژمرده:'
+        'fa': u':گل_پژمرده:',
+        'tr': u':solmuş_çiçek:'
     },
     u'\U0001F390': { # 🎐
         'en' : ':wind_chime:',
@@ -39514,7 +41229,8 @@ EMOJI_DATA = {
         'fr': u':carillon_éolien:',
         'pt': u':carrilhão_de_vento:',
         'it': ':campana_al_vento:',
-        'fa': u':باد_سِنج:'
+        'fa': u':باد_سِنج:',
+        'tr': u':rüzgar_çanı:'
     },
     u'\U0001F32C\U0000FE0F': { # 🌬️
         'en' : ':wind_face:',
@@ -39527,7 +41243,8 @@ EMOJI_DATA = {
         'fr': ':vent_avec_visage:',
         'pt': ':rosto_de_vento:',
         'it': ':vento:',
-        'fa': u':صورت_باد:'
+        'fa': u':صورت_باد:',
+        'tr': u':rüzgar:'
     },
     u'\U0001F32C': { # 🌬
         'en' : ':wind_face:',
@@ -39540,7 +41257,8 @@ EMOJI_DATA = {
         'fr': ':vent_avec_visage:',
         'pt': ':rosto_de_vento:',
         'it': ':vento:',
-        'fa': u':صورت_باد:'
+        'fa': u':صورت_باد:',
+        'tr': u':rüzgar:'
     },
     u'\U0001FA9F': { # 🪟
         'en' : ':window:',
@@ -39551,7 +41269,8 @@ EMOJI_DATA = {
         'fr': u':fenêtre:',
         'pt': ':janela:',
         'it': ':finestra:',
-        'fa': u':پنجره:'
+        'fa': u':پنجره:',
+        'tr': ':pencere:'
     },
     u'\U0001F377': { # 🍷
         'en' : ':wine_glass:',
@@ -39562,7 +41281,8 @@ EMOJI_DATA = {
         'fr': ':verre_de_vin:',
         'pt': ':vinho:',
         'it': ':bicchiere_di_vino:',
-        'fa': u':جام_شراب:'
+        'fa': u':جام_شراب:',
+        'tr': u':şarap_kadehi:'
     },
     u'\U0001F609': { # 😉
         'en' : ':winking_face:',
@@ -39574,7 +41294,8 @@ EMOJI_DATA = {
         'fr': u':visage_faisant_un_clin_d’œil:',
         'pt': ':rosto_com_olho_piscando:',
         'it': u':faccina_che_fa_l’occhiolino:',
-        'fa': u':چشمک:'
+        'fa': u':چشمک:',
+        'tr': u':göz_kırpan_yüz:'
     },
     u'\U0001F61C': { # 😜
         'en' : ':winking_face_with_tongue:',
@@ -39586,7 +41307,8 @@ EMOJI_DATA = {
         'fr': u':visage_qui_tire_la_langue_et_fait_un_clin_d’œil:',
         'pt': u':rosto_piscando_e_com_língua_para_fora:',
         'it': u':faccina_che_fa_l’occhiolino_e_mostra_la_lingua:',
-        'fa': u':زبونک_و_چشمک:'
+        'fa': u':زبونک_و_چشمک:',
+        'tr': u':dili_dışarda_göz_kırpma:'
     },
     u'\U0001F43A': { # 🐺
         'en' : ':wolf:',
@@ -39597,7 +41319,8 @@ EMOJI_DATA = {
         'fr': ':loup:',
         'pt': ':rosto_de_lobo:',
         'it': ':lupo:',
-        'fa': u':گرگ:'
+        'fa': u':گرگ:',
+        'tr': ':kurt:'
     },
     u'\U0001F469': { # 👩
         'en' : ':woman:',
@@ -39608,7 +41331,8 @@ EMOJI_DATA = {
         'fr': ':femme:',
         'pt': ':mulher:',
         'it': ':donna:',
-        'fa': u':زن:'
+        'fa': u':زن:',
+        'tr': u':kadın:'
     },
     u'\U0001F46B': { # 👫
         'en' : ':woman_and_man_holding_hands:',
@@ -39620,7 +41344,8 @@ EMOJI_DATA = {
         'fr': ':femme_et_homme_se_tenant_la_main:',
         'pt': u':homem_e_mulher_de_mãos_dadas:',
         'it': ':uomo_e_donna_che_si_tengono_per_mano:',
-        'fa': u':زن_و_مرد_دست_در_دست:'
+        'fa': u':زن_و_مرد_دست_در_دست:',
+        'tr': u':el_ele_tutuşan_erkek_ve_kadın:'
     },
     u'\U0001F46B\U0001F3FF': { # 👫🏿
         'en' : ':woman_and_man_holding_hands_dark_skin_tone:',
@@ -39881,7 +41606,8 @@ EMOJI_DATA = {
         'fr': ':artiste_femme:',
         'pt': u':artista_plástica:',
         'it': ':artista_donna:',
-        'fa': u':هنرمند_زن:'
+        'fa': u':هنرمند_زن:',
+        'tr': u':kadın_ressam:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F3A8': { # 👩🏿‍🎨
         'en' : ':woman_artist_dark_skin_tone:',
@@ -39942,7 +41668,8 @@ EMOJI_DATA = {
         'fr': ':astronaute_femme:',
         'pt': ':astronauta_mulher:',
         'it': ':astronauta_donna:',
-        'fa': u':فضانورد_زن:'
+        'fa': u':فضانورد_زن:',
+        'tr': u':kadın_astronot:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F680': { # 👩🏿‍🚀
         'en' : ':woman_astronaut_dark_skin_tone:',
@@ -40013,7 +41740,8 @@ EMOJI_DATA = {
         'fr': ':femme_barbue:',
         'pt': ':mulher_barba:',
         'it': ':donna_con_la_barba:',
-        'fa': u':زن_ریش:'
+        'fa': u':زن_ریش:',
+        'tr': u':kadın_sakal:'
     },
     u'\U0001F9D4\U0000200D\U00002640': { # 🧔‍♀
         'en' : ':woman_beard:',
@@ -40024,7 +41752,8 @@ EMOJI_DATA = {
         'fr': ':femme_barbue:',
         'pt': ':mulher_barba:',
         'it': ':donna_con_la_barba:',
-        'fa': u':زن_ریش:'
+        'fa': u':زن_ریش:',
+        'tr': u':kadın_sakal:'
     },
     u'\U0001F6B4\U0000200D\U00002640\U0000FE0F': { # 🚴‍♀️
         'en' : ':woman_biking:',
@@ -40035,7 +41764,8 @@ EMOJI_DATA = {
         'fr': ':cycliste_femme:',
         'pt': ':mulher_ciclista:',
         'it': ':ciclista_donna:',
-        'fa': u':دوچرخه_سوار_زن:'
+        'fa': u':دوچرخه_سوار_زن:',
+        'tr': u':bisiklet_süren_kadın:'
     },
     u'\U0001F6B4\U0000200D\U00002640': { # 🚴‍♀
         'en' : ':woman_biking:',
@@ -40046,7 +41776,8 @@ EMOJI_DATA = {
         'fr': ':cycliste_femme:',
         'pt': ':mulher_ciclista:',
         'it': ':ciclista_donna:',
-        'fa': u':دوچرخه_سوار_زن:'
+        'fa': u':دوچرخه_سوار_زن:',
+        'tr': u':bisiklet_süren_kadın:'
     },
     u'\U0001F6B4\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🚴🏿‍♀️
         'en' : ':woman_biking_dark_skin_tone:',
@@ -40157,7 +41888,8 @@ EMOJI_DATA = {
         'fr': ':femme_blonde:',
         'pt': ':mulher_cabelo_loiro:',
         'it': ':donna_bionda:',
-        'fa': u':زن_موبور:'
+        'fa': u':زن_موبور:',
+        'tr': u':sarışın_kadın:'
     },
     u'\U0001F471\U0000200D\U00002640': { # 👱‍♀
         'en' : ':woman_blond_hair:',
@@ -40168,7 +41900,8 @@ EMOJI_DATA = {
         'fr': ':femme_blonde:',
         'pt': ':mulher_cabelo_loiro:',
         'it': ':donna_bionda:',
-        'fa': u':زن_موبور:'
+        'fa': u':زن_موبور:',
+        'tr': u':sarışın_kadın:'
     },
     u'\U000026F9\U0000FE0F\U0000200D\U00002640\U0000FE0F': { # ⛹️‍♀️
         'en' : ':woman_bouncing_ball:',
@@ -40179,7 +41912,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_ballon:',
         'pt': ':mulher_jogando_basquete:',
         'it': ':donna_che_fa_rimbalzare_una_palla:',
-        'fa': u':زن_و_توپ:'
+        'fa': u':زن_و_توپ:',
+        'tr': u':top_sektiren_kadın:'
     },
     u'\U000026F9\U0000200D\U00002640\U0000FE0F': { # ⛹‍♀️
         'en' : ':woman_bouncing_ball:',
@@ -40190,7 +41924,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_ballon:',
         'pt': ':mulher_jogando_basquete:',
         'it': ':donna_che_fa_rimbalzare_una_palla:',
-        'fa': u':زن_و_توپ:'
+        'fa': u':زن_و_توپ:',
+        'tr': u':top_sektiren_kadın:'
     },
     u'\U000026F9\U0000FE0F\U0000200D\U00002640': { # ⛹️‍♀
         'en' : ':woman_bouncing_ball:',
@@ -40201,7 +41936,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_ballon:',
         'pt': ':mulher_jogando_basquete:',
         'it': ':donna_che_fa_rimbalzare_una_palla:',
-        'fa': u':زن_و_توپ:'
+        'fa': u':زن_و_توپ:',
+        'tr': u':top_sektiren_kadın:'
     },
     u'\U000026F9\U0000200D\U00002640': { # ⛹‍♀
         'en' : ':woman_bouncing_ball:',
@@ -40212,7 +41948,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_ballon:',
         'pt': ':mulher_jogando_basquete:',
         'it': ':donna_che_fa_rimbalzare_una_palla:',
-        'fa': u':زن_و_توپ:'
+        'fa': u':زن_و_توپ:',
+        'tr': u':top_sektiren_kadın:'
     },
     u'\U000026F9\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # ⛹🏿‍♀️
         'en' : ':woman_bouncing_ball_dark_skin_tone:',
@@ -40323,7 +42060,8 @@ EMOJI_DATA = {
         'fr': u':femme_qui_s’incline:',
         'pt': u':mulher_fazendo_reverência:',
         'it': ':donna_che_fa_inchino_profondo:',
-        'fa': u':زن_تعظیم_می_کند:'
+        'fa': u':زن_تعظیم_می_کند:',
+        'tr': u':başını_öne_eğen_kadın:'
     },
     u'\U0001F647\U0000200D\U00002640': { # 🙇‍♀
         'en' : ':woman_bowing:',
@@ -40334,7 +42072,8 @@ EMOJI_DATA = {
         'fr': u':femme_qui_s’incline:',
         'pt': u':mulher_fazendo_reverência:',
         'it': ':donna_che_fa_inchino_profondo:',
-        'fa': u':زن_تعظیم_می_کند:'
+        'fa': u':زن_تعظیم_می_کند:',
+        'tr': u':başını_öne_eğen_kadın:'
     },
     u'\U0001F647\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🙇🏿‍♀️
         'en' : ':woman_bowing_dark_skin_tone:',
@@ -40445,7 +42184,8 @@ EMOJI_DATA = {
         'fr': ':femme_faisant_la_roue:',
         'pt': ':mulher_fazendo_estrela:',
         'it': ':donna_che_fa_la_ruota:',
-        'fa': u':زنِ_چرخ_وفلک_زن:'
+        'fa': u':زنِ_چرخ_وفلک_زن:',
+        'tr': u':perende_atan_kadın:'
     },
     u'\U0001F938\U0000200D\U00002640': { # 🤸‍♀
         'en' : ':woman_cartwheeling:',
@@ -40456,7 +42196,8 @@ EMOJI_DATA = {
         'fr': ':femme_faisant_la_roue:',
         'pt': ':mulher_fazendo_estrela:',
         'it': ':donna_che_fa_la_ruota:',
-        'fa': u':زنِ_چرخ_وفلک_زن:'
+        'fa': u':زنِ_چرخ_وفلک_زن:',
+        'tr': u':perende_atan_kadın:'
     },
     u'\U0001F938\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤸🏿‍♀️
         'en' : ':woman_cartwheeling_dark_skin_tone:',
@@ -40567,7 +42308,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_grimpe:',
         'pt': ':mulher_escalando:',
         'it': ':scalatrice:',
-        'fa': u':زن_کوه_نوردی_می_کند:'
+        'fa': u':زن_کوه_نوردی_می_کند:',
+        'tr': u':dağcı_kadın:'
     },
     u'\U0001F9D7\U0000200D\U00002640': { # 🧗‍♀
         'en' : ':woman_climbing:',
@@ -40578,7 +42320,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_grimpe:',
         'pt': ':mulher_escalando:',
         'it': ':scalatrice:',
-        'fa': u':زن_کوه_نوردی_می_کند:'
+        'fa': u':زن_کوه_نوردی_می_کند:',
+        'tr': u':dağcı_kadın:'
     },
     u'\U0001F9D7\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧗🏿‍♀️
         'en' : ':woman_climbing_dark_skin_tone:',
@@ -40689,7 +42432,8 @@ EMOJI_DATA = {
         'fr': u':ouvrière_du_bâtiment:',
         'pt': ':pedreira:',
         'it': ':operaia_edile:',
-        'fa': u':کارگر_ساختمانی_زن:'
+        'fa': u':کارگر_ساختمانی_زن:',
+        'tr': u':kadın_inşaat_işçisi:'
     },
     u'\U0001F477\U0000200D\U00002640': { # 👷‍♀
         'en' : ':woman_construction_worker:',
@@ -40700,7 +42444,8 @@ EMOJI_DATA = {
         'fr': u':ouvrière_du_bâtiment:',
         'pt': ':pedreira:',
         'it': ':operaia_edile:',
-        'fa': u':کارگر_ساختمانی_زن:'
+        'fa': u':کارگر_ساختمانی_زن:',
+        'tr': u':kadın_inşaat_işçisi:'
     },
     u'\U0001F477\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 👷🏿‍♀️
         'en' : ':woman_construction_worker_dark_skin_tone:',
@@ -40811,7 +42556,8 @@ EMOJI_DATA = {
         'fr': u':cuisinière:',
         'pt': ':cozinheira:',
         'it': ':cuoca:',
-        'fa': u':آشپز_زن:'
+        'fa': u':آشپز_زن:',
+        'tr': u':kadın_aşçı:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F373': { # 👩🏿‍🍳
         'en' : ':woman_cook_dark_skin_tone:',
@@ -40883,7 +42629,8 @@ EMOJI_DATA = {
         'fr': ':danseuse:',
         'pt': u':mulher_dançando:',
         'it': ':donna_che_balla:',
-        'fa': u':رقاص:'
+        'fa': u':رقاص:',
+        'tr': u':dans_eden_kadın:'
     },
     u'\U0001F483\U0001F3FF': { # 💃🏿
         'en' : ':woman_dancing_dark_skin_tone:',
@@ -41024,7 +42771,8 @@ EMOJI_DATA = {
         'fr': u':détective_femme:',
         'pt': ':detetive_mulher:',
         'it': ':investigatrice:',
-        'fa': u':کارآگاه_زن:'
+        'fa': u':کارآگاه_زن:',
+        'tr': u':kadın_dedektif:'
     },
     u'\U0001F575\U0000200D\U00002640\U0000FE0F': { # 🕵‍♀️
         'en' : ':woman_detective:',
@@ -41035,7 +42783,8 @@ EMOJI_DATA = {
         'fr': u':détective_femme:',
         'pt': ':detetive_mulher:',
         'it': ':investigatrice:',
-        'fa': u':کارآگاه_زن:'
+        'fa': u':کارآگاه_زن:',
+        'tr': u':kadın_dedektif:'
     },
     u'\U0001F575\U0000FE0F\U0000200D\U00002640': { # 🕵️‍♀
         'en' : ':woman_detective:',
@@ -41046,7 +42795,8 @@ EMOJI_DATA = {
         'fr': u':détective_femme:',
         'pt': ':detetive_mulher:',
         'it': ':investigatrice:',
-        'fa': u':کارآگاه_زن:'
+        'fa': u':کارآگاه_زن:',
+        'tr': u':kadın_dedektif:'
     },
     u'\U0001F575\U0000200D\U00002640': { # 🕵‍♀
         'en' : ':woman_detective:',
@@ -41057,7 +42807,8 @@ EMOJI_DATA = {
         'fr': u':détective_femme:',
         'pt': ':detetive_mulher:',
         'it': ':investigatrice:',
-        'fa': u':کارآگاه_زن:'
+        'fa': u':کارآگاه_زن:',
+        'tr': u':kadın_dedektif:'
     },
     u'\U0001F575\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🕵🏿‍♀️
         'en' : ':woman_detective_dark_skin_tone:',
@@ -41168,7 +42919,8 @@ EMOJI_DATA = {
         'fr': ':elfe_femme:',
         'pt': ':elfa:',
         'it': ':elfo_donna:',
-        'fa': u':اِلف_زن:'
+        'fa': u':اِلف_زن:',
+        'tr': u':kadın_elf:'
     },
     u'\U0001F9DD\U0000200D\U00002640': { # 🧝‍♀
         'en' : ':woman_elf:',
@@ -41179,7 +42931,8 @@ EMOJI_DATA = {
         'fr': ':elfe_femme:',
         'pt': ':elfa:',
         'it': ':elfo_donna:',
-        'fa': u':اِلف_زن:'
+        'fa': u':اِلف_زن:',
+        'tr': u':kadın_elf:'
     },
     u'\U0001F9DD\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧝🏿‍♀️
         'en' : ':woman_elf_dark_skin_tone:',
@@ -41290,7 +43043,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_la_paume_sur_le_visage:',
         'pt': ':mulher_decepcionada:',
         'it': ':donna_esasperata:',
-        'fa': u':زن_با_کف_دست_به_پیشانی_می_زند:'
+        'fa': u':زن_با_کف_دست_به_پیشانی_می_زند:',
+        'tr': u':eliyle_yüzünü_kapatan_kadın:'
     },
     u'\U0001F926\U0000200D\U00002640': { # 🤦‍♀
         'en' : ':woman_facepalming:',
@@ -41301,7 +43055,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_la_paume_sur_le_visage:',
         'pt': ':mulher_decepcionada:',
         'it': ':donna_esasperata:',
-        'fa': u':زن_با_کف_دست_به_پیشانی_می_زند:'
+        'fa': u':زن_با_کف_دست_به_پیشانی_می_زند:',
+        'tr': u':eliyle_yüzünü_kapatan_kadın:'
     },
     u'\U0001F926\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤦🏿‍♀️
         'en' : ':woman_facepalming_dark_skin_tone:',
@@ -41412,7 +43167,8 @@ EMOJI_DATA = {
         'fr': u':ouvrière:',
         'pt': u':operária:',
         'it': ':operaia:',
-        'fa': u':کارگر_کارخانه_زن:'
+        'fa': u':کارگر_کارخانه_زن:',
+        'tr': u':kadın_fabrika_işçisi:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F3ED': { # 👩🏿‍🏭
         'en' : ':woman_factory_worker_dark_skin_tone:',
@@ -41473,7 +43229,8 @@ EMOJI_DATA = {
         'fr': u':fée:',
         'pt': ':mulher_fada:',
         'it': ':fata_donna:',
-        'fa': u':پری_زن:'
+        'fa': u':پری_زن:',
+        'tr': u':kadın_peri:'
     },
     u'\U0001F9DA\U0000200D\U00002640': { # 🧚‍♀
         'en' : ':woman_fairy:',
@@ -41484,7 +43241,8 @@ EMOJI_DATA = {
         'fr': u':fée:',
         'pt': ':mulher_fada:',
         'it': ':fata_donna:',
-        'fa': u':پری_زن:'
+        'fa': u':پری_زن:',
+        'tr': u':kadın_peri:'
     },
     u'\U0001F9DA\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧚🏿‍♀️
         'en' : ':woman_fairy_dark_skin_tone:',
@@ -41595,7 +43353,8 @@ EMOJI_DATA = {
         'fr': u':fermière:',
         'pt': ':fazendeira:',
         'it': ':contadina:',
-        'fa': u':کشاورز_زن:'
+        'fa': u':کشاورز_زن:',
+        'tr': u':kadın_çiftçi:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F33E': { # 👩🏿‍🌾
         'en' : ':woman_farmer_dark_skin_tone:',
@@ -41656,7 +43415,8 @@ EMOJI_DATA = {
         'fr': u':femme_allaitant_un_bébé:',
         'pt': u':mulher_alimentando_bebê:',
         'it': ':donna_che_allatta:',
-        'fa': u':زنی_که_به_بچه_شیر_می_دهد:'
+        'fa': u':زنی_که_به_بچه_شیر_می_دهد:',
+        'tr': u':bebek_emziren_kadın:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F37C': { # 👩🏿‍🍼
         'en' : ':woman_feeding_baby_dark_skin_tone:',
@@ -41717,7 +43477,8 @@ EMOJI_DATA = {
         'fr': ':pompier_femme:',
         'pt': ':bombeira:',
         'it': ':pompiere_donna:',
-        'fa': u':آتش_نشان_زن:'
+        'fa': u':آتش_نشان_زن:',
+        'tr': u':kadın_itfaiyeci:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F692': { # 👩🏿‍🚒
         'en' : ':woman_firefighter_dark_skin_tone:',
@@ -41778,7 +43539,8 @@ EMOJI_DATA = {
         'fr': u':femme_fronçant_les_sourcils:',
         'pt': ':mulher_franzindo_a_sobrancelha:',
         'it': ':donna_corrucciata:',
-        'fa': u':زن_اخم_می_کند:'
+        'fa': u':زن_اخم_می_کند:',
+        'tr': u':somurtan_kadın:'
     },
     u'\U0001F64D\U0000200D\U00002640': { # 🙍‍♀
         'en' : ':woman_frowning:',
@@ -41789,7 +43551,8 @@ EMOJI_DATA = {
         'fr': u':femme_fronçant_les_sourcils:',
         'pt': ':mulher_franzindo_a_sobrancelha:',
         'it': ':donna_corrucciata:',
-        'fa': u':زن_اخم_می_کند:'
+        'fa': u':زن_اخم_می_کند:',
+        'tr': u':somurtan_kadın:'
     },
     u'\U0001F64D\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🙍🏿‍♀️
         'en' : ':woman_frowning_dark_skin_tone:',
@@ -41900,7 +43663,8 @@ EMOJI_DATA = {
         'fr': u':génie_femme:',
         'pt': u':mulher_gênio:',
         'it': ':genio_donna:',
-        'fa': u':زن_جن:'
+        'fa': u':زن_جن:',
+        'tr': u':kadın_cin:'
     },
     u'\U0001F9DE\U0000200D\U00002640': { # 🧞‍♀
         'en' : ':woman_genie:',
@@ -41911,7 +43675,8 @@ EMOJI_DATA = {
         'fr': u':génie_femme:',
         'pt': u':mulher_gênio:',
         'it': ':genio_donna:',
-        'fa': u':زن_جن:'
+        'fa': u':زن_جن:',
+        'tr': u':kadın_cin:'
     },
     u'\U0001F645\U0000200D\U00002640\U0000FE0F': { # 🙅‍♀️
         'en' : ':woman_gesturing_NO:',
@@ -41922,7 +43687,8 @@ EMOJI_DATA = {
         'fr': u':femme_faisant_un_geste_d’interdiction:',
         'pt': u':mulher_fazendo_gesto_de_“não”:',
         'it': ':donna_con_gesto_di_rifiuto:',
-        'fa': u':زن_نمی_پذیرد:'
+        'fa': u':زن_نمی_پذیرد:',
+        'tr': u':hayır_hareketi_yapan_kadın:'
     },
     u'\U0001F645\U0000200D\U00002640': { # 🙅‍♀
         'en' : ':woman_gesturing_NO:',
@@ -41933,7 +43699,8 @@ EMOJI_DATA = {
         'fr': u':femme_faisant_un_geste_d’interdiction:',
         'pt': u':mulher_fazendo_gesto_de_“não”:',
         'it': ':donna_con_gesto_di_rifiuto:',
-        'fa': u':زن_نمی_پذیرد:'
+        'fa': u':زن_نمی_پذیرد:',
+        'tr': u':hayır_hareketi_yapan_kadın:'
     },
     u'\U0001F645\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🙅🏿‍♀️
         'en' : ':woman_gesturing_NO_dark_skin_tone:',
@@ -42044,7 +43811,8 @@ EMOJI_DATA = {
         'fr': u':femme_faisant_un_geste_d’acceptation:',
         'pt': u':mulher_fazendo_gesto_de_“ok”:',
         'it': ':donna_con_gesto_ok:',
-        'fa': u':زن_می_پذیرد:'
+        'fa': u':زن_می_پذیرد:',
+        'tr': u':tamam_hareketi_yapan_kadın:'
     },
     u'\U0001F646\U0000200D\U00002640': { # 🙆‍♀
         'en' : ':woman_gesturing_OK:',
@@ -42055,7 +43823,8 @@ EMOJI_DATA = {
         'fr': u':femme_faisant_un_geste_d’acceptation:',
         'pt': u':mulher_fazendo_gesto_de_“ok”:',
         'it': ':donna_con_gesto_ok:',
-        'fa': u':زن_می_پذیرد:'
+        'fa': u':زن_می_پذیرد:',
+        'tr': u':tamam_hareketi_yapan_kadın:'
     },
     u'\U0001F646\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🙆🏿‍♀️
         'en' : ':woman_gesturing_OK_dark_skin_tone:',
@@ -42166,7 +43935,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_se_fait_couper_les_cheveux:',
         'pt': ':mulher_cortando_o_cabelo:',
         'it': ':taglio_di_capelli_per_donna:',
-        'fa': u':زن_مو_کوتاه_می_کند:'
+        'fa': u':زن_مو_کوتاه_می_کند:',
+        'tr': u':saç_kestiren_kadın:'
     },
     u'\U0001F487\U0000200D\U00002640': { # 💇‍♀
         'en' : ':woman_getting_haircut:',
@@ -42177,7 +43947,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_se_fait_couper_les_cheveux:',
         'pt': ':mulher_cortando_o_cabelo:',
         'it': ':taglio_di_capelli_per_donna:',
-        'fa': u':زن_مو_کوتاه_می_کند:'
+        'fa': u':زن_مو_کوتاه_می_کند:',
+        'tr': u':saç_kestiren_kadın:'
     },
     u'\U0001F487\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 💇🏿‍♀️
         'en' : ':woman_getting_haircut_dark_skin_tone:',
@@ -42288,7 +44059,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_se_fait_masser:',
         'pt': ':mulher_recebendo_massagem_facial:',
         'it': ':donna_che_riceve_un_massaggio:',
-        'fa': u':ماساژ_صورت_زن:'
+        'fa': u':ماساژ_صورت_زن:',
+        'tr': u':yüz_masajı_yaptıran_kadın:'
     },
     u'\U0001F486\U0000200D\U00002640': { # 💆‍♀
         'en' : ':woman_getting_massage:',
@@ -42299,7 +44071,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_se_fait_masser:',
         'pt': ':mulher_recebendo_massagem_facial:',
         'it': ':donna_che_riceve_un_massaggio:',
-        'fa': u':ماساژ_صورت_زن:'
+        'fa': u':ماساژ_صورت_زن:',
+        'tr': u':yüz_masajı_yaptıran_kadın:'
     },
     u'\U0001F486\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 💆🏿‍♀️
         'en' : ':woman_getting_massage_dark_skin_tone:',
@@ -42410,7 +44183,8 @@ EMOJI_DATA = {
         'fr': ':golfeuse:',
         'pt': ':mulher_golfista:',
         'it': ':golfista_donna:',
-        'fa': u':گلف_باز_زن:'
+        'fa': u':گلف_باز_زن:',
+        'tr': u':golf_oynayan_kadın:'
     },
     u'\U0001F3CC\U0000200D\U00002640\U0000FE0F': { # 🏌‍♀️
         'en' : ':woman_golfing:',
@@ -42421,7 +44195,8 @@ EMOJI_DATA = {
         'fr': ':golfeuse:',
         'pt': ':mulher_golfista:',
         'it': ':golfista_donna:',
-        'fa': u':گلف_باز_زن:'
+        'fa': u':گلف_باز_زن:',
+        'tr': u':golf_oynayan_kadın:'
     },
     u'\U0001F3CC\U0000FE0F\U0000200D\U00002640': { # 🏌️‍♀
         'en' : ':woman_golfing:',
@@ -42432,7 +44207,8 @@ EMOJI_DATA = {
         'fr': ':golfeuse:',
         'pt': ':mulher_golfista:',
         'it': ':golfista_donna:',
-        'fa': u':گلف_باز_زن:'
+        'fa': u':گلف_باز_زن:',
+        'tr': u':golf_oynayan_kadın:'
     },
     u'\U0001F3CC\U0000200D\U00002640': { # 🏌‍♀
         'en' : ':woman_golfing:',
@@ -42443,7 +44219,8 @@ EMOJI_DATA = {
         'fr': ':golfeuse:',
         'pt': ':mulher_golfista:',
         'it': ':golfista_donna:',
-        'fa': u':گلف_باز_زن:'
+        'fa': u':گلف_باز_زن:',
+        'tr': u':golf_oynayan_kadın:'
     },
     u'\U0001F3CC\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🏌🏿‍♀️
         'en' : ':woman_golfing_dark_skin_tone:',
@@ -42554,7 +44331,8 @@ EMOJI_DATA = {
         'fr': ':garde_femme:',
         'pt': ':guarda_mulher:',
         'it': ':guardia_donna:',
-        'fa': u':گارد_زن:'
+        'fa': u':گارد_زن:',
+        'tr': u':kadın_muhafız:'
     },
     u'\U0001F482\U0000200D\U00002640': { # 💂‍♀
         'en' : ':woman_guard:',
@@ -42565,7 +44343,8 @@ EMOJI_DATA = {
         'fr': ':garde_femme:',
         'pt': ':guarda_mulher:',
         'it': ':guardia_donna:',
-        'fa': u':گارد_زن:'
+        'fa': u':گارد_زن:',
+        'tr': u':kadın_muhafız:'
     },
     u'\U0001F482\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 💂🏿‍♀️
         'en' : ':woman_guard_dark_skin_tone:',
@@ -42676,7 +44455,8 @@ EMOJI_DATA = {
         'fr': u':professionnelle_de_la_santé:',
         'pt': u':mulher_profissional_da_saúde:',
         'it': ':operatrice_sanitaria:',
-        'fa': u':مددکار_بهداشت_زن:'
+        'fa': u':مددکار_بهداشت_زن:',
+        'tr': u':kadın_sağlık_çalışanı:'
     },
     u'\U0001F469\U0000200D\U00002695': { # 👩‍⚕
         'en' : ':woman_health_worker:',
@@ -42687,7 +44467,8 @@ EMOJI_DATA = {
         'fr': u':professionnelle_de_la_santé:',
         'pt': u':mulher_profissional_da_saúde:',
         'it': ':operatrice_sanitaria:',
-        'fa': u':مددکار_بهداشت_زن:'
+        'fa': u':مددکار_بهداشت_زن:',
+        'tr': u':kadın_sağlık_çalışanı:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U00002695\U0000FE0F': { # 👩🏿‍⚕️
         'en' : ':woman_health_worker_dark_skin_tone:',
@@ -42798,7 +44579,8 @@ EMOJI_DATA = {
         'fr': ':femme_dans_la_posture_du_lotus:',
         'pt': u':mulher_na_posição_de_lótus:',
         'it': ':donna_in_posizione_del_loto:',
-        'fa': u':زن_در_حالت_خلسه:'
+        'fa': u':زن_در_حالت_خلسه:',
+        'tr': u':lotus_pozisyonundaki_kadın:'
     },
     u'\U0001F9D8\U0000200D\U00002640': { # 🧘‍♀
         'en' : ':woman_in_lotus_position:',
@@ -42809,7 +44591,8 @@ EMOJI_DATA = {
         'fr': ':femme_dans_la_posture_du_lotus:',
         'pt': u':mulher_na_posição_de_lótus:',
         'it': ':donna_in_posizione_del_loto:',
-        'fa': u':زن_در_حالت_خلسه:'
+        'fa': u':زن_در_حالت_خلسه:',
+        'tr': u':lotus_pozisyonundaki_kadın:'
     },
     u'\U0001F9D8\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧘🏿‍♀️
         'en' : ':woman_in_lotus_position_dark_skin_tone:',
@@ -42920,7 +44703,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_fauteuil_roulant_manuel:',
         'pt': ':mulher_em_cadeira_de_rodas_manual:',
         'it': ':donna_su_sedia_a_rotelle_manuale:',
-        'fa': u':زن_در_صندلی_چرخ_دار_دستی:'
+        'fa': u':زن_در_صندلی_چرخ_دار_دستی:',
+        'tr': u':tekerlekli_sandalyede_kadın:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F9BD': { # 👩🏿‍🦽
         'en' : ':woman_in_manual_wheelchair_dark_skin_tone:',
@@ -42981,7 +44765,8 @@ EMOJI_DATA = {
         'fr': u':femme_en_fauteuil_motorisé:',
         'pt': ':mulher_em_cadeira_de_rodas_motorizada:',
         'it': ':donna_su_sedia_a_rotelle_motorizzata:',
-        'fa': u':زن_در_صندلی_چرخ_دار_برقی:'
+        'fa': u':زن_در_صندلی_چرخ_دار_برقی:',
+        'tr': u':elektrikli_tekerlekli_sandalyede_kadın:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F9BC': { # 👩🏿‍🦼
         'en' : ':woman_in_motorized_wheelchair_dark_skin_tone:',
@@ -43042,7 +44827,8 @@ EMOJI_DATA = {
         'fr': ':femme_au_hammam:',
         'pt': ':mulher_na_sauna:',
         'it': ':donna_in_sauna:',
-        'fa': u':زن_در_حمام_بخار:'
+        'fa': u':زن_در_حمام_بخار:',
+        'tr': u':buhar_odasındaki_kadın:'
     },
     u'\U0001F9D6\U0000200D\U00002640': { # 🧖‍♀
         'en' : ':woman_in_steamy_room:',
@@ -43053,7 +44839,8 @@ EMOJI_DATA = {
         'fr': ':femme_au_hammam:',
         'pt': ':mulher_na_sauna:',
         'it': ':donna_in_sauna:',
-        'fa': u':زن_در_حمام_بخار:'
+        'fa': u':زن_در_حمام_بخار:',
+        'tr': u':buhar_odasındaki_kadın:'
     },
     u'\U0001F9D6\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧖🏿‍♀️
         'en' : ':woman_in_steamy_room_dark_skin_tone:',
@@ -43164,7 +44951,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_smoking:',
         'pt': ':mulher_de_smoking:',
         'it': ':donna_in_smoking:',
-        'fa': u':زن_با_کت_و_شلوار_و_پاپیون:'
+        'fa': u':زن_با_کت_و_شلوار_و_پاپیون:',
+        'tr': u':smokinli_kadın:'
     },
     u'\U0001F935\U0000200D\U00002640': { # 🤵‍♀
         'en' : ':woman_in_tuxedo:',
@@ -43175,7 +44963,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_smoking:',
         'pt': ':mulher_de_smoking:',
         'it': ':donna_in_smoking:',
-        'fa': u':زن_با_کت_و_شلوار_و_پاپیون:'
+        'fa': u':زن_با_کت_و_شلوار_و_پاپیون:',
+        'tr': u':smokinli_kadın:'
     },
     u'\U0001F935\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤵🏿‍♀️
         'en' : ':woman_in_tuxedo_dark_skin_tone:',
@@ -43286,7 +45075,8 @@ EMOJI_DATA = {
         'fr': ':juge_femme:',
         'pt': u':juíza:',
         'it': ':giudice_donna:',
-        'fa': u':قاضی_زن:'
+        'fa': u':قاضی_زن:',
+        'tr': u':kadın_hakim:'
     },
     u'\U0001F469\U0000200D\U00002696': { # 👩‍⚖
         'en' : ':woman_judge:',
@@ -43297,7 +45087,8 @@ EMOJI_DATA = {
         'fr': ':juge_femme:',
         'pt': u':juíza:',
         'it': ':giudice_donna:',
-        'fa': u':قاضی_زن:'
+        'fa': u':قاضی_زن:',
+        'tr': u':kadın_hakim:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U00002696\U0000FE0F': { # 👩🏿‍⚖️
         'en' : ':woman_judge_dark_skin_tone:',
@@ -43408,7 +45199,8 @@ EMOJI_DATA = {
         'fr': ':jongleuse:',
         'pt': ':mulher_malabarista:',
         'it': ':giocoliere_donna:',
-        'fa': u':زن_ژانگولربازی_می_کند:'
+        'fa': u':زن_ژانگولربازی_می_کند:',
+        'tr': u':jonglör_kadın:'
     },
     u'\U0001F939\U0000200D\U00002640': { # 🤹‍♀
         'en' : ':woman_juggling:',
@@ -43419,7 +45211,8 @@ EMOJI_DATA = {
         'fr': ':jongleuse:',
         'pt': ':mulher_malabarista:',
         'it': ':giocoliere_donna:',
-        'fa': u':زن_ژانگولربازی_می_کند:'
+        'fa': u':زن_ژانگولربازی_می_کند:',
+        'tr': u':jonglör_kadın:'
     },
     u'\U0001F939\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤹🏿‍♀️
         'en' : ':woman_juggling_dark_skin_tone:',
@@ -43530,7 +45323,8 @@ EMOJI_DATA = {
         'fr': u':femme_à_genoux:',
         'pt': ':mulher_ajoelhando:',
         'it': ':donna_inginocchiata:',
-        'fa': u':زن_زانوزده:'
+        'fa': u':زن_زانوزده:',
+        'tr': u':diz_çöken_kadın:'
     },
     u'\U0001F9CE\U0000200D\U00002640': { # 🧎‍♀
         'en' : ':woman_kneeling:',
@@ -43541,7 +45335,8 @@ EMOJI_DATA = {
         'fr': u':femme_à_genoux:',
         'pt': ':mulher_ajoelhando:',
         'it': ':donna_inginocchiata:',
-        'fa': u':زن_زانوزده:'
+        'fa': u':زن_زانوزده:',
+        'tr': u':diz_çöken_kadın:'
     },
     u'\U0001F9CE\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧎🏿‍♀️
         'en' : ':woman_kneeling_dark_skin_tone:',
@@ -43652,7 +45447,8 @@ EMOJI_DATA = {
         'fr': u':femme_haltérophile:',
         'pt': ':mulher_levantando_peso:',
         'it': ':donna_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_زن:'
+        'fa': u':وزنه_بردار_زن:',
+        'tr': u':ağırlık_kaldıran_kadın:'
     },
     u'\U0001F3CB\U0000200D\U00002640\U0000FE0F': { # 🏋‍♀️
         'en' : ':woman_lifting_weights:',
@@ -43663,7 +45459,8 @@ EMOJI_DATA = {
         'fr': u':femme_haltérophile:',
         'pt': ':mulher_levantando_peso:',
         'it': ':donna_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_زن:'
+        'fa': u':وزنه_بردار_زن:',
+        'tr': u':ağırlık_kaldıran_kadın:'
     },
     u'\U0001F3CB\U0000FE0F\U0000200D\U00002640': { # 🏋️‍♀
         'en' : ':woman_lifting_weights:',
@@ -43674,7 +45471,8 @@ EMOJI_DATA = {
         'fr': u':femme_haltérophile:',
         'pt': ':mulher_levantando_peso:',
         'it': ':donna_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_زن:'
+        'fa': u':وزنه_بردار_زن:',
+        'tr': u':ağırlık_kaldıran_kadın:'
     },
     u'\U0001F3CB\U0000200D\U00002640': { # 🏋‍♀
         'en' : ':woman_lifting_weights:',
@@ -43685,7 +45483,8 @@ EMOJI_DATA = {
         'fr': u':femme_haltérophile:',
         'pt': ':mulher_levantando_peso:',
         'it': ':donna_che_solleva_pesi:',
-        'fa': u':وزنه_بردار_زن:'
+        'fa': u':وزنه_بردار_زن:',
+        'tr': u':ağırlık_kaldıran_kadın:'
     },
     u'\U0001F3CB\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🏋🏿‍♀️
         'en' : ':woman_lifting_weights_dark_skin_tone:',
@@ -43876,7 +45675,8 @@ EMOJI_DATA = {
         'fr': ':mage_femme:',
         'pt': ':maga:',
         'it': ':maga:',
-        'fa': u':ساحر_زن:'
+        'fa': u':ساحر_زن:',
+        'tr': u':kadın_büyücü:'
     },
     u'\U0001F9D9\U0000200D\U00002640': { # 🧙‍♀
         'en' : ':woman_mage:',
@@ -43887,7 +45687,8 @@ EMOJI_DATA = {
         'fr': ':mage_femme:',
         'pt': ':maga:',
         'it': ':maga:',
-        'fa': u':ساحر_زن:'
+        'fa': u':ساحر_زن:',
+        'tr': u':kadın_büyücü:'
     },
     u'\U0001F9D9\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧙🏿‍♀️
         'en' : ':woman_mage_dark_skin_tone:',
@@ -43998,7 +45799,8 @@ EMOJI_DATA = {
         'fr': u':mécanicienne:',
         'pt': u':mecânica:',
         'it': ':meccanico_donna:',
-        'fa': u':تعمیرکار_زن:'
+        'fa': u':تعمیرکار_زن:',
+        'tr': u':kadın_tamirci:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F527': { # 👩🏿‍🔧
         'en' : ':woman_mechanic_dark_skin_tone:',
@@ -44299,7 +46101,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_vtt:',
         'pt': ':mulher_fazendo_mountain_bike:',
         'it': ':ciclista_donna_di_mountain_bike:',
-        'fa': u':زن_و_دوچرخه_سواری_کوهستان:'
+        'fa': u':زن_و_دوچرخه_سواری_کوهستان:',
+        'tr': u':dağ_bisikleti_süren_kadın:'
     },
     u'\U0001F6B5\U0000200D\U00002640': { # 🚵‍♀
         'en' : ':woman_mountain_biking:',
@@ -44310,7 +46113,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_vtt:',
         'pt': ':mulher_fazendo_mountain_bike:',
         'it': ':ciclista_donna_di_mountain_bike:',
-        'fa': u':زن_و_دوچرخه_سواری_کوهستان:'
+        'fa': u':زن_و_دوچرخه_سواری_کوهستان:',
+        'tr': u':dağ_bisikleti_süren_kadın:'
     },
     u'\U0001F6B5\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🚵🏿‍♀️
         'en' : ':woman_mountain_biking_dark_skin_tone:',
@@ -44421,7 +46225,8 @@ EMOJI_DATA = {
         'fr': u':employée_de_bureau:',
         'pt': u':funcionária_de_escritório:',
         'it': ':impiegata:',
-        'fa': u':کارمند_زن:'
+        'fa': u':کارمند_زن:',
+        'tr': u':kadın_ofis_çalışanı:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F4BC': { # 👩🏿‍💼
         'en' : ':woman_office_worker_dark_skin_tone:',
@@ -44482,7 +46287,8 @@ EMOJI_DATA = {
         'fr': ':pilote_femme:',
         'pt': u':piloto_de_avião_mulher:',
         'it': ':pilota_donna:',
-        'fa': u':خلبان_زن:'
+        'fa': u':خلبان_زن:',
+        'tr': u':kadın_pilot:'
     },
     u'\U0001F469\U0000200D\U00002708': { # 👩‍✈
         'en' : ':woman_pilot:',
@@ -44493,7 +46299,8 @@ EMOJI_DATA = {
         'fr': ':pilote_femme:',
         'pt': u':piloto_de_avião_mulher:',
         'it': ':pilota_donna:',
-        'fa': u':خلبان_زن:'
+        'fa': u':خلبان_زن:',
+        'tr': u':kadın_pilot:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U00002708\U0000FE0F': { # 👩🏿‍✈️
         'en' : ':woman_pilot_dark_skin_tone:',
@@ -44604,7 +46411,8 @@ EMOJI_DATA = {
         'fr': ':handballeuse:',
         'pt': ':jogadora_de_handebol:',
         'it': ':pallamanista_donna:',
-        'fa': u':هندبالیست_زن:'
+        'fa': u':هندبالیست_زن:',
+        'tr': u':hentbol_oynayan_kadın:'
     },
     u'\U0001F93E\U0000200D\U00002640': { # 🤾‍♀
         'en' : ':woman_playing_handball:',
@@ -44615,7 +46423,8 @@ EMOJI_DATA = {
         'fr': ':handballeuse:',
         'pt': ':jogadora_de_handebol:',
         'it': ':pallamanista_donna:',
-        'fa': u':هندبالیست_زن:'
+        'fa': u':هندبالیست_زن:',
+        'tr': u':hentbol_oynayan_kadın:'
     },
     u'\U0001F93E\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤾🏿‍♀️
         'en' : ':woman_playing_handball_dark_skin_tone:',
@@ -44726,7 +46535,8 @@ EMOJI_DATA = {
         'fr': ':joueuse_de_water-polo:',
         'pt': u':mulher_jogando_polo_aquático:',
         'it': ':pallanuotista_donna:',
-        'fa': u':واترپلو_زنان:'
+        'fa': u':واترپلو_زنان:',
+        'tr': u':su_topu_oynayan_kadın:'
     },
     u'\U0001F93D\U0000200D\U00002640': { # 🤽‍♀
         'en' : ':woman_playing_water_polo:',
@@ -44737,7 +46547,8 @@ EMOJI_DATA = {
         'fr': ':joueuse_de_water-polo:',
         'pt': u':mulher_jogando_polo_aquático:',
         'it': ':pallanuotista_donna:',
-        'fa': u':واترپلو_زنان:'
+        'fa': u':واترپلو_زنان:',
+        'tr': u':su_topu_oynayan_kadın:'
     },
     u'\U0001F93D\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤽🏿‍♀️
         'en' : ':woman_playing_water_polo_dark_skin_tone:',
@@ -44848,7 +46659,8 @@ EMOJI_DATA = {
         'fr': u':policière:',
         'pt': ':policial_mulher:',
         'it': ':poliziotta:',
-        'fa': u':پلیس_زن:'
+        'fa': u':پلیس_زن:',
+        'tr': u':kadın_polis_memuru:'
     },
     u'\U0001F46E\U0000200D\U00002640': { # 👮‍♀
         'en' : ':woman_police_officer:',
@@ -44859,7 +46671,8 @@ EMOJI_DATA = {
         'fr': u':policière:',
         'pt': ':policial_mulher:',
         'it': ':poliziotta:',
-        'fa': u':پلیس_زن:'
+        'fa': u':پلیس_زن:',
+        'tr': u':kadın_polis_memuru:'
     },
     u'\U0001F46E\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 👮🏿‍♀️
         'en' : ':woman_police_officer_dark_skin_tone:',
@@ -44970,7 +46783,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_boude:',
         'pt': ':mulher_fazendo_bico:',
         'it': ':donna_imbronciata:',
-        'fa': u':زن_اخم_وتخم_می_کند:'
+        'fa': u':زن_اخم_وتخم_می_کند:',
+        'tr': u':darılan_kadın:'
     },
     u'\U0001F64E\U0000200D\U00002640': { # 🙎‍♀
         'en' : ':woman_pouting:',
@@ -44981,7 +46795,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_boude:',
         'pt': ':mulher_fazendo_bico:',
         'it': ':donna_imbronciata:',
-        'fa': u':زن_اخم_وتخم_می_کند:'
+        'fa': u':زن_اخم_وتخم_می_کند:',
+        'tr': u':darılan_kadın:'
     },
     u'\U0001F64E\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🙎🏿‍♀️
         'en' : ':woman_pouting_dark_skin_tone:',
@@ -45092,7 +46907,8 @@ EMOJI_DATA = {
         'fr': u':femme_qui_lève_la_main:',
         'pt': u':mulher_levantando_a_mão:',
         'it': ':donna_con_mano_alzata:',
-        'fa': u':زن_دستش_را_بالا_می_برد:'
+        'fa': u':زن_دستش_را_بالا_می_برد:',
+        'tr': u':elini_kaldıran_kadın:'
     },
     u'\U0001F64B\U0000200D\U00002640': { # 🙋‍♀
         'en' : ':woman_raising_hand:',
@@ -45103,7 +46919,8 @@ EMOJI_DATA = {
         'fr': u':femme_qui_lève_la_main:',
         'pt': u':mulher_levantando_a_mão:',
         'it': ':donna_con_mano_alzata:',
-        'fa': u':زن_دستش_را_بالا_می_برد:'
+        'fa': u':زن_دستش_را_بالا_می_برد:',
+        'tr': u':elini_kaldıran_kadın:'
     },
     u'\U0001F64B\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🙋🏿‍♀️
         'en' : ':woman_raising_hand_dark_skin_tone:',
@@ -45224,7 +47041,8 @@ EMOJI_DATA = {
         'fr': ':rameuse_dans_une_barque:',
         'pt': ':mulher_remando:',
         'it': ':donna_in_barca_a_remi:',
-        'fa': u':پاروزن_زن:'
+        'fa': u':پاروزن_زن:',
+        'tr': u':sandalda_kürek_çeken_kadın:'
     },
     u'\U0001F6A3\U0000200D\U00002640': { # 🚣‍♀
         'en' : ':woman_rowing_boat:',
@@ -45235,7 +47053,8 @@ EMOJI_DATA = {
         'fr': ':rameuse_dans_une_barque:',
         'pt': ':mulher_remando:',
         'it': ':donna_in_barca_a_remi:',
-        'fa': u':پاروزن_زن:'
+        'fa': u':پاروزن_زن:',
+        'tr': u':sandalda_kürek_çeken_kadın:'
     },
     u'\U0001F6A3\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🚣🏿‍♀️
         'en' : ':woman_rowing_boat_dark_skin_tone:',
@@ -45346,7 +47165,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_court:',
         'pt': ':mulher_correndo:',
         'it': ':donna_che_corre:',
-        'fa': u':زن_دونده:'
+        'fa': u':زن_دونده:',
+        'tr': u':koşan_kadın:'
     },
     u'\U0001F3C3\U0000200D\U00002640': { # 🏃‍♀
         'en' : ':woman_running:',
@@ -45357,7 +47177,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_court:',
         'pt': ':mulher_correndo:',
         'it': ':donna_che_corre:',
-        'fa': u':زن_دونده:'
+        'fa': u':زن_دونده:',
+        'tr': u':koşan_kadın:'
     },
     u'\U0001F3C3\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🏃🏿‍♀️
         'en' : ':woman_running_dark_skin_tone:',
@@ -45468,7 +47289,8 @@ EMOJI_DATA = {
         'fr': ':scientifique_femme:',
         'pt': ':cientista_mulher:',
         'it': ':scienziata:',
-        'fa': u':دانشمند_زن:'
+        'fa': u':دانشمند_زن:',
+        'tr': u':kadın_bilim_insanı:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F52C': { # 👩🏿‍🔬
         'en' : ':woman_scientist_dark_skin_tone:',
@@ -45529,7 +47351,8 @@ EMOJI_DATA = {
         'fr': u':femme_qui_hausse_les_épaules:',
         'pt': ':mulher_dando_de_ombros:',
         'it': ':donna_che_scrolla_le_spalle:',
-        'fa': u':زن_شانه_بالا_می_اندازد:'
+        'fa': u':زن_شانه_بالا_می_اندازد:',
+        'tr': u':omuz_silken_kadın:'
     },
     u'\U0001F937\U0000200D\U00002640': { # 🤷‍♀
         'en' : ':woman_shrugging:',
@@ -45540,7 +47363,8 @@ EMOJI_DATA = {
         'fr': u':femme_qui_hausse_les_épaules:',
         'pt': ':mulher_dando_de_ombros:',
         'it': ':donna_che_scrolla_le_spalle:',
-        'fa': u':زن_شانه_بالا_می_اندازد:'
+        'fa': u':زن_شانه_بالا_می_اندازد:',
+        'tr': u':omuz_silken_kadın:'
     },
     u'\U0001F937\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🤷🏿‍♀️
         'en' : ':woman_shrugging_dark_skin_tone:',
@@ -45651,7 +47475,8 @@ EMOJI_DATA = {
         'fr': ':chanteuse:',
         'pt': ':cantora:',
         'it': ':cantante_donna:',
-        'fa': u':خواننده_زن:'
+        'fa': u':خواننده_زن:',
+        'tr': u':kadın_şarkıcı:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F3A4': { # 👩🏿‍🎤
         'en' : ':woman_singer_dark_skin_tone:',
@@ -45712,7 +47537,8 @@ EMOJI_DATA = {
         'fr': ':femme_debout:',
         'pt': u':mulher_em_pé:',
         'it': ':donna_in_piedi:',
-        'fa': u':زن_ایستاده:'
+        'fa': u':زن_ایستاده:',
+        'tr': u':ayakta_duran_kadın:'
     },
     u'\U0001F9CD\U0000200D\U00002640': { # 🧍‍♀
         'en' : ':woman_standing:',
@@ -45723,7 +47549,8 @@ EMOJI_DATA = {
         'fr': ':femme_debout:',
         'pt': u':mulher_em_pé:',
         'it': ':donna_in_piedi:',
-        'fa': u':زن_ایستاده:'
+        'fa': u':زن_ایستاده:',
+        'tr': u':ayakta_duran_kadın:'
     },
     u'\U0001F9CD\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧍🏿‍♀️
         'en' : ':woman_standing_dark_skin_tone:',
@@ -45834,7 +47661,8 @@ EMOJI_DATA = {
         'fr': u':étudiante:',
         'pt': ':aluna:',
         'it': ':studentessa:',
-        'fa': u':دانشجوی_زن:'
+        'fa': u':دانشجوی_زن:',
+        'tr': u':kız_öğrenci:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F393': { # 👩🏿‍🎓
         'en' : ':woman_student_dark_skin_tone:',
@@ -45895,7 +47723,8 @@ EMOJI_DATA = {
         'fr': u':super-héroïne:',
         'pt': u':super-heroína:',
         'it': ':supereroina:',
-        'fa': u':ابرقهرمان_زن:'
+        'fa': u':ابرقهرمان_زن:',
+        'tr': u':kadın_süper_kahraman:'
     },
     u'\U0001F9B8\U0000200D\U00002640': { # 🦸‍♀
         'en' : ':woman_superhero:',
@@ -45906,7 +47735,8 @@ EMOJI_DATA = {
         'fr': u':super-héroïne:',
         'pt': u':super-heroína:',
         'it': ':supereroina:',
-        'fa': u':ابرقهرمان_زن:'
+        'fa': u':ابرقهرمان_زن:',
+        'tr': u':kadın_süper_kahraman:'
     },
     u'\U0001F9B8\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🦸🏿‍♀️
         'en' : ':woman_superhero_dark_skin_tone:',
@@ -46017,7 +47847,8 @@ EMOJI_DATA = {
         'fr': ':super-vilain_femme:',
         'pt': u':supervilã:',
         'it': ':supercattiva:',
-        'fa': u':ابرشرور_زن:'
+        'fa': u':ابرشرور_زن:',
+        'tr': u':kadın_süper_kötü:'
     },
     u'\U0001F9B9\U0000200D\U00002640': { # 🦹‍♀
         'en' : ':woman_supervillain:',
@@ -46028,7 +47859,8 @@ EMOJI_DATA = {
         'fr': ':super-vilain_femme:',
         'pt': u':supervilã:',
         'it': ':supercattiva:',
-        'fa': u':ابرشرور_زن:'
+        'fa': u':ابرشرور_زن:',
+        'tr': u':kadın_süper_kötü:'
     },
     u'\U0001F9B9\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🦹🏿‍♀️
         'en' : ':woman_supervillain_dark_skin_tone:',
@@ -46139,7 +47971,8 @@ EMOJI_DATA = {
         'fr': ':surfeuse:',
         'pt': ':mulher_surfista:',
         'it': ':surfista_donna:',
-        'fa': u':موج_سوار_زن:'
+        'fa': u':موج_سوار_زن:',
+        'tr': u':sörf_yapan_kadın:'
     },
     u'\U0001F3C4\U0000200D\U00002640': { # 🏄‍♀
         'en' : ':woman_surfing:',
@@ -46150,7 +47983,8 @@ EMOJI_DATA = {
         'fr': ':surfeuse:',
         'pt': ':mulher_surfista:',
         'it': ':surfista_donna:',
-        'fa': u':موج_سوار_زن:'
+        'fa': u':موج_سوار_زن:',
+        'tr': u':sörf_yapan_kadın:'
     },
     u'\U0001F3C4\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🏄🏿‍♀️
         'en' : ':woman_surfing_dark_skin_tone:',
@@ -46261,7 +48095,8 @@ EMOJI_DATA = {
         'fr': ':nageuse:',
         'pt': ':mulher_nadando:',
         'it': ':nuotatrice:',
-        'fa': u':شناگر_زن:'
+        'fa': u':شناگر_زن:',
+        'tr': u':yüzen_kadın:'
     },
     u'\U0001F3CA\U0000200D\U00002640': { # 🏊‍♀
         'en' : ':woman_swimming:',
@@ -46272,7 +48107,8 @@ EMOJI_DATA = {
         'fr': ':nageuse:',
         'pt': ':mulher_nadando:',
         'it': ':nuotatrice:',
-        'fa': u':شناگر_زن:'
+        'fa': u':شناگر_زن:',
+        'tr': u':yüzen_kadın:'
     },
     u'\U0001F3CA\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🏊🏿‍♀️
         'en' : ':woman_swimming_dark_skin_tone:',
@@ -46383,7 +48219,8 @@ EMOJI_DATA = {
         'fr': ':enseignante:',
         'pt': ':professora:',
         'it': ':professoressa:',
-        'fa': u':آموزگار_زن:'
+        'fa': u':آموزگار_زن:',
+        'tr': u':kadın_öğretmen:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F3EB': { # 👩🏿‍🏫
         'en' : ':woman_teacher_dark_skin_tone:',
@@ -46444,7 +48281,8 @@ EMOJI_DATA = {
         'fr': ':informaticienne:',
         'pt': u':tecnóloga:',
         'it': ':tecnologa:',
-        'fa': u':کارشناس_فناوری_زن:'
+        'fa': u':کارشناس_فناوری_زن:',
+        'tr': u':kadın_teknoloji_uzmanı:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F4BB': { # 👩🏿‍💻
         'en' : ':woman_technologist_dark_skin_tone:',
@@ -46505,7 +48343,8 @@ EMOJI_DATA = {
         'fr': ':femme_paume_vers_le_haut:',
         'pt': ':mulher_com_a_palma_virada_para_cima:',
         'it': ':donna_con_suggerimento:',
-        'fa': u':زن_کمک_می_کند:'
+        'fa': u':زن_کمک_می_کند:',
+        'tr': u':elini_yana_yatıran_kadın:'
     },
     u'\U0001F481\U0000200D\U00002640': { # 💁‍♀
         'en' : ':woman_tipping_hand:',
@@ -46516,7 +48355,8 @@ EMOJI_DATA = {
         'fr': ':femme_paume_vers_le_haut:',
         'pt': ':mulher_com_a_palma_virada_para_cima:',
         'it': ':donna_al_punto_informazioni:',
-        'fa': u':زن_کمک_می_کند:'
+        'fa': u':زن_کمک_می_کند:',
+        'tr': u':elini_yana_yatıran_kadın:'
     },
     u'\U0001F481\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 💁🏿‍♀️
         'en' : ':woman_tipping_hand_dark_skin_tone:',
@@ -46627,7 +48467,8 @@ EMOJI_DATA = {
         'fr': ':vampire_femme:',
         'pt': ':mulher_vampira:',
         'it': ':vampira:',
-        'fa': u':دراکولای_زن:'
+        'fa': u':دراکولای_زن:',
+        'tr': u':kadın_vampir:'
     },
     u'\U0001F9DB\U0000200D\U00002640': { # 🧛‍♀
         'en' : ':woman_vampire:',
@@ -46638,7 +48479,8 @@ EMOJI_DATA = {
         'fr': ':vampire_femme:',
         'pt': ':mulher_vampira:',
         'it': ':vampira:',
-        'fa': u':دراکولای_زن:'
+        'fa': u':دراکولای_زن:',
+        'tr': u':kadın_vampir:'
     },
     u'\U0001F9DB\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🧛🏿‍♀️
         'en' : ':woman_vampire_dark_skin_tone:',
@@ -46749,7 +48591,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_marche:',
         'pt': ':mulher_andando:',
         'it': ':donna_che_cammina:',
-        'fa': u':زن_پیاده_روی_می_کند:'
+        'fa': u':زن_پیاده_روی_می_کند:',
+        'tr': u':yürüyen_kadın:'
     },
     u'\U0001F6B6\U0000200D\U00002640': { # 🚶‍♀
         'en' : ':woman_walking:',
@@ -46760,7 +48603,8 @@ EMOJI_DATA = {
         'fr': ':femme_qui_marche:',
         'pt': ':mulher_andando:',
         'it': ':donna_che_cammina:',
-        'fa': u':زن_پیاده_روی_می_کند:'
+        'fa': u':زن_پیاده_روی_می_کند:',
+        'tr': u':yürüyen_kadın:'
     },
     u'\U0001F6B6\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 🚶🏿‍♀️
         'en' : ':woman_walking_dark_skin_tone:',
@@ -46871,7 +48715,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_turban:',
         'pt': ':mulher_com_turbante:',
         'it': ':donna_con_turbante:',
-        'fa': u':زن_با_دستار:'
+        'fa': u':زن_با_دستار:',
+        'tr': u':sarıklı_kadın:'
     },
     u'\U0001F473\U0000200D\U00002640': { # 👳‍♀
         'en' : ':woman_wearing_turban:',
@@ -46882,7 +48727,8 @@ EMOJI_DATA = {
         'fr': ':femme_en_turban:',
         'pt': ':mulher_com_turbante:',
         'it': ':donna_con_turbante:',
-        'fa': u':زن_با_دستار:'
+        'fa': u':زن_با_دستار:',
+        'tr': u':sarıklı_kadın:'
     },
     u'\U0001F473\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 👳🏿‍♀️
         'en' : ':woman_wearing_turban_dark_skin_tone:',
@@ -47003,7 +48849,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_foulard:',
         'pt': u':mulher_com_véu:',
         'it': ':donna_con_velo:',
-        'fa': u':زن_با_روسری:'
+        'fa': u':زن_با_روسری:',
+        'tr': u':başörtülü_kadın:'
     },
     u'\U0001F9D5\U0001F3FF': { # 🧕🏿
         'en' : ':woman_with_headscarf_dark_skin_tone:',
@@ -47064,7 +48911,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_voile:',
         'pt': u':noiva_com_véu:',
         'it': ':sposa_con_velo:',
-        'fa': u':زن_با_تور_عروس:'
+        'fa': u':زن_با_تور_عروس:',
+        'tr': u':duvaklı_kadın:'
     },
     u'\U0001F470\U0000200D\U00002640': { # 👰‍♀
         'en' : ':woman_with_veil:',
@@ -47075,7 +48923,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_voile:',
         'pt': u':noiva_com_véu:',
         'it': ':sposa_con_velo:',
-        'fa': u':زن_با_تور_عروس:'
+        'fa': u':زن_با_تور_عروس:',
+        'tr': u':duvaklı_kadın:'
     },
     u'\U0001F470\U0001F3FF\U0000200D\U00002640\U0000FE0F': { # 👰🏿‍♀️
         'en' : ':woman_with_veil_dark_skin_tone:',
@@ -47186,7 +49035,8 @@ EMOJI_DATA = {
         'fr': ':femme_avec_canne_blanche:',
         'pt': ':mulher_com_bengala_para_cego:',
         'it': ':donna_con_bastone_bianco_di_orientamento:',
-        'fa': u':زن_با_عصای_سفید:'
+        'fa': u':زن_با_عصای_سفید:',
+        'tr': u':görme_engelli_bastonlu_kadın:'
     },
     u'\U0001F469\U0001F3FF\U0000200D\U0001F9AF': { # 👩🏿‍🦯
         'en' : ':woman_with_white_cane_dark_skin_tone:',
@@ -47247,7 +49097,8 @@ EMOJI_DATA = {
         'fr': ':zombie_femme:',
         'pt': ':mulher_zumbi:',
         'it': ':zombie_donna:',
-        'fa': u':مرده_متحرک_زن:'
+        'fa': u':مرده_متحرک_زن:',
+        'tr': u':kadın_zombi:'
     },
     u'\U0001F9DF\U0000200D\U00002640': { # 🧟‍♀
         'en' : ':woman_zombie:',
@@ -47258,7 +49109,8 @@ EMOJI_DATA = {
         'fr': ':zombie_femme:',
         'pt': ':mulher_zumbi:',
         'it': ':zombie_donna:',
-        'fa': u':مرده_متحرک_زن:'
+        'fa': u':مرده_متحرک_زن:',
+        'tr': u':kadın_zombi:'
     },
     u'\U0001F462': { # 👢
         'en' : u':woman’s_boot:',
@@ -47270,7 +49122,8 @@ EMOJI_DATA = {
         'fr': ':botte_de_femme:',
         'pt': ':bota_feminina:',
         'it': ':stivale_da_donna:',
-        'fa': u':پوتین_زنانه:'
+        'fa': u':پوتین_زنانه:',
+        'tr': u':kadın_botu:'
     },
     u'\U0001F45A': { # 👚
         'en' : u':woman’s_clothes:',
@@ -47282,7 +49135,8 @@ EMOJI_DATA = {
         'fr': u':vêtements_de_femme:',
         'pt': ':roupas_femininas:',
         'it': ':maglietta_da_donna:',
-        'fa': u':لباس_زنانه:'
+        'fa': u':لباس_زنانه:',
+        'tr': u':kadın_giysisi:'
     },
     u'\U0001F452': { # 👒
         'en' : u':woman’s_hat:',
@@ -47294,7 +49148,8 @@ EMOJI_DATA = {
         'fr': ':chapeau_de_femme:',
         'pt': u':chapéu_feminino:',
         'it': ':cappello_da_donna:',
-        'fa': u':کلاه_زنانه:'
+        'fa': u':کلاه_زنانه:',
+        'tr': u':kadın_şapkası:'
     },
     u'\U0001F461': { # 👡
         'en' : u':woman’s_sandal:',
@@ -47306,7 +49161,8 @@ EMOJI_DATA = {
         'fr': ':sandale_de_femme:',
         'pt': u':sandália_feminina:',
         'it': ':sandalo_da_donna:',
-        'fa': u':صندل_زنانه:'
+        'fa': u':صندل_زنانه:',
+        'tr': u':kadın_sandaleti:'
     },
     u'\U0001F46D': { # 👭
         'en' : ':women_holding_hands:',
@@ -47318,7 +49174,8 @@ EMOJI_DATA = {
         'fr': ':deux_femmes_se_tenant_la_main:',
         'pt': u':duas_mulheres_de_mãos_dadas:',
         'it': ':due_donne_che_si_tengono_per_mano:',
-        'fa': u':دو_زن_دست_در_دست:'
+        'fa': u':دو_زن_دست_در_دست:',
+        'tr': u':el_ele_tutuşan_kadınlar:'
     },
     u'\U0001F46D\U0001F3FF': { # 👭🏿
         'en' : ':women_holding_hands_dark_skin_tone:',
@@ -47579,7 +49436,8 @@ EMOJI_DATA = {
         'fr': ':femmes_avec_des_oreilles_de_lapin:',
         'pt': ':mulheres_com_orelhas_de_coelho:',
         'it': ':donne_con_orecchie_da_coniglio:',
-        'fa': u':زنان_در_پارتی:'
+        'fa': u':زنان_در_پارتی:',
+        'tr': u':tavşan_kulaklı_kadınlar:'
     },
     u'\U0001F46F\U0000200D\U00002640': { # 👯‍♀
         'en' : ':women_with_bunny_ears:',
@@ -47590,7 +49448,8 @@ EMOJI_DATA = {
         'fr': ':femmes_avec_des_oreilles_de_lapin:',
         'pt': ':mulheres_com_orelhas_de_coelho:',
         'it': ':donne_con_orecchie_da_coniglio:',
-        'fa': u':زنان_در_پارتی:'
+        'fa': u':زنان_در_پارتی:',
+        'tr': u':tavşan_kulaklı_kadınlar:'
     },
     u'\U0001F93C\U0000200D\U00002640\U0000FE0F': { # 🤼‍♀️
         'en' : ':women_wrestling:',
@@ -47601,7 +49460,8 @@ EMOJI_DATA = {
         'fr': ':lutteuses:',
         'pt': ':mulheres_lutando:',
         'it': ':lottatrici:',
-        'fa': u':کُشتی_گیر_زن:'
+        'fa': u':کُشتی_گیر_زن:',
+        'tr': u':güreş_yapan_kadın:'
     },
     u'\U0001F93C\U0000200D\U00002640': { # 🤼‍♀
         'en' : ':women_wrestling:',
@@ -47612,7 +49472,8 @@ EMOJI_DATA = {
         'fr': ':lutteuses:',
         'pt': ':mulheres_lutando:',
         'it': ':lottatrici:',
-        'fa': u':کُشتی_گیر_زن:'
+        'fa': u':کُشتی_گیر_زن:',
+        'tr': u':güreş_yapan_kadın:'
     },
     u'\U0001F6BA': { # 🚺
         'en' : u':women’s_room:',
@@ -47625,7 +49486,8 @@ EMOJI_DATA = {
         'fr': ':symbole_toilettes_femmes:',
         'pt': ':banheiro_feminino:',
         'it': ':simbolo_del_bagno_delle_donne:',
-        'fa': u':توالت_زنانه:'
+        'fa': u':توالت_زنانه:',
+        'tr': u':kadınlar_tuvaleti:'
     },
     u'\U0001FAB5': { # 🪵
         'en' : ':wood:',
@@ -47636,7 +49498,8 @@ EMOJI_DATA = {
         'fr': ':bois:',
         'pt': ':madeira:',
         'it': ':legna:',
-        'fa': u':چوب:'
+        'fa': u':چوب:',
+        'tr': u':kütük:'
     },
     u'\U0001F974': { # 🥴
         'en' : ':woozy_face:',
@@ -47647,7 +49510,8 @@ EMOJI_DATA = {
         'fr': u':visage_éméché:',
         'pt': ':rosto_embriagado:',
         'it': ':faccina_stordita:',
-        'fa': u':نشئه:'
+        'fa': u':نشئه:',
+        'tr': u':sarhoş_yüz:'
     },
     u'\U0001F5FA\U0000FE0F': { # 🗺️
         'en' : ':world_map:',
@@ -47659,7 +49523,8 @@ EMOJI_DATA = {
         'fr': ':carte_du_monde:',
         'pt': u':mapa-múndi:',
         'it': ':mappa_mondiale:',
-        'fa': u':نقشه_جهان:'
+        'fa': u':نقشه_جهان:',
+        'tr': u':dünya_haritası:'
     },
     u'\U0001F5FA': { # 🗺
         'en' : ':world_map:',
@@ -47671,7 +49536,8 @@ EMOJI_DATA = {
         'fr': ':carte_du_monde:',
         'pt': u':mapa-múndi:',
         'it': ':mappa_mondiale:',
-        'fa': u':نقشهٔ_جهان:'
+        'fa': u':نقشهٔ_جهان:',
+        'tr': u':dünya_haritası:'
     },
     u'\U0001FAB1': { # 🪱
         'en' : ':worm:',
@@ -47682,7 +49548,8 @@ EMOJI_DATA = {
         'fr': ':lombric:',
         'pt': ':minhoca:',
         'it': ':verme:',
-        'fa': u':کرم:'
+        'fa': u':کرم:',
+        'tr': ':solucan:'
     },
     u'\U0001F61F': { # 😟
         'en' : ':worried_face:',
@@ -47694,7 +49561,8 @@ EMOJI_DATA = {
         'fr': ':visage_inquiet:',
         'pt': ':rosto_preocupado:',
         'it': ':faccina_preoccupata:',
-        'fa': u':چهره_نگران:'
+        'fa': u':چهره_نگران:',
+        'tr': u':endişeli_yüz:'
     },
     u'\U0001F381': { # 🎁
         'en' : ':wrapped_gift:',
@@ -47706,7 +49574,8 @@ EMOJI_DATA = {
         'fr': ':cadeau:',
         'pt': ':presente:',
         'it': ':regalo:',
-        'fa': u':هدیهٔ_کادوشده:'
+        'fa': u':هدیهٔ_کادوشده:',
+        'tr': u':paketlenmiş_hediye:'
     },
     u'\U0001F527': { # 🔧
         'en' : ':wrench:',
@@ -47717,7 +49586,8 @@ EMOJI_DATA = {
         'fr': u':clé_à_molette:',
         'pt': ':chave_inglesa:',
         'it': ':chiave_inglese:',
-        'fa': u':آچار:'
+        'fa': u':آچار:',
+        'tr': u':somun_anahtarı:'
     },
     u'\U0000270D\U0000FE0F': { # ✍️
         'en' : ':writing_hand:',
@@ -47729,7 +49599,8 @@ EMOJI_DATA = {
         'fr': u':main_qui_écrit:',
         'pt': u':escrevendo_à_mão:',
         'it': ':mano_che_scrive:',
-        'fa': u':نوشتن_با_دست:'
+        'fa': u':نوشتن_با_دست:',
+        'tr': u':yazı_yazan_el:'
     },
     u'\U0000270D': { # ✍
         'en' : ':writing_hand:',
@@ -47741,7 +49612,8 @@ EMOJI_DATA = {
         'fr': u':main_qui_écrit:',
         'pt': u':escrevendo_à_mão:',
         'it': ':mano_che_scrive:',
-        'fa': u':نوشتن_با_دست:'
+        'fa': u':نوشتن_با_دست:',
+        'tr': u':yazı_yazan_el:'
     },
     u'\U0000270D\U0001F3FF': { # ✍🏿
         'en' : ':writing_hand_dark_skin_tone:',
@@ -47802,7 +49674,8 @@ EMOJI_DATA = {
         'fr': ':radiographie:',
         'pt': ':raio_x:',
         'it': ':radiografia:',
-        'fa': u':اشعه_ایکس:'
+        'fa': u':اشعه_ایکس:',
+        'tr': u':x_ışını:'
     },
     u'\U0001F9F6': { # 🧶
         'en' : ':yarn:',
@@ -47813,7 +49686,8 @@ EMOJI_DATA = {
         'fr': ':fil:',
         'pt': ':novelo:',
         'it': ':gomitolo:',
-        'fa': u':نخ_بافندگی:'
+        'fa': u':نخ_بافندگی:',
+        'tr': u':iplik_yumağı:'
     },
     u'\U0001F971': { # 🥱
         'en' : ':yawning_face:',
@@ -47824,7 +49698,8 @@ EMOJI_DATA = {
         'fr': u':visage_bâillant:',
         'pt': ':rosto_bocejando:',
         'it': ':faccina_che_sbadiglia:',
-        'fa': u':صورت_خمیازه_کش:'
+        'fa': u':صورت_خمیازه_کش:',
+        'tr': u':esneyen_yüz:'
     },
     u'\U0001F7E1': { # 🟡
         'en' : ':yellow_circle:',
@@ -47835,7 +49710,8 @@ EMOJI_DATA = {
         'fr': ':disque_jaune:',
         'pt': u':círculo_amarelo:',
         'it': ':cerchio_giallo:',
-        'fa': u':دایره_زرد:'
+        'fa': u':دایره_زرد:',
+        'tr': u':sarı_daire:'
     },
     u'\U0001F49B': { # 💛
         'en' : ':yellow_heart:',
@@ -47846,7 +49722,8 @@ EMOJI_DATA = {
         'fr': u':cœur_jaune:',
         'pt': u':coração_amarelo:',
         'it': ':cuore_giallo:',
-        'fa': u':قلب_زرد:'
+        'fa': u':قلب_زرد:',
+        'tr': u':sarı_kalp:'
     },
     u'\U0001F7E8': { # 🟨
         'en' : ':yellow_square:',
@@ -47857,7 +49734,8 @@ EMOJI_DATA = {
         'fr': u':carré_jaune:',
         'pt': ':quadrado_amarelo:',
         'it': ':quadrato_giallo:',
-        'fa': u':مربع_زرد:'
+        'fa': u':مربع_زرد:',
+        'tr': u':sarı_kare:'
     },
     u'\U0001F4B4': { # 💴
         'en' : ':yen_banknote:',
@@ -47869,7 +49747,8 @@ EMOJI_DATA = {
         'fr': ':billet_en_yens:',
         'pt': ':nota_de_iene:',
         'it': ':banconota_yen:',
-        'fa': u':اسکناس_ین:'
+        'fa': u':اسکناس_ین:',
+        'tr': ':yen_banknot:'
     },
     u'\U0000262F\U0000FE0F': { # ☯️
         'en' : ':yin_yang:',
@@ -47881,7 +49760,8 @@ EMOJI_DATA = {
         'fr': ':yin_yang:',
         'pt': ':yin_yang:',
         'it': ':yin_e_yang:',
-        'fa': u':یین_و_ینگ:'
+        'fa': u':یین_و_ینگ:',
+        'tr': ':yin_yang:'
     },
     u'\U0000262F': { # ☯
         'en' : ':yin_yang:',
@@ -47893,7 +49773,8 @@ EMOJI_DATA = {
         'fr': ':yin_yang:',
         'pt': ':yin_yang:',
         'it': ':yin_e_yang:',
-        'fa': u':یین_و_ینگ:'
+        'fa': u':یین_و_ینگ:',
+        'tr': ':yin_yang:'
     },
     u'\U0001FA80': { # 🪀
         'en' : ':yo-yo:',
@@ -47905,7 +49786,8 @@ EMOJI_DATA = {
         'fr': ':yoyo:',
         'pt': u':ioiô:',
         'it': ':yo-yo:',
-        'fa': u':یویو:'
+        'fa': u':یویو:',
+        'tr': ':yoyo:'
     },
     u'\U0001F92A': { # 🤪
         'en' : ':zany_face:',
@@ -47916,7 +49798,8 @@ EMOJI_DATA = {
         'fr': u':tête_de_fou:',
         'pt': ':rosto_bizarro:',
         'it': ':faccina_impazzita:',
-        'fa': u':دیوانه:'
+        'fa': u':دیوانه:',
+        'tr': u':çılgın_surat:'
     },
     u'\U0001F993': { # 🦓
         'en' : ':zebra:',
@@ -47927,7 +49810,8 @@ EMOJI_DATA = {
         'fr': u':zèbre:',
         'pt': ':zebra:',
         'it': ':zebra:',
-        'fa': u':گورخر:'
+        'fa': u':گورخر:',
+        'tr': ':zebra:'
     },
     u'\U0001F910': { # 🤐
         'en' : ':zipper-mouth_face:',
@@ -47939,7 +49823,8 @@ EMOJI_DATA = {
         'fr': u':visage_avec_bouche_fermeture_éclair:',
         'pt': u':rosto_com_boca_de_zíper:',
         'it': ':faccina_con_bocca_con_cerniera:',
-        'fa': u':دهان_چفت:'
+        'fa': u':دهان_چفت:',
+        'tr': u':ağzı_fermuarlı_yüz:'
     },
     u'\U0001F9DF': { # 🧟
         'en' : ':zombie:',
@@ -47950,7 +49835,8 @@ EMOJI_DATA = {
         'fr': ':zombie:',
         'pt': ':zumbi:',
         'it': ':zombie:',
-        'fa': u':مرده_متحرک:'
+        'fa': u':مرده_متحرک:',
+        'tr': ':zombi:'
     },
     u'\U0001F4A4': { # 💤
         'en' : ':zzz:',
@@ -47961,7 +49847,8 @@ EMOJI_DATA = {
         'fr': ':endormi:',
         'pt': ':zzz:',
         'it': ':sonno:',
-        'fa': u':خروپف:'
+        'fa': u':خروپف:',
+        'tr': ':zzz:'
     },
     u'\U0001F1E6\U0001F1FD': { # 🇦🇽
         'en' : u':Åland_Islands:',
