@@ -249,6 +249,7 @@ if __name__ == "__main__":
         'pt': extract_names(get_language_data_from_url(github_tag, 'pt'), 'pt'),
         'it': extract_names(get_language_data_from_url(github_tag, 'it'), 'it'),
         'fa': extract_names(get_language_data_from_url(github_tag, 'fa'), 'fa'),
+        'tr': extract_names(get_language_data_from_url(github_tag, 'tr'), 'tr'),
 
         # Do not update names in other languages:
         #'de': get_UNICODE_EMOJI('de'),
@@ -256,6 +257,8 @@ if __name__ == "__main__":
         #'fr': get_UNICODE_EMOJI('fr'),
         #'pt': get_UNICODE_EMOJI('pt'),
         #'it': get_UNICODE_EMOJI('it'),
+        #'fa': get_UNICODE_EMOJI('fa'),
+        #'tr': get_UNICODE_EMOJI('tr'),
     }
     github_alias = get_emoji_from_github_api()
 
