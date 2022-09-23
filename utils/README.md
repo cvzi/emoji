@@ -36,9 +36,9 @@ Now we run the script and store the output in `out.py`. The output is a new `EMO
 python utils/get_codes_from_unicode_emoji_data_files.py > out.py
 ```
 
-Copy the content of `out.py` into the `EMOJI_DATA` dict in `emoji/unicode_codes/data_dict.py` and add `'es'` to `LANGUAGES` variable.
+Copy the content of `out.py` into the `EMOJI_DATA` dict in [`emoji/unicode_codes/data_dict.py`](../emoji/unicode_codes/data_dict.py) and add `'es'` to `LANGUAGES` variable.
 
-You can also add the new langauge to the `languages` dict in `utils/gh-pages/generatePages.py`.
+You can also add the new langauge to the `languages` dict in [`utils/gh-pages/generatePages.py`](gh-pages/generatePages.py).
 
 ## Test the new `EMOJI_DATA`
 
