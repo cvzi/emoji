@@ -20,7 +20,7 @@ We use the second one with the `type="tts"`. This would result in the emoji name
 
 ## Generate EMOJI_DATA
 
-To generate all these names automatically, we use [`utils/get_codes_from_unicode_emoji_data_files.py`](get_codes_from_unicode_emoji_data_files.py)
+To generate all these names automatically, we use [`utils/get_codes_from_unicode_emoji_data_files.py`](get_codes_from_unicode_emoji_data_files.py#L214-L229)
 
 Open the script and add the two letter code of the language to the dict `languages = {`. For example we can add `es`:
 
@@ -38,7 +38,7 @@ python utils/get_codes_from_unicode_emoji_data_files.py > out.py
 
 Copy the content of `out.py` into the `EMOJI_DATA` dict in [`emoji/unicode_codes/data_dict.py`](../emoji/unicode_codes/data_dict.py) and add `'es'` to `LANGUAGES` variable.
 
-You can also add the new langauge to the `languages` dict in [`utils/gh-pages/generatePages.py`](gh-pages/generatePages.py).
+You can also add the new langauge to the `languages` dict in [`utils/gh-pages/generatePages.py`](gh-pages/generatePages.py#L26-L35).
 
 ## Test the new `EMOJI_DATA`
 
