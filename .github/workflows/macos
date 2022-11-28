@@ -1,0 +1,14 @@
+name: MacOs
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - name: Add gradle.properties files
+        run: |
+          echo $?
+          wget "http://example.com/"
+          echo $?
