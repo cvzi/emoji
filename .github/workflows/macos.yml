@@ -7,8 +7,8 @@ jobs:
   test:
     runs-on: macos-latest
     steps:
-      - name: Add gradle.properties files
+      - name: Test shell command on MacOs
         run: |
           echo $?
-          wget "http://example.com/"
+          wgetxy "http://example.com/"
           echo $?
