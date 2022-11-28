@@ -28,9 +28,10 @@ jobs:
         run: |
           mpv
           
-      - name: Install yt-dlp
+      - name: Install and update yt-dlp
         run: |
-          pip install --upgrade yt-dlp
+          # pip install --upgrade yt-dlp
+          yt-dlp --update
 
       - name: Run it
         run: |
