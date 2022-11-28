@@ -22,4 +22,4 @@ jobs:
         pip install --upgrade yt-dlp
     - name: Run it
       run: |
-        mpv
+        mpv "https://www.youtube.com/watch?v=VpOLXXBcAl0"
