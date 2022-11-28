@@ -28,10 +28,9 @@ jobs:
         run: |
           mpv
           
-      - name: Install and update yt-dlp
+      - name: Install yt-dlp from pip
         run: |
           pip install --upgrade yt-dlp
-          yt-dlp --update
           which yt-dlp
 
       - name: Run mpv with youtube-upnext userscript
