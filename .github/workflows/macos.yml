@@ -7,8 +7,10 @@ jobs:
   test:
     runs-on: macos-latest
     steps:
+      - name: Install Package
+        uses: ConorMacBride/install-package@v1.1.0
+        with:
+          brew: mpv
       - name: Test shell command on MacOs
         run: |
-          echo $?
-          wgetxy "http://example.com/"
-          echo $?
+          mpv
