@@ -30,8 +30,8 @@ jobs:
       run: |
         mkdir -p ~/.config/MPV/
         touch ~/.config/MPV/mpv.conf
-        loc=$(which yt-dlp)
         echo -e '\nscript-opts=ytdl_hook-ytdl_path=$loc\n' >> ~/.config/MPV/mpv.conf
     - name: Run it
       run: |
-        mpv "https://www.youtube.com/watch?v=VpOLXXBcAl0"
+        loc=$(which yt-dlp)
+        mpv --script-opts="ytdl_hook-ytdl_path=$loc" "https://www.youtube.com/watch?v=VpOLXXBcAl0"
