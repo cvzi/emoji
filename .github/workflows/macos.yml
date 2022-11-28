@@ -30,8 +30,9 @@ jobs:
           
       - name: Install and update yt-dlp
         run: |
-          # pip install --upgrade yt-dlp
+          pip install --upgrade yt-dlp
           yt-dlp --update
+          which yt-dlp
 
       - name: Run it
         run: |
