@@ -16,7 +16,9 @@ jobs:
       uses: ConorMacBride/install-package@v1.1.0
       with:
         apt: mpv
-
+    - name: Remove youtube-dl
+      run: |
+        sudo apt purge youtube-dl
     - name: Install yt-dlp
       run: |
         pip install --upgrade yt-dlp
