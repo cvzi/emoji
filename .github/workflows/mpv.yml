@@ -19,11 +19,7 @@ jobs:
     - name: Install yt-dlp
       run: |
         pip install --upgrade yt-dlp
-    - name: Configure mpv to use yt-dlp
-      run: |
-        mkdir -p ~/.config/MPV/
-        touch ~/.config/MPV/mpv.conf
-        echo -e '\nscript-opts=ytdl_hook-ytdl_path=$loc\n' >> ~/.config/MPV/mpv.conf
     - name: Run it
       run: |
-        mpv "https://www.youtube.com/watch?v=VpOLXXBcAl0"
+        loc=$(which yt-dlp)
+        mpv --script-opts="ytdl_hook-ytdl_path=$loc" "https://www.youtube.com/watch?v=VpOLXXBcAl0"
