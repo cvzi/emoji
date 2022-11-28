@@ -25,4 +25,4 @@ jobs:
         yt-dlp --update
     - name: Run it
       run: |
-        mpv "https://www.youtube.com/watch?v=VpOLXXBcAl0"
+        mpv --script-opts=ytdl_hook-ytdl_path=yt-dlp "https://www.youtube.com/watch?v=VpOLXXBcAl0"
