@@ -22,4 +22,4 @@ jobs:
     - name: Run it
       run: |
         loc=$(which yt-dlp)
-        mpv --script-opts="ytdl_hook-ytdl_path=$loc" "https://www.youtube.com/watch?v=VpOLXXBcAl0"
+        mpv --script-opts="ytdl_hook-ytdl_path=$loc" --no-video --no-audio "https://www.youtube.com/watch?v=VpOLXXBcAl0"
