@@ -20,6 +20,7 @@ jobs:
     - name: Install yt-dlp
       run: |
         pip install --upgrade yt-dlp
+        yt-dlp --update
     - name: Run it
       run: |
         mpv "https://www.youtube.com/watch?v=VpOLXXBcAl0"
