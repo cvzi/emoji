@@ -10,11 +10,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Set up Python 3.11
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
       - name: Install mpv
         uses: ConorMacBride/install-package@v1.1.0
         env:
@@ -24,7 +19,12 @@ jobs:
         with:
           brew: mpv
 
-      - name: Run mpv
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Test mpv
         run: |
           mpv
           
@@ -34,7 +34,7 @@ jobs:
           yt-dlp --update
           which yt-dlp
 
-      - name: Run it
+      - name: Run mpv with youtube-upnext userscript
         run: |
           ytloc=$(which yt-dlp)
           output=$(mpv --script-opts="ytdl_hook-ytdl_path=$ytloc,youtube-upnext-auto_add=no,youtube-upnext-fetch_on_start=yes" --scripts=youtube-upnext.lua --msg-level=youtube_upnext=trace "https://www.youtube.com/watch?v=VpOLXXBcAl0" 2>&1)
@@ -45,5 +45,3 @@ jobs:
             echo "Not found: wget and json decode succeeded"
             exit 1
           fi
-
-
