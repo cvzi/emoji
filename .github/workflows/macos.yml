@@ -32,4 +32,4 @@ jobs:
         run: |
           loc=$(which yt-dlp)
           echo $loc
-          mpv --script-opts="ytdl_hook-ytdl_path=$loc" --no-audio "https://www.youtube.com/watch?v=VpOLXXBcAl0"
+          mpv --script-opts="ytdl_hook-ytdl_path=$loc" --scripts=youtube-upnext.lua --msg-level=youtube_upnext=trace "https://www.youtube.com/watch?v=VpOLXXBcAl0"
