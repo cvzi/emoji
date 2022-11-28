@@ -13,9 +13,9 @@ jobs:
       with:
         python-version: "3.11"
     - name: Install mpv
-      uses: ConorMacBride/install-package@v1.1.0
-      with:
-        apt: mpv
+      run: |
+        sudo add-apt-repository ppa:mc3man/mpv-tests
+        sudo apt-get install mpv
     - name: Remove youtube-dl
       run: |
         sudo apt purge youtube-dl
