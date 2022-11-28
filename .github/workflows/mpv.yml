@@ -7,9 +7,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Install dependencies
-      run: |
-        sudp apt install mpv -y
-    - name: Run it
-      run: |
-        mpv
+      - name: Install mpv
+        uses: ConorMacBride/install-package@v1.1.0
+        with:
+          apt: mpv
+
+      - name: Install dependencies
+        run: |
+          echo nada
+      - name: Run it
+        run: |
+          mpv
