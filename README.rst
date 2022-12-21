@@ -30,10 +30,11 @@ both the full list and aliases.
 
 ..
 
-By default, the language is English (``language='en'``) but  also supported languages are:
+By default, the language is English (``language='en'``) but also supported languages are:
 
-Spanish (``'es'``), Portuguese (``'pt'``), Italian (``'it'``), French (``'fr'``), German (``'de'``), Farsi/Persian (``'fa'``),
-Indonesian (``'id'``), Chinese (Simplified) (``'zh'``)
+Spanish (``'es'``), Portuguese (``'pt'``), Italian (``'it'``), French (``'fr'``),
+German (``'de'``), Farsi/Persian (``'fa'``), Indonesian (``'id'``),
+Chinese (Simplified) (``'zh'``)
 
 
 .. code-block:: python
@@ -78,8 +79,9 @@ Developing
     $ pytest
 
 The ``utils/get_codes_from_unicode_emoji_data_files.py`` is used to generate
-``unicode_codes/data_dict.py``. Generally speaking it scrapes a table on
-the Unicode Consortium's website with `BeautifulSoup <http://www.crummy.com/software/BeautifulSoup/>`_
+``unicode_codes/data_dict.py``. Generally speaking it scrapes a table on the
+`Unicode Consortium's website <https://www.unicode.org/reports/tr51/#emoji_data>`_
+with BeautifulSoup <http://www.crummy.com/software/BeautifulSoup/>`_
 and prints the contents to ``stdout`` as a Python dictionary. For more
 information take a look in the `utils/README.md <utils/README.md>`_ file.
 
