@@ -39,7 +39,7 @@ By default, the language is English (``language='en'``) but also supported langu
 * German (``'de'``)
 * Farsi/Persian (``'fa'``)
 * Indonesian (``'id'``)
-* Chinese (Simplified) (``'zh'``)
+* Simplified Chinese (``'zh'``)
 
 
 .. code-block:: python
