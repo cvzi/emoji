@@ -36,7 +36,8 @@ local opts = {
     --formatting / cursors
     cursor_selected   = "● ",
     cursor_unselected = "○ ",
-    cursor_appended = "◌ ",
+    cursor_appended = "▷ ",
+    cursor_appended_selected = "▶ ",
 
     --font size scales by window, if false requires larger font and padding sizes
     scale_playlist_by_window = false,
@@ -128,6 +129,12 @@ local function url_encode(s)
 end
 
 local function download_upnext(url, post_data)
+    if opts.fetch_on_start or opts.auto_add then
+        msg.info("fetching 'up next' with wget...")
+    else
+	mp.osd_message("fetching 'up next' with wget...", 60)
+    end
+
     local command = { "wget", "-q", "-O", "-" }
     if not opts.check_certificate then
         table.insert(command, "--no-check-certificate")
@@ -151,7 +158,7 @@ local function download_upnext(url, post_data)
         if es == 5 then
             mp.osd_message("upnext failed: wget does not support HTTPS", 10)
             msg.error("wget is missing certificates, disable check-certificate in userscript options")
-        elseif es == -1 or es== -3 or es == 127 or es == 9009 then
+	elseif es == -1 or es== -3 or es == 127 or es == 9009 then
             -- MP_SUBPROCESS_EINIT is -3 which can mean the command was not found:
             -- https://github.com/mpv-player/mpv/blob/24dcb5d167ba9580119e0b9cc26f79b1d155fcdc/osdep/subprocess-posix.c#L335-L336
             mp.osd_message("upnext failed: wget not found", 10)
@@ -229,7 +236,7 @@ local function get_invidious(url)
         if es == 5 then
             mp.osd_message("upnext failed: wget does not support HTTPS", 10)
             msg.error("wget is missing certificates, disable check-certificate in userscript options")
-        elseif es == -1 or es == -3 or es == 127 or es == 9009 then
+	elseif es == -1 or es == -3 or es == 127 or es == 9009 then
             mp.osd_message("upnext failed: wget not found", 10)
             msg.error("wget/wget.exe is missing. Please install it or put an executable in your PATH")
         else
@@ -421,7 +428,9 @@ local function load_upnext()
     local url = mp.get_property("path")
 
     url = string.gsub(url, "ytdl://", "") -- Strip possible ytdl:// prefix.
+    url = string.gsub(url, "/shorts/", "/watch?v=") -- Convert shorts to watch?v=.
     url = string.gsub(url, "//.*/watch%?v=", "//youtube.com/watch?v=") -- Account for alternative frontends.
+    url = string.gsub(url, "%?feature=share", "") -- Strip possible ?feature=share suffix.
 
     if string.find(url, "//youtu.be/") == nil
         and string.find(url, "//youtube.com/") == nil
@@ -476,10 +485,14 @@ local function load_upnext()
     return res, n
 end
 
-local function on_file_loaded(_)
+local function on_file_start(_)
     local url = mp.get_property("path")
+
     url = string.gsub(url, "ytdl://", "") -- Strip possible ytdl:// prefix.
+    url = string.gsub(url, "/shorts/", "/watch?v=") -- Convert shorts to watch?v=.
     url = string.gsub(url, "//.*/watch%?v=", "//youtube.com/watch?v=") -- Account for alternative frontends.
+    url = string.gsub(url, "%?feature=share", "") -- Strip possible ?feature=share suffix.
+
     if string.find(url, "youtu") ~= nil then
         -- Try to add current video ID to watched list
         -- extract from https://www.youtube.com/watch?v=abcd_1234-ef
@@ -509,8 +522,6 @@ local function on_file_loaded(_)
 end
 
 local function show_menu()
-    mp.osd_message("fetching 'up next' with wget...", 60)
-
     local upnext, num_upnext = load_upnext()
     if num_upnext == 0 then
         return
@@ -520,14 +531,12 @@ local function show_menu()
     local timeout
     local selected = 1
     local function choose_prefix(i, already_appended)
+	if i == selected and already_appended then return opts.cursor_appended_selected
+	elseif i == selected then return opts.cursor_selected end
 
-        if i == selected then
-            return opts.cursor_selected
-        elseif already_appended then
-            return opts.cursor_appended
-        else
-            return opts.cursor_unselected
-        end
+	if i ~= selected and already_appended then return opts.cursor_appended
+	elseif i ~= selected then return opts.cursor_unselected end
+	return "> " --shouldn't get here
     end
 
     local function draw_menu()
@@ -535,7 +544,7 @@ local function show_menu()
 
         local w, h = mp.get_osd_size()
 
-        if opts.curtain_opacity ~= nil and opts.curtain_opacity < 1.0 then
+        if opts.curtain_opacity ~= nil and opts.curtain_opacity ~= 0 and opts.curtain_opacity < 1.0 then
             -- From https://github.com/christoph-heinrich/mpv-quality-menu/blob/501794bfbef468ee6a61e54fc8821fe5cd72c4ed/quality-menu.lua#L699-L707
             local alpha = 255 - math.ceil(255 * opts.curtain_opacity)
             ass.text = string.format('{\\pos(0,0)\\rDefault\\an7\\1c&H000000&\\alpha&H%X&}', alpha)
@@ -558,6 +567,13 @@ local function show_menu()
         mp.set_osd_ass(w, h, ass.text)
     end
 
+    local function update_dimensions()
+        draw_menu()
+    end
+
+    update_dimensions()
+    mp.observe_property('osd-dimensions', 'native', update_dimensions)
+
     local function selected_move(amt)
         selected = selected + amt
         if selected < 1 then
@@ -579,6 +595,7 @@ local function show_menu()
         mp.remove_key_binding("append")
         mp.remove_key_binding("escape")
         mp.remove_key_binding("quit")
+        mp.unobserve_property(update_dimensions)
         destroyer = nil
     end
 
@@ -592,10 +609,16 @@ local function show_menu()
         mp.commandv("loadfile", upnext[selected].file, "replace")
     end)
     mp.add_forced_key_binding(opts.append_binding, "append", function()
-        destroy()
+    -- prevent appending the same video twice
+    if appended_to_playlist[upnext[selected].file] == true then
+        timeout:kill()
+        timeout:resume()
+        return
+    else
         mp.commandv("loadfile", upnext[selected].file, "append")
         appended_to_playlist[upnext[selected].file] = true
-        show_menu()
+	selected_move(1)
+    end
     end, { repeatable = true })
     mp.add_forced_key_binding(opts.close_binding, "quit", destroy)
     mp.add_forced_key_binding(opts.toggle_menu_binding, "escape", destroy)
@@ -661,9 +684,9 @@ mp.register_script_message("toggle-upnext-menu",
 mp.add_key_binding(opts.toggle_menu_binding, "upnext-menu", show_menu)
 
 if opts.auto_add then
-    mp.register_event("file-loaded", on_file_loaded)
+    mp.register_event("start-file", on_file_start)
 elseif opts.fetch_on_start then
-    mp.register_event("file-loaded", load_upnext)
+    mp.register_event("start-file", load_upnext)
 end
 
 if opts.restore_window_width then
