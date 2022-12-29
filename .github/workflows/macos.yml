@@ -16,7 +16,7 @@ jobs:
 
       - name: Install mpv
         run: |
-          brew install xz dav1d frei0r guile fribidi pcre2 glib libx11 libxrender libunibreak cjson mbedtls librist libsoxr libvidstab libvpx opencore-amr rav1e libsndfile libsamplerate rubberband sdl2 speex srt leptonica libb2 libarchive theora x264 xvid zeromq zimg ffmpeg luajit mujs uchardet vapoursynth
+          brew install ffmpeg luajit mujs uchardet
           brew install --ignore-dependencies mpv
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
