@@ -37,4 +37,4 @@ jobs:
       run: |
         version=$(grep -Po "\"version\"\s*\:\s*\"\K[0-9.]+" manifest.json)
         git tag -a "v$version" -m "v$version" || true
-        git push --tags
+        git push --tags || true
