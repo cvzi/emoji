@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark_dimmed" data-a11y-animated-images="system">
+  <head>
+    <script>
+window.addEventListener('load', function (){
+
+  fetch('https://github.com/cvzi/Bandcamp-script-deluxe-edition/funding_links?fragment=1')
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    return response.text();
+  })
+  .then((content) => {
+    alert(content)
+    document.body.innerHTML = content
+  });
+  
+  
+});
+      
+      </script>
+    
+  </head>
+
+<body>
+  
+  
+  
+</body>
+</html>
