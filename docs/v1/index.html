@@ -30,6 +30,27 @@
       text-decoration: underline hotpink;
     }
 
+    .anim-fade-in {
+      animation-name: fade-in;
+      animation-duration: 500ms;
+      animation-timing-function: ease-in-out;
+    }
+
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .address {
+      user-select: all;
+    }
+
     .dialog {
       position: fixed;
       margin: 5vh auto;
@@ -49,23 +70,6 @@
       z-index: 1;
     }
 
-    .anim-fade-in {
-      animation-name: fade-in;
-      animation-duration: 500ms;
-      animation-timing-function: ease-in-out;
-    }
-
-
-    @keyframes fade-in {
-      0% {
-        opacity: 0;
-      }
-
-      100% {
-        opacity: 1;
-      }
-    }
-
     .header {
       margin: 0;
       border-width: 0;
@@ -81,23 +85,43 @@
       padding: 16px;
       font-size: 16px;
     }
+    
+    .header .title img {
+      border-radius: 50%;
+      margin: 0 1em;
+      vertical-align: bottom;
+    }
 
     .content {
       padding: 16px;
     }
 
     .content .entry {
-      display: flex !important;
+      display: flex;
       margin-bottom: 16px;
       box-sizing: border-box;
     }
 
     .entry .logo {
+      display: flex;
       width: 24px;
       height: 24px;
+      border-radius: 50%;
+      border: 1px solid #d0d7de;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0.75em;
+    }
+
+    .entry .logo>img {
+      border-radius:10%;
     }
 
     .entry .linkholder a {
+      vertical-align: middle;
+    }
+
+    .qr-link>img {
       vertical-align: top;
     }
 
@@ -117,9 +141,6 @@
       padding-bottom: 0px;
     }
 
-    .address {
-      user-select: all;
-    }
   </style>
 
   <script>
