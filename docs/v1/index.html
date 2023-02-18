@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark_dimmed" data-a11y-animated-images="system">
+<head>
+ <meta charset="utf-8">
+
+<style>
+
+
+body {
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+font-size: 14px;
+line-height: 1.5;
+color:black;
+background-color:#022;
+}
+
+a:any-link {
+    color: black;
+    text-decoration:none;
+}
+a:hover {
+    color: black;
+    text-decoration:underline hotpink;
+}
+
+.dialog {
+  position: fixed;
+  margin: 5vh auto;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 90vw;
+  max-height: 90vh;
+  min-width: 25vw;
+  min-height:100px;
+  overflow: auto;
+  border: 1px solid black;
+  border-radius:1em;
+  background-color: white;
+  background-clip: padding-box;
+  box-shadow: 0 0 18px rgba(0,0,0,.4);
+  z-index:1;
+}
+
+.anim-fade-in {
+  animation-name: fade-in;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+}
+
+
+@keyframes fade-in {
+0% {
+  opacity: 0;
+}
+100% {
+  opacity: 1;
+}
+}
+
+
+
+.header {
+  margin: 0;
+  border-width: 0;
+  border-bottom-width: 0px;
+  border-bottom-width: 1px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-color: black;
+  border-style: solid;
+  border-width:0px;
+  border-bottom-width: 1px;
+  margin: 0;
+  padding: 16px;
+  font-size: 16px;
+}
+
+.content {
+  padding:16px;
+}
+
+.content .entry {
+  display: flex !important;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.entry .logo {
+  width:24px;
+  height:24px;
+}
+
+.entry .linkholder a {
+  vertical-align:top;
+}
+
+.qr-link:hover > img {
+  filter: sepia(100%) hue-rotate(270deg) saturate(150%);
+  background: white;
+}
+
+.qr {
+  display:none;
+  z-index:2;
+}
+.qr-desc {
+  font-family:monospace;
+  padding:16px;
+  padding-bottom:0px;
+}
+
+.address {
+  user-select:all;
+}
+
+</style>
+
+<script>
+
+function qrClose (ev) {
+  if (ev.target.tagName !== 'HTML' && ev.target.tagName !== 'BODY') {
+    return
+  }
+  document.removeEventListener('click', qrClose)
+  document.querySelectorAll('.qr.dialog').forEach((div) => {
+    div.classList.remove('dialog')
+    div.style.display = 'none'
+  })
+  document.querySelectorAll('.main.dialog').forEach((div) => {
+    div.style.display = 'block'
+  })
+}
+
+function qrClick (ev) {
+  ev.preventDefault()
+
+  document.querySelectorAll('.main.dialog').forEach((div) => {
+    div.style.display = 'none'
+  })
+  
+  const div = document.querySelector(`.qr.${this.dataset.qr}`)
+  div.classList.add('anim-fade-in')
+  div.classList.add('dialog')
+  div.style.display = 'block'
+  window.setTimeout(() => {
+    document.addEventListener('click', qrClose)
+  }, 100)
+}
+
+window.addEventListener('load', () => {
+
+  document.querySelectorAll('a[data-qr]').forEach((a) => {
+    a.addEventListener('click', qrClick)
+  })
+
+})
+
+</script>
+</head>
+
+<body>
+<div class="main dialog anim-fade-in">
+
+  <div class="header">
+      <h3 class="title">
+        Sponsor <a href="https://github.com/cvzi/">cvzi</a> <img alt="profile picture" src="https://avatars.githubusercontent.com/u/8470684" width="32" height="32">
+      </h3>
+    </div>
+
+  <div class="content">
+
+      <div class="entry">
+        <div class="logo" style="">
+          <img alt="patreon" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/patreon.svg" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a target="_blank" href="https://patreon.com/cuzi"><span>patreon.com/<strong>cuzi</strong></span></a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="ko_fi" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/ko_fi.svg" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a target="_blank" href="https://ko-fi.com/cuzicvzi"><span>ko-fi.com/<strong>cuzicvzi</strong></span></a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="liberapay" src="https://github.githubassets.com/images/modules/site/icons/funding_platforms/liberapay.svg" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a target="_blank" href="https://liberapay.com/cuzi"><span>liberapay.com/<strong>cuzi</strong></span></a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="buymeacoffee" src="https://www.buymeacoffee.com/favicon.ico" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a target="_blank" href="https://buymeacoff.ee/cuzi">https://buymeacoff.ee/<strong>cuzi</strong></a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="flattr" src="https://flattr.com/images/favicons/favicon-16x16.png" width="16" height="16">
+       </div>
+        <div class="linkholder">
+          <a target="_blank" href="https://flattr.com/@cuzi/github/cvzi">https://flattr.com/<strong>@cuzi</strong>/github/cvzi</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="bandcamp" src="https://bandcamp.com/img/favicon/favicon-16x16.png" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a target="_blank" href="https://bandcamp.com/cuzi/wishlist">https://bandcamp.com/<strong>cuzi</strong>/wishlist</a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="Bitcoin" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/bitcoin.svg" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a class="address" target="_blank" href="https://live.blockcypher.com/btc/address/3KDs3RjvsKzbFQ8XoHkGqZxQtSxn2WYbn1/">3KDs3RjvsKzbFQ8XoHkGqZxQtSxn2WYbn1</a>
+          <a class="qr-link" title="QR Code" data-qr="qr-bitcoin" href="bitcoin:3KDs3RjvsKzbFQ8XoHkGqZxQtSxn2WYbn1"><img alt="QR code" src="https://cdn.jsdelivr.net/npm/openmoji@latest/black/svg/E1D8.svg"  width="30" height="30"></a>
+        </div>
+      </div>
+      <div class="entry">
+        <div class="logo">
+          <img alt="Ethereum" src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/ethereum.svg" width="16" height="16">
+        </div>
+        <div class="linkholder">
+          <a class="address" target="_blank" href="https://live.blockcypher.com/eth/address/22cafc388886d9a648beef5cb80f81bbed3bc4fa/">0x22CAFC388886d9A648BeEF5CB80F81bbeD3Bc4FA</a>
+          <a class="qr-link" title="QR Code" data-qr="qr-ethereum" href="ethereum:22cafc388886d9a648beef5cb80f81bbed3bc4fa"><img alt="QR code" src="https://cdn.jsdelivr.net/npm/openmoji@latest/black/svg/E1D8.svg"  width="30" height="30"></a>
+        </div>
+      </div>
+
+  </div>
+
+</div>
+
+
+<div>
+  <div class="qr qr-bitcoin">
+    <div class="qr-desc">Bitcoin: <span class="address">3KDs3RjvsKzbFQ8XoHkGqZxQtSxn2WYbn1</span></div>
+    <a data-qr="qr-bitcoin" href="bitcoin:3KDs3RjvsKzbFQ8XoHkGqZxQtSxn2WYbn1">
+      <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 984 984"><path fill="#fff" d="M0 0h984v984H0z"/><path d="M240 48h24.72v24.72H240zm72 0h24.72v24.72H312z"/><path d="M336 48h24.72v24.72H336zm144 0h24.72v24.72H480z"/><path d="M504 48h24.72v24.72H504zm72 0h24.72v24.72H576zm48 0h24.72v24.72H624z"/><path d="M648 48h24.72v24.72H648z"/><path d="M672 48h24.72v24.72H672zm48 0h24.72v24.72H720zM264 72h24.72v24.72H264zm48 0h24.72v24.72H312z"/><path d="M336 72h24.72v24.72H336zm48 0h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 72h24.72v24.72H480z"/><path d="M504 72h24.72v24.72H504z"/><path d="M528 72h24.72v24.72H528zm48 0h24.72v24.72H576zm72 0h24.72v24.72H648zm48 0h24.72v24.72H696zM264 96h24.72v24.72H264zm48 0h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408z"/><path d="M432 96h24.72v24.72H432z"/><path d="M456 96h24.72v24.72H456z"/><path d="M480 96h24.72v24.72H480z"/><path d="M504 96h24.72v24.72H504zm48 0h24.72v24.72H552z"/><path d="M576 96h24.72v24.72H576zm48 0h24.72v24.72H624zm-312 24h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 120h24.72v24.72H384z"/><path d="M408 120h24.72v24.72H408zm48 0h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 120h24.72v24.72H528zm48 0h24.72v24.72H576zm72 0h24.72v24.72H648z"/><path d="M672 120h24.72v24.72H672zm-432 24h24.72v24.72H240z"/><path d="M264 144h24.72v24.72H264z"/><path d="M288 144h24.72v24.72H288zm48 0h24.72v24.72H336z"/><path d="M360 144h24.72v24.72H360zm72 0h24.72v24.72H432z"/><path d="M456 144h24.72v24.72H456z"/><path d="M480 144h24.72v24.72H480zm48 0h24.72v24.72H528z"/><path d="M552 144h24.72v24.72H552zm48 0h24.72v24.72H600zm72 0h24.72v24.72H672zm48 0h24.72v24.72H720zm-480 24h24.72v24.72H240z"/><path d="M264 168h24.72v24.72H264z"/><path d="M288 168h24.72v24.72H288z"/><path d="M312 168h24.72v24.72H312zm72 0h24.72v24.72H384z"/><path d="M408 168h24.72v24.72H408zm48 0h24.72v24.72H456zm240 0h24.72v24.72H696z"/><path d="M720 168h24.72v24.72H720zm-480 24h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336zm48 0h24.72v24.72H384zm48 0h24.72v24.72H432zm48 0h24.72v24.72H480zm48 0h24.72v24.72H528zm48 0h24.72v24.72H576zm48 0h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M720 192h24.72v24.72H720zm-408 24h24.72v24.72H312zm48 0h24.72v24.72H360zm96 0h24.72v24.72H456zm96 0h24.72v24.72H552zm48 0h24.72v24.72H600z"/><path d="M624 216h24.72v24.72H624zm48 0h24.72v24.72H672zm48 0h24.72v24.72H720zM72 240h24.72v24.72H72z"/><path d="M96 240h24.72v24.72H96z"/><path d="M120 240h24.72v24.72H120z"/><path d="M144 240h24.72v24.72H144z"/><path d="M168 240h24.72v24.72H168z"/><path d="M192 240h24.72v24.72H192z"/><path d="M216 240h24.72v24.72H216zm120 0h24.72v24.72H336zm72 0h24.72v24.72H408zm48 0h24.72v24.72H456zm48 0h24.72v24.72H504zm48 0h24.72v24.72H552z"/><path d="M576 240h24.72v24.72H576zm48 0h24.72v24.72H624zm168 0h24.72v24.72H792z"/><path d="M816 240h24.72v24.72H816zm96 0h24.72v24.72H912zM48 264h24.72v24.72H48z"/><path d="M72 264h24.72v24.72H72z"/><path d="M96 264h24.72v24.72H96zm72 0h24.72v24.72H168zm48 0h24.72v24.72H216zm72 0h24.72v24.72H288zm72 0h24.72v24.72H360z"/><path d="M384 264h24.72v24.72H384z"/><path d="M408 264h24.72v24.72H408z"/><path d="M432 264h24.72v24.72H432zm168 0h24.72v24.72H600zm72 0h24.72v24.72H672z"/><path d="M696 264h24.72v24.72H696z"/><path d="M720 264h24.72v24.72H720zm48 0h24.72v24.72H768zm72 0h24.72v24.72H840z"/><path d="M864 264h24.72v24.72H864z"/><path d="M888 264h24.72v24.72H888z"/><path d="M912 264h24.72v24.72H912zM48 288h24.72v24.72H48zm48 0h24.72v24.72H96zm96 0h24.72v24.72H192zm48 0h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336zm48 0h24.72v24.72H384zm48 0h24.72v24.72H432z"/><path d="M456 288h24.72v24.72H456z"/><path d="M480 288h24.72v24.72H480zm48 0h24.72v24.72H528z"/><path d="M552 288h24.72v24.72H552zm72 0h24.72v24.72H624z"/><path d="M648 288h24.72v24.72H648zm120 0h24.72v24.72H768z"/><path d="M792 288h24.72v24.72H792zm96 0h24.72v24.72H888z"/><path d="M912 288h24.72v24.72H912zM96 312h24.72v24.72H96zm48 0h24.72v24.72H144zm144 0h24.72v24.72H288zm48 0h24.72v24.72H336z"/><path d="M360 312h24.72v24.72H360z"/><path d="M384 312h24.72v24.72H384z"/><path d="M408 312h24.72v24.72H408z"/><path d="M432 312h24.72v24.72H432z"/><path d="M456 312h24.72v24.72H456z"/><path d="M480 312h24.72v24.72H480z"/><path d="M504 312h24.72v24.72H504zm48 0h24.72v24.72H552zm48 0h24.72v24.72H600z"/><path d="M624 312h24.72v24.72H624zm96 0h24.72v24.72H720zm48 0h24.72v24.72H768zm144 0h24.72v24.72H912zM48 336h24.72v24.72H48zm96 0h24.72v24.72H144z"/><path d="M168 336h24.72v24.72H168z"/><path d="M192 336h24.72v24.72H192z"/><path d="M216 336h24.72v24.72H216zm192 0h24.72v24.72H408zm72 0h24.72v24.72H480z"/><path d="M504 336h24.72v24.72H504z"/><path d="M528 336h24.72v24.72H528zm48 0h24.72v24.72H576z"/><path d="M600 336h24.72v24.72H600z"/><path d="M624 336h24.72v24.72H624z"/><path d="M648 336h24.72v24.72H648z"/><path d="M672 336h24.72v24.72H672zm48 0h24.72v24.72H720zm48 0h24.72v24.72H768zm48 0h24.72v24.72H816z"/><path d="M840 336h24.72v24.72H840z"/><path d="M864 336h24.72v24.72H864zM48 360h24.72v24.72H48zm96 0h24.72v24.72H144zm72 0h24.72v24.72H216zm72 0h24.72v24.72H288zm72 0h24.72v24.72H360z"/><path d="M384 360h24.72v24.72H384z"/><path d="M408 360h24.72v24.72H408z"/><path d="M432 360h24.72v24.72H432z"/><path d="M456 360h24.72v24.72H456z"/><path d="M480 360h24.72v24.72H480z"/><path d="M504 360h24.72v24.72H504z"/><path d="M528 360h24.72v24.72H528zm72 0h24.72v24.72H600zm96 0h24.72v24.72H696z"/><path d="M720 360h24.72v24.72H720z"/><path d="M744 360h24.72v24.72H744zm48 0h24.72v24.72H792zm48 0h24.72v24.72H840z"/><path d="M864 360h24.72v24.72H864z"/><path d="M888 360h24.72v24.72H888zm-768 24h24.72v24.72H120zm48 0h24.72v24.72H168z"/><path d="M192 384h24.72v24.72H192zm48 0h24.72v24.72H240z"/><path d="M264 384h24.72v24.72H264zm72 0h24.72v24.72H336z"/><path d="M360 384h24.72v24.72H360zm96 0h24.72v24.72H456z"/><path d="M480 384h24.72v24.72H480z"/><path d="M504 384h24.72v24.72H504zm72 0h24.72v24.72H576zm72 0h24.72v24.72H648z"/><path d="M672 384h24.72v24.72H672z"/><path d="M696 384h24.72v24.72H696z"/><path d="M720 384h24.72v24.72H720zm48 0h24.72v24.72H768zm72 0h24.72v24.72H840zm72 0h24.72v24.72H912zM72 408h24.72v24.72H72zm96 0h24.72v24.72H168zm72 0h24.72v24.72H240zm48 0h24.72v24.72H288z"/><path d="M312 408h24.72v24.72H312z"/><path d="M336 408h24.72v24.72H336z"/><path d="M360 408h24.72v24.72H360z"/><path d="M384 408h24.72v24.72H384z"/><path d="M408 408h24.72v24.72H408z"/><path d="M432 408h24.72v24.72H432z"/><path d="M456 408h24.72v24.72H456z"/><path d="M480 408h24.72v24.72H480z"/><path d="M504 408h24.72v24.72H504zm96 0h24.72v24.72H600z"/><path d="M624 408h24.72v24.72H624zm72 0h24.72v24.72H696zm48 0h24.72v24.72H744zm72 0h24.72v24.72H816zM48 432h24.72v24.72H48zm72 0h24.72v24.72H120zm72 0h24.72v24.72H192zm96 0h24.72v24.72H288zm48 0h24.72v24.72H336zm96 0h24.72v24.72H432zm120 0h24.72v24.72H552z"/><path d="M576 432h24.72v24.72H576zm48 0h24.72v24.72H624z"/><path d="M648 432h24.72v24.72H648z"/><path d="M672 432h24.72v24.72H672z"/><path d="M696 432h24.72v24.72H696zm72 0h24.72v24.72H768z"/><path d="M792 432h24.72v24.72H792z"/><path d="M816 432h24.72v24.72H816zm48 0h24.72v24.72H864zM72 456h24.72v24.72H72zm72 0h24.72v24.72H144z"/><path d="M168 456h24.72v24.72H168zm120 0h24.72v24.72H288z"/><path d="M312 456h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408zm48 0h24.72v24.72H456z"/><path d="M480 456h24.72v24.72H480z"/><path d="M504 456h24.72v24.72H504z"/><path d="M528 456h24.72v24.72H528zm120 0h24.72v24.72H648z"/><path d="M672 456h24.72v24.72H672zm48 0h24.72v24.72H720z"/><path d="M744 456h24.72v24.72H744zm48 0h24.72v24.72H792zm48 0h24.72v24.72H840zm-696 24h24.72v24.72H144z"/><path d="M168 480h24.72v24.72H168z"/><path d="M192 480h24.72v24.72H192zm48 0h24.72v24.72H240zm72 0h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 480h24.72v24.72H384zm48 0h24.72v24.72H432z"/><path d="M456 480h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 480h24.72v24.72H528z"/><path d="M552 480h24.72v24.72H552zm48 0h24.72v24.72H600z"/><path d="M624 480h24.72v24.72H624zm72 0h24.72v24.72H696zm168 0h24.72v24.72H864z"/><path d="M888 480h24.72v24.72H888z"/><path d="M912 480h24.72v24.72H912zM72 504h24.72v24.72H72z"/><path d="M96 504h24.72v24.72H96zm48 0h24.72v24.72H144z"/><path d="M168 504h24.72v24.72H168zm48 0h24.72v24.72H216zm48 0h24.72v24.72H264z"/><path d="M288 504h24.72v24.72H288z"/><path d="M312 504h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 504h24.72v24.72H384zm48 0h24.72v24.72H432z"/><path d="M456 504h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 504h24.72v24.72H528z"/><path d="M552 504h24.72v24.72H552z"/><path d="M576 504h24.72v24.72H576z"/><path d="M600 504h24.72v24.72H600zm144 0h24.72v24.72H744zm48 0h24.72v24.72H792zm96 0h24.72v24.72H888z"/><path d="M912 504h24.72v24.72H912zM72 528h24.72v24.72H72z"/><path d="M96 528h24.72v24.72H96zm96 0h24.72v24.72H192z"/><path d="M216 528h24.72v24.72H216zm96 0h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408zm72 0h24.72v24.72H480zm96 0h24.72v24.72H576z"/><path d="M600 528h24.72v24.72H600zm72 0h24.72v24.72H672z"/><path d="M696 528h24.72v24.72H696zm48 0h24.72v24.72H744z"/><path d="M768 528h24.72v24.72H768z"/><path d="M792 528h24.72v24.72H792z"/><path d="M816 528h24.72v24.72H816z"/><path d="M840 528h24.72v24.72H840zm72 0h24.72v24.72H912zM72 552h24.72v24.72H72z"/><path d="M96 552h24.72v24.72H96zm120 0h24.72v24.72H216zm48 0h24.72v24.72H264z"/><path d="M288 552h24.72v24.72H288z"/><path d="M312 552h24.72v24.72H312z"/><path d="M336 552h24.72v24.72H336z"/><path d="M360 552h24.72v24.72H360z"/><path d="M384 552h24.72v24.72H384z"/><path d="M408 552h24.72v24.72H408zm96 0h24.72v24.72H504zm48 0h24.72v24.72H552zm96 0h24.72v24.72H648z"/><path d="M672 552h24.72v24.72H672zm96 0h24.72v24.72H768z"/><path d="M792 552h24.72v24.72H792zm48 0h24.72v24.72H840z"/><path d="M864 552h24.72v24.72H864z"/><path d="M888 552h24.72v24.72H888z"/><path d="M912 552h24.72v24.72H912zM48 576h24.72v24.72H48z"/><path d="M72 576h24.72v24.72H72z"/><path d="M96 576h24.72v24.72H96z"/><path d="M120 576h24.72v24.72H120z"/><path d="M144 576h24.72v24.72H144zm48 0h24.72v24.72H192zm120 0h24.72v24.72H312z"/><path d="M336 576h24.72v24.72H336zm48 0h24.72v24.72H384z"/><path d="M408 576h24.72v24.72H408zm120 0h24.72v24.72H528zm48 0h24.72v24.72H576zm48 0h24.72v24.72H624z"/><path d="M648 576h24.72v24.72H648z"/><path d="M672 576h24.72v24.72H672z"/><path d="M696 576h24.72v24.72H696z"/><path d="M720 576h24.72v24.72H720z"/><path d="M744 576h24.72v24.72H744zm96 0h24.72v24.72H840zm48 0h24.72v24.72H888z"/><path d="M912 576h24.72v24.72H912zM48 600h24.72v24.72H48zm48 0h24.72v24.72H96z"/><path d="M120 600h24.72v24.72H120z"/><path d="M144 600h24.72v24.72H144zm72 0h24.72v24.72H216z"/><path d="M240 600h24.72v24.72H240z"/><path d="M264 600h24.72v24.72H264z"/><path d="M288 600h24.72v24.72H288z"/><path d="M312 600h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 600h24.72v24.72H384z"/><path d="M408 600h24.72v24.72H408z"/><path d="M432 600h24.72v24.72H432z"/><path d="M456 600h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 600h24.72v24.72H528z"/><path d="M552 600h24.72v24.72H552zm96 0h24.72v24.72H648zm72 0h24.72v24.72H720zm72 0h24.72v24.72H792zm96 0h24.72v24.72H888zM48 624h24.72v24.72H48zm120 0h24.72v24.72H168z"/><path d="M192 624h24.72v24.72H192zm96 0h24.72v24.72H288z"/><path d="M312 624h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408zm72 0h24.72v24.72H480zm48 0h24.72v24.72H528z"/><path d="M552 624h24.72v24.72H552z"/><path d="M576 624h24.72v24.72H576zm96 0h24.72v24.72H672zm48 0h24.72v24.72H720z"/><path d="M744 624h24.72v24.72H744zm48 0h24.72v24.72H792z"/><path d="M816 624h24.72v24.72H816z"/><path d="M840 624h24.72v24.72H840z"/><path d="M864 624h24.72v24.72H864z"/><path d="M888 624h24.72v24.72H888z"/><path d="M912 624h24.72v24.72H912zM48 648h24.72v24.72H48z"/><path d="M72 648h24.72v24.72H72z"/><path d="M96 648h24.72v24.72H96zm48 0h24.72v24.72H144zm72 0h24.72v24.72H216z"/><path d="M240 648h24.72v24.72H240zm96 0h24.72v24.72H336zm48 0h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 648h24.72v24.72H480zm96 0h24.72v24.72H576z"/><path d="M600 648h24.72v24.72H600zm48 0h24.72v24.72H648zm48 0h24.72v24.72H696zm72 0h24.72v24.72H768zm72 0h24.72v24.72H840zm48 0h24.72v24.72H888zM48 672h24.72v24.72H48zm48 0h24.72v24.72H96z"/><path d="M120 672h24.72v24.72H120z"/><path d="M144 672h24.72v24.72H144zm48 0h24.72v24.72H192z"/><path d="M216 672h24.72v24.72H216z"/><path d="M240 672h24.72v24.72H240z"/><path d="M264 672h24.72v24.72H264zm48 0h24.72v24.72H312z"/><path d="M336 672h24.72v24.72H336zm96 0h24.72v24.72H432zm48 0h24.72v24.72H480zm48 0h24.72v24.72H528zm48 0h24.72v24.72H576zm120 0h24.72v24.72H696z"/><path d="M720 672h24.72v24.72H720zm96 0h24.72v24.72H816z"/><path d="M840 672h24.72v24.72H840z"/><path d="M864 672h24.72v24.72H864zm48 0h24.72v24.72H912zM48 696h24.72v24.72H48zm96 0h24.72v24.72H144z"/><path d="M168 696h24.72v24.72H168zm48 0h24.72v24.72H216z"/><path d="M240 696h24.72v24.72H240z"/><path d="M264 696h24.72v24.72H264zm48 0h24.72v24.72H312z"/><path d="M336 696h24.72v24.72H336zm48 0h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 696h24.72v24.72H480zm48 0h24.72v24.72H528z"/><path d="M552 696h24.72v24.72H552zm48 0h24.72v24.72H600z"/><path d="M624 696h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M696 696h24.72v24.72H696zm96 0h24.72v24.72H792z"/><path d="M816 696h24.72v24.72H816zm72 0h24.72v24.72H888z"/><path d="M912 696h24.72v24.72H912zM48 720h24.72v24.72H48zm48 0h24.72v24.72H96zm48 0h24.72v24.72H144z"/><path d="M168 720h24.72v24.72H168z"/><path d="M192 720h24.72v24.72H192z"/><path d="M216 720h24.72v24.72H216zm48 0h24.72v24.72H264z"/><path d="M288 720h24.72v24.72H288z"/><path d="M312 720h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408z"/><path d="M432 720h24.72v24.72H432zm96 0h24.72v24.72H528zm72 0h24.72v24.72H600z"/><path d="M624 720h24.72v24.72H624z"/><path d="M648 720h24.72v24.72H648z"/><path d="M672 720h24.72v24.72H672z"/><path d="M696 720h24.72v24.72H696z"/><path d="M720 720h24.72v24.72H720z"/><path d="M744 720h24.72v24.72H744z"/><path d="M768 720h24.72v24.72H768z"/><path d="M792 720h24.72v24.72H792z"/><path d="M816 720h24.72v24.72H816z"/><path d="M840 720h24.72v24.72H840z"/><path d="M864 720h24.72v24.72H864zm48 0h24.72v24.72H912zm-672 24h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336z"/><path d="M360 744h24.72v24.72H360zm48 0h24.72v24.72H408z"/><path d="M432 744h24.72v24.72H432zm72 0h24.72v24.72H504zm48 0h24.72v24.72H552z"/><path d="M576 744h24.72v24.72H576z"/><path d="M600 744h24.72v24.72H600zm72 0h24.72v24.72H672zm48 0h24.72v24.72H720zm96 0h24.72v24.72H816zm72 0h24.72v24.72H888zm-648 24h24.72v24.72H240zm72 0h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 768h24.72v24.72H384zm48 0h24.72v24.72H432z"/><path d="M456 768h24.72v24.72H456zm72 0h24.72v24.72H528z"/><path d="M552 768h24.72v24.72H552zm72 0h24.72v24.72H624z"/><path d="M648 768h24.72v24.72H648zm72 0h24.72v24.72H720zm48 0h24.72v24.72H768zm48 0h24.72v24.72H816z"/><path d="M840 768h24.72v24.72H840zm72 0h24.72v24.72H912zm-672 24h24.72v24.72H240zm72 0h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 792h24.72v24.72H384z"/><path d="M408 792h24.72v24.72H408zm48 0h24.72v24.72H456z"/><path d="M480 792h24.72v24.72H480zm72 0h24.72v24.72H552z"/><path d="M576 792h24.72v24.72H576zm96 0h24.72v24.72H672zm48 0h24.72v24.72H720zm96 0h24.72v24.72H816zm-576 24h24.72v24.72H240z"/><path d="M264 816h24.72v24.72H264zm120 0h24.72v24.72H384z"/><path d="M408 816h24.72v24.72H408z"/><path d="M432 816h24.72v24.72H432zm48 0h24.72v24.72H480zm72 0h24.72v24.72H552zm120 0h24.72v24.72H672z"/><path d="M696 816h24.72v24.72H696z"/><path d="M720 816h24.72v24.72H720z"/><path d="M744 816h24.72v24.72H744z"/><path d="M768 816h24.72v24.72H768z"/><path d="M792 816h24.72v24.72H792z"/><path d="M816 816h24.72v24.72H816zm48 0h24.72v24.72H864z"/><path d="M888 816h24.72v24.72H888zm-648 24h24.72v24.72H240z"/><path d="M264 840h24.72v24.72H264zm72 0h24.72v24.72H336zm48 0h24.72v24.72H384zm48 0h24.72v24.72H432zm96 0h24.72v24.72H528z"/><path d="M552 840h24.72v24.72H552z"/><path d="M576 840h24.72v24.72H576zm48 0h24.72v24.72H624zm96 0h24.72v24.72H720zm48 0h24.72v24.72H768zm72 0h24.72v24.72H840z"/><path d="M864 840h24.72v24.72H864z"/><path d="M888 840h24.72v24.72H888zm-648 24h24.72v24.72H240z"/><path d="M264 864h24.72v24.72H264z"/><path d="M288 864h24.72v24.72H288zm48 0h24.72v24.72H336zm48 0h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 864h24.72v24.72H480z"/><path d="M504 864h24.72v24.72H504zm288 0h24.72v24.72H792zm72 0h24.72v24.72H864zm48 0h24.72v24.72H912zm-672 24h24.72v24.72H240z"/><path d="M264 888h24.72v24.72H264zm48 0h24.72v24.72H312zm120 0h24.72v24.72H432zm72 0h24.72v24.72H504z"/><path d="M528 888h24.72v24.72H528z"/><path d="M552 888h24.72v24.72H552zm72 0h24.72v24.72H624zm48 0h24.72v24.72H672zm96 0h24.72v24.72H768z"/><path d="M792 888h24.72v24.72H792z"/><path d="M816 888h24.72v24.72H816zm96 0h24.72v24.72H912zm-576 24h24.72v24.72H336zm72 0h24.72v24.72H408z"/><path d="M432 912h24.72v24.72H432z"/><path d="M456 912h24.72v24.72H456z"/><path d="M480 912h24.72v24.72H480z"/><path d="M504 912h24.72v24.72H504z"/><path d="M528 912h24.72v24.72H528z"/><path d="M552 912h24.72v24.72H552z"/><path d="M576 912h24.72v24.72H576zm72 0h24.72v24.72H648z"/><path d="M672 912h24.72v24.72H672zm72 0h24.72v24.72H744zm48 0h24.72v24.72H792z"/><path d="M816 912h24.72v24.72H816z"/><path d="M840 912h24.72v24.72H840zm48 0h24.72v24.72H888z"/><path d="M912 912h24.72v24.72H912zM48 48v168h168V48H48zm144 144H72V72h120v120zM768 48v168h168V48H768zm144 144H792V72h120v120zM48 768v168h168V768H48zm144 144H72V792h120v120z"/><path d="M96 96h72v72H96zm720 0h72v72h-72zM96 816h72v72H96z"/></svg>
+    </a>
+  </div>
+  <div class="qr qr-ethereum">
+    <div class="qr-desc">Ethereum: <span class="address">0x22CAFC388886d9A648BeEF5CB80F81bbeD3Bc4FA</span></div>
+    <a target="_blank" href="https://live.blockcypher.com/eth/address/22cafc388886d9a648beef5cb80f81bbed3bc4fa/">
+      <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 984 984"><path fill="#fff" d="M0 0h984v984H0z"/><path d="M240 48h24.72v24.72H240zm72 0h24.72v24.72H312z"/><path d="M336 48h24.72v24.72H336z"/><path d="M360 48h24.72v24.72H360zm48 0h24.72v24.72H408zm96 0h24.72v24.72H504z"/><path d="M528 48h24.72v24.72H528z"/><path d="M552 48h24.72v24.72H552zm120 0h24.72v24.72H672z"/><path d="M696 48h24.72v24.72H696zM264 72h24.72v24.72H264z"/><path d="M288 72h24.72v24.72H288zm72 0h24.72v24.72H360zm48 0h24.72v24.72H408z"/><path d="M432 72h24.72v24.72H432zm48 0h24.72v24.72H480z"/><path d="M504 72h24.72v24.72H504zm96 0h24.72v24.72H600z"/><path d="M624 72h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M696 72h24.72v24.72H696z"/><path d="M720 72h24.72v24.72H720zM264 96h24.72v24.72H264zm48 0h24.72v24.72H312z"/><path d="M336 96h24.72v24.72H336zm120 0h24.72v24.72H456zm72 0h24.72v24.72H528z"/><path d="M552 96h24.72v24.72H552zm48 0h24.72v24.72H600zm48 0h24.72v24.72H648z"/><path d="M672 96h24.72v24.72H672zm-384 24h24.72v24.72H288z"/><path d="M312 120h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408zm48 0h24.72v24.72H456z"/><path d="M480 120h24.72v24.72H480z"/><path d="M504 120h24.72v24.72H504z"/><path d="M528 120h24.72v24.72H528zm48 0h24.72v24.72H576z"/><path d="M600 120h24.72v24.72H600z"/><path d="M624 120h24.72v24.72H624zm72 0h24.72v24.72H696zm-456 24h24.72v24.72H240zm96 0h24.72v24.72H336zm48 0h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 144h24.72v24.72H480zm72 0h24.72v24.72H552zm48 0h24.72v24.72H600zm48 0h24.72v24.72H648z"/><path d="M672 144h24.72v24.72H672zm48 0h24.72v24.72H720zm-480 24h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336zm48 0h24.72v24.72H384zm48 0h24.72v24.72H432zm120 0h24.72v24.72H552zm48 0h24.72v24.72H600z"/><path d="M624 168h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M696 168h24.72v24.72H696z"/><path d="M720 168h24.72v24.72H720zm-480 24h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336zm48 0h24.72v24.72H384zm48 0h24.72v24.72H432zm48 0h24.72v24.72H480zm48 0h24.72v24.72H528zm48 0h24.72v24.72H576zm48 0h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M720 192h24.72v24.72H720zm-432 24h24.72v24.72H288zm48 0h24.72v24.72H336z"/><path d="M360 216h24.72v24.72H360zm48 0h24.72v24.72H408z"/><path d="M432 216h24.72v24.72H432zm48 0h24.72v24.72H480z"/><path d="M504 216h24.72v24.72H504z"/><path d="M528 216h24.72v24.72H528z"/><path d="M552 216h24.72v24.72H552zm72 0h24.72v24.72H624z"/><path d="M648 216h24.72v24.72H648zm72 0h24.72v24.72H720zM72 240h24.72v24.72H72z"/><path d="M96 240h24.72v24.72H96z"/><path d="M120 240h24.72v24.72H120z"/><path d="M144 240h24.72v24.72H144z"/><path d="M168 240h24.72v24.72H168z"/><path d="M192 240h24.72v24.72H192z"/><path d="M216 240h24.72v24.72H216zm96 0h24.72v24.72H312z"/><path d="M336 240h24.72v24.72H336zm48 0h24.72v24.72H384zm120 0h24.72v24.72H504zm72 0h24.72v24.72H576z"/><path d="M600 240h24.72v24.72H600zm72 0h24.72v24.72H672zm120 0h24.72v24.72H792z"/><path d="M816 240h24.72v24.72H816zm96 0h24.72v24.72H912zM72 264h24.72v24.72H72z"/><path d="M96 264h24.72v24.72H96z"/><path d="M120 264h24.72v24.72H120z"/><path d="M144 264h24.72v24.72H144zm96 0h24.72v24.72H240z"/><path d="M264 264h24.72v24.72H264z"/><path d="M288 264h24.72v24.72H288z"/><path d="M312 264h24.72v24.72H312zm48 0h24.72v24.72H360zm168 0h24.72v24.72H528z"/><path d="M552 264h24.72v24.72H552z"/><path d="M576 264h24.72v24.72H576zm48 0h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M696 264h24.72v24.72H696zm48 0h24.72v24.72H744z"/><path d="M768 264h24.72v24.72H768zm48 0h24.72v24.72H816zm96 0h24.72v24.72H912zM72 288h24.72v24.72H72z"/><path d="M96 288h24.72v24.72H96z"/><path d="M120 288h24.72v24.72H120z"/><path d="M144 288h24.72v24.72H144zm48 0h24.72v24.72H192zm96 0h24.72v24.72H288zm72 0h24.72v24.72H360z"/><path d="M384 288h24.72v24.72H384z"/><path d="M408 288h24.72v24.72H408zm72 0h24.72v24.72H480z"/><path d="M504 288h24.72v24.72H504zm48 0h24.72v24.72H552zm48 0h24.72v24.72H600zm72 0h24.72v24.72H672zm48 0h24.72v24.72H720zm48 0h24.72v24.72H768z"/><path d="M792 288h24.72v24.72H792zm-672 24h24.72v24.72H120z"/><path d="M144 312h24.72v24.72H144zm144 0h24.72v24.72H288z"/><path d="M312 312h24.72v24.72H312zm48 0h24.72v24.72H360zm48 0h24.72v24.72H408zm48 0h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 312h24.72v24.72H528zm144 0h24.72v24.72H672z"/><path d="M696 312h24.72v24.72H696zm72 0h24.72v24.72H768z"/><path d="M792 312h24.72v24.72H792zm48 0h24.72v24.72H840z"/><path d="M864 312h24.72v24.72H864z"/><path d="M888 312h24.72v24.72H888z"/><path d="M912 312h24.72v24.72H912zM72 336h24.72v24.72H72zm96 0h24.72v24.72H168z"/><path d="M192 336h24.72v24.72H192z"/><path d="M216 336h24.72v24.72H216zm72 0h24.72v24.72H288z"/><path d="M312 336h24.72v24.72H312zm96 0h24.72v24.72H408z"/><path d="M432 336h24.72v24.72H432zm48 0h24.72v24.72H480zm48 0h24.72v24.72H528z"/><path d="M552 336h24.72v24.72H552z"/><path d="M576 336h24.72v24.72H576z"/><path d="M600 336h24.72v24.72H600zm48 0h24.72v24.72H648z"/><path d="M672 336h24.72v24.72H672zm48 0h24.72v24.72H720zm48 0h24.72v24.72H768zm48 0h24.72v24.72H816z"/><path d="M840 336h24.72v24.72H840zm48 0h24.72v24.72H888z"/><path d="M912 336h24.72v24.72H912zM48 360h24.72v24.72H48zm48 0h24.72v24.72H96z"/><path d="M120 360h24.72v24.72H120zm144 0h24.72v24.72H264z"/><path d="M288 360h24.72v24.72H288zm120 0h24.72v24.72H408z"/><path d="M432 360h24.72v24.72H432z"/><path d="M456 360h24.72v24.72H456zm96 0h24.72v24.72H552zm48 0h24.72v24.72H600zm72 0h24.72v24.72H672z"/><path d="M696 360h24.72v24.72H696zm48 0h24.72v24.72H744zm48 0h24.72v24.72H792z"/><path d="M816 360h24.72v24.72H816z"/><path d="M840 360h24.72v24.72H840z"/><path d="M864 360h24.72v24.72H864z"/><path d="M888 360h24.72v24.72H888zM48 384h24.72v24.72H48zm48 0h24.72v24.72H96z"/><path d="M120 384h24.72v24.72H120z"/><path d="M144 384h24.72v24.72H144z"/><path d="M168 384h24.72v24.72H168z"/><path d="M192 384h24.72v24.72H192z"/><path d="M216 384h24.72v24.72H216z"/><path d="M240 384h24.72v24.72H240zm96 0h24.72v24.72H336zm48 0h24.72v24.72H384zm96 0h24.72v24.72H480zm72 0h24.72v24.72H552zm168 0h24.72v24.72H720zm48 0h24.72v24.72H768zm72 0h24.72v24.72H840zm72 0h24.72v24.72H912zM96 408h24.72v24.72H96z"/><path d="M120 408h24.72v24.72H120z"/><path d="M144 408h24.72v24.72H144z"/><path d="M168 408h24.72v24.72H168zm48 0h24.72v24.72H216zm48 0h24.72v24.72H264zm48 0h24.72v24.72H312z"/><path d="M336 408h24.72v24.72H336zm168 0h24.72v24.72H504zm48 0h24.72v24.72H552z"/><path d="M576 408h24.72v24.72H576zm120 0h24.72v24.72H696z"/><path d="M720 408h24.72v24.72H720z"/><path d="M744 408h24.72v24.72H744zm144 0h24.72v24.72H888z"/><path d="M912 408h24.72v24.72H912zM72 432h24.72v24.72H72zm72 0h24.72v24.72H144z"/><path d="M168 432h24.72v24.72H168z"/><path d="M192 432h24.72v24.72H192zm96 0h24.72v24.72H288z"/><path d="M312 432h24.72v24.72H312zm96 0h24.72v24.72H408z"/><path d="M432 432h24.72v24.72H432zm48 0h24.72v24.72H480z"/><path d="M504 432h24.72v24.72H504z"/><path d="M528 432h24.72v24.72H528z"/><path d="M552 432h24.72v24.72H552zm72 0h24.72v24.72H624zm72 0h24.72v24.72H696zm48 0h24.72v24.72H744z"/><path d="M768 432h24.72v24.72H768zm48 0h24.72v24.72H816zm48 0h24.72v24.72H864z"/><path d="M888 432h24.72v24.72H888zM48 456h24.72v24.72H48z"/><path d="M72 456h24.72v24.72H72zm96 0h24.72v24.72H168zm48 0h24.72v24.72H216z"/><path d="M240 456h24.72v24.72H240z"/><path d="M264 456h24.72v24.72H264z"/><path d="M288 456h24.72v24.72H288zm48 0h24.72v24.72H336z"/><path d="M360 456h24.72v24.72H360zm72 0h24.72v24.72H432zm48 0h24.72v24.72H480z"/><path d="M504 456h24.72v24.72H504zm48 0h24.72v24.72H552z"/><path d="M576 456h24.72v24.72H576zm48 0h24.72v24.72H624z"/><path d="M648 456h24.72v24.72H648z"/><path d="M672 456h24.72v24.72H672zm48 0h24.72v24.72H720zm72 0h24.72v24.72H792zm48 0h24.72v24.72H840z"/><path d="M864 456h24.72v24.72H864zM48 480h24.72v24.72H48z"/><path d="M72 480h24.72v24.72H72zm96 0h24.72v24.72H168z"/><path d="M192 480h24.72v24.72H192z"/><path d="M216 480h24.72v24.72H216zm72 0h24.72v24.72H288zm48 0h24.72v24.72H336z"/><path d="M360 480h24.72v24.72H360z"/><path d="M384 480h24.72v24.72H384zm120 0h24.72v24.72H504zm48 0h24.72v24.72H552z"/><path d="M576 480h24.72v24.72H576zm48 0h24.72v24.72H624zm72 0h24.72v24.72H696zm72 0h24.72v24.72H768zm48 0h24.72v24.72H816z"/><path d="M840 480h24.72v24.72H840z"/><path d="M864 480h24.72v24.72H864z"/><path d="M888 480h24.72v24.72H888z"/><path d="M912 480h24.72v24.72H912zM48 504h24.72v24.72H48zm96 0h24.72v24.72H144zm72 0h24.72v24.72H216zm48 0h24.72v24.72H264z"/><path d="M288 504h24.72v24.72H288zm96 0h24.72v24.72H384z"/><path d="M408 504h24.72v24.72H408zm48 0h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 504h24.72v24.72H528z"/><path d="M552 504h24.72v24.72H552z"/><path d="M576 504h24.72v24.72H576zm72 0h24.72v24.72H648zm72 0h24.72v24.72H720z"/><path d="M744 504h24.72v24.72H744z"/><path d="M768 504h24.72v24.72H768zm72 0h24.72v24.72H840zm-720 24h24.72v24.72H120z"/><path d="M144 528h24.72v24.72H144z"/><path d="M168 528h24.72v24.72H168z"/><path d="M192 528h24.72v24.72H192z"/><path d="M216 528h24.72v24.72H216zm48 0h24.72v24.72H264z"/><path d="M288 528h24.72v24.72H288z"/><path d="M312 528h24.72v24.72H312z"/><path d="M336 528h24.72v24.72H336z"/><path d="M360 528h24.72v24.72H360z"/><path d="M384 528h24.72v24.72H384z"/><path d="M408 528h24.72v24.72H408zm48 0h24.72v24.72H456zm48 0h24.72v24.72H504z"/><path d="M528 528h24.72v24.72H528zm48 0h24.72v24.72H576zm48 0h24.72v24.72H624zm48 0h24.72v24.72H672z"/><path d="M696 528h24.72v24.72H696zm96 0h24.72v24.72H792z"/><path d="M816 528h24.72v24.72H816zm48 0h24.72v24.72H864z"/><path d="M888 528h24.72v24.72H888z"/><path d="M912 528h24.72v24.72H912zM48 552h24.72v24.72H48z"/><path d="M72 552h24.72v24.72H72zm72 0h24.72v24.72H144zm72 0h24.72v24.72H216z"/><path d="M240 552h24.72v24.72H240z"/><path d="M264 552h24.72v24.72H264zm48 0h24.72v24.72H312zm96 0h24.72v24.72H408zm72 0h24.72v24.72H480zm72 0h24.72v24.72H552z"/><path d="M576 552h24.72v24.72H576zm48 0h24.72v24.72H624zm48 0h24.72v24.72H672zm96 0h24.72v24.72H768z"/><path d="M792 552h24.72v24.72H792zm120 0h24.72v24.72H912zm-768 24h24.72v24.72H144z"/><path d="M168 576h24.72v24.72H168z"/><path d="M192 576h24.72v24.72H192z"/><path d="M216 576h24.72v24.72H216z"/><path d="M240 576h24.72v24.72H240z"/><path d="M264 576h24.72v24.72H264zm48 0h24.72v24.72H312zm48 0h24.72v24.72H360z"/><path d="M384 576h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 576h24.72v24.72H480z"/><path d="M504 576h24.72v24.72H504zm48 0h24.72v24.72H552zm48 0h24.72v24.72H600zm96 0h24.72v24.72H696z"/><path d="M720 576h24.72v24.72H720zm48 0h24.72v24.72H768zm72 0h24.72v24.72H840zm48 0h24.72v24.72H888zM72 600h24.72v24.72H72zm48 0h24.72v24.72H120z"/><path d="M144 600h24.72v24.72H144zm72 0h24.72v24.72H216zm120 0h24.72v24.72H336zm48 0h24.72v24.72H384zm48 0h24.72v24.72H432zm48 0h24.72v24.72H480zm96 0h24.72v24.72H576zm72 0h24.72v24.72H648z"/><path d="M672 600h24.72v24.72H672zm48 0h24.72v24.72H720zm48 0h24.72v24.72H768z"/><path d="M792 600h24.72v24.72H792zm72 0h24.72v24.72H864zm48 0h24.72v24.72H912zM72 624h24.72v24.72H72zm48 0h24.72v24.72H120zm72 0h24.72v24.72H192zm72 0h24.72v24.72H264zm144 0h24.72v24.72H408zm72 0h24.72v24.72H480z"/><path d="M504 624h24.72v24.72H504z"/><path d="M528 624h24.72v24.72H528z"/><path d="M552 624h24.72v24.72H552zm48 0h24.72v24.72H600zm144 0h24.72v24.72H744zm48 0h24.72v24.72H792zm120 0h24.72v24.72H912zM48 648h24.72v24.72H48z"/><path d="M72 648h24.72v24.72H72z"/><path d="M96 648h24.72v24.72H96zm72 0h24.72v24.72H168zm48 0h24.72v24.72H216zm48 0h24.72v24.72H264z"/><path d="M288 648h24.72v24.72H288z"/><path d="M312 648h24.72v24.72H312zm72 0h24.72v24.72H384z"/><path d="M408 648h24.72v24.72H408z"/><path d="M432 648h24.72v24.72H432z"/><path d="M456 648h24.72v24.72H456z"/><path d="M480 648h24.72v24.72H480z"/><path d="M504 648h24.72v24.72H504z"/><path d="M528 648h24.72v24.72H528z"/><path d="M552 648h24.72v24.72H552z"/><path d="M576 648h24.72v24.72H576zm96 0h24.72v24.72H672z"/><path d="M696 648h24.72v24.72H696zm72 0h24.72v24.72H768zm48 0h24.72v24.72H816z"/><path d="M840 648h24.72v24.72H840z"/><path d="M864 648h24.72v24.72H864zM48 672h24.72v24.72H48zm120 0h24.72v24.72H168z"/><path d="M192 672h24.72v24.72H192z"/><path d="M216 672h24.72v24.72H216z"/><path d="M240 672h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336zm72 0h24.72v24.72H408z"/><path d="M432 672h24.72v24.72H432zm48 0h24.72v24.72H480zm48 0h24.72v24.72H528z"/><path d="M552 672h24.72v24.72H552zm48 0h24.72v24.72H600z"/><path d="M624 672h24.72v24.72H624zm48 0h24.72v24.72H672zm48 0h24.72v24.72H720zm72 0h24.72v24.72H792zm96 0h24.72v24.72H888zM48 696h24.72v24.72H48zm72 0h24.72v24.72H120zm120 0h24.72v24.72H240zm48 0h24.72v24.72H288zm48 0h24.72v24.72H336zm48 0h24.72v24.72H384zm72 0h24.72v24.72H456z"/><path d="M480 696h24.72v24.72H480zm96 0h24.72v24.72H576zm120 0h24.72v24.72H696z"/><path d="M720 696h24.72v24.72H720zm96 0h24.72v24.72H816z"/><path d="M840 696h24.72v24.72H840z"/><path d="M864 696h24.72v24.72H864zm48 0h24.72v24.72H912zM48 720h24.72v24.72H48zm96 0h24.72v24.72H144z"/><path d="M168 720h24.72v24.72H168z"/><path d="M192 720h24.72v24.72H192zm72 0h24.72v24.72H264zm72 0h24.72v24.72H336z"/><path d="M360 720h24.72v24.72H360z"/><path d="M384 720h24.72v24.72H384z"/><path d="M408 720h24.72v24.72H408z"/><path d="M432 720h24.72v24.72H432zm72 0h24.72v24.72H504z"/><path d="M528 720h24.72v24.72H528z"/><path d="M552 720h24.72v24.72H552zm72 0h24.72v24.72H624z"/><path d="M648 720h24.72v24.72H648z"/><path d="M672 720h24.72v24.72H672zm48 0h24.72v24.72H720z"/><path d="M744 720h24.72v24.72H744z"/><path d="M768 720h24.72v24.72H768z"/><path d="M792 720h24.72v24.72H792z"/><path d="M816 720h24.72v24.72H816z"/><path d="M840 720h24.72v24.72H840zm72 0h24.72v24.72H912zm-672 24h24.72v24.72H240zm48 0h24.72v24.72H288zm72 0h24.72v24.72H360zm48 0h24.72v24.72H408zm96 0h24.72v24.72H504z"/><path d="M528 744h24.72v24.72H528zm48 0h24.72v24.72H576z"/><path d="M600 744h24.72v24.72H600zm48 0h24.72v24.72H648zm72 0h24.72v24.72H720zm96 0h24.72v24.72H816zm-576 24h24.72v24.72H240z"/><path d="M264 768h24.72v24.72H264z"/><path d="M288 768h24.72v24.72H288z"/><path d="M312 768h24.72v24.72H312z"/><path d="M336 768h24.72v24.72H336z"/><path d="M360 768h24.72v24.72H360z"/><path d="M384 768h24.72v24.72H384z"/><path d="M408 768h24.72v24.72H408zm72 0h24.72v24.72H480zm96 0h24.72v24.72H576zm48 0h24.72v24.72H624zm72 0h24.72v24.72H696z"/><path d="M720 768h24.72v24.72H720zm48 0h24.72v24.72H768zm48 0h24.72v24.72H816z"/><path d="M840 768h24.72v24.72H840zm48 0h24.72v24.72H888z"/><path d="M912 768h24.72v24.72H912zm-672 24h24.72v24.72H240z"/><path d="M264 792h24.72v24.72H264zm168 0h24.72v24.72H432zm48 0h24.72v24.72H480zm48 0h24.72v24.72H528zm96 0h24.72v24.72H624z"/><path d="M648 792h24.72v24.72H648z"/><path d="M672 792h24.72v24.72H672z"/><path d="M696 792h24.72v24.72H696z"/><path d="M720 792h24.72v24.72H720zm96 0h24.72v24.72H816zm72 0h24.72v24.72H888z"/><path d="M912 792h24.72v24.72H912zm-672 24h24.72v24.72H240zm72 0h24.72v24.72H312z"/><path d="M336 816h24.72v24.72H336z"/><path d="M360 816h24.72v24.72H360zm48 0h24.72v24.72H408z"/><path d="M432 816h24.72v24.72H432zm72 0h24.72v24.72H504z"/><path d="M528 816h24.72v24.72H528z"/><path d="M552 816h24.72v24.72H552z"/><path d="M576 816h24.72v24.72H576z"/><path d="M600 816h24.72v24.72H600z"/><path d="M624 816h24.72v24.72H624zm96 0h24.72v24.72H720z"/><path d="M744 816h24.72v24.72H744z"/><path d="M768 816h24.72v24.72H768z"/><path d="M792 816h24.72v24.72H792z"/><path d="M816 816h24.72v24.72H816zm48 0h24.72v24.72H864z"/><path d="M888 816h24.72v24.72H888z"/><path d="M912 816h24.72v24.72H912zm-672 24h24.72v24.72H240z"/><path d="M264 840h24.72v24.72H264z"/><path d="M288 840h24.72v24.72H288z"/><path d="M312 840h24.72v24.72H312z"/><path d="M336 840h24.72v24.72H336z"/><path d="M360 840h24.72v24.72H360z"/><path d="M384 840h24.72v24.72H384zm72 0h24.72v24.72H456zm168 0h24.72v24.72H624zm144 0h24.72v24.72H768z"/><path d="M792 840h24.72v24.72H792zm48 0h24.72v24.72H840zm48 0h24.72v24.72H888z"/><path d="M912 840h24.72v24.72H912zm-672 24h24.72v24.72H240zm48 0h24.72v24.72H288zm96 0h24.72v24.72H384zm72 0h24.72v24.72H456zm72 0h24.72v24.72H528z"/><path d="M552 864h24.72v24.72H552zm48 0h24.72v24.72H600zm72 0h24.72v24.72H672z"/><path d="M696 864h24.72v24.72H696z"/><path d="M720 864h24.72v24.72H720zm72 0h24.72v24.72H792z"/><path d="M816 864h24.72v24.72H816z"/><path d="M840 864h24.72v24.72H840z"/><path d="M864 864h24.72v24.72H864zm48 0h24.72v24.72H912zm-672 24h24.72v24.72H240z"/><path d="M264 888h24.72v24.72H264zm72 0h24.72v24.72H336zm120 0h24.72v24.72H456z"/><path d="M480 888h24.72v24.72H480zm144 0h24.72v24.72H624z"/><path d="M648 888h24.72v24.72H648z"/><path d="M672 888h24.72v24.72H672z"/><path d="M696 888h24.72v24.72H696z"/><path d="M720 888h24.72v24.72H720zm48 0h24.72v24.72H768zm72 0h24.72v24.72H840zm72 0h24.72v24.72H912zm-624 24h24.72v24.72H288z"/><path d="M312 912h24.72v24.72H312z"/><path d="M336 912h24.72v24.72H336zm96 0h24.72v24.72H432z"/><path d="M456 912h24.72v24.72H456z"/><path d="M480 912h24.72v24.72H480zm96 0h24.72v24.72H576z"/><path d="M600 912h24.72v24.72H600z"/><path d="M624 912h24.72v24.72H624zm120 0h24.72v24.72H744z"/><path d="M768 912h24.72v24.72H768zm48 0h24.72v24.72H816zm48 0h24.72v24.72H864z"/><path d="M888 912h24.72v24.72H888z"/><path d="M912 912h24.72v24.72H912zM48 48v168h168V48H48zm144 144H72V72h120v120zM768 48v168h168V48H768zm144 144H792V72h120v120zM48 768v168h168V768H48zm144 144H72V792h120v120z"/><path d="M96 96h72v72H96zm720 0h72v72h-72zM96 816h72v72H96z"/></svg>
+    </a>
+  </div>
+</div>
+
+
+
+</body>
+</html>
