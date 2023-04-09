@@ -11,6 +11,10 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        
+      - name: Get latest ytdl_hook.lua
+        run: |
+          wget https://github.com/mpv-player/mpv/raw/master/player/lua/ytdl_hook.lua
 
       - name: Install mpv
         run: |
@@ -34,11 +38,12 @@ jobs:
         run: |
           pip install --upgrade yt-dlp
           which yt-dlp
-          
+
       - name: Test yt-dlp
         run: |
           yt-dlp --version
 
       - name: ⏯️ Run mpv with youtube-upnext userscript
         run: |
-          mpv --script-opts="youtube-upnext-auto_add=no,youtube-upnext-fetch_on_start=yes" --scripts=youtube-upnext.lua --msg-level=youtube_upnext=trace "https://www.youtube.com/watch?v=VpOLXXBcAl0" 2>&1
+          mpv --ytdl=no --script-opts="youtube-upnext-auto_add=no,youtube-upnext-fetch_on_start=yes" --scripts=ytdl_hook.lua:youtube-upnext.lua --msg-level=youtube_upnext=trace "https://www.youtube.com/watch?v=VpOLXXBcAl0"
+
