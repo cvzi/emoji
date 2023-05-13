@@ -1,69 +1,70 @@
-# youtube-upnext
-A userscript for MPV that allows you to load the up next/recommened youtube video on the fly, as though you were using the web player.
+flag
+====
 
-![screenshot](upnext-menu.png)
+[![foodemoji on PyPI](https://img.shields.io/pypi/v/emoji-country-flag.svg)](https://pypi.python.org/pypi/emoji-country-flag)
+[![Python Versions](https://img.shields.io/pypi/pyversions/emoji-country-flag.svg)](https://pypi.python.org/pypi/emoji-country-flag)
+[![Coverage Status](https://coveralls.io/repos/github/cvzi/flag/badge.svg?branch=main)](https://coveralls.io/github/cvzi/flag?branch=main)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e897c2f701ee44f5aa36457d0ab1a84a)](https://app.codacy.com/app/cvzi/flag?utm_source=github.com&utm_medium=referral&utm_content=cvzi/flag&utm_campaign=Badge_Grade_Dashboard)
+[![Maintainability](https://api.codeclimate.com/v1/badges/cf1f88720896db4d1b0a/maintainability)](https://codeclimate.com/github/cvzi/flag/maintainability)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cvzi_flag&metric=alert_status)](https://sonarcloud.io/dashboard?id=cvzi_flag)
 
-Toggle the menu with `ctrl+u` (configurable). Select from the list with the arrow keys (configurable), and press `Enter` (configurable) to select. Menu times out after 10 seconds (configurable).
+Flag emoji for Python.  
+Converts flag emoji to ASCII and other way round.
 
-Press `Space` to append to the playlist. Close menu with `Escape` or `ctrl+u`.
+This is based on [http://schinckel.net/2015/10/29/unicode-flags-in-python/](http://web.archive.org/web/20180425063617/https://schinckel.net/2015/10/29/unicode-flags-in-python/) by [schinckel](https://github.com/schinckel/)
 
-## Installation
+How it works
+------------
 
-Copy youtube-upnext.lua into your scripts directory, e.g.:
+All the flag emoji are actually composed of two unicode letters. These are the 26 [regional indicator symbols](https://en.wikipedia.org/wiki/Regional_Indicator_Symbol).
 
-    cp youtube-upnext.lua ~/.config/mpv/scripts/
+Alone they look like this:  
+🇦 🇧 🇨 🇩 🇪 🇫 🇬 🇭 🇮 🇯 🇰 🇱 🇲 🇳 🇴 🇵 🇶 🇷 🇸 🇹 🇺 🇻 🇼 🇽 🇾 🇿
 
-optional, copy the config file:
+If you pair them up according to ISO 3166 some browsers and phones will display a flag.  
+For example TW is Taiwan: 🇹 + 🇼 = 🇹🇼
 
-    cp youtube-upnext.conf ~/.config/mpv/script-opts/
+So, to encode an ASCII code like `:TW:` to 🇹🇼, we just need to convert the ASCII **T** and **W** to the corresponding regional indicator symbols 🇹 and 🇼.  
+To reverse it, we translate the regional indicator symbols back to ASCII letters.
 
-### Windows:
+Example
+-------
 
-The location of the scripts directory on Windows is `%APPDATA%\mpv\scripts` e.g. `C:\Users\cvzi\AppData\Roaming\mpv\scripts`
-
-Make sure you have GNU Wget installed.
-There are several websites that offer a binary release of wget for Windows e.g. [here](https://eternallybored.org/misc/wget/),
-it is also included in [MingW](http://mingw.org/) and similar tools.
-
-If you downloaded/installed the wget executable, you have to [add the directory of the wget.exe to your machine's
-%PATH%](https://stackoverflow.com/a/41895179/10367381).
-
-Depending on your setup you may have to set `check_certificate = false` in the lua script or in the config file,
-because some wget versions on Windows seem to have problems with HTTPS/SSL certificates.
-
-### mpv.net:
-The script folder for mpv.net is:
-`%APPDATA%\mpv.net\scripts`
-
-The .conf files belong into:
-`%APPDATA%\mpv.net\script-opts`
-
-The keyboard shortcut in the script and the .conf-file doesn't work with mpv.net.
-You need to set the keyboard shortcut yourself in your `input.conf`. Default location is `%APPDATA%\mpv.net\input.conf`.
-Add the following line to the end of your `input.conf` (change the key if it's already used):
-
+```python
+    >>> import flag
+    
+    >>> flag.flag("IL")
+    '🇮🇱'
+    
+    >>> flag.flag("GBENG")
+    '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
+    
+    >>> flag.flagize("Flag of Israel :IL:")
+    'Flag of Israel 🇮🇱'
+    
+    >>> flag.dflagize("Flag of Israel 🇮🇱")
+    'Flag of Israel :IL:'
+    
+    >>> flag.flagize("England :gb-eng: is part of the UK :GB:", subregions=True)
+    'England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 is part of the UK 🇬🇧'
+    
+    >>> flag.dflagize("England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 is part of the UK 🇬🇧", subregions=True)
+    'England :gb-eng: is part of the UK :GB:'
 ```
 
- Ctrl+u     script-message-to   youtube_upnext   upnext-menu
+Install
+-------
 
-```
+`pip install emoji-country-flag`
 
-### SVP
+See: [https://pypi.org/project/emoji-country-flag/](https://pypi.org/project/emoji-country-flag/)
 
-Installation is the same as for normal mpv. You need to install yt-dlp. On Windows you have to
-[add the directory of the yt-dlp.exe to your machine's %PATH%](https://stackoverflow.com/a/41895179/10367381)
-or put yt-dlp.exe into `%APPDATA%\mpv\` e.g. `C:\Users\cvzi\AppData\Roaming\mpv\yt-dlp.exe`.
+Python 3.7 or higher is required for the latest release.
+The last release for Python 2.7, 3.4 and 3.5 was [v1.2.4](https://github.com/cvzi/flag/releases/tag/v1.2.4).
 
-You need to update yt-dlp occasionally when it stops working.
+Documentation
+-------------
 
-Unfortunately SVP does not make the quality available to scripts. That means the quality settings that were
-selected in SVP are not preserved when the next video is loaded.
+[![Documentation Status](https://readthedocs.org/projects/flag/badge/?version=latest)](https://flag.readthedocs.io/en/latest/?badge=latest)
 
-## Credit
-- I pretty much copied the [mpv-youtube-quality](https://github.com/jgreco/mpv-youtube-quality) script and added wget
-
-## [youtube-quality](https://github.com/jgreco/mpv-youtube-quality)'s Credit
-- [reload.lua](https://github.com/4e6/mpv-reload/), for the function to reload a video while preserving the playlist.
-- [mpv-playlistmanager](https://github.com/jonniek/mpv-playlistmanager), from which I ripped off much of the menu formatting config.
-- ytdl_hook.lua, from which I ripped off much of the youtube-dl code to fetch the format list
-- somebody on /mpv/ for the idea
+Documentation at [https://flag.readthedocs.io](https://flag.readthedocs.io)

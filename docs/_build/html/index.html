@@ -1,0 +1,1396 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>flag &mdash; flag  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" src="_static/jquery.js"></script>
+        <script integrity="sha384-lSZeSIVKp9myfKbDQ3GkN/KHjUc+mzg17VKDN4Y2kUeBSJioB9QSM639vM9fuY//" src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> flag
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">flag</a><ul>
+<li><a class="reference internal" href="#example">Example</a></li>
+<li><a class="reference internal" href="#install">Install</a></li>
+<li><a class="reference internal" href="#how-it-works">How it works</a></li>
+<li><a class="reference internal" href="#functions">Functions</a><ul>
+<li><a class="reference internal" href="#flag.flag"><code class="docutils literal notranslate"><span class="pre">flag()</span></code></a></li>
+<li><a class="reference internal" href="#flag.flagize"><code class="docutils literal notranslate"><span class="pre">flagize()</span></code></a></li>
+<li><a class="reference internal" href="#flag.dflagize"><code class="docutils literal notranslate"><span class="pre">dflagize()</span></code></a></li>
+<li><a class="reference internal" href="#flag.flagize_subregional"><code class="docutils literal notranslate"><span class="pre">flagize_subregional()</span></code></a></li>
+<li><a class="reference internal" href="#flag.dflagize_subregional"><code class="docutils literal notranslate"><span class="pre">dflagize_subregional()</span></code></a></li>
+<li><a class="reference internal" href="#flag.Flag"><code class="docutils literal notranslate"><span class="pre">Flag</span></code></a><ul>
+<li><a class="reference internal" href="#flag.Flag.__init__"><code class="docutils literal notranslate"><span class="pre">Flag.__init__()</span></code></a></li>
+<li><a class="reference internal" href="#flag.Flag.dflagize"><code class="docutils literal notranslate"><span class="pre">Flag.dflagize()</span></code></a></li>
+<li><a class="reference internal" href="#flag.Flag.dflagize_subregional"><code class="docutils literal notranslate"><span class="pre">Flag.dflagize_subregional()</span></code></a></li>
+<li><a class="reference internal" href="#flag.Flag.flagize"><code class="docutils literal notranslate"><span class="pre">Flag.flagize()</span></code></a></li>
+<li><a class="reference internal" href="#flag.Flag.flagize_subregional"><code class="docutils literal notranslate"><span class="pre">Flag.flagize_subregional()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#supported-emojis-and-patterns">Supported emojis and patterns</a></li>
+<li><a class="reference internal" href="#subregional-flags">Subregional flags</a></li>
+<li><a class="reference internal" href="#how-subregional-flags-work">How subregional flags work</a><ul>
+<li><a class="reference internal" href="#id1">Example:</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">flag</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>flag</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="toctree-wrapper compound">
+</div>
+<section id="flag">
+<h1>flag<a class="headerlink" href="#flag" title="Permalink to this heading">¶</a></h1>
+<p>Flag emoji for Python.</p>
+<p>Converts flag emoji to ASCII and other way round.</p>
+<p><a class="reference external" href="https://github.com/cvzi/flag">Source on Github</a></p>
+<p>This is based on <a class="reference external" href="http://web.archive.org/web/20180425063617/https://schinckel.net/2015/10/29/unicode-flags-in-python/">http://schinckel.net/2015/10/29/unicode-flags-in-python/</a> by <a class="reference external" href="https://github.com/schinckel/">schinckel</a></p>
+<section id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this heading">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">flag</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">flag</span><span class="o">.</span><span class="n">flag</span><span class="p">(</span><span class="s2">&quot;IL&quot;</span><span class="p">)</span>
+<span class="go">&#39;🇮🇱&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">flag</span><span class="o">.</span><span class="n">flag</span><span class="p">(</span><span class="s2">&quot;GBENG&quot;</span><span class="p">)</span>
+<span class="go">&#39;🏴󠁧󠁢󠁥󠁮󠁧󠁿&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">flag</span><span class="o">.</span><span class="n">flagize</span><span class="p">(</span><span class="s2">&quot;Flag of Israel :IL:&quot;</span><span class="p">)</span>
+<span class="go">&#39;Flag of Israel 🇮🇱&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">flag</span><span class="o">.</span><span class="n">dflagize</span><span class="p">(</span><span class="s2">&quot;Flag of Israel 🇮🇱&quot;</span><span class="p">)</span>
+<span class="go">&#39;Flag of Israel :IL:&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">flag</span><span class="o">.</span><span class="n">flagize</span><span class="p">(</span><span class="s2">&quot;England :gb-eng: is part of the UK :GB:&quot;</span><span class="p">,</span> <span class="n">subregions</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="go">&#39;England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 is part of the UK 🇬🇧&#39;</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">flag</span><span class="o">.</span><span class="n">dflagize</span><span class="p">(</span><span class="s2">&quot;England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 is part of the UK 🇬🇧&quot;</span><span class="p">,</span> <span class="n">subregions</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="go">&#39;England :gb-eng: is part of the UK :GB:&#39;</span>
+</pre></div>
+</div>
+</section>
+<section id="install">
+<h2>Install<a class="headerlink" href="#install" title="Permalink to this heading">¶</a></h2>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>pip<span class="w"> </span>install<span class="w"> </span>emoji-country-flag
+</pre></div>
+</div>
+<p>See: <a class="reference external" href="https://pypi.org/project/emoji-country-flag/">https://pypi.org/project/emoji-country-flag/</a></p>
+<div class="admonition hint">
+<p class="admonition-title">Hint</p>
+<p>If you don’t see the flags in your browser, try with your phone</p>
+<p><a class="reference external" href="https://flag.readthedocs.org"><img alt="QR Code containg https://flag.readthedocs.org" src="_images/qr.png" /></a> <a class="reference external" href="https://flag.readthedocs.org">https://flag.readthedocs.org</a></p>
+</div>
+</section>
+<section id="how-it-works">
+<h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this heading">¶</a></h2>
+<p>All the flag emoji are actually composed of two unicode letters. These are the 26 <a class="reference external" href="https://en.wikipedia.org/wiki/Regional_Indicator_Symbol">regional indicator symbols</a>.</p>
+<p>Alone they look like this:
+🇦 🇧 🇨 🇩 🇪 🇫 🇬 🇭 🇮 🇯 🇰 🇱 🇲 🇳 🇴 🇵 🇶 🇷 🇸 🇹 🇺 🇻 🇼 🇽 🇾 🇿</p>
+<p>If you pair them up according to ISO 3166 some browsers and phones will display a flag.
+For example TW is Taiwan: 🇹 + 🇼 = 🇹🇼</p>
+<p>So, to encode an ASCII code like <code class="docutils literal notranslate"><span class="pre">:TW:</span></code> to 🇹🇼, we just need to convert the ASCII <strong>T</strong> and <strong>R</strong> to the corresponding regional indicator symbols 🇹 and 🇼.
+To reverse it, we translate the regional indicator symbols back to ASCII letters.</p>
+<p><a class="reference internal" href="#how-subregional-flags-work">How do subregional flags work?</a></p>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this heading">¶</a></h2>
+<dl class="py function">
+<dt class="sig sig-object py" id="flag.flag">
+<span class="sig-prename descclassname"><span class="pre">flag.</span></span><span class="sig-name descname"><span class="pre">flag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">countrycode</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#flag"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.flag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encodes a single flag to unicode. Two letters are converted to regional
+indicator symbols
+Three or more letters/digits are converted to tag sequences.
+Dashes, colons and other symbols are removed from input, only a-z, A-Z and
+0-9 are processed.</p>
+<p>In general a valid flag is either a two letter code from ISO 3166
+(e.g. <code class="docutils literal notranslate"><span class="pre">GB</span></code>), a code from ISO 3166-2 (e.g. <code class="docutils literal notranslate"><span class="pre">GBENG</span></code>) or a numeric code
+from ISO 3166-1.
+However, not all codes produce valid unicode, see
+<a class="reference external" href="http://unicode.org/reports/tr51/#flag-emoji-tag-sequences">http://unicode.org/reports/tr51/#flag-emoji-tag-sequences</a> for more
+information.
+From ISO 3166-2 only England <code class="docutils literal notranslate"><span class="pre">gbeng</span></code>, Scotland <code class="docutils literal notranslate"><span class="pre">gbsct</span></code> and
+Wales <code class="docutils literal notranslate"><span class="pre">gbwls</span></code> are considered RGI (recommended for general interchange)
+by the Unicode Consortium,
+see <a class="reference external" href="http://www.unicode.org/Public/emoji/latest/emoji-test.txt">http://www.unicode.org/Public/emoji/latest/emoji-test.txt</a></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>countrycode</strong> (<em>str</em>) – Two letter ISO 3166 code or a regional code
+from ISO 3166-2.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The unicode representation of the flag</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flag.flagize">
+<span class="sig-prename descclassname"><span class="pre">flag.</span></span><span class="sig-name descname"><span class="pre">flagize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subregions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#flagize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.flagize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encode flags. Replace all two letter codes <code class="docutils literal notranslate"><span class="pre">:XX:</span></code> with unicode flags
+(emoji flag sequences)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> (<em>str</em>) – The text</p></li>
+<li><p><strong>subregions</strong> (<em>bool</em>) – Also replace subregional/subdivision codes
+<code class="docutils literal notranslate"><span class="pre">:xx-xxx:</span></code> with unicode flags (flag emoji tag sequences).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all occurrences of <code class="docutils literal notranslate"><span class="pre">:XX:</span></code> replaced by unicode
+flags</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flag.dflagize">
+<span class="sig-prename descclassname"><span class="pre">flag.</span></span><span class="sig-name descname"><span class="pre">dflagize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subregions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#dflagize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.dflagize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decode flags. Replace all unicode country flags (emoji flag sequences)
+in text with ascii two letter code <code class="docutils literal notranslate"><span class="pre">:XX:</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> (<em>str</em>) – The text</p></li>
+<li><p><strong>subregions</strong> (<em>bool</em>) – Also replace subregional/subdivision flags
+(flag emoji tag sequences) with <code class="docutils literal notranslate"><span class="pre">:xx-xxx:</span></code></p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all unicode flags replaced by ascii
+sequence <code class="docutils literal notranslate"><span class="pre">:XX:</span></code></p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flag.flagize_subregional">
+<span class="sig-prename descclassname"><span class="pre">flag.</span></span><span class="sig-name descname"><span class="pre">flagize_subregional</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#flagize_subregional"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.flagize_subregional" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encode subregional/subdivision flags. Replace all regional codes
+<code class="docutils literal notranslate"><span class="pre">:xx-xxx:</span></code> with unicode flags (flag emoji tag sequences)</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – The text</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all occurrences of <code class="docutils literal notranslate"><span class="pre">:xx-xxx:</span></code> replaced by
+unicode flags</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="flag.dflagize_subregional">
+<span class="sig-prename descclassname"><span class="pre">flag.</span></span><span class="sig-name descname"><span class="pre">dflagize_subregional</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#dflagize_subregional"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.dflagize_subregional" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decode subregional/subdivision flags. Replace all unicode regional
+flags (flag emoji tag sequences) in text with their ascii
+code <code class="docutils literal notranslate"><span class="pre">:xx-xxx:</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – The text</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all regional flags replaced by ascii
+sequence <code class="docutils literal notranslate"><span class="pre">:xx-xxx:</span></code></p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="flag.Flag">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">flag.</span></span><span class="sig-name descname"><span class="pre">Flag</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix_str</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">':'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">suffix_str</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">':'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">warn</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/flag.html#Flag"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.Flag" title="Permalink to this definition">¶</a></dt>
+<dd><p>Use this class if you want a different prefix and suffix instead
+of colons. Offers the same methods as the module.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="flag.Flag.__init__">
+<span class="sig-name descname"><span class="pre">__init__</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix_str</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">':'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">suffix_str</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">':'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">warn</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/flag.html#Flag.__init__"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.Flag.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set a custom prefix and suffix. Instead of <code class="docutils literal notranslate"><span class="pre">:XY:</span></code> it will
+use <code class="docutils literal notranslate"><span class="pre">{prefix}XY{suffix}</span></code>.</p>
+<p>To encode subregional flags, use a suffix that is either longer
+than 4 characters or that does not contain A-Z, a-z, 0-9 and
+does not start with a - (minus).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix_str</strong> (<em>str</em>) – The leading symbols</p></li>
+<li><p><strong>suffix_str</strong> (<em>str</em>) – The trailing symbols</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flag.Flag.dflagize">
+<span class="sig-name descname"><span class="pre">dflagize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subregions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#Flag.dflagize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.Flag.dflagize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decode flags. Replace all unicode country flags (emoji flag
+sequences) in text with ascii two letter code <code class="docutils literal notranslate"><span class="pre">{prefix}XX{suffix}</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> (<em>str</em>) – The text</p></li>
+<li><p><strong>subregions</strong> (<em>bool</em>) – Also replace subregional/subdivision flags
+(flag emoji tag sequences) with <code class="docutils literal notranslate"><span class="pre">{prefix}xx-xxx{suffix}</span></code></p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all unicode flags replaced by ascii
+sequence <code class="docutils literal notranslate"><span class="pre">{prefix}XX{suffix}</span></code></p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flag.Flag.dflagize_subregional">
+<span class="sig-name descname"><span class="pre">dflagize_subregional</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#Flag.dflagize_subregional"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.Flag.dflagize_subregional" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decode subregional/subdivision flags. Replace all unicode regional
+flags (flag emoji tag sequences) in text with their ascii
+code <code class="docutils literal notranslate"><span class="pre">{prefix}xx-xxx{suffix}</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – The text</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all regional flags replaced by ascii
+sequence <code class="docutils literal notranslate"><span class="pre">{prefix}xx-xxx{suffix}</span></code></p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flag.Flag.flagize">
+<span class="sig-name descname"><span class="pre">flagize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">subregions</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#Flag.flagize"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.Flag.flagize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encode flags. Replace all two letter codes <code class="docutils literal notranslate"><span class="pre">{prefix}XX{suffix}</span></code> with unicode
+flags (emoji flag sequences)</p>
+<p>For this method the suffix should not contain
+A-Z, a-z or 0-9 and not start with a - (minus).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>text</strong> (<em>str</em>) – The text</p></li>
+<li><p><strong>subregions</strong> (<em>bool</em>) – Also replace subregional/subdivision codes
+<code class="docutils literal notranslate"><span class="pre">{prefix}xx-xxx{suffix}</span></code> with unicode flags (flag emoji tag sequences).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all occurrences of <code class="docutils literal notranslate"><span class="pre">{prefix}XX{suffix}</span></code> replaced by unicode
+flags</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="flag.Flag.flagize_subregional">
+<span class="sig-name descname"><span class="pre">flagize_subregional</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">text</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">str</span></span></span><a class="reference internal" href="_modules/flag.html#Flag.flagize_subregional"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#flag.Flag.flagize_subregional" title="Permalink to this definition">¶</a></dt>
+<dd><p>Encode subregional/subdivision flags. Replace all regional codes
+<code class="docutils literal notranslate"><span class="pre">{prefix}xx-xxx{suffix}</span></code> with unicode flags (flag emoji tag sequences)</p>
+<p>For this method the suffix should not contain
+A-Z, a-z or 0-9 and not start with a - (minus).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>text</strong> (<em>str</em>) – The text</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>The text with all occurrences of <code class="docutils literal notranslate"><span class="pre">{prefix}xx-xxx{suffix}</span></code> replaced by
+unicode flags</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="supported-emojis-and-patterns">
+<h2>Supported emojis and patterns<a class="headerlink" href="#supported-emojis-and-patterns" title="Permalink to this heading">¶</a></h2>
+<p>(List may be incomplete)</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Emoji</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:UN:</span></code></p></td>
+<td><p>🇺🇳</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AC:</span></code></p></td>
+<td><p>🇦🇨</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AD:</span></code></p></td>
+<td><p>🇦🇩</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AE:</span></code></p></td>
+<td><p>🇦🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AF:</span></code></p></td>
+<td><p>🇦🇫</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AG:</span></code></p></td>
+<td><p>🇦🇬</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AI:</span></code></p></td>
+<td><p>🇦🇮</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AL:</span></code></p></td>
+<td><p>🇦🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AM:</span></code></p></td>
+<td><p>🇦🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AO:</span></code></p></td>
+<td><p>🇦🇴</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AQ:</span></code></p></td>
+<td><p>🇦🇶</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AR:</span></code></p></td>
+<td><p>🇦🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AS:</span></code></p></td>
+<td><p>🇦🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AT:</span></code></p></td>
+<td><p>🇦🇹</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AU:</span></code></p></td>
+<td><p>🇦🇺</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AW:</span></code></p></td>
+<td><p>🇦🇼</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:AX:</span></code></p></td>
+<td><p>🇦🇽</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:AZ:</span></code></p></td>
+<td><p>🇦🇿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BA:</span></code></p></td>
+<td><p>🇧🇦</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BB:</span></code></p></td>
+<td><p>🇧🇧</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BD:</span></code></p></td>
+<td><p>🇧🇩</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BE:</span></code></p></td>
+<td><p>🇧🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BF:</span></code></p></td>
+<td><p>🇧🇫</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BG:</span></code></p></td>
+<td><p>🇧🇬</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BH:</span></code></p></td>
+<td><p>🇧🇭</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BI:</span></code></p></td>
+<td><p>🇧🇮</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BJ:</span></code></p></td>
+<td><p>🇧🇯</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BL:</span></code></p></td>
+<td><p>🇧🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BM:</span></code></p></td>
+<td><p>🇧🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BN:</span></code></p></td>
+<td><p>🇧🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BO:</span></code></p></td>
+<td><p>🇧🇴</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BQ:</span></code></p></td>
+<td><p>🇧🇶</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BR:</span></code></p></td>
+<td><p>🇧🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BS:</span></code></p></td>
+<td><p>🇧🇸</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BT:</span></code></p></td>
+<td><p>🇧🇹</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BV:</span></code></p></td>
+<td><p>🇧🇻</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BW:</span></code></p></td>
+<td><p>🇧🇼</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:BY:</span></code></p></td>
+<td><p>🇧🇾</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:BZ:</span></code></p></td>
+<td><p>🇧🇿</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CA:</span></code></p></td>
+<td><p>🇨🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CC:</span></code></p></td>
+<td><p>🇨🇨</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CD:</span></code></p></td>
+<td><p>🇨🇩</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CF:</span></code></p></td>
+<td><p>🇨🇫</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CG:</span></code></p></td>
+<td><p>🇨🇬</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CH:</span></code></p></td>
+<td><p>🇨🇭</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CI:</span></code></p></td>
+<td><p>🇨🇮</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CK:</span></code></p></td>
+<td><p>🇨🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CL:</span></code></p></td>
+<td><p>🇨🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CM:</span></code></p></td>
+<td><p>🇨🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CN:</span></code></p></td>
+<td><p>🇨🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CO:</span></code></p></td>
+<td><p>🇨🇴</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CP:</span></code></p></td>
+<td><p>🇨🇵</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CR:</span></code></p></td>
+<td><p>🇨🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CU:</span></code></p></td>
+<td><p>🇨🇺</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CV:</span></code></p></td>
+<td><p>🇨🇻</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CW:</span></code></p></td>
+<td><p>🇨🇼</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CX:</span></code></p></td>
+<td><p>🇨🇽</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:CY:</span></code></p></td>
+<td><p>🇨🇾</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:CZ:</span></code></p></td>
+<td><p>🇨🇿</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:DE:</span></code></p></td>
+<td><p>🇩🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:DG:</span></code></p></td>
+<td><p>🇩🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:DJ:</span></code></p></td>
+<td><p>🇩🇯</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:DK:</span></code></p></td>
+<td><p>🇩🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:DM:</span></code></p></td>
+<td><p>🇩🇲</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:DO:</span></code></p></td>
+<td><p>🇩🇴</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:DZ:</span></code></p></td>
+<td><p>🇩🇿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:EA:</span></code></p></td>
+<td><p>🇪🇦</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:EC:</span></code></p></td>
+<td><p>🇪🇨</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:EE:</span></code></p></td>
+<td><p>🇪🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:EG:</span></code></p></td>
+<td><p>🇪🇬</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:EH:</span></code></p></td>
+<td><p>🇪🇭</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ER:</span></code></p></td>
+<td><p>🇪🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:ES:</span></code></p></td>
+<td><p>🇪🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ET:</span></code></p></td>
+<td><p>🇪🇹</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:EU:</span></code></p></td>
+<td><p>🇪🇺</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:FI:</span></code></p></td>
+<td><p>🇫🇮</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:FJ:</span></code></p></td>
+<td><p>🇫🇯</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:FK:</span></code></p></td>
+<td><p>🇫🇰</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:FM:</span></code></p></td>
+<td><p>🇫🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:FO:</span></code></p></td>
+<td><p>🇫🇴</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:FR:</span></code></p></td>
+<td><p>🇫🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GA:</span></code></p></td>
+<td><p>🇬🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GB:</span></code></p></td>
+<td><p>🇬🇧</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GD:</span></code></p></td>
+<td><p>🇬🇩</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GE:</span></code></p></td>
+<td><p>🇬🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GF:</span></code></p></td>
+<td><p>🇬🇫</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GG:</span></code></p></td>
+<td><p>🇬🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GH:</span></code></p></td>
+<td><p>🇬🇭</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GI:</span></code></p></td>
+<td><p>🇬🇮</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GL:</span></code></p></td>
+<td><p>🇬🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GM:</span></code></p></td>
+<td><p>🇬🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GN:</span></code></p></td>
+<td><p>🇬🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GP:</span></code></p></td>
+<td><p>🇬🇵</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GQ:</span></code></p></td>
+<td><p>🇬🇶</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GR:</span></code></p></td>
+<td><p>🇬🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GS:</span></code></p></td>
+<td><p>🇬🇸</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GT:</span></code></p></td>
+<td><p>🇬🇹</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GU:</span></code></p></td>
+<td><p>🇬🇺</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:GW:</span></code></p></td>
+<td><p>🇬🇼</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:GY:</span></code></p></td>
+<td><p>🇬🇾</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:HK:</span></code></p></td>
+<td><p>🇭🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:HM:</span></code></p></td>
+<td><p>🇭🇲</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:HN:</span></code></p></td>
+<td><p>🇭🇳</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:HR:</span></code></p></td>
+<td><p>🇭🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:HT:</span></code></p></td>
+<td><p>🇭🇹</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:HU:</span></code></p></td>
+<td><p>🇭🇺</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:IC:</span></code></p></td>
+<td><p>🇮🇨</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ID:</span></code></p></td>
+<td><p>🇮🇩</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:IE:</span></code></p></td>
+<td><p>🇮🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:IL:</span></code></p></td>
+<td><p>🇮🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:IM:</span></code></p></td>
+<td><p>🇮🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:IN:</span></code></p></td>
+<td><p>🇮🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:IO:</span></code></p></td>
+<td><p>🇮🇴</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:IQ:</span></code></p></td>
+<td><p>🇮🇶</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:IR:</span></code></p></td>
+<td><p>🇮🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:IS:</span></code></p></td>
+<td><p>🇮🇸</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:IT:</span></code></p></td>
+<td><p>🇮🇹</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:JE:</span></code></p></td>
+<td><p>🇯🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:JM:</span></code></p></td>
+<td><p>🇯🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:JO:</span></code></p></td>
+<td><p>🇯🇴</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:JP:</span></code></p></td>
+<td><p>🇯🇵</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:KE:</span></code></p></td>
+<td><p>🇰🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:KG:</span></code></p></td>
+<td><p>🇰🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:KH:</span></code></p></td>
+<td><p>🇰🇭</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:KI:</span></code></p></td>
+<td><p>🇰🇮</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:KM:</span></code></p></td>
+<td><p>🇰🇲</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:KN:</span></code></p></td>
+<td><p>🇰🇳</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:KP:</span></code></p></td>
+<td><p>🇰🇵</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:KR:</span></code></p></td>
+<td><p>🇰🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:KW:</span></code></p></td>
+<td><p>🇰🇼</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:KY:</span></code></p></td>
+<td><p>🇰🇾</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:KZ:</span></code></p></td>
+<td><p>🇰🇿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:LA:</span></code></p></td>
+<td><p>🇱🇦</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:LB:</span></code></p></td>
+<td><p>🇱🇧</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:LC:</span></code></p></td>
+<td><p>🇱🇨</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:LI:</span></code></p></td>
+<td><p>🇱🇮</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:LK:</span></code></p></td>
+<td><p>🇱🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:LR:</span></code></p></td>
+<td><p>🇱🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:LS:</span></code></p></td>
+<td><p>🇱🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:LT:</span></code></p></td>
+<td><p>🇱🇹</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:LU:</span></code></p></td>
+<td><p>🇱🇺</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:LV:</span></code></p></td>
+<td><p>🇱🇻</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:LY:</span></code></p></td>
+<td><p>🇱🇾</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MA:</span></code></p></td>
+<td><p>🇲🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MC:</span></code></p></td>
+<td><p>🇲🇨</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MD:</span></code></p></td>
+<td><p>🇲🇩</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:ME:</span></code></p></td>
+<td><p>🇲🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MF:</span></code></p></td>
+<td><p>🇲🇫</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MG:</span></code></p></td>
+<td><p>🇲🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MH:</span></code></p></td>
+<td><p>🇲🇭</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MK:</span></code></p></td>
+<td><p>🇲🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ML:</span></code></p></td>
+<td><p>🇲🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MM:</span></code></p></td>
+<td><p>🇲🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MN:</span></code></p></td>
+<td><p>🇲🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MO:</span></code></p></td>
+<td><p>🇲🇴</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MP:</span></code></p></td>
+<td><p>🇲🇵</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MQ:</span></code></p></td>
+<td><p>🇲🇶</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MR:</span></code></p></td>
+<td><p>🇲🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MS:</span></code></p></td>
+<td><p>🇲🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MT:</span></code></p></td>
+<td><p>🇲🇹</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MU:</span></code></p></td>
+<td><p>🇲🇺</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MV:</span></code></p></td>
+<td><p>🇲🇻</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MW:</span></code></p></td>
+<td><p>🇲🇼</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MX:</span></code></p></td>
+<td><p>🇲🇽</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:MY:</span></code></p></td>
+<td><p>🇲🇾</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:MZ:</span></code></p></td>
+<td><p>🇲🇿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:NA:</span></code></p></td>
+<td><p>🇳🇦</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:NC:</span></code></p></td>
+<td><p>🇳🇨</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:NE:</span></code></p></td>
+<td><p>🇳🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:NF:</span></code></p></td>
+<td><p>🇳🇫</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:NG:</span></code></p></td>
+<td><p>🇳🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:NI:</span></code></p></td>
+<td><p>🇳🇮</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:NL:</span></code></p></td>
+<td><p>🇳🇱</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:NO:</span></code></p></td>
+<td><p>🇳🇴</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:NP:</span></code></p></td>
+<td><p>🇳🇵</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:NR:</span></code></p></td>
+<td><p>🇳🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:NU:</span></code></p></td>
+<td><p>🇳🇺</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:NZ:</span></code></p></td>
+<td><p>🇳🇿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:OM:</span></code></p></td>
+<td><p>🇴🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PA:</span></code></p></td>
+<td><p>🇵🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PE:</span></code></p></td>
+<td><p>🇵🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PF:</span></code></p></td>
+<td><p>🇵🇫</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PG:</span></code></p></td>
+<td><p>🇵🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PH:</span></code></p></td>
+<td><p>🇵🇭</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PK:</span></code></p></td>
+<td><p>🇵🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PL:</span></code></p></td>
+<td><p>🇵🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PM:</span></code></p></td>
+<td><p>🇵🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PN:</span></code></p></td>
+<td><p>🇵🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PR:</span></code></p></td>
+<td><p>🇵🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PS:</span></code></p></td>
+<td><p>🇵🇸</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PT:</span></code></p></td>
+<td><p>🇵🇹</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:PW:</span></code></p></td>
+<td><p>🇵🇼</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:PY:</span></code></p></td>
+<td><p>🇵🇾</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:QA:</span></code></p></td>
+<td><p>🇶🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:RE:</span></code></p></td>
+<td><p>🇷🇪</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:RO:</span></code></p></td>
+<td><p>🇷🇴</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:RS:</span></code></p></td>
+<td><p>🇷🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:RU:</span></code></p></td>
+<td><p>🇷🇺</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:RW:</span></code></p></td>
+<td><p>🇷🇼</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SA:</span></code></p></td>
+<td><p>🇸🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SB:</span></code></p></td>
+<td><p>🇸🇧</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SC:</span></code></p></td>
+<td><p>🇸🇨</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SD:</span></code></p></td>
+<td><p>🇸🇩</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SE:</span></code></p></td>
+<td><p>🇸🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SG:</span></code></p></td>
+<td><p>🇸🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SH:</span></code></p></td>
+<td><p>🇸🇭</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SI:</span></code></p></td>
+<td><p>🇸🇮</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SJ:</span></code></p></td>
+<td><p>🇸🇯</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SK:</span></code></p></td>
+<td><p>🇸🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SL:</span></code></p></td>
+<td><p>🇸🇱</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SM:</span></code></p></td>
+<td><p>🇸🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SN:</span></code></p></td>
+<td><p>🇸🇳</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SO:</span></code></p></td>
+<td><p>🇸🇴</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SR:</span></code></p></td>
+<td><p>🇸🇷</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SS:</span></code></p></td>
+<td><p>🇸🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ST:</span></code></p></td>
+<td><p>🇸🇹</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SV:</span></code></p></td>
+<td><p>🇸🇻</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SX:</span></code></p></td>
+<td><p>🇸🇽</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:SY:</span></code></p></td>
+<td><p>🇸🇾</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:SZ:</span></code></p></td>
+<td><p>🇸🇿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TA:</span></code></p></td>
+<td><p>🇹🇦</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TC:</span></code></p></td>
+<td><p>🇹🇨</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TD:</span></code></p></td>
+<td><p>🇹🇩</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TF:</span></code></p></td>
+<td><p>🇹🇫</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TG:</span></code></p></td>
+<td><p>🇹🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TH:</span></code></p></td>
+<td><p>🇹🇭</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TJ:</span></code></p></td>
+<td><p>🇹🇯</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TK:</span></code></p></td>
+<td><p>🇹🇰</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TL:</span></code></p></td>
+<td><p>🇹🇱</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TM:</span></code></p></td>
+<td><p>🇹🇲</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TN:</span></code></p></td>
+<td><p>🇹🇳</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TO:</span></code></p></td>
+<td><p>🇹🇴</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TR:</span></code></p></td>
+<td><p>🇹🇷</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TT:</span></code></p></td>
+<td><p>🇹🇹</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TV:</span></code></p></td>
+<td><p>🇹🇻</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:TW:</span></code></p></td>
+<td><p>🇹🇼</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:TZ:</span></code></p></td>
+<td><p>🇹🇿</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:UA:</span></code></p></td>
+<td><p>🇺🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:UG:</span></code></p></td>
+<td><p>🇺🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:UM:</span></code></p></td>
+<td><p>🇺🇲</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:US:</span></code></p></td>
+<td><p>🇺🇸</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:UY:</span></code></p></td>
+<td><p>🇺🇾</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:UZ:</span></code></p></td>
+<td><p>🇺🇿</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:VA:</span></code></p></td>
+<td><p>🇻🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:VC:</span></code></p></td>
+<td><p>🇻🇨</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:VE:</span></code></p></td>
+<td><p>🇻🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:VG:</span></code></p></td>
+<td><p>🇻🇬</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:VI:</span></code></p></td>
+<td><p>🇻🇮</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:VN:</span></code></p></td>
+<td><p>🇻🇳</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:VU:</span></code></p></td>
+<td><p>🇻🇺</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:WF:</span></code></p></td>
+<td><p>🇼🇫</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:WS:</span></code></p></td>
+<td><p>🇼🇸</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:XK:</span></code></p></td>
+<td><p>🇽🇰</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:YE:</span></code></p></td>
+<td><p>🇾🇪</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:YT:</span></code></p></td>
+<td><p>🇾🇹</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ZA:</span></code></p></td>
+<td><p>🇿🇦</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:ZM:</span></code></p></td>
+<td><p>🇿🇲</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:ZW:</span></code></p></td>
+<td><p>🇿🇼</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="subregional-flags">
+<h2>Subregional flags<a class="headerlink" href="#subregional-flags" title="Permalink to this heading">¶</a></h2>
+<p>The only widely supported subregional flags are currently: England, Scotland and Wales (as of iOS 12 and Android 9).</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Code</p></th>
+<th class="head"><p>Emoji</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:gb-sct:</span></code></p></td>
+<td><p>🏴󠁧󠁢󠁳󠁣󠁴󠁿</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:gb-wls:</span></code></p></td>
+<td><p>🏴󠁧󠁢󠁷󠁬󠁳󠁿</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">:gb-eng:</span></code></p></td>
+<td><p>🏴󠁧󠁢󠁥󠁮󠁧󠁿</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">:us-tx:</span></code></p></td>
+<td><p>🏴󠁵󠁳󠁴󠁸󠁿</p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">WhatsApp offers one other state flag: Texas.</div>
+<div class="line">If you use WhatsApp’s emoji panel to select the Texas flag, WhatsApp uses 🇽🇹 i.e. <cite>flagize(“:XT:”)</cite> for Texas. This code “XT” is specified by Unicode as “excluded” meaning it is explicitly for private use and can be defined by anyone. Therefore, it is likely not displayed as the Texas flag on other platforms.</div>
+<div class="line">But WhatsApp also recognizes the flag emoji tag sequence <cite>flagize(“:us-tx:”, subregions=True)</cite> and displays the same flag.</div>
+</div>
+</section>
+<section id="how-subregional-flags-work">
+<h2>How subregional flags work<a class="headerlink" href="#how-subregional-flags-work" title="Permalink to this heading">¶</a></h2>
+<p>They work very similar to the country flags. The ASCII codes are transformed by replacing them with specific codepoints that are called “tags”.</p>
+<div class="line-block">
+<div class="line">The basic format for a tag flag is:</div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">black_flag_emoji</span></code> followed by <code class="docutils literal notranslate"><span class="pre">region_code_in_tag</span></code> followed by <code class="docutils literal notranslate"><span class="pre">cancel_tag</span></code></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<dl class="field-list">
+<dt class="field-odd"><code class="docutils literal notranslate"><span class="pre">black_flag_emoji</span></code><span class="colon">:</span></dt>
+<dd class="field-odd"><p>U+1F3F4 ( 🏴 )</p>
+</dd>
+<dt class="field-even"><code class="docutils literal notranslate"><span class="pre">cancel_tag</span></code><span class="colon">:</span></dt>
+<dd class="field-even"><p>U+E007F (invisible, signifies the end of the flag code)</p>
+</dd>
+<dt class="field-odd"><code class="docutils literal notranslate"><span class="pre">region_code_in_tag</span></code><span class="colon">:</span></dt>
+<dd class="field-odd"><p>It is formed using the abbreviation defined in <a class="reference external" href="https://en.wikipedia.org/wiki/ISO_3166-2:GB#Countries_and_province">ISO 3166-2</a> and adding 0xE0000 to every ASCII value of the code.
+For example England is GB-ENG.</p>
+<p>A full list of valid codes can be found here: <a class="reference external" href="https://github.com/unicode-org/cldr/blob/master/common/subdivisions/en.xml">github.com/unicode-org/…/subdivisions/en.xml</a></p>
+<p>It’s also possible to use a 3-digit-code from <a class="reference external" href="https://github.com/unicode-org/cldr/blob/master/tools/java/org/unicode/cldr/util/data/UnMacroRegions.txt">github.com/unicode-org/…/UnMacroRegions.txt</a></p>
+</dd>
+</dl>
+</div>
+<section id="id1">
+<h3>Example:<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h3>
+<div class="line-block">
+<div class="line">England is <code class="docutils literal notranslate"><span class="pre">GB-ENG</span></code> in ISO 3166-2.</div>
+<div class="line">We drop the hyphen and make it lowercase to get <code class="docutils literal notranslate"><span class="pre">gbeng</span></code>.</div>
+<div class="line">To transform this to “tags”, we need to add the value 0xE0000 = 917504 to every unicode value of <code class="docutils literal notranslate"><span class="pre">gbeng</span></code>:</div>
+</div>
+<div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">g</span></code> is unicode 0x67 or decimal 103, so 103 + 917504 = 917607 or 0xE0067</div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">b</span></code> is 0x62 and becomes 0xE0062</div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">e</span></code> is 0x65 and becomes 0xE0065</div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">n</span></code> is 0x6E and becomes 0xE006E</div>
+<div class="line"><code class="docutils literal notranslate"><span class="pre">g</span></code> is 0x67 and becomes 0xE0067</div>
+</div>
+<p>Together it’s:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>                      g        b        e        n        g
+ASCII:                0x67     0x62     0x65     0x6E     0x67
+Tags:   0x1F3F4    0xE0067  0xE0062  0xE0065  0xE006E  0xE0067  0xE007F
+        black_flag                                             cancel_tag
+</pre></div>
+</div>
+<p>Unlike the regional indicator symbols, tags are not rendered on incompatible system, they will simply be invisible and have no width.
+So, if the particular flag is not supported or if tag flags are not supported at all, the only visible character will be a black flag.</p>
+</section>
+</section>
+<section id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
