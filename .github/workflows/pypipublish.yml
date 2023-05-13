@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypitest
-      url: https://test.pypi.org/p/emoji-country-flag-test
+      url: https://test.pypi.org/project/emoji-country-flag/
     permissions:
       id-token: write
     steps:
