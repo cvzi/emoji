@@ -182,7 +182,7 @@ class EmojiMatch:
                 }
 
     def __repr__(self):
-        return 'EmojiMatch(%r, %r, %r)' % (self.emoji, self.start, self.end)
+        return f'EmojiMatch({self.emoji}, {self.start}, {self.end})'
 
 
 class EmojiMatchNonRGI(EmojiMatch):
@@ -210,7 +210,7 @@ class EmojiMatchNonRGI(EmojiMatch):
 
     def __repr__(self):
         e = "\u200D".join(e.emoji for e in self.emojis)
-        return 'EmojiMatchNonRGI(%s[%s], %r, %r)' % (e, "-".join(e.emoji for e in self.emojis), self.start, self.end)
+        return f'EmojiMatchNonRGI({e}({"-".join(e.emoji for e in self.emojis)}), {self.start}, {self.end})'
 
 
 class Token(NamedTuple):
