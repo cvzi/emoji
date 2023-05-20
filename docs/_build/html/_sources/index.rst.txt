@@ -1,435 +1,394 @@
-.. flag documentation master file, created by
-   sphinx-quickstart on Fri Oct 26 10:43:48 2018.
+.. emoji documentation master file, created by sphinx-quickstart.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. py:module:: emoji
+   :noindex:
 
-flag
-~~~~
+.. A setup code block. This code is not shown in the output for other builders,
+   but executed before the doctests of the group(s) it belongs to.
+.. testsetup:: *
 
-Flag emoji for Python.
+    import emoji
+    from pprint import pprint
 
-Converts flag emoji to ASCII and other way round.
 
-`Source on Github <https://github.com/cvzi/flag>`_
+emoji
+=====
 
-This is based on `http://schinckel.net/2015/10/29/unicode-flags-in-python/ <http://web.archive.org/web/20180425063617/https://schinckel.net/2015/10/29/unicode-flags-in-python/>`_ by `schinckel <https://github.com/schinckel/>`_
+Release v\ |version|. (:ref:`Installation <install>`)
 
-Example
-=======
+emoji supports Python 2.7 and 3.4+
+
+.. contents:: Table of Contents
+
+Usage and Examples
+------------------
+
+The main purpose of this package is converting unicode emoji to emoji names and vice
+versa with :func:`emojize` and :func:`demojize`.
+
+The entire set of Emoji codes as defined by the `unicode consortium <https://unicode.org/emoji/charts/full-emoji-list.html>`__
+is supported in addition to a bunch of `aliases <https://www.webfx.com/tools/emoji-cheat-sheet/>`__.
+By default, only the official list is enabled but doing ``emoji.emojize(language='alias')``
+enables both the full list and aliases.
+
+
+.. doctest::
+
+    >>> print(emoji.emojize('Python is :thumbs_up:'))
+    Python is 👍
+    >>> print(emoji.emojize('Python is :thumbsup:', language='alias'))
+    Python is 👍
+    >>> print(emoji.demojize('Python is 👍'))
+    Python is :thumbs_up:
+    >>> print(emoji.emojize("Python is fun :red_heart:", variant="text_type"))
+    Python is fun ❤︎
+    >>> print(emoji.emojize("Python is fun :red_heart:", variant="emoji_type"))
+    Python is fun ❤️
+
+..
+
+Languages
+^^^^^^^^^
+
+By default, the language is English (``language='en'``) but  also supported languages are:
+
+Spanish (``'es'``), Portuguese (``'pt'``), Italian (``'it'``), French (``'fr'``), German (``'de'``)
+
+.. doctest::
+
+    >>> print(emoji.emojize('Python es :pulgar_hacia_arriba:', language='es'))
+    Python es 👍
+    >>> print(emoji.demojize('Python es 👍', language='es'))
+    Python es :pulgar_hacia_arriba:
+    >>> print(emoji.emojize("Python é :polegar_para_cima:", language='pt'))
+    Python é 👍
+    >>> print(emoji.demojize("Python é 👍", language='pt'))
+    Python é :polegar_para_cima:
+
+..
+
+Extracting emoji
+^^^^^^^^^^^^^^^^
+
+The function :func:`emoji_list` finds all emoji in string and their position.
+Keep in mind that an emoji can span over multiple characters:
+
+.. doctest::
+
+    >>> emoji.emoji_list('Python is 👍')
+    [{'match_start': 10, 'match_end': 11, 'emoji': '👍'}]
+    >>> emoji.emoji_list('A 👩‍🚀 aboard a 🚀')
+    [{'match_start': 2, 'match_end': 5, 'emoji': '👩‍🚀'}, {'match_start': 15, 'match_end': 16, 'emoji': '🚀'}]
+
+..
+
+To retrieve the distinct set of emoji from a string, use :func:`distinct_emoji_list`:
 
 .. code-block:: python
 
-    >>> import flag
+    >>> emoji.distinct_emoji_list('Some emoji: 🌍, 😂, 😃, 😂, 🌍, 🌦️')
+    ['😃', '😂', '🌦️', '🌍']
 
-    >>> flag.flag("IL")
-    '🇮🇱'
+..
 
-    >>> flag.flag("GBENG")
-    '🏴󠁧󠁢󠁥󠁮󠁧󠁿'
+To count the number of emoji in a string, use :func:`emoji_count`:
 
-    >>> flag.flagize("Flag of Israel :IL:")
-    'Flag of Israel 🇮🇱'
+.. doctest::
 
-    >>> flag.dflagize("Flag of Israel 🇮🇱")
-    'Flag of Israel :IL:'
+    >>> emoji.emoji_count('Some emoji: 🌍, 😂, 😃, 😂, 🌍, 🌦️')
+    6
+    >>> emoji.emoji_count('Some emoji: 🌍, 😂, 😃, 😂, 🌍, 🌦️', unique=True)
+    4
 
-    >>> flag.flagize("England :gb-eng: is part of the UK :GB:", subregions=True)
-    'England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 is part of the UK 🇬🇧'
+..
 
-    >>> flag.dflagize("England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 is part of the UK 🇬🇧", subregions=True)
-    'England :gb-eng: is part of the UK :GB:'
+You can check if a string is a single, valid emoji with :func:`is_emoji`
 
-Install
-=======
+.. doctest::
 
-.. code-block:: shell
+    >>> emoji.is_emoji('🌍')
+    True
+    >>> emoji.is_emoji('🌍😂')
+    False
+    >>> emoji.is_emoji('test')
+    False
 
-   pip install emoji-country-flag
-
-See: `https://pypi.org/project/emoji-country-flag/ <https://pypi.org/project/emoji-country-flag/>`_
-
-
-
-.. hint::
-   If you don't see the flags in your browser, try with your phone
-
-   |QR| https://flag.readthedocs.org
-
-.. |QR| image:: _static/qr.png
-   :alt: QR Code containg https://flag.readthedocs.org
-   :target: https://flag.readthedocs.org
+..
 
 
-How it works
-============
+To get more information about an emoji, you can look it up in the :data:`EMOJI_DATA` dict:
 
-All the flag emoji are actually composed of two unicode letters. These are the 26 `regional indicator symbols <https://en.wikipedia.org/wiki/Regional_Indicator_Symbol>`_.
+.. testcode::
 
-Alone they look like this:  
-🇦 🇧 🇨 🇩 🇪 🇫 🇬 🇭 🇮 🇯 🇰 🇱 🇲 🇳 🇴 🇵 🇶 🇷 🇸 🇹 🇺 🇻 🇼 🇽 🇾 🇿
+    pprint(emoji.EMOJI_DATA['🌍'])
 
-If you pair them up according to ISO 3166 some browsers and phones will display a flag.  
-For example TW is Taiwan: 🇹 + 🇼 = 🇹🇼
+..
 
-So, to encode an ASCII code like ``:TW:`` to 🇹🇼, we just need to convert the ASCII **T** and **R** to the corresponding regional indicator symbols 🇹 and 🇼.
-To reverse it, we translate the regional indicator symbols back to ASCII letters.
+.. testoutput::
 
-`How do subregional flags work? <How subregional flags work_>`_
+    {'E': 0.7,
+     'alias': [':earth_africa:'],
+     'de': ':globus_mit_europa_und_afrika:',
+     'en': ':globe_showing_Europe-Africa:',
+     'es': ':globo_terráqueo_mostrando_europa_y_áfrica:',
+     'fr': ':globe_tourné_sur_l’afrique_et_l’europe:',
+     'it': ':europa_e_africa:',
+     'pt': ':globo_mostrando_europa_e_áfrica:',
+     'status': 2,
+     'variant': True}
 
-Functions
-=========
-.. currentmodule:: flag
-.. autofunction:: flag
-.. autofunction:: flagize
-.. autofunction:: dflagize
-.. autofunction:: flagize_subregional
-.. autofunction:: dflagize_subregional
-.. autoclass:: Flag
-   :special-members: __init__
-   :members: flagize, dflagize, flagize_subregional, dflagize_subregional
+..
 
-Supported emojis and patterns
-=============================
+``'E'`` is the :ref:`Emoji version <Emoji version>`.
 
-(List may be incomplete)
-
-========    ========
-Code        Emoji
-========    ========
-``:UN:``     🇺🇳
-``:AC:``     🇦🇨
-``:AD:``     🇦🇩
-``:AE:``     🇦🇪
-``:AF:``     🇦🇫
-``:AG:``     🇦🇬
-``:AI:``     🇦🇮
-``:AL:``     🇦🇱
-``:AM:``     🇦🇲
-``:AO:``     🇦🇴
-``:AQ:``     🇦🇶
-``:AR:``     🇦🇷
-``:AS:``     🇦🇸
-``:AT:``     🇦🇹
-``:AU:``     🇦🇺
-``:AW:``     🇦🇼
-``:AX:``     🇦🇽
-``:AZ:``     🇦🇿
-``:BA:``     🇧🇦
-``:BB:``     🇧🇧
-``:BD:``     🇧🇩
-``:BE:``     🇧🇪
-``:BF:``     🇧🇫
-``:BG:``     🇧🇬
-``:BH:``     🇧🇭
-``:BI:``     🇧🇮
-``:BJ:``     🇧🇯
-``:BL:``     🇧🇱
-``:BM:``     🇧🇲
-``:BN:``     🇧🇳
-``:BO:``     🇧🇴
-``:BQ:``     🇧🇶
-``:BR:``     🇧🇷
-``:BS:``     🇧🇸
-``:BT:``     🇧🇹
-``:BV:``     🇧🇻
-``:BW:``     🇧🇼
-``:BY:``     🇧🇾
-``:BZ:``     🇧🇿
-``:CA:``     🇨🇦
-``:CC:``     🇨🇨
-``:CD:``     🇨🇩
-``:CF:``     🇨🇫
-``:CG:``     🇨🇬
-``:CH:``     🇨🇭
-``:CI:``     🇨🇮
-``:CK:``     🇨🇰
-``:CL:``     🇨🇱
-``:CM:``     🇨🇲
-``:CN:``     🇨🇳
-``:CO:``     🇨🇴
-``:CP:``     🇨🇵
-``:CR:``     🇨🇷
-``:CU:``     🇨🇺
-``:CV:``     🇨🇻
-``:CW:``     🇨🇼
-``:CX:``     🇨🇽
-``:CY:``     🇨🇾
-``:CZ:``     🇨🇿
-``:DE:``     🇩🇪
-``:DG:``     🇩🇬
-``:DJ:``     🇩🇯
-``:DK:``     🇩🇰
-``:DM:``     🇩🇲
-``:DO:``     🇩🇴
-``:DZ:``     🇩🇿
-``:EA:``     🇪🇦
-``:EC:``     🇪🇨
-``:EE:``     🇪🇪
-``:EG:``     🇪🇬
-``:EH:``     🇪🇭
-``:ER:``     🇪🇷
-``:ES:``     🇪🇸
-``:ET:``     🇪🇹
-``:EU:``     🇪🇺
-``:FI:``     🇫🇮
-``:FJ:``     🇫🇯
-``:FK:``     🇫🇰
-``:FM:``     🇫🇲
-``:FO:``     🇫🇴
-``:FR:``     🇫🇷
-``:GA:``     🇬🇦
-``:GB:``     🇬🇧
-``:GD:``     🇬🇩
-``:GE:``     🇬🇪
-``:GF:``     🇬🇫
-``:GG:``     🇬🇬
-``:GH:``     🇬🇭
-``:GI:``     🇬🇮
-``:GL:``     🇬🇱
-``:GM:``     🇬🇲
-``:GN:``     🇬🇳
-``:GP:``     🇬🇵
-``:GQ:``     🇬🇶
-``:GR:``     🇬🇷
-``:GS:``     🇬🇸
-``:GT:``     🇬🇹
-``:GU:``     🇬🇺
-``:GW:``     🇬🇼
-``:GY:``     🇬🇾
-``:HK:``     🇭🇰
-``:HM:``     🇭🇲
-``:HN:``     🇭🇳
-``:HR:``     🇭🇷
-``:HT:``     🇭🇹
-``:HU:``     🇭🇺
-``:IC:``     🇮🇨
-``:ID:``     🇮🇩
-``:IE:``     🇮🇪
-``:IL:``     🇮🇱
-``:IM:``     🇮🇲
-``:IN:``     🇮🇳
-``:IO:``     🇮🇴
-``:IQ:``     🇮🇶
-``:IR:``     🇮🇷
-``:IS:``     🇮🇸
-``:IT:``     🇮🇹
-``:JE:``     🇯🇪
-``:JM:``     🇯🇲
-``:JO:``     🇯🇴
-``:JP:``     🇯🇵
-``:KE:``     🇰🇪
-``:KG:``     🇰🇬
-``:KH:``     🇰🇭
-``:KI:``     🇰🇮
-``:KM:``     🇰🇲
-``:KN:``     🇰🇳
-``:KP:``     🇰🇵
-``:KR:``     🇰🇷
-``:KW:``     🇰🇼
-``:KY:``     🇰🇾
-``:KZ:``     🇰🇿
-``:LA:``     🇱🇦
-``:LB:``     🇱🇧
-``:LC:``     🇱🇨
-``:LI:``     🇱🇮
-``:LK:``     🇱🇰
-``:LR:``     🇱🇷
-``:LS:``     🇱🇸
-``:LT:``     🇱🇹
-``:LU:``     🇱🇺
-``:LV:``     🇱🇻
-``:LY:``     🇱🇾
-``:MA:``     🇲🇦
-``:MC:``     🇲🇨
-``:MD:``     🇲🇩
-``:ME:``     🇲🇪
-``:MF:``     🇲🇫
-``:MG:``     🇲🇬
-``:MH:``     🇲🇭
-``:MK:``     🇲🇰
-``:ML:``     🇲🇱
-``:MM:``     🇲🇲
-``:MN:``     🇲🇳
-``:MO:``     🇲🇴
-``:MP:``     🇲🇵
-``:MQ:``     🇲🇶
-``:MR:``     🇲🇷
-``:MS:``     🇲🇸
-``:MT:``     🇲🇹
-``:MU:``     🇲🇺
-``:MV:``     🇲🇻
-``:MW:``     🇲🇼
-``:MX:``     🇲🇽
-``:MY:``     🇲🇾
-``:MZ:``     🇲🇿
-``:NA:``     🇳🇦
-``:NC:``     🇳🇨
-``:NE:``     🇳🇪
-``:NF:``     🇳🇫
-``:NG:``     🇳🇬
-``:NI:``     🇳🇮
-``:NL:``     🇳🇱
-``:NO:``     🇳🇴
-``:NP:``     🇳🇵
-``:NR:``     🇳🇷
-``:NU:``     🇳🇺
-``:NZ:``     🇳🇿
-``:OM:``     🇴🇲
-``:PA:``     🇵🇦
-``:PE:``     🇵🇪
-``:PF:``     🇵🇫
-``:PG:``     🇵🇬
-``:PH:``     🇵🇭
-``:PK:``     🇵🇰
-``:PL:``     🇵🇱
-``:PM:``     🇵🇲
-``:PN:``     🇵🇳
-``:PR:``     🇵🇷
-``:PS:``     🇵🇸
-``:PT:``     🇵🇹
-``:PW:``     🇵🇼
-``:PY:``     🇵🇾
-``:QA:``     🇶🇦
-``:RE:``     🇷🇪
-``:RO:``     🇷🇴
-``:RS:``     🇷🇸
-``:RU:``     🇷🇺
-``:RW:``     🇷🇼
-``:SA:``     🇸🇦
-``:SB:``     🇸🇧
-``:SC:``     🇸🇨
-``:SD:``     🇸🇩
-``:SE:``     🇸🇪
-``:SG:``     🇸🇬
-``:SH:``     🇸🇭
-``:SI:``     🇸🇮
-``:SJ:``     🇸🇯
-``:SK:``     🇸🇰
-``:SL:``     🇸🇱
-``:SM:``     🇸🇲
-``:SN:``     🇸🇳
-``:SO:``     🇸🇴
-``:SR:``     🇸🇷
-``:SS:``     🇸🇸
-``:ST:``     🇸🇹
-``:SV:``     🇸🇻
-``:SX:``     🇸🇽
-``:SY:``     🇸🇾
-``:SZ:``     🇸🇿
-``:TA:``     🇹🇦
-``:TC:``     🇹🇨
-``:TD:``     🇹🇩
-``:TF:``     🇹🇫
-``:TG:``     🇹🇬
-``:TH:``     🇹🇭
-``:TJ:``     🇹🇯
-``:TK:``     🇹🇰
-``:TL:``     🇹🇱
-``:TM:``     🇹🇲
-``:TN:``     🇹🇳
-``:TO:``     🇹🇴
-``:TR:``     🇹🇷
-``:TT:``     🇹🇹
-``:TV:``     🇹🇻
-``:TW:``     🇹🇼
-``:TZ:``     🇹🇿
-``:UA:``     🇺🇦
-``:UG:``     🇺🇬
-``:UM:``     🇺🇲
-``:US:``     🇺🇸
-``:UY:``     🇺🇾
-``:UZ:``     🇺🇿
-``:VA:``     🇻🇦
-``:VC:``     🇻🇨
-``:VE:``     🇻🇪
-``:VG:``     🇻🇬
-``:VI:``     🇻🇮
-``:VN:``     🇻🇳
-``:VU:``     🇻🇺
-``:WF:``     🇼🇫
-``:WS:``     🇼🇸
-``:XK:``     🇽🇰
-``:YE:``     🇾🇪
-``:YT:``     🇾🇹
-``:ZA:``     🇿🇦
-``:ZM:``     🇿🇲
-``:ZW:``     🇿🇼
-========    ========
+``'status'`` is defined in :data:`STATUS`. For example ``2`` corresponds
+to ``'fully_qualified'``. More information on the meaning can be found in the
+Unicode Standard http://www.unicode.org/reports/tr51/#Emoji_Variation_Selector_Notes
 
 
-Subregional flags
-=================
+Replacing and removing emoji
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The only widely supported subregional flags are currently: England, Scotland and Wales (as of iOS 12 and Android 9).
+With :func:`replace_emoji` you can replace, filter, escape or remove emoji in a string:
 
-============        ========
-Code                Emoji
-============        ========
-``:gb-sct:``         🏴󠁧󠁢󠁳󠁣󠁴󠁿
-``:gb-wls:``         🏴󠁧󠁢󠁷󠁬󠁳󠁿
-``:gb-eng:``         🏴󠁧󠁢󠁥󠁮󠁧󠁿
-``:us-tx:``          🏴󠁵󠁳󠁴󠁸󠁿
-============        ========
+.. code-block:: python
 
-| WhatsApp offers one other state flag: Texas.
-| If you use WhatsApp's emoji panel to select the Texas flag, WhatsApp uses 🇽🇹 i.e. `flagize(":XT:")` for Texas. This code "XT" is specified by Unicode as "excluded" meaning it is explicitly for private use and can be defined by anyone. Therefore, it is likely not displayed as the Texas flag on other platforms.
-| But WhatsApp also recognizes the flag emoji tag sequence `flagize(":us-tx:", subregions=True)` and displays the same flag.
+    >>> emoji.replace_emoji('Python is 👍', replace='')
+    'Python is '
+
+    >>> emoji.replace_emoji('Python is 👍', replace='👎')
+    'Python is 👎'
+
+    >>> def unicode_escape(chars, data_dict):
+    >>>     return chars.encode('unicode-escape').decode()
+    >>> emoji.replace_emoji('Python is 👍', replace=unicode_escape)
+    'Python is \U0001f44d'
+
+    >>> def xml_escape(chars, data_dict):
+    >>>     return chars.encode('ascii', 'xmlcharrefreplace').decode()
+    >>> emoji.replace_emoji('Python is 👍', replace=xml_escape)
+    'Python is &#128077;'
+
+    >>> emoji.replace_emoji('Python is 👍', replace=lambda chars, data_dict: chars.encode('ascii', 'namereplace').decode())
+    'Python is \N{THUMBS UP SIGN}'
+
+    >>> emoji.replace_emoji('Python is 👍', replace=lambda chars, data_dict: data_dict['es'])
+    'Python is :pulgar_hacia_arriba:'
+
+..
+
+Emoji versions
+^^^^^^^^^^^^^^
+
+The parameter ``version`` in :func:`replace_emoji` allows to replace only emoji above
+that :ref:`Emoji version <Emoji version>` to prevent incompatibility with older platforms.
+
+For the functions :func:`emojize` and :func:`demojize` the parameter ``version`` will
+replace emoji above the specified version with the value of the parameter ``handle_version``.
+It defaults to an empty string, but can be set to any string or a function that returns a string.
+
+For example the ``:croissant:`` 🥐 emoji was added in Emoji 3.0 (Unicode 9.0) in 2016 and
+``:T-Rex:`` 🦖 was added later in Emoji 5.0 (Unicode 10.0) in 2017:
+
+.. doctest::
+
+    >>> emoji.replace_emoji('A 🦖 is eating a 🥐', replace='[Unsupported emoji]', version=1.0)
+    'A [Unsupported emoji] is eating a [Unsupported emoji]'
+
+    >>> emoji.replace_emoji('A 🦖 is eating a 🥐', replace=lambda chars, data_dict: data_dict['en'], version=3.0)
+    'A :T-Rex: is eating a 🥐'
+
+    >>> emoji.emojize('A :T-Rex: is eating a :croissant:', version=3.0)
+    'A  is eating a 🥐'
+
+    >>> emoji.emojize('A :T-Rex: is eating a :croissant:', version=3.0, handle_version='[Unsupported emoji]')
+    'A [Unsupported emoji] is eating a 🥐'
+
+    >>> emoji.demojize('A 🦖 is eating a 🥐', version=3.0)
+    'A  is eating a :croissant:'
+
+    >>> emoji.replace_emoji('A 🦖 is eating a 🥐', replace='', version=5.0)
+    'A 🦖 is eating a 🥐'
+
+..
+
+You can find the version of an emoji with :func:`version`:
+
+.. doctest::
+
+    >>> emoji.version('🥐')
+    3
+    >>> emoji.version('🏌️‍♀️')
+    4
+    >>> emoji.version('🦖')
+    5
+..
 
 
-How subregional flags work
-==========================
+Migrating to version 2.0.0
+--------------------------
 
-They work very similar to the country flags. The ASCII codes are transformed by replacing them with specific codepoints that are called "tags".
+There a two major, breaking changes in version 2.0.0
 
-| The basic format for a tag flag is:
-| ``black_flag_emoji`` followed by ``region_code_in_tag`` followed by ``cancel_tag``
+non-English short codes
+^^^^^^^^^^^^^^^^^^^^^^^
 
-.. Note::
+The names of emoji in non-English languages have changed, because the data files were updated to
+the new version 41. See https://cldr.unicode.org/index/downloads.
 
-    :``black_flag_emoji``:    U+1F3F4 ( 🏴 )
-    :``cancel_tag``:    U+E007F (invisible, signifies the end of the flag code)
-    :``region_code_in_tag``:
-        It is formed using the abbreviation defined in `ISO 3166-2 <https://en.wikipedia.org/wiki/ISO_3166-2:GB#Countries_and_province>`_ and adding 0xE0000 to every ASCII value of the code.
-        For example England is GB-ENG.
+That means some ``:short-code-emoji:`` with non-English names will no longer work in 2.0.0.
+:func:`emojize` will ignore the old codes.
 
-        A full list of valid codes can be found here: `github.com/unicode-org/.../subdivisions/en.xml <https://github.com/unicode-org/cldr/blob/master/common/subdivisions/en.xml>`_
+This may be a problem if you have previously stored ``:short-code-emoji:`` with non-English names
+for example in a database or if your users have stored them.
 
-        It's also possible to use a 3-digit-code from `github.com/unicode-org/.../UnMacroRegions.txt <https://github.com/unicode-org/cldr/blob/master/tools/java/org/unicode/cldr/util/data/UnMacroRegions.txt>`_
+Regular expression
+^^^^^^^^^^^^^^^^^^
+
+The function ``get_emoji_regexp()`` was removed in 2.0.0. Internally the module no longer uses
+a regular expression when scanning for emoji in a string (e.g. in :func:`demojize`).
+
+The regular expression was slow in Python 3 and it failed to correctly find certain combinations
+of long emoji (emoji consisting of multiple unicode codepoints).
+
+If you used the regular expression to remove emoji from strings, you can use :func:`replace_emoji`
+as shown in the examples above.
+
+If you want to extract emoji from strings, you can use :func:`emoji_list` as a replacement.
+
+If you want to keep using a regular expression despite its problems, you can create the
+expression yourself like this:
+
+.. testcode::
+
+    import re
+    import emoji
+
+    def get_emoji_regexp():
+        # Sort emoji by length to make sure multi-character emojis are
+        # matched first
+        emojis = sorted(emoji.EMOJI_DATA, key=len, reverse=True)
+        pattern = u'(' + u'|'.join(re.escape(u) for u in emojis) + u')'
+        return re.compile(pattern)
+
+    exp = get_emoji_regexp()
+    print(exp.sub(repl='[emoji]', string=u'A 🏌️‍♀️ is eating a 🥐'))
+..
+
+Output:
+
+.. testoutput::
+
+    A [emoji] is eating a [emoji]
+
+..
 
 
-Example:
---------
-| England is ``GB-ENG`` in ISO 3166-2.
-| We drop the hyphen and make it lowercase to get ``gbeng``.
-| To transform this to "tags", we need to add the value 0xE0000 = 917504 to every unicode value of ``gbeng``:
+Common problems
+---------------
 
-| ``g`` is unicode 0x67 or decimal 103, so 103 + 917504 = 917607 or 0xE0067
-| ``b`` is 0x62 and becomes 0xE0062
-| ``e`` is 0x65 and becomes 0xE0065
-| ``n`` is 0x6E and becomes 0xE006E
-| ``g`` is 0x67 and becomes 0xE0067
+.. code-block::
 
-Together it's:
+    UnicodeWarning: Unicode unequal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
 
-.. code-block:: none
+..
 
-                          g        b        e        n        g
-    ASCII:                0x67     0x62     0x65     0x6E     0x67
-    Tags:   0x1F3F4    0xE0067  0xE0062  0xE0065  0xE006E  0xE0067  0xE007F
-            black_flag                                             cancel_tag
+This exception is thrown in Python 2.7 if you passed a ``str`` string instead of a
+``unicode`` string.
+You should only pass unicode strings to this module.
 
-Unlike the regional indicator symbols, tags are not rendered on incompatible system, they will simply be invisible and have no width.
-So, if the particular flag is not supported or if tag flags are not supported at all, the only visible character will be a black flag.
+See https://python.readthedocs.io/en/v2.7.2/howto/unicode.html#the-unicode-type for more
+information on Unicode in Python 2.7.
+
+
+The API documentation
+---------------------
+
+Reference documentation of all functions and properties in the module:
+
+.. toctree::
+   :titlesonly:
+
+   api
+
++--------------------------------------------------------------------------------------------+
+| API Reference                                                                              |
++=============================+==============================================================+
+| **Functions:**              |                                                              |
++-----------------------------+--------------------------------------------------------------+
+| :func:`emojize`             | Replace emoji names with unicode codes                       |
++-----------------------------+--------------------------------------------------------------+
+| :func:`demojize`            | Replace unicode emoji with emoji shortcodes                  |
++-----------------------------+--------------------------------------------------------------+
+| :func:`replace_emoji`       | Replace unicode emoji with a customizable string             |
++-----------------------------+--------------------------------------------------------------+
+| :func:`emoji_list`          | Location of all emoji in a string                            |
++-----------------------------+--------------------------------------------------------------+
+| :func:`distinct_emoji_list` | Distinct list of emojis in the string                        |
++-----------------------------+--------------------------------------------------------------+
+| :func:`emoji_count`         | Number of emojis in a string                                 |
++-----------------------------+--------------------------------------------------------------+
+| :func:`is_emoji`            | Check if a string/character is a single emoji                |
++-----------------------------+--------------------------------------------------------------+
+| :func:`version`             | Find Unicode/Emoji version of an emoji                       |
++-----------------------------+--------------------------------------------------------------+
+| :func:`get_emoji_regexp`    | Returns compiled regular expression that matches all emojis  |
++-----------------------------+--------------------------------------------------------------+
+| **Module variables:**       |                                                              |
++-----------------------------+--------------------------------------------------------------+
+| :data:`EMOJI_DATA`          | Dict of all emoji                                            |
++-----------------------------+--------------------------------------------------------------+
+| :data:`STATUS`              | Dict of Unicode/Emoji status                                 |
++-----------------------------+--------------------------------------------------------------+
+
+
+Links
+=====
+
+**Overview of all emoji:**
+
+`https://carpedm20.github.io/emoji/ <https://carpedm20.github.io/emoji/>`__
+
+(auto-generated list of the emoji that are supported by the current version of this package)
+
+**For English:**
+
+`Emoji Cheat Sheet <https://www.webfx.com/tools/emoji-cheat-sheet/>`__
+
+`Official unicode list <http://www.unicode.org/emoji/charts/full-emoji-list.html>`__
+
+**For Spanish:**
+
+`Unicode list <https://emojiterra.com/es/lista-es/>`__
+
+**For Portuguese:**
+
+`Unicode list <https://emojiterra.com/pt/lista/>`__
+
+**For Italian:**
+
+`Unicode list <https://emojiterra.com/it/lista-it/>`__
+
+**For French:**
+
+`Unicode list <https://emojiterra.com/fr/liste-fr/>`__
+
+**For German:**
+
+`Unicode list <https://emojiterra.com/de/liste/>`__
+
 
 
 Indices and tables
 ==================
 
+.. toctree::
+   :maxdepth: 2
+
+   install
+
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
