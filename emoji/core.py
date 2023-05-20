@@ -10,7 +10,7 @@ Core components for emoji.
 """
 
 import re
-from typing import NamedTuple
+from typing import NamedTuple, Union
 
 from emoji import unicode_codes
 
@@ -163,7 +163,7 @@ class EmojiMatch:
 
     __slots__ = ('emoji', 'start', 'end', 'data')
 
-    def __init__(self, emoji, start, end, data):
+    def __init__(self, emoji: str, start: int, end: int, data: Union[dict, None]):
         self.emoji = emoji
         self.start = start
         self.end = end
@@ -194,7 +194,7 @@ class EmojiMatchNonRGI(EmojiMatch):
     """
     __slots__ = ('emojis',)
 
-    def __init__(self, first_emoji_match, second_emoji_match):
+    def __init__(self, first_emoji_match: EmojiMatch, second_emoji_match: EmojiMatch):
         self.emojis = [first_emoji_match, second_emoji_match]
         self._update()
 
@@ -204,7 +204,7 @@ class EmojiMatchNonRGI(EmojiMatch):
         self.end = self.emojis[-1].end
         self.data = None
 
-    def _add(self, next_emoji_match):
+    def _add(self, next_emoji_match: EmojiMatch):
         self.emojis.append(next_emoji_match)
         self._update()
 
@@ -219,7 +219,7 @@ class Token(NamedTuple):
     or a single character that is not a unicode emoji.
     """
     chars: str
-    value: (str | EmojiMatch)
+    value: Union[str, EmojiMatch]
 
 
 def _analyze(string, keep_zwj):
