@@ -45,4 +45,4 @@ jobs:
     - name: Install tox
       run: python -Im pip install pytest
     - name: Run tox on wheel
-      run: python -Im pytest
+      run: python -Im tox run --installpkg dist/*.whl
