@@ -43,6 +43,6 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     - name: Install tox
-      run: python -Im pip install tox
+      run: python -Im pip install pytest
     - name: Run tox on wheel
-      run: python -Im tox run --installpkg dist/*.whl
+      run: python -Im pytest
