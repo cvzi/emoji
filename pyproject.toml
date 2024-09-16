@@ -83,16 +83,6 @@ ignore = ["Q000", "Q003"]
 [tool.tox]
 legacy_tox_ini = """
     [tox]
-    env_list =
-        py37
-        py38
-        py39
-        py310
-        py311
-        py312
-        py313
-        pypy3s
-
     minversion = 4.15.0
 
     [testenv]
