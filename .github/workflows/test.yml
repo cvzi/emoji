@@ -51,7 +51,7 @@ jobs:
       run: python -Im pip install dist/*.whl
     - name: pip freeze
       run: python -Im pip freeze
-    - name: ls
-      run: ls
+    - name: wget
+      run: wget https://raw.githubusercontent.com/cvzi/emoji/refs/heads/test_no_typing_ext/x.py
     - name: run test
-      run: python -I ../x.py
+      run: python -I x.py
