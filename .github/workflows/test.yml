@@ -43,8 +43,6 @@ jobs:
         path: dist
     - name: Extract source tarball
       run: tar xf dist/*.tar.gz --strip-components=1
-    - name: Remove source code
-      run: rm -R emoji
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
@@ -53,5 +51,7 @@ jobs:
       run: python -Im pip install dist/*.whl
     - name: pip freeze
       run: python -Im pip freeze
+    - name: ls
+      run: ls
     - name: run test
       run: python -I ../x.py
