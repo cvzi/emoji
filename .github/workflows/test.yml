@@ -54,4 +54,4 @@ jobs:
     - name: pip freeze
       run: python -Im pip freeze
     - name: run test
-      run: python -I x.py
+      run: python -I ../x.py
