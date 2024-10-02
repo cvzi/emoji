@@ -90,6 +90,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         (emj, item)
         for emj, item in emoji.EMOJI_DATA.items()
         if item['status'] == emoji.STATUS['fully_qualified']
+        and 'tone' in item['en']
     ]
 
     # qualified emoji

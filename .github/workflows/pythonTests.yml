@@ -32,5 +32,5 @@ jobs:
       run: |
         python -m pip install .[dev]
     - name: Run long test
-      run: python tests/test_error.py
+      run: python -m pytest
 

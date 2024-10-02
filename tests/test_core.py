@@ -659,8 +659,10 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 def test_text_multiple_times(load_all_languages: Any):
     # Run test_text() multiple times because it relies on a random text
-    for _ in range(100):
+    for i in range(10000):
         test_text(load_all_languages)
+        if i % 10 == 0:
+            print(f"test_text_multiple_time N° {i}")
 
 
 def test_invalid_chars():
