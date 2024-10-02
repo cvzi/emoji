@@ -23,8 +23,8 @@ def load_all_languages():
 
 
 def test_text(load_all_languages):  # type:ignore
-    emoji.config.demojize_keep_zwj = False  # Restore default config value
-    emoji.config.replace_emoji_keep_zwj = False  # Restore default config value
+    emoji.config.demojize_keep_zwj = True  # Restore default config value
+    emoji.config.replace_emoji_keep_zwj = False # Restore default config value
 
     UCS2 = len('Hello 🇫🇷👌') > 9  # don't break up characters on python with UCS-2
 
