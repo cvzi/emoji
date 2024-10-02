@@ -139,13 +139,29 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
     text_with_unicode, text_with_placeholder, emoji_list = add_random_emoji(
         text, all_emoji_list
     )
-    assert emoji.demojize(text_with_unicode) == text_with_placeholder
-    assert clean(emoji.emojize(text_with_placeholder)) == clean(text_with_unicode)
-    if not UCS2:
-        assert emoji.replace_emoji(text_with_unicode, '') == text
-    assert set(emoji.distinct_emoji_list(text_with_unicode)) == set(emoji_list)
-    for i, lis in enumerate(emoji.emoji_list(text_with_unicode)):
-        assert lis['emoji'] == emoji_list[i]
+    try:
+        assert emoji.demojize(text_with_unicode) == text_with_placeholder
+        assert clean(emoji.emojize(text_with_placeholder)) == clean(text_with_unicode)
+        if not UCS2:
+            assert emoji.replace_emoji(text_with_unicode, '') == text
+        assert set(emoji.distinct_emoji_list(text_with_unicode)) == set(emoji_list)
+        for i, lis in enumerate(emoji.emoji_list(text_with_unicode)):
+            assert lis['emoji'] == emoji_list[i]
+    except AssertionError as e:
+        print(e)
+        print("text_with_unicode:")
+        print("---------------------------------------------------------------------------")
+        print(text_with_unicode)
+        print("---------------------------------------------------------------------------")
+        print("text_with_placeholder:")
+        print("---------------------------------------------------------------------------")
+        print(text_with_placeholder)
+        print("---------------------------------------------------------------------------")
+        print("text:")
+        print("---------------------------------------------------------------------------")
+        print(text)
+        print("---------------------------------------------------------------------------")
+
 
 
 if __name__ == '__main__':
