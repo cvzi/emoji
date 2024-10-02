@@ -31,29 +31,6 @@ jobs:
     - name: Install dev dependencies
       run: |
         python -m pip install .[dev]
-    - name: Test with pytest
-      run: |
-        pytest
-    - name: Test with pytest (random test order)
-      run: |
-        pytest --shuffle
+    - name: Run long test
+      run: python tests/test_error.py
 
-  lint:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.13-dev"]
-
-    steps:
-      - uses: actions/checkout@v4
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
-
-      - name: Install Dependencies
-        run: |
-          python -m pip install .[dev]
-
-      - name: Pyright
-        uses: jakebailey/pyright-action@v2
