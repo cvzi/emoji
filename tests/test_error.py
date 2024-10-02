@@ -1,5 +1,8 @@
-from typing import Dict, Any, List, Tuple, Callable, Union, Literal
 import sys
+if sys.version_info < (3, 9):
+    from typing_extensions import Literal  # type: ignore
+else:
+    from typing import Literal
 import random
 from pathlib import Path
 
