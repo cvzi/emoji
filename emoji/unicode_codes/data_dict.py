@@ -1,7 +1,7 @@
 """Data containing all current emoji
 Extracted from https://unicode.org/Public/emoji/latest/emoji-test.txt
 and https://www.unicode.org/Public/UCD/latest/ucd/emoji/emoji-variation-sequences.txt
-See utils/get_codes_from_unicode_emoji_data_files.py
+See utils/generate_emoji.py
 
 +----------------+-------------+------------------+-------------------+
 | Emoji Version  |    Date     | Unicode Version  | Data File Comment |
