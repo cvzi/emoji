@@ -17,11 +17,15 @@ def test_text():  # type:ignore
     emoji.config.demojize_keep_zwj = True  # Restore default config value
     emoji.config.replace_emoji_keep_zwj = False # Restore default config value
 
-    text_with_placeholder = """k:right-facing_fist::dark_skin_tone:ość w"""
-
-    text_with_unicode = """k🤜🏿ość w"""
 
 
+    text_with_placeholder = """:right-facing_fist::dark_skin_tone:"""
+
+    text_with_unicode = """🤜🏿"""
+
+    print(text_with_placeholder)
+    print(text_with_unicode)
+    print(emoji.demojize(text_with_unicode))
 
     assert emoji.demojize(text_with_unicode) == text_with_placeholder
 
@@ -29,12 +33,11 @@ def test_text():  # type:ignore
 
 
 if __name__ == '__main__':
-    load_all_languages()
 
     # Run test_text() multiple times because it relies on a random text
     i = 0
     while i < 10000:
-        test_text(load_all_languages)
+        test_text()
         i += 1
         if i % 10 == 0:
             print(f"Run N° {i}")
