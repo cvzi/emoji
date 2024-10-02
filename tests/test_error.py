@@ -161,6 +161,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         print("---------------------------------------------------------------------------")
         print(text)
         print("---------------------------------------------------------------------------")
+        raise e
 
 
 
