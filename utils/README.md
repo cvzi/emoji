@@ -56,7 +56,7 @@ languages = {
 If you run the script, the JSON files in the directory `emoji/unicode_codes/` are replaced with the new files.
 
 ```sh
-python -m pip install -r requirements.txt
+python -m pip install -r utils/requirements.txt
 python utils/generate_emoji.py
 python utils/generate_emoji_translations.py
 ```
