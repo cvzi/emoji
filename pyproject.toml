@@ -26,6 +26,7 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Programming Language :: Python",
@@ -42,7 +43,7 @@ homepage = "https://github.com/carpedm20/emoji/"
 repository = "https://github.com/carpedm20/emoji/"
 
 [project.optional-dependencies]
-dev = ["pytest>=7.4.4", "coverage"]
+dev = ["pytest>=7.4.4", "coverage", "tox"]
 
 [tool.setuptools.packages.find]
 include = ["emoji*"]
