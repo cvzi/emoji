@@ -1,14 +1,9 @@
-from typing import Generator, Dict, Any, Tuple, Iterable
-import sys
+from typing import Generator, Dict, Any, Tuple, Iterable, Literal
 import unicodedata
 
 import pytest
-if sys.version_info < (3, 9):
-    from typing_extensions import Literal  # type: ignore
-else:
-    from typing import Literal
 
-import emoji.unicode_codes
+import emoji
 
 _NormalizationForm = Literal['NFC', 'NFD', 'NFKC', 'NFKD']
 
@@ -33,10 +28,7 @@ def normalize(form: _NormalizationForm, s: str) -> str:
 
 
 def is_normalized(form: _NormalizationForm, s: str) -> bool:
-    if sys.version_info >= (3, 8):
-        return unicodedata.is_normalized(form, s)
-    else:
-        return normalize(form, s) == s
+    return unicodedata.is_normalized(form, s)
 
 
 _EMOJI_UNICODE: Dict[str, Any] = {

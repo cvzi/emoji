@@ -2,15 +2,12 @@
 
 import random
 import re
-import sys
 
-from typing import Any, Callable, Dict, List, Tuple, Union
-if sys.version_info < (3, 9):
-    from typing_extensions import Literal  # type: ignore
-else:
-    from typing import Literal
+from typing import Any, Callable, Dict, List, Literal, Tuple, Union
 import pytest
-import emoji.unicode_codes
+
+import emoji
+
 from testutils import (
     ascii,
     normalize,

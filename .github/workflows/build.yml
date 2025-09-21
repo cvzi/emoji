@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -27,14 +27,17 @@ jobs:
       max-parallel: 4
       matrix:
         python-version:
+            - "3.8"
+            - "3.9"
             - "3.10"
             - "3.11"
             - "3.12"
-            - "3.13-dev"
+            - "3.13"
+            - "3.14-dev"
     steps:
 
     - name: Download pre-built packages
-      uses: actions/download-artifact@v4
+      uses: actions/download-artifact@v5
       with:
         name: Packages
         path: dist
@@ -43,10 +46,18 @@ jobs:
     - name: Remove source code
       run: rm -R emoji
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: ${{ matrix.python-version }}
-    - name: Install tox
+    - name: Install tox (for Python < 3.10)
+      if: ${{ !(startsWith(matrix.python-version, '3.8') || startsWith(matrix.python-version, '3.9')) }}
       run: python -Im pip install tox
-    - name: Run tox on wheel
-      run: python -Im tox run --installpkg dist/*.whl
+    - name: Run tox on wheel (for Python < 3.10)
+      if: ${{ !(startsWith(matrix.python-version, '3.8') || startsWith(matrix.python-version, '3.9')) }}
+      run: python -Im tox run --conf pyproject.toml --installpkg dist/*.whl
+    - name: Install wheel
+      run: python -Im pip install dist/*.whl
+    - name: Install pytest
+      run: python -Im pip install pytest
+    - name: Test with pytest (if tox not used)
+      run: python -Im pytest

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "emoji"
 description = "Emoji for Python"
 readme = "README.rst"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 authors = [
     { name = "Taehoon Kim", email = "carpedm20@gmail.com" },
     { name = "Kevin Wurster", email = "wursterk@gmail.com" },
@@ -19,13 +19,13 @@ classifiers = [
     "License :: OSI Approved :: BSD License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Programming Language :: Python",
@@ -34,7 +34,6 @@ classifiers = [
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Typing :: Typed",
 ]
-dependencies = ["typing_extensions >= 4.7.0; python_version < '3.9'"]
 dynamic = ["version"]
 
 [project.urls]
@@ -58,7 +57,7 @@ pythonpath = [".", "utils"]
 testpaths = ["tests"]
 
 [tool.pyright]
-pythonVersion = "3.7"
+pythonVersion = "3.8"
 pythonPlatform = "All"
 typeCheckingMode = "strict"
 extraPaths = ["utils"]
@@ -90,7 +89,8 @@ ignore = ["Q000", "Q003"]
 [tool.tox]
 legacy_tox_ini = """
     [tox]
-    minversion = 4.15.0
+    minversion = 4.30.0
+
 
     [testenv]
     description = Run the tests with pytest

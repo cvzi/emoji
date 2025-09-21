@@ -26,10 +26,10 @@ sys.path.insert(0, include)
 import emoji as emoji_pkg  # noqa: E402
 
 
-def get_emoji_from_url(version: float) -> List[str]:
+def get_emoji_from_url(version: str) -> List[str]:
     """Get splitlines of emojis list from unicode.org"""
 
-    url = f'https://unicode.org/Public/emoji/{version}/emoji-test.txt'
+    url = f'https://unicode.org/Public/{version}/emoji/emoji-test.txt'
     return get_text_from_url(url).splitlines()
 
 
@@ -278,8 +278,8 @@ if __name__ == '__main__':
     logging.info('  Downloading...\n')
 
     # Find the latest version at https://www.unicode.org/reports/tr51/#emoji_data
-    emoji_source = get_emoji_from_url(16.0)
-    emoji_sequences_source = get_emoji_variation_sequence_from_url('16.0.0')
+    emoji_source = get_emoji_from_url('17.0.0')
+    emoji_sequences_source = get_emoji_variation_sequence_from_url('17.0.0')
     emojis = extract_emojis(emoji_source, emoji_sequences_source)
 
     github_alias_dict = get_emoji_from_github_api('https://api.github.com/emojis')

@@ -2,7 +2,7 @@
 
 from typing import Any, Dict, List
 import pytest
-import emoji.unicode_codes
+import emoji
 from testutils import all_language_packs
 
 

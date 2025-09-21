@@ -1,6 +1,10 @@
 emoji
 =====
 
+v2.15.0 (2025-09-20)
+-----
+* Update to Unicode 17.0
+
 v2.14.1 (2025-01-10)
 -----
 * Use `importlib.resources` to load json files #311

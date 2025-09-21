@@ -4,7 +4,7 @@ import json
 from functools import lru_cache
 from warnings import warn
 
-from typing import Any, BinaryIO, Dict, Optional, Set
+from typing import IO, Any, Dict, Optional, Set
 
 from emoji.unicode_codes.data_dict import STATUS, LANGUAGES
 
@@ -76,7 +76,7 @@ Accessing EMOJI_DATA[emj]['{key}'] without loading the language is deprecated.""
 EMOJI_DATA: Dict[str, Dict[str, Any]]
 
 
-def _open_file(name: str) -> BinaryIO:
+def _open_file(name: str) -> IO[bytes]:
     if sys.version_info >= (3, 9):
         return importlib.resources.files('emoji.unicode_codes').joinpath(name).open('rb')
     else:
